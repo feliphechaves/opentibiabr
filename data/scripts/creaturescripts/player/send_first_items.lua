@@ -91,22 +91,30 @@ function sendFirstItems.onLogin(player)
 		return true
 	end
 
+	--[[
 	if targetVocation.items then
 		for i = 1, #targetVocation.items do
 			player:addItem(targetVocation.items[i][1], targetVocation.items[i][2])
 		end
 	end
-
 	local backpack = player:addItem(2854)
 	if not backpack then
 		return true
 	end
-
 	if targetVocation.container then
 		for i = 1, #targetVocation.container do
 			backpack:addItem(targetVocation.container[i][1], targetVocation.container[i][2])
 		end
+		backpack:addItem(3043, 100) --crystal coin
 	end
+	return true
+	]]
+	
+	local bag = player:addItem(8861) --brocade bag
+	if not bag then
+		return true
+	end
+	bag:addItem(3043, 100) --crystal coins
 	return true
 end
 
