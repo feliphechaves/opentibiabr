@@ -143,6 +143,18 @@ SupplyShopConfigTable = {
 		{ itemName = "strong health potion", clientId = 236, buy = 115 },
 		{ itemName = "strong mana potion", clientId = 237, buy = 93 },
 	},
+	["backpacks"] = {
+		{ itemName = "golden backpack", clientId = 2871, buy = 30 },
+		{ itemName = "green backpack", clientId = 2865, buy = 30 },
+		{ itemName = "grey backpack", clientId = 2870, buy = 30 },
+		{ itemName = "old and used backpack", clientId = 3244, buy = 30 },
+		{ itemName = "orange backpack", clientId = 9602, buy = 30 },
+		{ itemName = "purple backpack", clientId = 2868, buy = 30 },
+		{ itemName = "red backpack", clientId = 2867, buy = 30 },
+		{ itemName = "yellow backpack", clientId = 2866, buy = 30 },
+		{ itemName = "expedition backpack", clientId = 10324, buy = 30 },
+	},
+	
 }
 
 SupplyShopConfig = {}
