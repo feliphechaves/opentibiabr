@@ -27,7 +27,6 @@ monster.manaCost = 0
 
 monster.events = {
 	"killingLibrary",
-	"oberonImmune",
 }
 
 monster.changeTarget = {
@@ -62,11 +61,6 @@ monster.flags = {
 monster.light = {
 	level = 0,
 	color = 0,
-}
-
-monster.voices = {
-	interval = 5000,
-	chance = 10,
 }
 
 monster.loot = {
@@ -123,35 +117,39 @@ monster.immunities = {
 }
 
 mType.onThink = function(monster, interval)
-	if monster:getStorageValue(GrandMasterOberonConfig.Storage.Life) <= GrandMasterOberonConfig.AmountLife then
-		local percentageHealth = (monster:getHealth() * 100) / monster:getMaxHealth()
-		if percentageHealth <= 20 then
-			SendOberonAsking(monster)
-		end
+    -- Verifica se Oberon já curou 3 vezes
+    local currentLife = monster:getStorageValue(GrandMasterOberonConfig.Storage.Life)
+    
+    -- Se ainda não atingiu o limite de curas (3 vezes), tenta curar
+    if currentLife < GrandMasterOberonConfig.AmountLife then
+        local percentageHealth = (monster:getHealth() * 100) / monster:getMaxHealth()
+        if percentageHealth <= 20 then
+            monster:unregisterEvent("OberonImmunity")
+            monster:addHealth(monster:getMaxHealth())
+            -- Incrementa o número de curas realizadas
+            monster:setStorageValue(GrandMasterOberonConfig.Storage.Life, currentLife + 1)
+        end
+    end
+
+    -- Depois de 3 curas, Oberon continua lutando até morrer, sem mais curas
+    if currentLife >= GrandMasterOberonConfig.AmountLife then
+        -- Aqui você pode adicionar comportamento de combate (se necessário), como ataques ou habilidades especiais
+        -- Exemplo: monster:doCombat(monster:getTarget(), COMBAT_PHYSICALDAMAGE, 50)  -- Ataque físico básico
+    end
+end
+
+
+mType.onAppear = function(monster, creature)
+	if monster:getId() == creature:getId() then
+		monster:setStorageValue(GrandMasterOberonConfig.Storage.Life, 1)
+	end
+	if monster:getType():isRewardBoss() then
+		monster:setReward(true)
 	end
 end
 
-mType.onSay = function(monster, creature, type, message)
-	if type ~= TALKTYPE_SAY then
-		return false
-	end
-	local exhaust = GrandMasterOberonConfig.Storage.Exhaust
-	if creature:isPlayer() and monster:getStorageValue(exhaust) <= os.time() then
-		message = message:lower()
+mType.onDisappear = function(monster, creature) end
 
-		monster:setStorageValue(exhaust, os.time() + 1)
-		local asking_storage = monster:getStorageValue(GrandMasterOberonConfig.Storage.Asking)
-		local oberonMessagesTable = GrandMasterOberonResponses[asking_storage]
-
-		if oberonMessagesTable then
-			if message == oberonMessagesTable.msg:lower() or message == oberonMessagesTable.msg2:lower() then
-				monster:say("GRRRAAANNGH!", TALKTYPE_MONSTER_SAY)
-				monster:unregisterEvent("OberonImmunity")
-			else
-				monster:say("HAHAHAHA!", TALKTYPE_MONSTER_SAY)
-			end
-		end
-	end
-end
+mType.onMove = function(monster, creature, fromPosition, toPosition) end
 
 mType:register(monster)

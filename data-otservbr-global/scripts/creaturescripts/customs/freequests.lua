@@ -352,6 +352,8 @@ local questTable = {
 
 	{ storageName = "TheSecretLibrary.FalconBastion.KillingBosses", storage = Storage.Quest.U11_80.TheSecretLibrary.FalconBastion.KillingBosses, storageValue = 5 },
 	
+	{ storageName = "TheSecretLibrary.Asuras.FlammingOrchid", storage = Storage.Quest.U11_80.TheSecretLibrary.Asuras.FlammingOrchid, storageValue = 1 },
+	{ storageName = "TheSecretLibrary.Asuras.Questline", storage = Storage.Quest.U11_80.TheSecretLibrary.Asuras.Questline, storageValue = 1 },
 
 }
 
