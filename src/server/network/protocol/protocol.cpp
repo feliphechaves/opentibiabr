@@ -211,12 +211,12 @@ bool Protocol::XTEA_decrypt(NetworkMessage &msg) const {
 	XTEA_transform(buffer, messageLength, false);
 
 	uint8_t paddingSize = msg.getByte();
-	uint16_t innerLength = messageLength - paddingSize;
-	if (innerLength + paddingSize > msgLength) {
+	if (std::cmp_greater(paddingSize, msgLength - 1)) {
 		return false;
 	}
 
-	msg.setLength(innerLength);
+	g_logger().warn("length header {}", msg.getLengthHeader());
+	msg.setLength(paddingSize);
 	return true;
 }
 
