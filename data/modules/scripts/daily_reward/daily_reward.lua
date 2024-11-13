@@ -74,7 +74,7 @@ local DailyRewardItems = {
 }
 
 DailyReward = {
-	testMode = false,
+	testMode = true,
 	serverTimeThreshold = (25 * 60 * 60), -- Counting down 24hours from last server save
 
 	storages = {
@@ -265,8 +265,8 @@ DailyReward.pickedReward = function(playerId)
 	else
 		player:setDayStreak(0)
 	end
-
-	player:setStreakLevel(player:getStreakLevel() + 1)
+	player:setStreakLevel(6)
+	--player:setStreakLevel(player:getStreakLevel() + 1)
 	player:setStorageValue(DailyReward.storages.avoidDouble, GetDailyRewardLastServerSave())
 	player:setDailyReward(DAILY_REWARD_COLLECTED)
 	player:setNextRewardTime(GetDailyRewardLastServerSave() + DailyReward.serverTimeThreshold)
