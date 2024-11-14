@@ -351,9 +351,12 @@ local questTable = {
 	{ storageName = "TheWhiteRavenMonastery.Door", storage = Storage.Quest.U7_24.TheWhiteRavenMonastery.Door, storageValue = 1 },
 
 	{ storageName = "TheSecretLibrary.FalconBastion.KillingBosses", storage = Storage.Quest.U11_80.TheSecretLibrary.FalconBastion.KillingBosses, storageValue = 5 },
-	
+
 	{ storageName = "TheSecretLibrary.Asuras.FlammingOrchid", storage = Storage.Quest.U11_80.TheSecretLibrary.Asuras.FlammingOrchid, storageValue = 1 },
 	{ storageName = "TheSecretLibrary.Asuras.Questline", storage = Storage.Quest.U11_80.TheSecretLibrary.Asuras.Questline, storageValue = 1 },
+
+	{ storageName = "ThePitsOfInferno.ShortcutHubDoor", storage = Storage.Quest.U7_9.ThePitsOfInferno.ShortcutHubDoor, storageValue = 1 },
+	{ storageName = "ThePitsOfInferno.ThronePumin", storage = Storage.Quest.U7_9.ThePitsOfInferno.ThronePumin, storageValue = 9 },
 
 }
 

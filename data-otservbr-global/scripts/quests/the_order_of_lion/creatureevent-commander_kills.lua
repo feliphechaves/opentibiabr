@@ -5,12 +5,13 @@ local config = {
 	rangeY = 16,
 }
 
+
 local lionCommanderDeath = CreatureEvent("LionCommanderDeath")
 function lionCommanderDeath.onPrepareDeath(creature)
 	local totalCommanders = Game.getStorageValue(GlobalStorage.TheOrderOfTheLion.Drume.TotalLionCommanders)
-	if totalCommanders > 1 then
+	if totalCommanders >= 1 then
 		Game.setStorageValue(GlobalStorage.TheOrderOfTheLion.Drume.TotalLionCommanders, totalCommanders - 1)
-	else
+	--[[else
 		local spectators = Game.getSpectators(config.centerPosition, false, false, config.rangeX, config.rangeX, config.rangeY, config.rangeY)
 		for _, spectator in pairs(spectators) do
 			if spectator:isMonster() and not spectator:getMaster() then
@@ -21,9 +22,11 @@ function lionCommanderDeath.onPrepareDeath(creature)
 			end
 		end
 		config.exitPosition:sendMagicEffect(CONST_ME_TELEPORT)
+		]]
 	end
 	return true
 end
+
 
 lionCommanderDeath:register()
 

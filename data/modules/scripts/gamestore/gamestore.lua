@@ -5742,6 +5742,15 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM_UNIQUE,
 			},
 			{
+				icons = { "Supreme_Cube.png" },
+				name = "Supreme Cube",
+				price = 5,
+				itemtype = 31633,
+				count = 1,
+				description = "<i>Cubo magico capaz de teleportar quem o usa para qualquer cidade.</i>\n\nTeleporta para as principais cidades do jogo e inclusive para a NPC Island! \nPode ser usado fora de protection zone!",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM_UNIQUE,
+			},
+			{
 				icons = { "Prey_Bonus_Reroll.png" },
 				name = "Prey Wildcard",
 				price = 1,
