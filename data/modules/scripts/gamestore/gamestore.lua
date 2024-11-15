@@ -1616,7 +1616,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "{character}\n{info} colours can be changed using the Outfit dialog\n{info} includes basic outfit and 2 addons which can be selected individually\n\n<i>Armoured Archers are the epitome of invisible danger. Silently and nimbly, they advance in the background. For hours, they wait patiently, almost motionless, for the decisive moment. Just to be perfectly present in a deadly second.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Beastmaster_Male_Addon_3.png", "Outfit_Beastmaster_Female_Addon_3.png" },
@@ -3481,7 +3480,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				home = true,
+				
 			},
 			{
 				icons = { "Portable_Aqueduct.png" },
@@ -5666,7 +5665,6 @@ GameStore.Categories = {
 			{
 				icons = { "Name_Change.png" },
 				name = "Character Name Change",
-				home = true,
 				price = 10,
 				id = 65002,
 				description = "<i>Tired of your current character name? Purchase a new one!</i>\n\n{character}\n{info} relog required after purchase to finalise the name change",
@@ -5740,6 +5738,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "<i>Carries as many loot as your capacity allows.</i>\n\n{character}\n{storeinbox}\n{once}\n{useicon} use it to open it\n{info} always placed on the first position of your Store inbox",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM_UNIQUE,
+				home = true
 			},
 			{
 				icons = { "Supreme_Cube.png" },
@@ -5749,6 +5748,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "<i>Cubo magico capaz de teleportar quem o usa para qualquer cidade.</i>\n\nTeleporta para as principais cidades do jogo e inclusive para a NPC Island! \nPode ser usado fora de protection zone!",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM_UNIQUE,
+				home = true
 			},
 			{
 				icons = { "Prey_Bonus_Reroll.png" },
@@ -5906,7 +5906,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				home = true,
+				
 			},
 			{
 				icons = { "Gilded_Crown.png" },
@@ -5916,7 +5916,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				home = true,
+				
 			},
 			{
 				icons = { "Gilded_Horned_Helmet.png" },
@@ -5926,7 +5926,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				home = true,
+				
 			},
 			{
 				icons = { "Gilded_Magic_Longsword.png" },
@@ -5936,7 +5936,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				home = true,
+				
 			},
 			{
 				icons = { "Gilded_Warlord_Sword.png" },
@@ -5946,7 +5946,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				home = true,
+				
 			},
 			{
 				icons = { "Guzzlemaw_Grub.png" },

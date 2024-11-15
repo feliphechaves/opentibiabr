@@ -358,6 +358,12 @@ local questTable = {
 	{ storageName = "ThePitsOfInferno.ShortcutHubDoor", storage = Storage.Quest.U7_9.ThePitsOfInferno.ShortcutHubDoor, storageValue = 1 },
 	{ storageName = "ThePitsOfInferno.ThronePumin", storage = Storage.Quest.U7_9.ThePitsOfInferno.ThronePumin, storageValue = 9 },
 
+	{ storageName = "TheDreamCourts.HauntedHouseAccess", storage = Storage.Quest.U12_00.TheDreamCourts.HauntedHouseAccess, storageValue = 1 },
+	{ storageName = "TheDreamCourts.BuriedCathedralAccess", storage = Storage.Quest.U12_00.TheDreamCourts.BuriedCathedralAccess, storageValue = 1 },
+	{ storageName = "TheDreamCourts.DreamScarAccess", storage = Storage.Quest.U12_00.TheDreamCourts.DreamScarAccess, storageValue = 1 },
+	{ storageName = "TheDreamCourts.AndrewDoor", storage = Storage.Quest.U12_00.TheDreamCourts.AndrewDoor, storageValue = 1 },
+	{ storageName = "TheDreamCourts.AccessDoors", storage = Storage.Quest.U12_00.TheDreamCourts.AccessDoors, storageValue = 1 },
+
 }
 
 -- from Position: (33201, 31762, 1)
