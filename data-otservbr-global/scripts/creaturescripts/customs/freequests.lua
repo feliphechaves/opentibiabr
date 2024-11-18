@@ -364,6 +364,12 @@ local questTable = {
 	{ storageName = "TheDreamCourts.AndrewDoor", storage = Storage.Quest.U12_00.TheDreamCourts.AndrewDoor, storageValue = 1 },
 	{ storageName = "TheDreamCourts.AccessDoors", storage = Storage.Quest.U12_00.TheDreamCourts.AccessDoors, storageValue = 1 },
 
+	{ storageName = "BloodBrothers.VengothAccess", storage = Storage.Quest.U8_4.BloodBrothers.VengothAccess, storageValue = 1 },
+
+	{ storageName = "DjinnWar.EfreetFaction.Mission03", storage = Storage.Quest.U7_4.DjinnWar.EfreetFaction.Mission03, storageValue = 3 },
+	{ storageName = "DjinnWar.MaridFaction.Mission03", storage = Storage.Quest.U7_4.DjinnWar.MaridFaction.Mission03, storageValue = 3 },
+	
+
 }
 
 -- from Position: (33201, 31762, 1)

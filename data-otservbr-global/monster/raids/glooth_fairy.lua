@@ -85,7 +85,6 @@ monster.loot = {
 	{ id = 21178, chance = 480 }, -- glooth club
 	{ id = 21165, chance = 480 }, -- rubber cap
 	{ id = 3039, chance = 980 }, -- red gem
-	{ id = 21292, chance = 480 }, -- feedbag
 	{ id = 5880, chance = 980 }, -- iron ore
 	{ id = 21144, chance = 280 }, -- bowl of glooth soup
 }

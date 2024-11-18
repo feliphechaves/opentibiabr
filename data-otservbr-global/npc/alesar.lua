@@ -95,12 +95,14 @@ local function greetCallback(npc, creature, message)
 	local player = Player(creature)
 	local playerId = player:getId()
 
+	--[[
 	if not MsgContains(message, "djanni'hah") then
 		npcHandler:say("Shove off, little one! Humans are not welcome here, |PLAYERNAME|!", npc, creature)
 		endConversationWithDelay(npcHandler, npc, creature)
 		return false
 	end
-
+	
+	
 	if player:getStorageValue(Storage.Quest.U7_4.DjinnWar.MaridFaction.Start) == 1 then
 		npcHandler:say({
 			"Hahahaha! ...",
@@ -109,7 +111,7 @@ local function greetCallback(npc, creature, message)
 		endConversationWithDelay(npcHandler, npc, creature)
 		return false
 	end
-
+	]]
 	npcHandler:say("What do you want from me, |PLAYERNAME|?", npc, creature)
 	npcHandler:setInteraction(npc, creature)
 
@@ -190,11 +192,12 @@ local function onTradeRequest(npc, creature)
 	local player = Player(creature)
 	local playerId = player:getId()
 
+	--[[
 	if player:getStorageValue(Storage.Quest.U7_4.DjinnWar.EfreetFaction.Mission03) ~= 3 then
 		npcHandler:say("I'm sorry, but you don't have Malor's permission to trade with me.", npc, creature)
 		return false
 	end
-
+	]]
 	return true
 end
 

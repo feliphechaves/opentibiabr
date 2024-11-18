@@ -123,6 +123,7 @@ npcConfig.shop = {
 	{ itemName = "violet gem", clientId = 3036, sell = 10000 },
 	{ itemName = "white gem", clientId = 32769, sell = 12000 },
 	{ itemName = "yellow gem", clientId = 3037, sell = 1000 },
+	{ itemName = "Golden Silver Token", clientId = 19082, buy = 1000000 },
 }
 
 -- On buy npc shop message

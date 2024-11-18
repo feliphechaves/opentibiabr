@@ -83,7 +83,6 @@ monster.voices = {
 
 monster.loot = {
 	{ id = 21901, chance = 1000, unique = true }, -- glooth glider casing
-	{ id = 21292, chance = 1000 }, -- feedbag
 }
 
 monster.attacks = {

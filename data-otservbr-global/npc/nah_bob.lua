@@ -55,6 +55,7 @@ local function greetCallback(npc, creature, message)
 	local player = Player(creature)
 	local playerId = player:getId()
 
+	--[[
 	if not MsgContains(message, "djanni'hah") then
 		npcHandler:say("Whoa! A human! This is no place for you, |PLAYERNAME|. Go and play somewhere else.", npc, creature)
 		endConversationWithDelay(npcHandler, npc, creature)
@@ -69,7 +70,7 @@ local function greetCallback(npc, creature, message)
 		endConversationWithDelay(npcHandler, npc, creature)
 		return false
 	end
-
+	]]
 	npcHandler:say("<Sighs> Another {customer}! I've only just sat down! What is it, |PLAYERNAME|?", npc, creature)
 	npcHandler:setInteraction(npc, creature)
 
@@ -120,10 +121,12 @@ local function onTradeRequest(npc, creature)
 	local player = Player(creature)
 	local playerId = player:getId()
 
+	--[[
 	if player:getStorageValue(Storage.Quest.U7_4.DjinnWar.MaridFaction.Mission03) ~= 3 then
 		npcHandler:say("I'm sorry, human. But you need Gabel's permission to trade with me.", npc, creature)
 		return false
 	end
+	]]
 
 	return true
 end

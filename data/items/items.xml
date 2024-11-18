@@ -38873,6 +38873,7 @@
 	<item id="19081" article="a" name="skull"/>
 	<item id="19082" article="a" name="golden raid token">
 		<attribute key="primarytype" value="valuables"/>
+		<attribute key="description" value="Forged by Tamoril, the dragon-shaped leader of the Mage Guild. Consumed upon use, this item grants access to the exaltation forge. Only VIP players are eligible to wield its capabilities."/>
 		<attribute key="weight" value="110"/>
 	</item>
 	<item id="19083" article="a" name="silver raid token">
@@ -42138,13 +42139,26 @@
 		<attribute key="primarytype" value="quest items"/>
 		<attribute key="weight" value="200"/>
 	</item>
-	<item id="21292" article="a" name="feedbag">
+	<item id="21292" article="a" name="Aiolos Backpack">
+		<attribute key="showAttributes" value="1"/>
+		<attribute key="manaticks" value="3000"/>
+		<attribute key="managain" value="25"/>
+		<attribute key="healthticks" value="3000"/>
+		<attribute key="healthgain" value="25"/>
 		<attribute key="primarytype" value="containers"/>
-		<attribute key="containersize" value="20"/>
+		<attribute key="containersize" value="50"/>
 		<attribute key="weight" value="1800"/>
+		<attribute key="absorbpercentphysical" value="2"/>
+		<attribute key="absorbpercentfire" value="2"/>
+		<attribute key="absorbpercentpoison" value="2"/>
+		<attribute key="absorbpercentenergy" value="2"/>
+		<attribute key="absorbpercentice" value="2"/>
+		<attribute key="absorbpercentholy" value="2"/>
+		<attribute key="absorbpercentdeath" value="2"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="increase capacity" value="3"/>
 		</attribute>
+		<attribute key="description" value="Crafted with the very essence of Aiolos. It features expanded storage space, elemental resistance to all types of magic, and enhanced regeneration of health and mana."/>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
 		</attribute>

@@ -5751,6 +5751,17 @@ GameStore.Categories = {
 				home = true
 			},
 			{
+				icons = { "Aiolos_Backpack.png" },
+				name = "Aiolos Backpack",
+				price = 10,
+				itemtype = 21292,
+				count = 1,
+				movable = true,
+				description = "<i>Crafted with the very essence of Aiolos. It features expanded storage space, elemental resistance to all types of magic, and enhanced regeneration of health and mana.</i>\n\n50 Slots\nRegen 50 hp and 50 mp per second second \nprotection physical +2%\nenergy +2%\nearth +2%\nfire +1%\nice +2%\nholy +2%\ndeath +2%",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				home = true
+			},
+			{
 				icons = { "Prey_Bonus_Reroll.png" },
 				name = "Prey Wildcard",
 				price = 1,
