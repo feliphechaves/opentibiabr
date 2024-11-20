@@ -14,7 +14,7 @@ monster.outfit = {
 }
 
 monster.events = {
-	"RottenBloodBossDeath",
+	"RottenBloodBossDeath","SummonElderBloodJaw"
 }
 
 monster.bosstiary = {
@@ -22,15 +22,16 @@ monster.bosstiary = {
 	bossRace = RARITY_NEMESIS,
 }
 
-monster.health = 350000
-monster.maxHealth = 350000
+monster.health = 600000
+monster.maxHealth = 600000
 monster.race = "undead"
 monster.corpse = 44015
-monster.speed = 250
+monster.speed = 350
 monster.manaCost = 0
+monster.maxSummons = 8
 
 monster.changeTarget = {
-	interval = 10000,
+	interval = 4000,
 	chance = 20,
 }
 
@@ -51,14 +52,15 @@ monster.flags = {
 	illusionable = false,
 	canPushItems = true,
 	canPushCreatures = true,
-	staticAttackChance = 98,
+	staticAttackChance = 70,
 	targetDistance = 1,
 	runHealth = 0,
 	healthHidden = false,
 	isBlockable = false,
-	canWalkOnEnergy = true,
-	canWalkOnFire = true,
-	canWalkOnPoison = true,
+	canWalkOnEnergy = false,
+	canWalkOnFire = false,
+	canWalkOnPoison = false,
+	pet = false
 }
 
 monster.light = {
@@ -68,12 +70,14 @@ monster.light = {
 
 monster.summon = {
 	maxSummons = 8,
-	summons = {
-		{ name = "Mushroom", chance = 30, interval = 5000, count = 8 },
-	},
+	summons = {},
 }
 
-monster.voices = {}
+monster.voices = {
+	interval = 5000,
+	chance = 10,
+	{text = "The light... that... drains!", yell = false}
+}
 
 monster.loot = {
 	{ name = "crystal coin", chance = 12317, maxCount = 91 },
@@ -86,16 +90,20 @@ monster.loot = {
 	{ name = "supreme health potion", chance = 6212, maxCount = 102 },
 	{ name = "ultimate mana potion", chance = 8785, maxCount = 29 },
 	{ name = "ultimate spirit potion", chance = 8783, maxCount = 161 },
-	{ id = 43895, chance = 10 }, -- Bag you covet
+	{ id = 43895, chance = 50 }, -- Bag you covet
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = -1400, maxDamage = -2300 },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -500, maxDamage = -900, radius = 4, effect = CONST_ME_SMALLCLOUDS, target = false },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_HOLYDAMAGE, minDamage = -500, maxDamage = -900, range = 4, radius = 4, shootEffect = 31, effect = 248, target = true },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_ICEDAMAGE, minDamage = -1000, maxDamage = -1200, length = 10, spread = 0, effect = 53, target = false },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = -1500, maxDamage = -1900, length = 10, spread = 0, effect = 158, target = false },
-	{ name = "speed", interval = 2000, chance = 20, speedChange = -600, radius = 7, effect = CONST_ME_POFF, target = false, duration = 20000 },
+	{name="melee", interval="2000" ,minDamage="-3900" ,maxDamage="-5100"},	
+	{name ="combat", interval = 2000, chance = 40, type = COMBAT_DEATHDAMAGE, minDamage = -1200, maxDamage = -4800, length = 8, spread = 3, effect = CONST_ME_MORTAREA, target = false},	
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -1500, maxDamage = -3200, radius = 4,  effect = CONST_ME_MORTAREA, target = false},
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -1020, maxDamage = -3000, range = 7, shootEffect = CONST_ANI_DEATH, effect = CONST_ME_MORTAREA, target = true},	
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -1500, maxDamage = -3000, radius = 40, effect = CONST_ME_MORTAREA, target = false},
+    {name ="melee", interval = 2000, chance = 100, minDamage = -1900, maxDamage = -2750},
+	{name ="combat", interval = 2000, chance = 10, type = COMBAT_EARTHDAMAGE, minDamage = -1566, maxDamage = -2420, length = 8, spread = 3, effect = CONST_ME_CARNIPHILA, target = false},
+	{name ="stone shower rune", interval = 2000, chance = 10, minDamage = -1230, maxDamage = -1950, range = 7, target = false},
+	{name ="combat", interval = 2000, chance = 40, type = COMBAT_EARTHDAMAGE, minDamage = -1850, maxDamage = -2400, radius = 7, effect = CONST_ME_BIGPLANTS, target = false},
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_FIREDAMAGE, minDamage = -1950, maxDamage = -3250, range = 7, radius = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true}
 }
 
 monster.defenses = {
@@ -105,16 +113,16 @@ monster.defenses = {
 }
 
 monster.elements = {
-	{ type = COMBAT_PHYSICALDAMAGE, percent = 15 },
-	{ type = COMBAT_ENERGYDAMAGE, percent = 15 },
-	{ type = COMBAT_EARTHDAMAGE, percent = 15 },
-	{ type = COMBAT_FIREDAMAGE, percent = 15 },
-	{ type = COMBAT_LIFEDRAIN, percent = 0 },
-	{ type = COMBAT_MANADRAIN, percent = 0 },
-	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
-	{ type = COMBAT_ICEDAMAGE, percent = 15 },
-	{ type = COMBAT_HOLYDAMAGE, percent = 15 },
-	{ type = COMBAT_DEATHDAMAGE, percent = 15 },
+	{type = COMBAT_PHYSICALDAMAGE, percent = 30},
+	{type = COMBAT_ENERGYDAMAGE, percent = -10},
+	{type = COMBAT_EARTHDAMAGE, percent = 40},
+	{type = COMBAT_FIREDAMAGE, percent = 20},
+	{type = COMBAT_LIFEDRAIN, percent = 0},
+	{type = COMBAT_MANADRAIN, percent = 0},
+	{type = COMBAT_DROWNDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = -10}
 }
 
 monster.immunities = {

@@ -120,6 +120,7 @@ loadEmptyMap:register()
 local eddAndFlowInundate = GlobalEvent("eddAndFlowInundate")
 
 function eddAndFlowInundate.onThink(interval, lastExecution)
+	--[[
 	if SoulWarQuest.ebbAndFlow.isLoadedEmptyMap() then
 		logger.trace("Map change to empty in {} minutes.", SoulWarQuest.ebbAndFlow.intervalChangeMap)
 		loadMapInundate()
@@ -127,6 +128,8 @@ function eddAndFlowInundate.onThink(interval, lastExecution)
 		logger.trace("Map change to inundate in {} minutes.", SoulWarQuest.ebbAndFlow.intervalChangeMap)
 		loadMapEmpty()
 	end
+	]]
+	
 
 	return true
 end

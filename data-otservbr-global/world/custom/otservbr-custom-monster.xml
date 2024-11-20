@@ -1,5 +1,41 @@
 <?xml version="1.0"?>
 <monsters>
+	<monster centerx="1054" centery="1007" centerz="7" radius="1">
+		<monster name="Dragon" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1057" centery="1007" centerz="7" radius="1">
+		<monster name="Dragon Lord" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1060" centery="1007" centerz="7" radius="1">
+		<monster name="Dawnfire Asura" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1066" centery="1007" centerz="7" radius="1">
+		<monster name="Falcon Paladin" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1069" centery="1007" centerz="7" radius="1">
+		<monster name="Grimeleech" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1072" centery="1007" centerz="7" radius="1">
+		<monster name="Cobra Scout" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1054" centery="1013" centerz="7" radius="1">
+		<monster name="Minotaur" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1057" centery="1013" centerz="7" radius="1">
+		<monster name="Cyclops" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1060" centery="1013" centerz="7" radius="1">
+		<monster name="Thornback Tortoise" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1066" centery="1013" centerz="7" radius="1">
+		<monster name="Crazed Summer Rearguard" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1069" centery="1013" centerz="7" radius="1">
+		<monster name="Crazed Winter Rearguard" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1072" centery="1013" centerz="7" radius="1">
+		<monster name="Energetic Book" x="0" y="0" z="7" spawntime="60" />
+	</monster>
 	<monster centerx="1151" centery="1047" centerz="14" radius="1">
 		<monster name="Bloated Man-Maggot" x="0" y="0" z="14" spawntime="60" />
 	</monster>

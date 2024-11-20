@@ -14,7 +14,7 @@ monster.outfit = {
 }
 
 monster.events = {
-	"RottenBloodBossDeath",
+	"RottenBloodBossDeath","SummonElderBloodJaw"
 }
 
 monster.bosstiary = {
@@ -22,15 +22,15 @@ monster.bosstiary = {
 	bossRace = RARITY_NEMESIS,
 }
 
-monster.health = 350000
-monster.maxHealth = 350000
+monster.health = 600000
+monster.maxHealth = 600000
 monster.race = "undead"
 monster.corpse = 44018
-monster.speed = 250
+monster.speed = 350
 monster.manaCost = 0
 
 monster.changeTarget = {
-	interval = 10000,
+	interval = 4000,
 	chance = 20,
 }
 
@@ -68,9 +68,7 @@ monster.light = {
 
 monster.summon = {
 	maxSummons = 8,
-	summons = {
-		{ name = "Mushroom", chance = 30, interval = 5000, count = 8 },
-	},
+	summons = {},
 }
 
 monster.voices = {
@@ -100,15 +98,20 @@ monster.loot = {
 	{ name = "putrefactive figurine", chance = 11416, maxCount = 1 },
 	{ name = "ichgahal's fungal infestation", chance = 7902, maxCount = 1 },
 	{ name = "white gem", chance = 13559, maxCount = 3 },
-	{ id = 43895, chance = 10 }, -- Bag you covet
+	{ id = 43895, chance = 50 }, -- Bag you covet
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 3000, chance = 100, minDamage = -1500, maxDamage = -2300 },
-	{ name = "combat", interval = 1000, chance = 10, type = COMBAT_PHYSICALDAMAGE, minDamage = -700, maxDamage = -1000, length = 12, spread = 0, effect = 249, target = false },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_MANADRAIN, minDamage = -2600, maxDamage = -2300, length = 12, spread = 0, effect = 193, target = false },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_FIREDAMAGE, minDamage = -900, maxDamage = -1500, length = 6, spread = 0, effect = CONST_ME_FIREAREA, target = false },
-	{ name = "speed", interval = 2000, chance = 35, speedChange = -600, radius = 8, effect = CONST_ME_MAGIC_RED, target = false, duration = 15000 },
+
+	{name="melee" ,interval="2000" ,minDamage="-3900" ,maxDamage="-5100"},	
+	{name ="combat", interval = 2000, chance = 40, type = COMBAT_DEATHDAMAGE, minDamage = -1200, maxDamage = -4800, length = 8, spread = 3, effect = CONST_ME_MORTAREA, target = false},	
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -1500, maxDamage = -3200, radius = 4, effect = CONST_ME_MORTAREA,  target = false},
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -1020, maxDamage = -3000, range = 7, shootEffect = CONST_ANI_DEATH, effect = CONST_ME_MORTAREA, target = true},	
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -1500, maxDamage = -3000, radius = 40, effect = CONST_ME_MORTAREA, target = false},
+	{name ="combat", interval = 4000, chance = 35, type = COMBAT_ENERGYDAMAGE, minDamage = -1600, maxDamage = -2050, range = 7, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYHIT, target = true},
+	{name ="combat", interval = 2000, chance = 35, type = COMBAT_ICEDAMAGE, minDamage = -2950, maxDamage = -3500, range = 7, shootEffect = CONST_ANI_SNOWBALL, effect = CONST_ME_ICEATTACK, target = true},
+	{name ="combat", interval = 2000, chance = 30, type = COMBAT_ICEDAMAGE, minDamage = -2500, maxDamage = -3800, range = 7, radius = 5, shootEffect = CONST_ANI_ICE, effect = CONST_ME_ICEAREA, target = true},
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -2850, maxDamage = -4200, radius = 4, shootEffect = CONST_ANI_SUDDENDEATH, effect = CONST_ME_MORTAREA, target = true}
 }
 
 monster.defenses = {
@@ -119,15 +122,15 @@ monster.defenses = {
 
 monster.elements = {
 	{ type = COMBAT_PHYSICALDAMAGE, percent = 15 },
-	{ type = COMBAT_ENERGYDAMAGE, percent = 15 },
-	{ type = COMBAT_EARTHDAMAGE, percent = 15 },
-	{ type = COMBAT_FIREDAMAGE, percent = 15 },
+	{ type = COMBAT_ENERGYDAMAGE, percent = 20 },
+	{ type = COMBAT_EARTHDAMAGE, percent = -10 },
+	{ type = COMBAT_FIREDAMAGE, percent = -20 },
 	{ type = COMBAT_LIFEDRAIN, percent = 0 },
 	{ type = COMBAT_MANADRAIN, percent = 0 },
 	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
-	{ type = COMBAT_ICEDAMAGE, percent = 15 },
-	{ type = COMBAT_HOLYDAMAGE, percent = 15 },
-	{ type = COMBAT_DEATHDAMAGE, percent = 15 },
+	{ type = COMBAT_ICEDAMAGE, percent = 40 },
+	{ type = COMBAT_HOLYDAMAGE, percent = -20 },
+	{ type = COMBAT_DEATHDAMAGE, percent = 30 },
 }
 
 monster.immunities = {

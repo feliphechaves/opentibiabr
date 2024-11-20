@@ -368,8 +368,12 @@ local questTable = {
 
 	{ storageName = "DjinnWar.EfreetFaction.Mission03", storage = Storage.Quest.U7_4.DjinnWar.EfreetFaction.Mission03, storageValue = 3 },
 	{ storageName = "DjinnWar.MaridFaction.Mission03", storage = Storage.Quest.U7_4.DjinnWar.MaridFaction.Mission03, storageValue = 3 },
-	
 
+	{ storageName = "RottenBlood.AccessDoor", storage = Storage.Quest.U13_20.RottenBlood.AccessDoor, storageValue = 1 },
+
+	{ storageName = "BarbarianTest.Questline", storage = Storage.Quest.U8_0.BarbarianTest.Questline, storageValue = 8 },
+	{ storageName = "TheIceIslands.Questline", storage = Storage.Quest.U8_0.TheIceIslands.Questline, storageValue = 30 },
+	
 }
 
 -- from Position: (33201, 31762, 1)

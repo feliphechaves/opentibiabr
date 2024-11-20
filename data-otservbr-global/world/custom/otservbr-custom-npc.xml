@@ -28,10 +28,10 @@
 		<npc name="Imbuement Assistant" x="0" y="0" z="6" spawntime="60" />
 	</npc>
 	<npc centerx="1059" centery="1018" centerz="7" radius="3">
-		<npc name="Zuma Magehide" x="-1" y="1" z="7" spawntime="60" />
+		<npc name="Battlemart" x="-1" y="2" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="1066" centery="1018" centerz="7" radius="3">
-		<npc name="Runtel Blackspark" x="0" y="3" z="7" spawntime="60" />
+		<npc name="The Lootmonger" x="0" y="2" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="1003" centery="1019" centerz="7" radius="1">
 		<npc name="Hanna" x="0" y="0" z="7" spawntime="60" />
