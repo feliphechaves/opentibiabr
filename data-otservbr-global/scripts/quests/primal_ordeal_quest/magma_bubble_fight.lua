@@ -44,6 +44,7 @@ end
 encounter:addRemoveMonsters():autoAdvance()
 encounter:addBroadcast("You've entered the volcano."):autoAdvance("1s")
 
+--[[
 encounter:addSpawnMonsters({
 	{
 		name = "The End of Days",
@@ -62,6 +63,8 @@ encounter:addSpawnMonsters({
 })
 
 encounter:addRemoveMonsters():autoAdvance()
+]]
+
 encounter:addBroadcast("The whole Volcano starts to vibrate! Prepare yourself!"):autoAdvance("3s")
 
 encounter:addSpawnMonsters({
