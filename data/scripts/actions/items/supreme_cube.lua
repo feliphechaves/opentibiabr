@@ -75,6 +75,7 @@ function supremeCube.onUse(player, item, fromPosition, target, toPosition, isHot
     })
 
     if player:isVip() then
+        windowChoice(window, player, { name = "Hunts Teleport", teleport = Position(1063, 1024, 7) }, price)
         windowChoice(window, player, { name = "NPC Island", teleport = Position(991, 1031, 7) }, price)
     end
 
