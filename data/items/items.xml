@@ -7660,6 +7660,13 @@
 		<attribute key="charges" value="3"/>
 		<attribute key="weight" value="70"/>
 	</item>
+	<item id="11609" article="a" name="supreme sudden death rune">
+		<attribute key="description" value="It's an adorned sudden death rune"/>
+		<attribute key="primarytype" value="attack runes"/>
+		<attribute key="type" value="rune"/>
+		<attribute key="charges" value="3"/>
+		<attribute key="weight" value="70"/>
+	</item>
 	<item id="3156" article="a" name="wild growth rune">
 		<attribute key="primarytype" value="attack runes"/>
 		<attribute key="type" value="rune"/>
@@ -7694,6 +7701,12 @@
 		<attribute key="primarytype" value="attack runes"/>
 		<attribute key="type" value="rune"/>
 		<attribute key="runespellname" value="adori mas frigo"/>
+		<attribute key="charges" value="4"/>
+		<attribute key="weight" value="52"/>
+	</item>
+	<item id="11623" article="a" name="supreme avalanche rune">
+		<attribute key="primarytype" value="attack runes"/>
+		<attribute key="type" value="rune"/>
 		<attribute key="charges" value="4"/>
 		<attribute key="weight" value="52"/>
 	</item>
@@ -7753,6 +7766,12 @@
 		<attribute key="primarytype" value="attack runes"/>
 		<attribute key="type" value="rune"/>
 		<attribute key="runespellname" value="adori mas tera"/>
+		<attribute key="charges" value="4"/>
+		<attribute key="weight" value="52"/>
+	</item>
+	<item id="49279" article="a" name="supreme stone shower rune">
+		<attribute key="primarytype" value="attack runes"/>
+		<attribute key="type" value="rune"/>
 		<attribute key="charges" value="4"/>
 		<attribute key="weight" value="52"/>
 	</item>
@@ -7836,6 +7855,13 @@
 		<attribute key="charges" value="4"/>
 		<attribute key="weight" value="52"/>
 	</item>
+	<item id="11615" article="a" name="supreme great fireball rune">
+		<attribute key="description" value="It's an adorned great fireball rune"/>
+		<attribute key="primarytype" value="attack runes"/>
+		<attribute key="type" value="rune"/>
+		<attribute key="charges" value="4"/>
+		<attribute key="weight" value="52"/>
+	</item>
 	<item id="3192" article="a" name="fire bomb rune">
 		<attribute key="primarytype" value="attack runes"/>
 		<attribute key="type" value="rune"/>
@@ -7886,6 +7912,13 @@
 		<attribute key="charges" value="6"/>
 		<attribute key="weight" value="35"/>
 	</item>
+	<item id="11607" article="a" name="supreme explosion rune">
+		<attribute key="description" value="It's an adorned explosion rune"/>
+		<attribute key="primarytype" value="attack runes"/>
+		<attribute key="type" value="rune"/>
+		<attribute key="charges" value="6"/>
+		<attribute key="weight" value="35"/>
+	</item>
 	<item id="3201" article="a" name="spell rune">
 		<attribute key="primarytype" value="utilities"/>
 		<attribute key="type" value="rune"/>
@@ -7895,6 +7928,12 @@
 		<attribute key="primarytype" value="attack runes"/>
 		<attribute key="type" value="rune"/>
 		<attribute key="runespellname" value="adori mas vis"/>
+		<attribute key="charges" value="4"/>
+		<attribute key="weight" value="52"/>
+	</item>
+	<item id="11619" article="a" name="supreme thunderstorm rune">
+		<attribute key="primarytype" value="attack runes"/>
+		<attribute key="type" value="rune"/>
 		<attribute key="charges" value="4"/>
 		<attribute key="weight" value="52"/>
 	</item>
@@ -28569,16 +28608,8 @@
 		<attribute key="description" value="It's an adorned heavy magic missile rune"/>
 		<attribute key="weight" value="120"/>
 	</item>
-	<item id="11607" article="a" name="silver rune emblem">
-		<attribute key="description" value="It's an adorned explosion rune"/>
-		<attribute key="weight" value="210"/>
-	</item>
 	<item id="11608" article="a" name="golden rune emblem">
 		<attribute key="description" value="It's an adorned explosion rune"/>
-		<attribute key="weight" value="120"/>
-	</item>
-	<item id="11609" article="a" name="silver rune emblem">
-		<attribute key="description" value="It's an adorned sudden death rune"/>
 		<attribute key="weight" value="120"/>
 	</item>
 	<item id="11610" article="a" name="golden rune emblem">
@@ -28601,10 +28632,6 @@
 		<attribute key="description" value="It's an adorned animate dead rune"/>
 		<attribute key="weight" value="120"/>
 	</item>
-	<item id="11615" article="a" name="silver rune emblem">
-		<attribute key="description" value="It's an adorned great fireball rune"/>
-		<attribute key="weight" value="120"/>
-	</item>
 	<item id="11616" article="a" name="golden rune emblem">
 		<attribute key="description" value="It's an adorned great fireball rune"/>
 		<attribute key="weight" value="120"/>
@@ -28617,10 +28644,7 @@
 		<attribute key="description" value="It's an adorned fireball rune"/>
 		<attribute key="weight" value="120"/>
 	</item>
-	<item id="11619" article="a" name="silver rune emblem">
-		<attribute key="description" value="It's an adorned thunderstorm rune"/>
-		<attribute key="weight" value="120"/>
-	</item>
+	
 	<item id="11620" article="a" name="golden rune emblem">
 		<attribute key="description" value="It's an adorned thunderstorm rune"/>
 		<attribute key="weight" value="120"/>
@@ -28633,10 +28657,7 @@
 		<attribute key="description" value="It's an adorned icicle rune"/>
 		<attribute key="weight" value="120"/>
 	</item>
-	<item id="11623" article="a" name="silver rune emblem">
-		<attribute key="description" value="It's an adorned avalanche rune"/>
-		<attribute key="weight" value="120"/>
-	</item>
+	
 	<item id="11624" article="a" name="golden rune emblem">
 		<attribute key="description" value="It's an adorned avalanche rune"/>
 		<attribute key="weight" value="120"/>
@@ -53315,6 +53336,42 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="charges" value="500"/>
 		<attribute key="weight" value="1000"/>
 	</item>
+	<item id="49280" article="a" name="aiolos exercise dummy">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="description" value="You can train your skills by using training weapons with this expert exercise dummy"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="rotateto" value="49281"/>
+		<attribute key="type" value="dummy">
+			<attribute key="rate" value="115"/>
+		</attribute>
+	</item>
+	<item id="49281" article="a" name="aiolos exercise dummy">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="description" value="You can train your skills by using training weapons with this expert exercise dummy"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="rotateto" value="49280"/>
+		<attribute key="type" value="dummy">
+			<attribute key="rate" value="115"/>
+		</attribute>
+	</item>
+	<item id="49282" article="a" name="chaotic exercise dummy">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="description" value="You can train your skills by using training weapons with this expert exercise dummy"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="rotateto" value="49283"/>
+		<attribute key="type" value="dummy">
+			<attribute key="rate" value="115"/>
+		</attribute>
+	</item>
+	<item id="49283" article="a" name="chaotic exercise dummy">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="description" value="You can train your skills by using training weapons with this expert exercise dummy"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="rotateto" value="49282"/>
+		<attribute key="type" value="dummy">
+			<attribute key="rate" value="115"/>
+		</attribute>
+	</item>
 	<item id="28558" article="an" name="exercise dummy">
 		<attribute key="primarytype" value="statues"/>
 		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
@@ -76817,6 +76874,114 @@ Granted by TibiaGoals.com"/>
 	<item id="46628" article="a" name="amber crusher">
 		<attribute key="loottype" value="tools"/>
 		<attribute key="weight" value="30"/>
+	</item>
+	<item id="49284" article="a" name="earth protector">
+		<attribute key="showAttributes" value="1"/>
+		<attribute key="absorbpercentearth" value="12"/>
+		<attribute key="skillsword" value="3"/>
+		<attribute key="skillaxe" value="3"/>
+		<attribute key="skillclub" value="3"/>
+		<attribute key="skilldist" value="3"/>
+		<attribute key="magiclevelpoints" value="3"/>
+		<attribute key="weight" value="3800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+		</attribute>
+	</item>
+	<item id="49285" article="a" name="holy protector">
+		<attribute key="showAttributes" value="1"/>
+		<attribute key="absorbpercentholy" value="12"/>
+		<attribute key="skillsword" value="3"/>
+		<attribute key="skillaxe" value="3"/>
+		<attribute key="skillclub" value="3"/>
+		<attribute key="skilldist" value="3"/>
+		<attribute key="magiclevelpoints" value="3"/>
+		<attribute key="weight" value="3800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+		</attribute>
+	</item>
+	<item id="49286" article="a" name="ice protector">
+		<attribute key="showAttributes" value="1"/>
+		<attribute key="absorbpercentice" value="12"/>
+		<attribute key="skillsword" value="3"/>
+		<attribute key="skillaxe" value="3"/>
+		<attribute key="skillclub" value="3"/>
+		<attribute key="skilldist" value="3"/>
+		<attribute key="magiclevelpoints" value="3"/>
+		<attribute key="weight" value="3800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+		</attribute>
+	</item>
+	<item id="49287" article="a" name="death protector">
+		<attribute key="showAttributes" value="1"/>
+		<attribute key="absorbpercentdeath" value="12"/>
+		<attribute key="skillsword" value="3"/>
+		<attribute key="skillaxe" value="3"/>
+		<attribute key="skillclub" value="3"/>
+		<attribute key="skilldist" value="3"/>
+		<attribute key="magiclevelpoints" value="3"/>
+		<attribute key="weight" value="3800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+		</attribute>
+	</item>
+	<item id="49288" article="a" name="fire protector">
+		<attribute key="showAttributes" value="1"/>
+		<attribute key="absorbpercentfire" value="12"/>
+		<attribute key="skillsword" value="3"/>
+		<attribute key="skillaxe" value="3"/>
+		<attribute key="skillclub" value="3"/>
+		<attribute key="skilldist" value="3"/>
+		<attribute key="magiclevelpoints" value="3"/>
+		<attribute key="weight" value="3800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+		</attribute>
+	</item>
+	<item id="49289" article="a" name="energy protector">
+		<attribute key="showAttributes" value="1"/>
+		<attribute key="absorbpercentenergy" value="12"/>
+		<attribute key="skillsword" value="3"/>
+		<attribute key="skillaxe" value="3"/>
+		<attribute key="skillclub" value="3"/>
+		<attribute key="skilldist" value="3"/>
+		<attribute key="magiclevelpoints" value="3"/>
+		<attribute key="weight" value="3800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+		</attribute>
 	</item>
 </items>
 

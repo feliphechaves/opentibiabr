@@ -122,7 +122,13 @@ local function exerciseTrainingEvent(playerId, tilePosition, weaponId, dummyId)
 	end
 
 	local vocation = player:getVocation()
-	_G.OnExerciseTraining[playerId].event = addEvent(exerciseTrainingEvent, vocation:getBaseAttackSpeed() / configManager.getFloat(configKeys.RATE_EXERCISE_TRAINING_SPEED), playerId, tilePosition, weaponId, dummyId)
+
+	local rateExerciseTrainingSpeed = configManager.getFloat(configKeys.RATE_EXERCISE_TRAINING_SPEED)
+	if dummyId == 49280 or dummyId == 49281 or dummyId == 49282 or dummyId == 49283 then
+		rateExerciseTrainingSpeed = rateExerciseTrainingSpeed * 1.2
+	end
+
+	_G.OnExerciseTraining[playerId].event = addEvent(exerciseTrainingEvent, vocation:getBaseAttackSpeed() / rateExerciseTrainingSpeed, playerId, tilePosition, weaponId, dummyId)
 	return true
 end
 
@@ -173,7 +179,12 @@ function exerciseTraining.onUse(player, item, fromPosition, target, toPosition, 
 					playersOnDummy = playersOnDummy + 1
 				end
 
-				if playersOnDummy >= configManager.getNumber(configKeys.MAX_ALLOWED_ON_A_DUMMY) then
+				local maxAllowedOnADummy = configManager.getNumber(configKeys.MAX_ALLOWED_ON_A_DUMMY)
+				if dummyId == 49280 or dummyId == 49281 or dummyId == 49282 or dummyId == 49283 then
+					maxAllowedOnADummy = 4
+				end
+
+				if playersOnDummy >= maxAllowedOnADummy then
 					player:sendTextMessage(MESSAGE_FAILURE, "That exercise dummy is busy.")
 					return true
 				end
