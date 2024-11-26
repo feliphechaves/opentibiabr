@@ -1,5 +1,62 @@
 <?xml version="1.0"?>
 <monsters>
+	<monster centerx="1240" centery="1007" centerz="0" radius="1">
+		<monster name="Count Vlarkorth" x="0" y="1" z="0" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1243" centery="1007" centerz="0" radius="1">
+		<monster name="Lord Azaram" x="0" y="1" z="0" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1234" centery="1014" centerz="0" radius="1">
+		<monster name="King Zelos" x="1" y="0" z="0" spawntime="60" direction="1" />
+	</monster>
+	<monster centerx="1248" centery="1014" centerz="0" radius="1">
+		<monster name="Duke Krule" x="-1" y="0" z="0" spawntime="60" direction="3" />
+	</monster>
+	<monster centerx="1242" centery="1022" centerz="0" radius="2">
+		<monster name="Earl Osam" x="-2" y="-1" z="0" spawntime="60" />
+		<monster name="Sir Nictros" x="1" y="-1" z="0" spawntime="60" />
+	</monster>
+	<monster centerx="1250" centery="1010" centerz="1" radius="1">
+		<monster name="Grand Master Oberon" x="0" y="1" z="1" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1240" centery="1012" centerz="1" radius="1">
+		<monster name="Scarlett Etzel" x="0" y="1" z="1" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1235" centery="1016" centerz="1" radius="1">
+		<monster name="Gaffir" x="1" y="0" z="1" spawntime="60" direction="1" />
+	</monster>
+	<monster centerx="1244" centery="1016" centerz="1" radius="1">
+		<monster name="Guard Captain Quaid" x="0" y="0" z="1" spawntime="60" direction="3" />
+	</monster>
+	<monster centerx="1246" centery="1017" centerz="1" radius="1">
+		<monster name="Preceptor Lazare" x="1" y="-1" z="1" spawntime="60" direction="1" />
+		<monster name="Grand Commander Soeren" x="1" y="0" z="1" spawntime="60" direction="1" />
+		<monster name="Grand Chaplain Gaunder" x="1" y="1" z="1" spawntime="60" direction="1" />
+	</monster>
+	<monster centerx="1254" centery="1017" centerz="1" radius="1">
+		<monster name="Drume" x="-1" y="0" z="1" spawntime="60" direction="3" />
+	</monster>
+	<monster centerx="1240" centery="1019" centerz="1" radius="1">
+		<monster name="Custodian" x="0" y="0" z="1" spawntime="60" />
+	</monster>
+	<monster centerx="1246" centery="1019" centerz="1" radius="1">
+		<monster name="Grand Canon Dominus" x="1" y="0" z="1" spawntime="60" direction="1" />
+	</monster>
+	<monster centerx="1239" centery="1021" centerz="1" radius="1">
+		<monster name="The Scourge Of Oblivion" x="1" y="0" z="1" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1235" centery="1023" centerz="1" radius="1">
+		<monster name="Ghulosh" x="1" y="0" z="1" spawntime="60" direction="1" />
+	</monster>
+	<monster centerx="1235" centery="1027" centerz="1" radius="1">
+		<monster name="Gorzindel" x="1" y="0" z="1" spawntime="60" direction="1" />
+	</monster>
+	<monster centerx="1239" centery="1030" centerz="1" radius="1">
+		<monster name="Lokathmor" x="0" y="-1" z="1" spawntime="60" />
+	</monster>
+	<monster centerx="1242" centery="1030" centerz="1" radius="1">
+		<monster name="Mazzinor" x="0" y="-1" z="1" spawntime="60" />
+	</monster>
 	<monster centerx="1051" centery="980" centerz="7" radius="1">
 		<monster name="Iks Aucar" x="0" y="0" z="7" spawntime="60" />
 	</monster>
