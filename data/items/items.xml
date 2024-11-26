@@ -5932,7 +5932,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -6017,7 +6017,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -6028,7 +6028,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -6039,7 +6039,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -6050,7 +6050,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -6061,7 +6061,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -6072,7 +6072,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -6083,7 +6083,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -6094,7 +6094,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -8175,7 +8175,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -8223,7 +8223,7 @@
 		<attribute key="containersize" value="24"/>
 		<attribute key="weight" value="1500"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -15629,7 +15629,7 @@
 		<attribute key="containersize" value="22"/>
 		<attribute key="weight" value="1700"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -15971,7 +15971,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -16087,7 +16087,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -19126,7 +19126,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -23483,7 +23483,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -25749,7 +25749,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -25760,7 +25760,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -25779,7 +25779,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -25790,7 +25790,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1700"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -26546,7 +26546,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -26883,7 +26883,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -26902,7 +26902,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1700"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -26913,7 +26913,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1850"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -27008,7 +27008,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1650"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -32625,7 +32625,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -32636,7 +32636,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -32737,7 +32737,7 @@
 		<attribute key="containersize" value="15"/>
 		<attribute key="weight" value="1500"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -34032,7 +34032,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -34043,7 +34043,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -39187,7 +39187,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -41037,7 +41037,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -42179,7 +42179,7 @@
 		<attribute key="absorbpercentholy" value="2"/>
 		<attribute key="absorbpercentdeath" value="2"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="description" value="Crafted with the very essence of Aiolos. It features expanded storage space, elemental resistance to all types of magic, and enhanced regeneration of health and mana."/>
 		<attribute key="script" value="moveevent">
@@ -42197,7 +42197,7 @@
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -43879,7 +43879,7 @@ Awarded by TibiaMagazine.com.ve"/>
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -46508,7 +46508,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="containersize" value="24"/>
 		<attribute key="weight" value="2160"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -47391,7 +47391,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="containersize" value="24"/>
 		<attribute key="weight" value="1450"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -47407,7 +47407,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1500"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -53467,7 +53467,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="containersize" value="22"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -56612,7 +56612,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="containersize" value="22"/>
 		<attribute key="weight" value="1500"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -59369,7 +59369,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="containersize" value="24"/>
 		<attribute key="weight" value="1500"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -61789,7 +61789,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="containersize" value="26"/>
 		<attribute key="weight" value="500"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -70365,7 +70365,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="containersize" value="20"/>
 		<attribute key="weight" value="1500"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -73384,7 +73384,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="description" value="It could be bought for Theons after the festivities of Tibia's 25th anniversary"/>
 		<attribute key="weight" value="1700"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="backpack"/>
@@ -73498,7 +73498,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="containersize" value="26"/>
 		<attribute key="weight" value="1500"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase capacity" value="3"/>
+			<attribute key="increase capacity" value="4"/>
 		</attribute>
 	</item>
 	<item id="39755" article="a" name="naga basin">
