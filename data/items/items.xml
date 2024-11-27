@@ -24063,10 +24063,12 @@
 		<attribute key="description" value="Light all important locations given to you by Lucius before one of the basins stops burning"/>
 		<attribute key="showduration" value="1"/>
 		<attribute key="speed" value="25"/>
-		<attribute key="duration" value="86400"/>
-		<attribute key="decayTo" value="0"/>
-		<attribute key="defense" value="25"/>
+		<attribute key="absorbpercentholy" value="2"/>
 		<attribute key="weight" value="1800"/>
+		<attribute key="showAttributes" value="1"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+		</attribute>
 	</item>
 	<item id="9043" article="a" name="yalahar coal basin"/>
 	<item id="9044" name="RESERVED SPRITE"/>
