@@ -37,15 +37,51 @@ function rewardLevel.onAdvance(player, skill, oldLevel, newLevel)
       if isInArray(voc, player:getVocation():getId()) then
         for level, z in pairs(x) do
           if newLevel >= level and player:getStorageValue(z.storage) ~= 1 then
-              local backpack = player:addItem(10327)
-              if not backpack then
-                return true
-              end
+              
+              local totalWeight = 0
               for v = 1, #z.items do
-                backpack:addItem(z.items[v].itemid, z.items[v].count)
-                player:sendTextMessage(MESSAGE_EVENT_ADVANCE, z.msg)
-                player:setStorageValue(z.storage, 1)
+                local rewardItem = Game.createItem(z.items[v].itemid, z.items[v].count)
+                totalWeight = totalWeight + rewardItem:getWeight()
               end
+              
+              local hasCapacity = player:getFreeCapacity() and player:getFreeCapacity() >= totalWeight
+              local hasSpace = player:getSlotItem(CONST_SLOT_BACKPACK) and player:getSlotItem(CONST_SLOT_BACKPACK):getEmptySlots() > 0
+              
+              local ID_REWARD_BACKPACK = 10327
+              if hasCapacity and hasSpace then
+                local backpack = player:addItem(ID_REWARD_BACKPACK)
+                if not backpack then
+                  player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Failed to create reward backpack. Please contact an administrator. ")
+                  return true
+                end
+                local message = nil
+                local storage = nil
+                for v = 1, #z.items do
+                  backpack:addItem(z.items[v].itemid, z.items[v].count)
+                  message = z.message
+                  storage = z.storage
+                end
+                player:sendTextMessage(MESSAGE_EVENT_ADVANCE, message)
+                player:setStorageValue(storage, 1)
+              else
+                local backpack = Game.createItem(ID_REWARD_BACKPACK)
+                if not backpack then
+                  player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Failed to create reward backpack. Please contact an administrator. ")
+                  return true
+                end
+                for v = 1, #z.items do
+                  local rewardItem = Game.createItem(z.items[v].itemid, z.items[v].count)
+                  backpack:addItemEx(rewardItem,INDEX_WHEREEVER, FLAG_NOLIMIT)
+                end
+                local inbox = player:getInbox()
+                if inbox then
+                  inbox:addItemEx(backpack, INDEX_WHEREEVER, FLAG_NOLIMIT)
+                  player:sendTextMessage(MESSAGE_EVENT_ADVANCE, z.msg)
+                  player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Check your Depot inbox.")
+                  player:getPosition():sendMagicEffect(CONST_ME_GIFT_WRAPS)
+                  player:setStorageValue(z.storage, 1)
+                end
+              end           
           end
         end
         player:save()

@@ -42,6 +42,7 @@
 	<monster centerx="1246" centery="1019" centerz="1" radius="1">
 		<monster name="Grand Canon Dominus" x="1" y="0" z="1" spawntime="60" direction="1" />
 	</monster>
+	<monster centerx="1249" centery="1020" centerz="1" radius="1" />
 	<monster centerx="1239" centery="1021" centerz="1" radius="1">
 		<monster name="The Scourge Of Oblivion" x="1" y="0" z="1" spawntime="60" direction="2" />
 	</monster>
@@ -56,6 +57,12 @@
 	</monster>
 	<monster centerx="1242" centery="1030" centerz="1" radius="1">
 		<monster name="Mazzinor" x="0" y="-1" z="1" spawntime="60" />
+	</monster>
+	<monster centerx="1248" centery="1030" centerz="1" radius="1">
+		<monster name="Lady Tenebris" x="0" y="-1" z="1" spawntime="60" />
+	</monster>
+	<monster centerx="1250" centery="1030" centerz="1" radius="1">
+		<monster name="Lloyd" x="0" y="-1" z="1" spawntime="60" />
 	</monster>
 	<monster centerx="1051" centery="980" centerz="7" radius="1">
 		<monster name="Iks Aucar" x="0" y="0" z="7" spawntime="60" />
