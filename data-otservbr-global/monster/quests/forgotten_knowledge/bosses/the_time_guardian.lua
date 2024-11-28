@@ -126,21 +126,21 @@ monster.defenses = {
 	defense = 70,
 	armor = 70,
 	--	mitigation = ???,
-	{ name = "time guardian", interval = 2000, chance = 10, target = false },
-	{ name = "time guardiann", interval = 2000, chance = 10, target = false },
+	--{ name = "time guardian", interval = 2000, chance = 10, target = false },
+	--{ name = "time guardiann", interval = 2000, chance = 10, target = false },
 }
 
 monster.elements = {
 	{ type = COMBAT_PHYSICALDAMAGE, percent = 0 },
-	{ type = COMBAT_ENERGYDAMAGE, percent = 80 },
-	{ type = COMBAT_EARTHDAMAGE, percent = 80 },
-	{ type = COMBAT_FIREDAMAGE, percent = 80 },
-	{ type = COMBAT_LIFEDRAIN, percent = 80 },
-	{ type = COMBAT_MANADRAIN, percent = 80 },
-	{ type = COMBAT_DROWNDAMAGE, percent = 80 },
-	{ type = COMBAT_ICEDAMAGE, percent = 80 },
-	{ type = COMBAT_HOLYDAMAGE, percent = 80 },
-	{ type = COMBAT_DEATHDAMAGE, percent = 80 },
+	{ type = COMBAT_ENERGYDAMAGE, percent = 20 },
+	{ type = COMBAT_EARTHDAMAGE, percent = 20 },
+	{ type = COMBAT_FIREDAMAGE, percent = 20 },
+	{ type = COMBAT_LIFEDRAIN, percent = 20 },
+	{ type = COMBAT_MANADRAIN, percent = 20 },
+	{ type = COMBAT_DROWNDAMAGE, percent = 20 },
+	{ type = COMBAT_ICEDAMAGE, percent = 20 },
+	{ type = COMBAT_HOLYDAMAGE, percent = 20 },
+	{ type = COMBAT_DEATHDAMAGE, percent = 20 },
 }
 
 monster.immunities = {

@@ -18,4 +18,4 @@ function meltingDeath.onDeath(creature, corpse, lasthitkiller, mostdamagekiller,
 	return true
 end
 
-meltingDeath:register()
+--meltingDeath:register()

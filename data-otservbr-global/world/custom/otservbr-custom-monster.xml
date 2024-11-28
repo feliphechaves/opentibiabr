@@ -42,12 +42,23 @@
 	<monster centerx="1246" centery="1019" centerz="1" radius="1">
 		<monster name="Grand Canon Dominus" x="1" y="0" z="1" spawntime="60" direction="1" />
 	</monster>
-	<monster centerx="1249" centery="1020" centerz="1" radius="1" />
+	<monster centerx="1249" centery="1020" centerz="1" radius="1">
+		<monster name="The Last Lore Keeper" x="0" y="1" z="1" spawntime="60" direction="2" />
+	</monster>
 	<monster centerx="1239" centery="1021" centerz="1" radius="1">
 		<monster name="The Scourge Of Oblivion" x="1" y="0" z="1" spawntime="60" direction="2" />
 	</monster>
+	<monster centerx="1254" centery="1022" centerz="1" radius="1">
+		<monster name="The Time Guardian" x="-1" y="0" z="1" spawntime="60" direction="3" />
+	</monster>
 	<monster centerx="1235" centery="1023" centerz="1" radius="1">
 		<monster name="Ghulosh" x="1" y="0" z="1" spawntime="60" direction="1" />
+	</monster>
+	<monster centerx="1254" centery="1024" centerz="1" radius="1">
+		<monster name="Melting Frozen Horror" x="-1" y="0" z="1" spawntime="60" direction="3" />
+	</monster>
+	<monster centerx="1254" centery="1026" centerz="1" radius="1">
+		<monster name="Dragonking Zyrtarch" x="-1" y="0" z="1" spawntime="60" direction="3" />
 	</monster>
 	<monster centerx="1235" centery="1027" centerz="1" radius="1">
 		<monster name="Gorzindel" x="1" y="0" z="1" spawntime="60" direction="1" />
@@ -63,6 +74,9 @@
 	</monster>
 	<monster centerx="1250" centery="1030" centerz="1" radius="1">
 		<monster name="Lloyd" x="0" y="-1" z="1" spawntime="60" />
+	</monster>
+	<monster centerx="1252" centery="1030" centerz="1" radius="1">
+		<monster name="The Enraged Thorn Knight" x="0" y="-1" z="1" spawntime="60" />
 	</monster>
 	<monster centerx="1051" centery="980" centerz="7" radius="1">
 		<monster name="Iks Aucar" x="0" y="0" z="7" spawntime="60" />

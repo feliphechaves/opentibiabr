@@ -14,7 +14,7 @@ monster.outfit = {
 }
 
 monster.events = {
-	"ghuloshThink",
+	--"ghuloshThink",
 }
 
 monster.bosstiary = {

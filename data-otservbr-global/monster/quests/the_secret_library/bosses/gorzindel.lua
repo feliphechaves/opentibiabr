@@ -14,7 +14,7 @@ monster.outfit = {
 }
 
 monster.events = {
-	"gorzindelHealth",
+	--"gorzindelHealth",
 }
 
 monster.bosstiary = {
