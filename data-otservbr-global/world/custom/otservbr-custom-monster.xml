@@ -57,6 +57,9 @@
 	<monster centerx="1254" centery="1024" centerz="1" radius="1">
 		<monster name="Melting Frozen Horror" x="-1" y="0" z="1" spawntime="60" direction="3" />
 	</monster>
+	<monster centerx="1235" centery="1025" centerz="1" radius="1">
+		<monster name="Brokul" x="1" y="0" z="1" spawntime="60" direction="1" />
+	</monster>
 	<monster centerx="1254" centery="1026" centerz="1" radius="1">
 		<monster name="Dragonking Zyrtarch" x="-1" y="0" z="1" spawntime="60" direction="3" />
 	</monster>
