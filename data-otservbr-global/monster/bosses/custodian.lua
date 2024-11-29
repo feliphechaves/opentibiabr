@@ -78,6 +78,7 @@ monster.loot = {
 	{ name = "cobra crest", chance = 11000 },
 	{ name = "skull helmet", chance = 7500 },
 	{ name = "cobra club", chance = 100 },
+	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
 }
 
 monster.attacks = {

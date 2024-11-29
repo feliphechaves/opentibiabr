@@ -102,6 +102,7 @@ monster.loot = {
 	{ name = "wand of inferno", chance = 30000 },
 	{ id = 28341, chance = 1000 }, -- tessellated wall
 	{ name = "sturdy book", chance = 1000 },
+	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
 }
 
 monster.attacks = {

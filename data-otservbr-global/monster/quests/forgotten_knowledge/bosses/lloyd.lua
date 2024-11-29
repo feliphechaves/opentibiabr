@@ -109,6 +109,7 @@ monster.loot = {
 	{ name = "boots of haste", chance = 2560 },
 	{ id = 24959, chance = 500, unique = true }, -- part of a rune
 	{ name = "pillow backpack", chance = 256 },
+	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
 }
 
 monster.attacks = {

@@ -96,6 +96,7 @@ monster.loot = {
 	{ id = 39177, chance = 250 }, -- name = "charged spiritthorn ring"
 	{ name = "portable flame", chance = 250 },
 	{ name = "firefighting axe", chance = 250 },
+	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
 }
 
 monster.attacks = {

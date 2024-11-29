@@ -90,6 +90,7 @@ monster.loot = {
 	{ name = "deepling ceremonial dagger", chance = 200 },
 	{ name = "deepling fork", chance = 200 },
 	{ name = "true book of death", chance = 70000 },
+	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
 }
 
 monster.attacks = {

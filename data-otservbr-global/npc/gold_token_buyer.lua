@@ -23,29 +23,35 @@ npcConfig.flags = {
 npcConfig.shop = {
 
 	--equipments
-	{ itemName = "starlight vial", clientId = 25976, buy = 25 },
-	{ itemName = "sun catcher", clientId = 25977, buy = 25 },
-	{ itemName = "moon mirror", clientId = 25975, buy = 25 },
-	{ itemName = "bone fiddle", clientId = 28493, buy = 25 },
-	{ itemName = "magical torch", clientId = 9042, buy = 25 },
+	{ itemName = "starlight vial", clientId = 25976, buy = 10 },
+	{ itemName = "sun catcher", clientId = 25977, buy = 10 },
+	{ itemName = "moon mirror", clientId = 25975, buy = 10 },
+	{ itemName = "bone fiddle", clientId = 28493, buy = 10 },
+	{ itemName = "magical torch", clientId = 9042, buy = 10 },
 	
+	--equipments class 4
+	{ itemName = "class 4 helmet", clientId = 3395, buy = 5 },
+	{ itemName = "class 4 armor", clientId = 37608, buy = 5 },
+	{ itemName = "class 4 legs", clientId = 37607, buy = 5 },
+	{ itemName = "class 4 weapon", clientId = 3296, buy = 5 },
+
 	--tools
-	{ itemName = "obsidian knife", clientId = 5908, buy = 15 },
-	{ itemName = "sneaky stabber of eliteness", clientId = 9594, buy = 20 },
-	{ itemName = "squeezing gear of girlpower", clientId = 9596, buy = 20 },
-	{ itemName = "whacking driller of fate", clientId = 9598, buy = 20 },
-	{ itemName = "blessed wooden stake", clientId = 5942, buy = 20 },
+	{ itemName = "obsidian knife", clientId = 5908, buy = 5 },
+	{ itemName = "sneaky stabber of eliteness", clientId = 9594, buy = 5 },
+	{ itemName = "squeezing gear of girlpower", clientId = 9596, buy = 5 },
+	{ itemName = "whacking driller of fate", clientId = 9598, buy = 5 },
+	{ itemName = "blessed wooden stake", clientId = 5942, buy = 5 },
 
 	--mount
-	{ itemName = "music box", clientId = 16244, buy = 60 },
+	{ itemName = "music box", clientId = 16244, buy = 20 },
 
 	--foods
-	{ itemName = "blueberry cupcake", clientId = 28484, buy = 10 },
-	{ itemName = "carrot cake", clientId = 9087, buy = 10 },
-	{ itemName = "roasted dragon wings", clientId = 9081, buy = 10 },
-	{ itemName = "rotworm stew", clientId = 9079, buy = 10 },
-	{ itemName = "tropical fried terrorbird", clientId = 9082, buy = 10 },
-	{ itemName = "veggie casserole", clientId = 9084, buy = 10 },	
+	{ itemName = "blueberry cupcake", clientId = 28484, buy = 3 },
+	{ itemName = "carrot cake", clientId = 9087, buy = 3 },
+	{ itemName = "roasted dragon wings", clientId = 9081, buy = 3 },
+	{ itemName = "rotworm stew", clientId = 9079, buy = 3 },
+	{ itemName = "tropical fried terrorbird", clientId = 9082, buy = 3 },
+	{ itemName = "veggie casserole", clientId = 9084, buy = 3 }
 }
 
 local keywordHandler = KeywordHandler:new()
