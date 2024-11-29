@@ -81,6 +81,28 @@
 	<monster centerx="1252" centery="1030" centerz="1" radius="1">
 		<monster name="The Enraged Thorn Knight" x="0" y="-1" z="1" spawntime="60" />
 	</monster>
+	<monster centerx="1242" centery="1007" centerz="2" radius="1">
+		<monster name="The Pale Worm" x="1" y="1" z="2" spawntime="60" direction="1" />
+	</monster>
+	<monster centerx="1242" centery="1013" centerz="2" radius="1">
+		<monster name="The Fear Feaster" x="1" y="-1" z="2" spawntime="60" direction="1" />
+		<monster name="The Unwelcome" x="1" y="1" z="2" spawntime="60" direction="1" />
+	</monster>
+	<monster centerx="1242" centery="1015" centerz="2" radius="1">
+		<monster name="The Dread Maiden" x="1" y="1" z="2" spawntime="60" direction="1" />
+	</monster>
+	<monster centerx="1242" centery="1018" centerz="2" radius="1">
+		<monster name="Brain Head" x="1" y="0" z="2" spawntime="60" direction="1" />
+	</monster>
+	<monster centerx="1242" centery="1020" centerz="2" radius="1">
+		<monster name="Unaz The Mean" x="1" y="0" z="2" spawntime="60" direction="1" />
+	</monster>
+	<monster centerx="1242" centery="1021" centerz="2" radius="1">
+		<monster name="Irgix The Flimsy" x="1" y="1" z="2" spawntime="60" direction="1" />
+	</monster>
+	<monster centerx="1242" centery="1024" centerz="2" radius="1">
+		<monster name="Vok The Freakish" x="1" y="0" z="2" spawntime="60" direction="1" />
+	</monster>
 	<monster centerx="1051" centery="980" centerz="7" radius="1">
 		<monster name="Iks Aucar" x="0" y="0" z="7" spawntime="60" />
 	</monster>
