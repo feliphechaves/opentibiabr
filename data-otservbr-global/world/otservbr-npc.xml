@@ -1761,6 +1761,9 @@
 	<npc centerx="32450" centery="32226" centerz="7" radius="1">
 		<npc name="Palomino" x="0" y="0" z="7" spawntime="60" />
 	</npc>
+	<npc centerx="32362" centery="32227" centerz="7" radius="1">
+		<npc name="Nekodlog" x="0" y="0" z="7" spawntime="60" />
+	</npc>
 	<npc centerx="33492" centery="32227" centerz="7" radius="1">
 		<npc name="Taegen" x="0" y="0" z="7" spawntime="60" />
 	</npc>
