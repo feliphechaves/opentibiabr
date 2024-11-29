@@ -103,6 +103,19 @@
 	<monster centerx="1242" centery="1024" centerz="2" radius="1">
 		<monster name="Vok The Freakish" x="1" y="0" z="2" spawntime="60" direction="1" />
 	</monster>
+	<monster centerx="1245" centery="998" centerz="3" radius="1">
+		<monster name="The Primal Menace" x="0" y="1" z="3" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1250" centery="998" centerz="3" radius="1">
+		<monster name="Ratmiral Blackwhiskers" x="-1" y="1" z="3" spawntime="60" direction="2" />
+		<monster name="Tentugly's Head" x="1" y="1" z="3" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1253" centery="998" centerz="3" radius="1">
+		<monster name="Timira the Many-Headed" x="0" y="1" z="3" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1241" centery="1004" centerz="3" radius="1">
+		<monster name="Magma Bubble" x="1" y="0" z="3" spawntime="60" direction="1" />
+	</monster>
 	<monster centerx="1051" centery="980" centerz="7" radius="1">
 		<monster name="Iks Aucar" x="0" y="0" z="7" spawntime="60" />
 	</monster>
