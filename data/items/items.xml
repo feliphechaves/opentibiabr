@@ -38896,9 +38896,9 @@
 		<attribute key="primarytype" value="wall hangings"/>
 	</item>
 	<item id="19081" article="a" name="skull"/>
-	<item id="19082" article="a" name="golden raid token">
+	<item id="19082" article="a" name="portable forge">
 		<attribute key="primarytype" value="valuables"/>
-		<attribute key="description" value="Forged by Tamoril, the dragon-shaped leader of the Mage Guild. Consumed upon use, this item grants access to the exaltation forge. Only VIP players are eligible to wield its capabilities."/>
+		<attribute key="description" value="Consumed upon use if you are not a VIP. This item open the Exaltation Forge."/>
 		<attribute key="weight" value="110"/>
 	</item>
 	<item id="19083" article="a" name="silver raid token">

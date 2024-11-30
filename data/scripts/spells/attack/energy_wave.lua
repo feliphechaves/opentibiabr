@@ -1,7 +1,9 @@
+local function adjustValues(min, max) return min * 2, max * 2 end
+
 local function formulaFunction(player, level, maglevel)
 	local min = (level / 5) + (maglevel * 4.5)
 	local max = (level / 5) + (maglevel * 9)
-	return -min, -max
+	return adjustValues(-min, -max)
 end
 
 function onGetFormulaValues(player, level, maglevel)

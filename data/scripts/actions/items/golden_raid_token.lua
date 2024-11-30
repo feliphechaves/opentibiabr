@@ -1,14 +1,10 @@
 local usableItemMounts = Action()
 
 function usableItemMounts.onUse(player, item, fromPosition, target, toPosition, isHotkey)
+	player:openForge()
 	if not player:isVip() then
-		player:sendCancelMessage("You need to be VIP.")
-		return true
+		item:remove(1)
 	end
-
-    player:openForge()
-	item:remove(1)
-
 	return true
 end
 

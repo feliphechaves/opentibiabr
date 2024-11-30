@@ -4,12 +4,14 @@ combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_STONES)
 combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_EARTH)
 combat:setArea(createCombatArea(AREA_CIRCLE3X3))
 
+local function adjustValues(min, max) return min * 2, max * 2 end
+
 function onGetFormulaValues(player, level, magicLevel)
 	local min = (level / 5) + (magicLevel * 1) + 6
 	local max = (level / 5) + (magicLevel * 2.6) + 16
 	min = min * 1.3
 	max = max * 1.3
-	return -min, -max
+	return adjustValues(-min, -max)
 end
 
 combat:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")

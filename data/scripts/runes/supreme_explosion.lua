@@ -5,12 +5,14 @@ combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_EXPLOSION)
 combat:setParameter(COMBAT_PARAM_BLOCKARMOR, 1)
 combat:setArea(createCombatArea(AREA_CIRCLE1X1))
 
+local function adjustValues(min, max) return min * 2, max * 2 end
+
 function onGetFormulaValues(player, level, maglevel)
 	local min = 0
 	local max = (level / 5) + (maglevel * 4.8)
 	min = min * 1.3
 	max = max * 1.3
-	return -min, -max
+	return adjustValues(-min, -max)
 end
 
 combat:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
