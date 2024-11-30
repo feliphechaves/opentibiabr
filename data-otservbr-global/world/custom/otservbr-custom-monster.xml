@@ -116,6 +116,24 @@
 	<monster centerx="1241" centery="1004" centerz="3" radius="1">
 		<monster name="Magma Bubble" x="1" y="0" z="3" spawntime="60" direction="1" />
 	</monster>
+	<monster centerx="1250" centery="993" centerz="4" radius="1">
+		<monster name="Goshnar's Malice" x="0" y="1" z="4" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1255" centery="993" centerz="4" radius="1">
+		<monster name="Goshnar's Spite" x="0" y="1" z="4" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1260" centery="993" centerz="4" radius="1">
+		<monster name="Goshnar's Greed" x="0" y="1" z="4" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1265" centery="993" centerz="4" radius="1">
+		<monster name="Goshnar's Hatred" x="0" y="1" z="4" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1270" centery="993" centerz="4" radius="1">
+		<monster name="Goshnar's Cruelty" x="0" y="1" z="4" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1276" centery="998" centerz="4" radius="1">
+		<monster name="Goshnar's Megalomania Blue" x="-1" y="0" z="4" spawntime="60" direction="3" />
+	</monster>
 	<monster centerx="1051" centery="979" centerz="7" radius="1">
 		<monster name="Iks Aucar" x="0" y="1" z="7" spawntime="60" direction="2" />
 	</monster>

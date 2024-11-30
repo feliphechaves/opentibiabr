@@ -326,7 +326,7 @@ SoulWarQuest = {
 				from = Position(33737, 31658, 14),
 				to = Position(33755, 31673, 14),
 			},
-			timeToFightAgain = 0, -- TODO: Remove later
+			timeToFightAgain = 20 * 60 * 60, -- 20 hours
 			onUseExtra = function()
 				CreateGoshnarsGreedMonster("Greedbeast", Position(33744, 31666, 14))
 				CreateGoshnarsGreedMonster("Soulsnatcher", Position(33747, 31668, 14))
