@@ -16,7 +16,7 @@ local config = {
 		from = Position(33472, 31427, 15),
 		to = Position(33496, 31450, 15),
 	},
-	exit = Position(33528, 31464, 14)
+	exit = Position(33528, 31464, 14),
 }
 
 local leverBrokul = BossLever(config)

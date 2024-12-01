@@ -895,7 +895,7 @@ function soulWarAspectOfPowerDeath.onDeath(creature)
 	if not targetMonster or targetMonster:getMaster() then
 		return
 	end
-	
+
 	logger.debug("Aspect of Power died, checking if all are dead.")
 	local boss = Creature("Goshnar's Megalomania")
 	if boss and boss:getTypeName() == "Goshnar's Megalomania Purple" then

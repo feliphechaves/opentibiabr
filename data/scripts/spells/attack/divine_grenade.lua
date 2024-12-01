@@ -3,7 +3,9 @@ combatGrenade:setParameter(COMBAT_PARAM_TYPE, COMBAT_HOLYDAMAGE)
 combatGrenade:setArea(createCombatArea(AREA_CIRCLE2X2))
 combatGrenade:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_HOLYDAMAGE)
 
-local function adjustValues(min, max) return min * 2, max * 2 end
+local function adjustValues(min, max)
+	return min * 2, max * 2
+end
 
 function onGetFormulaValues(player, level, maglevel)
 	local min = (level / 5) + (maglevel * 4)
@@ -37,7 +39,7 @@ local explodeGrenade = function(position, playerId)
 	end
 
 	local var = {}
-	var.instantName = "Divine Grenade Explode"
+	var.instantName = "Divine Grenade"
 	var.runeName = ""
 	var.type = 2 -- VARIANT_POSITION
 	var.pos = position

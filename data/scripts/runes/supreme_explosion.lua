@@ -5,7 +5,9 @@ combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_EXPLOSION)
 combat:setParameter(COMBAT_PARAM_BLOCKARMOR, 1)
 combat:setArea(createCombatArea(AREA_CIRCLE1X1))
 
-local function adjustValues(min, max) return min * 2, max * 2 end
+local function adjustValues(min, max)
+	return min * 2, max * 2
+end
 
 function onGetFormulaValues(player, level, maglevel)
 	local min = 0

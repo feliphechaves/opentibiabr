@@ -28,7 +28,7 @@ npcConfig.shop = {
 	{ itemName = "moon mirror", clientId = 25975, buy = 10 },
 	{ itemName = "bone fiddle", clientId = 28493, buy = 10 },
 	{ itemName = "magical torch", clientId = 9042, buy = 10 },
-	
+
 	--equipments class 4
 	{ itemName = "class 4 helmet", clientId = 3395, buy = 5 },
 	{ itemName = "class 4 armor", clientId = 37608, buy = 5 },
@@ -51,7 +51,7 @@ npcConfig.shop = {
 	{ itemName = "roasted dragon wings", clientId = 9081, buy = 3 },
 	{ itemName = "rotworm stew", clientId = 9079, buy = 3 },
 	{ itemName = "tropical fried terrorbird", clientId = 9082, buy = 3 },
-	{ itemName = "veggie casserole", clientId = 9084, buy = 3 }
+	{ itemName = "veggie casserole", clientId = 9084, buy = 3 },
 }
 
 local keywordHandler = KeywordHandler:new()

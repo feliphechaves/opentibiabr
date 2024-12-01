@@ -4,7 +4,9 @@ combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_STONES)
 combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_EARTH)
 combat:setArea(createCombatArea(AREA_CIRCLE1X1))
 
-local function adjustValues(min, max) return min * 2, max * 2 end
+local function adjustValues(min, max)
+	return min * 2, max * 2
+end
 
 function onGetFormulaValues(player, level, maglevel)
 	level = math.min(level, 20)
