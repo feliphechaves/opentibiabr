@@ -76882,7 +76882,6 @@ Granted by TibiaGoals.com"/>
 		<attribute key="loottype" value="tools"/>
 		<attribute key="weight" value="30"/>
 	</item>
-<<<<<<< HEAD
 	<item id="49284" article="a" name="earth protector">
 		<attribute key="showAttributes" value="1"/>
 		<attribute key="absorbpercentearth" value="12"/>
@@ -76990,7 +76989,6 @@ Granted by TibiaGoals.com"/>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="ammo"/>
 		</attribute>
-=======
 	<item id="47381" article="an" name="orc warlord soul core">
 		<attribute key="primarytype" value="soul cores"/>
 		<attribute key="description" value="Offers a soul to the Soulpit. Combine with an exalted core to turn it into a lesser soul core."/>
@@ -80290,7 +80288,6 @@ Granted by TibiaGoals.com"/>
 		<attribute key="primarytype" value="soul cores"/>
 		<attribute key="description" value="Offers a soul to the Soulpit. Combine with an exalted core to turn it into a lesser soul core."/>
 		<attribute key="weight" value="100"/>
->>>>>>> upstream/main
 	</item>
 </items>
 
