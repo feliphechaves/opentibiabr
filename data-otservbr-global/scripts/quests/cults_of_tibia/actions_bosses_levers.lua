@@ -209,7 +209,7 @@ function cultsOfTibiaLevers.onUse(player, item, fromPosition, itemEx, toPosition
 					teleport = teleport + 1
 					table.insert(playersInArea, nplayer)
 				end
-			end			
+			end
 
 			if isPlayerInArea(frompos, topos) then
 				player:sendCancelMessage("The room is full.")
@@ -256,7 +256,7 @@ function cultsOfTibiaLevers.onUse(player, item, fromPosition, itemEx, toPosition
 					teleport = teleport + 1
 					table.insert(playersInArea, nplayer)
 				end
-			end			
+			end
 
 			if isPlayerInArea(frompos, topos) then
 				player:sendCancelMessage("It looks like there is someone inside.")

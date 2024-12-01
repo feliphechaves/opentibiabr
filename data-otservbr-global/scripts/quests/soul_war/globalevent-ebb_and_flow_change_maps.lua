@@ -145,7 +145,6 @@ function eddAndFlowInundate.onThink(interval, lastExecution)
 		loadMapEmpty()
 	end
 	]]
-	
 
 	return true
 end

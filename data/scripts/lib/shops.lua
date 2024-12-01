@@ -92,14 +92,13 @@ SupplyShopConfigTable = {
 		{ itemName = "thunderstorm rune", clientId = 3202, buy = 100 },
 		{ itemName = "ultimate healing rune", clientId = 3160, buy = 175 },
 		{ itemName = "wild growth rune", clientId = 3156, buy = 160 },
-		
+
 		{ itemName = "supreme avalanche rune", clientId = 11623, buy = 200 },
 		{ itemName = "supreme thunderstorm rune", clientId = 11619, buy = 200 },
 		{ itemName = "supreme sudden death rune", clientId = 11609, buy = 200 },
 		{ itemName = "supreme explosion rune", clientId = 11607, buy = 200 },
 		{ itemName = "supreme great fireball rune", clientId = 11615, buy = 200 },
 		{ itemName = "supreme stone shower rune", clientId = 49279, buy = 200 },
-
 	},
 	["tools"] = {
 		{ itemName = "fishing rod", clientId = 3483, buy = 150 },
@@ -161,7 +160,6 @@ SupplyShopConfigTable = {
 		{ itemName = "yellow backpack", clientId = 2866, buy = 1000 },
 		{ itemName = "expedition backpack", clientId = 10324, buy = 1000 },
 	},
-	
 }
 
 SupplyShopConfig = {}

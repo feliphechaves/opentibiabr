@@ -1,4 +1,6 @@
-local function adjustValues(min, max) return min * 2, max * 2 end
+local function adjustValues(min, max)
+	return min * 2, max * 2
+end
 
 local function formulaFunction(player, level, maglevel)
 	local min = (level / 5) + (maglevel * 1.8) + 11

@@ -118,27 +118,26 @@ monster.immunities = {
 }
 
 mType.onThink = function(monster, interval)
-    -- Verifica se Oberon já curou 3 vezes
-    local currentLife = monster:getStorageValue(GrandMasterOberonConfig.Storage.Life)
-    
-    -- Se ainda não atingiu o limite de curas (3 vezes), tenta curar
-    if currentLife < GrandMasterOberonConfig.AmountLife then
-        local percentageHealth = (monster:getHealth() * 100) / monster:getMaxHealth()
-        if percentageHealth <= 20 then
-            monster:unregisterEvent("OberonImmunity")
-            monster:addHealth(monster:getMaxHealth())
-            -- Incrementa o número de curas realizadas
-            monster:setStorageValue(GrandMasterOberonConfig.Storage.Life, currentLife + 1)
-        end
-    end
+	-- Verifica se Oberon já curou 3 vezes
+	local currentLife = monster:getStorageValue(GrandMasterOberonConfig.Storage.Life)
 
-    -- Depois de 3 curas, Oberon continua lutando até morrer, sem mais curas
-    if currentLife >= GrandMasterOberonConfig.AmountLife then
-        -- Aqui você pode adicionar comportamento de combate (se necessário), como ataques ou habilidades especiais
-        -- Exemplo: monster:doCombat(monster:getTarget(), COMBAT_PHYSICALDAMAGE, 50)  -- Ataque físico básico
-    end
+	-- Se ainda não atingiu o limite de curas (3 vezes), tenta curar
+	if currentLife < GrandMasterOberonConfig.AmountLife then
+		local percentageHealth = (monster:getHealth() * 100) / monster:getMaxHealth()
+		if percentageHealth <= 20 then
+			monster:unregisterEvent("OberonImmunity")
+			monster:addHealth(monster:getMaxHealth())
+			-- Incrementa o número de curas realizadas
+			monster:setStorageValue(GrandMasterOberonConfig.Storage.Life, currentLife + 1)
+		end
+	end
+
+	-- Depois de 3 curas, Oberon continua lutando até morrer, sem mais curas
+	if currentLife >= GrandMasterOberonConfig.AmountLife then
+		-- Aqui você pode adicionar comportamento de combate (se necessário), como ataques ou habilidades especiais
+		-- Exemplo: monster:doCombat(monster:getTarget(), COMBAT_PHYSICALDAMAGE, 50)  -- Ataque físico básico
+	end
 end
-
 
 mType.onAppear = function(monster, creature)
 	if monster:getId() == creature:getId() then

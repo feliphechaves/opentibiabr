@@ -7,7 +7,7 @@ function save.onSay(player, words, param)
 			totalMonsters = totalMonsters + 1
 		end
 	end
-	
+
 	player:sendTextMessage(MESSAGE_ADMINISTRATOR, totalMonsters)
 	-- create log
 	logCommand(player, words, param)

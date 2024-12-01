@@ -57,7 +57,6 @@ function Monster:generateGemAtelierLoot()
 	--elseif (mType:bossRace() or ""):lower() == "archfoe" then
 	elseif mType:isRewardBoss() then
 		category = "archfoe"
-	
 	end
 	if category == "none" then
 		return {}

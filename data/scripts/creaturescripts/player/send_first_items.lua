@@ -109,7 +109,7 @@ function sendFirstItems.onLogin(player)
 	end
 	return true
 	]]
-	
+
 	local bag = player:addItem(8861) --brocade bag
 	if not bag then
 		return true

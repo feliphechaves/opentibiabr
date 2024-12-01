@@ -94,7 +94,11 @@ function deathEvent.onDeath(creature)
 	end
 
 	local monster = creature:getMonster()
-	if not creature or not monster --[[or not monster:hazard()]] or not hazard:isInZone(monster:getPosition()) then
+	if
+		not creature
+		or not monster --[[or not monster:hazard()]]
+		or not hazard:isInZone(monster:getPosition())
+	then
 		return true
 	end
 	-- don't spawn pods or plunder if the monster is a reward boss

@@ -92,10 +92,10 @@ GameStore.Categories = {
 
 	--Equipments
 	{
-		icons = {"Category_ExclusiveOffers.png"},
+		icons = { "Category_ExclusiveOffers.png" },
 		name = "Equipments",
 		rookgaard = true,
-		subclasses = {"Custom"},
+		subclasses = { "Custom" },
 	},
 	{
 		icons = { "Category_ExclusiveOffers.png" },
@@ -113,7 +113,7 @@ GameStore.Categories = {
 				description = "Equippable in the arrow slot\nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection earth +12% \n 1 slot imbuement",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				movable = true,
-				home = true
+				home = true,
 			},
 			{
 				icons = { "Holy_Protector.png" },
@@ -124,7 +124,7 @@ GameStore.Categories = {
 				description = "Equippable in the arrow slot\nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection holy +12% \n 1 slot imbuement",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				movable = true,
-				home = true
+				home = true,
 			},
 			{
 				icons = { "Ice_Protector.png" },
@@ -135,7 +135,7 @@ GameStore.Categories = {
 				description = "Equippable in the arrow slot\nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection ice +12% \n 1 slot imbuement",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				movable = true,
-				home = true
+				home = true,
 			},
 			{
 				icons = { "Death_Protector.png" },
@@ -146,7 +146,7 @@ GameStore.Categories = {
 				description = "Equippable in the arrow slot\nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection death +12% \n 1 slot imbuement",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				movable = true,
-				home = true
+				home = true,
 			},
 			{
 				icons = { "Fire_Protector.png" },
@@ -157,7 +157,7 @@ GameStore.Categories = {
 				description = "Equippable in the arrow slot\nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection fire +12% \n 1 slot imbuement",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				movable = true,
-				home = true
+				home = true,
 			},
 			{
 				icons = { "Energy_Protector.png" },
@@ -168,9 +168,9 @@ GameStore.Categories = {
 				description = "Equippable in the arrow slot\nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection energy +12% \n 1 slot imbuement",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				movable = true,
-				home = true
+				home = true,
 			},
-		}
+		},
 	},
 
 	-- Consumables
@@ -3575,7 +3575,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				
 			},
 			{
 				icons = { "Portable_Aqueduct.png" },
@@ -5853,7 +5852,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "<i>Carries as many loot as your capacity allows.</i>\n\n{character}\n{storeinbox}\n{once}\n{useicon} use it to open it\n{info} always placed on the first position of your Store inbox",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM_UNIQUE,
-				home = true
+				home = true,
 			},
 			{
 				icons = { "Supreme_Cube.png" },
@@ -5863,7 +5862,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "<i>Cubo magico capaz de teleportar quem o usa para qualquer cidade.</i>\n\nTeleporta para as principais cidades do jogo e inclusive para a NPC Island! \nPode ser usado fora de protection zone!",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM_UNIQUE,
-				home = true
+				home = true,
 			},
 			{
 				icons = { "Aiolos_Backpack.png" },
@@ -5874,7 +5873,7 @@ GameStore.Categories = {
 				movable = true,
 				description = "<i>Crafted with the very essence of Aiolos. It features expanded storage space, elemental resistance to all types of magic, and enhanced regeneration of health and mana.</i>\n\n50 Slots\nRegen 50 hp and 50 mp per second second \nprotection physical +2%\nenergy +2%\nearth +2%\nfire +1%\nice +2%\nholy +2%\ndeath +2%",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
-				home = true
+				home = true,
 			},
 			{
 				icons = { "Prey_Bonus_Reroll.png" },
@@ -6032,7 +6031,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				
 			},
 			{
 				icons = { "Gilded_Crown.png" },
@@ -6042,7 +6040,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				
 			},
 			{
 				icons = { "Gilded_Horned_Helmet.png" },
@@ -6052,7 +6049,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				
 			},
 			{
 				icons = { "Gilded_Magic_Longsword.png" },
@@ -6062,7 +6058,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				
 			},
 			{
 				icons = { "Gilded_Warlord_Sword.png" },
@@ -6072,7 +6067,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				
 			},
 			{
 				icons = { "Guzzlemaw_Grub.png" },

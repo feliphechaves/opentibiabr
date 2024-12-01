@@ -36,7 +36,6 @@ function callback.monsterOnDropLoot(monster, corpse)
 		corpse:setDuration(15)
 		corpse:decay(0)
 	end
-	
 end
 
 callback:register()
