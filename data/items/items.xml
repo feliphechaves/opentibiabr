@@ -30272,10 +30272,12 @@
 		<attribute key="decayTo" value="12532"/>
 		<attribute key="containersize" value="11"/>
 	</item>
+	
 	<item id="12532" article="a" name="dead dromedary">
 		<attribute key="duration" value="60"/>
 		<attribute key="decayTo" value="0"/>
 	</item>
+
 	<item id="12533" article="a" name="dead slug">
 		<attribute key="fluidsource" value="slime"/>
 		<attribute key="duration" value="300"/>
@@ -42488,14 +42490,12 @@
 	</item>
 	<item id="21435" article="a" name="black knight doll">
 		<attribute key="primarytype" value="fansite items"/>
-		<attribute key="description" value="Awarded by TibiaLatina.Fandom.com.
-My sad story is told by few living humans but many dead warriors"/>
+		<attribute key="description" value="Awarded by TibiaLatina.Fandom.com. My sad story is told by few living humans but many dead warriors"/>
 		<attribute key="weight" value="1800"/>
 	</item>
 	<item id="21436" article="a" name="black knight doll">
 		<attribute key="primarytype" value="fansite items"/>
-		<attribute key="description" value="Awarded by TibiaLatina.Fandom.com.
-My sad story is told by few living humans but many dead warriors"/>
+		<attribute key="description" value="Awarded by TibiaLatina.Fandom.com. My sad story is told by few living humans but many dead warriors"/>
 		<attribute key="duration" value="3"/>
 		<attribute key="decayTo" value="21435"/>
 		<attribute key="weight" value="1800"/>
@@ -43349,8 +43349,7 @@ My sad story is told by few living humans but many dead warriors"/>
 	<item id="21946" article="a" name="remains of amphora"/>
 	<item fromid="21947" toid="21948" article="a" name="midnight panther doll">
 		<attribute key="primarytype" value="dolls and bears"/>
-		<attribute key="description" value="It is said to be a symbol of perseverance and luck.
-Awarded by TibiaMagazine.com.ve"/>
+		<attribute key="description" value="It is said to be a symbol of perseverance and luck. Awarded by TibiaMagazine.com.ve"/>
 		<attribute key="weight" value="1700"/>
 	</item>
 	<item id="21949" name="RESERVED SPRITE"/>
@@ -44232,8 +44231,7 @@ Awarded by TibiaMagazine.com.ve"/>
 		<attribute key="weight" value="1500"/>
 	</item>
 	<item fromid="22153" toid="22154" name="dark wizard's crown">
-		<attribute key="description" value="It grants infinite power and knowledge to the one who wears it.
-Awarded by TibiaMisterios.com.br"/>
+		<attribute key="description" value="It grants infinite power and knowledge to the one who wears it. Awarded by TibiaMisterios.com.br"/>
 		<attribute key="weight" value="666"/>
 	</item>
 	<item id="22155" name="RESERVED SPRITE"/>
@@ -45702,18 +45700,14 @@ Awarded by TibiaMisterios.com.br"/>
 	</item>
 	<item fromid="22886" toid="22888" name="RESERVED SPRITE"/>
 	<item id="22889" article="a" name="shield of destiny">
-		<attribute key="description" value="Holding the divine intellect of Uman and the merciless
-destruction instinct of Zathroth, the eternal balance remains on the
-hands of its owner. Granted by TibiaRoyal.com"/>
+		<attribute key="description" value="Holding the divine intellect of Uman and the merciless destruction instinct of Zathroth, the eternal balance remains on the hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="weight" value="6800"/>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="shield"/>
 		</attribute>
 	</item>
 	<item id="22890" article="a" name="shield of destiny">
-		<attribute key="description" value="Holding the divine intellect of Uman and the merciless
-destruction instinct of Zathroth, the eternal balance remains on the
-hands of its owner. Granted by TibiaRoyal.com"/>
+		<attribute key="description" value="Holding the divine intellect of Uman and the merciless destruction instinct of Zathroth, the eternal balance remains on the hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="duration" value="3"/>
 		<attribute key="decayTo" value="22889"/>
 		<attribute key="weight" value="6800"/>
@@ -65432,14 +65426,12 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 	</item>
 	<item id="34326" name="wicked witch">
 		<attribute key="primarytype" value="fansite items"/>
-		<attribute key="description" value="She was one of Ferumbras'
-former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
+		<attribute key="description" value="She was one of Ferumbras' former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 		<attribute key="weight" value="1989"/>
 	</item>
 	<item id="34327" name="wicked witch">
 		<attribute key="primarytype" value="fansite items"/>
-		<attribute key="description" value="She was one of Ferumbras'
-former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
+		<attribute key="description" value="She was one of Ferumbras' former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 		<attribute key="weight" value="1989"/>
 		<attribute key="duration" value="4"/>
 		<attribute key="decayTo" value="34326"/>
@@ -68923,25 +68915,21 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
 	<item id="36996" article="a" name="Luna">
-		<attribute key="description" value="Gently shrouded in clouds, her dreams are about to come true. As she awakens something magical is about to happen.
-Granted by TibiaGoals.com"/>
+		<attribute key="description" value="Gently shrouded in clouds, her dreams are about to come true. As she awakens something magical is about to happen. Granted by TibiaGoals.com"/>
 		<attribute key="weight" value="200"/>
 	</item>
 	<item id="36997" article="a" name="Luna">
-		<attribute key="description" value="Gently shrouded in clouds, her dreams are about to come true. As she awakens something magical is about to happen.
-Granted by TibiaGoals.com"/>
+		<attribute key="description" value="Gently shrouded in clouds, her dreams are about to come true. As she awakens something magical is about to happen. Granted by TibiaGoals.com"/>
 		<attribute key="weight" value="200"/>
 		<attribute key="duration" value="4"/>
 		<attribute key="decayto" value="36998"/>
 	</item>
 	<item id="36998" article="a" name="Luna">
-		<attribute key="description" value="Gently shrouded in clouds, her dreams are about to come true. As she awakens something magical is about to happen.
-Granted by TibiaGoals.com"/>
+		<attribute key="description" value="Gently shrouded in clouds, her dreams are about to come true. As she awakens something magical is about to happen. Granted by TibiaGoals.com"/>
 		<attribute key="weight" value="200"/>
 	</item>
 	<item id="36999" article="a" name="Luna">
-		<attribute key="description" value="Gently shrouded in clouds, her dreams are about to come true. As she awakens something magical is about to happen.
-Granted by TibiaGoals.com"/>
+		<attribute key="description" value="Gently shrouded in clouds, her dreams are about to come true. As she awakens something magical is about to happen. Granted by TibiaGoals.com"/>
 		<attribute key="weight" value="200"/>
 		<attribute key="duration" value="1"/>
 		<attribute key="decayto" value="36996"/>
@@ -76989,6 +76977,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="ammo"/>
 		</attribute>
+	</item>
 	<item id="47381" article="an" name="orc warlord soul core">
 		<attribute key="primarytype" value="soul cores"/>
 		<attribute key="description" value="Offers a soul to the Soulpit. Combine with an exalted core to turn it into a lesser soul core."/>
@@ -80290,4 +80279,3 @@ Granted by TibiaGoals.com"/>
 		<attribute key="weight" value="100"/>
 	</item>
 </items>
-
