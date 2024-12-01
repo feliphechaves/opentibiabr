@@ -1019,7 +1019,7 @@ local function revertTilesAndApplyDamage(zonePositions)
 				if creature then
 					local player = creature:getPlayer()
 					if player then
-						player:addHealth(-8000, COMBAT_DEATHDAMAGE)
+						player:addHealth(-20000, COMBAT_DEATHDAMAGE)
 					end
 				end
 			end
