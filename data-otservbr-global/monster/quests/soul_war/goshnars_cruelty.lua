@@ -96,6 +96,7 @@ monster.loot = {
 	{ name = "spectral saddle", chance = 400 },
 	{ name = "spectral horse tack", chance = 400 },
 	{ name = "bag you desire", chance = 100 },
+	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
 }
 
 monster.attacks = {
