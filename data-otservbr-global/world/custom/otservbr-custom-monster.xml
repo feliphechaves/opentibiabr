@@ -158,6 +158,9 @@
 	<monster centerx="1075" centery="979" centerz="7" radius="1">
 		<monster name="Rhindeer" x="0" y="1" z="7" spawntime="60" direction="2" />
 	</monster>
+	<monster centerx="1078" centery="979" centerz="7" radius="1">
+		<monster name="Bulltaur Brute" x="0" y="1" z="7" spawntime="60" direction="2" />
+	</monster>
 	<monster centerx="1051" centery="985" centerz="7" radius="1">
 		<monster name="Juggernaut" x="0" y="0" z="7" spawntime="60" />
 	</monster>
@@ -181,6 +184,9 @@
 	</monster>
 	<monster centerx="1075" centery="985" centerz="7" radius="1">
 		<monster name="Deathling Scout" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1078" centery="985" centerz="7" radius="1">
+		<monster name="Wardragon" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1042" centery="989" centerz="7" radius="1">
 		<monster name="Cobra Assassin" x="0" y="1" z="7" spawntime="60" direction="2" />
