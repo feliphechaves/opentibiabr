@@ -412,7 +412,7 @@ SoulWarQuest = {
 				to = Position(33719, 31642, 14),
 			},
 			exit = Position(33621, 31427, 10),
-			timeToFightAgain = 72 * 60 * 60, -- 72 hours
+			timeToFightAgain = 20 * 60 * 60, -- 72 hours
 			onUseExtra = function(player)
 				player:resetGoshnarSymbolTormentCounter()
 				SoulWarQuest.kvSoulWar:remove("cleansed-sanity-action")

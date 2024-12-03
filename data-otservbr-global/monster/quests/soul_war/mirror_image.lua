@@ -111,8 +111,6 @@ monster.events = {
 }
 
 mType.onPlayerAttack = function(monster, attackerPlayer)
-	logger.info("Player {}, attacking monster {}", attackerPlayer:getName(), monster:getName())
-
 	local apparitionType = ""
 
 	local sameVocationProbability = 70 -- 70% chance for create monster of first player attack vocation
