@@ -13,6 +13,13 @@ function leverTarbaz.onUse(player, item, fromPosition, target, toPosition, isHot
 			return true
 		end
 	end
+
+	if os.time() < player:getStorageValue(Storage.Quest.U10_90.FerumbrasAscension.TarbazTime) then
+		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You still can not fight this boss")
+		player:getPosition():sendMagicEffect(CONST_ME_POFF)
+		return true
+	end
+
 	if item.itemid == 8911 then
 		local playersTable = {}
 		if player:doCheckBossRoom("Tarbaz", Position(33446, 32833, 11), Position(33515, 32875, 12)) then
@@ -31,7 +38,7 @@ function leverTarbaz.onUse(player, item, fromPosition, target, toPosition, isHot
 					playerTile:getPosition():sendMagicEffect(CONST_ME_POFF)
 					playerTile:teleportTo(config.newPosition)
 					playerTile:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
-					playerTile:setStorageValue(Storage.Quest.U10_90.FerumbrasAscension.TarbazTimer, os.time() + 60 * 60 * 2 * 24)
+					playerTile:setStorageValue(Storage.Quest.U10_90.FerumbrasAscension.TarbazTime, os.time() + 60 * 60 * 20)
 					table.insert(playersTable, playerTile:getId())
 				end
 			end

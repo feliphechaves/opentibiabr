@@ -3,7 +3,7 @@ local config = {
 		name = "Ascending Ferumbras",
 		position = Position(33392, 31473, 14),
 	},
-	timeToFightAgain = 60 * 60 * 20 * 24,
+	timeToFightAgain = 60 * 60 * 2 * 24,
 	playerPositions = {
 		{ pos = Position(33270, 31477, 14), teleport = Position(33392, 31479, 14) },
 		{ pos = Position(33269, 31477, 14), teleport = Position(33392, 31479, 14) },

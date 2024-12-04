@@ -20,6 +20,13 @@ function leverShulgrax.onUse(player, item, fromPosition, target, toPosition, isH
 			return true
 		end
 	end
+
+	if os.time() < player:getStorageValue(Storage.Quest.U10_90.FerumbrasAscension.ShulgraxTime) then
+		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You still can not fight this boss")
+		player:getPosition():sendMagicEffect(CONST_ME_POFF)
+		return true
+	end
+
 	if item.itemid == 8911 then
 		local playersTable = {}
 		if player:doCheckBossRoom("Shulgrax", Position(33473, 32776, 13), Position(33496, 32798, 13)) then
@@ -38,7 +45,7 @@ function leverShulgrax.onUse(player, item, fromPosition, target, toPosition, isH
 					playerTile:getPosition():sendMagicEffect(CONST_ME_POFF)
 					playerTile:teleportTo(config.newPosition)
 					playerTile:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
-					playerTile:setStorageValue(Storage.Quest.U10_90.FerumbrasAscension.ShulgraxTimer, os.time() + 60 * 60 * 2 * 24)
+					playerTile:setStorageValue(Storage.Quest.U10_90.FerumbrasAscension.ShulgraxTime, os.time() + 60 * 60 * 20)
 					table.insert(playersTable, playerTile:getId())
 				end
 			end

@@ -20,6 +20,12 @@ function leverRagiaz.onUse(player, item, fromPosition, target, toPosition, isHot
 		end
 	end
 
+	if os.time() < player:getStorageValue(Storage.Quest.U10_90.FerumbrasAscension.RagiazTime) then
+		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You still can not fight this boss")
+		player:getPosition():sendMagicEffect(CONST_ME_POFF)
+		return true
+	end
+
 	if item.itemid == 8911 then
 		local playersTable = {}
 		if player:doCheckBossRoom("Ragiaz", Position(33472, 32323, 13), Position(33493, 32347, 13)) then
@@ -41,7 +47,7 @@ function leverRagiaz.onUse(player, item, fromPosition, target, toPosition, isHot
 					playerTile:getPosition():sendMagicEffect(CONST_ME_POFF)
 					playerTile:teleportTo(config.newPosition)
 					playerTile:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
-					playerTile:setStorageValue(Storage.Quest.U10_90.FerumbrasAscension.RagiazTimer, os.time() + 60 * 60 * 2 * 24)
+					playerTile:setStorageValue(Storage.Quest.U10_90.FerumbrasAscension.RagiazTime, os.time() + 60 * 60 * 20)
 					table.insert(playersTable, playerTile:getId())
 				end
 			end

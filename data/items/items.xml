@@ -73909,6 +73909,82 @@
 		<attribute key="description" value="It feels warm, despite being made of pure gold and jade. It seems to observe your every move."/>
 		<attribute key="weight" value="500"/>
 	</item>
+	
+	<item id="44742" article="a" name="Idol of the Forge">
+		<attribute key="loottype" value="creature products" />
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="2"/>
+	</item>
+	<item id="44741" article="a" name="Staff Piece">
+		<attribute key="loottype" value="creature products" />
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="2"/>
+	</item>
+	<item id="44737" article="a" name="Bulltaur Hoof">
+		<attribute key="loottype" value="creature products" />
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="2"/>
+	</item>
+	<item id="44738" article="a" name="Bulltaur Armor Scrap">
+		<attribute key="loottype" value="creature products" />
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="2"/>
+	</item>
+	<item id="44736" article="a" name="Bulltaur Horn">
+		<attribute key="loottype" value="creature products" />
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="2"/>
+	</item>
+	<item id="44740" article="a" name="Strange Substance">
+		<attribute key="loottype" value="creature products" />
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="2"/>
+	</item>
+	<item id="44739" article="a" name="Encrypted Notes">
+		<attribute key="loottype" value="creature products" />
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="2"/>
+	</item>
+	<item id="43859" article="a" name="basalt core">
+		<attribute key="loottype" value="creature products" />
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="1"/>
+	</item>
+	<item id="43781" article="a" name="darklight obsidian axe">
+		<attribute key="loottype" value="creature products" />
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="1"/>
+	</item>
+	<item id="43780" article="a" name="Yellow Darklight Matter">
+		<attribute key="loottype" value="creature products" />
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="1"/>
+	</item>
+	<item id="43779" article="a" name="Unstable Darklight Matter">
+		<attribute key="loottype" value="creature products" />
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="1"/>
+	</item>
+	<item id="43858" article="a" name="basalt crumbs">
+		<attribute key="loottype" value="creature products" />
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="1"/>
+	</item>
+	<item id="43782" article="a" name="lichen gobbler">
+		<attribute key="loottype" value="creature products" />
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="1"/>
+	</item>
+	<item id="43857" article="a" name="blooded worm">
+		<attribute key="loottype" value="creature products" />
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="1"/>
+	</item>
+	<item id="43856" article="a" name="bloated maggot">
+		<attribute key="loottype" value="creature products" />
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="1"/>
+	</item>
 	<item id="40582" article="a" name="crab man claws">
 		<attribute key="primarytype" value="creature products"/>
 		<attribute key="weight" value="230"/>
@@ -75529,30 +75605,30 @@
 	<item id="43846" article="a" name="decayed finger bone">
 		<attribute key="loottype" value="creature products"/>
 		<attribute key="primarytype" value="creature products"/>
-		<attribute key="weight" value="100"/>
+		<attribute key="weight" value="1"/>
 	</item>
 	<item id="43847" name="RESERVED SPRITE"/>
 	<item id="43848" name="RESERVED SPRITE"/>
 	<item id="43849" article="a" name="rotten roots">
 		<attribute key="loottype" value="creature products"/>
 		<attribute key="primarytype" value="creature products"/>
-		<attribute key="weight" value="100"/>
+		<attribute key="weight" value="1"/>
 	</item>
 	<item id="43850" article="a" name="dark obsidian splinter">
 		<attribute key="loottype" value="creature products"/>
 		<attribute key="primarytype" value="creature products"/>
-		<attribute key="weight" value="100"/>
+		<attribute key="weight" value="1"/>
 	</item>
 	<item id="43851" name="RESERVED SPRITE"/>
 	<item id="43852" article="a" name="darklight basalt chunk">
 		<attribute key="loottype" value="creature products"/>
 		<attribute key="primarytype" value="creature products"/>
-		<attribute key="weight" value="100"/>
+		<attribute key="weight" value="1"/>
 	</item>
 	<item id="43853" article="a" name="darklight core">
 		<attribute key="loottype" value="creature products"/>
 		<attribute key="primarytype" value="creature products"/>
-		<attribute key="weight" value="100"/>
+		<attribute key="weight" value="1"/>
 	</item>
 	<item id="43863" article="a" name="conch shell horn">
 		<attribute key="primarytype" value="quest items"/>
@@ -76355,6 +76431,11 @@
 		<attribute key="showCharges" value="1"/>
 		<attribute key="charges" value="14400"/>
 		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="44563" article="an" name="omnious trashcan">
+		<attribute key="primarytype" value="teleporters"/>
+		<attribute key="type" value="teleport"/>
+		<attribute key="effect" value="teleport"/>
 	</item>
 	<item id="44602" article="a" name="lesser guardian gem" plural="lesser guardian gems">
 		<attribute key="description" value="Shines with the strength of knights" />

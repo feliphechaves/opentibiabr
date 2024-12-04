@@ -20,8 +20,15 @@ function leverPlagirath.onUse(player, item, fromPosition, target, toPosition, is
 			return true
 		end
 	end
+
+	if os.time() < player:getStorageValue(Storage.Quest.U10_90.FerumbrasAscension.PlagirathTime) then
+		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You still can not fight this boss")
+		player:getPosition():sendMagicEffect(CONST_ME_POFF)
+		return true
+	end
+
 	if item.itemid == 8911 then
-		if Game.getStorageValue(Storage.Quest.U10_90.FerumbrasAscension.PlagirathTimer) >= 1 then
+		if Game.getStorageValue(Storage.Quest.U10_90.FerumbrasAscension.PlagirathTime) >= 1 then
 			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You need to wait a while, recently someone challenge Plagirath.")
 			return true
 		end
@@ -40,11 +47,11 @@ function leverPlagirath.onUse(player, item, fromPosition, target, toPosition, is
 				playerTile:getPosition():sendMagicEffect(CONST_ME_POFF)
 				playerTile:teleportTo(config.newPosition)
 				playerTile:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
-				playerTile:setStorageValue(Storage.Quest.U10_90.FerumbrasAscension.PlagirathTimer, os.time() + 60 * 60 * 24 * 2)
+				playerTile:setStorageValue(Storage.Quest.U10_90.FerumbrasAscension.PlagirathTime, os.time() + 60 * 60 * 24 * 2)
 			end
 		end
-		Game.setStorageValue(Storage.Quest.U10_90.FerumbrasAscension.PlagirathTimer, 1)
-		addEvent(clearForgotten, 30 * 60 * 1000, Position(33159, 31491, 13), Position(33185, 31513, 13), Position(33319, 32318, 13), Storage.Quest.U10_90.FerumbrasAscension.PlagirathTimer)
+		Game.setStorageValue(Storage.Quest.U10_90.FerumbrasAscension.PlagirathTime, 1)
+		addEvent(clearForgotten, 30 * 60 * 1000, Position(33159, 31491, 13), Position(33185, 31513, 13), Position(33319, 32318, 13), Storage.Quest.U10_90.FerumbrasAscension.PlagirathTime)
 		item:transform(8912)
 	elseif item.itemid == 8912 then
 		item:transform(8911)

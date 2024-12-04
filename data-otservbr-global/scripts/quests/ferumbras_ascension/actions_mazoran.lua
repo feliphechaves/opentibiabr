@@ -21,6 +21,12 @@ function leverMazoran.onUse(player, item, fromPosition, target, toPosition, isHo
 		end
 	end
 
+	if os.time() < player:getStorageValue(Storage.Quest.U10_90.FerumbrasAscension.MazoranTime) then
+		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You still can not fight this boss")
+		player:getPosition():sendMagicEffect(CONST_ME_POFF)
+		return true
+	end
+
 	if item.itemid == 8911 then
 		local playersTable = {}
 		if player:doCheckBossRoom("Mazoran", Position(33572, 32679, 14), Position(33599, 32701, 14)) then
@@ -39,7 +45,7 @@ function leverMazoran.onUse(player, item, fromPosition, target, toPosition, isHo
 					playerTile:getPosition():sendMagicEffect(CONST_ME_POFF)
 					playerTile:teleportTo(config.newPosition)
 					playerTile:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
-					playerTile:setStorageValue(Storage.Quest.U10_90.FerumbrasAscension.MazoranTimer, os.time() + os.time() + 60 * 60 * 2 * 24)
+					playerTile:setStorageValue(Storage.Quest.U10_90.FerumbrasAscension.MazoranTime, os.time() + 60 * 60 * 20)
 					table.insert(playersTable, playerTile:getId())
 				end
 			end

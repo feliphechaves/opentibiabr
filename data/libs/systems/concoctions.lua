@@ -74,7 +74,11 @@ function Concoction.experienceTick(player, timeDeduction)
 end
 
 function Concoction:cooldown()
-	return self.config.cooldownOverride or configManager.getNumber(configKeys.TIBIADROME_CONCOCTION_COOLDOWN)
+	local cooldown = self.config.cooldownOverride or configManager.getNumber(configKeys.TIBIADROME_CONCOCTION_COOLDOWN)
+	if self.id == Concoction.Ids.BestiaryBetterment then
+		cooldown = 60 * 60 --1 hora
+	end
+	return cooldown
 end
 
 function Concoction:totalDuration()
