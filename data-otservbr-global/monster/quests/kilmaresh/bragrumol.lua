@@ -82,6 +82,7 @@ monster.loot = {
 	{ id = 30403, chance = 250 }, -- enchanted theurgic amulet
 	{ name = "magma coat", chance = 48000 },
 	{ name = "stone skin amulet", chance = 54000 },
+	{ name = "gold token", minCount = 0, maxCount = 1, chance = 2000 },
 }
 
 monster.attacks = {

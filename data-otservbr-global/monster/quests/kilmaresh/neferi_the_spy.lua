@@ -89,6 +89,7 @@ monster.loot = {
 	{ id = 3049, chance = 149 }, -- stealth ring
 	{ name = "violet gem", chance = 149 },
 	{ name = "golden mask", chance = 75 },
+	{ name = "gold token", minCount = 0, maxCount = 1, chance = 2000 },
 }
 
 monster.attacks = {

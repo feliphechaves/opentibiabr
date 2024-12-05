@@ -12,6 +12,20 @@
 	<monster centerx="1248" centery="1014" centerz="0" radius="1">
 		<monster name="Duke Krule" x="-1" y="0" z="0" spawntime="60" direction="3" />
 	</monster>
+	<monster centerx="1253" centery="1014" centerz="0" radius="1">
+		<monster name="Sharpclaw" x="0" y="1" z="0" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1256" centery="1014" centerz="0" radius="1">
+		<monster name="Black Vixen" x="-1" y="1" z="0" spawntime="60" direction="2" />
+		<monster name="Darkfang" x="1" y="1" z="0" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1252" centery="1020" centerz="0" radius="1">
+		<monster name="Bloodback" x="1" y="-1" z="0" spawntime="60" />
+	</monster>
+	<monster centerx="1256" centery="1020" centerz="0" radius="1">
+		<monster name="Shadowpelt" x="-1" y="-1" z="0" spawntime="60" />
+		<monster name="Ravenous Hunger" x="1" y="-1" z="0" spawntime="60" />
+	</monster>
 	<monster centerx="1242" centery="1022" centerz="0" radius="2">
 		<monster name="Earl Osam" x="-2" y="-1" z="0" spawntime="60" />
 		<monster name="Sir Nictros" x="1" y="-1" z="0" spawntime="60" />
@@ -157,6 +171,32 @@
 	</monster>
 	<monster centerx="1263" centery="1005" centerz="5" radius="1">
 		<monster name="Tarbaz" x="0" y="-1" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="1250" centery="984" centerz="6" radius="1">
+		<monster name="Katex Blood Tongue" x="0" y="1" z="6" spawntime="60" direction="2" />
+		<monster name="Utua Stone Sting" x="1" y="1" z="6" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1255" centery="984" centerz="6" radius="1">
+		<monster name="Bragrumol" x="0" y="1" z="6" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1258" centery="984" centerz="6" radius="1">
+		<monster name="Urmahlullu The Immaculate" x="0" y="1" z="6" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1261" centery="984" centerz="6" radius="1">
+		<monster name="Mozradek" x="0" y="1" z="6" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1248" centery="987" centerz="6" radius="1">
+		<monster name="Srezz Yellow Eyes" x="1" y="-1" z="6" spawntime="60" direction="1" />
+		<monster name="Yirkas Blue Scales" x="1" y="0" z="6" spawntime="60" direction="1" />
+	</monster>
+	<monster centerx="1248" centery="990" centerz="6" radius="1">
+		<monster name="Neferi The Spy" x="1" y="0" z="6" spawntime="60" direction="1" />
+	</monster>
+	<monster centerx="1266" centery="990" centerz="6" radius="1">
+		<monster name="Sister Hetai" x="-1" y="0" z="6" spawntime="60" direction="3" />
+	</monster>
+	<monster centerx="1252" centery="994" centerz="6" radius="1">
+		<monster name="Amenef The Burning" x="0" y="-1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1045" centery="979" centerz="7" radius="1">
 		<monster name="Yielothax" x="0" y="1" z="7" spawntime="60" direction="2" />

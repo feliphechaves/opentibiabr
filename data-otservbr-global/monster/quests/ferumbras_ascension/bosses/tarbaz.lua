@@ -104,6 +104,7 @@ monster.loot = {
 	{ id = 3038, chance = 1000 }, -- green gem
 	{ id = 8082, chance = 4000 }, -- underworld rod
 	{ id = 22757, chance = 500, unique = true }, -- shroud of despair
+	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
 }
 
 monster.attacks = {

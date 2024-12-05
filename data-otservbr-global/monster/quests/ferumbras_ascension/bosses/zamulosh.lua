@@ -104,6 +104,7 @@ monster.loot = {
 	{ id = 22726, chance = 670 }, -- rift shield
 	{ id = 22762, chance = 500, unique = true }, -- maimer
 	{ id = 22555, chance = 500, unique = true }, -- stone wall
+	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
 }
 
 monster.attacks = {

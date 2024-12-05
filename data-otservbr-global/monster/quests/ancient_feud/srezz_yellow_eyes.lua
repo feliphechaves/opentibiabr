@@ -90,6 +90,7 @@ monster.loot = {
 	{ id = 3040, chance = 560 }, -- gold nugget
 	{ id = 34258, chance = 360 }, -- red silk flower
 	{ id = 33778, chance = 360 }, -- raw watermelon tourmaline
+	{ name = "gold token", minCount = 0, maxCount = 1, chance = 2000 },
 }
 
 monster.attacks = {

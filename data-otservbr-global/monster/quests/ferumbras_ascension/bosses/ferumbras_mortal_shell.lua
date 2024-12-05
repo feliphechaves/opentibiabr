@@ -141,6 +141,7 @@ monster.loot = {
 	{ id = 7405, chance = 800 }, -- havoc blade
 	{ id = 7411, chance = 400 }, -- ornamented axe
 	{ id = 22737, chance = 3500 }, -- folded rift carpet
+	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
 }
 
 monster.attacks = {
