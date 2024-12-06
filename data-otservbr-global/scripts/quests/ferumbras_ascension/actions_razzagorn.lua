@@ -14,10 +14,15 @@ function leverRazzagorn.onUse(player, item, fromPosition, target, toPosition, is
 		end
 	end
 
-	if os.time() < player:getStorageValue(Storage.Quest.U10_90.FerumbrasAscension.RazzagornTime) then
-		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You still can not fight this boss")
-		player:getPosition():sendMagicEffect(CONST_ME_POFF)
-		return true
+	for x = 33386, 33390 do
+		local playerTile = Tile(Position(x, 32455, 14)):getTopCreature()
+		if playerTile and playerTile:isPlayer() then
+			if os.time() < playerTile:getStorageValue(Storage.Quest.U10_90.FerumbrasAscension.RazzagornTime) then
+				playerTile:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You still can not fight this boss")
+				playerTile:getPosition():sendMagicEffect(CONST_ME_POFF)
+				return true
+			end
+		end
 	end
 
 	if item.itemid == 8911 then

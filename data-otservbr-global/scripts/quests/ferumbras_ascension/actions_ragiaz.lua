@@ -20,10 +20,15 @@ function leverRagiaz.onUse(player, item, fromPosition, target, toPosition, isHot
 		end
 	end
 
-	if os.time() < player:getStorageValue(Storage.Quest.U10_90.FerumbrasAscension.RagiazTime) then
-		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You still can not fight this boss")
-		player:getPosition():sendMagicEffect(CONST_ME_POFF)
-		return true
+	for x = 33456, 33460 do
+		local playerTile = Tile(Position(x, 32356, 13)):getTopCreature()
+		if playerTile and playerTile:isPlayer() then
+			if os.time() < playerTile:getStorageValue(Storage.Quest.U10_90.FerumbrasAscension.RagiazTime) then
+				playerTile:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You still can not fight this boss")
+				playerTile:getPosition():sendMagicEffect(CONST_ME_POFF)
+				return true
+			end
+		end
 	end
 
 	if item.itemid == 8911 then

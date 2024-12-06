@@ -21,10 +21,15 @@ function leverMazoran.onUse(player, item, fromPosition, target, toPosition, isHo
 		end
 	end
 
-	if os.time() < player:getStorageValue(Storage.Quest.U10_90.FerumbrasAscension.MazoranTime) then
-		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You still can not fight this boss")
-		player:getPosition():sendMagicEffect(CONST_ME_POFF)
-		return true
+	for y = 32644, 32648 do
+		local playerTile = Tile(Position(33593, y, 14)):getTopCreature()
+		if playerTile and playerTile:isPlayer() then
+			if os.time() < playerTile:getStorageValue(Storage.Quest.U10_90.FerumbrasAscension.MazoranTime) then
+				playerTile:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You still can not fight this boss")
+				playerTile:getPosition():sendMagicEffect(CONST_ME_POFF)
+				return true
+			end
+		end
 	end
 
 	if item.itemid == 8911 then
