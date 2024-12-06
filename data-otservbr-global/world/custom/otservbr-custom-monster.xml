@@ -321,6 +321,9 @@
 	<monster centerx="1084" centery="989" centerz="7" radius="1">
 		<monster name="Sphinx" x="0" y="1" z="7" spawntime="60" direction="2" />
 	</monster>
+	<monster centerx="1257" centery="993" centerz="7" radius="1">
+		<monster name="Dragon Pack" x="0" y="1" z="7" spawntime="60" direction="2" />
+	</monster>
 	<monster centerx="1042" centery="995" centerz="7" radius="1">
 		<monster name="Crazed Winter Vanguard" x="0" y="0" z="7" spawntime="60" />
 	</monster>

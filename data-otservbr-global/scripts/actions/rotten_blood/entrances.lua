@@ -26,12 +26,14 @@ function teleportEvent.onStepIn(creature, item, position, fromPosition)
 		return false
 	end
 
+	--[[
 	local access = player:kv():scoped("rotten-blood-quest"):get("access") or 0
 	if access < 5 then
 		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You should pay respect to the Bloodshade guarding this realm before entering.")
 		player:teleportTo(fromPosition, true)
 		return false
 	end
+	]]
 
 	for _, entrance in pairs(entrances) do
 		if entrance.position == position then
