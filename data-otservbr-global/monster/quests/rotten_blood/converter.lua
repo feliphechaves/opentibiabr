@@ -80,6 +80,8 @@ monster.loot = {
 	{ name = "ultimate health potion", chance = 9851, maxCount = 5 },
 	{ name = "focus cape", chance = 6945, maxCount = 1 },
 	{ name = "white gem", chance = 14533, maxCount = 1 },
+	{ name = "tainted heart", chance = 15, maxCount = 1 },
+	{ name = "darklight heart", chance = 15, maxCount = 1 },
 }
 
 monster.attacks = {

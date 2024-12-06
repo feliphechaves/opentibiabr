@@ -102,6 +102,8 @@ monster.loot = {
 	{ name = "yellow gem", chance = 10970, maxCount = 10 },
 	{ name = "figurine of bakragore", chance = 10970 },
 	{ name = "bakragore's amalgamation", chance = 570 },
+	{ name = "tainted heart", chance = 50, maxCount = 570 },
+	{ name = "darklight heart", chance = 15, maxCount = 570 },
 	{ name = "spiritual horseshoe", chance = 470 },
 	{ id = 43895, chance = 300 }, -- Bag you covet
 }

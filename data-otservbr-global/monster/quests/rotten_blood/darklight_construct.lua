@@ -80,6 +80,8 @@ monster.loot = {
 	{ name = "darklight obsidian axe", chance = 11129, maxCount = 1 },
 	{ name = "magma amulet", chance = 13240, maxCount = 1 },
 	{ name = "small ruby", chance = 12458, maxCount = 3 },
+	{ name = "tainted heart", chance = 15, maxCount = 1 },
+	{ name = "darklight heart", chance = 15, maxCount = 1 },
 }
 
 monster.attacks = {

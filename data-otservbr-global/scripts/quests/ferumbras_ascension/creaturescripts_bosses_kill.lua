@@ -50,7 +50,7 @@ local bosses = {
 	["ferumbras mortal shell"] = {
 		teleportPos = Position(33392, 31485, 14),
 		godbreakerPos = Position(33388, 31414, 14),
-		cooldown = 72, -- hours - 13 days and 20 hours
+		cooldown = 20, -- hours - 13 days and 20 hours
 		storage = Storage.Quest.U10_90.FerumbrasAscension.FerumbrasMortalShellTime,
 	},
 }

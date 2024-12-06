@@ -83,6 +83,8 @@ monster.loot = {
 	{ name = "ultimate health potion", chance = 10285, maxCount = 2 },
 	{ name = "bloody edge", chance = 12270, maxCount = 1 },
 	{ name = "spellbook of warding", chance = 5084, maxCount = 1 },
+	{ name = "tainted heart", chance = 15, maxCount = 1 },
+	{ name = "darklight heart", chance = 15, maxCount = 1 },
 }
 
 monster.attacks = {

@@ -373,6 +373,8 @@ local questTable = {
 
 	{ storageName = "BarbarianTest.Questline", storage = Storage.Quest.U8_0.BarbarianTest.Questline, storageValue = 8 },
 	{ storageName = "TheIceIslands.Questline", storage = Storage.Quest.U8_0.TheIceIslands.Questline, storageValue = 30 },
+
+	{ storageName = "TheSecretLibrary.LibraryPermission", storage = Storage.Quest.U11_80.TheSecretLibrary.LibraryPermission, storageValue = 7 },
 }
 
 -- from Position: (33201, 31762, 1)

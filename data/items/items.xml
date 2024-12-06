@@ -80359,4 +80359,12 @@
 		<attribute key="description" value="Offers a soul to the Soulpit. Combine with an exalted core to turn it into a lesser soul core."/>
 		<attribute key="weight" value="100"/>
 	</item>
+	<item id="43854" article="a" name="tainted heart">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="1"/>
+	</item>
+	<item id="43855" article="a" name="darklight heart">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="1"/>
+	</item>
 </items>

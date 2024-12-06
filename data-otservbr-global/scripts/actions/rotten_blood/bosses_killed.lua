@@ -41,7 +41,6 @@ function bakragoreOnDeath.onDeath(creature)
 			end
 		end
 		kv:set("taints", 0)
-		logger.info("taints after: {}", kv:get("taints"))
 	end)
 
 	return true

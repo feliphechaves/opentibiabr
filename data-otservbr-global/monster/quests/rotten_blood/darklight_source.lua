@@ -79,6 +79,8 @@ monster.loot = {
 	{ name = "blue gem", chance = 12909, maxCount = 1 },
 	{ name = "twiceslicer", chance = 11596, maxCount = 1 },
 	{ name = "white gem", chance = 13964, maxCount = 1 },
+	{ name = "tainted heart", chance = 15, maxCount = 1 },
+	{ name = "darklight heart", chance = 15, maxCount = 1 },
 }
 
 monster.attacks = {

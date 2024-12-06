@@ -51,10 +51,10 @@ local function creatureSayCallback(npc, creature, type, message)
 
 	message = message:lower()
 	if MsgContains(message, "kneel") then
-		npcHandler:say("Prepare your offer and cling to the sanctitity of this place.", npc, creature)
+		npcHandler:say("Prepare your {offer} and cling to the sanctitity of this place.", npc, creature)
 		npcHandler:setTopic(playerId, 1)
 	elseif MsgContains(message, "offer") and npcHandler:getTopic(playerId) == 1 then
-		npcHandler:say("Five tainted hearts and five darklight hearts drowned in a worldly wealth of 50000000 gold pieces for the righteous. Are you prepared?", npc, creature)
+		npcHandler:say("Five tainted hearts and five darklight hearts drowned in a worldly wealth of 100000000 gold pieces for the righteous. Are you prepared?", npc, creature)
 		npcHandler:setTopic(playerId, 2)
 	elseif MsgContains(message, "yes") and npcHandler:getTopic(playerId) == 2 then
 		npcHandler:setTopic(playerId, 0)
@@ -63,14 +63,17 @@ local function creatureSayCallback(npc, creature, type, message)
 			return true
 		end
 
-		if not player:removeMoneyBank(50000000) then
+		if not player:removeMoneyBank(100000000) then
 			npcHandler:say("Sorry, you don't have enough gold.", npc, creature)
 			return true
 		end
 
+		player:addHealth(-player:getHealth() + 1)
+		player:getPosition():sendMagicEffect(CONST_ME_DRAWBLOOD)
+
 		if player:removeItem(43855, 5) and player:removeItem(43854, 5) then
 			player:addItem(BAG_YOU_COVET, 1)
-			npcHandler:say("Your sacrifice has been accepted, mortal. Embrace your reward!", npc, creature)
+			npcHandler:say("Your sacrifice has been accepted, mortal. Embrace your reward HAHAHA!", npc, creature)
 		end
 	elseif MsgContains(message, "no") and npcHandler:getTopic(playerId) == 1 then
 		npcHandler:setTopic(playerId, 0)
@@ -80,7 +83,7 @@ local function creatureSayCallback(npc, creature, type, message)
 	return true
 end
 
-npcHandler:setMessage(MESSAGE_GREET, "Kneel before the all-devouring power of blooded decay.")
+npcHandler:setMessage(MESSAGE_GREET, "YOU! {Kneel} before the all-devouring power of blooded decay.")
 npcHandler:setMessage(MESSAGE_WALKAWAY, "Bye.")
 npcHandler:setMessage(MESSAGE_FAREWELL, "Bye, |PLAYERNAME|.")
 

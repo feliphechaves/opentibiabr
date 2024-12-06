@@ -99,7 +99,9 @@ monster.loot = {
 	{ name = "putrefactive figurine", chance = 11416, maxCount = 1 },
 	{ name = "ichgahal's fungal infestation", chance = 7902, maxCount = 1 },
 	{ name = "white gem", chance = 13559, maxCount = 3 },
-	{ id = 43895, chance = 50 }, -- Bag you covet
+	{ id = 43895, chance = 100 }, -- Bag you covet
+	{ name = "tainted heart", chance = 50, maxCount = 570 },
+	{ name = "darklight heart", chance = 15, maxCount = 570 },
 }
 
 monster.attacks = {
