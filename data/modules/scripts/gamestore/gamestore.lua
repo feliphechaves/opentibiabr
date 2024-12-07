@@ -112,6 +112,7 @@ GameStore.Categories = {
 				charges = 1,
 				description = "Equipavel no slot da tocha \nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection earth +12% \n 1 slot imbuement",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				state = GameStore.States.STATE_NEW,
 				movable = true,
 				home = true,
 			},
@@ -123,6 +124,7 @@ GameStore.Categories = {
 				charges = 1,
 				description = "Equipavel no slot da tocha \nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection holy +12% \n 1 slot imbuement",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				state = GameStore.States.STATE_NEW,
 				movable = true,
 				home = true,
 			},
@@ -134,6 +136,7 @@ GameStore.Categories = {
 				charges = 1,
 				description = "Equipavel no slot da tocha \nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection ice +12% \n 1 slot imbuement",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				state = GameStore.States.STATE_NEW,
 				movable = true,
 				home = true,
 			},
@@ -145,6 +148,7 @@ GameStore.Categories = {
 				charges = 1,
 				description = "Equipavel no slot da tocha\nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection death +12% \n 1 slot imbuement",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				state = GameStore.States.STATE_NEW,
 				movable = true,
 				home = true,
 			},
@@ -156,6 +160,7 @@ GameStore.Categories = {
 				charges = 1,
 				description = "Equipavel no slot da tocha\nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection fire +12% \n 1 slot imbuement",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				state = GameStore.States.STATE_NEW,
 				movable = true,
 				home = true,
 			},
@@ -167,6 +172,7 @@ GameStore.Categories = {
 				charges = 1,
 				description = "Equipavel no slot da tocha\nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection energy +12% \n 1 slot imbuement",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				state = GameStore.States.STATE_NEW,
 				movable = true,
 				home = true,
 			},
@@ -737,16 +743,16 @@ GameStore.Categories = {
 				description = "{character}\n{speedboost}\n\n<i>If the Coralripper moves its fins, it generates enough air pressure that it can even float over land. Its numerous eyes allow it to quickly detect dangers even in confusing situations and eliminate them with one powerful bite. If you watch your fingers, you are going to be good friends.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
-			--[[{
+			{
 				icons = { "Corpsefire_Skull.png" },
 				name = "Corpsefire Skull",
-				price = 10,
+				price = 15,
 				id = 221,
 				description = "{character}\n{speedboost}\n\n<i>Skulls are the infernal heralds of untamed power. Bodies are obsolete when sinister forces animate your being. Embrace their presence and command the devastating might that awaits on the back of an eerie Corpsefire Skull!</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 				state = GameStore.States.STATE_NEW,
 				home = true,
-			},]]
+			},
 			{
 				icons = { "Cranium_Spider.png" },
 				name = "Cranium Spider",
@@ -811,16 +817,16 @@ GameStore.Categories = {
 				description = "{character}\n{speedboost}\n\n<i>Its roaring is piercing marrow and bone and can be heard over ten miles away. The Desert King is the undisputed ruler of its territory and no one messes with this animal. Show no fear and prove yourself worthy of its trust and you will get yourself a valuable companion for your adventures.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
-			--[[{
+			{
 				icons = { "Doom_Skull.png" },
 				name = "Doom Skull",
-				price = 10,
+				price = 15,
 				id = 219,
 				description = "{character}\n{speedboost}\n\n<i>Skulls are the infernal heralds of untamed power. Bodies are obsolete when sinister forces animate your being. Embrace their presence and command the devastating might that awaits on the back of a grim Doom Skull.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 				state = GameStore.States.STATE_NEW,
 				home = true,
-			},]]
+			},
 			{
 				icons = { "Doombringer.png" },
 				name = "Doombringer",
@@ -1197,16 +1203,16 @@ GameStore.Categories = {
 				description = "{character}\n{speedboost}\n\n<i>The Magic Carpet is the perfect mount for those who are too busy to take care of an animal mount or simply like to travel on a beautiful, magic hand-woven carpet.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
-			--[[{
+			{
 				icons = { "Magma_Skull.png" },
 				name = "Magma Skull",
-				price = 10,
+				price = 15,
 				id = 220,
 				description = "{character}\n{speedboost}\n\n<i>Skulls are the infernal heralds of untamed power. Bodies are obsolete when sinister forces animate your being. Embrace their presence and command the devastating might that awaits on the back of a blazing Magma Skull.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 				state = GameStore.States.STATE_NEW,
 				home = true,
-			},]]
+			},
 			{
 				icons = { "Marsh_Toad.png" },
 				name = "Marsh Toad",
@@ -1723,7 +1729,7 @@ GameStore.Categories = {
 				icons = { "Widow_Queen.png" },
 				name = "Widow Queen",
 				price = 8,
-				id = 1,
+				id = 368,
 				description = "Widow Queen",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
@@ -1747,7 +1753,7 @@ GameStore.Categories = {
 				icons = { "Titanica.png" },
 				name = "Titanica",
 				price = 12,
-				id = 7,
+				id = 374,
 				description = "Titanica",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
@@ -1755,7 +1761,7 @@ GameStore.Categories = {
 				icons = { "Tin_Lizzard.png" },
 				name = "Tin Lizzard",
 				price = 12,
-				id = 8,
+				id = 375,
 				description = "Tin Lizzard",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
@@ -1775,11 +1781,12 @@ GameStore.Categories = {
 				description = "Rapid Boar",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
+			
 			{
 				icons = { "Stampor.png" },
 				name = "Stampor",
 				price = 12,
-				id = 11,
+				id = 378,
 				description = "Stampor",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
@@ -1787,7 +1794,7 @@ GameStore.Categories = {
 				icons = { "Undead_Cavebear.png" },
 				name = "Undead Cavebear",
 				price = 12,
-				id = 12,
+				id = 379,
 				description = "Undead Cavebear",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
@@ -1795,7 +1802,7 @@ GameStore.Categories = {
 				icons = { "Tiger_Slug.png" },
 				name = "Tiger Slug",
 				price = 12,
-				id = 14,
+				id = 388,
 				description = "Tiger Slug",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
@@ -1803,7 +1810,7 @@ GameStore.Categories = {
 				icons = { "Uniwheel.png" },
 				name = "Uniwheel",
 				price = 12,
-				id = 15,
+				id = 389,
 				description = "Uniwheel",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
@@ -2715,6 +2722,7 @@ GameStore.Categories = {
 				addon = 3,
 				description = "{character}\n{info} colours can be changed using the Outfit dialog\n\n<i>You are fearless and strong as a behemoth but have problems finding the right outfit for your adventures? The Mage outfit is a must-have for all fashion-conscious old-school Tibians out there.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
+				state = GameStore.States.STATE_NEW,
 				home = true,
 			},
 			{
@@ -2725,6 +2733,7 @@ GameStore.Categories = {
 				addon = 3,
 				description = "{character}\n{info} colours can be changed using the Outfit dialog\n\n<i>You are fearless and strong as a behemoth but have problems finding the right outfit for your adventures? The Summoner outfit is a must-have for all fashion-conscious old-school Tibians out there.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
+				state = GameStore.States.STATE_NEW,
 				home = true,
 			},
 			{
@@ -2735,7 +2744,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Pirate Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Assassin_Male.png", "Outfit_Assassin_Female.png" },
@@ -2745,7 +2753,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Assassin Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Beggar_Male.png", "Outfit_Beggar_Female.png" },
@@ -2755,7 +2762,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Beggar Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Shaman_Male.png", "Outfit_Shaman_Female.png" },
@@ -2765,7 +2771,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Shaman Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Norseman_Male.png", "Outfit_Norsewoman_Female.png" },
@@ -2775,7 +2780,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Norseman Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Nightmare_Male.png", "Outfit_Nightmare_Female.png" },
@@ -2785,7 +2789,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Nightmare Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Jester_Male.png", "Outfit_Jester_Female.png" },
@@ -2795,7 +2798,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Jester Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Brotherhood_Male.png", "Outfit_Brotherhood_Female.png" },
@@ -2805,7 +2807,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Brotherhood Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Demon_Hunter_Male.png", "Outfit_Demon_Hunter_Female.png" },
@@ -2815,7 +2816,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Demon Hunter Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Yalaharian_Male.png", "Outfit_Yalaharian_Female.png" },
@@ -2825,7 +2825,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Yalaharian Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Warmaster_Male.png", "Outfit_Warmaster_Female.png" },
@@ -2835,7 +2834,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Warmaster Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Wayfarer_Male.png", "Outfit_Wayfarer_Female.png" },
@@ -2845,7 +2843,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Wayfarer Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Afflicted_Male.png", "Outfit_Afflicted_Female.png" },
@@ -2855,7 +2852,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Afflicted Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Deepling_Male.png", "Outfit_Deepling_Female.png" },
@@ -2865,7 +2861,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Deepling Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Insectoid_Male.png", "Outfit_Insectoid_Female.png" },
@@ -2875,7 +2870,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Insectoid Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Crystal_Warlord_Male.png", "Outfit_Crystal_Warlord_Female.png" },
@@ -2885,7 +2879,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Crystal Warlord Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Soil_Guardian_Male.png", "Outfit_Soil_Guardian_Female.png" },
@@ -2895,7 +2888,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Soil Guardian Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Demon_Male.png", "Outfit_Demon_Female.png" },
@@ -2905,7 +2897,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Demon Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Cave_Explorer_Male.png", "Outfit_Cave_Explorer_Female.png" },
@@ -2915,7 +2906,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Cave Explorer Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Dream_Warden_Male.png", "Outfit_Dream_Warden_Female.png" },
@@ -2925,7 +2915,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Dream Warden Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Glooth_Engineer_Male.png", "Outfit_Glooth_Engineer_Female.png" },
@@ -2935,7 +2924,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Glooth Engineer Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Jersey_Male.png", "Outfit_Jersey_Female.png" },
@@ -2945,7 +2933,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Jersey Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Recruiter_Male.png", "Outfit_Recruiter_Female.png" },
@@ -2955,7 +2942,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Recruiter Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Festive_Male.png", "Outfit_Festive_Female.png" },
@@ -2965,7 +2951,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Festive Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Makeshift_Warrior_Male.png", "Outfit_Makeshift_Warrior_Female.png" },
@@ -2975,7 +2960,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Makeshift Warrior Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Battle_Mage_Male.png", "Outfit_Battle_Mage_Female.png" },
@@ -2985,7 +2969,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Battle Mage Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Discoverer_Male.png", "Outfit_Discoverer_Female.png" },
@@ -2995,7 +2978,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Discoverer Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Dream_Warrior_Male.png", "Outfit_Dream_Warrior_Female.png" },
@@ -3005,7 +2987,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Dream Warrior Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Percht_Raider_Male.png", "Outfit_Percht_Raider_Female.png" },
@@ -3015,7 +2996,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Percht Raider Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Hand_of_the_Inquisition_Male.png", "Outfit_Hand_of_the_Inquisition_Female.png" },
@@ -3025,7 +3005,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Hand of the Inquisition Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Orcsoberfest_Garb_Male.png", "Outfit_Orcsoberfest_Garb_Female.png" },
@@ -3035,7 +3014,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Orcsoberfest Garb Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Poltergeist_Male.png", "Outfit_Poltergeist_Female.png" },
@@ -3045,7 +3023,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Poltergeist Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Falconer_Male.png", "Outfit_Falconer_Female.png" },
@@ -3055,7 +3032,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Falconer Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Revenant_Male.png", "Outfit_Revenant_Female.png" },
@@ -3065,7 +3041,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Revenant Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Rascoohan_Male.png", "Outfit_Rascoohan_Female.png" },
@@ -3075,7 +3050,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Rascoohan Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Citizen_of_Issavi_Male.png", "Outfit_Citizen_of_Issavi_Female.png" },
@@ -3085,7 +3059,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Citizen of Issavi Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Royal_Bounacean_Advisor_Male.png", "Outfit_Royal_Bounacean_Advisor_Female.png" },
@@ -3095,7 +3068,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Royal Bounacean Advisor Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Fire_Fighter_Male.png", "Outfit_Fire_Fighter_Female.png" },
@@ -3105,7 +3077,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Fire-Fighter Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Ancient_Aucar_Male.png", "Outfit_Ancient_Aucar_Female.png" },
@@ -3115,7 +3086,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Ancient Aucar Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Decaying_Defender_Male.png", "Outfit_Decaying_Defender_Female.png" },
@@ -3125,7 +3095,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Decaying Defender Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Draccoon_Herald_Male.png", "Outfit_Draccoon_Herald_Female.png" },
@@ -3135,7 +3104,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Draccoon Herald Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Rootwalker_Male.png", "Outfit_Rootwalker_Female.png" },
@@ -3145,7 +3113,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Rootwalker Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Rift_Warrior_Male.png", "Outfit_Rift_Warrior_Female.png" },
@@ -3155,7 +3122,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "Full Rift Warrior Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 		},
 	},
@@ -6461,6 +6427,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "<i>Train your skills more effectively at home than in public on this expert exercise dummy!</i>\n\n 15% bonus rate skill experience\n 20% bonus speed exercise weapons\nMaximum 4 players per dummy \n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+				state = GameStore.States.STATE_NEW,
 				home = true,
 			},
 			{
@@ -6471,7 +6438,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "<i>Train your skills more effectively at home than in public on this expert exercise dummy!</i>\n\n 15% bonus rate skill experience\n 20% bonus speed exercise weapons\nMaximum 4 players per dummy \n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				home = true,
+				state = GameStore.States.STATE_NEW,
 			},
 			{
 				icons = { "Demon_Exercise_Dummy.png" },
@@ -6857,6 +6824,7 @@ GameStore.Categories = {
 				movable = true,
 				description = "<i>Crafted with the very essence of Aiolos. It features expanded storage space, elemental resistance to all types of magic, and enhanced regeneration of health and mana.</i>\n\n50 Slots\nRegen 50 hp and 50 mp per second second \nprotection physical +2%\nenergy +2%\nearth +2%\nfire +2%\nice +2%\nholy +2%\ndeath +2%",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				state = GameStore.States.STATE_NEW,
 				home = true,
 			},
 			{
@@ -7143,7 +7111,7 @@ GameStore.Categories = {
 				icons = { "Racing_Bird.png" },
 				name = "Racing Bird",
 				price = 500,
-				id = 2,
+				id = 369,
 				description = "Racing Bird",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 				coinType = GameStore.CoinType.Coin,
@@ -7206,11 +7174,12 @@ GameStore.Categories = {
 				icons = { "Donkey.png" },
 				name = "Donkey",
 				price = 100,
-				id = 13,
+				id = 387,
 				description = "Donkey",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 				coinType = GameStore.CoinType.Coin,
 			},
+			
 		}
 	},
 
@@ -7419,7 +7388,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				home = true,
+				
 				coinType = GameStore.CoinType.Coin,
 			},
 			{
@@ -7430,7 +7399,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				home = true,
+				
 				coinType = GameStore.CoinType.Coin,
 			},
 			{
@@ -7441,7 +7410,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				home = true,
+				
 				coinType = GameStore.CoinType.Coin,
 			},
 			{
@@ -7452,7 +7421,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				home = true,
+				
 				coinType = GameStore.CoinType.Coin,
 			},
 			{
@@ -7463,7 +7432,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				home = true,
+				
 				coinType = GameStore.CoinType.Coin,
 			},
 			{
