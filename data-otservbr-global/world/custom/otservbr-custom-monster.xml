@@ -534,6 +534,42 @@
 	<monster centerx="1084" centery="1013" centerz="7" radius="1">
 		<monster name="Goblin" x="0" y="0" z="7" spawntime="60" />
 	</monster>
+	<monster centerx="1251" centery="993" centerz="8" radius="1">
+		<monster name="Eradicator" x="0" y="1" z="8" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1253" centery="993" centerz="8" radius="1">
+		<monster name="World Devourer" x="0" y="1" z="8" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1255" centery="993" centerz="8" radius="1">
+		<monster name="Outburst" x="0" y="1" z="8" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1247" centery="996" centerz="8" radius="1">
+		<monster name="Anomaly" x="1" y="0" z="8" spawntime="60" direction="1" />
+	</monster>
+	<monster centerx="1247" centery="998" centerz="8" radius="1">
+		<monster name="Realityquake" x="1" y="0" z="8" spawntime="60" direction="1" />
+	</monster>
+	<monster centerx="1247" centery="1000" centerz="8" radius="1">
+		<monster name="Rupture" x="1" y="0" z="8" spawntime="60" direction="1" />
+	</monster>
+	<monster centerx="1249" centery="994" centerz="9" radius="1">
+		<monster name="Plagueroot" x="-1" y="1" z="9" spawntime="60" direction="2" />
+		<monster name="Malofur Mangrinder" x="0" y="1" z="9" spawntime="60" direction="2" />
+		<monster name="A Carved Stone Tile" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1252" centery="994" centerz="9" radius="1">
+		<monster name="Maxxenius" x="-1" y="1" z="9" spawntime="60" direction="2" />
+		<monster name="Alptramun" x="1" y="1" z="9" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1254" centery="994" centerz="9" radius="1">
+		<monster name="Izcandar The Banished" x="0" y="1" z="9" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1245" centery="997" centerz="9" radius="1">
+		<monster name="Faceless Bane" x="1" y="0" z="9" spawntime="60" direction="1" />
+	</monster>
+	<monster centerx="1257" centery="998" centerz="9" radius="1">
+		<monster name="The Nightmare Beast" x="-1" y="0" z="9" spawntime="60" direction="3" />
+	</monster>
 	<monster centerx="1151" centery="1047" centerz="14" radius="1">
 		<monster name="Bloated Man-Maggot" x="0" y="0" z="14" spawntime="60" />
 	</monster>

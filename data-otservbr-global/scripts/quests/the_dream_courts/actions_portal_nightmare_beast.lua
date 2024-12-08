@@ -35,4 +35,4 @@ end
 
 portalNightmareBeast:type("stepin")
 portalNightmareBeast:position({ x = 32211, y = 32081, z = 15 })
-portalNightmareBeast:register()
+--portalNightmareBeast:register()

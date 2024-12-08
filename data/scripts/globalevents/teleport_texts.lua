@@ -6,6 +6,13 @@ local effects = {
 	{ position = Position(1237, 1019, 0), text = "NEXT FLOOR", effect = CONST_ME_GROUNDSHAKER },
 	{ position = Position(1246, 1028, 1), text = "NEXT FLOOR", effect = CONST_ME_GROUNDSHAKER },
 	{ position = Position(1246, 1004, 2), text = "NEXT FLOOR", effect = CONST_ME_GROUNDSHAKER },
+	{ position = Position(1259, 999, 7), text = "NEXT FLOOR", effect = CONST_ME_GROUNDSHAKER },
+
+	{ position = Position(1248, 995, 9), text = "MON", effect = CONST_ME_GROUNDSHAKER },
+	{ position = Position(1249, 995, 9), text = "TUE", effect = CONST_ME_GROUNDSHAKER },
+	{ position = Position(1251, 995, 9), text = "WED SAT", effect = CONST_ME_GROUNDSHAKER },
+	{ position = Position(1253, 995, 9), text = "THU SUN", effect = CONST_ME_GROUNDSHAKER },
+	{ position = Position(1254, 995, 9), text = "FRI", effect = CONST_ME_GROUNDSHAKER },
 }
 
 local animatedText = GlobalEvent("AnimatedText")
