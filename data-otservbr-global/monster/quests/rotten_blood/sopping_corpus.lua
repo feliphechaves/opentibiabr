@@ -90,8 +90,8 @@ monster.loot = {
 	{ name = "relic sword", chance = 6964, maxCount = 1 },
 	{ name = "skullcracker armor", chance = 7270, maxCount = 1 },
 	{ id = 23531, chance = 3073, maxCount = 1 },
-	{ name = "tainted heart", chance = 5, maxCount = 1 },
-	{ name = "darklight heart", chance = 5, maxCount = 1 },
+	{ name = "tainted heart", chance = 1, maxCount = 1 },
+	{ name = "darklight heart", chance = 1, maxCount = 1 },
 }
 
 monster.attacks = {

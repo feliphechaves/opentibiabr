@@ -81,8 +81,8 @@ monster.loot = {
 	--{ name = "worm sponge", chance = 7270, maxCount = 1 },
 	{ name = "violet gem", chance = 5084, maxCount = 1 },
 	{ name = "jade hammer", chance = 3073, maxCount = 1 },
-	{ name = "tainted heart", chance = 5, maxCount = 1 },
-	{ name = "darklight heart", chance = 5, maxCount = 1 },
+	{ name = "tainted heart", chance = 1, maxCount = 1 },
+	{ name = "darklight heart", chance = 1, maxCount = 1 },
 }
 
 monster.attacks = {

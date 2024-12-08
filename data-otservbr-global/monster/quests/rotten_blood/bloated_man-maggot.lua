@@ -83,8 +83,8 @@ monster.loot = {
 	{ name = "butcher's axe", chance = 7967, maxCount = 1 },
 	{ name = "blue gem", chance = 7808, maxCount = 1 },
 	{ name = "violet gem", chance = 7084, maxCount = 1 },
-	{ name = "tainted heart", chance = 5, maxCount = 1 },
-	{ name = "darklight heart", chance = 5, maxCount = 1 },
+	{ name = "tainted heart", chance = 1, maxCount = 1 },
+	{ name = "darklight heart", chance = 1, maxCount = 1 },
 }
 
 monster.attacks = {
