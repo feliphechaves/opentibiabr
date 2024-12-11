@@ -133,17 +133,17 @@ monster.loot = {
 
 monster.attacks = {
 	{ name = "melee", interval = 2000, chance = 100, minDamage = -8000, maxDamage = -8350 },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_MANADRAIN, minDamage = -8500, maxDamage = -8700, range = 7, effect = CONST_ME_MAGIC_RED, target = false },
-	{ name = "combat", interval = 2000, chance = 25, type = COMBAT_LIFEDRAIN, minDamage = -8300, maxDamage = -8450, length = 8, spread = 0, effect = CONST_ME_HITBYPOISON, target = false },
-	{ name = "combat", interval = 2000, chance = 21, type = COMBAT_LIFEDRAIN, minDamage = -8450, maxDamage = -8500, radius = 6, effect = CONST_ME_POFF, target = false },
+	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_MANADRAIN, minDamage = -2500, maxDamage = -8700, range = 7, effect = CONST_ME_MAGIC_RED, target = false },
+	{ name = "combat", interval = 2000, chance = 25, type = COMBAT_LIFEDRAIN, minDamage = -4300, maxDamage = -8450, length = 8, spread = 0, effect = CONST_ME_HITBYPOISON, target = false },
+	{ name = "combat", interval = 2000, chance = 21, type = COMBAT_LIFEDRAIN, minDamage = -4450, maxDamage = -8500, radius = 6, effect = CONST_ME_POFF, target = false },
 	-- poison
-	{ name = "condition", type = CONDITION_POISON, interval = 2000, chance = 15, minDamage = -8820, maxDamage = -8840, range = 7, shootEffect = CONST_ANI_POISON, target = false },
-	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_LIFEDRAIN, minDamage = -8900, maxDamage = -15000, range = 4, radius = 3, effect = CONST_ME_DRAWBLOOD, target = false },
+	{ name = "condition", type = CONDITION_POISON, interval = 2000, chance = 15, minDamage = -2820, maxDamage = -4840, range = 7, shootEffect = CONST_ANI_POISON, target = false },
+	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_LIFEDRAIN, minDamage = -4900, maxDamage = -15000, range = 4, radius = 3, effect = CONST_ME_DRAWBLOOD, target = false },
 	-- energy damage
-	{ name = "condition", type = CONDITION_ENERGY, interval = 2000, chance = 18, minDamage = -8300, maxDamage = -8400, radius = 6, effect = CONST_ME_ENERGYHIT, target = false },
+	{ name = "condition", type = CONDITION_ENERGY, interval = 2000, chance = 18, minDamage = -2300, maxDamage = -4400, radius = 6, effect = CONST_ME_ENERGYHIT, target = false },
 	-- fire
-	{ name = "condition", type = CONDITION_FIRE, interval = 3000, chance = 20, minDamage = -8500, maxDamage = -8600, range = 7, radius = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true },
-	{ name = "great fireball rune", interval = 2000, chance = 50, minDamage = -10000, maxDamage = -15000, range = 7, target = false },
+	{ name = "condition", type = CONDITION_FIRE, interval = 3000, chance = 20, minDamage = -2500, maxDamage = -4600, range = 7, radius = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true },
+	{ name = "great fireball rune", interval = 2000, chance = 50, minDamage = -5000, maxDamage = -15000, range = 7, target = false },
 }
 
 monster.defenses = {

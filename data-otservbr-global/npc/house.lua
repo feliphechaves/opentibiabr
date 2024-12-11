@@ -1,4 +1,4 @@
-local internalNpcName = "The Backpacker"
+local internalNpcName = "House"
 local npcType = Game.createNpcType(internalNpcName)
 local npcConfig = {}
 
@@ -12,11 +12,11 @@ npcConfig.walkRadius = 2
 
 npcConfig.outfit = {
 	lookType = 128,
-	lookHead = 114,
+	lookHead = 115,
 	lookBody = 0,
-	lookLegs = 76,
-	lookFeet = 94,
-	lookAddons = 3,
+	lookLegs = 67,
+	lookFeet = 114,
+	lookAddons = 0,
 }
 
 npcConfig.flags = {
@@ -26,39 +26,32 @@ npcConfig.flags = {
 npcConfig.voices = {
 	interval = 15000,
 	chance = 50,
-	{ text = "Selling backpacks! First-class bargains!" },
+	{ text = "Selling house things!" },
 }
 
 npcConfig.shop = {
 	--equipments
-	{ itemName = "jewelled backpack", clientId = 5801, buy = 1000000 },
-	{ itemName = "festive backpack", clientId = 30197, buy = 1000000 },
-	{ itemName = "book backpack", clientId = 28571, buy = 1000000 },
-
-	{ itemName = "winged backpack", clientId = 31625, buy = 2000000 },
-	{ itemName = "pillow backpack", clientId = 24393, buy = 2000000 },
-	{ itemName = "energetic backpack", clientId = 23525, buy = 2000000 },
-	{ itemName = "backpack of holding", clientId = 3253, buy = 2000000 },
-
-	{ itemName = "25 years backpack", clientId = 39693, buy = 2500000 },
-
-	{ itemName = "lilypad backpack", clientId = 39754, buy = 3000000 },
-	{ itemName = "ghost backpack", clientId = 32620, buy = 3000000 },
-
-	{ itemName = "golden backpack", clientId = 2871, buy = 1000 },
-	{ itemName = "green backpack", clientId = 2865, buy = 1000 },
-	{ itemName = "grey backpack", clientId = 2870, buy = 1000 },
-	{ itemName = "orange backpack", clientId = 9602, buy = 1000 },
-	{ itemName = "purple backpack", clientId = 2868, buy = 1000 },
-	{ itemName = "red backpack", clientId = 2867, buy = 1000 },
-	{ itemName = "yellow backpack", clientId = 2866, buy = 1000 },
-	{ itemName = "expedition backpack", clientId = 10324, buy = 1000 },
-
-
-	{ itemName = "changing backpack", clientId = 37536, buy = 10000000 },
-
-	{ itemName = "Zaoan chess box", clientId = 18339, buy = 300000000 },
-
+	{ itemName = "blood herb", clientId = 3734, buy = 3000000 },
+	{ itemName = "blue christmas bundle", clientId = 6507, buy = 3000000 },
+	{ itemName = "blue christmas garland", clientId = 6504, buy = 3000000 },
+	{ itemName = "christmas branch", clientId = 6488, buy = 3000000 },
+	{ itemName = "christmas card", clientId = 6387, buy = 3000000 },
+	{ itemName = "christmas garland", clientId = 6502, buy = 3000000 },
+	{ itemName = "christmas present green", clientId = 6509, buy = 3000000 },
+	{ itemName = "christmas present red", clientId = 6505, buy = 3000000 },
+	{ itemName = "christmas tree package", clientId = 2812, buy = 100000000 },
+	{ itemName = "christmas wreath", clientId = 6501, buy = 3000000 },
+	{ itemName = "green christmas bundle", clientId = 6508, buy = 3000000 },
+	{ itemName = "red christmas bundle", clientId = 6506, buy = 3000000 },
+	{ itemName = "red christmas garland", clientId = 6503, buy = 3000000 },
+	{ itemName = "Assassin Doll", clientId = 28897, buy = 90000000 },
+	{ itemName = "Bookworm Doll", clientId = 28895, buy = 90000000 },
+	{ itemName = "Citizen Doll", clientId = 43511, buy = 90000000 },
+	{ itemName = "Crimson Doll", clientId = 25981, buy = 90000000 },
+	{ itemName = "Draken Doll", clientId = 25979, buy = 90000000 },
+	{ itemName = "Little Adventurer Doll", clientId = 37058, buy = 90000000 },
+	{ itemName = "Loremaster Doll", clientId = 31267, buy = 90000000 },
+	{ itemName = "Norseman Doll", clientId = 19150, buy = 90000000 },
 }
 
 local keywordHandler = KeywordHandler:new()
@@ -126,7 +119,7 @@ npcType.onSellItem = function(npc, player, itemId, subtype, amount, ignore, name
 	player:sendTextMessage(MESSAGE_TRADE, string.format("Sold %ix %s for %i gold.", amount, name, totalCost))
 end
 -- On check npc shop message (look item)
-npcHandler:setMessage(MESSAGE_GREET, "Hello, Player! How may I be of service? Do you wish to {trade} some backpacks?")
+npcHandler:setMessage(MESSAGE_GREET, "Hello, Player! How may I be of service? Do you wish to {trade} some item?")
 npcType.onCheckItem = function(npc, player, clientId, subType) end
 
 npcType:register(npcConfig)

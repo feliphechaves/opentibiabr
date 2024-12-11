@@ -65,6 +65,20 @@ function Party:onDisband()
 	return true
 end
 
+local function allIPsAreDifferent(party)
+	local ipAddresses = {}
+	local leaderIp = party:getLeader():getIp()
+	table.insert(ipAddresses, leaderIp)
+	for _, member in ipairs(party:getMembers()) do
+		local ip = member:getIp()
+		if table.contains(ipAddresses, ip) then
+			return false
+		end
+		table.insert(ipAddresses, ip)
+	end
+	return true
+end
+
 function Party:onShareExperience(exp)
 	local sharedExperienceMultiplier = 1.20 --20%
 	local vocationsIds = {}
@@ -84,6 +98,10 @@ function Party:onShareExperience(exp)
 	local size = #vocationsIds
 	if size > 1 then
 		sharedExperienceMultiplier = 1.0 + ((size * (5 * (size - 1) + 10)) / 100)
+	end
+	
+	if allIPsAreDifferent(self) then
+		sharedExperienceMultiplier = sharedExperienceMultiplier * 2
 	end
 
 	return math.ceil((exp * sharedExperienceMultiplier) / (#self:getMembers() + 1))

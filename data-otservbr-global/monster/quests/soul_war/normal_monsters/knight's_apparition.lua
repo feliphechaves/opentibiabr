@@ -92,7 +92,7 @@ monster.loot = {
 	{ name = "giant sword", chance = 1720 },
 	{ name = "stone skin amulet", chance = 1500 },
 	{ name = "crown shield", chance = 640 },
-	{ name = "bag you desire", chance = 2 },
+	{ name = "bag you desire", chance = 10 },
 }
 
 monster.attacks = {

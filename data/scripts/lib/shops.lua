@@ -65,7 +65,7 @@ SupplyShopConfigTable = {
 		{ itemName = "cure poison rune", clientId = 3153, buy = 65 },
 		{ itemName = "desintegrate rune", clientId = 3197, buy = 26 },
 		{ itemName = "destroy field rune", clientId = 3148, buy = 15 },
-		{ itemName = "divine rain rune", clientId = 3186, buy = 57 },
+		--{ itemName = "divine rain rune", clientId = 3186, buy = 57 },
 		{ itemName = "energy bomb rune", clientId = 3149, buy = 203 },
 		{ itemName = "energy field rune", clientId = 3164, buy = 38 },
 		{ itemName = "energy wall rune", clientId = 3166, buy = 85 },
