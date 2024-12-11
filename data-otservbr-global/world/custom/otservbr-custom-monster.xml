@@ -570,6 +570,27 @@
 	<monster centerx="1257" centery="998" centerz="9" radius="1">
 		<monster name="The Nightmare Beast" x="-1" y="0" z="9" spawntime="60" direction="3" />
 	</monster>
+	<monster centerx="1251" centery="979" centerz="10" radius="1">
+		<monster name="The Brainstealer" x="0" y="1" z="10" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1244" centery="986" centerz="10" radius="1">
+		<monster name="Deathstrike" x="0" y="1" z="10" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1251" centery="986" centerz="10" radius="1">
+		<monster name="Gnomevil" x="0" y="1" z="10" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1258" centery="986" centerz="10" radius="1">
+		<monster name="Abyssador" x="0" y="1" z="10" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1244" centery="996" centerz="10" radius="1">
+		<monster name="The Baron From Below" x="0" y="1" z="10" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1251" centery="996" centerz="10" radius="1">
+		<monster name="The Count Of The Core" x="0" y="1" z="10" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1258" centery="996" centerz="10" radius="1">
+		<monster name="The Duke Of The Depths" x="0" y="1" z="10" spawntime="60" direction="2" />
+	</monster>
 	<monster centerx="1151" centery="1047" centerz="14" radius="1">
 		<monster name="Bloated Man-Maggot" x="0" y="0" z="14" spawntime="60" />
 	</monster>

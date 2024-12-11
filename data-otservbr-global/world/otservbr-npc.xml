@@ -1758,6 +1758,9 @@
 	<npc centerx="32398" centery="32222" centerz="7" radius="1">
 		<npc name="Xodet" x="0" y="0" z="7" spawntime="60" />
 	</npc>
+	<npc centerx="32374" centery="32223" centerz="7" radius="1">
+		<npc name="The Forgemaster" x="0" y="0" z="7" spawntime="60" />
+	</npc>
 	<npc centerx="32066" centery="32225" centerz="7" radius="1">
 		<npc name="Lily" x="0" y="0" z="7" spawntime="60" />
 	</npc>
@@ -1793,6 +1796,9 @@
 	</npc>
 	<npc centerx="33530" centery="32238" centerz="7" radius="1">
 		<npc name="Peaceful Pooka" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="32380" centery="32242" centerz="7" radius="1">
+		<npc name="The Backpacker" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="32369" centery="32246" centerz="7" radius="1">
 		<npc name="King Tibianus" x="0" y="0" z="7" spawntime="60" />

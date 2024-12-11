@@ -99,7 +99,7 @@ monster.loot = {
 	{ name = "glacier robe", chance = 2130 },
 	{ name = "gruesome fan", chance = 610 },
 	{ name = "glacial rod", chance = 610 },
-	{ name = "bag you desire", chance = 1 },
+	{ name = "bag you desire", chance = 2 },
 }
 
 monster.attacks = {

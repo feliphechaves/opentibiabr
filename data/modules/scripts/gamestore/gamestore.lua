@@ -6425,7 +6425,7 @@ GameStore.Categories = {
 				price = 30,
 				itemtype = 49281,
 				count = 1,
-				description = "<i>Train your skills more effectively at home than in public on this expert exercise dummy!</i>\n\n 15% bonus rate skill experience\n 20% bonus speed exercise weapons\nMaximum 4 players per dummy \n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
+				description = "<i>Train your skills more effectively at home than in public on this expert exercise dummy!</i>\n\n 15% bonus rate skill experience\n 30% bonus speed exercise weapons\nMaximum 4 players per dummy \n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
 				state = GameStore.States.STATE_NEW,
 				home = true,
@@ -6436,7 +6436,7 @@ GameStore.Categories = {
 				price = 30,
 				itemtype = 49282,
 				count = 1,
-				description = "<i>Train your skills more effectively at home than in public on this expert exercise dummy!</i>\n\n 15% bonus rate skill experience\n 20% bonus speed exercise weapons\nMaximum 4 players per dummy \n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
+				description = "<i>Train your skills more effectively at home than in public on this expert exercise dummy!</i>\n\n 15% bonus rate skill experience\n 30% bonus speed exercise weapons\nMaximum 4 players per dummy \n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
 				state = GameStore.States.STATE_NEW,
 			},
@@ -6763,6 +6763,14 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_PREYBONUS,
 			},
 			{
+				icons = { "Prey_Bonus_Reroll.png" },
+				name = "Prey Wildcard",
+				price = 4,
+				count = 20,
+				description = "<i>Use Prey Wildcards to reroll the bonus of an active prey, to lock your active prey or to select a prey of your choice.</i>\n\n{character}\n{info} added directly to Prey dialog\n{info} maximum amount that can be owned by character: 50",
+				type = GameStore.OfferTypes.OFFER_TYPE_PREYBONUS,
+			},
+			{
 				icons = { "Instant_Reward_Access.png" },
 				name = "Instant Reward Access",
 				price = 1,
@@ -6826,14 +6834,6 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				state = GameStore.States.STATE_NEW,
 				home = true,
-			},
-			{
-				icons = { "Prey_Bonus_Reroll.png" },
-				name = "Prey Wildcard",
-				price = 1,
-				count = 20,
-				description = "<i>Use Prey Wildcards to reroll the bonus of an active prey, to lock your active prey or to select a prey of your choice.</i>\n\n{character}\n{info} added directly to Prey dialog\n{info} maximum amount that can be owned by character: 50",
-				type = GameStore.OfferTypes.OFFER_TYPE_PREYBONUS,
 			},
 			{
 				icons = { "Temple_Teleport.png" },
@@ -7107,6 +7107,7 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 				coinType = GameStore.CoinType.Coin,
 			},
+			--[[
 			{
 				icons = { "Racing_Bird.png" },
 				name = "Racing Bird",
@@ -7116,6 +7117,7 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 				coinType = GameStore.CoinType.Coin,
 			},
+			]]
 			{
 				icons = { "War_Bear.png" },
 				name = "War Bear",

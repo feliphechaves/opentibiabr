@@ -125,7 +125,7 @@ local function exerciseTrainingEvent(playerId, tilePosition, weaponId, dummyId)
 
 	local rateExerciseTrainingSpeed = configManager.getFloat(configKeys.RATE_EXERCISE_TRAINING_SPEED)
 	if dummyId == 49280 or dummyId == 49281 or dummyId == 49282 or dummyId == 49283 then
-		rateExerciseTrainingSpeed = rateExerciseTrainingSpeed * 1.2
+		rateExerciseTrainingSpeed = rateExerciseTrainingSpeed * 1.3
 	end
 
 	_G.OnExerciseTraining[playerId].event = addEvent(exerciseTrainingEvent, vocation:getBaseAttackSpeed() / rateExerciseTrainingSpeed, playerId, tilePosition, weaponId, dummyId)

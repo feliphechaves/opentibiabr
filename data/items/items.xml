@@ -75648,7 +75648,7 @@
 		<attribute key="defense" value="32"/>
 		<attribute key="skillsword" value="5"/>
 		<attribute key="weight" value="6100"/>
-		<attribute key="imbuementslot" value="3">
+		<attribute key="imbuementslot" value="2">
 			<attribute key="life leech" value="4"/>
 			<attribute key="mana leech" value="4"/>
 			<attribute key="critical hit" value="4"/>
@@ -75676,7 +75676,7 @@
 		<attribute key="defense" value="32"/>
 		<attribute key="skillsword" value="5"/>
 		<attribute key="weight" value="6000"/>
-		<attribute key="imbuementslot" value="3">
+		<attribute key="imbuementslot" value="2">
 			<attribute key="life leech" value="4"/>
 			<attribute key="mana leech" value="4"/>
 			<attribute key="critical hit" value="4"/>
@@ -75707,7 +75707,7 @@
 		<attribute key="defense" value="32"/>
 		<attribute key="skillclub" value="5"/>
 		<attribute key="weight" value="6900"/>
-		<attribute key="imbuementslot" value="3">
+		<attribute key="imbuementslot" value="2">
 			<attribute key="life leech" value="4"/>
 			<attribute key="mana leech" value="4"/>
 			<attribute key="critical hit" value="4"/>
@@ -75735,7 +75735,7 @@
 		<attribute key="defense" value="32"/>
 		<attribute key="skillclub" value="5"/>
 		<attribute key="weight" value="6800"/>
-		<attribute key="imbuementslot" value="3">
+		<attribute key="imbuementslot" value="2">
 			<attribute key="life leech" value="4"/>
 			<attribute key="mana leech" value="4"/>
 			<attribute key="critical hit" value="4"/>
@@ -75763,7 +75763,7 @@
 		<attribute key="defense" value="32"/>
 		<attribute key="skillaxe" value="5"/>
 		<attribute key="weight" value="7200"/>
-		<attribute key="imbuementslot" value="3">
+		<attribute key="imbuementslot" value="2">
 			<attribute key="life leech" value="4"/>
 			<attribute key="mana leech" value="4"/>
 			<attribute key="critical hit" value="4"/>
@@ -75791,7 +75791,7 @@
 		<attribute key="defense" value="32"/>
 		<attribute key="skillaxe" value="5"/>
 		<attribute key="weight" value="7200"/>
-		<attribute key="imbuementslot" value="3">
+		<attribute key="imbuementslot" value="2">
 			<attribute key="life leech" value="4"/>
 			<attribute key="mana leech" value="4"/>
 			<attribute key="critical hit" value="4"/>
