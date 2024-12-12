@@ -60,7 +60,7 @@
 		<monster name="The Last Lore Keeper" x="0" y="1" z="1" spawntime="60" direction="2" />
 	</monster>
 	<monster centerx="1239" centery="1021" centerz="1" radius="1">
-		<monster name="The Scourge Of Oblivion" x="1" y="0" z="1" spawntime="60" direction="2" />
+		<monster name="The Scourge of Oblivion" x="1" y="0" z="1" spawntime="60" direction="2" />
 	</monster>
 	<monster centerx="1254" centery="1022" centerz="1" radius="1">
 		<monster name="The Time Guardian" x="-1" y="0" z="1" spawntime="60" direction="3" />
@@ -109,13 +109,13 @@
 		<monster name="Brain Head" x="1" y="0" z="2" spawntime="60" direction="1" />
 	</monster>
 	<monster centerx="1242" centery="1020" centerz="2" radius="1">
-		<monster name="Unaz The Mean" x="1" y="0" z="2" spawntime="60" direction="1" />
+		<monster name="Unaz the Mean" x="1" y="0" z="2" spawntime="60" direction="1" />
 	</monster>
 	<monster centerx="1242" centery="1021" centerz="2" radius="1">
 		<monster name="Irgix The Flimsy" x="1" y="1" z="2" spawntime="60" direction="1" />
 	</monster>
 	<monster centerx="1242" centery="1024" centerz="2" radius="1">
-		<monster name="Vok The Freakish" x="1" y="0" z="2" spawntime="60" direction="1" />
+		<monster name="Vok the Freakish" x="1" y="0" z="2" spawntime="60" direction="1" />
 	</monster>
 	<monster centerx="1245" centery="998" centerz="3" radius="1">
 		<monster name="The Primal Menace" x="0" y="1" z="3" spawntime="60" direction="2" />
@@ -180,7 +180,7 @@
 		<monster name="Bragrumol" x="0" y="1" z="6" spawntime="60" direction="2" />
 	</monster>
 	<monster centerx="1258" centery="984" centerz="6" radius="1">
-		<monster name="Urmahlullu The Immaculate" x="0" y="1" z="6" spawntime="60" direction="2" />
+		<monster name="Urmahlullu the Immaculate" x="0" y="1" z="6" spawntime="60" direction="2" />
 	</monster>
 	<monster centerx="1261" centery="984" centerz="6" radius="1">
 		<monster name="Mozradek" x="0" y="1" z="6" spawntime="60" direction="2" />
@@ -190,13 +190,13 @@
 		<monster name="Yirkas Blue Scales" x="1" y="0" z="6" spawntime="60" direction="1" />
 	</monster>
 	<monster centerx="1248" centery="990" centerz="6" radius="1">
-		<monster name="Neferi The Spy" x="1" y="0" z="6" spawntime="60" direction="1" />
+		<monster name="Neferi the Spy" x="1" y="0" z="6" spawntime="60" direction="1" />
 	</monster>
 	<monster centerx="1266" centery="990" centerz="6" radius="1">
 		<monster name="Sister Hetai" x="-1" y="0" z="6" spawntime="60" direction="3" />
 	</monster>
 	<monster centerx="1252" centery="994" centerz="6" radius="1">
-		<monster name="Amenef The Burning" x="0" y="-1" z="6" spawntime="60" />
+		<monster name="Amenef the Burning" x="0" y="-1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1045" centery="979" centerz="7" radius="1">
 		<monster name="Yielothax" x="0" y="1" z="7" spawntime="60" direction="2" />
@@ -205,10 +205,10 @@
 		<monster name="Infernal Demon" x="0" y="1" z="7" spawntime="60" direction="2" />
 	</monster>
 	<monster centerx="1051" centery="979" centerz="7" radius="1">
-		<monster name="Cloak Of Terror" x="0" y="1" z="7" spawntime="60" direction="2" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" direction="2" />
 	</monster>
 	<monster centerx="1054" centery="979" centerz="7" radius="1">
-		<monster name="Knight'S Apparition" x="0" y="1" z="7" spawntime="60" direction="2" />
+		<monster name="Knight's Apparition" x="0" y="1" z="7" spawntime="60" direction="2" />
 	</monster>
 	<monster centerx="1057" centery="979" centerz="7" radius="1">
 		<monster name="Rotten Golem" x="0" y="1" z="7" spawntime="60" direction="2" />
@@ -278,6 +278,16 @@
 	</monster>
 	<monster centerx="1084" centery="986" centerz="7" radius="1">
 		<monster name="Grimeleech" x="0" y="-1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1144" centery="986" centerz="7" radius="1">
+		<monster name="Wandering Pillar" x="-1" y="1" z="7" spawntime="60" direction="2" />
+		<monster name="Rotten Man-Maggot" x="1" y="1" z="7" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1146" centery="986" centerz="7" radius="1">
+		<monster name="Bloated Man-Maggot" x="1" y="1" z="7" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1148" centery="986" centerz="7" radius="1">
+		<monster name="Walking Pillar" x="1" y="1" z="7" spawntime="60" direction="2" />
 	</monster>
 	<monster centerx="1042" centery="989" centerz="7" radius="1">
 		<monster name="Cobra Assassin" x="0" y="1" z="7" spawntime="60" direction="2" />
@@ -493,7 +503,7 @@
 		<monster name="Necromancer" x="0" y="1" z="7" spawntime="60" direction="2" />
 	</monster>
 	<monster centerx="1042" centery="1013" centerz="7" radius="1">
-		<monster name="Acolyte Of The Cult" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Acolyte of the Cult" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1045" centery="1013" centerz="7" radius="1">
 		<monster name="Water Elemental" x="0" y="0" z="7" spawntime="60" />
@@ -526,7 +536,7 @@
 		<monster name="Ice Golem" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1078" centery="1013" centerz="7" radius="1">
-		<monster name="Novice Of The Cult" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Novice of the Cult" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1081" centery="1013" centerz="7" radius="1">
 		<monster name="Ancient Scarab" x="0" y="0" z="7" spawntime="60" />
@@ -555,14 +565,14 @@
 	<monster centerx="1249" centery="994" centerz="9" radius="1">
 		<monster name="Plagueroot" x="-1" y="1" z="9" spawntime="60" direction="2" />
 		<monster name="Malofur Mangrinder" x="0" y="1" z="9" spawntime="60" direction="2" />
-		<monster name="A Carved Stone Tile" x="1" y="1" z="9" spawntime="60" />
+		<monster name="a carved stone tile" x="1" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1252" centery="994" centerz="9" radius="1">
 		<monster name="Maxxenius" x="-1" y="1" z="9" spawntime="60" direction="2" />
 		<monster name="Alptramun" x="1" y="1" z="9" spawntime="60" direction="2" />
 	</monster>
 	<monster centerx="1254" centery="994" centerz="9" radius="1">
-		<monster name="Izcandar The Banished" x="0" y="1" z="9" spawntime="60" direction="2" />
+		<monster name="Izcandar the Banished" x="0" y="1" z="9" spawntime="60" direction="2" />
 	</monster>
 	<monster centerx="1245" centery="997" centerz="9" radius="1">
 		<monster name="Faceless Bane" x="1" y="0" z="9" spawntime="60" direction="1" />
@@ -583,13 +593,13 @@
 		<monster name="Abyssador" x="0" y="1" z="10" spawntime="60" direction="2" />
 	</monster>
 	<monster centerx="1244" centery="996" centerz="10" radius="1">
-		<monster name="The Baron From Below" x="0" y="1" z="10" spawntime="60" direction="2" />
+		<monster name="The Baron from Below" x="0" y="1" z="10" spawntime="60" direction="2" />
 	</monster>
 	<monster centerx="1251" centery="996" centerz="10" radius="1">
-		<monster name="The Count Of The Core" x="0" y="1" z="10" spawntime="60" direction="2" />
+		<monster name="The Count of the Core" x="0" y="1" z="10" spawntime="60" direction="2" />
 	</monster>
 	<monster centerx="1258" centery="996" centerz="10" radius="1">
-		<monster name="The Duke Of The Depths" x="0" y="1" z="10" spawntime="60" direction="2" />
+		<monster name="The Duke of the Depths" x="0" y="1" z="10" spawntime="60" direction="2" />
 	</monster>
 	<monster centerx="1151" centery="1047" centerz="14" radius="1">
 		<monster name="Bloated Man-Maggot" x="0" y="0" z="14" spawntime="60" />
@@ -2366,7 +2376,7 @@
 		<monster name="Darklight Matter" x="-1" y="1" z="14" spawntime="60" />
 		<monster name="Walking Pillar" x="2" y="1" z="14" spawntime="60" />
 		<monster name="Darklight Source" x="6" y="1" z="14" spawntime="60" weight="25" />
-		<monster name="A Carved Stone Tile" x="6" y="1" z="14" spawntime="60" weight="25" />
+		<monster name="a carved stone tile" x="6" y="1" z="14" spawntime="60" weight="25" />
 		<monster name="Darklight Striker" x="-5" y="5" z="14" spawntime="60" />
 	</monster>
 	<monster centerx="1137" centery="1210" centerz="14" radius="1">
@@ -2563,7 +2573,7 @@
 	</monster>
 	<monster centerx="1328" centery="1226" centerz="14" radius="1">
 		<monster name="Darklight Striker" x="0" y="0" z="14" spawntime="60" />
-		<monster name="A Carved Stone Tile" x="1" y="0" z="14" spawntime="60" />
+		<monster name="a carved stone tile" x="1" y="0" z="14" spawntime="60" />
 	</monster>
 	<monster centerx="1345" centery="1226" centerz="14" radius="1">
 		<monster name="Walking Pillar" x="0" y="0" z="14" spawntime="60" />
@@ -4364,7 +4374,7 @@
 		<monster name="Darklight Source" x="-2" y="3" z="15" spawntime="60" />
 		<monster name="Darklight Matter" x="0" y="3" z="15" spawntime="60" />
 		<monster name="Darklight Striker" x="1" y="3" z="15" spawntime="60" />
-		<monster name="A Carved Stone Tile" x="2" y="3" z="15" spawntime="60" />
+		<monster name="a carved stone tile" x="2" y="3" z="15" spawntime="60" />
 		<monster name="Darklight Source" x="-2" y="4" z="15" spawntime="60" />
 		<monster name="Darklight Matter" x="-1" y="5" z="15" spawntime="60" />
 		<monster name="Walking Pillar" x="2" y="5" z="15" spawntime="60" />

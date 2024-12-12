@@ -40,52 +40,52 @@ local itemTierClassifications = {
 		[1] = {
 			regular = 8000000,
 			core = 1,
-			convergence = { fusion = { price = 55000000 }, transfer = { price = 65000000 } },
+			convergence = { fusion = { price = 16000000 }, transfer = { price = 26000000 } },
 		},
 		[2] = {
 			regular = 20000000,
 			core = 2,
-			convergence = { fusion = { price = 110000000 }, transfer = { price = 165000000 } },
+			convergence = { fusion = { price = 40000000 }, transfer = { price = 50000000 } },
 		},
 		[3] = {
 			regular = 40000000,
 			core = 5,
-			convergence = { fusion = { price = 170000000 }, transfer = { price = 375000000 } },
+			convergence = { fusion = { price = 80000000 }, transfer = { price = 90000000 } },
 		},
 		[4] = {
 			regular = 65000000,
 			core = 10,
-			convergence = { fusion = { price = 300000000 }, transfer = { price = 800000000 } },
+			convergence = { fusion = { price = 130000000 }, transfer = { price = 140000000 } },
 		},
 		[5] = {
 			regular = 100000000,
 			core = 15,
-			convergence = { fusion = { price = 875000000 }, transfer = { price = 2000000000 } },
+			convergence = { fusion = { price = 200000000 }, transfer = { price = 220000000 } },
 		},
 		[6] = {
 			regular = 250000000,
 			core = 25,
-			convergence = { fusion = { price = 2350000000 }, transfer = { price = 5250000000 } },
+			convergence = { fusion = { price = 500000000 }, transfer = { price = 550000000 } },
 		},
 		[7] = {
 			regular = 750000000,
 			core = 35,
-			convergence = { fusion = { price = 6950000000 }, transfer = { price = 14500000000 } },
+			convergence = { fusion = { price = 1500000000 }, transfer = { price = 1515000000 } },
 		},
 		[8] = {
 			regular = 2500000000,
 			core = 50,
-			convergence = { fusion = { price = 21250000000 }, transfer = { price = 42500000000 } },
+			convergence = { fusion = { price = 5000000000 }, transfer = { price = 5500000000 } },
 		},
 		[9] = {
 			regular = 8000000000,
 			core = 60,
-			convergence = { fusion = { price = 50000000000 }, transfer = { price = 100000000000 } },
+			convergence = { fusion = { price = 16000000000 }, transfer = { price = 16160000000 } },
 		},
 		[10] = {
 			regular = 15000000000,
 			core = 85,
-			convergence = { fusion = { price = 125000000000 }, transfer = { price = 300000000000 } },
+			convergence = { fusion = { price = 30000000000 }, transfer = { price = 33000000000 } },
 		},
 	},
 }

@@ -44542,6 +44542,7 @@
 	</item>
 	<item id="22516" article="a" name="silver token">
 		<attribute key="primarytype" value="valuables"/>
+		<attribute key="description" value="Consumed upon use. This item grants you 130 dusts at a cost of 20kk gold (20% discount for VIPs)."/>
 		<attribute key="weight" value="1"/>
 	</item>
 	<item id="22517" name="stairs">
