@@ -1,7 +1,7 @@
 local effects = {
 	{ position = Position(32365, 32239, 7), text = "BOSS ROOM", effect = CONST_ME_GROUNDSHAKER },
 	{ position = Position(32365, 32234, 7), text = "TRAINERS", effect = CONST_ME_GROUNDSHAKER },
-	{ position = Position(32373, 32234, 7), text = "VIP", effect = CONST_ME_GROUNDSHAKER },
+	--{ position = Position(32373, 32234, 7), text = "VIP", effect = CONST_ME_GROUNDSHAKER },
 	{ position = Position(32373, 32239, 7), text = "HUNTS", effect = CONST_ME_GROUNDSHAKER },
 	{ position = Position(1237, 1019, 0), text = "NEXT FLOOR", effect = CONST_ME_GROUNDSHAKER },
 	{ position = Position(1246, 1028, 1), text = "NEXT FLOOR", effect = CONST_ME_GROUNDSHAKER },

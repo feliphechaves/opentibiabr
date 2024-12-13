@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.events = {
-	"ChargedDisruptionTransform",
-	"HeartMinionDeath",
+	--"ChargedDisruptionTransform",
+	--"HeartMinionDeath",
 }
 
 monster.light = {

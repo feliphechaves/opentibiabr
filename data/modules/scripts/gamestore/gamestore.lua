@@ -31,10 +31,10 @@ if configManager.getBoolean(configKeys.VIP_SYSTEM_ENABLED) then
 
 	premiumDescription = "<i>Enhance your gaming experience by gaining advantages:</i>\n\n"
 	if vipBonusExp > 0 then
-		premiumDescription = premiumDescription .. "&#8226; +" .. vipBonusExp .. "% experience rate\n"
+		premiumDescription = premiumDescription .. "&#8226; +" .. vipBonusExp .. "% experience\n"
 	end
 	if vipBonusSkill > 0 then
-		premiumDescription = premiumDescription .. "&#8226; +" .. vipBonusSkill .. "% skill training speed\n"
+		premiumDescription = premiumDescription .. "&#8226; +" .. vipBonusSkill .. "% skill\n"
 	end
 	if vipBonusLoot > 0 then
 		premiumDescription = premiumDescription .. "&#8226; +" .. vipBonusLoot .. "% loot\n"
@@ -73,7 +73,7 @@ GameStore.Categories = {
 				icons = { "Premium_Time_180.png" },
 				name = string.format("15 Days of %s", premiumOfferName),
 				price = 10,
-				id = 3010,
+				id = 3015,
 				validUntil = 15,
 				description = premiumDescription,
 				type = GameStore.OfferTypes.OFFER_TYPE_PREMIUM,
