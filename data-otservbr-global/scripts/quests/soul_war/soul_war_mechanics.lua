@@ -20,10 +20,10 @@ function goshnarsMaliceReflection.onHealthChange(creature, attacker, primaryDama
 	local player = attacker:getPlayer()
 	if player then
 		if primaryDamage > 0 and (primaryType == COMBAT_PHYSICALDAMAGE or primaryType == COMBAT_DEATHDAMAGE) then
-			player:addHealth(-primaryDamage)
+			player:addHealth(-primaryDamage * 0.3)
 		end
 		if secondaryDamage > 0 and (secondaryType == COMBAT_PHYSICALDAMAGE or secondaryType == COMBAT_DEATHDAMAGE) then
-			player:addHealth(-secondaryDamage)
+			player:addHealth(-secondaryDamage * 0.3)
 		end
 	end
 

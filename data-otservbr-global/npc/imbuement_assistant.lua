@@ -83,13 +83,14 @@ function addItemsToShoppingBag(npc, player)
 			return false, "You don't have enough weight."
 		end
 
-		if player:getFreeBackpackSlots() == 0 then
+		if player:getFreeBackpackSlots() <= 2 then
 			return false, "You don't have enough room."
 		end
 
-		local shoppingBag = player:addItem(2856, 1) -- present box
+		--local shoppingBag = player:addItem(2856, 1) -- present box
 		for _, item in pairs(itemList) do
-			shoppingBag:addItem(item.itemId, item.count)
+			--shoppingBag:addItem(item.itemId, item.count)
+			player:addItem(item.itemId, item.count)
 		end
 
 		player:removeMoneyBank(moneyRequired)
@@ -320,7 +321,7 @@ local function purchaseItems(npc, player, message)
 
 		local moneyRequired = packageData.moneyRequired
 		if player:getLevel() <= 899 then
-			moneyRequired = 100
+			moneyRequired = 20000
 		end
 
 		npcHandler:say("Do you want to buy items for " .. packageData.text .. " imbuement for " .. moneyRequired .. " gold?", npc, player)

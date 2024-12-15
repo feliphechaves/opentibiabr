@@ -58,8 +58,8 @@ monster.flags = {
 }
 
 monster.events = {
-	"RuptureResonance",
-	"RuptureHeal",
+	--"RuptureResonance",
+	--"RuptureHeal",
 	"HeartBossDeath",
 }
 

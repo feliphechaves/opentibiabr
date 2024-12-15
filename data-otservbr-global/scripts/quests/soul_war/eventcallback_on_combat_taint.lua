@@ -60,10 +60,10 @@ local function onMonsterAttackPlayer(target, primaryValue, secondaryValue)
 	if targetPlayer:getTaintNameByNumber(3) ~= nil then
 		local monsterZone = targetPlayer:getSoulWarZoneMonster()
 		if monsterZone ~= nil then
-			logger.debug("Player {} have third taint, primary value {}, secondary {}", targetPlayer:getName(), primaryValue, secondaryValue)
+			logger.info("Player {} have third taint, primary value {}, secondary {}", targetPlayer:getName(), primaryValue, secondaryValue)
 			primaryValue = primaryValue + math.ceil(primaryValue * 0.15)
 			secondaryValue = secondaryValue + math.ceil(secondaryValue * 0.15)
-			logger.debug("Primary value after {}, secondary {}", primaryValue, secondaryValue)
+			logger.info("Primary value after {}, secondary {}", primaryValue, secondaryValue)
 		end
 	end
 
@@ -116,7 +116,7 @@ function callback.playerOnThink(player, interval)
 			local manaLoss = math.ceil(player:getMana() * 0.1)
 			player:addHealth(-hpLoss)
 			player:addMana(-manaLoss)
-			logger.debug("Fifth taint removing '{}' mana and '{}' health from player {}", manaLoss, hpLoss, player:getName())
+			logger.info("Fifth taint removing '{}' mana and '{}' health from player {}", manaLoss, hpLoss, player:getName())
 		end
 
 		accumulatedTime[playerId] = 0

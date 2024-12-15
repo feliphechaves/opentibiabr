@@ -7,7 +7,7 @@ local effects = {
 	{ position = Position(1246, 1028, 1), text = "NEXT FLOOR", effect = CONST_ME_GROUNDSHAKER },
 	{ position = Position(1246, 1004, 2), text = "NEXT FLOOR", effect = CONST_ME_GROUNDSHAKER },
 	{ position = Position(1259, 999, 7), text = "NEXT FLOOR", effect = CONST_ME_GROUNDSHAKER },
-
+	{ position = Position(1061, 1018, 7), text = "CLEAR SHOPPING BAGS", effect = CONST_ME_GROUNDSHAKER },
 	{ position = Position(1248, 995, 9), text = "MON", effect = CONST_ME_GROUNDSHAKER },
 	{ position = Position(1249, 995, 9), text = "TUE", effect = CONST_ME_GROUNDSHAKER },
 	{ position = Position(1251, 995, 9), text = "WED SAT", effect = CONST_ME_GROUNDSHAKER },
