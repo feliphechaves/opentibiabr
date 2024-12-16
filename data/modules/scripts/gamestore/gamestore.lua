@@ -95,11 +95,11 @@ GameStore.Categories = {
 		icons = { "Category_ExclusiveOffers.png" },
 		name = "Equipments",
 		rookgaard = true,
-		subclasses = { "Custom" },
+		subclasses = { "Protectors", "Amulets", "Rings" },
 	},
 	{
 		icons = { "Category_ExclusiveOffers.png" },
-		name = "Custom",
+		name = "Protectors",
 		parent = "Equipments",
 		rookgaard = true,
 		state = GameStore.States.STATE_NONE,
@@ -110,11 +110,10 @@ GameStore.Categories = {
 				price = 10,
 				itemtype = 49284,
 				charges = 1,
-				description = "Equipavel no slot da tocha \nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection earth +12% \n 1 slot imbuement",
+				description = "Equippable in the torch slot \nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection earth +12% \n 1 slot imbuement",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				state = GameStore.States.STATE_NEW,
 				movable = true,
-				home = true,
 			},
 			{
 				icons = { "Holy_Protector.png" },
@@ -122,11 +121,10 @@ GameStore.Categories = {
 				price = 10,
 				itemtype = 49285,
 				charges = 1,
-				description = "Equipavel no slot da tocha \nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection holy +12% \n 1 slot imbuement",
+				description = "Equippable in the torch slot \nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection holy +12% \n 1 slot imbuement",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				state = GameStore.States.STATE_NEW,
 				movable = true,
-				home = true,
 			},
 			{
 				icons = { "Ice_Protector.png" },
@@ -134,11 +132,10 @@ GameStore.Categories = {
 				price = 10,
 				itemtype = 49286,
 				charges = 1,
-				description = "Equipavel no slot da tocha \nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection ice +12% \n 1 slot imbuement",
+				description = "Equippable in the torch slot \nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection ice +12% \n 1 slot imbuement",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				state = GameStore.States.STATE_NEW,
 				movable = true,
-				home = true,
 			},
 			{
 				icons = { "Death_Protector.png" },
@@ -146,11 +143,10 @@ GameStore.Categories = {
 				price = 10,
 				itemtype = 49287,
 				charges = 1,
-				description = "Equipavel no slot da tocha\nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection death +12% \n 1 slot imbuement",
+				description = "Equippable in the torch slot\nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection death +12% \n 1 slot imbuement",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				state = GameStore.States.STATE_NEW,
 				movable = true,
-				home = true,
 			},
 			{
 				icons = { "Fire_Protector.png" },
@@ -158,11 +154,10 @@ GameStore.Categories = {
 				price = 10,
 				itemtype = 49288,
 				charges = 1,
-				description = "Equipavel no slot da tocha\nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection fire +12% \n 1 slot imbuement",
+				description = "Equippable in the torch slot\nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection fire +12% \n 1 slot imbuement",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				state = GameStore.States.STATE_NEW,
 				movable = true,
-				home = true,
 			},
 			{
 				icons = { "Energy_Protector.png" },
@@ -170,7 +165,120 @@ GameStore.Categories = {
 				price = 10,
 				itemtype = 49289,
 				charges = 1,
-				description = "Equipavel no slot da tocha\nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection energy +12% \n 1 slot imbuement",
+				description = "Equippable in the torch slot\nclub fighting +3, sword fighting +3, axe fighting +3, distance fighting +3, magic level +3, protection energy +12% \n 1 slot imbuement",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				state = GameStore.States.STATE_NEW,
+				movable = true,
+			},
+		},
+	},
+	{
+		icons = { "Category_ExclusiveOffers.png" },
+		name = "Amulets",
+		parent = "Equipments",
+		rookgaard = true,
+		state = GameStore.States.STATE_NONE,
+		offers = {
+			{
+				icons = { "burningfrost_pendulet.png" },
+				name = "Burningfrost Pendulet",
+				price = 15,
+				itemtype = 49604,
+				charges = 1,
+				description = "Arm:4, club fighting +5, sword fighting +5, axe fighting +5, distance fighting +3, magic level +2, protection fire +13%, ice +13%",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				state = GameStore.States.STATE_NEW,
+				movable = true,
+				home = true,
+			},
+			{
+				icons = { "poisonstorm_pendulet.png" },
+				name = "Poisonstorm Pendulet",
+				price = 15,
+				itemtype = 49605,
+				charges = 1,
+				description = "Arm:4, club fighting +5, sword fighting +5, axe fighting +5, distance fighting +3, magic level +2, protection energy +13%, ice +13%",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				state = GameStore.States.STATE_NEW,
+				movable = true,
+				home = true,
+			},
+			{
+				icons = { "saintdying_pendulet.png" },
+				name = "Saintdying Pendulet",
+				price = 15,
+				itemtype = 49606,
+				charges = 1,
+				description = "Arm:4, club fighting +5, sword fighting +5, axe fighting +5, distance fighting +3, magic level +2, protection holy +13%, death +13%",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				state = GameStore.States.STATE_NEW,
+				movable = true,
+				home = true,
+			},
+			{
+				icons = { "saintdying_pendulet.png" },
+				name = "Physical Pendulet",
+				price = 15,
+				itemtype = 49607,
+				charges = 1,
+				description = "Arm:7, shielding +6, protection physical +17%",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				state = GameStore.States.STATE_NEW,
+				movable = true,
+				home = true,
+			},
+		},
+	},
+	{
+		icons = { "Category_ExclusiveOffers.png" },
+		name = "Rings",
+		parent = "Equipments",
+		rookgaard = true,
+		state = GameStore.States.STATE_NONE,
+		offers = {
+			{
+				icons = { "burningfrost_sigil.png" },
+				name = "Burningfrost Sigil",
+				price = 13,
+				itemtype = 49601,
+				charges = 1,
+				description = "Arm:3, club fighting +4, sword fighting +4, axe fighting +2, distance fighting +2, magic level +1, protection fire +13%, ice +13%",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				state = GameStore.States.STATE_NEW,
+				movable = true,
+				home = true,
+			},
+			{
+				icons = { "poisonstorm_sigil.png" },
+				name = "Poisonstorm Sigil",
+				price = 13,
+				itemtype = 49602,
+				charges = 1,
+				description = "Arm:3, club fighting +4, sword fighting +4, axe fighting +4, distance fighting +2, magic level +1, protection energy +13%, ice +13%",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				state = GameStore.States.STATE_NEW,
+				movable = true,
+				home = true,
+			},
+			{
+				icons = { "saintdying_sigil.png" },
+				name = "Saintdying Sigil",
+				price = 13,
+				itemtype = 49603,
+				charges = 1,
+				description = "Arm:3, club fighting +4, sword fighting +4, axe fighting +4, distance fighting +2, magic level +1, protection holy +13%, death +13%",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				state = GameStore.States.STATE_NEW,
+				movable = true,
+				home = true,
+			},
+			{
+				icons = { "saintdying_sigil.png" },
+				name = "Physical Sigil",
+				price = 13,
+				itemtype = 49608,
+				charges = 1,
+				description = "Arm:6, shielding +5, protection physical +15%",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				state = GameStore.States.STATE_NEW,
 				movable = true,
@@ -573,7 +681,7 @@ GameStore.Categories = {
 		icons = { "Category_Cosmetics.png" },
 		name = "Cosmetics",
 		rookgaard = true,
-		subclasses = { "Mounts", "Outfits" },
+		subclasses = { "Mounts", "Outfits", "Custom" },
 	},
 	-- Cosmetics ~ Mounts
 	{
@@ -751,7 +859,7 @@ GameStore.Categories = {
 				description = "{character}\n{speedboost}\n\n<i>Skulls are the infernal heralds of untamed power. Bodies are obsolete when sinister forces animate your being. Embrace their presence and command the devastating might that awaits on the back of an eerie Corpsefire Skull!</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 				state = GameStore.States.STATE_NEW,
-				home = true,
+				
 			},
 			{
 				icons = { "Cranium_Spider.png" },
@@ -825,7 +933,7 @@ GameStore.Categories = {
 				description = "{character}\n{speedboost}\n\n<i>Skulls are the infernal heralds of untamed power. Bodies are obsolete when sinister forces animate your being. Embrace their presence and command the devastating might that awaits on the back of a grim Doom Skull.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 				state = GameStore.States.STATE_NEW,
-				home = true,
+				
 			},
 			{
 				icons = { "Doombringer.png" },
@@ -1211,7 +1319,7 @@ GameStore.Categories = {
 				description = "{character}\n{speedboost}\n\n<i>Skulls are the infernal heralds of untamed power. Bodies are obsolete when sinister forces animate your being. Embrace their presence and command the devastating might that awaits on the back of a blazing Magma Skull.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 				state = GameStore.States.STATE_NEW,
-				home = true,
+				
 			},
 			{
 				icons = { "Marsh_Toad.png" },
@@ -2723,7 +2831,7 @@ GameStore.Categories = {
 				description = "{character}\n{info} colours can be changed using the Outfit dialog\n\n<i>You are fearless and strong as a behemoth but have problems finding the right outfit for your adventures? The Mage outfit is a must-have for all fashion-conscious old-school Tibians out there.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
 				state = GameStore.States.STATE_NEW,
-				home = true,
+				
 			},
 			{
 				icons = { "Outfit_Summoner_Male.png", "Outfit_Summoner_Female.png" },
@@ -2734,7 +2842,7 @@ GameStore.Categories = {
 				description = "{character}\n{info} colours can be changed using the Outfit dialog\n\n<i>You are fearless and strong as a behemoth but have problems finding the right outfit for your adventures? The Summoner outfit is a must-have for all fashion-conscious old-school Tibians out there.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
 				state = GameStore.States.STATE_NEW,
-				home = true,
+				
 			},
 			{
 				icons = { "Outfit_Pirate_Male.png", "Outfit_Pirate_Female.png" },
@@ -3124,6 +3232,75 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
 			},
 		},
+	},
+	{
+		icons = { "Category_Outfits.png" },
+		name = "Custom",
+		parent = "Cosmetics",
+		rookgaard = true,
+		state = GameStore.States.STATE_NONE,
+		offers = {
+			{
+				name = "Full Dark/White Mage Outfit",
+				price = 25,
+				sexId = { female = 2503, male = 2500 },
+				addon = 3,
+				description = "Dark outfit is male \n White outfit is female",
+				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
+				state = GameStore.States.STATE_NEW,
+				home = true
+			},
+			{
+				name = "Full Dark/White Druid Outfit",
+				price = 25,
+				sexId = { female = 2501, male = 2502 },
+				addon = 3,
+				description = "Dark outfit is male \n White outfit is female",
+				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
+				state = GameStore.States.STATE_NEW,
+				home = true
+			},
+			{
+				name = "Full Dark/White Paladin Outfit",
+				price = 25,
+				sexId = { female = 2505, male = 2504 },
+				addon = 3,
+				description = "Dark outfit is male \n White outfit is female",
+				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
+				state = GameStore.States.STATE_NEW,
+				home = true
+			},
+			{
+				name = "Full Dark/White Axe Outfit",
+				price = 25,
+				sexId = { female = 2507, male = 2506 },
+				addon = 3,
+				description = "Dark outfit is male \n White outfit is female",
+				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
+				state = GameStore.States.STATE_NEW,
+				home = true
+			},
+			{
+				name = "Full Dark/White Club Outfit",
+				price = 25,
+				sexId = { female = 2509, male = 2508 },
+				addon = 3,
+				description = "Dark outfit is male \n White outfit is female",
+				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
+				state = GameStore.States.STATE_NEW,
+				home = true
+			},
+			{
+				name = "Full Dark/White Sword Outfit",
+				price = 25,
+				sexId = { female = 2511, male = 2510 },
+				addon = 3,
+				description = "Dark outfit is male \n White outfit is female",
+				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
+				state = GameStore.States.STATE_NEW,
+				home = true
+			},
+		}
 	},
 	-- House
 	{
@@ -6811,7 +6988,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "<i>Carries as many loot as your capacity allows.</i>\n\n{character}\n{storeinbox}\n{once}\n{useicon} use it to open it\n{info} always placed on the first position of your Store inbox",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM_UNIQUE,
-				home = true,
+				
 			},
 			{
 				icons = { "Supreme_Cube.png" },
@@ -6821,7 +6998,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "<i>Cubo magico capaz de teleportar quem o usa para qualquer cidade.</i>\n\nTeleporta para as principais cidades do jogo e inclusive para a NPC Island! \nPode ser usado fora de protection zone!",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM_UNIQUE,
-				home = true,
+				
 			},
 			{
 				icons = { "Aiolos_Backpack.png" },
@@ -6836,11 +7013,15 @@ GameStore.Categories = {
 				home = true,
 			},
 			{
-				icons = { "Temple_Teleport.png" },
-				name = "Temple Teleport",
-				price = 1,
-				description = "<i>Teleports you instantly to your home temple.</i>\n\n{character}\n{useicon} use it to teleport you to your home temple</i>\n{battlesign}\n{info} does not work in no-logout zones or close to a character's home temple",
-				type = GameStore.OfferTypes.OFFER_TYPE_TEMPLE,
+				icons = { "Infinite_Food.png" },
+				name = "Infinite Food",
+				price = 4,
+				itemtype = 49600,
+				count = 1,
+				description = "Infinite food. Its infinity.",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM_UNIQUE,
+				home = true,
+				movable = true,
 			},
 		},
 	},
@@ -6861,7 +7042,7 @@ GameStore.Categories = {
 				description = "<i>Consumable Item:\n\n Tibia coin exchange to use in safe trade.\n\n",
 				type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
 				movable = true,
-				home = true,
+				
 			},
 			{
 				icons = { "Tibia Coins.png" },
@@ -6872,7 +7053,7 @@ GameStore.Categories = {
 				description = "<i>Consumable Item:\n\n Tibia coin exchange to use in safe trade.\n\n",
 				type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
 				movable = true,
-				home = true,
+				
 			},
 			{
 				icons = { "Tibia Coins.png" },
@@ -6883,8 +7064,9 @@ GameStore.Categories = {
 				description = "<i>Consumable Item:\n\n Tibia coin exchange to use in safe trade.\n\n",
 				type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
 				movable = true,
-				home = true,
+				
 			},
+			
 		},
 	},
 	
@@ -6892,9 +7074,8 @@ GameStore.Categories = {
 		icons = { "Category_Tickets.png" },
 		name = "Online Coins",
 		rookgaard = true,
-		subclasses = { "Tibiadrome", "TC Mounts", "TC Outfits", "TC Housing", "Online Coins" },
+		subclasses = { "Tibiadrome", "TC Mounts", "TC Outfits", "TC Housing", "Online Coins", "Services" },
 	},
-	
 	{
 		icons = { "Category_Potions.png" },
 		name = "Tibiadrome",
@@ -6905,7 +7086,7 @@ GameStore.Categories = {
 			{
 				icons = { "Kooldown_Aid.png" },
 				name = "Kooldown-Aid",
-				price = 5,
+				price = 15,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36723,
 				movable = true,
@@ -6916,7 +7097,7 @@ GameStore.Categories = {
 			{
 				icons = { "Strike_Enhancement.png" },
 				name = "Strike Enhancement",
-				price = 5,
+				price = 15,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36724,
 				movable = true,
@@ -6927,7 +7108,7 @@ GameStore.Categories = {
 			{
 				icons = { "Stamina_Extension.png" },
 				name = "Stamina Extension",
-				price = 5,
+				price = 15,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36725,
 				movable = true,
@@ -6938,7 +7119,7 @@ GameStore.Categories = {
 			{
 				icons = { "Charm_Upgrade.png" },
 				name = "Charm Upgrade",
-				price = 5,
+				price = 15,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36726,
 				movable = true,
@@ -6949,7 +7130,7 @@ GameStore.Categories = {
 			{
 				icons = { "Wealth_Duplex.png" },
 				name = "Wealth Duplex",
-				price = 5,
+				price = 15,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36727,
 				movable = true,
@@ -6960,7 +7141,7 @@ GameStore.Categories = {
 			{
 				icons = { "Bestiary_Betterment.png" },
 				name = "Bestiary Betterment",
-				price = 5,
+				price = 15,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36728,
 				movable = true,
@@ -6971,7 +7152,7 @@ GameStore.Categories = {
 			{
 				icons = { "Fire_Resilience.png" },
 				name = "Fire Resilience",
-				price = 5,
+				price = 15,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36729,
 				movable = true,
@@ -6982,7 +7163,7 @@ GameStore.Categories = {
 			{
 				icons = { "Ice_Resilience.png" },
 				name = "Ice Resilience",
-				price = 5,
+				price = 15,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36730,
 				movable = true,
@@ -6993,7 +7174,7 @@ GameStore.Categories = {
 			{
 				icons = { "Earth_Resilience.png" },
 				name = "Earth Resilience",
-				price = 5,
+				price = 15,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36731,
 				movable = true,
@@ -7004,7 +7185,7 @@ GameStore.Categories = {
 			{
 				icons = { "Energy_Resilience.png" },
 				name = "Energy Resilience",
-				price = 5,
+				price = 15,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36732,
 				movable = true,
@@ -7015,7 +7196,7 @@ GameStore.Categories = {
 			{
 				icons = { "Holy_Resilience.png" },
 				name = "Holy Resilience",
-				price = 5,
+				price = 15,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36733,
 				movable = true,
@@ -7026,7 +7207,7 @@ GameStore.Categories = {
 			{
 				icons = { "Death_Resilience.png" },
 				name = "Death Resilience",
-				price = 5,
+				price = 15,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36734,
 				movable = true,
@@ -7037,7 +7218,7 @@ GameStore.Categories = {
 			{
 				icons = { "Physical_Resilience.png" },
 				name = "Physical Resilience",
-				price = 5,
+				price = 15,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36735,
 				movable = true,
@@ -7048,7 +7229,7 @@ GameStore.Categories = {
 			{
 				icons = { "Fire_Amplification.png" },
 				name = "Fire Amplification",
-				price = 5,
+				price = 15,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36736,
 				movable = true,
@@ -7059,7 +7240,7 @@ GameStore.Categories = {
 			{
 				icons = { "Ice_Amplification.png" },
 				name = "Ice Amplification",
-				price = 5,
+				price = 15,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36737,
 				movable = true,
@@ -7070,7 +7251,7 @@ GameStore.Categories = {
 			{
 				icons = { "Earth_Amplification.png" },
 				name = "Earth Amplification",
-				price = 5,
+				price = 15,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36738,
 				movable = true,
@@ -7081,7 +7262,7 @@ GameStore.Categories = {
 			{
 				icons = { "Energy_Amplification.png" },
 				name = "Energy Amplification",
-				price = 5,
+				price = 15,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36739,
 				movable = true,
@@ -7092,7 +7273,7 @@ GameStore.Categories = {
 			{
 				icons = { "Holy_Amplification.png" },
 				name = "Holy Amplification",
-				price = 5,
+				price = 15,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36740,
 				movable = true,
@@ -7103,7 +7284,7 @@ GameStore.Categories = {
 			{
 				icons = { "Death_Amplification.png" },
 				name = "Death Amplification",
-				price = 5,
+				price = 15,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36741,
 				movable = true,
@@ -7114,7 +7295,7 @@ GameStore.Categories = {
 			{
 				icons = { "Physical_Amplification.png" },
 				name = "Physical Amplification",
-				price = 5,
+				price = 15,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36742,
 				movable = true,
@@ -7571,6 +7752,24 @@ GameStore.Categories = {
 				coinType = GameStore.CoinType.Coin,
 			},
 		},
+	},
+
+	{
+		icons = { "Category_Potions.png" },
+		name = "Services",
+		parent = "Online Coins",
+		rookgaard = true,
+		state = GameStore.States.STATE_NONE,
+		offers = {
+			{
+				icons = { "Temple_Teleport.png" },
+				name = "Temple Teleport",
+				price = 5,
+				description = "<i>Teleports you instantly to your home temple.</i>\n\n{character}\n{useicon} use it to teleport you to your home temple</i>\n{battlesign}\n{info} does not work in no-logout zones or close to a character's home temple",
+				type = GameStore.OfferTypes.OFFER_TYPE_TEMPLE,
+				coinType = GameStore.CoinType.Coin,
+			},
+		}
 	},
 
 	{

@@ -60,10 +60,10 @@ local function onMonsterAttackPlayer(target, primaryValue, secondaryValue)
 	if targetPlayer:getTaintNameByNumber(3) ~= nil then
 		local monsterZone = targetPlayer:getSoulWarZoneMonster()
 		if monsterZone ~= nil then
-			logger.info("Player {} have third taint, primary value {}, secondary {}", targetPlayer:getName(), primaryValue, secondaryValue)
+			--logger.info("Player {} have third taint, primary value {}, secondary {}", targetPlayer:getName(), primaryValue, secondaryValue)
 			primaryValue = primaryValue + math.ceil(primaryValue * 0.15)
 			secondaryValue = secondaryValue + math.ceil(secondaryValue * 0.15)
-			logger.info("Primary value after {}, secondary {}", primaryValue, secondaryValue)
+			--logger.info("Primary value after {}, secondary {}", primaryValue, secondaryValue)
 		end
 	end
 

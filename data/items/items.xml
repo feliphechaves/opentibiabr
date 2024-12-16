@@ -45088,9 +45088,9 @@
 		<attribute key="primarytype" value="valuables"/>
 		<attribute key="weight" value="20"/>
 	</item>
-	<item id="22723" article="a" name="platinum token" plural="platinum tokens">
+	<item id="22723" article="a" name="online coin" plural="online coin">
 		<attribute key="primarytype" value="valuables"/>
-		<attribute key="weight" value="20"/>
+		<attribute key="weight" value="1"/>
 	</item>
 	<item id="22724" article="a" name="titanium token" plural="titanium tokens">
 		<attribute key="primarytype" value="valuables"/>
@@ -80367,5 +80367,130 @@
 	<item id="43855" article="a" name="darklight heart">
 		<attribute key="primarytype" value="creature products"/>
 		<attribute key="weight" value="1"/>
+	</item>
+	<item id="49600" name="infinite food">
+		<attribute key="primarytype" value="food"/>
+		<attribute key="weight" value="1300"/>
+	</item>
+	<item id="49601" article="a" name="burningfrost sigil">
+		<attribute key="primarytype" value="rings"/>
+		<attribute key="showattributes" value="1"/>
+		<attribute key="weight" value="95"/>
+		<attribute key="absorbpercentfire" value="13"/>
+		<attribute key="absorbpercentice" value="13"/>
+		<attribute key="skilldist" value="2"/>
+		<attribute key="magiclevelpoints" value="1"/>
+		<attribute key="skillclub" value="4"/>
+		<attribute key="skillaxe" value="4"/>
+		<attribute key="skillsword" value="4"/>
+		<attribute key="armor" value="3"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="level" value="400"/>
+			<attribute key="slot" value="ring"/>
+		</attribute>
+	</item>
+	<item id="49602" article="a" name="poisonstorm sigil">
+		<attribute key="primarytype" value="rings"/>
+		<attribute key="showattributes" value="1"/>
+		<attribute key="weight" value="95"/>
+		<attribute key="absorbpercentearth" value="13"/>
+		<attribute key="absorbpercentenergy" value="13"/>
+		<attribute key="skilldist" value="3"/>
+		<attribute key="magiclevelpoints" value="2"/>
+		<attribute key="skillclub" value="4"/>
+		<attribute key="skillaxe" value="4"/>
+		<attribute key="skillsword" value="4"/>
+		<attribute key="armor" value="3"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="level" value="400"/>
+			<attribute key="slot" value="ring"/>
+		</attribute>
+	</item>
+	<item id="49603" article="a" name="saintdying sigil">
+		<attribute key="primarytype" value="rings"/>
+		<attribute key="showattributes" value="1"/>
+		<attribute key="weight" value="95"/>
+		<attribute key="absorbpercentholy" value="13"/>
+		<attribute key="absorbpercentdeath" value="13"/>
+		<attribute key="skilldist" value="2"/>
+		<attribute key="magiclevelpoints" value="1"/>
+		<attribute key="skillclub" value="4"/>
+		<attribute key="skillaxe" value="4"/>
+		<attribute key="skillsword" value="4"/>
+		<attribute key="armor" value="3"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="level" value="400"/>
+			<attribute key="slot" value="ring"/>
+		</attribute>
+	</item>
+	<item id="49604" name="burningfrost pendulet">
+		<attribute key="primarytype" value="amulets and necklaces"/>
+		<attribute key="armor" value="4"/>
+		<attribute key="absorbpercentfire" value="13"/>
+		<attribute key="absorbpercentice" value="13"/>
+		<attribute key="skilldist" value="3"/>
+		<attribute key="magiclevelpoints" value="2"/>
+		<attribute key="skillclub" value="5"/>
+		<attribute key="skillaxe" value="5"/>
+		<attribute key="skillsword" value="5"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="level" value="220"/>
+			<attribute key="slot" value="necklace"/>
+		</attribute>
+	</item>
+	<item id="49605" name="poisonstorm pendulet">
+		<attribute key="primarytype" value="amulets and necklaces"/>
+		<attribute key="armor" value="4"/>
+		<attribute key="absorbpercentenergy" value="13"/>
+		<attribute key="absorbpercentice" value="13"/>
+		<attribute key="skilldist" value="3"/>
+		<attribute key="magiclevelpoints" value="2"/>
+		<attribute key="skillclub" value="5"/>
+		<attribute key="skillaxe" value="5"/>
+		<attribute key="skillsword" value="5"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="level" value="220"/>
+			<attribute key="slot" value="necklace"/>
+		</attribute>
+	</item>
+	<item id="49606" name="saintdying pendulet">
+		<attribute key="primarytype" value="amulets and necklaces"/>
+		<attribute key="armor" value="4"/>
+		<attribute key="absorbpercentholy" value="13"/>
+		<attribute key="absorbpercentdeath" value="13"/>
+		<attribute key="skilldist" value="3"/>
+		<attribute key="magiclevelpoints" value="2"/>
+		<attribute key="skillclub" value="5"/>
+		<attribute key="skillaxe" value="5"/>
+		<attribute key="skillsword" value="5"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="level" value="220"/>
+			<attribute key="slot" value="necklace"/>
+		</attribute>
+	</item>
+	<item id="49607" name="physical pendulet">
+		<attribute key="primarytype" value="amulets and necklaces"/>
+		<attribute key="armor" value="7"/>
+		<attribute key="absorbpercentphysical" value="17"/>
+		<attribute key="skillshield" value="6"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="level" value="220"/>
+			<attribute key="slot" value="necklace"/>
+		</attribute>
+	</item>
+	<item id="49608" name="physical sigil">
+		<attribute key="primarytype" value="amulets and necklaces"/>
+		<attribute key="armor" value="6"/>
+		<attribute key="absorbpercentphysical" value="15"/>
+		<attribute key="skillshield" value="5"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="level" value="220"/>
+			<attribute key="slot" value="necklace"/>
+		</attribute>
 	</item>
 </items>
