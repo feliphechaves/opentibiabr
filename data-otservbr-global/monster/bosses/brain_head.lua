@@ -63,7 +63,6 @@ monster.loot = {
 	{ name = "ghost claw", chance = 3700 },
 	{ name = "giant amethyst", chance = 3700 },
 	{ id = 32621, chance = 3200 }, -- ring of souls
-	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
 }
 
 monster.attacks = {
