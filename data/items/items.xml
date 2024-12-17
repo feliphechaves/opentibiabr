@@ -80442,8 +80442,8 @@
 	<item id="49605" name="poisonstorm pendulet">
 		<attribute key="primarytype" value="amulets and necklaces"/>
 		<attribute key="armor" value="4"/>
+		<attribute key="absorbpercentearth" value="13"/>
 		<attribute key="absorbpercentenergy" value="13"/>
-		<attribute key="absorbpercentice" value="13"/>
 		<attribute key="skilldist" value="3"/>
 		<attribute key="magiclevelpoints" value="2"/>
 		<attribute key="skillclub" value="5"/>
