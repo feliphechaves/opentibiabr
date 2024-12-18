@@ -116,7 +116,7 @@ function callback.playerOnThink(player, interval)
 			local manaLoss = math.ceil(player:getMana() * 0.1)
 			player:addHealth(-hpLoss)
 			player:addMana(-manaLoss)
-			logger.info("Fifth taint removing '{}' mana and '{}' health from player {}", manaLoss, hpLoss, player:getName())
+			--logger.info("Fifth taint removing '{}' mana and '{}' health from player {}", manaLoss, hpLoss, player:getName())
 		end
 
 		accumulatedTime[playerId] = 0

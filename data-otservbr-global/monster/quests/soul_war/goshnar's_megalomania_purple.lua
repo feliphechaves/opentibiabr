@@ -61,6 +61,11 @@ monster.voices = {
 	chance = 10,
 }
 
+monster.bosstiary = {
+	bossRaceId = 1969,
+	bossRace = RARITY_NEMESIS,
+}
+
 monster.loot = {
 	{ name = "crystal coin", chance = 55000, minCount = 70, maxCount = 75 },
 	{ id = 281, chance = 1150 }, -- giant shimmering pearl (green)

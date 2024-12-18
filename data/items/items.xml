@@ -80379,7 +80379,7 @@
 		<attribute key="absorbpercentfire" value="13"/>
 		<attribute key="absorbpercentice" value="13"/>
 		<attribute key="skilldist" value="2"/>
-		<attribute key="magiclevelpoints" value="1"/>
+		<attribute key="magiclevelpoints" value="3"/>
 		<attribute key="skillclub" value="4"/>
 		<attribute key="skillaxe" value="4"/>
 		<attribute key="skillsword" value="4"/>
@@ -80396,7 +80396,7 @@
 		<attribute key="absorbpercentearth" value="13"/>
 		<attribute key="absorbpercentenergy" value="13"/>
 		<attribute key="skilldist" value="3"/>
-		<attribute key="magiclevelpoints" value="2"/>
+		<attribute key="magiclevelpoints" value="3"/>
 		<attribute key="skillclub" value="4"/>
 		<attribute key="skillaxe" value="4"/>
 		<attribute key="skillsword" value="4"/>
@@ -80413,7 +80413,7 @@
 		<attribute key="absorbpercentholy" value="13"/>
 		<attribute key="absorbpercentdeath" value="13"/>
 		<attribute key="skilldist" value="2"/>
-		<attribute key="magiclevelpoints" value="1"/>
+		<attribute key="magiclevelpoints" value="3"/>
 		<attribute key="skillclub" value="4"/>
 		<attribute key="skillaxe" value="4"/>
 		<attribute key="skillsword" value="4"/>
@@ -80429,7 +80429,7 @@
 		<attribute key="absorbpercentfire" value="13"/>
 		<attribute key="absorbpercentice" value="13"/>
 		<attribute key="skilldist" value="3"/>
-		<attribute key="magiclevelpoints" value="2"/>
+		<attribute key="magiclevelpoints" value="4"/>
 		<attribute key="skillclub" value="5"/>
 		<attribute key="skillaxe" value="5"/>
 		<attribute key="skillsword" value="5"/>
@@ -80445,7 +80445,7 @@
 		<attribute key="absorbpercentearth" value="13"/>
 		<attribute key="absorbpercentenergy" value="13"/>
 		<attribute key="skilldist" value="3"/>
-		<attribute key="magiclevelpoints" value="2"/>
+		<attribute key="magiclevelpoints" value="4"/>
 		<attribute key="skillclub" value="5"/>
 		<attribute key="skillaxe" value="5"/>
 		<attribute key="skillsword" value="5"/>
@@ -80461,7 +80461,7 @@
 		<attribute key="absorbpercentholy" value="13"/>
 		<attribute key="absorbpercentdeath" value="13"/>
 		<attribute key="skilldist" value="3"/>
-		<attribute key="magiclevelpoints" value="2"/>
+		<attribute key="magiclevelpoints" value="4"/>
 		<attribute key="skillclub" value="5"/>
 		<attribute key="skillaxe" value="5"/>
 		<attribute key="skillsword" value="5"/>
