@@ -7108,7 +7108,7 @@ GameStore.Categories = {
 			{
 				icons = { "Stamina_Extension.png" },
 				name = "Stamina Extension",
-				price = 15,
+				price = 30,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36725,
 				movable = true,
@@ -7130,7 +7130,7 @@ GameStore.Categories = {
 			{
 				icons = { "Wealth_Duplex.png" },
 				name = "Wealth Duplex",
-				price = 15,
+				price = 30,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36727,
 				movable = true,
