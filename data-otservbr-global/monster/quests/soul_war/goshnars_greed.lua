@@ -147,7 +147,7 @@ mType.onThink = function(monsterCallback, interval)
 	end
 	if isImmune ~= nil then
 		immuneTimeCount = immuneTimeCount + interval
-		logger.info("Immune time count {}", immuneTimeCount)
+		--logger.info("Immune time count {}", immuneTimeCount)
 		if immuneTimeCount >= 45000 then
 			monsterCallback:immune(true)
 			monsterCallback:setSpeed(monster.speed)

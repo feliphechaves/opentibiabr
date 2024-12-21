@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Gaz'Haragoth")
 local monster = {}
 
 monster.description = "Gaz'Haragoth"
-monster.experience = 1000000
+monster.experience = 10000000
 monster.outfit = {
 	lookType = 591,
 	lookHead = 0,
@@ -13,8 +13,8 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.health = 350000
-monster.maxHealth = 350000
+monster.health = 6000000
+monster.maxHealth = 6000000
 monster.race = "undead"
 monster.corpse = 20228
 monster.speed = 250
@@ -178,5 +178,11 @@ monster.immunities = {
 	{ type = "invisible", condition = true },
 	{ type = "bleed", condition = false },
 }
+
+mType.onAppear = function(monster, creature)
+    if monster:getType():isRewardBoss() then
+        monster:setReward(true)
+    end
+end
 
 mType:register(monster)
