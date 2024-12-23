@@ -198,6 +198,239 @@
 	<monster centerx="1252" centery="994" centerz="6" radius="1">
 		<monster name="Amenef the Burning" x="0" y="-1" z="6" spawntime="60" />
 	</monster>
+	<monster centerx="871" centery="747" centerz="7" radius="4">
+		<monster name="Sanguine Ember" x="-2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="3" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="3" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="1" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="898" centery="747" centerz="7" radius="4">
+		<monster name="Sanguine Ember" x="-2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="3" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="3" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="1" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="847" centery="768" centerz="7" radius="4">
+		<monster name="Sanguine Ember" x="-2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="3" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="3" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="1" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="957" centery="770" centerz="7" radius="4">
+		<monster name="Sanguine Ember" x="-2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="3" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="3" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="1" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="981" centery="771" centerz="7" radius="4">
+		<monster name="Sanguine Ember" x="-2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="3" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="3" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="1" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="925" centery="773" centerz="7" radius="5">
+		<monster name="Sanguine Ember" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="3" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="942" centery="781" centerz="7" radius="4">
+		<monster name="Sanguine Ember" x="-2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="3" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="3" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="1" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="912" centery="787" centerz="7" radius="4">
+		<monster name="Sanguine Ember" x="-2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="3" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="3" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="1" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="878" centery="788" centerz="7" radius="4">
+		<monster name="Sanguine Ember" x="-2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="3" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="3" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="1" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="943" centery="788" centerz="7" radius="4">
+		<monster name="Sanguine Ember" x="-2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="3" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="3" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="1" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="963" centery="792" centerz="7" radius="4">
+		<monster name="Sanguine Ember" x="-2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="3" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="3" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="1" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="842" centery="794" centerz="7" radius="4">
+		<monster name="Sanguine Ember" x="-2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="3" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="3" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="1" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="994" centery="794" centerz="7" radius="4">
+		<monster name="Sanguine Ember" x="-2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="3" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="3" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="1" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="873" centery="797" centerz="7" radius="1">
+		<monster name="Sanguine Ember" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="882" centery="799" centerz="7" radius="1">
+		<monster name="Sanguine Frost" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="858" centery="801" centerz="7" radius="4">
+		<monster name="Sanguine Ember" x="-2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="3" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="3" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="1" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="903" centery="803" centerz="7" radius="4">
+		<monster name="Sanguine Ember" x="-2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="3" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="3" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="1" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="886" centery="805" centerz="7" radius="1">
+		<monster name="Sanguine Frost" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="886" centery="812" centerz="7" radius="4">
+		<monster name="Sanguine Ember" x="-2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="3" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="3" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="1" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="919" centery="812" centerz="7" radius="4">
+		<monster name="Sanguine Ember" x="-2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="3" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="3" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="1" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="984" centery="812" centerz="7" radius="4">
+		<monster name="Sanguine Ember" x="-2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="3" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="3" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="1" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="900" centery="823" centerz="7" radius="1">
+		<monster name="Sanguine Ember" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="955" centery="825" centerz="7" radius="4">
+		<monster name="Sanguine Ember" x="-2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="3" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="3" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="1" y="3" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="4" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="2" y="4" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="4" y="4" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="881" centery="826" centerz="7" radius="1">
+		<monster name="Sanguine Ember" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="957" centery="830" centerz="7" radius="4">
+		<monster name="Sanguine Frost" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="3" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="3" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="1" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="904" centery="839" centerz="7" radius="4">
+		<monster name="Sanguine Ember" x="-2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="3" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="3" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="1" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="877" centery="841" centerz="7" radius="4">
+		<monster name="Sanguine Ember" x="-2" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="0" y="3" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="1" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="889" centery="846" centerz="7" radius="4">
+		<monster name="Sanguine Ember" x="3" y="-2" z="7" spawntime="60" />
+		<monster name="Sanguine Frost" x="-2" y="0" z="7" spawntime="60" />
+		<monster name="Sanguine Ember" x="3" y="2" z="7" spawntime="60" />
+	</monster>
 	<monster centerx="1066" centery="974" centerz="7" radius="1">
 		<monster name="Bloated Man-Maggot" x="0" y="1" z="7" spawntime="60" direction="2" />
 	</monster>

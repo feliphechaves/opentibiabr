@@ -219,26 +219,6 @@ taskConfiguration = {
             "Rotten Man-Maggot",
             "Oozing Carcass",
             "Meandering Mushroom",
-        	"Sopping Carcass",
-        },
-    },
-
-	{
-        name = "Rotten Man-Maggot",
-        color = 40,
-        total = 55000,
-        type = "daily",
-        storage = 190018,
-        storagecount = 190019,
-        rewards = {
-            { 46626, 1 }, --greater fragment
-            { "exp", 50000000 },
-            { "gold", 20000000}
-        },
-        races = {
-            "Rotten Man-Maggot",
-            "Oozing Carcass",
-            "Meandering Mushroom",
             "Sopping Carcass",
         },
     },
