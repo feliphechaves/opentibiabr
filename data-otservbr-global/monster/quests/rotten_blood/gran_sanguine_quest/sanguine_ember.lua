@@ -87,6 +87,8 @@ monster.loot = {
 	{ name = "green gem", chance = 4940 },
 	{ name = "wand of everblazing", chance = 2180 },
 	{ name = "might ring", chance = 10020, maxCount = 1 },
+	{ id = 23528, chance = 1250 }, -- collar of blue plasma
+	{ id = 23533, chance = 1250 }, -- ring of blue plasma
 	--{ id = 43895, chance = 1} --bag you covet
 	{ name = "tainted heart", chance = 2, maxCount = 2 },
 	{ name = "darklight heart", chance = 2, maxCount = 2 },

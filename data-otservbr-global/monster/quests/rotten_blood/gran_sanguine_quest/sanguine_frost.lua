@@ -87,6 +87,8 @@ monster.loot = {
 	{ name = "alloy legs", chance = 440 },
 	{ name = "wand of defiance", chance = 1750 },
 	{ name = "glacier mask", chance = 4670 },
+	{ id = 23542, chance = 1250 }, -- collar of blue plasma
+	{ id = 23529, chance = 1250 }, -- ring of blue plasma
 	--{ id = 43895, chance = 1} --bag you covet
 	{ name = "tainted heart", chance = 2, maxCount = 2 },
 	{ name = "darklight heart", chance = 2, maxCount = 2 },
