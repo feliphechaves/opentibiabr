@@ -57,7 +57,7 @@ npcConfig.shop = {
 
 	{ itemName = "changing backpack", clientId = 37536, buy = 10000000 },
 
-	{ itemName = "Zaoan chess box", clientId = 18339, buy = 300000000 },
+	{ itemName = "Zaoan chess box", clientId = 18339, buy = 15000000 },
 
 }
 
