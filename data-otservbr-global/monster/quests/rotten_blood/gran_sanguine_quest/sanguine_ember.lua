@@ -77,18 +77,24 @@ monster.voices = {}
 
 monster.loot = {
 	{ name = "crystal coin", chance = 12961, maxCount = 1 },
+	{ id = 817, chance = 3000 }, -- magma amulet
+	{ id = 818, chance = 1500 }, -- magma boots
+	{ id = 826, chance = 800 }, -- magma coat
+	{ id = 821, chance = 1000 }, -- magma legs
+	{ id = 827, chance = 900 }, -- magma monocle
 	{ name = "small emerald", chance = 9133, maxCount = 5 },
 	{ name = "small sapphire", chance = 34560, maxCount = 3 },
 	{ name = "small amethyst", chance = 12859, maxCount = 5 },
 	{ name = "blue gem", chance = 7808, maxCount = 1 },
 	{ name = "violet gem", chance = 7084, maxCount = 1 },
 	{ name = "yellow gem", chance = 9564, maxCount = 1 },
+	{ name = "green gem", chance = 4940 },
 	{ name = "magma amulet", chance = 13240, maxCount = 1 },
 	{ name = "green gem", chance = 4940 },
 	{ name = "wand of everblazing", chance = 2180 },
 	{ name = "might ring", chance = 10020, maxCount = 1 },
-	{ id = 23528, chance = 1250 }, -- collar of blue plasma
-	{ id = 23533, chance = 1250 }, -- ring of blue plasma
+	{ id = 23544, chance = 1300 }, -- collar of red plasma
+	{ id = 23533, chance = 1110 }, -- Ring of Red Plasma
 	--{ id = 43895, chance = 1} --bag you covet
 	{ name = "tainted heart", chance = 2, maxCount = 2 },
 	{ name = "darklight heart", chance = 2, maxCount = 2 },
@@ -110,13 +116,13 @@ monster.defenses = {
 
 monster.elements = {
 	{ type = COMBAT_PHYSICALDAMAGE, percent = 5 },
-	{ type = COMBAT_ENERGYDAMAGE, percent = -10 },
-	{ type = COMBAT_EARTHDAMAGE, percent = -10 },
-	{ type = COMBAT_FIREDAMAGE, percent = 100 },
+	{ type = COMBAT_ENERGYDAMAGE, percent = 0 },
+	{ type = COMBAT_EARTHDAMAGE, percent = 0 },
+	{ type = COMBAT_FIREDAMAGE, percent = 50 },
 	{ type = COMBAT_LIFEDRAIN, percent = 0 },
 	{ type = COMBAT_MANADRAIN, percent = 0 },
 	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
-	{ type = COMBAT_ICEDAMAGE, percent = -55 },
+	{ type = COMBAT_ICEDAMAGE, percent = -20 },
 	{ type = COMBAT_HOLYDAMAGE, percent = -10 },
 	{ type = COMBAT_DEATHDAMAGE, percent = -10 },
 }

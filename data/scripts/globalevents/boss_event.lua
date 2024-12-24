@@ -49,4 +49,4 @@ local function startEventCheck()
 end
 
 -- Inicia a verificação imediatamente ao carregar o script
-addEvent(startEventCheck, 1000) -- 1 segundo após o startup
+--addEvent(startEventCheck, 1000) -- 1 segundo após o startup

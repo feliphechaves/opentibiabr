@@ -138,3 +138,198 @@ end
 frostTileStepIn:aid(Config.SanguineFrost.stepInActionId)
 frostTileStepIn:register()
 
+-- Função auxiliar para obter posições livres ao redor de uma base (raio configurável)
+local function getFreePositionsAround(centerPos, radius)
+    local positions = {}
+    for x = -radius, radius do
+        for y = -radius, radius do
+            local tryPos = Position(centerPos.x + x, centerPos.y + y, centerPos.z)
+            -- Verifica se o tile não é bloqueado
+            if not Tile(tryPos):hasProperty(CONST_PROP_BLOCKSOLID) then
+                table.insert(positions, tryPos)
+            end
+        end
+    end
+    return positions
+end
+
+local sanguineBoulderDeath = CreatureEvent("SanguineBoulderDeath")
+
+function sanguineBoulderDeath.onDeath(creature)
+    local position = creature:getPosition()
+
+    -- Efeito visual (opcional) quando o Boulder morre
+    position:sendMagicEffect(CONST_ME_GROUNDSHAKER)
+
+    -- Chance de 30% de invocar os summons
+    local chanceToSpawn = 30
+    if math.random(100) > chanceToSpawn then
+        return true
+    end
+
+    local summonsCount = 1
+    local monsterName = "Boulder Elemental" -- Exemplo (sem XP e mais HP)
+    local summonRadius = 1
+    local despawnTime = 30            -- Tempo para sumir, em segundos
+    local explosionRadius = 3         -- Raio da explosão final
+    local finalExplosionEffect = CONST_ME_GREEN_RINGS -- Efeito da explosão
+
+    -- Função auxiliar para pegar posições livres
+    local function getFreePositionsAround(centerPos, radius)
+        local positions = {}
+        for x = -radius, radius do
+            for y = -radius, radius do
+                local tryPos = Position(centerPos.x + x, centerPos.y + y, centerPos.z)
+                if not Tile(tryPos):hasProperty(CONST_PROP_BLOCKSOLID) then
+                    table.insert(positions, tryPos)
+                end
+            end
+        end
+        return positions
+    end
+
+    local freePositions = getFreePositionsAround(position, summonRadius)
+
+    for i = 1, summonsCount do
+        if #freePositions > 0 then
+            local randIndex = math.random(#freePositions)
+            local spawnPos = freePositions[randIndex]
+
+            -- Cria o monstro
+            local newMonster = Game.createMonster(monsterName, spawnPos, false, true)
+            if newMonster then
+                addEvent(function()
+                    -- Se o monstro ainda estiver vivo (não morto pelo player), ele será removido
+                    -- e causará dano em área.
+                    if newMonster and not newMonster:isRemoved() then
+                        local mPos = newMonster:getPosition()
+                        
+                        for x = -explosionRadius, explosionRadius do
+                            for y = -explosionRadius, explosionRadius do
+                                local tilePos = Position(mPos.x + x, mPos.y + y, mPos.z)
+                                if not Tile(tilePos):hasProperty(CONST_PROP_BLOCKSOLID) then
+                                    tilePos:sendMagicEffect(finalExplosionEffect)
+                                end
+                            end
+                        end
+
+                        -- Pegar todos no raio de 'explosionRadius'
+                        for _, target in ipairs(Game.getSpectators(mPos, false, true,
+                            explosionRadius, explosionRadius, explosionRadius, explosionRadius)) do
+                            if target:isPlayer() then
+                                -- 30% da vida máxima do player
+                                local dmg = math.floor(target:getMaxHealth() * 0.3)
+                                -- Aplica dano (pode trocar o efeito abaixo)
+                                target:addHealth(-dmg, CONST_ME_EXPLOSIONHIT)
+                            end
+                        end
+
+                        -- Remove o monstro sem dar XP/loot
+                        newMonster:remove()
+                    end
+                end, despawnTime * 1000)
+            end
+
+            table.remove(freePositions, randIndex)
+        end
+    end
+
+    return true
+end
+
+sanguineBoulderDeath:register()
+
+
+--------------------------------------------------------------------------------
+-- Sanguine Spark Death (invoca 2 criaturas de Energia)
+--------------------------------------------------------------------------------
+local sanguineSparkDeath = CreatureEvent("SanguineSparkDeath")
+
+function sanguineSparkDeath.onDeath(creature)
+    local position = creature:getPosition()
+
+    -- Efeito visual (opcional) quando o Spark morre
+    position:sendMagicEffect(CONST_ME_GROUNDSHAKER)
+
+    -- Chance de 30% de invocar os summons
+    local chanceToSpawn = 30
+    if math.random(100) > chanceToSpawn then
+        return true
+    end
+
+    local summonsCount = 1
+    local monsterName = "Spark Elemental" -- Exemplo (sem XP e mais HP)
+    local summonRadius = 1
+    local despawnTime = 30            -- Tempo para sumir, em segundos
+    local explosionRadius = 3         -- Raio da explosão final
+    local finalExplosionEffect = CONST_ME_ENERGYAREA -- Efeito da explosão
+
+    -- Função auxiliar para pegar posições livres
+    local function getFreePositionsAround(centerPos, radius)
+        local positions = {}
+        for x = -radius, radius do
+            for y = -radius, radius do
+                local tryPos = Position(centerPos.x + x, centerPos.y + y, centerPos.z)
+                if not Tile(tryPos):hasProperty(CONST_PROP_BLOCKSOLID) then
+                    table.insert(positions, tryPos)
+                end
+            end
+        end
+        return positions
+    end
+
+    local freePositions = getFreePositionsAround(position, summonRadius)
+
+    for i = 1, summonsCount do
+        if #freePositions > 0 then
+            local randIndex = math.random(#freePositions)
+            local spawnPos = freePositions[randIndex]
+
+            -- Cria o monstro
+            local newMonster = Game.createMonster(monsterName, spawnPos, false, true)
+            if newMonster then
+                addEvent(function()
+                    -- Se o monstro ainda estiver vivo (não morto pelo player), ele será removido
+                    -- e causará dano em área.
+                    if newMonster and not newMonster:isRemoved() then
+                        local mPos = newMonster:getPosition()
+                    
+                        -- Explosão visual em toda a área do raio.
+                        for x = -explosionRadius, explosionRadius do
+                            for y = -explosionRadius, explosionRadius do
+                                local tilePos = Position(mPos.x + x, mPos.y + y, mPos.z)
+                                -- Se quiser evitar efeito em paredes, use a checagem:
+                                if not Tile(tilePos):hasProperty(CONST_PROP_BLOCKSOLID) then
+                                    tilePos:sendMagicEffect(finalExplosionEffect) 
+                                    -- por ex. CONST_ME_BIGCLOUD, CONST_ME_EXPLOSIONAREA, etc.
+                                end
+                            end
+                        end
+
+                        -- Pegar todos no raio de 'explosionRadius'
+                        for _, target in ipairs(Game.getSpectators(mPos, false, true,
+                            explosionRadius, explosionRadius, explosionRadius, explosionRadius)) do
+                            if target:isPlayer() then
+                                -- 30% da vida máxima do player
+                                local dmg = math.floor(target:getMaxHealth() * 0.3)
+                                -- Aplica dano (pode trocar o efeito abaixo)
+                                target:addHealth(-dmg, CONST_ME_EXPLOSIONHIT)
+                            end
+                        end
+
+                        -- Remove o monstro sem dar XP/loot
+                        newMonster:remove()
+                    end
+                end, despawnTime * 1000)
+            end
+
+            table.remove(freePositions, randIndex)
+        end
+    end
+
+    return true
+end
+
+sanguineSparkDeath:register()
+
+
