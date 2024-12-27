@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Sanguine Glow")
 local monster = {}
 
 monster.description = "a sanguine glow"
-monster.experience = 21570
+monster.experience = 90000
 monster.outfit = {
 	lookType = 2512,
 	lookHead = 0,
@@ -25,10 +25,10 @@ monster.Bestiary = {
 	Occurrence = 0,
 }
 
-monster.health = 250000
-monster.maxHealth = 250000
-monster.race = "fire"
-monster.corpse = 8136
+monster.health = 110000
+monster.maxHealth = 110000
+monster.race = "undead"
+monster.corpse = 8181
 monster.speed = 195
 monster.manaCost = 305
 
@@ -59,9 +59,9 @@ monster.flags = {
 	runHealth = 0,
 	healthHidden = false,
 	isBlockable = false,
-	canWalkOnEnergy = true,
-	canWalkOnFire = true,
-	canWalkOnPoison = true,
+	canWalkOnEnergy = false,
+	canWalkOnFire = false,
+	canWalkOnPoison = false,
 }
 
 monster.light = {
@@ -74,15 +74,25 @@ monster.voices = {}
 monster.loot = {
 	{ name = "crystal coin", chance = 12961, maxCount = 1 },
 	{ name = "small emerald", chance = 9133, maxCount = 5 },
+	{ name = "small sapphire", chance = 34560, maxCount = 3 },
+	{ name = "small amethyst", chance = 12859, maxCount = 5 },
 	{ name = "blue gem", chance = 7808, maxCount = 1 },
 	{ name = "violet gem", chance = 7084, maxCount = 1 },
+	{ name = "yellow gem", chance = 9564, maxCount = 1 },
+	{ name = "green gem", chance = 4940 },
+	{ name = "might ring", chance = 10020, maxCount = 1 },
+	{ id = 23544, chance = 1300 }, -- collar of red plasma
+	{ id = 23533, chance = 1110 }, -- Ring of Red Plasma
+	--{ id = 43895, chance = 1} --bag you covet
+	{ name = "tainted heart", chance = 2, maxCount = 2 },
+	{ name = "darklight heart", chance = 2, maxCount = 2 },
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 30, minDamage = -3000, maxDamage = -6000 },
-	{ name = "largefirering", interval = 2500, chance = 15, minDamage = -4000, maxDamage = -10000, target = false },
-	{ name = "combat", interval = 3000, chance = 35, type = COMBAT_FIREDAMAGE, minDamage = -4000, maxDamage = -9000, range = 7, radius = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true },
-	{ name = "combat", interval = 3000, chance = 40, type = COMBAT_FIREDAMAGE, minDamage = -4000, maxDamage = -10000, length = 10, spread = 3, effect = CONST_ANI_FIRE, target = false },
+	{ name = "melee", interval = 2000, chance = 30, minDamage = -0, maxDamage = -3500 },
+	{ name = "largeholyring", interval = 2500, chance = 15, minDamage = -1500, maxDamage = -4500, target = false },
+	{ name = "combat", intervall = 2000, chance = 20, type = COMBAT_HOLYDAMAGE, minDamage = -2500, maxDamage = -4000, radius = 5, effect = CONST_ME_PURPLESMOKE, target = true },
+	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_HOLYDAMAGE, minDamage = -2500, maxDamage = -4000, radius = 5, effect = CONST_ME_GHOSTLY_BITE, target = true },
 	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_MANADRAIN, minDamage = -1000, maxDamage = -3000, range = 7, target = false },
 }
 
@@ -93,16 +103,16 @@ monster.defenses = {
 }
 
 monster.elements = {
-	{ type = COMBAT_PHYSICALDAMAGE, percent = 30 },
+	{ type = COMBAT_PHYSICALDAMAGE, percent = 5 },
 	{ type = COMBAT_ENERGYDAMAGE, percent = 0 },
-	{ type = COMBAT_EARTHDAMAGE, percent = 10 },
-	{ type = COMBAT_FIREDAMAGE, percent = 95 },
+	{ type = COMBAT_EARTHDAMAGE, percent = 0 },
+	{ type = COMBAT_FIREDAMAGE, percent = 0 },
 	{ type = COMBAT_LIFEDRAIN, percent = 0 },
 	{ type = COMBAT_MANADRAIN, percent = 0 },
 	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
-	{ type = COMBAT_ICEDAMAGE, percent = -20 },
+	{ type = COMBAT_ICEDAMAGE, percent = 0 },
 	{ type = COMBAT_HOLYDAMAGE, percent = 0 },
-	{ type = COMBAT_DEATHDAMAGE, percent = 0 },
+	{ type = COMBAT_DEATHDAMAGE, percent = -20 },
 }
 
 monster.immunities = {

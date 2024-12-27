@@ -46,6 +46,22 @@ function endTaskModalWindow(player, storage)
 					player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
 					player:say('Gold: ' .. info[2], TALKTYPE_MONSTER_SAY)
 					window:addChoice("- Gold: " .. info[2])
+				elseif info[1] == "level" then
+					local rewardLevel = 0
+					if player:getLevel() <= 3000 then
+						rewardLevel = 3
+					elseif player:getLevel() >= 3001 and player:getLevel() <= 5000 then
+						rewardLevel = 2
+					elseif player:getLevel() >= 5001 then
+						rewardLevel = 1
+					end
+					local targetNewLevel = player:getLevel() + rewardLevel
+					local targetNewExp = Game.getExperienceForLevel(targetNewLevel)
+					local experienceToAdd = targetNewExp - player:getExperience()
+					player:addExperience(experienceToAdd, false)
+					player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
+					player:say('Level: ' .. rewardLevel, TALKTYPE_MONSTER_SAY)
+					window:addChoice("- Level: " .. rewardLevel)
 				elseif tonumber(info[1]) then
 					window:addChoice("- " .. info[2] * taskOptions.bonusRate .. " " .. ItemType(info[1]):getName())
 					player:addItem(info[1], info[2] * taskOptions.bonusRate)
@@ -81,6 +97,22 @@ function endTaskModalWindow(player, storage)
 					player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
 					player:say('Gold: ' .. info[2], TALKTYPE_MONSTER_SAY)
 					window:addChoice("- Gold: " .. info[2])
+				elseif info[1] == "level" then
+					local rewardLevel = 0
+					if player:getLevel() <= 3000 then
+						rewardLevel = 3
+					elseif player:getLevel() >= 3001 and player:getLevel() <= 5000 then
+						rewardLevel = 2
+					elseif player:getLevel() >= 5001 then
+						rewardLevel = 1
+					end
+					local targetNewLevel = player:getLevel() + rewardLevel
+					local targetNewExp = Game.getExperienceForLevel(targetNewLevel)
+					local experienceToAdd = targetNewExp - player:getExperience()
+					player:addExperience(experienceToAdd, false)
+					player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
+					player:say('Level: ' .. rewardLevel, TALKTYPE_MONSTER_SAY)
+					window:addChoice("- Level: " .. rewardLevel)
 				elseif tonumber(info[1]) then
 					window:addChoice("- " .. info[2] .. " " .. ItemType(info[1]):getName())
 					player:addItem(info[1], info[2])
@@ -174,6 +206,16 @@ function confirmTaskModalWindow(player, storage)
 					end
 				elseif info[1] == "gold" then
 					window:addChoice("- Gold: " .. info[2])
+				elseif info[1] == "level" then
+					local rewardLevel = 0
+					if player:getLevel() <= 3000 then
+						rewardLevel = 3
+					elseif player:getLevel() >= 3001 and player:getLevel() <= 5000 then
+						rewardLevel = 2
+					elseif player:getLevel() >= 5001 then
+						rewardLevel = 1
+					end
+					window:addChoice("- Level: " .. rewardLevel)
 				elseif tonumber(info[1]) then
 					window:addChoice("- " .. info[2] * taskOptions.bonusRate .. " " .. ItemType(info[1]):getName())
 				end
@@ -188,6 +230,16 @@ function confirmTaskModalWindow(player, storage)
 					end
 				elseif info[1] == "gold" then
 					window:addChoice("- Gold: " .. info[2])
+				elseif info[1] == "level" then
+					local rewardLevel = 0
+					if player:getLevel() <= 3000 then
+						rewardLevel = 3
+					elseif player:getLevel() >= 3001 and player:getLevel() <= 5000 then
+						rewardLevel = 2
+					elseif player:getLevel() >= 5001 then
+						rewardLevel = 1
+					end
+					window:addChoice("- Level: " .. rewardLevel)
 				elseif tonumber(info[1]) then
 					window:addChoice("- " .. info[2] .. " " .. ItemType(info[1]):getName())
 				end

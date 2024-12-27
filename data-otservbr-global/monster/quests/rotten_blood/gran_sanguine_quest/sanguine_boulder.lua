@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Sanguine Boulder")
 local monster = {}
 
 monster.description = "a sanguine boulder"
-monster.experience = 21570
+monster.experience = 90000
 monster.outfit = {
 	lookType = 2515,
 	lookHead = 0,
@@ -84,7 +84,6 @@ monster.loot = {
 	{ name = "yellow gem", chance = 9564, maxCount = 1 },
 	{ name = "green gem", chance = 4940 },
 	{ name = "alloy legs", chance = 1440 },
-	{ name = "serpent sword", chance = 32253 },
 	{ name = "organic acid", chance = 11678, maxCount = 1 },
 	{ name = "glacier mask", chance = 4670 },
 	--{ id = 43895, chance = 1} --bag you covet
@@ -109,16 +108,16 @@ monster.defenses = {
 }
 
 monster.elements = {
-	{ type = COMBAT_PHYSICALDAMAGE, percent = 5 },
+	{ type = COMBAT_PHYSICALDAMAGE, percent = 0 },
 	{ type = COMBAT_ENERGYDAMAGE, percent = -20 },
-	{ type = COMBAT_EARTHDAMAGE, percent = 50 },
+	{ type = COMBAT_EARTHDAMAGE, percent = 0 },
 	{ type = COMBAT_FIREDAMAGE, percent = 0 },
 	{ type = COMBAT_LIFEDRAIN, percent = 0 },
 	{ type = COMBAT_MANADRAIN, percent = 0 },
 	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
 	{ type = COMBAT_ICEDAMAGE, percent = 0 },
-	{ type = COMBAT_HOLYDAMAGE, percent = -10 },
-	{ type = COMBAT_DEATHDAMAGE, percent = -10 },
+	{ type = COMBAT_HOLYDAMAGE, percent = 0 },
+	{ type = COMBAT_DEATHDAMAGE, percent = 0 },
 }
 
 monster.immunities = {

@@ -5,7 +5,7 @@ taskOptions = {
 		{ x = 1062, y = 1027, z = 7 },
 	},
 	selectLanguage = 2, -- options: 1 = pt_br or 2 = english
-	uniqueTask = true, -- do one task at a time
+	uniqueTask = false, -- do one task at a time
 	uniqueTaskStorage = 65002
 }
 
@@ -51,7 +51,7 @@ taskConfiguration = {
 		storagecount = 190001,
 		rewards = {
 			{ 5804, 1 }, --nose ring
-			{ "exp", 15000000 },
+			{ "level", 0 },
 			{ "gold", 20000000}
 		},
 		races = {
@@ -69,7 +69,7 @@ taskConfiguration = {
 		storage = 190002,
 		storagecount = 190003,
 		rewards = {
-			{ "exp", 30000000 },
+			{ "level", 0 },
 			{ "gold", 20000000 },
 			{ 3437, 1 },
 		},
@@ -89,7 +89,7 @@ taskConfiguration = {
 		storagecount = 190005,
 		rewards = {
 			{ 5919, 1 }, --dragon claw
-			{ "exp", 20000000 },
+			{ "level", 0 },
 			{ "gold", 10000000 },
 		},
 		races = {
@@ -212,7 +212,7 @@ taskConfiguration = {
         storagecount = 190019,
         rewards = {
             { 46626, 1 }, --greater fragment
-            { "exp", 50000000 },
+            { "level", 0 },
             { "gold", 20000000}
         },
         races = {
@@ -232,7 +232,7 @@ taskConfiguration = {
         storagecount = 190021,
         rewards = {
             { 46626, 1 }, --greater fragment
-            { "exp", 50000000 },
+			{ "level", 0 },
             { "gold", 20000000}
         },
         races = {
@@ -252,7 +252,7 @@ taskConfiguration = {
         storagecount = 190023,
         rewards = {
             { 46626, 1 }, --greater fragment
-            { "exp", 50000000 },
+            { "level", 0 },
             { "gold", 20000000}
         },
         races = {
@@ -272,7 +272,7 @@ taskConfiguration = {
         storagecount = 190025,
         rewards = {
             { 46626, 1 }, --greater fragment
-            { "exp", 50000000 },
+			{ "level", 0 },
             { "gold", 20000000}
         },
         races = {
@@ -291,7 +291,7 @@ taskConfiguration = {
         storagecount = 190027,
         rewards = {
             { 46626, 1 }, --greater fragment
-            { "exp", 50000000 },
+			{ "level", 0 },
             { "gold", 20000000}
         },
         races = {
@@ -310,7 +310,7 @@ taskConfiguration = {
         storagecount = 190029,
         rewards = {
             { 46626, 1 }, --greater fragment
-            { "exp", 50000000 },
+			{ "level", 0 },
             { "gold", 20000000}
         },
         races = {
@@ -329,7 +329,7 @@ taskConfiguration = {
         storagecount = 190031,
         rewards = {
             { 46626, 1 }, --greater fragment
-            { "exp", 50000000 },
+			{ "level", 0 },
             { "gold", 20000000}
         },
         races = {
@@ -350,7 +350,7 @@ taskConfiguration = {
         storagecount = 190033,
         rewards = {
             { 46626, 1 }, --greater fragment
-            { "exp", 50000000 },
+			{ "level", 0 },
             { "gold", 20000000}
         },
         races = {
@@ -369,7 +369,7 @@ taskConfiguration = {
         storagecount = 190035,
         rewards = {
             { 46626, 1 }, --greater fragment
-            { "exp", 50000000 },
+			{ "level", 0 },
             { "gold", 20000000}
         },
         races = {
@@ -388,7 +388,7 @@ taskConfiguration = {
         storagecount = 190037,
         rewards = {
             { 46626, 1 }, --greater fragment
-            { "exp", 50000000 },
+			{ "level", 0 },
             { "gold", 20000000}
         },
         races = {
@@ -409,7 +409,7 @@ taskConfiguration = {
         storagecount = 190039,
         rewards = {
             { 46626, 1 }, --greater fragment
-            { "exp", 50000000 },
+			{ "level", 0 },
             { "gold", 20000000}
         },
         races = {
@@ -430,7 +430,7 @@ taskConfiguration = {
         storagecount = 190041,
         rewards = {
             { 46626, 1 }, --greater fragment
-            { "exp", 50000000 },
+			{ "level", 0 },
             { "gold", 20000000}
         },
         races = {
