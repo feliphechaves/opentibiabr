@@ -46361,7 +46361,7 @@
 		<attribute key="primarytype" value="valuables"/>
 		<attribute key="weight" value="100"/>
 	</item>
-	<item id="23488" article="a" name="surprise cube">
+	<item id="23488" article="a" name="grand sanguine box">
 		<attribute key="primarytype" value="valuables"/>
 		<attribute key="description" value="There might be something valuable inside"/>
 		<attribute key="weight" value="8500"/>
@@ -80365,6 +80365,14 @@
 		<attribute key="weight" value="1"/>
 	</item>
 	<item id="43855" article="a" name="darklight heart">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="1"/>
+	</item>
+	<item id="49609" article="a" name="essence of health">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="1"/>
+	</item>
+	<item id="49610" article="a" name="essence of mana">
 		<attribute key="primarytype" value="creature products"/>
 		<attribute key="weight" value="1"/>
 	</item>

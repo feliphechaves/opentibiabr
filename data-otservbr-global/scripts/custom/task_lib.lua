@@ -540,6 +540,61 @@ taskConfiguration = {
 	    "Harpy",
         },
     },
+
+	{
+        name = "Sanguine Ember Frost",
+        color = 40,
+        total = 12000,
+        type = "once",
+        storage = 190050,
+        storagecount = 190051,
+        rewards = {
+            { "level", 0 },
+            { "gold", 20000000},
+			{ 46626, 5 }, --greater fragment
+			{ 49609, 1} --essence of health
+        },
+        races = {
+        "Sanguine Ember",
+		"Sanguine Frost"
+        },
+    },
+	{
+        name = "Sanguine Poison Energy",
+        color = 40,
+        total = 12000,
+        type = "once",
+        storage = 190052,
+        storagecount = 190053,
+        rewards = {
+            { "level", 0 },
+            { "gold", 20000000},
+			{ 46626, 5 }, --greater fragment
+			{ 49609, 1} --essence of health
+        },
+        races = {
+        "Sanguine Boulder",
+		"Sanguine Spark"
+        },
+    },
+	{
+        name = "Sanguine Holy Death",
+        color = 40,
+        total = 12000,
+        type = "once",
+        storage = 190054,
+        storagecount = 190055,
+        rewards = {
+            { "level", 0 },
+            { "gold", 20000000},
+			{ 46626, 5 }, --greater fragment
+			{ 49609, 1} --essence of health
+        },
+        races = {
+        "Sanguine Glow",
+		"Sanguine Shade"
+        },
+    },
 }
 
 squareWaitTime = 5000

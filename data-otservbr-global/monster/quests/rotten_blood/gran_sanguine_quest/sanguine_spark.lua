@@ -76,20 +76,20 @@ monster.light = {
 monster.voices = {}
 
 monster.loot = {
-	{ name = "crystal coin", chance = 12961, maxCount = 1 },
-	{ name = "platinum amulet", chance = 1750 },
-	{ name = "blue gem", chance = 7808, maxCount = 1 },
-	{ name = "violet gem", chance = 7084, maxCount = 1 },
-	{ name = "yellow gem", chance = 9564, maxCount = 1 },
-	{ name = "green gem", chance = 4940 },
-	{ name = "zaoan shoes", chance = 8614, maxCount = 1 },
-	{ name = "zaoan armor", chance = 1010 },
+
+	{ name = "crystal coin", chance = 12961, maxCount = 2 },
+	{ name = "small emerald", chance = 9133, maxCount = 5 },
+	{ name = "small sapphire", chance = 9133, maxCount = 5 },
+	{  name = "small sapphire", chance = 9133, maxCount = 5 },
+	{ name = "blue gem", chance = 7000, maxCount = 2 },
+	{ name = "violet gem", chance = 7000, maxCount = 2 },
+	{ name = "yellow gem", chance = 7000, maxCount = 2 },
+	{ name = "green gem", chance = 7000, maxCount = 2 },
+	{ name = "darklight core", chance = 10276, maxCount = 2 },
+	{ name = "darklight basalt chunk", chance = 12855, maxCount = 2 },
+	{ name = "wand of starstorm", chance = 7967 },
+	{ name = "platinum amulet", chance = 7967 },
 	{ name = "guardian boots", chance = 1010 },
-	{ name = "serpent sword", chance = 32253 },
-	{ id = 3032, chance = 10000, maxCount = 3 }, -- small emerald
-	{ id = 3030, chance = 10000, maxCount = 3 }, -- small ruby
-	{ id = 9057, chance = 10000, maxCount = 3 }, -- small topaz
-	--{ id = 43895, chance = 1} --bag you covet
 	{ id = 23542, chance = 1250 }, -- collar of blue plasma
 	{ id = 23529, chance = 1230 }, -- ring of blue plasma
 	{ name = "tainted heart", chance = 2, maxCount = 2 },

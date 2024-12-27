@@ -1,5 +1,5 @@
 local traps = {
-	[2145] = { transformTo = 2146, damage = { -50, -100 } },
+	[2145] = { transformTo = 2146, damage = { -500, -1000 } },
 	[2148] = { damage = { -50, -100 } },
 	[3482] = { transformTo = 3481, damage = { -15, -30 }, ignorePlayer = (Game.getWorldType() == WORLD_TYPE_NO_PVP) },
 	[3944] = { transformTo = 3945, damage = { -15, -30 }, type = COMBAT_EARTHDAMAGE },
@@ -33,6 +33,10 @@ function trap.onStepIn(creature, item, position, fromPosition)
 
 	if trap.transformTo then
 		item:transform(trap.transformTo)
+	end
+
+	if item.itemid == 2146 and creature:isMonster() then
+		return true
 	end
 
 	if item.itemid == 12368 and creature:getName() == "Starving Wolf" then

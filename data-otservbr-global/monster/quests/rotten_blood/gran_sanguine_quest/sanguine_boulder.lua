@@ -76,17 +76,17 @@ monster.light = {
 monster.voices = {}
 
 monster.loot = {
-	{ name = "crystal coin", chance = 12961, maxCount = 1 },
+	{ name = "crystal coin", chance = 12961, maxCount = 2 },
+	{ name = "organic acid", chance = 11678, maxCount = 2 },
 	{ name = "small emerald", chance = 9133, maxCount = 5 },
-	{ name = "platinum amulet", chance = 1750 },
-	{ name = "blue gem", chance = 7808, maxCount = 1 },
-	{ name = "violet gem", chance = 7084, maxCount = 1 },
-	{ name = "yellow gem", chance = 9564, maxCount = 1 },
-	{ name = "green gem", chance = 4940 },
-	{ name = "alloy legs", chance = 1440 },
-	{ name = "organic acid", chance = 11678, maxCount = 1 },
-	{ name = "glacier mask", chance = 4670 },
-	--{ id = 43895, chance = 1} --bag you covet
+	{ name = "rotten roots", chance = 8637, maxCount = 2 },
+	{ name = "bloated maggot", chance = 8133, maxCount = 2 },
+	{ name = "blue gem", chance = 7000, maxCount = 2 },
+	{ name = "violet gem", chance = 7000, maxCount = 2 },
+	{ name = "yellow gem", chance = 7000, maxCount = 2 },
+	{ name = "green gem", chance = 7000, maxCount = 2 },
+	{ name = "terra rod", chance = 8078, maxCount = 1 },
+	{ name = "butcher's axe", chance = 7967, maxCount = 1 },
 	{ id = 23543, chance = 1230 }, -- collar of green plasma
 	{ id = 23531, chance = 1220 }, -- ring of green plasma
 	{ name = "tainted heart", chance = 2, maxCount = 2 },

@@ -76,26 +76,17 @@ monster.events = {
 monster.voices = {}
 
 monster.loot = {
-	{ name = "crystal coin", chance = 12961, maxCount = 1 },
-	{ id = 817, chance = 3000 }, -- magma amulet
-	{ id = 818, chance = 1500 }, -- magma boots
-	{ id = 826, chance = 800 }, -- magma coat
-	{ id = 821, chance = 1000 }, -- magma legs
-	{ id = 827, chance = 900 }, -- magma monocle
+	{ name = "crystal coin", chance = 12961, maxCount = 2 },
+	{ name = "darklight core", chance = 12887, maxCount = 2 },
+	{ name = "dark obsidian splinter", chance = 11678, maxCount = 2 },
+	{ name = "basalt crumbs", chance = 8637, maxCount = 2 },
+	{ name = "small sapphire", chance = 9133, maxCount = 5 },
 	{ name = "small emerald", chance = 9133, maxCount = 5 },
-	{ name = "small sapphire", chance = 34560, maxCount = 3 },
-	{ name = "small amethyst", chance = 12859, maxCount = 5 },
-	{ name = "blue gem", chance = 7808, maxCount = 1 },
-	{ name = "violet gem", chance = 7084, maxCount = 1 },
-	{ name = "yellow gem", chance = 9564, maxCount = 1 },
-	{ name = "green gem", chance = 4940 },
-	{ name = "magma amulet", chance = 13240, maxCount = 1 },
-	{ name = "green gem", chance = 4940 },
-	{ name = "wand of everblazing", chance = 2180 },
-	{ name = "might ring", chance = 10020, maxCount = 1 },
-	{ id = 23544, chance = 1300 }, -- collar of red plasma
-	{ id = 23533, chance = 1110 }, -- Ring of Red Plasma
-	--{ id = 43895, chance = 1} --bag you covet
+	{ name = "butcher's axe", chance = 7967, maxCount = 1 },
+	{ name = "fire axe", chance = 7967, maxCount = 1 },
+	{ name = "fire sword", chance = 7967, maxCount = 1 },
+	{ name = "blue gem", chance = 7808, maxCount = 2 },
+	{ name = "violet gem", chance = 7084, maxCount = 2 },
 	{ name = "tainted heart", chance = 2, maxCount = 2 },
 	{ name = "darklight heart", chance = 2, maxCount = 2 },
 }

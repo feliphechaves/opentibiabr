@@ -72,27 +72,29 @@ monster.light = {
 monster.voices = {}
 
 monster.loot = {
-	{ name = "crystal coin", chance = 12961, maxCount = 1 },
+	{ name = "crystal coin", chance = 12961, maxCount = 2 },
 	{ name = "small emerald", chance = 9133, maxCount = 5 },
-	{ name = "small sapphire", chance = 34560, maxCount = 3 },
-	{ name = "small amethyst", chance = 12859, maxCount = 5 },
-	{ name = "blue gem", chance = 7808, maxCount = 1 },
-	{ name = "violet gem", chance = 7084, maxCount = 1 },
-	{ name = "yellow gem", chance = 9564, maxCount = 1 },
-	{ name = "green gem", chance = 4940 },
-	{ name = "might ring", chance = 10020, maxCount = 1 },
+	{ name = "small sapphire", chance = 9133, maxCount = 5 },
+	{ name = "small topaz", chance = 9133, maxCount = 5 },
+	{ name = "blue gem", chance = 7000, maxCount = 2 },
+	{ name = "violet gem", chance = 7000, maxCount = 2 },
+	{ name = "yellow gem", chance = 7000, maxCount = 2 },
+	{ name = "green gem", chance = 7000, maxCount = 2 },
+	{ name = "darklight core", chance = 13367, maxCount = 2 },
+	{ name = "basalt crumbs", chance = 5794, maxCount = 2 },
+	{ name = "amber staff", chance = 6240, maxCount = 1 },
 	{ id = 23544, chance = 1300 }, -- collar of red plasma
 	{ id = 23533, chance = 1110 }, -- Ring of Red Plasma
-	--{ id = 43895, chance = 1} --bag you covet
+	{ name = "magic plate armor", chance = 2000},
 	{ name = "tainted heart", chance = 2, maxCount = 2 },
 	{ name = "darklight heart", chance = 2, maxCount = 2 },
 }
 
 monster.attacks = {
 	{ name = "melee", interval = 2000, chance = 30, minDamage = -0, maxDamage = -3500 },
+	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_HOLYDAMAGE, minDamage = -2500, maxDamage = -3600, radius = 5, effect = CONST_ME_PURPLESMOKE, target = true },
 	{ name = "largeholyring", interval = 2500, chance = 15, minDamage = -1500, maxDamage = -4500, target = false },
-	{ name = "combat", intervall = 2000, chance = 20, type = COMBAT_HOLYDAMAGE, minDamage = -2500, maxDamage = -4000, radius = 5, effect = CONST_ME_PURPLESMOKE, target = true },
-	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_HOLYDAMAGE, minDamage = -2500, maxDamage = -4000, radius = 5, effect = CONST_ME_GHOSTLY_BITE, target = true },
+	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_HOLYDAMAGE, minDamage = -3000, maxDamage = -4000, radius = 5, effect = CONST_ME_GHOSTLY_BITE, target = true },
 	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_MANADRAIN, minDamage = -1000, maxDamage = -3000, range = 7, target = false },
 }
 
@@ -103,7 +105,7 @@ monster.defenses = {
 }
 
 monster.elements = {
-	{ type = COMBAT_PHYSICALDAMAGE, percent = 5 },
+	{ type = COMBAT_PHYSICALDAMAGE, percent = 0 },
 	{ type = COMBAT_ENERGYDAMAGE, percent = 0 },
 	{ type = COMBAT_EARTHDAMAGE, percent = 0 },
 	{ type = COMBAT_FIREDAMAGE, percent = 0 },

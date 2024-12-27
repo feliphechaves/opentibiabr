@@ -76,20 +76,22 @@ monster.events = {
 monster.voices = {}
 
 monster.loot = {
-	{ name = "crystal coin", chance = 12961, maxCount = 1 },
+	{ name = "crystal coin", chance = 12961, maxCount = 2 },
 	{ name = "small emerald", chance = 9133, maxCount = 5 },
-	{ name = "blue gem", chance = 7808, maxCount = 1 },
-	{ name = "violet gem", chance = 7084, maxCount = 1 },
-	{ name = "platinum amulet", chance = 1750 },
-	{ name = "glacier robe", chance = 1880 },
-	{ name = "glacier amulet", chance = 3510 },
-	{ name = "green gem", chance = 4940 },
-	{ name = "alloy legs", chance = 1440 },
-	{ name = "wand of defiance", chance = 1750 },
-	{ name = "glacier mask", chance = 4670 },
-	{ id = 23542, chance = 1250 }, -- collar of blue plasma
-	{ id = 23529, chance = 1230 }, -- ring of blue plasma
-	--{ id = 43895, chance = 1} --bag you covet
+	{ name = "small sapphire", chance = 9133, maxCount = 5 },
+	{ name = "blue gem", chance = 7000, maxCount = 2 },
+	{ name = "violet gem", chance = 7000, maxCount = 2 },
+	{ name = "yellow gem", chance = 7000, maxCount = 2 },
+	{ name = "green gem", chance = 7000, maxCount = 2 },
+	{ name = "glacier mask", chance = 7000 },
+	{ name = "glacier amulet", chance = 5000 },
+	{ name = "glacier robe", chance = 3000 },
+	{ name = "platinum amulet", chance = 2000 },
+	{ name = "wand of defiance", chance = 2000 },
+	{ id = 23542, chance = 2000 }, -- collar of blue plasma
+	{ id = 23529, chance = 2000 }, -- ring of blue plasma
+	{ name = "alloy legs", chance = 2000 },
+	{ name = "magic plate armor", chance = 2000},
 	{ name = "tainted heart", chance = 2, maxCount = 2 },
 	{ name = "darklight heart", chance = 2, maxCount = 2 },
 }

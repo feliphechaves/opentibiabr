@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Sanguine Shade")
 local monster = {}
 
 monster.description = "a sanguine shade"
-monster.experience = 21570
+monster.experience = 90000
 monster.outfit = {
 	lookType = 2517,
 	lookHead = 0,
@@ -25,10 +25,10 @@ monster.Bestiary = {
 	Occurrence = 0,
 }
 
-monster.health = 250000
-monster.maxHealth = 250000
-monster.race = "fire"
-monster.corpse = 8136
+monster.health = 110000
+monster.maxHealth = 110000
+monster.race = "undead"
+monster.corpse = 8181
 monster.speed = 195
 monster.manaCost = 305
 
@@ -59,9 +59,9 @@ monster.flags = {
 	runHealth = 0,
 	healthHidden = false,
 	isBlockable = false,
-	canWalkOnEnergy = true,
-	canWalkOnFire = true,
-	canWalkOnPoison = true,
+	canWalkOnEnergy = false,
+	canWalkOnFire = false,
+	canWalkOnPoison = false,
 }
 
 monster.light = {
@@ -72,18 +72,30 @@ monster.light = {
 monster.voices = {}
 
 monster.loot = {
-	{ name = "crystal coin", chance = 12961, maxCount = 1 },
+	{ name = "crystal coin", chance = 12961, maxCount = 2 },
 	{ name = "small emerald", chance = 9133, maxCount = 5 },
-	{ name = "blue gem", chance = 7808, maxCount = 1 },
-	{ name = "violet gem", chance = 7084, maxCount = 1 },
+	{ name = "small sapphire", chance = 9133, maxCount = 5 },
+	{ name = "small topaz", chance = 9133, maxCount = 5 },
+	{ name = "blue gem", chance = 7000, maxCount = 2 },
+	{ name = "violet gem", chance = 7000, maxCount = 2 },
+	{ name = "yellow gem", chance = 7000, maxCount = 2 },
+	{ name = "green gem", chance = 7000, maxCount = 2 },
+	{ name = "darklight core", chance = 13367, maxCount = 2 },
+	{ name = "basalt crumbs", chance = 5794, maxCount = 2 },
+	{ name = "amber staff", chance = 6240, maxCount = 1 },
+	{ id = 23544, chance = 1300 }, -- collar of red plasma
+	{ id = 23533, chance = 1110 }, -- Ring of Red Plasma
+	{ name = "magic plate armor", chance = 2000},
+	{ name = "tainted heart", chance = 2, maxCount = 2 },
+	{ name = "darklight heart", chance = 2, maxCount = 2 },
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 30, minDamage = -3000, maxDamage = -6000 },
-	{ name = "largefirering", interval = 2500, chance = 15, minDamage = -4000, maxDamage = -10000, target = false },
-	{ name = "combat", interval = 3000, chance = 35, type = COMBAT_FIREDAMAGE, minDamage = -4000, maxDamage = -9000, range = 7, radius = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true },
-	{ name = "combat", interval = 3000, chance = 40, type = COMBAT_FIREDAMAGE, minDamage = -4000, maxDamage = -10000, length = 10, spread = 3, effect = CONST_ANI_FIRE, target = false },
-	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_MANADRAIN, minDamage = -1000, maxDamage = -3000, range = 7, target = false },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -3500 },
+	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = -2500, maxDamage = -3600, range = 7, shootEffect = CONST_ANI_SUDDENDEATH, effect = CONST_ME_MORTAREA, target = false },
+	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_DEATHDAMAGE, minDamage = -1500, maxDamage = -4500, length = 8, spread = 0, effect = CONST_ME_MORTAREA, target = false },
+	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -3000, maxDamage = -4000, length = 7, spread = 0, effect = CONST_ME_EXPLOSIONAREA, target = false },
+	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_DEATHDAMAGE, minDamage = -1000, maxDamage = -3000, radius = 4, effect = CONST_ME_MORTAREA, target = false },
 }
 
 monster.defenses = {
@@ -93,15 +105,15 @@ monster.defenses = {
 }
 
 monster.elements = {
-	{ type = COMBAT_PHYSICALDAMAGE, percent = 30 },
+	{ type = COMBAT_PHYSICALDAMAGE, percent = 0 },
 	{ type = COMBAT_ENERGYDAMAGE, percent = 0 },
-	{ type = COMBAT_EARTHDAMAGE, percent = 10 },
-	{ type = COMBAT_FIREDAMAGE, percent = 95 },
+	{ type = COMBAT_EARTHDAMAGE, percent = 0 },
+	{ type = COMBAT_FIREDAMAGE, percent = 0 },
 	{ type = COMBAT_LIFEDRAIN, percent = 0 },
 	{ type = COMBAT_MANADRAIN, percent = 0 },
 	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
-	{ type = COMBAT_ICEDAMAGE, percent = -20 },
-	{ type = COMBAT_HOLYDAMAGE, percent = 0 },
+	{ type = COMBAT_ICEDAMAGE, percent = 0 },
+	{ type = COMBAT_HOLYDAMAGE, percent = -20 },
 	{ type = COMBAT_DEATHDAMAGE, percent = 0 },
 }
 
