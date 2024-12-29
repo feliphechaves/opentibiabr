@@ -26,6 +26,7 @@ function spell.onCastSpell(creature, variant)
 	local duration = 15000
 	condition:setTicks(duration)
 	local conditionCooldown = Condition(CONDITION_SPELLCOOLDOWN, CONDITIONID_DEFAULT, 267)
+	local boots = creature:getSlotItem(CONST_SLOT_FEET)
 	-- CHECK SANGUINE GALOSHES
 	if boots and boots:getId() == 43887 then
 		conditionCooldown:setTicks(((cooldown * 1000 * 60) - 1800000) / configManager.getFloat(configKeys.RATE_SPELL_COOLDOWN))

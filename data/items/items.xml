@@ -45084,7 +45084,7 @@
 		<attribute key="primarytype" value="valuables"/>
 		<attribute key="weight" value="1"/>
 	</item>
-	<item id="22722" article="a" name="copper token" plural="copper tokens">
+	<item id="22722" article="a" name="roulette coin" plural="roulette coins">
 		<attribute key="primarytype" value="valuables"/>
 		<attribute key="weight" value="20"/>
 	</item>

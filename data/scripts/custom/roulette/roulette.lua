@@ -5,7 +5,7 @@ local config = {
         right = 2773
     },
     playItem = {
-        itemId = 5957, -- item required to pull lever
+        itemId = 22722, -- item required to pull lever
         count = 1
     },
     rouletteOptions = {
@@ -18,6 +18,7 @@ local config = {
         rouletteStorage = 48550 -- required storage to avoid player abuse (if they logout/die before roulette finishes.. they can spin again for free)
     },
     prizePool = {
+        --[[
         {itemId = 3043, count = {1, 10},   chance = 10000}, -- {itemId = itemid, count = {min, max}, chance = chance/10000} (crystal coins)
         {itemId = 3382, count = {1, 1},    chance = 9000 }, -- crown legs
         {itemId = 3079, count = {1, 1},    chance = 8500 }, -- boots of haste
@@ -27,8 +28,33 @@ local config = {
         {itemId = 5957, count = {1, 3},    chance = 4000 }, -- roulette token
         {itemId = 3364, count = {1, 1},    chance = 3000 }, -- golden legs
         {itemId = 3366, count = {1, 1},    chance = 1500 }, -- magic plate armor
-        {itemId = 3555, count = {1, 1},    chance = 500  }  -- golden boots
-    
+        {itemId = 3555, count = {1, 1},    chance = 500  },  -- golden boots]]
+
+        --drop hard
+        {itemId = 36725, count = {1, 1}, chance = 1500},  -- stamina refill
+        {itemId = 36727, count = {1, 1}, chance = 1500},  -- wealth duplex
+        {itemId = 28720, count = {1, 1}, chance = 700},   -- falcon greaves
+        {itemId = 34109, count = {1, 1}, chance = 300},   -- bag you desire
+
+        --drop mediano
+        {itemId = 28718, count = {1, 1}, chance = 6500},  -- falcon bow
+        {itemId = 34152, count = {1, 1}, chance = 6500},  -- lion wand
+        {itemId = 30400, count = {1, 1}, chance = 6500},  -- cobra rod
+        {itemId = 34253, count = {1, 1}, chance = 6500},  -- lion axe
+        {itemId = 30398, count = {1, 1}, chance = 6500},  -- cobra sword
+        {itemId = 39157, count = {1, 1}, chance = 6500},  -- naga club
+
+        {itemId = 36728, count = {1, 1}, chance = 2500},  -- bestiary betterment
+        {itemId = 36729, count = {1, 1}, chance = 2500},  -- fire resilience
+        {itemId = 36730, count = {1, 1}, chance = 2500},  -- ice resilience
+        {itemId = 36731, count = {1, 1}, chance = 2500},  -- earth resilience
+        {itemId = 36732, count = {1, 1}, chance = 2500},  -- energy resilience
+        {itemId = 36733, count = {1, 1}, chance = 2500},  -- holy resilience
+        {itemId = 36734, count = {1, 1}, chance = 2500},  -- death resilience
+        {itemId = 36735, count = {1, 1}, chance = 2500},  -- physical resilience
+
+        --drop facil
+        {itemId = 22721, count = {1, 2}, chance = 9000},  -- gold token
     },
     roulettePositions = { -- hard-coded to 7 positions.
         Position(1139, 893, 5),
@@ -175,16 +201,16 @@ local casinoRoulette = Action()
 
 function casinoRoulette.onUse(player, item, fromPosition, target, toPosition, isHotkey)
     if item:getId() == config.lever.right then
-        player:sendTextMessage(MESSAGE_STATUS_SMALL, "Casino Roulette is currently in progress. Please wait.")
+        player:sendTextMessage(MESSAGE_FAILURE, "Casino Roulette is currently in progress. Please wait.")
         return true
     end
     
     if player:getItemCount(config.playItem.itemId) < config.playItem.count then
         if player:getStorageValue(config.rouletteOptions.rouletteStorage) < 1 then
-            player:sendTextMessage(MESSAGE_STATUS_SMALL, "Casino Roulette requires " .. config.playItem.count .. " " .. (ItemType(config.playItem.itemId):getName()) .. " to use.")
+            player:sendTextMessage(MESSAGE_FAILURE, "Casino Roulette requires " .. config.playItem.count .. " " .. (ItemType(config.playItem.itemId):getName()) .. " to use.")
             return true
         end
-        -- player:sendTextMessage(MESSAGE_STATUS_SMALL, "Free Spin being used due to a previous unforeseen error.")
+        -- player:sendTextMessage(MESSAGE_FAILURE, "Free Spin being used due to a previous unforeseen error.")
     end
     
     item:transform(config.lever.right)

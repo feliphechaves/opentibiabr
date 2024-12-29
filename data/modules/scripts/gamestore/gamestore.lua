@@ -7791,6 +7791,19 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_TEMPLE,
 				coinType = GameStore.CoinType.Coin,
 			},
+			{
+				icons = { "Roulette Coin" },
+				name = "Roulette Coin",
+				price = 5,
+				count = 1,
+				itemtype = 22722,
+				description = "Coin tu use in roulette",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				coinType = GameStore.CoinType.Coin,
+				movable = true,
+				home = true,
+				state = GameStore.States.STATE_NEW,
+			},
 		}
 	},
 
