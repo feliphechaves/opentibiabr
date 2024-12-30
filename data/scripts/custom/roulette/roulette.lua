@@ -9,7 +9,7 @@ local config = {
         count = 1
     },
     rouletteOptions = {
-        rareItemChance_broadcastThreshold = 500,
+        rareItemChance_broadcastThreshold = 700,
         ignoredItems = {1617}, -- if you have tables/counters/other items on the roulette tiles, add them here
         winEffects = {CONST_ANI_FIRE, CONST_ME_SOUND_YELLOW, CONST_ME_SOUND_PURPLE, CONST_ME_SOUND_BLUE, CONST_ME_SOUND_WHITE}, -- first effect needs to be distance effect
         effectDelay = 333,
@@ -71,7 +71,9 @@ local chancedItems = {} -- used for broadcast. don't edit
 
 local function resetLever(position)
     local lever = Tile(position):getItemById(config.lever.right)
-    lever:transform(config.lever.left)
+    if lever then
+        lever:transform(config.lever.left)
+    end
 end
 
 local function updateRoulette(newItemInfo)
@@ -242,3 +244,19 @@ end
 
 disableMovingItemsToRoulettePositions:position(config.roulettePositions)
 disableMovingItemsToRoulettePositions:register()
+
+local resetroulette = TalkAction("/resetroulette")
+
+function resetroulette.onSay(player, words, param)
+	-- create log
+	logCommand(player, words, param)
+
+    resetLever(Position(1142,895,5))
+    clearRoulette()
+
+	return true
+end
+
+resetroulette:separator(" ")
+resetroulette:groupType("gamemaster")
+resetroulette:register()
