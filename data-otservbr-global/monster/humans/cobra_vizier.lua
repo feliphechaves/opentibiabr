@@ -129,8 +129,10 @@ monster.immunities = {
 	{ type = "bleed", condition = false },
 }
 
+--[[
 mType.onSpawn = function(monster)
 	monster:handleCobraOnSpawn()
 end
+]]
 
 mType:register(monster)
