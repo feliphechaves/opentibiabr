@@ -3870,16 +3870,6 @@
 	<monster centerx="1084" centery="986" centerz="7" radius="1">
 		<monster name="Grimeleech" x="0" y="-1" z="7" spawntime="60" />
 	</monster>
-	<monster centerx="1144" centery="986" centerz="7" radius="1">
-		<monster name="Wandering Pillar" x="-1" y="1" z="7" spawntime="60" direction="2" />
-		<monster name="Rotten Man-Maggot" x="1" y="1" z="7" spawntime="60" direction="2" />
-	</monster>
-	<monster centerx="1146" centery="986" centerz="7" radius="1">
-		<monster name="Bloated Man-Maggot" x="1" y="1" z="7" spawntime="60" direction="2" />
-	</monster>
-	<monster centerx="1148" centery="986" centerz="7" radius="1">
-		<monster name="Walking Pillar" x="1" y="1" z="7" spawntime="60" direction="2" />
-	</monster>
 	<monster centerx="1042" centery="989" centerz="7" radius="1">
 		<monster name="Cobra Assassin" x="0" y="1" z="7" spawntime="60" direction="2" />
 	</monster>

@@ -7096,7 +7096,7 @@ GameStore.Categories = {
 		icons = { "Category_Tickets.png" },
 		name = "Online Coins",
 		rookgaard = true,
-		subclasses = { "Tibiadrome", "TC Mounts", "TC Outfits", "TC Housing", "Online Coins", "Services" },
+		subclasses = { "Tibiadrome", "TC Mounts", "TC Outfits", "TC Housing", "Online Coins", "Services", "Equipment" },
 	},
 	{
 		icons = { "Category_Potions.png" },
@@ -7857,6 +7857,27 @@ GameStore.Categories = {
 				count = 10,
 				description = "<i>Consumable Item:\n\n Tibia coin exchange to use in safe trade.\n\n",
 				type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
+				movable = true,
+				coinType = GameStore.CoinType.Coin,
+			},
+		},
+	},
+
+	{
+		icons = { "Category_PremiumTime.png" },
+		name = "Equipment",
+		parent = "Online Coins",
+		rookgaard = true,
+		state = GameStore.States.STATE_NONE,
+		offers = {
+			{
+				icons = { "Broken Amulet.png" },
+				name = "Broken Amulet",
+				price = 30,
+				itemtype = 3080,
+				count = 1,
+				description = "A broken version of an amulet that was once very powerful. \nArmor + 2\nPhysical + 3%\nAll Skills + 1\nAll Elements Def +2%",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				movable = true,
 				coinType = GameStore.CoinType.Coin,
 			},

@@ -18,4 +18,10 @@
 		<colors colordark="#235c00" colorlight="#2d7400" />
 		<details displaypriority="6" isseasonal="0" specialevent="0" />
 	</event>
+	<event name="Double XP" startdate="12/31/2024" enddate="01/02/2025" script="" >
+		<ingame exprate="200" lootrate="100" bosslootrate="100" spawnrate="100" skillrate="100" />
+		<description description="Double Skill" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
 </events>
