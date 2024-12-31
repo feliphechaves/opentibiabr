@@ -96,21 +96,21 @@ monster.loot = {
 	{ name = "white gem", chance = 9600, maxCount = 3 },
 	{ name = "tainted heart", chance = 50, maxCount = 5 },
 	{ name = "darklight heart", chance = 15, maxCount = 5 },
-	{ id = 43895, chance = 100 }, -- Bag you covet
+	{ id = 43895, chance = 500 }, -- Bag you covet
 }
 
 monster.attacks = {
-	{ name = "melee", interval = "2000", minDamage = "-5100", maxDamage = "-8000" },
-	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_DEATHDAMAGE, minDamage = -2000, maxDamage = -4800, length = 8, spread = 3, effect = CONST_ME_MORTAREA, target = false },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -2500, maxDamage = -3200, radius = 4, effect = CONST_ME_MORTAREA, target = false },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -2000, maxDamage = -3000, range = 7, shootEffect = CONST_ANI_DEATH, effect = CONST_ME_MORTAREA, target = true },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -2500, maxDamage = -3000, radius = 40, effect = CONST_ME_MORTAREA, target = false },
-	{ name = "combat", interval = 2000, chance = 17, type = COMBAT_HOLYDAMAGE, minDamage = -2500, maxDamage = -3200, radius = 3, effect = CONST_ME_HOLYAREA, target = false },
-	{ name = "combat", interval = 3000, chance = 25, type = COMBAT_HOLYDAMAGE, minDamage = -2000, maxDamage = -2100, radius = 4, effect = CONST_ME_HOLYDAMAGE, target = false },
-	{ name = "combat", interval = 2000, chance = 35, type = COMBAT_FIREDAMAGE, minDamage = -2500, maxDamage = -2600, range = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true },
-	{ name = "combat", interval = 2000, chance = 35, type = COMBAT_FIREDAMAGE, minDamage = -2500, maxDamage = -3450, length = 8, effect = CONST_ME_EXPLOSIONHIT, target = true },
+	{ name = "melee", interval = "2000", minDamage = 0, maxDamage = -5000 },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_DEATHDAMAGE, minDamage = -1000, maxDamage = -4800, length = 8, spread = 3, effect = CONST_ME_MORTAREA, target = false },
+	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -1500, maxDamage = -3200, radius = 4, effect = CONST_ME_MORTAREA, target = false },
+	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -1000, maxDamage = -3000, range = 7, shootEffect = CONST_ANI_DEATH, effect = CONST_ME_MORTAREA, target = true },
+	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -1500, maxDamage = -3000, radius = 40, effect = CONST_ME_MORTAREA, target = false },
+	{ name = "combat", interval = 2000, chance = 17, type = COMBAT_HOLYDAMAGE, minDamage = -1500, maxDamage = -3200, radius = 3, effect = CONST_ME_HOLYAREA, target = false },
+	{ name = "combat", interval = 3000, chance = 25, type = COMBAT_HOLYDAMAGE, minDamage = -1000, maxDamage = -2100, radius = 4, effect = CONST_ME_HOLYDAMAGE, target = false },
+	{ name = "combat", interval = 2000, chance = 35, type = COMBAT_FIREDAMAGE, minDamage = -1500, maxDamage = -2600, range = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true },
+	{ name = "combat", interval = 2000, chance = 35, type = COMBAT_FIREDAMAGE, minDamage = -1500, maxDamage = -3450, length = 8, effect = CONST_ME_EXPLOSIONHIT, target = true },
 	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_EARTHDAMAGE, minDamage = -2000, maxDamage = -2750, length = 5, radius = 2, effect = CONST_ME_GREEN_RINGS, target = false },
-	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_MANADRAIN, minDamage = -4000, maxDamage = -10000, length = 5, radius = 2, effect = CONST_ME_GREEN_RINGS, target = false },
+	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_MANADRAIN, minDamage = -1000, maxDamage = -10000, length = 5, radius = 2, effect = CONST_ME_GREEN_RINGS, target = false },
 }
 
 monster.defenses = {

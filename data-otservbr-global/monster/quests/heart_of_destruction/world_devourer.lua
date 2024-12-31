@@ -95,8 +95,8 @@ monster.loot = {
 	{ id = 23474, chance = 6000, unique = true }, -- tiara of power
 	{ id = 23477, chance = 6000, unique = true }, -- void boots
 	{ id = 23686, chance = 4000, unique = true }, -- devourer core
-	{ id = 23684, chance = 500, unique = true}, -- crackling egg
-	{ id = 23685, chance = 500, unique = true}, -- menacing egg
+	{ id = 23684, chance = 500}, -- crackling egg
+	{ id = 23685, chance = 500}, -- menacing egg
 }
 
 monster.attacks = {
