@@ -96,6 +96,7 @@
 		<monster name="The Enraged Thorn Knight" x="0" y="-1" z="1" spawntime="60" />
 	</monster>
 	<monster centerx="1242" centery="1007" centerz="2" radius="1">
+		<monster name="The Monster" x="1" y="-1" z="2" spawntime="60" direction="1" />
 		<monster name="The Pale Worm" x="1" y="1" z="2" spawntime="60" direction="1" />
 	</monster>
 	<monster centerx="1242" centery="1013" centerz="2" radius="1">
@@ -119,6 +120,9 @@
 	</monster>
 	<monster centerx="1245" centery="998" centerz="3" radius="1">
 		<monster name="The Primal Menace" x="0" y="1" z="3" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1247" centery="998" centerz="3" radius="1">
+		<monster name="The First Dragon" x="0" y="1" z="3" spawntime="60" direction="2" />
 	</monster>
 	<monster centerx="1250" centery="998" centerz="3" radius="1">
 		<monster name="Ratmiral Blackwhiskers" x="-1" y="1" z="3" spawntime="60" direction="2" />
@@ -5554,6 +5558,24 @@
 		<monster name="Mirror Image" x="0" y="-1" z="11" spawntime="60" />
 		<monster name="Mirror Image" x="-1" y="0" z="11" spawntime="60" />
 		<monster name="Mirror Image" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1248" centery="991" centerz="11" radius="1">
+		<monster name="Murcion" x="0" y="1" z="11" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1250" centery="991" centerz="11" radius="1">
+		<monster name="Ichgahal" x="0" y="1" z="11" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1252" centery="991" centerz="11" radius="1">
+		<monster name="Bakragore" x="0" y="1" z="11" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1254" centery="991" centerz="11" radius="1">
+		<monster name="Chagorz" x="0" y="1" z="11" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1256" centery="991" centerz="11" radius="1">
+		<monster name="Vemiath" x="0" y="1" z="11" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1262" centery="998" centerz="11" radius="1">
+		<monster name="Mitmah Vanguard" x="-1" y="0" z="11" spawntime="60" direction="3" />
 	</monster>
 	<monster centerx="1537" centery="589" centerz="12" radius="1">
 		<monster name="Mirror Image" x="-1" y="0" z="12" spawntime="60" />

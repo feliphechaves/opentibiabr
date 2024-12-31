@@ -19,12 +19,14 @@ function lastTeleport.onStepIn(creature, item, position, fromPosition)
 
 	local destination = { x = 33585, y = 30990, z = 14 }
 
+	--[[
 	if not isDateWithinEvent() then
 		player:teleportTo(fromPosition, true)
 		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "This teleport is only available between January 14 and February 12.")
 		player:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
 		return true
 	end
+	]]
 
 	if player:getStorageValue(Storage.Quest.U11_02.TheFirstDragon.FirstDragonTimer) < os.time() then
 		position:sendMagicEffect(CONST_ME_TELEPORT)

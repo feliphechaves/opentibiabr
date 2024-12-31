@@ -7,8 +7,8 @@ monster.outfit = {
 	lookTypeEx = 2521,
 }
 
-monster.health = 30000
-monster.maxHealth = 30000
+monster.health = 230000
+monster.maxHealth = 230000
 monster.race = "blood"
 monster.corpse = 0
 monster.speed = 0
