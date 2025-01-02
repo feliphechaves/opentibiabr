@@ -331,6 +331,10 @@ local function handlePrimalBeasts(monster)
 end
 
 mType.onThink = function(monster, interval)
+	local position = monster:getPosition()
+	if position.x==1245 and position.y==999 and position.z==3 then
+		return
+	end
 	if monster:getStorageValue(thePrimalMenaceConfig.Storage.Initialized) == -1 then
 		initialize(monster)
 	end

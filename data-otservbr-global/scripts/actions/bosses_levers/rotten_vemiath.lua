@@ -13,8 +13,8 @@ local config = {
 		{ pos = Position(33074, 32333, 15), teleport = Position(33043, 32341, 15), effect = CONST_ME_TELEPORT },
 	},
 	specPos = {
-		from = Position(33034, 32357, 15),
-		to = Position(33052, 32376, 15),
+		from = Position(33032, 32325, 15),
+		to = Position(33055, 32347, 15),
 	},
 	exit = Position(33043, 32344, 15),
 }

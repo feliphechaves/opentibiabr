@@ -2953,6 +2953,9 @@
 	<npc centerx="32181" centery="32660" centerz="14" radius="1">
 		<npc name="Gnome Trooper" x="0" y="0" z="14" spawntime="60" />
 	</npc>
+	<npc centerx="33555" centery="32758" centerz="14" radius="1">
+		<npc name="Gnomadness" x="0" y="0" z="14" spawntime="60" />
+	</npc>
 	<npc centerx="33366" centery="32855" centerz="14" radius="1">
 		<npc name="Cobra" x="0" y="0" z="14" spawntime="60" />
 	</npc>

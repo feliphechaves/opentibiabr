@@ -28980,7 +28980,8 @@
 		<attribute key="primarytype" value="creature products"/>
 		<attribute key="weight" value="32"/>
 	</item>
-	<item id="11685" article="a" name="cheese cookie">
+	<item id="11685" article="a" name="seed of the gods">
+		<attribute key="description" value="This food fills all your stamina"/>
 		<attribute key="primarytype" value="food"/>
 		<attribute key="weight" value="10"/>
 	</item>
@@ -71294,7 +71295,7 @@
 	<item fromid="39004" toid="39035" name="shallow water">
 		<attribute key="primarytype" value="natural tiles"/>
 	</item>
-	<item id="39036" article="a" name="rainbow opal">
+	<item id="39036" article="a" name="premium roulette coin">
 		<attribute key="primarytype" value="valuables"/>
 		<attribute key="weight" value="175"/>
 	</item>

@@ -595,6 +595,63 @@ taskConfiguration = {
 		"Sanguine Shade"
         },
     },
+
+	{
+        name = "Daily Ember Frost",
+        color = 40,
+        total = 30000,
+        type = "daily",
+        storage = 190056,
+        storagecount = 190057,
+        rewards = {
+            { "level", 0 },
+            { "gold", 20000000},
+			{ 46626, 2 }, --greater fragment
+			{ 49609, 1} --essence of health
+        },
+        races = {
+        "Sanguine Ember",
+		"Sanguine Frost"
+        },
+    },
+
+	{
+        name = "Daily Poison Energy",
+        color = 40,
+        total = 30000,
+        type = "daily",
+        storage = 190058,
+        storagecount = 190059,
+        rewards = {
+            { "level", 0 },
+            { "gold", 20000000},
+			{ 46626, 2 }, --greater fragment
+			{ 49609, 1} --essence of health
+        },
+        races = {
+        "Sanguine Boulder",
+		"Sanguine Spark"
+        },
+    },
+
+	{
+        name = "Daily Holy Death",
+        color = 40,
+        total = 30000,
+        type = "daily",
+        storage = 190060,
+        storagecount = 190061,
+        rewards = {
+            { "level", 0 },
+            { "gold", 20000000},
+			{ 46626, 2 }, --greater fragment
+			{ 49609, 1} --essence of health
+        },
+        races = {
+        "Sanguine Glow",
+		"Sanguine Shade"
+        },
+    },
 }
 
 squareWaitTime = 5000

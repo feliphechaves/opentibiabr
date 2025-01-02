@@ -37,12 +37,12 @@ local config = {
         {itemId = 34109, count = {1, 1}, chance = 300},   -- bag you desire
 
         --drop mediano
-        {itemId = 28718, count = {1, 1}, chance = 6500},  -- falcon bow
-        {itemId = 34152, count = {1, 1}, chance = 6500},  -- lion wand
-        {itemId = 30400, count = {1, 1}, chance = 6500},  -- cobra rod
-        {itemId = 34253, count = {1, 1}, chance = 6500},  -- lion axe
-        {itemId = 30398, count = {1, 1}, chance = 6500},  -- cobra sword
-        {itemId = 39157, count = {1, 1}, chance = 6500},  -- naga club
+        {itemId = 28718, count = {1, 1}, chance = 1500},  -- falcon bow
+        {itemId = 34152, count = {1, 1}, chance = 1500},  -- lion wand
+        {itemId = 30400, count = {1, 1}, chance = 1500},  -- cobra rod
+        {itemId = 34253, count = {1, 1}, chance = 1500},  -- lion axe
+        {itemId = 30398, count = {1, 1}, chance = 1500},  -- cobra sword
+        {itemId = 39157, count = {1, 1}, chance = 1500},  -- naga club
 
         {itemId = 36728, count = {1, 1}, chance = 2500},  -- bestiary betterment
         {itemId = 36729, count = {1, 1}, chance = 2500},  -- fire resilience
@@ -54,7 +54,7 @@ local config = {
         {itemId = 36735, count = {1, 1}, chance = 2500},  -- physical resilience
 
         --drop facil
-        {itemId = 22721, count = {1, 2}, chance = 9000},  -- gold token
+        {itemId = 22721, count = {1, 3}, chance = 9000},  -- gold token
     },
     roulettePositions = { -- hard-coded to 7 positions.
         Position(1139, 893, 5),

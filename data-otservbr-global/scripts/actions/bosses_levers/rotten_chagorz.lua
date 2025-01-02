@@ -13,10 +13,10 @@ local config = {
 		{ pos = Position(33074, 32367, 15), teleport = Position(33044, 32373, 15), effect = CONST_ME_TELEPORT },
 	},
 	specPos = {
-		from = Position(33035, 32327, 15),
-		to = Position(33053, 32345, 15),
+		from = Position(33033, 32356, 15),
+		to = Position(33053, 32378, 15),
 	},
-	exit = Position(33043, 32344, 15),
+	exit = Position(33044, 32375, 15),
 }
 
 local lever = BossLever(config)
