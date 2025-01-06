@@ -7059,6 +7059,18 @@ GameStore.Categories = {
 			},
 			{
 				icons = {},
+				name = "Royal Fanfare",
+				price = 5,
+				itemtype = 2956,
+				count = 1,
+				description = "Summon the Fanfare Merchant. This noble parrot is always ready to turn your loot into gold!",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				state = GameStore.States.STATE_NEW,
+				home = true,
+				movable = true,
+			},
+			{
+				icons = {},
 				name = "Premium Roulette Coin",
 				price = 3,
 				count = 1,

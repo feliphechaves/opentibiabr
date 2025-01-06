@@ -44,7 +44,7 @@ end
 npcHandler:addModule(FocusModule:new(), npcConfig.name, true, true, true)
 
 npcConfig.shop = {
-	{ itemName = "exalted core", clientId = 37110, buy = 40000000 },
+	{ itemName = "exalted core", clientId = 37110, buy = 10000000 },
 }
 -- On buy npc shop message
 npcType.onBuyItem = function(npc, player, itemId, subType, amount, ignore, inBackpacks, totalCost)

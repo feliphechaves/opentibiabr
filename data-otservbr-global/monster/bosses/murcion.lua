@@ -93,6 +93,7 @@ monster.loot = {
 	{ name = "ultimate spirit potion", chance = 8783, maxCount = 161 },
 	{ name = "tainted heart", chance = 50, maxCount = 5 },
 	{ name = "darklight heart", chance = 15, maxCount = 5 },
+	{ id = 43899, chance = 100}, --cursed wood
 	{ id = 43895, chance = 100 }, -- Bag you covet
 }
 

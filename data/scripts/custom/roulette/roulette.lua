@@ -163,20 +163,47 @@ local function rewardPlayer(playerId, leverPosition)
     if not player then
         return
     end
-    
-    local item = Tile(config.roulettePositions[4]):getTopVisibleThing()
-    
-    if ItemType(item:getId()):getCharges() then
-        local addedItem = player:addItem(item:getId(), 1, true)
-        addedItem:setAttribute("charges", item:getCharges())
-    else
-        player:addItem(item:getId(), item:getCount(), true)
+
+    -- Obter o Thing no topo da posição da roleta
+    local thing = Tile(config.roulettePositions[4]):getTopVisibleThing()
+    if not thing then
+        logger.info("DEBUG - Nenhum objeto encontrado na posição da roleta.")
+        return
     end
 
-    player:setStorageValue(config.rouletteOptions.rouletteStorage, -1)
-    if chancedItems[#chancedItems - 3] <= config.rouletteOptions.rareItemChance_broadcastThreshold then
-        Game.broadcastMessage("The player " .. player:getName() .. " has won " .. item:getName() .. " from the roulette!", MESSAGE_EVENT_ADVANCE)
+    -- Verificar se o Thing é um Item e recriar o item a partir do ItemType
+    local itemType = ItemType(thing:getId())
+    if itemType:getId() == 0 then
+        logger.info("DEBUG - ID do item inválido:", thing:getId())
+        return
     end
+
+    -- Recriar o item para garantir que ele esteja inicializado corretamente
+    local newItem = Game.createItem(itemType:getId(), thing:getCount())
+    if not newItem then
+        logger.info("DEBUG - Falha ao criar instância do item:", itemType:getName())
+        return
+    end
+
+    -- Adicionar o novo item ao inventário do jogador
+    local addedItem = player:addItem(newItem:getId(), newItem:getCount(), true)
+    if not addedItem then
+        logger.info("DEBUG - Falha ao adicionar o item ao jogador.")
+        return
+    end
+
+    -- Atualizar storage da roleta
+    player:setStorageValue(config.rouletteOptions.rouletteStorage, -1)
+
+    -- Broadcast para itens raros
+    if chancedItems[#chancedItems - 3] and
+        chancedItems[#chancedItems - 3] <= config.rouletteOptions.rareItemChance_broadcastThreshold then
+        Game.broadcastMessage(
+            "The player " .. player:getName() .. " has won " .. newItem:getName() .. " from the roulette!",
+            MESSAGE_EVENT_ADVANCE
+        )
+    end
+    logger.info("Player " .. player:getName() .. " has won " .. newItem:getName() .. " from the premium roulette!")
 end
 
 local function roulette(playerId, leverPosition, spinTimeRemaining, spinDelay)

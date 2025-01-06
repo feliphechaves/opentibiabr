@@ -540,7 +540,7 @@ taskConfiguration = {
 	    "Harpy",
         },
     },
-
+--[[
 	{
         name = "Sanguine Ember Frost",
         color = 40,
@@ -559,6 +559,7 @@ taskConfiguration = {
 		"Sanguine Frost"
         },
     },
+    
 	{
         name = "Sanguine Poison Energy",
         color = 40,
@@ -595,18 +596,19 @@ taskConfiguration = {
 		"Sanguine Shade"
         },
     },
+    ]]
 
 	{
         name = "Daily Ember Frost",
         color = 40,
-        total = 30000,
+        total = 50000,
         type = "daily",
         storage = 190056,
         storagecount = 190057,
         rewards = {
             { "level", 0 },
             { "gold", 20000000},
-			{ 46626, 2 }, --greater fragment
+			{ 46626, 5 }, --greater fragment
 			{ 49609, 1} --essence of health
         },
         races = {
@@ -618,7 +620,7 @@ taskConfiguration = {
 	{
         name = "Daily Poison Energy",
         color = 40,
-        total = 30000,
+        total = 50000,
         type = "daily",
         storage = 190058,
         storagecount = 190059,
@@ -637,7 +639,7 @@ taskConfiguration = {
 	{
         name = "Daily Holy Death",
         color = 40,
-        total = 30000,
+        total = 50000,
         type = "daily",
         storage = 190060,
         storagecount = 190061,
@@ -786,6 +788,7 @@ function Player.addTaskKill(self, storage, count)
 	if kills >= data.total then
 		return false
 	end
+    
 	if kills + count >= data.total then
 		if taskOptions.selectLanguage == 1 then
 			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, task_pt_br.messageCompleteTask)

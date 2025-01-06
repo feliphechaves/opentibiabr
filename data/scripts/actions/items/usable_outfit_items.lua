@@ -33,6 +33,10 @@ local outfitConfig = {
 	-- fire-fighter
 	[39544] = { female = 1569, male = 1568, addon = 1, achievement = "Friendly Fire", orangeText = "You feel like fighting a fire!" },
 	[39545] = { female = 1569, male = 1568, addon = 2, achievement = "Friendly Fire", orangeText = "The flame engulfs you!" },
+
+	--decaying defender
+	[43899] = { female = 1663, male = 1662, addon = 1, achievement = "Fully Decayed", whiteText = "Congratulations! You have won a Decaying Defender Addon." },
+	[43900] = { female = 1663, male = 1662, addon = 2, achievement = "Fully Decayed", whiteText = "Congratulations! You have won a Decaying Defender Addon." },
 }
 
 local usableOutfitItems = Action()

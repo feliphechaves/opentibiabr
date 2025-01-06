@@ -1,7 +1,7 @@
 local silverToken = Action()
 
 function silverToken.onUse(player, item, fromPosition, target, toPosition, isHotkey)
-	local cost = 20000000;
+	local cost = 10000000;
 	if player:isVip() then
 		cost = cost * 0.8
 	end

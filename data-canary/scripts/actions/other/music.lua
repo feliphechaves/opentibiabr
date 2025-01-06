@@ -7,7 +7,7 @@ local setting = {
 	[2953] = { effect = CONST_ME_SOUND_GREEN }, -- simple fanfare
 	[2954] = { effect = CONST_ME_SOUND_GREEN }, -- fanfare
 	[2955] = { effect = CONST_ME_SOUND_GREEN }, -- royal fanfare
-	[2956] = { effect = CONST_ME_SOUND_GREEN }, -- post horn
+	--[2956] = { effect = CONST_ME_SOUND_GREEN }, -- post horn
 	[2957] = { effect = CONST_ME_SOUND_GREEN }, -- war horn
 	[2958] = { effects = { failure = CONST_ME_SOUND_PURPLE, success = CONST_ME_SOUND_GREEN }, chance = 50 }, -- piano
 	[2959] = { effects = { failure = CONST_ME_SOUND_PURPLE, success = CONST_ME_SOUND_GREEN }, chance = 50 }, -- piano

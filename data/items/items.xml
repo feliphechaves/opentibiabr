@@ -6419,6 +6419,7 @@
 		<attribute key="weight" value="2300"/>
 	</item>
 	<item id="2956" article="a" name="royal fanfare">
+		<attribute key="description" value="Blow the Royal Fanfare to summon the Fanfare Merchant. This noble parrot is always ready to turn your loot into gold!"/>
 		<attribute key="primarytype" value="musical instruments"/>
 		<attribute key="weight" value="2500"/>
 	</item>
@@ -64241,6 +64242,7 @@
 		<attribute key="range" value="6"/>
 		<attribute key="weight" value="2500"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="life leech" value="4"/>
 			<attribute key="mana leech" value="4"/>
 			<attribute key="critical hit" value="4"/>
 			<attribute key="skillboost magic level" value="4"/>
@@ -73199,6 +73201,12 @@
 	<item id="39545" article="a" name="portable flame">
 		<attribute key="primarytype" value="valuables"/>
 		<attribute key="weight" value="15"/>
+	</item>
+	<item id="43899" article="a" name="cursed wood">
+		<attribute key="primarytype" value="valuables"/>
+	</item>
+	<item id="43900" article="a" name="darklight geode">
+		<attribute key="primarytype" value="valuables"/>
 	</item>
 	<item id="39546" article="a" name="primal bag">
 		<attribute key="description" value="A small gift from the gnomes of gnomprona"/>
