@@ -3,7 +3,7 @@ function AutoBroadCast.onThink(interval, lastExecution)
     local messages = {
     "[Daily Reward]: Using the !reward command you receive your daily reward",
     "[Tip]: Lagging? Use !fps to relog and get back to action!",
-    "[Silver Tokens]: Looking to gather Dusts? Use a Silver Token to get 130 Dusts for 20kk (only 16kk if you're VIP)!",
+    "[Silver Tokens]: Looking to gather Dusts? Use a Silver Token to get 130 Dusts for 10kk (only 8kk if you're VIP)!",
     "[Gold Tokens]: Upgrade your gear! Exchange your Gold Tokens for Class 4 items with Goldoken. Don't miss the opportunity to get stronger!",
     "[Supreme Imbuements]: Maximize your power with Supreme Imbuements! They are stronger, last longer, and can be yours for Gold Tokens. Upgrade now and dominate the battlefield!",
     "[Daily Boss]: Ready for epic rewards? The Daily Boss spawns every day at 21:00! Find the teleport in the center of Thais temple and claim amazing loot.",
