@@ -76,8 +76,7 @@ monster.light = {
 
 monster.summon = {
 	maxSummons = 0,
-	summons = {
-	},
+	summons = {},
 }
 
 monster.sounds = {

@@ -25,15 +25,15 @@ function spell.onCastSpell(creature, variant)
 	end
 	local duration = 15000
 	condition:setTicks(duration)
-	local conditionCooldown = Condition(CONDITION_SPELLCOOLDOWN, CONDITIONID_DEFAULT, 264)	
+	local conditionCooldown = Condition(CONDITION_SPELLCOOLDOWN, CONDITIONID_DEFAULT, 264)
 	-- creature:getPosition():sendMagicEffect(CONST_ME_AVATAR_APPEAR)
 	-- CHECK SANGUINE LEGS
 	local legs = creature:getSlotItem(CONST_SLOT_LEGS)
 	if legs and legs:getId() == 43876 then
-	conditionCooldown:setTicks(((cooldown * 1000 * 60) - 1800000) / configManager.getFloat(configKeys.RATE_SPELL_COOLDOWN))
-		else
-	conditionCooldown:setTicks((cooldown * 1000 * 60) / configManager.getFloat(configKeys.RATE_SPELL_COOLDOWN))
-		end
+		conditionCooldown:setTicks(((cooldown * 1000 * 60) - 1800000) / configManager.getFloat(configKeys.RATE_SPELL_COOLDOWN))
+	else
+		conditionCooldown:setTicks((cooldown * 1000 * 60) / configManager.getFloat(configKeys.RATE_SPELL_COOLDOWN))
+	end
 	creature:addCondition(conditionCooldown)
 	creature:addCondition(condition)
 	creature:avatarTimer((os.time() * 1000) + duration)

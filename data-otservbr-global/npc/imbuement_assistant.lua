@@ -318,7 +318,6 @@ local imbuementPackagesData = {
 local function purchaseItems(npc, player, message)
 	local packageData = imbuementPackagesData[message]
 	if packageData and npcHandler:getTopic(player:getId()) == 1 then
-
 		local moneyRequired = packageData.moneyRequired
 		if player:getLevel() <= 899 then
 			moneyRequired = 20000

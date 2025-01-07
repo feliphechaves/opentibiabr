@@ -92,6 +92,6 @@ function Party:onShareExperience(exp)
 	if allIPsAreDifferent(self) then
 		sharedExperienceMultiplier = sharedExperienceMultiplier * 2
 	end
-	
+
 	return math.ceil((exp * sharedExperienceMultiplier) / partySize)
 end

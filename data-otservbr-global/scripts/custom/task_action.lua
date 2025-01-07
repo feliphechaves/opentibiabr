@@ -20,22 +20,22 @@ function endTaskModalWindow(player, storage)
 		end
 	end
 	local title = taskOptions.selectLanguage == 1 and task_pt_br.title or "Task System"
-	local window = ModalWindow {
+	local window = ModalWindow({
 		title = title,
-		message = newmessage
-	}
+		message = newmessage,
+	})
 	if completion and data.rewards then
 		if player:getStorageValue(taskOptions.bonusReward) >= 1 then
 			if taskOptions.selectLanguage == 1 then
-				player:say('Recompensa Resgatada:', TALKTYPE_MONSTER_SAY)
+				player:say("Recompensa Resgatada:", TALKTYPE_MONSTER_SAY)
 			else
-				player:say('Redeemed Reward:', TALKTYPE_MONSTER_SAY)
+				player:say("Redeemed Reward:", TALKTYPE_MONSTER_SAY)
 			end
 			for _, info in pairs(data.rewards) do
 				if info[1] == "exp" then
 					player:addExperience(info[2] * taskOptions.bonusRate)
 					player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
-					player:say('Exp: ' .. info[2] * taskOptions.bonusRate .. '', TALKTYPE_MONSTER_SAY)
+					player:say("Exp: " .. info[2] * taskOptions.bonusRate .. "", TALKTYPE_MONSTER_SAY)
 					if taskOptions.selectLanguage == 1 then
 						window:addChoice(task_pt_br.choiceText .. "" .. info[2] * taskOptions.bonusRate)
 					else
@@ -44,7 +44,7 @@ function endTaskModalWindow(player, storage)
 				elseif info[1] == "gold" then
 					Bank.credit(player:getName(), tonumber(info[2]))
 					player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
-					player:say('Gold: ' .. info[2], TALKTYPE_MONSTER_SAY)
+					player:say("Gold: " .. info[2], TALKTYPE_MONSTER_SAY)
 					window:addChoice("- Gold: " .. info[2])
 				elseif info[1] == "level" then
 					local rewardLevel = 0
@@ -60,7 +60,7 @@ function endTaskModalWindow(player, storage)
 					local experienceToAdd = targetNewExp - player:getExperience()
 					player:addExperience(experienceToAdd, false)
 					player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
-					player:say('Level: ' .. rewardLevel, TALKTYPE_MONSTER_SAY)
+					player:say("Level: " .. rewardLevel, TALKTYPE_MONSTER_SAY)
 					window:addChoice("- Level: " .. rewardLevel)
 				elseif tonumber(info[1]) then
 					window:addChoice("- " .. info[2] * taskOptions.bonusRate .. " " .. ItemType(info[1]):getName())
@@ -69,24 +69,24 @@ function endTaskModalWindow(player, storage)
 					player:getPosition():sendSingleSoundEffect(SOUND_EFFECT_TYPE_ACTION_LEVEL_ACHIEVEMENT, player:isInGhostMode() and nil or player)
 					player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
 					if taskOptions.selectLanguage == 1 then
-						player:say('Outros: ' .. info[2] * taskOptions.bonusRate .. ' ' .. ItemType(info[1]):getName(), TALKTYPE_MONSTER_SAY)
+						player:say("Outros: " .. info[2] * taskOptions.bonusRate .. " " .. ItemType(info[1]):getName(), TALKTYPE_MONSTER_SAY)
 					else
-						player:say('Others: ' .. info[2] * taskOptions.bonusRate .. ' ' .. ItemType(info[1]):getName(), TALKTYPE_MONSTER_SAY)
+						player:say("Others: " .. info[2] * taskOptions.bonusRate .. " " .. ItemType(info[1]):getName(), TALKTYPE_MONSTER_SAY)
 					end
 					--player:setStorageValue(storagecheck, player:getStorageValue(storagecheck) + 1)
 				end
 			end
 		else
 			if taskOptions.selectLanguage == 1 then
-				player:say('Recompensa Resgatada:', TALKTYPE_MONSTER_SAY)
+				player:say("Recompensa Resgatada:", TALKTYPE_MONSTER_SAY)
 			else
-				player:say('Redeemed Reward:', TALKTYPE_MONSTER_SAY)
+				player:say("Redeemed Reward:", TALKTYPE_MONSTER_SAY)
 			end
 			for _, info in pairs(data.rewards) do
 				if info[1] == "exp" then
 					player:addExperience(info[2])
 					player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
-					player:say('Exp: ' .. info[2] .. '', TALKTYPE_MONSTER_SAY)
+					player:say("Exp: " .. info[2] .. "", TALKTYPE_MONSTER_SAY)
 					if taskOptions.selectLanguage == 1 then
 						window:addChoice(task_pt_br.choiceText .. "" .. info[2])
 					else
@@ -95,7 +95,7 @@ function endTaskModalWindow(player, storage)
 				elseif info[1] == "gold" then
 					Bank.credit(player:getName(), tonumber(info[2]))
 					player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
-					player:say('Gold: ' .. info[2], TALKTYPE_MONSTER_SAY)
+					player:say("Gold: " .. info[2], TALKTYPE_MONSTER_SAY)
 					window:addChoice("- Gold: " .. info[2])
 				elseif info[1] == "level" then
 					local rewardLevel = 0
@@ -111,7 +111,7 @@ function endTaskModalWindow(player, storage)
 					local experienceToAdd = targetNewExp - player:getExperience()
 					player:addExperience(experienceToAdd, false)
 					player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
-					player:say('Level: ' .. rewardLevel, TALKTYPE_MONSTER_SAY)
+					player:say("Level: " .. rewardLevel, TALKTYPE_MONSTER_SAY)
 					window:addChoice("- Level: " .. rewardLevel)
 				elseif tonumber(info[1]) then
 					window:addChoice("- " .. info[2] .. " " .. ItemType(info[1]):getName())
@@ -120,9 +120,9 @@ function endTaskModalWindow(player, storage)
 					player:getPosition():sendSingleSoundEffect(SOUND_EFFECT_TYPE_ACTION_LEVEL_ACHIEVEMENT, player:isInGhostMode() and nil or player)
 					player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
 					if taskOptions.selectLanguage == 1 then
-						player:say('Outros: ' .. ItemType(info[1]):getName() .. '', TALKTYPE_MONSTER_SAY)
+						player:say("Outros: " .. ItemType(info[1]):getName() .. "", TALKTYPE_MONSTER_SAY)
 					else
-						player:say('Others: ' .. ItemType(info[1]):getName() .. '', TALKTYPE_MONSTER_SAY)
+						player:say("Others: " .. ItemType(info[1]):getName() .. "", TALKTYPE_MONSTER_SAY)
 					end
 					--player:setStorageValue(storagecheck, player:getStorageValue(storagecheck) + 1)
 				end
@@ -130,9 +130,13 @@ function endTaskModalWindow(player, storage)
 		end
 	end
 	if taskOptions.selectLanguage == 1 then
-		window:addButton(task_pt_br.returnButton, function() sendTaskModalWindow(player) end)
+		window:addButton(task_pt_br.returnButton, function()
+			sendTaskModalWindow(player)
+		end)
 	else
-		window:addButton("Back", function() sendTaskModalWindow(player) end)
+		window:addButton("Back", function()
+			sendTaskModalWindow(player)
+		end)
 	end
 	window:sendToPlayer(player)
 end
@@ -140,15 +144,19 @@ end
 function acceptedTaskModalWindow(player)
 	local title = taskOptions.selectLanguage == 1 and task_pt_br.title or "Task System"
 	local customMessage = taskOptions.selectLanguage == 1 and task_pt_br.messageAcceptedText or "You accepted this task!"
-	local window = ModalWindow {
+	local window = ModalWindow({
 		title = title,
-		message = customMessage
-	}
+		message = customMessage,
+	})
 	player:getPosition():sendMagicEffect(CONST_ME_TREASURE_MAP)
 	if taskOptions.selectLanguage == 1 then
-		window:addButton(task_pt_br.returnButton, function() sendTaskModalWindow(player) end)
+		window:addButton(task_pt_br.returnButton, function()
+			sendTaskModalWindow(player)
+		end)
 	else
-		window:addButton("Back", function() sendTaskModalWindow(player) end)
+		window:addButton("Back", function()
+			sendTaskModalWindow(player)
+		end)
 	end
 	window:sendToPlayer(player)
 end
@@ -156,10 +164,10 @@ end
 function confirmTaskModalWindow(player, storage)
 	local title = taskOptions.selectLanguage == 1 and task_pt_br.title or "Task System"
 	local detailsMessage = taskOptions.selectLanguage == 1 and task_pt_br.messageDetailsText or "Here are the details of your task:"
-	local window = ModalWindow {
+	local window = ModalWindow({
 		title = title,
-		message = detailsMessage
-	}
+		message = detailsMessage,
+	})
 	local data = getTaskByStorage(storage)
 	if taskOptions.selectLanguage == 1 then
 		window:addChoice(task_pt_br.choiceMonsterName .. "" .. data.name)
@@ -260,10 +268,14 @@ function confirmTaskModalWindow(player, storage)
 	end
 	if taskOptions.selectLanguage == 1 then
 		window:addButton(task_pt_br.confirmButton, confirmCallback)
-		window:addButton(task_pt_br.returnButton, function() sendTaskModalWindow(player) end)
+		window:addButton(task_pt_br.returnButton, function()
+			sendTaskModalWindow(player)
+		end)
 	else
 		window:addButton("Choose", confirmCallback)
-		window:addButton("Back", function() sendTaskModalWindow(player) end)
+		window:addButton("Back", function()
+			sendTaskModalWindow(player)
+		end)
 	end
 	window:sendToPlayer(player)
 end
@@ -271,16 +283,20 @@ end
 function errorModalWindow(player)
 	local title = taskOptions.selectLanguage == 1 and task_pt_br.title or "Task System"
 	local completedMessage = taskOptions.selectLanguage == 1 and task_pt_br.messageAlreadyCompleteTask or "You have already completed this task."
-	local window = ModalWindow {
+	local window = ModalWindow({
 		title = title,
-		message = completedMessage
-	}
+		message = completedMessage,
+	})
 	player:getPosition():sendMagicEffect(CONST_ME_STUN)
 	player:getPosition():sendSingleSoundEffect(SOUND_EFFECT_TYPE_DIST_ATK_THROW_SHOT, player:isInGhostMode() and nil or player)
 	if taskOptions.selectLanguage == 1 then
-		window:addButton(task_pt_br.returnButton, function() sendTaskModalWindow(player) end)
+		window:addButton(task_pt_br.returnButton, function()
+			sendTaskModalWindow(player)
+		end)
 	else
-		window:addButton("Back", function() sendTaskModalWindow(player) end)
+		window:addButton("Back", function()
+			sendTaskModalWindow(player)
+		end)
 	end
 	window:sendToPlayer(player)
 end
@@ -288,16 +304,20 @@ end
 function uniqueModalWindow(player)
 	local title = taskOptions.selectLanguage == 1 and task_pt_br.title or "Task System"
 	local completedMessage = taskOptions.selectLanguage == 1 and task_pt_br.uniqueMissionError or "You can only do one mission at a time."
-	local window = ModalWindow {
+	local window = ModalWindow({
 		title = title,
-		message = completedMessage
-	}
+		message = completedMessage,
+	})
 	player:getPosition():sendMagicEffect(CONST_ME_POFF)
 	player:getPosition():sendSingleSoundEffect(SOUND_EFFECT_TYPE_DIST_ATK_THROW_SHOT, player:isInGhostMode() and nil or player)
 	if taskOptions.selectLanguage == 1 then
-		window:addButton(task_pt_br.returnButton, function() sendTaskModalWindow(player) end)
+		window:addButton(task_pt_br.returnButton, function()
+			sendTaskModalWindow(player)
+		end)
 	else
-		window:addButton("Back", function() sendTaskModalWindow(player) end)
+		window:addButton("Back", function()
+			sendTaskModalWindow(player)
+		end)
 	end
 	window:sendToPlayer(player)
 end
@@ -318,16 +338,20 @@ function cancelTaskModalWindow(player, managed)
 		end
 	end
 	local title = taskOptions.selectLanguage == 1 and task_pt_br.title or "Task System"
-	local window = ModalWindow {
+	local window = ModalWindow({
 		title = title,
-		message = newmessage
-	}
+		message = newmessage,
+	})
 	player:getPosition():sendMagicEffect(CONST_ME_EXPLOSIONAREA)
 	player:getPosition():sendSingleSoundEffect(SOUND_EFFECT_TYPE_DIST_ATK_THROW_SHOT, player:isInGhostMode() and nil or player)
 	if taskOptions.selectLanguage == 1 then
-		window:addButton(task_pt_br.returnButton, function() sendTaskModalWindow(player) end)
+		window:addButton(task_pt_br.returnButton, function()
+			sendTaskModalWindow(player)
+		end)
 	else
-		window:addButton("Back", function() sendTaskModalWindow(player) end)
+		window:addButton("Back", function()
+			sendTaskModalWindow(player)
+		end)
 	end
 	window:sendToPlayer(player)
 end
@@ -335,13 +359,13 @@ end
 function sendTaskModalWindow(player)
 	local title = taskOptions.selectLanguage == 1 and task_pt_br.title or "Task System"
 	local taskButtonMessage = taskOptions.selectLanguage == 1 and task_pt_br.choiceBoardText or "Choose a task and use the buttons below:"
-	local window = ModalWindow {
+	local window = ModalWindow({
 		title = title,
-		message = taskButtonMessage
-	}
+		message = taskButtonMessage,
+	})
 	local temptasks = {}
 	for _, data in pairs(taskConfiguration) do
-		temptasks[#temptasks+1] = data.storage
+		temptasks[#temptasks + 1] = data.storage
 		if player:hasStartedTask(data.storage) then
 			if taskOptions.selectLanguage == 1 then
 				window:addChoice(data.name .. " [" .. (player:getTaskKills(data.storagecount) >= data.total and "" .. task_pt_br.choiceRewardOnHold .. "]" or player:getTaskKills(data.storagecount) .. "/" .. data.total .. "]"))

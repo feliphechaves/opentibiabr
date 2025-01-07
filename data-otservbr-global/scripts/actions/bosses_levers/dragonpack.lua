@@ -1,7 +1,7 @@
 local config = {
 	boss = {
 		name = "Maliz",
-		position = Position(33265,31420,15),
+		position = Position(33265, 31420, 15),
 	},
 	requiredLevel = 1500,
 	timeToFightAgain = ParseDuration("20h") / ParseDuration("1s"),

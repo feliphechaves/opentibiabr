@@ -91,7 +91,7 @@ monster.loot = {
 	{ id = 23542, chance = 2000 }, -- collar of blue plasma
 	{ id = 23529, chance = 2000 }, -- ring of blue plasma
 	{ name = "alloy legs", chance = 2000 },
-	{ name = "magic plate armor", chance = 2000},
+	{ name = "magic plate armor", chance = 2000 },
 	{ name = "tainted heart", chance = 2, maxCount = 2 },
 	{ name = "darklight heart", chance = 2, maxCount = 2 },
 }

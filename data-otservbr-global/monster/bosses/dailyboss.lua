@@ -80,19 +80,19 @@ monster.loot = {
 	{ name = "teddy bear", chance = 10500 },
 	{ name = "thunder hammer", chance = 3500 },
 	{ id = 3002, chance = 1100 }, -- voodoo doll
-	{ id = 12599, chance = 1000}, --mages cap
-	{ id = 12803, chance = 1000}, --Elemental Spikes
-	{ id = 20276, chance = 1000}, --dream warden mask
-	{ id = 20275, chance = 1000},--Dream Warden Claw
+	{ id = 12599, chance = 1000 }, --mages cap
+	{ id = 12803, chance = 1000 }, --Elemental Spikes
+	{ id = 20276, chance = 1000 }, --dream warden mask
+	{ id = 20275, chance = 1000 }, --Dream Warden Claw
 	{ id = 5919, chance = 1000 }, --dragon claw
-	{ id = 40578, chance = 1000}, --the living idol of tukh
-	{ id = 40531, chance = 1000}, --broken Iks faulds
-	{ id = 40532, chance = 1000}, --broken Iks headpiece
-	{ id = 40533, chance = 1000}, --broken Iks cuirass
-	{ id = 40534, chance = 1000}, --Broken Iks Sandals
-	{ id = 36725, chance = 1500},  -- stamina refill
-    { id = 36727, chance = 1500},  -- wealth duplex
-	{ id = 34109, chance = 1000},   -- bag you desire
+	{ id = 40578, chance = 1000 }, --the living idol of tukh
+	{ id = 40531, chance = 1000 }, --broken Iks faulds
+	{ id = 40532, chance = 1000 }, --broken Iks headpiece
+	{ id = 40533, chance = 1000 }, --broken Iks cuirass
+	{ id = 40534, chance = 1000 }, --Broken Iks Sandals
+	{ id = 36725, chance = 1500 }, -- stamina refill
+	{ id = 36727, chance = 1500 }, -- wealth duplex
+	{ id = 34109, chance = 1000 }, -- bag you desire
 	{ name = "falcon battleaxe", chance = 600, maxCount = 1 },
 	{ name = "falcon longsword", chance = 600, maxCount = 1 },
 	{ name = "falcon mace", chance = 600, maxCount = 1 },
@@ -180,17 +180,17 @@ monster.loot = {
 	{ id = 39177, chance = 600 }, -- name = "charged spiritthorn ring"
 	{ name = "portable flame", chance = 600 },
 	{ name = "firefighting axe", chance = 600 },
-	{ id = 36728, chance = 1500},  -- bestiary betterment
-	{ id = 36729, chance = 1500},  -- fire resilience
-	{ id = 36730, chance = 1500},  -- ice resilience
-	{ id = 36731, chance = 1500},  -- earth resilience
-	{ id = 36732, chance = 1500},  -- energy resilience
-	{ id = 36733, chance = 1500},  -- holy resilience
-	{ id = 36734, chance = 1500},  -- death resilience
-	{ id = 36735, chance = 1500},  -- physical resilience
-	{ id = 22721, chance = 9000, maxCount = 15},  -- gold token
+	{ id = 36728, chance = 1500 }, -- bestiary betterment
+	{ id = 36729, chance = 1500 }, -- fire resilience
+	{ id = 36730, chance = 1500 }, -- ice resilience
+	{ id = 36731, chance = 1500 }, -- earth resilience
+	{ id = 36732, chance = 1500 }, -- energy resilience
+	{ id = 36733, chance = 1500 }, -- holy resilience
+	{ id = 36734, chance = 1500 }, -- death resilience
+	{ id = 36735, chance = 1500 }, -- physical resilience
+	{ id = 22721, chance = 9000, maxCount = 15 }, -- gold token
 	{ name = "white pearl", chance = 12500, maxCount = 35 },
-	{ id = 43895, chance = 600},   -- bag you covet
+	{ id = 43895, chance = 600 }, -- bag you covet
 }
 
 monster.attacks = {

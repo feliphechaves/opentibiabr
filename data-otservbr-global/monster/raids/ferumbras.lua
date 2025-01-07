@@ -126,7 +126,7 @@ monster.loot = {
 	{ id = 5944, chance = 8000, maxCount = 9 }, -- soul orb
 	{ name = "tainted heart", chance = 1350, maxCount = 5 },
 	{ name = "darklight heart", chance = 1315, maxCount = 5 },
-	{ id = 43895, chance = 1300 , maxCount = 2}, -- Bag you covet
+	{ id = 43895, chance = 1300, maxCount = 2 }, -- Bag you covet
 	{ name = "bag you desire", chance = 1000, maxCount = 2 },
 	{ name = "gold token", minCount = 0, maxCount = 15, chance = 5000 },
 }
