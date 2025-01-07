@@ -12,7 +12,7 @@ function bossesRottenBlood.onDeath(creature)
 		if cooldown <= now then
 			kv:scoped(bossName):set("cooldown", now + 20 * 60 * 60)
 			kv:set("taints", math.min(((kv:get("taints") or 0) + 1), 4))
-			--logger.info("taints: {}", kv:get("taints"))
+			logger.info("taints: {}", kv:get("taints"))
 		end
 	end)
 
@@ -41,6 +41,7 @@ function bakragoreOnDeath.onDeath(creature)
 			end
 		end
 		kv:set("taints", 0)
+		logger.info("taints after: {}", kv:get("taints"))
 	end)
 
 	return true

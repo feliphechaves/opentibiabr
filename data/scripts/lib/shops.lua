@@ -28,7 +28,7 @@ SupplyShopConfigTable = {
 	},
 	["distance equipments"] = {
 		{ itemName = "envenomed arrow", clientId = 16143, buy = 12 },
-		{ itemName = "diamond arrow", clientId = 35901, buy = 100 },
+		{ itemName = "diamond arrow", clientId = 35901, buy = 130 },
 		{ itemName = "drill bolt", clientId = 16142, buy = 12 },
 		{ itemName = "crystalline arrow", clientId = 15793, buy = 20 },
 		{ itemName = "blue quiver", clientId = 35848, buy = 400 },
@@ -88,7 +88,7 @@ SupplyShopConfigTable = {
 		{ itemName = "soulfire rune", clientId = 3195, buy = 46 },
 		{ itemName = "stalagmite rune", clientId = 3179, buy = 65 },
 		{ itemName = "stone shower rune", clientId = 3175, buy = 100 },
-		{ itemName = "sudden death rune", clientId = 3155, buy = 135 },
+		{ itemName = "sudden death rune", clientId = 3155, buy = 162 },
 		{ itemName = "thunderstorm rune", clientId = 3202, buy = 100 },
 		{ itemName = "ultimate healing rune", clientId = 3160, buy = 175 },
 		{ itemName = "wild growth rune", clientId = 3156, buy = 160 },
@@ -138,8 +138,8 @@ SupplyShopConfigTable = {
 	},
 	["potions"] = {
 		{ itemName = "great health potion", clientId = 239, buy = 225 },
-		{ itemName = "great mana potion", clientId = 238, buy = 144 },
-		{ itemName = "great spirit potion", clientId = 7642, buy = 228 },
+		{ itemName = "great mana potion", clientId = 238, buy = 158 },
+		{ itemName = "great spirit potion", clientId = 7642, buy = 254 },
 		{ itemName = "health potion", clientId = 266, buy = 50 },
 		{ itemName = "mana potion", clientId = 268, buy = 56 },
 		{ itemName = "mana shield potion", clientId = 35563, buy = 200000 },
@@ -148,7 +148,7 @@ SupplyShopConfigTable = {
 		{ itemName = "ultimate spirit potion", clientId = 23374, buy = 488 },
 		{ itemName = "supreme health potion", clientId = 23375, buy = 650 },
 		{ itemName = "strong health potion", clientId = 236, buy = 115 },
-		{ itemName = "strong mana potion", clientId = 237, buy = 93 },
+		{ itemName = "strong mana potion", clientId = 237, buy = 108 },
 	},
 	["backpacks"] = {
 		{ itemName = "golden backpack", clientId = 2871, buy = 1000 },

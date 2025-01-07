@@ -44,7 +44,12 @@ local config = {
             destinationPosition = Position(1143, 988, 6)
         }
     },
-    spawnTime = '21:00:00'
+    spawnTime = '21:00:00',
+    rewardList = {
+        { id = 43895, name = "bag you covet", count = 1},
+        { id = 34109, name = "bag you desire", count = 1},
+        { id = 39546, name = "primal bag", count = 1},
+    }
 }
 
 local DailyBossRespawn = GlobalEvent("DailyBossRespawn")
@@ -71,19 +76,35 @@ DailyBossRespawn:time(config.spawnTime)
 DailyBossRespawn:register()
 
 local DailyBossDeath = CreatureEvent("DailyBossDeath")
-function DailyBossDeath.onDeath(creature)
 
+function DailyBossDeath.onDeath(creature, corpse, lasthitkiller, mostdamagekiller, lasthitunjustified, mostdamageunjustified)
     local bossName = creature:getName():lower()
-	if bossName ~= "aries" then
-		return false
-	end
+    if bossName ~= "aries" then
+        return false
+    end
 
     local day = config.days[os.date("%A")]
     if day and bossName:lower() == day.bossName:lower() then
+        -- Remove o teleporte quando o boss é derrotado
         local teleport = Tile(day.teleportPosition):getItemById(config.teleportId)
         if teleport then
             teleport:remove()
             Game.broadcastMessage(day.bossName .. " has been defeated! The teleport has disappeared.", MESSAGE_GAME_HIGHLIGHT)
+        end
+
+        -- Lógica para premiar o jogador que deu mais dano
+        if mostdamagekiller and mostdamagekiller:isPlayer() then
+            local reward = config.rewardList[math.random(#config.rewardList)]
+            if reward then
+                mostdamagekiller:addItem(reward.id, reward.count)
+                local playerName = mostdamagekiller:getName()
+                Game.broadcastMessage("Congratulations to " .. playerName .. ", who dealt the most damage to " .. bossName .. " and received a " .. reward.name .. "!", MESSAGE_GAME_HIGHLIGHT)
+                logger.info("Player " .. playerName .. " received item: " .. reward.name .. " (ID: " .. reward.id .. ")")
+            else
+                logger.info("No reward could be determined for player " .. mostdamagekiller:getName() .. ".")
+            end
+        else
+            Game.broadcastMessage("No player dealt significant damage to " .. bossName .. ".", MESSAGE_GAME_HIGHLIGHT)
         end
     end
     return true
