@@ -76195,6 +76195,7 @@
 		<attribute key="criticalhitchance" value="1000"/>
 		<attribute key="weight" value="2200"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="life leech" value="4"/>
 			<attribute key="mana leech" value="4"/>
 			<attribute key="critical hit" value="4"/>
 			<attribute key="skillboost magic level" value="4"/>
@@ -76232,6 +76233,7 @@
 		<attribute key="criticalhitchance" value="1000"/>
 		<attribute key="weight" value="2100"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="life leech" value="4"/>
 			<attribute key="mana leech" value="4"/>
 			<attribute key="critical hit" value="4"/>
 			<attribute key="skillboost magic level" value="4"/>
