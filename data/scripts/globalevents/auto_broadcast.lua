@@ -14,7 +14,9 @@ function AutoBroadCast.onThink(interval, lastExecution)
     "[Grand Sanguine]: Did you know? Completing tasks in the new hunt can earn you a Grand Sanguine! Take on the challenge and claim this exclusive reward!",
     "[Bag You Desire]: Want to boost your chance of getting a Bag You Desire? Collect all 5 Taints to increase your odds. The more complete your set, the better your luck!",
     "[Check Taints]: Curious about your progress? Use the command !checktaint to see how many Taints you have collected. Keep striving for all 5!",
-    "[Supreme Runes]: Unlock ultimate power with Supreme Runes! These powerful runes can be used by Druids and Sorcerers of level 1500+."
+    "[Supreme Runes]: Unlock ultimate power with Supreme Runes! These powerful runes can be used by Druids and Sorcerers of level 1500+.",
+    "[Multi-Client Rules]: Only 4 characters per IP are allowed: 2 can stay in PZ, while 2 can be active outside. Respect this rule for fair play!",
+    "[Account Rules]: A maximum of 2 characters per account can be logged in, but only 1 is allowed outside PZ at a time."
 }
     Game.broadcastMessage(messages[math.random(#messages)], MESSAGE_GAME_HIGHLIGHT) 
     return true

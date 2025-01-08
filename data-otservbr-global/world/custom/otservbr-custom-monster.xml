@@ -3789,6 +3789,12 @@
 	<monster centerx="1075" centery="974" centerz="7" radius="1">
 		<monster name="Darklight Emitter" x="0" y="1" z="7" spawntime="60" direction="2" />
 	</monster>
+	<monster centerx="1078" centery="974" centerz="7" radius="1">
+		<monster name="Nibblemaw" x="0" y="1" z="7" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1081" centery="974" centerz="7" radius="1">
+		<monster name="Angry Sugar Fairy" x="0" y="1" z="7" spawntime="60" direction="2" />
+	</monster>
 	<monster centerx="1045" centery="979" centerz="7" radius="1">
 		<monster name="Yielothax" x="0" y="1" z="7" spawntime="60" direction="2" />
 	</monster>
@@ -4540,6 +4546,81 @@
 		<monster name="Infernal Phantom" x="0" y="0" z="8" spawntime="60" />
 		<monster name="Infernal Demon" x="2" y="1" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1503" centery="978" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1513" centery="978" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1525" centery="978" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1458" centery="981" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1494" centery="981" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1499" centery="981" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1452" centery="987" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1456" centery="987" centerz="8" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1463" centery="989" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1517" centery="989" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1526" centery="989" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1535" centery="990" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1454" centery="991" centerz="8" radius="1">
+		<monster name="Angry Sugar Fairy" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1501" centery="991" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1507" centery="991" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1251" centery="993" centerz="8" radius="1">
 		<monster name="Eradicator" x="0" y="1" z="8" spawntime="60" direction="2" />
 	</monster>
@@ -4549,14 +4630,275 @@
 	<monster centerx="1255" centery="993" centerz="8" radius="1">
 		<monster name="Outburst" x="0" y="1" z="8" spawntime="60" direction="2" />
 	</monster>
+	<monster centerx="1503" centery="994" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1247" centery="996" centerz="8" radius="1">
 		<monster name="Anomaly" x="1" y="0" z="8" spawntime="60" direction="1" />
+	</monster>
+	<monster centerx="1465" centery="996" centerz="8" radius="1">
+		<monster name="Angry Sugar Fairy" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1448" centery="997" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1527" centery="997" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1247" centery="998" centerz="8" radius="1">
 		<monster name="Realityquake" x="1" y="0" z="8" spawntime="60" direction="1" />
 	</monster>
 	<monster centerx="1247" centery="1000" centerz="8" radius="1">
 		<monster name="Rupture" x="1" y="0" z="8" spawntime="60" direction="1" />
+	</monster>
+	<monster centerx="1525" centery="1000" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1504" centery="1008" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1516" centery="1008" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1526" centery="1008" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1535" centery="1008" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1451" centery="1010" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1461" centery="1011" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1453" centery="1015" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1457" centery="1015" centerz="8" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1460" centery="1015" centerz="8" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1465" centery="1016" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1459" centery="1018" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1478" centery="1018" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1454" centery="1019" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1501" centery="1019" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1487" centery="1021" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1527" centery="1022" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1503" centery="1023" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1479" centery="1025" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1527" centery="1027" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1474" centery="1029" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1440" centery="1030" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1495" centery="1030" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1444" centery="1031" centerz="8" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1527" centery="1031" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1531" centery="1031" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1538" centery="1031" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1451" centery="1034" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1495" centery="1037" centerz="8" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1461" centery="1039" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1468" centery="1039" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1493" centery="1039" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1491" centery="1040" centerz="8" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1537" centery="1040" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1457" centery="1042" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1467" centery="1042" centerz="8" radius="1">
+		<monster name="Candy Horror" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1496" centery="1042" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1510" centery="1043" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1514" centery="1043" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1526" centery="1043" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1461" centery="1046" centerz="8" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1471" centery="1046" centerz="8" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1511" centery="1046" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1475" centery="1048" centerz="8" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1463" centery="1050" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="-1" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1529" centery="1052" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1494" centery="1053" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1538" centery="1053" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1493" centery="1055" centerz="8" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1451" centery="1058" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1486" centery="1058" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1490" centery="1058" centerz="8" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1509" centery="1059" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1451" centery="1060" centerz="8" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1538" centery="1062" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1453" centery="1064" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1455" centery="1064" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1506" centery="1064" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1513" centery="1065" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1534" centery="1065" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1531" centery="1067" centerz="8" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1466" centery="1068" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1477" centery="1068" centerz="8" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1473" centery="1070" centerz="8" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1942" centery="564" centerz="9" radius="1">
 		<monster name="Infernal Demon" x="0" y="0" z="9" spawntime="60" />
@@ -5004,6 +5346,339 @@
 	<monster centerx="1257" centery="998" centerz="9" radius="1">
 		<monster name="The Nightmare Beast" x="-1" y="0" z="9" spawntime="60" direction="3" />
 	</monster>
+	<monster centerx="1550" centery="1010" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1555" centery="1010" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1551" centery="1014" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1555" centery="1014" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1484" centery="1020" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1488" centery="1022" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1490" centery="1022" centerz="9" radius="1">
+		<monster name="Honey Elemental" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1492" centery="1024" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1485" centery="1026" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1496" centery="1026" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1557" centery="1027" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1498" centery="1028" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1544" centery="1028" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1485" centery="1029" centerz="9" radius="1">
+		<monster name="Honey Elemental" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1507" centery="1029" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1510" centery="1030" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1533" centery="1033" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1537" centery="1033" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1541" centery="1033" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1483" centery="1034" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1501" centery="1034" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1507" centery="1034" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1511" centery="1035" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1514" centery="1035" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1504" centery="1036" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1479" centery="1039" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1555" centery="1040" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1563" centery="1040" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1477" centery="1041" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1480" centery="1043" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1517" centery="1043" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1474" centery="1044" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1483" centery="1044" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1555" centery="1045" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1531" centery="1046" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1543" centery="1046" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1563" centery="1046" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1473" centery="1047" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1487" centery="1047" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1517" centery="1047" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1492" centery="1050" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1476" centery="1052" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1512" centery="1052" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1506" centery="1053" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1513" centery="1055" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1479" centery="1056" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1499" centery="1056" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1484" centery="1057" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1505" centery="1058" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1535" centery="1059" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1541" centery="1060" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1559" centery="1060" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1475" centery="1061" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1506" centery="1061" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1512" centery="1061" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1487" centery="1062" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1499" centery="1063" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1515" centery="1063" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1553" centery="1064" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1562" centery="1064" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1568" centery="1064" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1537" centery="1065" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1482" centery="1066" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1484" centery="1066" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1544" centery="1066" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1473" centery="1067" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1485" centery="1069" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1517" centery="1069" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1479" centery="1074" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1540" centery="1075" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1513" centery="1076" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1484" centery="1078" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1546" centery="1078" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1489" centery="1079" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1507" centery="1079" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1537" centery="1079" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1501" centery="1082" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1494" centery="1083" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1545" centery="1083" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1499" centery="1085" centerz="9" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1495" centery="1086" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1542" centery="1086" centerz="9" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1518" centery="1087" centerz="9" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1548" centery="600" centerz="10" radius="1">
 		<monster name="Mirror Image" x="0" y="0" z="10" spawntime="60" />
 	</monster>
@@ -5135,6 +5810,57 @@
 	</monster>
 	<monster centerx="1258" centery="996" centerz="10" radius="1">
 		<monster name="The Duke of the Depths" x="0" y="1" z="10" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1520" centery="1021" centerz="10" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1517" centery="1023" centerz="10" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1526" centery="1023" centerz="10" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1509" centery="1024" centerz="10" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1512" centery="1025" centerz="10" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1508" centery="1026" centerz="10" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1514" centery="1026" centerz="10" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1529" centery="1026" centerz="10" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1533" centery="1026" centerz="10" radius="1">
+		<monster name="Candy Floss Elemental" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Goggle Cake" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Angry Sugar Fairy" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1505" centery="1028" centerz="10" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1508" centery="1029" centerz="10" radius="1">
+		<monster name="Candy Horror" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1506" centery="1030" centerz="10" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1512" centery="1030" centerz="10" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1509" centery="1031" centerz="10" radius="1">
+		<monster name="Nibblemaw" x="0" y="0" z="10" spawntime="60" />
 	</monster>
 	<monster centerx="1538" centery="592" centerz="11" radius="1">
 		<monster name="Mirror Image" x="0" y="0" z="11" spawntime="60" />
@@ -5566,6 +6292,9 @@
 	</monster>
 	<monster centerx="1262" centery="998" centerz="11" radius="1">
 		<monster name="Mitmah Vanguard" x="-1" y="0" z="11" spawntime="60" direction="3" />
+	</monster>
+	<monster centerx="1245" centery="1000" centerz="11" radius="1">
+		<monster name="Sugar Daddy" x="1" y="0" z="11" spawntime="60" direction="1" />
 	</monster>
 	<monster centerx="1537" centery="589" centerz="12" radius="1">
 		<monster name="Mirror Image" x="-1" y="0" z="12" spawntime="60" />

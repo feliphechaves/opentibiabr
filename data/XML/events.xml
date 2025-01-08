@@ -24,4 +24,10 @@
 		<colors colordark="#235c00" colorlight="#2d7400" />
 		<details displaypriority="6" isseasonal="0" specialevent="0" />
 	</event>
+	<event name="Double Boss Loot" startdate="01/11/2025" enddate="01/12/2025" script="" >
+		<ingame exprate="100" lootrate="100" bosslootrate="200" spawnrate="100" skillrate="100" />
+		<description description="Double Boss Loot" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
 </events>

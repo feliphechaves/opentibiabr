@@ -32853,9 +32853,9 @@
 	<item id="14757" article="a" name="dragon's nest">
 		<attribute key="description" value="Young dragons will hatch soon."/>
 	</item>
-	<item id="14758" article="a" name="premium scroll">
+	<item id="14758" article="a" name="1 day vip scroll">
 		<attribute key="primarytype" value="documents and papers"/>
-		<attribute key="description" value="Using this scroll will add 30 days of premium time to your account once."/>
+		<attribute key="description" value="Using this scroll will add 1 day of vip time to your account once."/>
 		<attribute key="weight" value="0"/>
 	</item>
 	<item id="14759" article="a" name="surprise nest">
@@ -80526,5 +80526,64 @@
 			<attribute key="level" value="220"/>
 			<attribute key="slot" value="necklace"/>
 		</attribute>
+	</item>
+	<item id="45643" article="a" name="biscuit barrier">
+		<attribute key="primarytype" value="quest items"/>
+		<attribute key="absorbpercentphysical" value="15"/>
+		<attribute key="skillshield" value="5"/>
+		<attribute key="defense" value="10"/>
+		<attribute key="showAttributes" value="1"/>
+		<attribute key="manaticks" value="2000"/>
+		<attribute key="managain" value="25"/>
+		<attribute key="healthticks" value="2000"/>
+		<attribute key="healthgain" value="25"/>
+		<attribute key="weight" value="6000"/>
+			<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+		</attribute>
+	</item>
+	<item id="45642" article="a" name="ring of temptation">
+		<attribute key="primarytype" value="amulets and necklaces"/>
+		<attribute key="showCharges" value="1"/>
+		<attribute key="showAttributes" value="1"/>
+		<attribute key="absorbpercentmanadrain" value="40"/>
+		<attribute key="charges" value="200"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="necklace"/>
+		</attribute>
+	</item>
+	<item id="45641" article="a" name="candy necklace">
+		<attribute key="primarytype" value="amulets and necklaces"/>
+		<attribute key="absorbpercentphysical" value="3"/>
+			<attribute key="absorbpercentearth" value="-5"/>
+		<attribute key="absorbpercentenergy" value="6"/>
+		<attribute key="armor" value="2"/>
+		<attribute key="weight" value="630"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="necklace"/>
+		</attribute>
+	</item>
+	<item id="48114" article="a" name="peppermint backpack">
+		<attribute key="containersize" value="24"/>
+		<attribute key="weight" value="1500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+	<item id="45154" name="candia stairs">
+		<attribute key="floorchange" value="north"/>
+	</item>
+	<item id="44896" name="candia stairs">
+		<attribute key="floorchange" value="north"/>
+	</item>
+	<item id="44942" name="candia stairs">
+		<attribute key="floorchange" value="north"/>
+	</item>
+	<item id="44913" article="an" name="open door">
+		<attribute key="type" value="door"/>
 	</item>
 </items>

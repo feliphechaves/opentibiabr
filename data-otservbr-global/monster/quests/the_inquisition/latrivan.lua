@@ -105,6 +105,7 @@ monster.loot = {
 	{ id = 3066, chance = 5000 }, -- snakebite rod
 	{ id = 3049, chance = 5000 }, -- stealth ring
 	{ id = 3081, chance = 5000 }, -- stone skin amulet
+	{ id = 3002, chance = 3000}, --voodoo doll
 }
 
 monster.attacks = {
