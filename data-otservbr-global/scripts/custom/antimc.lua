@@ -1,6 +1,6 @@
 local config = {
     max = 4,
-    maxOutsidePZ = 2, -- Máximo de jogadores fora da zona de proteção
+    maxOutsidePZ = 4, -- Máximo de jogadores fora da zona de proteção
     text = "Only 4 characters allowed per IP.",
     group_id = 1, -- Aplica o limite aos jogadores com grupo menor ou igual ao id
     milliseconds_before_kick_to_read_popup = 9000, -- 9000 = 9 segundos

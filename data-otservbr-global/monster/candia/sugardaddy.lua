@@ -9,7 +9,7 @@ monster.outfit = {
 	lookBody = 0,
 	lookLegs = 0,
 	lookFeet = 0,
-	lookAddons = 3,
+	lookAddons = 1,
 	lookMount = 0,
 }
 
@@ -66,7 +66,7 @@ monster.light = {
 monster.summon = {
 	maxSummons = 4,
 	summons = {
-		{ name = "sugar cube", chance = 100, interval = 1000, count = 4 },
+		--{ name = "sugar cube", chance = 100, interval = 1000, count = 4 },
 	},
 }
 monster.voices = {
