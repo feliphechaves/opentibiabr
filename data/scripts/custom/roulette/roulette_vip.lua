@@ -30,15 +30,15 @@ local config = {
         {itemId = 3366, count = {1, 1},    chance = 1500 }, -- magic plate armor
         {itemId = 3555, count = {1, 1},    chance = 500  },  -- golden boots]]
     
-        {itemId = 22721, count = {1, 15}, chance = 7500},  -- gold token
-        {itemId = 3423, count = {1, 1}, chance = 6500},   -- blessed shield
-        {itemId = 3363, count = {1, 1}, chance = 6500},   -- dragon scale legs
-        {itemId = 3400, count = {1, 1}, chance = 6500},   -- dragon scale helmet
-        {itemId = 3390, count = {1, 1}, chance = 6500},   -- horned helmet
-        {itemId = 39546, count = {1, 1}, chance = 3500},  -- primal bag
-        {itemId = 34109, count = {1, 1}, chance = 3500},  -- bag you desire
-        {itemId = 3365, count = {1, 1}, chance = 3500},   -- golden helmet
-        {itemId = 3368, count = {1, 1}, chance = 3500},   -- winged helmet
+        {itemId = 22721, count = {1, 25}, chance = 2500},  -- gold token
+        {itemId = 3423, count = {1, 1}, chance = 2500},   -- blessed shield
+        {itemId = 3363, count = {1, 1}, chance = 2500},   -- dragon scale legs
+        {itemId = 3400, count = {1, 1}, chance = 2500},   -- dragon scale helmet
+        {itemId = 3390, count = {1, 1}, chance = 2500},   -- horned helmet
+        {itemId = 39546, count = {1, 1}, chance = 2500},  -- primal bag
+        --{itemId = 34109, count = {1, 1}, chance = 2500},  -- bag you desire
+        {itemId = 3365, count = {1, 1}, chance = 2500},   -- golden helmet
+        {itemId = 3368, count = {1, 1}, chance = 2500},   -- winged helmet
         --{itemId = 9219, count = {1, 1}, chance = 1500},   -- charm points
         
         --{itemId = 28897, count = {1, 1}, chance = 1500},  -- addon doll
@@ -46,6 +46,7 @@ local config = {
         {itemId = 49600, count = {1, 1}, chance = 1500}, --infinite food
         {itemId = 43895, count = {1, 1}, chance = 1400}, -- bag you desire
         {itemId = 39036, count = {1, 2}, chance = 1200}, -- cassino coin
+        {itemId = 14758, count = {1, 2}, chance = 1200}, -- vip scroll
 
         --sanguines
         {itemId = 43864, count = {1, 1}, chance = 1000},
@@ -74,20 +75,20 @@ local config = {
         {itemId = 49288, count = {1, 1}, chance = 400},
         {itemId = 49289, count = {1, 1}, chance = 400},
 
-        {itemId = 23488, count = {1, 1}, chance = 300}, --grand sanguine box
+        {itemId = 23488, count = {1, 1}, chance = 500}, --grand sanguine box
 
         --grand sanguine
-        {itemId = 43865, count = {1, 1}, chance = 100},
-        {itemId = 43867, count = {1, 1}, chance = 100},
-        {itemId = 43869, count = {1, 1}, chance = 100},
-        {itemId = 43871, count = {1, 1}, chance = 100},
-        {itemId = 43873, count = {1, 1}, chance = 100},
-        {itemId = 43875, count = {1, 1}, chance = 100},
-        {itemId = 43878, count = {1, 1}, chance = 100},
-        {itemId = 43880, count = {1, 1}, chance = 100},
-        {itemId = 43883, count = {1, 1}, chance = 100},
-        {itemId = 43886, count = {1, 1}, chance = 100},
-        {itemId = 43883, count = {1, 1}, chance = 100},
+        {itemId = 43865, count = {1, 1}, chance = 500},
+        {itemId = 43867, count = {1, 1}, chance = 500},
+        {itemId = 43869, count = {1, 1}, chance = 500},
+        {itemId = 43871, count = {1, 1}, chance = 500},
+        {itemId = 43873, count = {1, 1}, chance = 500},
+        {itemId = 43875, count = {1, 1}, chance = 500},
+        {itemId = 43878, count = {1, 1}, chance = 500},
+        {itemId = 43880, count = {1, 1}, chance = 500},
+        {itemId = 43883, count = {1, 1}, chance = 500},
+        {itemId = 43886, count = {1, 1}, chance = 500},
+        {itemId = 43883, count = {1, 1}, chance = 500},
     },
     roulettePositions = { -- hard-coded to 7 positions.
         Position(1188, 896, 5),
@@ -99,6 +100,8 @@ local config = {
         Position(1194, 896, 5),
     }
 }
+
+local rouletteActive = false
 
 local chancedItems = {} -- used for broadcast. don't edit
 
@@ -164,6 +167,7 @@ local function chanceNewReward()
     local rand = math.random(#rewardTable)
     newItemInfo.itemId = config.prizePool[rewardTable[rand]].itemId
     newItemInfo.count = math.random(config.prizePool[rewardTable[rand]].count[1], config.prizePool[rewardTable[rand]].count[2])
+
     chancedItems[#chancedItems + 1] = config.prizePool[rewardTable[rand]].chance
     
     return newItemInfo
@@ -219,7 +223,11 @@ local function rewardPlayer(playerId, leverPosition)
     end
 
     -- Adicionar o novo item ao inventário do jogador
-    local addedItem = player:addItem(newItem:getId(), newItem:getCount(), true)
+    local count = newItem:getCount()
+    if newItem:getId() == 22721 then
+        count = math.random(5, 25)
+    end
+    local addedItem = player:addItem(newItem:getId(), count, true)
     if not addedItem then
         logger.info("DEBUG - Falha ao adicionar o item ao jogador.")
         return
@@ -237,6 +245,8 @@ local function rewardPlayer(playerId, leverPosition)
         )
     end
     logger.info("Player " .. player:getName() .. " has won " .. newItem:getName() .. " from the premium roulette!")
+
+    rouletteActive = false
 end
 
 
@@ -275,6 +285,14 @@ function casinoRouletteVip.onUse(player, item, fromPosition, target, toPosition,
         end
         -- player:sendTextMessage(MESSAGE_FAILURE, "Free Spin being used due to a previous unforeseen error.")
     end
+
+    if rouletteActive then
+        player:sendTextMessage(MESSAGE_FAILURE, "The roulette is in progress. Please wait.")
+        return true
+    end
+
+    -- Iniciar a roleta
+    rouletteActive = true
     
     item:transform(config.lever.right)
     clearRoulette()

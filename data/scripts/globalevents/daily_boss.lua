@@ -46,7 +46,6 @@ local config = {
     },
     spawnTime = '21:00:00',
     rewardList = {
-        {id = 34109, name = "Bag you desire", count = 1},
         {id = 39546, name = "Primal bag", count = 1},
         {id = 43895, name = "Bag you covet", count = 1},
         {id = 14758, name = "One day vip scroll", count = 1}

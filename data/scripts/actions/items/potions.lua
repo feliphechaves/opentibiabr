@@ -79,7 +79,7 @@ function flaskPotion.onUse(player, item, fromPosition, target, toPosition, isHot
 			potion.combat:execute(target, Variant(target:getId()))
 		end
 
-		if not potion.effect and target:getPosition() ~= nil then
+		if not potion.effect and target and target:getPosition() ~= nil then
 			target:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE)
 		end
 

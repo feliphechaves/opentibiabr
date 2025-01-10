@@ -190,7 +190,10 @@ monster.loot = {
 	{ id = 36735, chance = 1500},  -- physical resilience
 	{ id = 22721, chance = 9000, maxCount = 15},  -- gold token
 	{ name = "white pearl", chance = 12500, maxCount = 35 },
-	{ id = 43895, chance = 600},   -- bag you covet
+	{ id = 43895, chance = 1000},   -- bag you covet
+	{ id = 23488, chance = 400},   -- grand sanguine box
+    { id = 14758, chance = 400},
+	{ id = 12210, chance = 400}
 }
 
 monster.attacks = {
@@ -209,7 +212,7 @@ monster.defenses = {
 	defense = 145,
 	armor = 188,
 	--	mitigation = ???,
-	{ name = "combat", interval = 1000, chance = 100, type = COMBAT_HEALING, minDamage = 10000, maxDamage = 20000, effect = CONST_ME_MAGIC_BLUE, target = false },
+	{ name = "combat", interval = 1000, chance = 100, type = COMBAT_HEALING, minDamage = 3000, maxDamage = 10000, effect = CONST_ME_MAGIC_BLUE, target = false },
 }
 
 monster.elements = {

@@ -173,7 +173,7 @@ npcConfig.shop = {
 	{ itemName = "viking helmet", clientId = 3367, sell = 12 },
 	{ itemName = "viking shield", clientId = 3431, sell = 35 },
 	{ itemName = "war hammer", clientId = 3279, sell = 90 },
-	{ itemName = "warlord sword", clientId = 3296, sell = 360 },
+	--{ itemName = "warlord sword", clientId = 3296, sell = 360 },
 	{ itemName = "warrior helmet", clientId = 3369, sell = 75 },
 	{ itemName = "winged helmet", clientId = 3368, sell = 320 },
 	{ itemName = "wooden shield", clientId = 3412, sell = 1 },
