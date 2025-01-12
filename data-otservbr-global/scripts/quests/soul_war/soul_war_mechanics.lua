@@ -693,7 +693,7 @@ function furiousCraterAccess.monsterOnDropLoot(monster, corpse)
 		return
 	end
 
-	Game.createItem(SoulWarQuest.pulsatingEnergyId, 1, monster:getPosition())
+	--Game.createItem(SoulWarQuest.pulsatingEnergyId, 1, monster:getPosition())
 end
 
 furiousCraterAccess:register()
@@ -760,14 +760,14 @@ function pulsatingEnergyTeleportAccess.onStepIn(creature, item, position, fromPo
 			local hasAccess = kv:get(posData.access) or false
 			local energyCount = kv:get("access-counter") or 0
 			local energiesNeeded = posData.count - energyCount
-			if not hasAccess then
-				player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You don't have access to this floor yet. You have collected " .. energyCount .. "/" .. posData.count .. ", and need " .. energiesNeeded .. " more pulsating energies to gain access.")
-				player:teleportTo(fromPosition, true)
-				fromPosition:sendMagicEffect(CONST_ME_TELEPORT)
-			else
+			-- if not hasAccess then
+			-- 	player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You don't have access to this floor yet. You have collected " .. energyCount .. "/" .. posData.count .. ", and need " .. energiesNeeded .. " more pulsating energies to gain access.")
+			-- 	player:teleportTo(fromPosition, true)
+			-- 	fromPosition:sendMagicEffect(CONST_ME_TELEPORT)
+			-- else
 				player:teleportTo(posData.to)
 				posData.to:sendMagicEffect(CONST_ME_TELEPORT)
-			end
+			-- end
 
 			break
 		end

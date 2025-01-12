@@ -16,6 +16,8 @@ local effects = {
 	{ position = Position(1062, 1027, 7), text = "TASK", effect = CONST_ME_GROUNDSHAKER },
 	{ position = Position(32373, 32233, 7), text = "FREE CASINO", effect = CONST_ME_GROUNDSHAKER },
 	{ position = Position(32373, 32235, 7), text = "PREMIUM CASINO", effect = CONST_ME_GROUNDSHAKER },
+	{ position = Position(1236, 1019, 0), text = "LAST FLOOR", effect = CONST_ME_GROUNDSHAKER },
+	{ position = Position(1245, 994, 11), text = "LAST FLOOR", effect = CONST_ME_GROUNDSHAKER },
 }
 
 local animatedText = GlobalEvent("AnimatedText")
