@@ -857,7 +857,7 @@ GameStore.Categories = {
 				price = 3,
 				id = 221,
 				description = "{character}\n{speedboost}\n\n<i>Skulls are the infernal heralds of untamed power. Bodies are obsolete when sinister forces animate your being. Embrace their presence and command the devastating might that awaits on the back of an eerie Corpsefire Skull!</i>",
-				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,				
+				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
 			{
 				icons = { "Cranium_Spider.png" },
@@ -931,7 +931,6 @@ GameStore.Categories = {
 				description = "{character}\n{speedboost}\n\n<i>Skulls are the infernal heralds of untamed power. Bodies are obsolete when sinister forces animate your being. Embrace their presence and command the devastating might that awaits on the back of a grim Doom Skull.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 				state = GameStore.States.STATE_NEW,
-				
 			},
 			{
 				icons = { "Doombringer.png" },
@@ -1317,7 +1316,6 @@ GameStore.Categories = {
 				description = "{character}\n{speedboost}\n\n<i>Skulls are the infernal heralds of untamed power. Bodies are obsolete when sinister forces animate your being. Embrace their presence and command the devastating might that awaits on the back of a blazing Magma Skull.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 				state = GameStore.States.STATE_NEW,
-				
 			},
 			{
 				icons = { "Marsh_Toad.png" },
@@ -1887,7 +1885,7 @@ GameStore.Categories = {
 				description = "Rapid Boar",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
-			
+
 			{
 				icons = { "Stampor.png" },
 				name = "Stampor",
@@ -2312,7 +2310,6 @@ GameStore.Categories = {
 				description = "Pegasus",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
-			
 		},
 	},
 	-- Cosmetics ~ Outfits (base outfit has addon = 0 or no defined addon. By default addon is set to 0)
@@ -2829,7 +2826,6 @@ GameStore.Categories = {
 				description = "{character}\n{info} colours can be changed using the Outfit dialog\n\n<i>You are fearless and strong as a behemoth but have problems finding the right outfit for your adventures? The Mage outfit is a must-have for all fashion-conscious old-school Tibians out there.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
 				state = GameStore.States.STATE_NEW,
-				
 			},
 			{
 				icons = { "Outfit_Summoner_Male.png", "Outfit_Summoner_Female.png" },
@@ -2840,7 +2836,6 @@ GameStore.Categories = {
 				description = "{character}\n{info} colours can be changed using the Outfit dialog\n\n<i>You are fearless and strong as a behemoth but have problems finding the right outfit for your adventures? The Summoner outfit is a must-have for all fashion-conscious old-school Tibians out there.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
 				state = GameStore.States.STATE_NEW,
-				
 			},
 			{
 				icons = { "Outfit_Pirate_Male.png", "Outfit_Pirate_Female.png" },
@@ -3268,7 +3263,7 @@ GameStore.Categories = {
 				description = "Dark outfit is male \n White outfit is female",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
 				state = GameStore.States.STATE_NEW,
-				home = true
+				home = true,
 			},
 			{
 				name = "Full Dark/White Druid Outfit",
@@ -3278,7 +3273,7 @@ GameStore.Categories = {
 				description = "Dark outfit is male \n White outfit is female",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
 				state = GameStore.States.STATE_NEW,
-				home = true
+				home = true,
 			},
 			{
 				name = "Full Dark/White Paladin Outfit",
@@ -3288,7 +3283,7 @@ GameStore.Categories = {
 				description = "Dark outfit is male \n White outfit is female",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
 				state = GameStore.States.STATE_NEW,
-				home = true
+				home = true,
 			},
 			{
 				name = "Full Dark/White Axe Outfit",
@@ -3298,7 +3293,7 @@ GameStore.Categories = {
 				description = "Dark outfit is male \n White outfit is female",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
 				state = GameStore.States.STATE_NEW,
-				home = true
+				home = true,
 			},
 			{
 				name = "Full Dark/White Club Outfit",
@@ -3308,7 +3303,7 @@ GameStore.Categories = {
 				description = "Dark outfit is male \n White outfit is female",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
 				state = GameStore.States.STATE_NEW,
-				home = true
+				home = true,
 			},
 			{
 				name = "Full Dark/White Sword Outfit",
@@ -3318,9 +3313,9 @@ GameStore.Categories = {
 				description = "Dark outfit is male \n White outfit is female",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
 				state = GameStore.States.STATE_NEW,
-				home = true
+				home = true,
 			},
-		}
+		},
 	},
 	-- House
 	{
@@ -7008,7 +7003,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "<i>Carries as many loot as your capacity allows.</i>\n\n{character}\n{storeinbox}\n{once}\n{useicon} use it to open it\n{info} always placed on the first position of your Store inbox",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM_UNIQUE,
-				
 			},
 			{
 				icons = { "Supreme_Cube.png" },
@@ -7018,7 +7012,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "<i>Cubo magico capaz de teleportar quem o usa para qualquer cidade.</i>\n\nTeleporta para as principais cidades do jogo e inclusive para a NPC Island! \nPode ser usado fora de protection zone!",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM_UNIQUE,
-				
 			},
 			{
 				icons = { "Aiolos_Backpack.png" },
@@ -7120,7 +7113,6 @@ GameStore.Categories = {
 				description = "<i>Consumable Item:\n\n Tibia coin exchange to use in safe trade.\n\n",
 				type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
 				movable = true,
-				
 			},
 			{
 				icons = { "Tibia Coins.png" },
@@ -7131,7 +7123,6 @@ GameStore.Categories = {
 				description = "<i>Consumable Item:\n\n Tibia coin exchange to use in safe trade.\n\n",
 				type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
 				movable = true,
-				
 			},
 			{
 				icons = { "Tibia Coins.png" },
@@ -7142,12 +7133,10 @@ GameStore.Categories = {
 				description = "<i>Consumable Item:\n\n Tibia coin exchange to use in safe trade.\n\n",
 				type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
 				movable = true,
-				
 			},
-			
 		},
 	},
-	
+
 	{
 		icons = { "Category_Tickets.png" },
 		name = "Online Coins",
@@ -7380,8 +7369,8 @@ GameStore.Categories = {
 				count = 1,
 				description = "Increases damage by treating the target's vulnerabilities as if they were 8% higher for one hour.",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
-			}
-		}
+			},
+		},
 	},
 
 	{
@@ -7483,8 +7472,7 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 				coinType = GameStore.CoinType.Coin,
 			},
-			
-		}
+		},
 	},
 
 	{
@@ -7564,7 +7552,7 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
 				coinType = GameStore.CoinType.Coin,
 			},
-		}
+		},
 	},
 
 	{
@@ -7692,7 +7680,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				
+
 				coinType = GameStore.CoinType.Coin,
 			},
 			{
@@ -7703,7 +7691,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				
+
 				coinType = GameStore.CoinType.Coin,
 			},
 			{
@@ -7714,7 +7702,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				
+
 				coinType = GameStore.CoinType.Coin,
 			},
 			{
@@ -7725,7 +7713,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				
+
 				coinType = GameStore.CoinType.Coin,
 			},
 			{
@@ -7736,7 +7724,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				
+
 				coinType = GameStore.CoinType.Coin,
 			},
 			{
@@ -7871,7 +7859,7 @@ GameStore.Categories = {
 				coinType = GameStore.CoinType.Coin,
 				movable = true,
 			},
-		}
+		},
 	},
 
 	{
@@ -7937,7 +7925,6 @@ GameStore.Categories = {
 			},
 		},
 	},
-
 }
 
 -- Each outfit must be uniquely identified to distinguish between addons.

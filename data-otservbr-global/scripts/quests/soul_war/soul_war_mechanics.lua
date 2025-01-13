@@ -765,8 +765,8 @@ function pulsatingEnergyTeleportAccess.onStepIn(creature, item, position, fromPo
 			-- 	player:teleportTo(fromPosition, true)
 			-- 	fromPosition:sendMagicEffect(CONST_ME_TELEPORT)
 			-- else
-				player:teleportTo(posData.to)
-				posData.to:sendMagicEffect(CONST_ME_TELEPORT)
+			player:teleportTo(posData.to)
+			posData.to:sendMagicEffect(CONST_ME_TELEPORT)
 			-- end
 
 			break

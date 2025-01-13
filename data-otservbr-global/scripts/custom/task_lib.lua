@@ -6,7 +6,7 @@ taskOptions = {
 	},
 	selectLanguage = 2, -- options: 1 = pt_br or 2 = english
 	uniqueTask = false, -- do one task at a time
-	uniqueTaskStorage = 65002
+	uniqueTaskStorage = 65002,
 }
 
 task_pt_br = {
@@ -52,7 +52,7 @@ taskConfiguration = {
 		rewards = {
 			{ 5804, 1 }, --nose ring
 			{ "level", 0 },
-			{ "gold", 20000000}
+			{ "gold", 20000000 },
 		},
 		races = {
 			"Minotaur",
@@ -109,7 +109,7 @@ taskConfiguration = {
 			{ "exp", 20000000 },
 			{ "gold", 25000000 },
 			{ 22721, 2 },
-			{ 22516, 2}
+			{ 22516, 2 },
 		},
 		races = {
 			"Weakened Frazzlemaw",
@@ -150,7 +150,7 @@ taskConfiguration = {
 		races = {
 			"True Dawnfire Asura",
 			"True Midnight Asura",
-			"True Frost Flower Asura"
+			"True Frost Flower Asura",
 		},
 	},
 
@@ -204,343 +204,339 @@ taskConfiguration = {
 	},
 
 	{
-        name = "Rotten Man-Maggot",
-        color = 40,
-        total = 55000,
-        type = "daily",
-        storage = 190018,
-        storagecount = 190019,
-        rewards = {
-            { 46626, 1 }, --greater fragment
-            { "level", 0 },
-            { "gold", 20000000}
-        },
-        races = {
-            "Rotten Man-Maggot",
-            "Oozing Carcass",
-            "Meandering Mushroom",
-            "Sopping Carcass",
-        },
-    },
-
-	{
-        name = "Bloated Man-Maggot",
-        color = 40,
-        total = 55000,
-        type = "daily",
-        storage = 190020,
-        storagecount = 190021,
-        rewards = {
-            { 46626, 1 }, --greater fragment
+		name = "Rotten Man-Maggot",
+		color = 40,
+		total = 55000,
+		type = "daily",
+		storage = 190018,
+		storagecount = 190019,
+		rewards = {
+			{ 46626, 1 }, --greater fragment
 			{ "level", 0 },
-            { "gold", 20000000}
-        },
-        races = {
-            "Bloated Man-Maggot",
-            "Mycobiontic Beetle",
-            "Oozing Corpus",
-            "Sopping Corpus",
-        },
-    },
+			{ "gold", 20000000 },
+		},
+		races = {
+			"Rotten Man-Maggot",
+			"Oozing Carcass",
+			"Meandering Mushroom",
+			"Sopping Carcass",
+		},
+	},
 
 	{
-        name = "Darklight Source",
-        color = 40,
-        total = 55000,
-        type = "daily",
-        storage = 190022,
-        storagecount = 190023,
-        rewards = {
-            { 46626, 1 }, --greater fragment
-            { "level", 0 },
-            { "gold", 20000000}
-        },
-        races = {
-            "Darklight Source",
-            "Darklight Matter",
-            "Walking Pillar",
-            "Darklight Striker",
-        },
-    },
-
-	{
-        name = "Darklight Emitter",
-        color = 40,
-        total = 55000,
-        type = "daily",
-        storage = 190024,
-        storagecount = 190025,
-        rewards = {
-            { 46626, 1 }, --greater fragment
+		name = "Bloated Man-Maggot",
+		color = 40,
+		total = 55000,
+		type = "daily",
+		storage = 190020,
+		storagecount = 190021,
+		rewards = {
+			{ 46626, 1 }, --greater fragment
 			{ "level", 0 },
-            { "gold", 20000000}
-        },
-        races = {
-            "Darklight Emitter",
-            "Wandering Pillar",
-            "Converter",
-        },
-    },
+			{ "gold", 20000000 },
+		},
+		races = {
+			"Bloated Man-Maggot",
+			"Mycobiontic Beetle",
+			"Oozing Corpus",
+			"Sopping Corpus",
+		},
+	},
 
 	{
-        name = "Bony Sea Devil",
-        color = 40,
-        total = 55000,
-        type = "daily",
-        storage = 190026,
-        storagecount = 190027,
-        rewards = {
-            { 46626, 1 }, --greater fragment
+		name = "Darklight Source",
+		color = 40,
+		total = 55000,
+		type = "daily",
+		storage = 190022,
+		storagecount = 190023,
+		rewards = {
+			{ 46626, 1 }, --greater fragment
 			{ "level", 0 },
-            { "gold", 20000000}
-        },
-        races = {
-            "Bony Sea Devil",
-            "Turbulent Elemental",
-            "Capricious Phantom",
-        },
-    },
+			{ "gold", 20000000 },
+		},
+		races = {
+			"Darklight Source",
+			"Darklight Matter",
+			"Walking Pillar",
+			"Darklight Striker",
+		},
+	},
 
 	{
-        name = "Rotten Golem",
-        color = 40,
-        total = 55000,
-        type = "daily",
-        storage = 190028,
-        storagecount = 190029,
-        rewards = {
-            { 46626, 1 }, --greater fragment
+		name = "Darklight Emitter",
+		color = 40,
+		total = 55000,
+		type = "daily",
+		storage = 190024,
+		storagecount = 190025,
+		rewards = {
+			{ 46626, 1 }, --greater fragment
 			{ "level", 0 },
-            { "gold", 20000000}
-        },
-        races = {
-            "Rotten Golem",
-            "Branchy Crawler",
-            "Mould Phantom",
-        },
-    },
+			{ "gold", 20000000 },
+		},
+		races = {
+			"Darklight Emitter",
+			"Wandering Pillar",
+			"Converter",
+		},
+	},
 
 	{
-        name = "Knight's Apparition",
-        color = 40,
-        total = 55000,
-        type = "daily",
-        storage = 190030,
-        storagecount = 190031,
-        rewards = {
-            { 46626, 1 }, --greater fragment
+		name = "Bony Sea Devil",
+		color = 40,
+		total = 55000,
+		type = "daily",
+		storage = 190026,
+		storagecount = 190027,
+		rewards = {
+			{ 46626, 1 }, --greater fragment
 			{ "level", 0 },
-            { "gold", 20000000}
-        },
-        races = {
-            "Knight's Apparition",
-            "Sorcerer's Apparition",
-            "Druid's Apparition",
-            "Many Faces",
-	    	"Distorted Phantom",
-        },
-    },
+			{ "gold", 20000000 },
+		},
+		races = {
+			"Bony Sea Devil",
+			"Turbulent Elemental",
+			"Capricious Phantom",
+		},
+	},
 
 	{
-        name = "Cloak Of Terror",
-        color = 40,
-        total = 55000,
-        type = "daily",
-        storage = 190032,
-        storagecount = 190033,
-        rewards = {
-            { 46626, 1 }, --greater fragment
+		name = "Rotten Golem",
+		color = 40,
+		total = 55000,
+		type = "daily",
+		storage = 190028,
+		storagecount = 190029,
+		rewards = {
+			{ 46626, 1 }, --greater fragment
 			{ "level", 0 },
-            { "gold", 20000000}
-        },
-        races = {
-            "Cloak Of Terror",
-            "Vibrant Phantom",
-            "Courage Leech",
-        },
-    },
+			{ "gold", 20000000 },
+		},
+		races = {
+			"Rotten Golem",
+			"Branchy Crawler",
+			"Mould Phantom",
+		},
+	},
 
 	{
-        name = "Infernal Demon",
-        color = 40,
-        total = 55000,
-        type = "daily",
-        storage = 190034,
-        storagecount = 190035,
-        rewards = {
-            { 46626, 1 }, --greater fragment
+		name = "Knight's Apparition",
+		color = 40,
+		total = 55000,
+		type = "daily",
+		storage = 190030,
+		storagecount = 190031,
+		rewards = {
+			{ 46626, 1 }, --greater fragment
 			{ "level", 0 },
-            { "gold", 20000000}
-        },
-        races = {
-            "Infernal Demon",
-            "Brachiodemon",
-            "Infernal Phantom",
-        },
-    },
+			{ "gold", 20000000 },
+		},
+		races = {
+			"Knight's Apparition",
+			"Sorcerer's Apparition",
+			"Druid's Apparition",
+			"Many Faces",
+			"Distorted Phantom",
+		},
+	},
 
 	{
-        name = "Hulking Prehemoth",
-        color = 40,
-        total = 55000,
-        type = "daily",
-        storage = 190036,
-        storagecount = 190037,
-        rewards = {
-            { 46626, 1 }, --greater fragment
+		name = "Cloak Of Terror",
+		color = 40,
+		total = 55000,
+		type = "daily",
+		storage = 190032,
+		storagecount = 190033,
+		rewards = {
+			{ 46626, 1 }, --greater fragment
 			{ "level", 0 },
-            { "gold", 20000000}
-        },
-        races = {
-            "Hulking Prehemoth",
-            "Gore Horn",
-            "Sabretooth",
-	    	"Gorerilla",
-	    	"Emerald Tortoise",
-        },
-    },
+			{ "gold", 20000000 },
+		},
+		races = {
+			"Cloak Of Terror",
+			"Vibrant Phantom",
+			"Courage Leech",
+		},
+	},
 
 	{
-        name = "Noxious Ripptor",
-        color = 40,
-        total = 55000,
-        type = "daily",
-        storage = 190038,
-        storagecount = 190039,
-        rewards = {
-            { 46626, 1 }, --greater fragment
+		name = "Infernal Demon",
+		color = 40,
+		total = 55000,
+		type = "daily",
+		storage = 190034,
+		storagecount = 190035,
+		rewards = {
+			{ 46626, 1 }, --greater fragment
 			{ "level", 0 },
-            { "gold", 20000000}
-        },
-        races = {
-            "Noxious Ripptor",
-            "Mantosaurus",
-            "Mercurial Menace",
-	    	"Gorerilla",
-	    	"Headpecker",
-        },
-    },
+			{ "gold", 20000000 },
+		},
+		races = {
+			"Infernal Demon",
+			"Brachiodemon",
+			"Infernal Phantom",
+		},
+	},
 
 	{
-        name = "Undertaker",
-        color = 40,
-        total = 55000,
-        type = "daily",
-        storage = 190040,
-        storagecount = 190041,
-        rewards = {
-            { 46626, 1 }, --greater fragment
+		name = "Hulking Prehemoth",
+		color = 40,
+		total = 55000,
+		type = "daily",
+		storage = 190036,
+		storagecount = 190037,
+		rewards = {
+			{ 46626, 1 }, --greater fragment
 			{ "level", 0 },
-            { "gold", 20000000}
-        },
-        races = {
-            "Undertaker",
-            "Nighthunter",
-            "Stalking Stalk",
-	    	"Sulphider",
-	    	"Sulphur Spouter",
-        },
-    },
+			{ "gold", 20000000 },
+		},
+		races = {
+			"Hulking Prehemoth",
+			"Gore Horn",
+			"Sabretooth",
+			"Gorerilla",
+			"Emerald Tortoise",
+		},
+	},
 
 	{
-        name = "Juggernaut",
-        color = 40,
-        total = 15000,
-        type = "daily",
-        storage = 190042,
-        storagecount = 190043,
-        rewards = {
-            { 46625, 1 }, --lesser fragment
-            { "exp", 25000000 },
-            { "gold", 10000000}
-        },
-        races = {
-            "Juggernaut",
-            "Vexclaw",
-            "Hellflayer",
-        },
-    },
-
-
-	{
-        name = "Floating Savant",
-        color = 40,
-        total = 15000,
-        type = "daily",
-        storage = 190042,
-        storagecount = 190043,
-        rewards = {
-            { 46625, 1 }, --lesser fragment
-            { "exp", 25000000 },
-            { "gold", 10000000}
-        },
-        races = {
-            "Floating Savant",
-            "Fury",
-        },
-    },
-
+		name = "Noxious Ripptor",
+		color = 40,
+		total = 55000,
+		type = "daily",
+		storage = 190038,
+		storagecount = 190039,
+		rewards = {
+			{ 46626, 1 }, --greater fragment
+			{ "level", 0 },
+			{ "gold", 20000000 },
+		},
+		races = {
+			"Noxious Ripptor",
+			"Mantosaurus",
+			"Mercurial Menace",
+			"Gorerilla",
+			"Headpecker",
+		},
+	},
 
 	{
-        name = "Hellflayer",
-        color = 40,
-        total = 15000,
-        type = "daily",
-        storage = 190044,
-        storagecount = 190045,
-        rewards = {
-            { 46625, 1 }, --lesser fragment
-            { "exp", 25000000 },
-            { "gold", 10000000}
-        },
-        races = {
-            "Hellflayer",
-            "Grimeleech",
-        },
-    },
-
-
-	{
-        name = "Wardragon",
-        color = 40,
-        total = 15000,
-        type = "daily",
-        storage = 190046,
-        storagecount = 190047,
-        rewards = {
-            { 46625, 1 }, --lesser fragment
-            { "exp", 25000000 },
-            { "gold", 10000000}
-        },
-        races = {
-            "Wardragon",
-            "Mega Dragon",
-	    	"Dragolisk",
-        },
-    },
-
+		name = "Undertaker",
+		color = 40,
+		total = 55000,
+		type = "daily",
+		storage = 190040,
+		storagecount = 190041,
+		rewards = {
+			{ 46626, 1 }, --greater fragment
+			{ "level", 0 },
+			{ "gold", 20000000 },
+		},
+		races = {
+			"Undertaker",
+			"Nighthunter",
+			"Stalking Stalk",
+			"Sulphider",
+			"Sulphur Spouter",
+		},
+	},
 
 	{
-        name = "Rhindeer",
-        color = 40,
-        total = 15000,
-        type = "daily",
-        storage = 190048,
-        storagecount = 190049,
-        rewards = {
-            { 46625, 1 }, --lesser fragment
-            { "exp", 25000000 },
-            { "gold", 10000000}
-        },
-        races = {
-            "Rhindeer",
-            "Carnivostrich",
-	    "Boar Man",
-	    "Crape Man",
-	    "Harpy",
-        },
-    },
---[[
+		name = "Juggernaut",
+		color = 40,
+		total = 15000,
+		type = "daily",
+		storage = 190042,
+		storagecount = 190043,
+		rewards = {
+			{ 46625, 1 }, --lesser fragment
+			{ "exp", 25000000 },
+			{ "gold", 10000000 },
+		},
+		races = {
+			"Juggernaut",
+			"Vexclaw",
+			"Hellflayer",
+		},
+	},
+
+	{
+		name = "Floating Savant",
+		color = 40,
+		total = 15000,
+		type = "daily",
+		storage = 190042,
+		storagecount = 190043,
+		rewards = {
+			{ 46625, 1 }, --lesser fragment
+			{ "exp", 25000000 },
+			{ "gold", 10000000 },
+		},
+		races = {
+			"Floating Savant",
+			"Fury",
+		},
+	},
+
+	{
+		name = "Hellflayer",
+		color = 40,
+		total = 15000,
+		type = "daily",
+		storage = 190044,
+		storagecount = 190045,
+		rewards = {
+			{ 46625, 1 }, --lesser fragment
+			{ "exp", 25000000 },
+			{ "gold", 10000000 },
+		},
+		races = {
+			"Hellflayer",
+			"Grimeleech",
+		},
+	},
+
+	{
+		name = "Wardragon",
+		color = 40,
+		total = 15000,
+		type = "daily",
+		storage = 190046,
+		storagecount = 190047,
+		rewards = {
+			{ 46625, 1 }, --lesser fragment
+			{ "exp", 25000000 },
+			{ "gold", 10000000 },
+		},
+		races = {
+			"Wardragon",
+			"Mega Dragon",
+			"Dragolisk",
+		},
+	},
+
+	{
+		name = "Rhindeer",
+		color = 40,
+		total = 15000,
+		type = "daily",
+		storage = 190048,
+		storagecount = 190049,
+		rewards = {
+			{ 46625, 1 }, --lesser fragment
+			{ "exp", 25000000 },
+			{ "gold", 10000000 },
+		},
+		races = {
+			"Rhindeer",
+			"Carnivostrich",
+			"Boar Man",
+			"Crape Man",
+			"Harpy",
+		},
+	},
+	--[[
 	{
         name = "Sanguine Ember Frost",
         color = 40,
@@ -599,61 +595,61 @@ taskConfiguration = {
     ]]
 
 	{
-        name = "Daily Ember Frost",
-        color = 40,
-        total = 50000,
-        type = "daily",
-        storage = 190056,
-        storagecount = 190057,
-        rewards = {
-            { "level", 0 },
-            { "gold", 20000000},
+		name = "Daily Ember Frost",
+		color = 40,
+		total = 50000,
+		type = "daily",
+		storage = 190056,
+		storagecount = 190057,
+		rewards = {
+			{ "level", 0 },
+			{ "gold", 20000000 },
 			{ 46626, 5 }, --greater fragment
-			{ 49609, 1} --essence of health
-        },
-        races = {
-        "Sanguine Ember",
-		"Sanguine Frost"
-        },
-    },
+			{ 49609, 1 }, --essence of health
+		},
+		races = {
+			"Sanguine Ember",
+			"Sanguine Frost",
+		},
+	},
 
 	{
-        name = "Daily Poison Energy",
-        color = 40,
-        total = 50000,
-        type = "daily",
-        storage = 190058,
-        storagecount = 190059,
-        rewards = {
-            { "level", 0 },
-            { "gold", 20000000},
+		name = "Daily Poison Energy",
+		color = 40,
+		total = 50000,
+		type = "daily",
+		storage = 190058,
+		storagecount = 190059,
+		rewards = {
+			{ "level", 0 },
+			{ "gold", 20000000 },
 			{ 46626, 2 }, --greater fragment
-			{ 49609, 1} --essence of health
-        },
-        races = {
-        "Sanguine Boulder",
-		"Sanguine Spark"
-        },
-    },
+			{ 49609, 1 }, --essence of health
+		},
+		races = {
+			"Sanguine Boulder",
+			"Sanguine Spark",
+		},
+	},
 
 	{
-        name = "Daily Holy Death",
-        color = 40,
-        total = 50000,
-        type = "daily",
-        storage = 190060,
-        storagecount = 190061,
-        rewards = {
-            { "level", 0 },
-            { "gold", 20000000},
+		name = "Daily Holy Death",
+		color = 40,
+		total = 50000,
+		type = "daily",
+		storage = 190060,
+		storagecount = 190061,
+		rewards = {
+			{ "level", 0 },
+			{ "gold", 20000000 },
 			{ 46626, 2 }, --greater fragment
-			{ 49609, 1} --essence of health
-        },
-        races = {
-        "Sanguine Glow",
-		"Sanguine Shade"
-        },
-    },
+			{ 49609, 1 }, --essence of health
+		},
+		races = {
+			"Sanguine Glow",
+			"Sanguine Shade",
+		},
+	},
 }
 
 squareWaitTime = 5000
@@ -668,7 +664,7 @@ function Player.getCustomActiveTasksName(self)
 	local tasks = {}
 	for i, data in pairs(taskConfiguration) do
 		if player:getStorageValue(data.storagecount) ~= -1 then
-			tasks[#tasks+1] = data.name
+			tasks[#tasks + 1] = data.name
 		end
 	end
 	return #tasks > 0 and tasks or false
@@ -788,7 +784,7 @@ function Player.addTaskKill(self, storage, count)
 	if kills >= data.total then
 		return false
 	end
-    
+
 	if kills + count >= data.total then
 		if taskOptions.selectLanguage == 1 then
 			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, task_pt_br.messageCompleteTask)
@@ -797,6 +793,6 @@ function Player.addTaskKill(self, storage, count)
 		end
 		return player:setStorageValue(data.storagecount, data.total)
 	end
-	player:say('Task: ' .. data.name .. ' - [' .. kills + count .. '/' .. data.total .. ']', TALKTYPE_MONSTER_SAY)
+	player:say("Task: " .. data.name .. " - [" .. kills + count .. "/" .. data.total .. "]", TALKTYPE_MONSTER_SAY)
 	return player:setStorageValue(data.storagecount, kills + count)
 end

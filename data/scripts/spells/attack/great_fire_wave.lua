@@ -12,37 +12,37 @@ local function adjustValues(min, max)
 end
 
 function spell.onCastSpell(creature, var)
-local weapon = creature:getSlotItem(CONST_SLOT_LEFT)
+	local weapon = creature:getSlotItem(CONST_SLOT_LEFT)
 	if weapon and weapon:getId() == 43882 then -- CHECK SANGUINE COIL
 		function onGetFormulaValues(player, level, maglevel)
-		local min = (level / 5) + (maglevel * 3.5) + 26
-		local max = (level / 5) + (maglevel * 4.8) + 38
-		return adjustValues(-min, -max)
+			local min = (level / 5) + (maglevel * 3.5) + 26
+			local max = (level / 5) + (maglevel * 4.8) + 38
+			return adjustValues(-min, -max)
 		end
 	elseif weapon and weapon:getId() == 43883 then -- CHECK GRAND SANGUINE COIL
 		function onGetFormulaValues(player, level, maglevel)
-		local min = (level / 5) + (maglevel * 4.1) + 36
-		local max = (level / 5) + (maglevel * 5.3) + 48
-		return adjustValues(-min, -max)
+			local min = (level / 5) + (maglevel * 4.1) + 36
+			local max = (level / 5) + (maglevel * 5.3) + 48
+			return adjustValues(-min, -max)
 		end
-	else 
+	else
 		function onGetFormulaValues(player, level, maglevel)
-		local min = (level / 5) + (maglevel * 2.8) + 16
-		local max = (level / 5) + (maglevel * 4.4) + 28
-		return adjustValues(-min, -max)
+			local min = (level / 5) + (maglevel * 2.8) + 16
+			local max = (level / 5) + (maglevel * 4.4) + 28
+			return adjustValues(-min, -max)
 		end
 	end
-		combat:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
-		-- CHECK SANGUINE BOOTS
-		local boots = creature:getSlotItem(CONST_SLOT_FEET)
-		if boots and boots:getId() == 43884 then
-			creature:setSkillLevel(8, creature:getSkillLevel(8) + 800)
-			combat:execute(creature, var)
-			creature:setSkillLevel(8, creature:getSkillLevel(8) - 800)
-			else
-				combat:execute(creature, var)
-			end
-		return true
+	combat:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
+	-- CHECK SANGUINE BOOTS
+	local boots = creature:getSlotItem(CONST_SLOT_FEET)
+	if boots and boots:getId() == 43884 then
+		creature:setSkillLevel(8, creature:getSkillLevel(8) + 800)
+		combat:execute(creature, var)
+		creature:setSkillLevel(8, creature:getSkillLevel(8) - 800)
+	else
+		combat:execute(creature, var)
+	end
+	return true
 end
 
 spell:group("attack")

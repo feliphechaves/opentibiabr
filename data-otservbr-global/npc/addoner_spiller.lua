@@ -111,7 +111,7 @@ addoninfo = {
 	["first nightmare addon"] = { cost = 0, items = { { 6499, 500 } }, outfit_female = 269, outfit_male = 268, addon = 1, storageID = 41012 },
 	["second nightmare addon"] = { cost = 0, items = { { 6499, 500 } }, outfit_female = 269, outfit_male = 268, addon = 2, storageID = 41013 },
 }
-local o = { "nightmare","brotherhood", "citizen", "hunter", "knight", "mage", "nobleman", "summoner", "warrior", "barbarian", "druid", "wizard", "oriental", "pirate", "assassin", "beggar", "shaman", "norseman" }
+local o = { "nightmare", "brotherhood", "citizen", "hunter", "knight", "mage", "nobleman", "summoner", "warrior", "barbarian", "druid", "wizard", "oriental", "pirate", "assassin", "beggar", "shaman", "norseman" }
 local rtnt = {}
 local function creatureSayCallback(npc, creature, type, message)
 	local talkUser = creature

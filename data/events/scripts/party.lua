@@ -88,10 +88,10 @@ function Party:onShareExperience(exp)
 	-- Since the formula its non linear, we need to subtract 0.1 if all vocations are present,
 	-- because on all vocations the multiplier is 2.1 and it should be 2.0
 	sharedExperienceMultiplier = partySize < 4 and sharedExperienceMultiplier or sharedExperienceMultiplier - 0.1
-	
+
 	if allIPsAreDifferent(self) then
 		sharedExperienceMultiplier = sharedExperienceMultiplier * 2
 	end
-	
+
 	return math.ceil((exp * sharedExperienceMultiplier) / partySize)
 end

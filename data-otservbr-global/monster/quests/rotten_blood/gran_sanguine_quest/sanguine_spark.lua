@@ -80,7 +80,7 @@ monster.loot = {
 	{ name = "crystal coin", chance = 12961, maxCount = 2 },
 	{ name = "small emerald", chance = 9133, maxCount = 5 },
 	{ name = "small sapphire", chance = 9133, maxCount = 5 },
-	{  name = "small sapphire", chance = 9133, maxCount = 5 },
+	{ name = "small sapphire", chance = 9133, maxCount = 5 },
 	{ name = "blue gem", chance = 7000, maxCount = 2 },
 	{ name = "violet gem", chance = 7000, maxCount = 2 },
 	{ name = "yellow gem", chance = 7000, maxCount = 2 },

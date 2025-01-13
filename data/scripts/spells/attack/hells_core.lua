@@ -10,29 +10,28 @@ local function adjustValues(min, max)
 end
 
 function spell.onCastSpell(creature, variant)
-
-local weapon = creature:getSlotItem(CONST_SLOT_LEFT)
+	local weapon = creature:getSlotItem(CONST_SLOT_LEFT)
 	-- CHECK SANGUINE COIL
-if weapon and weapon:getId() == 43882 then
-	function onGetFormulaValues(player, level, maglevel)
-	local min = (level / 5) + (maglevel * 12)
-	local max = (level / 5) + (maglevel * 15)
-	return adjustValues(-min, -max)
+	if weapon and weapon:getId() == 43882 then
+		function onGetFormulaValues(player, level, maglevel)
+			local min = (level / 5) + (maglevel * 12)
+			local max = (level / 5) + (maglevel * 15)
+			return adjustValues(-min, -max)
+		end
+	-- CHECK GRAND SANGUINE COIL
+	elseif weapon and weapon:getId() == 43883 then
+		function onGetFormulaValues(player, level, maglevel)
+			local min = (level / 5) + (maglevel * 14)
+			local max = (level / 5) + (maglevel * 16)
+			return adjustValues(-min, -max)
+		end
+	else
+		function onGetFormulaValues(player, level, maglevel)
+			local min = (level / 5) + (maglevel * 10)
+			local max = (level / 5) + (maglevel * 14)
+			return adjustValues(-min, -max)
+		end
 	end
--- CHECK GRAND SANGUINE COIL
-elseif weapon and weapon:getId() == 43883 then
-	function onGetFormulaValues(player, level, maglevel)
-	local min = (level / 5) + (maglevel * 14)
-	local max = (level / 5) + (maglevel * 16)
-	return adjustValues(-min, -max)
-	end
-else 
-	function onGetFormulaValues(player, level, maglevel)
-	local min = (level / 5) + (maglevel * 10)
-	local max = (level / 5) + (maglevel * 14)
-	return adjustValues(-min, -max)
-	end
-end
 	combat:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
 	-- CHECK SANGUINE BOOTS
 	local boots = creature:getSlotItem(CONST_SLOT_FEET)
@@ -40,9 +39,9 @@ end
 		creature:setSkillLevel(8, creature:getSkillLevel(8) + 800)
 		combat:execute(creature, variant)
 		creature:setSkillLevel(8, creature:getSkillLevel(8) - 800)
-		else
-			combat:execute(creature, variant)
-		end
+	else
+		combat:execute(creature, variant)
+	end
 	return true
 end
 

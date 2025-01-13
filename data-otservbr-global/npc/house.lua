@@ -100,7 +100,6 @@ local function onTradeRequest(npc, creature)
 	return true
 end
 
-
 npcHandler:setMessage(MESSAGE_FAREWELL, "Bye!")
 npcHandler:setMessage(MESSAGE_WALKAWAY, "Bye.")
 npcHandler:setMessage(MESSAGE_SENDTRADE, "At your service.")

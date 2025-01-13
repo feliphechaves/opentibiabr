@@ -96,7 +96,7 @@ monster.loot = {
 	{ name = "white gem", chance = 9600, maxCount = 3 },
 	{ name = "tainted heart", chance = 50, maxCount = 5 },
 	{ name = "darklight heart", chance = 15, maxCount = 5 },
-	{ id = 43900, chance = 100}, --darklight geode
+	{ id = 43900, chance = 100 }, --darklight geode
 	{ id = 43895, chance = 500 }, -- Bag you covet
 }
 

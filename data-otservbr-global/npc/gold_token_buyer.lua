@@ -30,7 +30,6 @@ npcConfig.shop = {
 	{ itemName = "magical torch", clientId = 9042, buy = 10 },
 	{ itemName = "conch shell horn", clientId = 43863, buy = 10 },
 	{ itemName = "scarab ocarina", clientId = 43740, buy = 10 },
-	
 
 	--equipments class 4
 	{ itemName = "class 4 helmet", clientId = 3395, buy = 5 },
