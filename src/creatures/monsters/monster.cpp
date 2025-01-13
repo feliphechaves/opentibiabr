@@ -608,7 +608,7 @@ bool Monster::removeTarget(const std::shared_ptr<Creature> &creature) {
 }
 
 void Monster::updateTargetList() {
-	if (!g_dispatcher().context().isAsync()) {
+	if (g_dispatcher().context().getGroup() == TaskGroup::Walk) {
 		setAsyncTaskFlag(UpdateTargetList, true);
 		return;
 	}
