@@ -96,7 +96,7 @@ monster.loot = {
 	{ name = "stone skin amulet", chance = 910 },
 	{ name = "nightmare blade", chance = 1190 },
 	{ name = "demonrage sword", chance = 600 },
-	{ name = "bag you desire", chance = 5 },
+	{ name = "bag you desire", chance = 4 },
 }
 
 monster.attacks = {
