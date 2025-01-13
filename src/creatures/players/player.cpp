@@ -3468,10 +3468,9 @@ void Player::doAttacking(uint32_t interval) {
 		}
 
 		const auto &task = createPlayerTask(
-			std::max<uint32_t>(SCHEDULER_MINTICKS, delay), [self = std::weak_ptr<Creature>(getCreature())] {
-				if (const auto &creature = self.lock()) {
-					creature->checkCreatureAttack(true);
-				} }, __FUNCTION__
+			std::max<uint32_t>(SCHEDULER_MINTICKS, delay),
+			[playerId = getID()] { g_game().checkCreatureAttack(playerId); },
+			__FUNCTION__
 		);
 
 		if (!classicSpeed) {
@@ -5335,7 +5334,7 @@ bool Player::setAttackedCreature(const std::shared_ptr<Creature> &creature) {
 	}
 
 	if (creature) {
-		checkCreatureAttack();
+		g_dispatcher().addEvent([creatureId = getID()] { g_game().checkCreatureAttack(creatureId); }, __FUNCTION__);
 	}
 	return true;
 }
@@ -9881,7 +9880,7 @@ void Player::onCreatureMove(const std::shared_ptr<Creature> &creature, const std
 	const auto &followCreature = getFollowCreature();
 	if (hasFollowPath && (creature == followCreature || (creature.get() == this && followCreature))) {
 		isUpdatingPath = false;
-		updateCreatureWalk();
+		g_game().updateCreatureWalk(getID()); // internally uses addEventWalk.
 	}
 
 	if (creature != getPlayer()) {

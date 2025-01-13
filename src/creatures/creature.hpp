@@ -316,9 +316,6 @@ public:
 	void addEventWalk(bool firstStep = false);
 	void stopEventWalk();
 
-	void updateCreatureWalk() {
-		goToFollowCreature_async();
-	}
 	void goToFollowCreature_async(std::function<void()> &&onComplete = nullptr);
 	virtual void goToFollowCreature();
 
@@ -489,9 +486,6 @@ public:
 	void setCreatureLight(LightInfo lightInfo);
 
 	virtual void onThink(uint32_t interval);
-
-	void checkCreatureAttack(bool now = false);
-
 	void onAttacking(uint32_t interval);
 	virtual void onCreatureWalk();
 	virtual bool getNextStep(Direction &dir, uint32_t &flags);
