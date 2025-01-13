@@ -145,4 +145,8 @@ mType.onDisappear = function(monster, creature)
 	end
 end
 
+mType.onSpawn = function(monster)
+	monster:resetHatredDamageMultiplier()
+end
+
 mType:register(monster)
