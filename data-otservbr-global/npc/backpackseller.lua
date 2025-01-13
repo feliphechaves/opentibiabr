@@ -54,11 +54,9 @@ npcConfig.shop = {
 	{ itemName = "yellow backpack", clientId = 2866, buy = 1000 },
 	{ itemName = "expedition backpack", clientId = 10324, buy = 1000 },
 
-
 	{ itemName = "changing backpack", clientId = 37536, buy = 10000000 },
 
 	{ itemName = "Zaoan chess box", clientId = 18339, buy = 15000000 },
-
 }
 
 local keywordHandler = KeywordHandler:new()
@@ -106,7 +104,6 @@ end
 local function onTradeRequest(npc, creature)
 	return true
 end
-
 
 npcHandler:setMessage(MESSAGE_FAREWELL, "Bye!")
 npcHandler:setMessage(MESSAGE_WALKAWAY, "Bye.")

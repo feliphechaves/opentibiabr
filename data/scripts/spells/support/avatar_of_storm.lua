@@ -29,10 +29,10 @@ function spell.onCastSpell(creature, variant)
 	local boots = creature:getSlotItem(CONST_SLOT_FEET)
 	-- CHECK SANGUINE BOOTS
 	if boots and boots:getId() == 43884 then
-	conditionCooldown:setTicks(((cooldown * 1000 * 60) - 1800000) / configManager.getFloat(configKeys.RATE_SPELL_COOLDOWN))
-		else
-	conditionCooldown:setTicks((cooldown * 1000 * 60) / configManager.getFloat(configKeys.RATE_SPELL_COOLDOWN))
-		end
+		conditionCooldown:setTicks(((cooldown * 1000 * 60) - 1800000) / configManager.getFloat(configKeys.RATE_SPELL_COOLDOWN))
+	else
+		conditionCooldown:setTicks((cooldown * 1000 * 60) / configManager.getFloat(configKeys.RATE_SPELL_COOLDOWN))
+	end
 	-- creature:getPosition():sendMagicEffect(CONST_ME_AVATAR_APPEAR)
 	creature:addCondition(conditionCooldown)
 	creature:addCondition(condition)

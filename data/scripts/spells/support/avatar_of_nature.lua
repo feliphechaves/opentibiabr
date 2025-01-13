@@ -30,15 +30,15 @@ function spell.onCastSpell(creature, variant)
 	-- CHECK SANGUINE GALOSHES
 	if boots and boots:getId() == 43887 then
 		conditionCooldown:setTicks(((cooldown * 1000 * 60) - 1800000) / configManager.getFloat(configKeys.RATE_SPELL_COOLDOWN))
-			else
+	else
 		conditionCooldown:setTicks((cooldown * 1000 * 60) / configManager.getFloat(configKeys.RATE_SPELL_COOLDOWN))
-			end
-		-- creature:getPosition():sendMagicEffect(CONST_ME_AVATAR_APPEAR)
-		creature:addCondition(conditionCooldown)
-		creature:addCondition(condition)
-		creature:avatarTimer((os.time() * 1000) + duration)
-		creature:reloadData()
-		addEvent(ReloadDataEvent, duration, creature:getId())
+	end
+	-- creature:getPosition():sendMagicEffect(CONST_ME_AVATAR_APPEAR)
+	creature:addCondition(conditionCooldown)
+	creature:addCondition(condition)
+	creature:avatarTimer((os.time() * 1000) + duration)
+	creature:reloadData()
+	addEvent(ReloadDataEvent, duration, creature:getId())
 	return true
 end
 

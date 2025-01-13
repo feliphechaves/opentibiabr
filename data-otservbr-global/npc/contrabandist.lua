@@ -321,10 +321,10 @@ end
 
 local function greetCallback(npc, creature, message)
 	local player = Player(creature)
-    if not player:isVip() then
-        npc:say("Who sent you? I only deal with people on my VIP list. Move along before someone sees us!", TALKTYPE_SAY, false, nil, player:getPosition())
-        return false -- Bloqueia a interação
-    end
+	if not player:isVip() then
+		npc:say("Who sent you? I only deal with people on my VIP list. Move along before someone sees us!", TALKTYPE_SAY, false, nil, player:getPosition())
+		return false -- Bloqueia a interação
+	end
 	npcHandler:setInteraction(npc, creature)
 	return true
 end

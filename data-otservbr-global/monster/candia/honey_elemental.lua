@@ -95,7 +95,6 @@ monster.loot = {
 monster.attacks = {
 	{ name = "melee", interval = 2000, chance = 100, minDamage = -700, maxDamage = -1500 },
 	-- bleed
-
 }
 
 monster.defenses = {

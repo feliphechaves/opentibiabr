@@ -49,9 +49,9 @@ npcConfig.shop = {
 -- On buy npc shop message
 npcType.onBuyItem = function(npc, player, itemId, subType, amount, ignore, inBackpacks, totalCost)
 	if amount > 100 then
-        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You cannot buy more than 100 items at a time.")
-        return false -- Bloqueia a venda
-    end
+		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You cannot buy more than 100 items at a time.")
+		return false -- Bloqueia a venda
+	end
 	npc:sellItem(player, itemId, amount, subType, 0, ignore, inBackpacks)
 end
 -- On sell npc shop message

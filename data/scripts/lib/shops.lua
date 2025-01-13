@@ -179,7 +179,7 @@ end
 
 LootShopConfigTable = {
 	["creature products"] = {
-		
+
 		{ itemName = "darklight obsidian axe", clientId = 43781, sell = 100 },
 		{ itemName = "basalt core", clientId = 43859, sell = 5800 },
 		{ itemName = "basalt crumbs", clientId = 43858, sell = 3000 },
@@ -1440,7 +1440,7 @@ LootShopConfigTable = {
 		{ itemName = "spectral stone", clientId = 4840, sell = 50 },
 		{ itemName = "talon", clientId = 3034, sell = 320 },
 		{ itemName = "unicorn figurine", clientId = 30054, sell = 50000 },
-		{ itemName = "vemiath's infused basalt", clientId = 43967, sell = 1000000},
+		{ itemName = "vemiath's infused basalt", clientId = 43967, sell = 1000000 },
 		{ itemName = "violet crystal shard", clientId = 16120, sell = 1500 },
 		{ itemName = "violet gem", clientId = 3036, sell = 10000 },
 		{ itemName = "war crystal", clientId = 9654, sell = 460 },

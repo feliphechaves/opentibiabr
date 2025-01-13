@@ -85,7 +85,7 @@ monster.loot = {
 	{ name = "amber staff", chance = 6240, maxCount = 1 },
 	{ id = 23544, chance = 1300 }, -- collar of red plasma
 	{ id = 23533, chance = 1110 }, -- Ring of Red Plasma
-	{ name = "magic plate armor", chance = 2000},
+	{ name = "magic plate armor", chance = 2000 },
 	{ name = "tainted heart", chance = 2, maxCount = 2 },
 	{ name = "darklight heart", chance = 2, maxCount = 2 },
 }

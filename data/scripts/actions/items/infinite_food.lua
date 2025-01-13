@@ -18,7 +18,7 @@ function food.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 
 	player:feed(itemFood[1] * 12)
 	player:say(itemFood[2], TALKTYPE_MONSTER_SAY)
-	
+
 	player:getPosition():sendSingleSoundEffect(SOUND_EFFECT_TYPE_ACTION_EAT, player:isInGhostMode() and nil or player)
 	return true
 end
