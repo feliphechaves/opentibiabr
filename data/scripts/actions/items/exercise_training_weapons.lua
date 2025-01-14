@@ -43,8 +43,8 @@ local exerciseWeaponsTable = {
 	[49618] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_DEATH, allowFarUse = true },
 }
 
-local bonusWeaponIds = {49611, 49616, 49613, 49615, 49617, 49614, 49618}
-local bonusDummyIds = {49280, 49281, 49282, 49283}
+local bonusWeaponIds = { 49611, 49616, 49613, 49615, 49617, 49614, 49618 }
+local bonusDummyIds = { 49280, 49281, 49282, 49283 }
 
 local dummies = Game.getDummies()
 
