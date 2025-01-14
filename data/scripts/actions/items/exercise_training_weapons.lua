@@ -18,22 +18,33 @@ local exerciseWeaponsTable = {
 	[44065] = { skill = SKILL_SHIELD },
 	[44066] = { skill = SKILL_SHIELD },
 	[44067] = { skill = SKILL_SHIELD },
+
+	[49611] = { skill = SKILL_SHIELD },
+	[49616] = { skill = SKILL_SWORD },
+	[49613] = { skill = SKILL_AXE },
+	[49615] = { skill = SKILL_CLUB },
 	-- ROD
 	[28544] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_SMALLICE, allowFarUse = true },
 	[28556] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_SMALLICE, allowFarUse = true },
 	[35283] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_SMALLICE, allowFarUse = true },
 	[35289] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_SMALLICE, allowFarUse = true },
+	[49617] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_SMALLEARTH, allowFarUse = true },
 	-- RANGE
 	[28543] = { skill = SKILL_DISTANCE, effect = CONST_ANI_SIMPLEARROW, allowFarUse = true },
 	[28555] = { skill = SKILL_DISTANCE, effect = CONST_ANI_SIMPLEARROW, allowFarUse = true },
 	[35282] = { skill = SKILL_DISTANCE, effect = CONST_ANI_SIMPLEARROW, allowFarUse = true },
 	[35288] = { skill = SKILL_DISTANCE, effect = CONST_ANI_SIMPLEARROW, allowFarUse = true },
+	[49614] = { skill = SKILL_DISTANCE, effect = CONST_ANI_DIAMONDARROW, allowFarUse = true },
 	-- WAND
 	[28545] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_FIRE, allowFarUse = true },
 	[28557] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_FIRE, allowFarUse = true },
 	[35284] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_FIRE, allowFarUse = true },
 	[35290] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_FIRE, allowFarUse = true },
+	[49618] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_DEATH, allowFarUse = true },
 }
+
+local bonusWeaponIds = {49611, 49616, 49613, 49615, 49617, 49614, 49618}
+local bonusDummyIds = {49280, 49281, 49282, 49283}
 
 local dummies = Game.getDummies()
 
@@ -127,8 +138,13 @@ local function exerciseTrainingEvent(playerId, tilePosition, weaponId, dummyId)
 	local vocation = player:getVocation()
 
 	local rateExerciseTrainingSpeed = configManager.getFloat(configKeys.RATE_EXERCISE_TRAINING_SPEED)
-	if dummyId == 49280 or dummyId == 49281 or dummyId == 49282 or dummyId == 49283 then
+
+	if table.contains(bonusDummyIds, dummyId) then
 		rateExerciseTrainingSpeed = rateExerciseTrainingSpeed * 1.3
+	end
+
+	if table.contains(bonusWeaponIds, weaponId) then
+		rateExerciseTrainingSpeed = rateExerciseTrainingSpeed * 2
 	end
 
 	_G.OnExerciseTraining[playerId].event = addEvent(exerciseTrainingEvent, vocation:getBaseAttackSpeed() / rateExerciseTrainingSpeed, playerId, tilePosition, weaponId, dummyId)

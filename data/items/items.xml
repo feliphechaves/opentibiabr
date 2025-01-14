@@ -80606,4 +80606,46 @@
 	<item id="44913" article="an" name="open door">
 		<attribute key="type" value="door"/>
 	</item>
+	<item id="49611" article="a" name="boosted exercise shield">
+		<attribute key="primarytype" value="exercise weapons"/>
+		<attribute key="showCharges" value="1"/>
+		<attribute key="charges" value="1"/>
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="49613" article="a" name="boosted exercise axe">
+		<attribute key="primarytype" value="exercise weapons"/>
+		<attribute key="showCharges" value="1"/>
+		<attribute key="charges" value="1"/>
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="49614" article="a" name="boosted exercise bow">
+		<attribute key="primarytype" value="exercise weapons"/>
+		<attribute key="showCharges" value="1"/>
+		<attribute key="charges" value="1"/>
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="49615" article="a" name="boosted exercise club">
+		<attribute key="primarytype" value="exercise weapons"/>
+		<attribute key="showCharges" value="1"/>
+		<attribute key="charges" value="1"/>
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="49616" article="a" name="boosted exercise sword">
+		<attribute key="primarytype" value="exercise weapons"/>
+		<attribute key="showCharges" value="1"/>
+		<attribute key="charges" value="1"/>
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="49617" article="a" name="boosted exercise rod">
+		<attribute key="primarytype" value="exercise weapons"/>
+		<attribute key="showCharges" value="1"/>
+		<attribute key="charges" value="1"/>
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="49618" article="a" name="boosted exercise wand">
+		<attribute key="primarytype" value="exercise weapons"/>
+		<attribute key="showCharges" value="1"/>
+		<attribute key="charges" value="1"/>
+		<attribute key="weight" value="1000"/>
+	</item>
 </items>
