@@ -327,8 +327,8 @@ local questTable = {
 	{ storageName = "DjinnWar.EfreetFaction.DoorToMaridTerritory", storage = Storage.Quest.U7_4.DjinnWar.EfreetFaction.DoorToMaridTerritory, storageValue = 1 },
 	{ storageName = "DjinnWar.MaridFaction.DoorToLamp", storage = Storage.Quest.U7_4.DjinnWar.MaridFaction.DoorToLamp, storageValue = 1 },
 	{ storageName = "DjinnWar.MaridFaction.DoorToEfreetTerritory", storage = Storage.Quest.U7_4.DjinnWar.MaridFaction.DoorToEfreetTerritory, storageValue = 1 },
-	{ storageName = "GraveDanger.QuestLine", storage = Storage.Quest.U12_20.GraveDanger.QuestLine, storageValue = 14 },
-	{ storageName = "GraveDanger.Bosses.KingZelosDoor", storage = Storage.Quest.U12_20.GraveDanger.Bosses.KingZelosDoor, storageValue = 1 },
+	--{ storageName = "GraveDanger.QuestLine", storage = Storage.Quest.U12_20.GraveDanger.QuestLine, storageValue = 14 },
+	{ storageName = "GraveDanger.Bosses.KingZelosDoor", storage = Storage.Quest.U12_20.GraveDanger.Bosses.KingZelos.Room, storageValue = 1 },
 	{ storageName = "CradleOfMonsters.Access.Ingol", storage = Storage.Quest.U13_10.CradleOfMonsters.Access.Ingol, storageValue = 1 },
 	{ storageName = "CradleOfMonsters.Access.LowerIngol", storage = Storage.Quest.U13_10.CradleOfMonsters.Access.LowerIngol, storageValue = 1 },
 	{ storageName = "CradleOfMonsters.Access.Monster", storage = Storage.Quest.U13_10.CradleOfMonsters.Access.Monster, storageValue = 1 },
@@ -363,11 +363,11 @@ local questTable = {
 	{ storageName = "ThePitsOfInferno.ShortcutHubDoor", storage = Storage.Quest.U7_9.ThePitsOfInferno.ShortcutHubDoor, storageValue = 1 },
 	{ storageName = "ThePitsOfInferno.ThronePumin", storage = Storage.Quest.U7_9.ThePitsOfInferno.ThronePumin, storageValue = 9 },
 
-	{ storageName = "TheDreamCourts.HauntedHouseAccess", storage = Storage.Quest.U12_00.TheDreamCourts.HauntedHouseAccess, storageValue = 1 },
-	{ storageName = "TheDreamCourts.BuriedCathedralAccess", storage = Storage.Quest.U12_00.TheDreamCourts.BuriedCathedralAccess, storageValue = 1 },
-	{ storageName = "TheDreamCourts.DreamScarAccess", storage = Storage.Quest.U12_00.TheDreamCourts.DreamScarAccess, storageValue = 1 },
-	{ storageName = "TheDreamCourts.AndrewDoor", storage = Storage.Quest.U12_00.TheDreamCourts.AndrewDoor, storageValue = 1 },
-	{ storageName = "TheDreamCourts.AccessDoors", storage = Storage.Quest.U12_00.TheDreamCourts.AccessDoors, storageValue = 1 },
+	-- { storageName = "TheDreamCourts.HauntedHouseAccess", storage = Storage.Quest.U12_00.TheDreamCourts.HauntedHouseAccess, storageValue = 1 },
+	-- { storageName = "TheDreamCourts.BuriedCathedralAccess", storage = Storage.Quest.U12_00.TheDreamCourts.BuriedCathedralAccess, storageValue = 1 },
+	-- { storageName = "TheDreamCourts.DreamScarAccess", storage = Storage.Quest.U12_00.TheDreamCourts.DreamScarAccess, storageValue = 1 },
+	-- { storageName = "TheDreamCourts.AndrewDoor", storage = Storage.Quest.U12_00.TheDreamCourts.AndrewDoor, storageValue = 1 },
+	-- { storageName = "TheDreamCourts.AccessDoors", storage = Storage.Quest.U12_00.TheDreamCourts.AccessDoors, storageValue = 1 },
 
 	{ storageName = "BloodBrothers.VengothAccess", storage = Storage.Quest.U8_4.BloodBrothers.VengothAccess, storageValue = 1 },
 
@@ -380,6 +380,10 @@ local questTable = {
 	{ storageName = "TheIceIslands.Questline", storage = Storage.Quest.U8_0.TheIceIslands.Questline, storageValue = 30 },
 
 	{ storageName = "TheSecretLibrary.LibraryPermission", storage = Storage.Quest.U11_80.TheSecretLibrary.LibraryPermission, storageValue = 7 },
+	{ storageName = "TheDreamCourts.Main.Questline", storage = Storage.Quest.U12_00.TheDreamCourts.Main.Questline, storageValue = 1 },
+	{ storageName = "TheDreamCourts.TheSevenKeys.Questline", storage = Storage.Quest.U12_00.TheDreamCourts.TheSevenKeys.Questline, storageValue = 1 },
+	--{ storageName = "TheDreamCourts.TheSevenKeys.Rosebush", storage = Storage.Quest.U12_00.TheDreamCourts.TheSevenKeys.Rosebush, storageValue = 1 },
+	
 }
 
 -- from Position: (33201, 31762, 1)

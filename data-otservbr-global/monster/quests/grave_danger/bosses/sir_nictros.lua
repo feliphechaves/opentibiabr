@@ -61,6 +61,7 @@ monster.flags = {
 
 monster.events = {
 	-- "Sir_Baeloc_Sir_NictrosCharge"
+	"sir_nictros_health"
 }
 
 monster.light = {

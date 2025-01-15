@@ -88,7 +88,7 @@ function sir_baeloc_health.onHealthChange(creature, attacker, primaryDamage, pri
 		return primaryDamage, primaryType, -secondaryDamage, secondaryType
 	end
 
-	local health = creature:getMaxHealth() * 0.60
+	local health = creature:getMaxHealth() * 0.1
 	local brother_diff = (creature:getHealth() / creature:getMaxHealth()) * 100
 	local brother = Creature("Sir Nictros")
 
