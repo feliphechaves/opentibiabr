@@ -70,7 +70,7 @@ function king_zelos.onUse(player, item, fromPosition, target, toPosition, isHotk
 		end
 	end
 
-	addEvent(clearForgotten, 24 * 60 * 1000, config.fromPos, config.toPos, config.exitPos, config.room)
+	--addEvent(clearForgotten, 24 * 60 * 1000, config.fromPos, config.toPos, config.exitPos, config.room)
 
 	return true
 end
