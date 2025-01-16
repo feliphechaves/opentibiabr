@@ -26,7 +26,7 @@ function shared.onSay(player, words, param)
         text = text .. '-----------\n'
         player:showTextDialog(34266, text)
     end
-    return false
+    return true
 end
 
 shared:groupType("normal")
