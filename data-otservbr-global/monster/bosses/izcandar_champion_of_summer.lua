@@ -21,7 +21,7 @@ monster.speed = 200
 monster.manaCost = 0
 
 monster.events = {
-	"dreamCourtsDeath",
+	--"dreamCourtsDeath",
 	"izcandarThink",
 }
 

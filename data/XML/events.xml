@@ -30,4 +30,10 @@
 		<colors colordark="#235c00" colorlight="#2d7400" />
 		<details displaypriority="6" isseasonal="0" specialevent="0" />
 	</event>
+	<event name="Double Speed Exercise Weapons" startdate="01/18/2025" enddate="01/19/2025" script="" >
+		<ingame exprate="100" lootrate="100" bosslootrate="100" spawnrate="100" skillrate="100" />
+		<description description="Double Speed Exercise Weapons" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="1" />
+	</event>
 </events>
