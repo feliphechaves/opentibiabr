@@ -30331,7 +30331,8 @@
 		<attribute key="decayTo" value="12530"/>
 		<attribute key="containersize" value="22"/>
 	</item>
-	<item id="12540" article="a" name="armageddon plans">
+	<item id="12540" article="a" name="scroll of transcendence">
+		<attribute key="description" value="Use this magical scroll to switch to a new vocation and embark on a different journey. Your skills will adapt to match your new vocation, with primary skills preserved and others balanced to a basic level. Make sure to unequip all items before using!"/>
 		<attribute key="primarytype" value="documents and papers"/>
 		<attribute key="weight" value="400"/>
 	</item>
