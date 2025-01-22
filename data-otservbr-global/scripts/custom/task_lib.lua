@@ -336,6 +336,7 @@ taskConfiguration = {
 			"Knight's Apparition",
 			"Sorcerer's Apparition",
 			"Druid's Apparition",
+			"Paladin's Apparition",
 			"Many Faces",
 			"Distorted Phantom",
 		},

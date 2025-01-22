@@ -142,10 +142,6 @@ end
 local function addVocationChoice(window, player, vocation)
     window:addChoice(vocation.name, function(player, button)
         local highestSkill = getHighestSkill(player)
-        if isPlayerEquipped(player) then
-            player:sendCancelMessage("You cannot change your vocation while equipped. Please unequip all items first.")
-            return
-        end
         if button.name == "Confirm" then
             if player:changeVocation(vocation.id) then
                 player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have successfully changed your vocation to: " .. vocation.name .. "!")
@@ -171,12 +167,6 @@ end
 function Player:sendVocationSelectionModal(title, message)
     local currentVocationId = self:getVocation():getId()
 
-    -- Check if the player is promoted
-    if not findInNestedTable(promotedVocations, "id", currentVocationId) then
-        self:sendCancelMessage("You must be promoted to change your vocation.")
-        return false
-    end    
-
     local window = ModalWindow({
         title = title,
         message = message,
@@ -198,6 +188,18 @@ end
 
 local vocationItem = Action()
 function vocationItem.onUse(player, item, fromPosition, target, toPosition, isHotkey)
+
+    if isPlayerEquipped(player) then
+        player:sendCancelMessage("You cannot change your vocation while equipped. Please unequip all items first.")
+        return true
+    end
+
+    -- Check if the player is promoted
+    if not findInNestedTable(promotedVocations, "id", player:getVocation():getId()) then
+        player:sendCancelMessage("You must be promoted to change your vocation.")
+        return true
+    end 
+
     if player:sendVocationSelectionModal("Select your new vocation", "Choose one of the available options to change your vocation.") then
         item:remove(1)
     else
