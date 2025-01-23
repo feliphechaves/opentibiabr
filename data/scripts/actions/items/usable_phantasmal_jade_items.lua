@@ -16,21 +16,33 @@ function usablePhantasmalJadeItems.onUse(player, item, fromPosition, target, toP
 		return true
 	end
 
+	-- Verificar se o jogador já possui a montaria
 	if player:hasMount(config.mountId) then
+		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You already have this mount!")
 		return true
 	end
 
+	-- Verificar se o item atual é necessário para completar os requisitos
 	local currentCount = (player:kv():get(itemInfo.key) or 0) + 1
-	player:kv():set(itemInfo.key, currentCount)
-	player:getPosition():sendMagicEffect(CONST_ME_HOLYDAMAGE)
-	item:remove(1)
+	if currentCount <= itemInfo.count then
+		player:kv():set(itemInfo.key, currentCount)
+		player:getPosition():sendMagicEffect(CONST_ME_HOLYDAMAGE)
+		item:remove(1)
+		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, string.format("You have collected %d/%d %s.", currentCount, itemInfo.count, item:getName()))
+	else
+		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You already have enough of this item.")
+		return true
+	end
 
+	-- Verificar se o jogador já completou os requisitos de todos os itens
 	for _, info in pairs(config.requiredItems) do
 		if (player:kv():get(info.key) or 0) < info.count then
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You still need more items to complete the requirements.")
 			return true
 		end
 	end
 
+	-- Todos os itens foram coletados, conceder a montaria e achievements
 	player:addMount(config.mountId)
 	player:addAchievement("Natural Born Cowboy")
 	player:addAchievement("You got Horse Power")
