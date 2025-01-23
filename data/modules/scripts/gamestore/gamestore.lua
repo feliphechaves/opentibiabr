@@ -7009,23 +7009,6 @@ GameStore.Categories = {
 		state = GameStore.States.STATE_NONE,
 		offers = {
 			{
-				icons = { "Prey_Bonus_Reroll.png" },
-				name = "Prey Wildcard",
-				price = 1,
-				id = GameStore.SubActions.PREY_WILDCARD,
-				count = 8,
-				description = "<i>Use Prey Wildcards to reroll the bonus of an active prey, to lock your active prey or to select a prey of your choice.</i>\n\n{character}\n{info} added directly to Prey dialog\n{info} maximum amount that can be owned by character: 50",
-				type = GameStore.OfferTypes.OFFER_TYPE_PREYBONUS,
-			},
-			{
-				icons = { "Prey_Bonus_Reroll.png" },
-				name = "Prey Wildcard",
-				price = 4,
-				count = 32,
-				description = "<i>Use Prey Wildcards to reroll the bonus of an active prey, to lock your active prey or to select a prey of your choice.</i>\n\n{character}\n{info} added directly to Prey dialog\n{info} maximum amount that can be owned by character: 50",
-				type = GameStore.OfferTypes.OFFER_TYPE_PREYBONUS,
-			},
-			{
 				icons = { "Instant_Reward_Access.png" },
 				name = "Instant Reward Access",
 				price = 1,
