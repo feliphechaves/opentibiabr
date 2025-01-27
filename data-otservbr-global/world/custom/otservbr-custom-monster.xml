@@ -1538,6 +1538,7 @@
 	</monster>
 	<monster centerx="1806" centery="585" centerz="7" radius="1">
 		<monster name="Courage Leech" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1813" centery="585" centerz="7" radius="1">
 		<monster name="Vibrant Phantom" x="0" y="0" z="7" spawntime="60" />
@@ -1548,6 +1549,17 @@
 	<monster centerx="1838" centery="585" centerz="7" radius="1">
 		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
 	</monster>
+	<monster centerx="1808" centery="586" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1811" centery="586" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
+	</monster>
 	<monster centerx="1825" centery="586" centerz="7" radius="1">
 		<monster name="Vibrant Phantom" x="0" y="0" z="7" spawntime="60" />
 	</monster>
@@ -1557,6 +1569,12 @@
 	<monster centerx="1835" centery="586" centerz="7" radius="1">
 		<monster name="Courage Leech" x="0" y="0" z="7" spawntime="60" />
 	</monster>
+	<monster centerx="1841" centery="586" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
+	</monster>
 	<monster centerx="1454" centery="587" centerz="7" radius="1">
 		<monster name="Rotten Golem" x="0" y="0" z="7" spawntime="60" />
 		<monster name="Rotten Golem" x="1" y="0" z="7" spawntime="60" />
@@ -1564,6 +1582,12 @@
 	<monster centerx="1457" centery="587" centerz="7" radius="1">
 		<monster name="Rotten Golem" x="0" y="0" z="7" spawntime="60" />
 		<monster name="Rotten Golem" x="-1" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1832" centery="587" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1844" centery="587" centerz="7" radius="1">
 		<monster name="Vibrant Phantom" x="0" y="0" z="7" spawntime="60" />
@@ -1686,6 +1710,12 @@
 	<monster centerx="1853" centery="597" centerz="7" radius="1">
 		<monster name="Courage Leech" x="0" y="0" z="7" spawntime="60" />
 	</monster>
+	<monster centerx="1800" centery="598" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
+	</monster>
 	<monster centerx="1794" centery="599" centerz="7" radius="1">
 		<monster name="Vibrant Phantom" x="0" y="0" z="7" spawntime="60" />
 	</monster>
@@ -1716,6 +1746,12 @@
 		<monster name="Infernal Demon" x="-1" y="2" z="7" spawntime="60" />
 		<monster name="Brachiodemon" x="2" y="2" z="7" spawntime="60" />
 	</monster>
+	<monster centerx="1794" centery="601" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
+	</monster>
 	<monster centerx="1860" centery="601" centerz="7" radius="1">
 		<monster name="Courage Leech" x="0" y="0" z="7" spawntime="60" />
 	</monster>
@@ -1728,6 +1764,12 @@
 	<monster centerx="1475" centery="602" centerz="7" radius="1">
 		<monster name="Mould Phantom" x="0" y="-1" z="7" spawntime="60" />
 		<monster name="Mould Phantom" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1858" centery="602" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1933" centery="602" centerz="7" radius="1">
 		<monster name="Infernal Demon" x="0" y="0" z="7" spawntime="60" />
@@ -1786,6 +1828,12 @@
 	<monster centerx="1792" centery="609" centerz="7" radius="1">
 		<monster name="Courage Leech" x="0" y="0" z="7" spawntime="60" />
 	</monster>
+	<monster centerx="1857" centery="609" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
+	</monster>
 	<monster centerx="1488" centery="611" centerz="7" radius="1">
 		<monster name="Rotten Golem" x="0" y="0" z="7" spawntime="60" />
 	</monster>
@@ -1797,6 +1845,12 @@
 	<monster centerx="1492" centery="612" centerz="7" radius="1">
 		<monster name="Mould Phantom" x="0" y="0" z="7" spawntime="60" />
 		<monster name="Mould Phantom" x="0" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1789" centery="612" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1984" centery="612" centerz="7" radius="2">
 		<monster name="Infernal Demon" x="-1" y="-2" z="7" spawntime="60" />
@@ -1821,12 +1875,18 @@
 	<monster centerx="1790" centery="614" centerz="7" radius="1">
 		<monster name="Vibrant Phantom" x="1" y="-1" z="7" spawntime="60" />
 		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1793" centery="614" centerz="7" radius="1">
 		<monster name="Courage Leech" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1857" centery="614" centerz="7" radius="1">
 		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1792" centery="615" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1950" centery="615" centerz="7" radius="1">
 		<monster name="Infernal Demon" x="0" y="0" z="7" spawntime="60" />
@@ -1842,6 +1902,12 @@
 	<monster centerx="1491" centery="616" centerz="7" radius="1">
 		<monster name="Mould Phantom" x="0" y="0" z="7" spawntime="60" />
 		<monster name="Mould Phantom" x="0" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1857" centery="616" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1491" centery="618" centerz="7" radius="1">
 		<monster name="Mould Phantom" x="0" y="0" z="7" spawntime="60" />
@@ -1883,6 +1949,12 @@
 	</monster>
 	<monster centerx="1492" centery="621" centerz="7" radius="1">
 		<monster name="Rotten Golem" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1860" centery="621" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1977" centery="621" centerz="7" radius="1">
 		<monster name="Infernal Demon" x="0" y="0" z="7" spawntime="60" />
@@ -1927,6 +1999,12 @@
 	<monster centerx="1491" centery="624" centerz="7" radius="1">
 		<monster name="Rotten Golem" x="0" y="0" z="7" spawntime="60" />
 	</monster>
+	<monster centerx="1791" centery="624" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
+	</monster>
 	<monster centerx="1861" centery="624" centerz="7" radius="1">
 		<monster name="Vibrant Phantom" x="0" y="0" z="7" spawntime="60" />
 	</monster>
@@ -1935,6 +2013,12 @@
 	</monster>
 	<monster centerx="1468" centery="625" centerz="7" radius="1">
 		<monster name="Rotten Golem" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1794" centery="625" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1859" centery="626" centerz="7" radius="1">
 		<monster name="Courage Leech" x="0" y="-1" z="7" spawntime="2093953280" />
@@ -1961,6 +2045,12 @@
 	</monster>
 	<monster centerx="1792" centery="631" centerz="7" radius="1">
 		<monster name="Courage Leech" x="0" y="1" z="7" spawntime="2093953280" />
+	</monster>
+	<monster centerx="1860" centery="631" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1451" centery="632" centerz="7" radius="1">
 		<monster name="Mould Phantom" x="0" y="0" z="7" spawntime="60" />
@@ -2002,8 +2092,12 @@
 	<monster centerx="1480" centery="635" centerz="7" radius="1">
 		<monster name="Mould Phantom" x="0" y="0" z="7" spawntime="60" />
 	</monster>
-	<monster centerx="1855" centery="635" centerz="7" radius="1">
+	<monster centerx="1854" centery="635" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="7" spawntime="60" />
 		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1986" centery="635" centerz="7" radius="2">
 		<monster name="Infernal Demon" x="-1" y="-2" z="7" spawntime="60" />
@@ -2017,6 +2111,12 @@
 	</monster>
 	<monster centerx="1477" centery="636" centerz="7" radius="1">
 		<monster name="Rotten Golem" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1791" centery="636" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1793" centery="636" centerz="7" radius="1">
 		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
@@ -2064,6 +2164,12 @@
 		<monster name="Rotten Golem" x="0" y="0" z="7" spawntime="60" />
 		<monster name="Rotten Golem" x="1" y="0" z="7" spawntime="60" />
 	</monster>
+	<monster centerx="1792" centery="641" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
+	</monster>
 	<monster centerx="1794" centery="641" centerz="7" radius="1">
 		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
 	</monster>
@@ -2103,6 +2209,12 @@
 		<monster name="Infernal Demon" x="1" y="-2" z="7" spawntime="60" />
 		<monster name="Brachiodemon" x="-1" y="-1" z="7" spawntime="60" />
 		<monster name="Infernal Phantom" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1848" centery="646" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1945" centery="646" centerz="7" radius="2">
 		<monster name="Infernal Demon" x="-2" y="-2" z="7" spawntime="60" />
@@ -2171,8 +2283,20 @@
 	<monster centerx="1843" centery="651" centerz="7" radius="1">
 		<monster name="Courage Leech" x="0" y="0" z="7" spawntime="60" />
 	</monster>
+	<monster centerx="1846" centery="651" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
+	</monster>
 	<monster centerx="1450" centery="652" centerz="7" radius="1">
 		<monster name="Mould Phantom" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1808" centery="652" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1472" centery="653" centerz="7" radius="1">
 		<monster name="Rotten Golem" x="0" y="0" z="7" spawntime="60" />
@@ -2208,8 +2332,20 @@
 	<monster centerx="1826" centery="655" centerz="7" radius="1">
 		<monster name="Courage Leech" x="0" y="0" z="7" spawntime="60" />
 	</monster>
+	<monster centerx="1839" centery="655" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
+	</monster>
 	<monster centerx="1823" centery="656" centerz="7" radius="1">
 		<monster name="Vibrant Phantom" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1829" centery="656" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1835" centery="656" centerz="7" radius="1">
 		<monster name="Vibrant Phantom" x="0" y="0" z="7" spawntime="60" />
@@ -2219,6 +2355,12 @@
 		<monster name="Infernal Demon" x="1" y="0" z="7" spawntime="60" />
 		<monster name="Infernal Demon" x="0" y="1" z="7" spawntime="60" />
 		<monster name="Infernal Demon" x="1" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1821" centery="657" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1949" centery="657" centerz="7" radius="1">
 		<monster name="Infernal Demon" x="0" y="0" z="7" spawntime="60" />
@@ -4188,6 +4330,13 @@
 	<monster centerx="1084" centery="1013" centerz="7" radius="1">
 		<monster name="Goblin" x="0" y="0" z="7" spawntime="60" />
 	</monster>
+	<monster centerx="1820" centery="589" centerz="8" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="1" y="1" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1956" centery="589" centerz="8" radius="2">
 		<monster name="Infernal Demon" x="1" y="-1" z="8" spawntime="60" />
 		<monster name="Brachiodemon" x="-1" y="0" z="8" spawntime="60" />
@@ -4202,9 +4351,6 @@
 		<monster name="Brachiodemon" x="2" y="1" z="8" spawntime="60" />
 		<monster name="Brachiodemon" x="-2" y="2" z="8" spawntime="60" />
 		<monster name="Brachiodemon" x="0" y="2" z="8" spawntime="60" />
-	</monster>
-	<monster centerx="1821" centery="590" centerz="8" radius="1">
-		<monster name="Cloak of Terror" x="0" y="0" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1813" centery="591" centerz="8" radius="1">
 		<monster name="Cloak of Terror" x="0" y="0" z="8" spawntime="60" />
@@ -4239,6 +4385,12 @@
 	<monster centerx="1823" centery="594" centerz="8" radius="1">
 		<monster name="Courage Leech" x="0" y="0" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1837" centery="594" centerz="8" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1810" centery="595" centerz="8" radius="1">
 		<monster name="Vibrant Phantom" x="0" y="0" z="8" spawntime="60" />
 	</monster>
@@ -4262,6 +4414,12 @@
 		<monster name="Infernal Demon" x="-1" y="2" z="8" spawntime="60" />
 		<monster name="Infernal Demon" x="1" y="2" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1805" centery="597" centerz="8" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1807" centery="597" centerz="8" radius="1">
 		<monster name="Cloak of Terror" x="0" y="0" z="8" spawntime="60" />
 	</monster>
@@ -4270,6 +4428,12 @@
 	</monster>
 	<monster centerx="1945" centery="597" centerz="8" radius="1">
 		<monster name="Brachiodemon" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1847" centery="599" centerz="8" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1950" centery="599" centerz="8" radius="2">
 		<monster name="Brachiodemon" x="2" y="-1" z="8" spawntime="60" />
@@ -4333,6 +4497,12 @@
 	<monster centerx="1849" centery="610" centerz="8" radius="1">
 		<monster name="Cloak of Terror" x="0" y="0" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1852" centery="610" centerz="8" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1798" centery="611" centerz="8" radius="1">
 		<monster name="Courage Leech" x="0" y="0" z="8" spawntime="60" />
 	</monster>
@@ -4393,6 +4563,12 @@
 	</monster>
 	<monster centerx="1798" centery="621" centerz="8" radius="1">
 		<monster name="Courage Leech" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1800" centery="621" centerz="8" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1850" centery="622" centerz="8" radius="1">
 		<monster name="Courage Leech" x="0" y="0" z="8" spawntime="60" />
@@ -4406,6 +4582,7 @@
 	</monster>
 	<monster centerx="1798" centery="625" centerz="8" radius="1">
 		<monster name="Courage Leech" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="1" y="1" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1850" centery="625" centerz="8" radius="1">
 		<monster name="Vibrant Phantom" x="1" y="-1" z="8" spawntime="60" />
@@ -4414,6 +4591,11 @@
 	<monster centerx="1927" centery="625" centerz="8" radius="2">
 		<monster name="Brachiodemon" x="0" y="-1" z="8" spawntime="60" />
 		<monster name="Infernal Demon" x="0" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1800" centery="626" centerz="8" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1954" centery="626" centerz="8" radius="2">
 		<monster name="Brachiodemon" x="-1" y="-1" z="8" spawntime="60" />
@@ -4452,6 +4634,12 @@
 	<monster centerx="1798" centery="629" centerz="8" radius="1">
 		<monster name="Courage Leech" x="0" y="0" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1851" centery="629" centerz="8" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1800" centery="631" centerz="8" radius="1">
 		<monster name="Vibrant Phantom" x="0" y="0" z="8" spawntime="60" />
 	</monster>
@@ -4464,6 +4652,12 @@
 		<monster name="Infernal Phantom" x="0" y="0" z="8" spawntime="60" />
 		<monster name="Brachiodemon" x="-1" y="1" z="8" spawntime="60" />
 		<monster name="Infernal Demon" x="2" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1802" centery="634" centerz="8" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1972" centery="634" centerz="8" radius="2">
 		<monster name="Infernal Demon" x="1" y="-2" z="8" spawntime="60" />
@@ -4498,6 +4692,12 @@
 	<monster centerx="1801" centery="638" centerz="8" radius="1">
 		<monster name="Courage Leech" x="0" y="0" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1805" centery="638" centerz="8" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1961" centery="638" centerz="8" radius="1">
 		<monster name="Infernal Demon" x="0" y="0" z="8" spawntime="60" />
 		<monster name="Infernal Demon" x="1" y="0" z="8" spawntime="60" />
@@ -4518,6 +4718,12 @@
 		<monster name="Infernal Phantom" x="0" y="0" z="8" spawntime="60" />
 		<monster name="Brachiodemon" x="-1" y="1" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1839" centery="641" centerz="8" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1966" centery="641" centerz="8" radius="1">
 		<monster name="Infernal Demon" x="0" y="0" z="8" spawntime="60" />
 		<monster name="Infernal Demon" x="1" y="0" z="8" spawntime="60" />
@@ -4535,12 +4741,18 @@
 	</monster>
 	<monster centerx="1810" centery="643" centerz="8" radius="1">
 		<monster name="Cloak of Terror" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="1" y="1" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1960" centery="643" centerz="8" radius="1">
 		<monster name="Infernal Demon" x="0" y="0" z="8" spawntime="60" />
 		<monster name="Infernal Demon" x="1" y="0" z="8" spawntime="60" />
 		<monster name="Infernal Demon" x="0" y="1" z="8" spawntime="60" />
 		<monster name="Infernal Demon" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1812" centery="644" centerz="8" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1814" centery="644" centerz="8" radius="1">
 		<monster name="Cloak of Terror" x="0" y="0" z="8" spawntime="60" />
@@ -4554,6 +4766,12 @@
 	</monster>
 	<monster centerx="1822" centery="645" centerz="8" radius="1">
 		<monster name="Cloak of Terror" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1827" centery="645" centerz="8" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1829" centery="645" centerz="8" radius="1">
 		<monster name="Vibrant Phantom" x="0" y="0" z="8" spawntime="60" />
@@ -5146,6 +5364,19 @@
 		<monster name="Brachiodemon" x="1" y="2" z="9" spawntime="60" />
 		<monster name="Brachiodemon" x="2" y="2" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="1814" centery="598" centerz="9" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1824" centery="598" centerz="9" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="1" y="1" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1968" centery="598" centerz="9" radius="1">
 		<monster name="Infernal Demon" x="0" y="0" z="9" spawntime="60" />
 	</monster>
@@ -5157,9 +5388,6 @@
 	</monster>
 	<monster centerx="1820" centery="599" centerz="9" radius="1">
 		<monster name="Courage Leech" x="0" y="0" z="9" spawntime="60" />
-	</monster>
-	<monster centerx="1825" centery="599" centerz="9" radius="1">
-		<monster name="Cloak of Terror" x="0" y="0" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1836" centery="599" centerz="9" radius="1">
 		<monster name="Vibrant Phantom" x="0" y="0" z="9" spawntime="60" />
@@ -5175,6 +5403,12 @@
 	<monster centerx="1828" centery="600" centerz="9" radius="1">
 		<monster name="Courage Leech" x="0" y="0" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="1831" centery="600" centerz="9" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1833" centery="600" centerz="9" radius="1">
 		<monster name="Cloak of Terror" x="0" y="0" z="9" spawntime="60" />
 	</monster>
@@ -5187,12 +5421,18 @@
 	</monster>
 	<monster centerx="1812" centery="601" centerz="9" radius="1">
 		<monster name="Cloak of Terror" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1814" centery="601" centerz="9" radius="1">
 		<monster name="Vibrant Phantom" x="0" y="0" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1978" centery="601" centerz="9" radius="1">
 		<monster name="Infernal Demon" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1811" centery="602" centerz="9" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1836" centery="602" centerz="9" radius="1">
 		<monster name="Courage Leech" x="0" y="0" z="9" spawntime="60" />
@@ -5220,7 +5460,13 @@
 	</monster>
 	<monster centerx="1841" centery="606" centerz="9" radius="1">
 		<monster name="Courage Leech" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="1" y="0" z="9" spawntime="60" />
 		<monster name="Vibrant Phantom" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1843" centery="606" centerz="9" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1957" centery="606" centerz="9" radius="2">
 		<monster name="Brachiodemon" x="0" y="-2" z="9" spawntime="60" />
@@ -5257,13 +5503,19 @@
 	</monster>
 	<monster centerx="1839" centery="612" centerz="9" radius="1">
 		<monster name="Courage Leech" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="1" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1842" centery="612" centerz="9" radius="1">
 		<monster name="Cloak of Terror" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1804" centery="613" centerz="9" radius="1">
 		<monster name="Vibrant Phantom" x="-1" y="0" z="9" spawntime="60" />
 		<monster name="Courage Leech" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1841" centery="613" centerz="9" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1956" centery="613" centerz="9" radius="1">
 		<monster name="Brachiodemon" x="0" y="0" z="9" spawntime="60" />
@@ -5303,6 +5555,12 @@
 		<monster name="Brachiodemon" x="-1" y="1" z="9" spawntime="60" />
 		<monster name="Brachiodemon" x="1" y="1" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="1805" centery="620" centerz="9" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1843" centery="620" centerz="9" radius="1">
 		<monster name="Cloak of Terror" x="0" y="0" z="9" spawntime="60" />
 	</monster>
@@ -5315,6 +5573,12 @@
 	</monster>
 	<monster centerx="1804" centery="622" centerz="9" radius="1">
 		<monster name="Cloak of Terror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1843" centery="622" centerz="9" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1950" centery="622" centerz="9" radius="1">
 		<monster name="Infernal Demon" x="0" y="0" z="9" spawntime="60" />
@@ -5411,6 +5675,7 @@
 	</monster>
 	<monster centerx="1806" centery="629" centerz="9" radius="1">
 		<monster name="Cloak of Terror" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="1" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1942" centery="629" centerz="9" radius="2">
 		<monster name="Brachiodemon" x="1" y="-1" z="9" spawntime="60" />
@@ -5425,6 +5690,11 @@
 	</monster>
 	<monster centerx="1548" centery="630" centerz="9" radius="1">
 		<monster name="Many Faces" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1808" centery="630" centerz="9" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1805" centery="631" centerz="9" radius="1">
 		<monster name="Vibrant Phantom" x="0" y="0" z="9" spawntime="60" />
@@ -5503,8 +5773,12 @@
 		<monster name="Brachiodemon" x="0" y="1" z="9" spawntime="60" />
 		<monster name="Brachiodemon" x="1" y="1" z="9" spawntime="60" />
 	</monster>
-	<monster centerx="1817" centery="636" centerz="9" radius="1">
+	<monster centerx="1816" centery="636" centerz="9" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="9" spawntime="60" />
 		<monster name="Cloak of Terror" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1834" centery="636" centerz="9" radius="1">
 		<monster name="Vibrant Phantom" x="0" y="0" z="9" spawntime="60" />
@@ -5538,6 +5812,12 @@
 	</monster>
 	<monster centerx="1819" centery="638" centerz="9" radius="1">
 		<monster name="Vibrant Phantom" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1835" centery="638" centerz="9" radius="1">
+		<monster name="Cloak of Terror" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Cloak of Terror" x="0" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1947" centery="638" centerz="9" radius="1">
 		<monster name="Infernal Demon" x="0" y="0" z="9" spawntime="60" />
