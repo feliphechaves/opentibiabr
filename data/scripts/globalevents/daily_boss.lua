@@ -26,7 +26,7 @@ local config = {
 			destinationPosition = Position(1143, 988, 6),
 		},
 		["Friday"] = {
-			bossName = "Aries",
+			bossName = "Morshabaal",
 			bossPosition = Position(1185, 989, 6),
 			teleportPosition = Position(32369, 32234, 7),
 			destinationPosition = Position(1143, 988, 6),
@@ -79,9 +79,6 @@ local DailyBossDeath = CreatureEvent("DailyBossDeath")
 
 function DailyBossDeath.onDeath(creature, corpse, lasthitkiller, mostdamagekiller, lasthitunjustified, mostdamageunjustified)
 	local bossName = creature:getName():lower()
-	if bossName ~= "aries" then
-		return false
-	end
 
 	local day = config.days[os.date("%A")]
 	if day and bossName:lower() == day.bossName:lower() then
