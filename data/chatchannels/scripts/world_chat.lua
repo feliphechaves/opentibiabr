@@ -6,11 +6,11 @@ function onSpeak(player, type, message)
 	end
 
 	if type == TALKTYPE_CHANNEL_Y then
-		if playerGroupType >= GROUP_TYPE_GAMEMASTER then
+		if playerGroupType >= GROUP_TYPE_TUTOR then
 			type = TALKTYPE_CHANNEL_O
 		end
 	elseif type == TALKTYPE_CHANNEL_O then
-		if playerGroupType < GROUP_TYPE_GAMEMASTER then
+		if playerGroupType < GROUP_TYPE_TUTOR then
 			type = TALKTYPE_CHANNEL_Y
 		end
 	elseif type == TALKTYPE_CHANNEL_R1 then
