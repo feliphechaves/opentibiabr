@@ -5,14 +5,36 @@ combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_WEAPONTYPE)
 combat:setParameter(COMBAT_PARAM_BLOCKARMOR, 1)
 combat:setParameter(COMBAT_PARAM_USECHARGES, 1)
 
-local function adjustValues(min, max)
-	return min * 2, max * 2
+local function adjustValues(min, max, percentIncrease)
+	-- Adiciona a porcentagem de dano ao valor base
+	return min * (1 + percentIncrease / 100), max * (1 + percentIncrease / 100)
 end
+
+-- Tabela contendo os IDs das armas válidas
+local validWeapons = {
+	[47370] = true, --amber bludgeon
+	[47376] = true, --amber cudgel
+	[47369] = true, --amber greataxe
+	[47375] = true, --amber axe
+	[47368] = true, --amber slayer
+	[47374] = true --amber sabre
+}
 
 function onGetFormulaValues(player, skill, attack, factor)
 	local skillTotal = skill * attack
 	local levelTotal = player:getLevel() / 5
-	return adjustValues(-(((skillTotal * 0.17) + 13) + levelTotal) * 1.28, -(((skillTotal * 0.20) + 34) + levelTotal) * 1.28) -- TODO : Use New Real Formula instead of an %
+
+	-- Calcula o dano base
+	local min = -(((skillTotal * 0.17) + 13) + levelTotal) * 1.28
+	local max = -(((skillTotal * 0.20) + 34) + levelTotal) * 1.28
+
+	-- Verifica se o item equipado na mão direita está na lista de armas válidas
+	local weapon = player:getSlotItem(CONST_SLOT_RIGHT)
+	if weapon and validWeapons[weapon:getId()] then
+		return adjustValues(min, max, 4)
+	else
+		return min, max
+	end
 end
 
 combat:setCallback(CALLBACK_PARAM_SKILLVALUE, "onGetFormulaValues")

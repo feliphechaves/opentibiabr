@@ -17,6 +17,12 @@ function spell.onCastSpell(creature, var)
 			local max = (level / 5) + (maglevel * 13)
 			return adjustValues(-min, -max)
 		end
+	elseif weapon and weapon:getId() == 47373 then -- CHECK AMBER ROD
+		function onGetFormulaValues(player, level, maglevel)
+			local min = (level / 5) + (maglevel * 9)
+			local max = (level / 5) + (maglevel * 12)
+			return adjustValues(-min, -max)
+		end
 	elseif weapon and weapon:getId() == 43886 then -- CHECK GRAND SANGUINE ROD
 		function onGetFormulaValues(player, level, maglevel)
 			local min = (level / 5) + (maglevel * 10)

@@ -22,6 +22,12 @@ function onGetFormulaValues(player, level, maglevel)
 	min = min * multiplier
 	max = max * multiplier
 
+	local weapon = player:getSlotItem(CONST_SLOT_LEFT)
+	if weapon and weapon:getId() == 47371 then
+		min = min * 1.04
+		max = max * 1.04
+	end
+
 	return adjustValues(-min, -max)
 end
 

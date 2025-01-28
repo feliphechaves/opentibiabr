@@ -6846,6 +6846,9 @@
 	<monster centerx="1245" centery="1000" centerz="11" radius="1">
 		<monster name="Sugar Daddy" x="1" y="0" z="11" spawntime="60" direction="1" />
 	</monster>
+	<monster centerx="1250" centery="1006" centerz="11" radius="1">
+		<monster name="The Rootkraken" x="0" y="-1" z="11" spawntime="60" />
+	</monster>
 	<monster centerx="1537" centery="589" centerz="12" radius="1">
 		<monster name="Mirror Image" x="-1" y="0" z="12" spawntime="60" />
 		<monster name="Mirror Image" x="0" y="0" z="12" spawntime="60" />

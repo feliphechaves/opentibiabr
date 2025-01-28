@@ -80649,4 +80649,313 @@
 		<attribute key="charges" value="1"/>
 		<attribute key="weight" value="1000"/>
 	</item>
+	<item id="47373" article="a" name="amber rod">
+		<attribute key="primarytype" value="rods"/>
+		<attribute key="weaponType" value="wand"/>
+		<attribute key="shootType" value="ice"/>
+		<attribute key="absorbpercentfire" value="7"/>
+		<attribute key="magiclevelpoints" value="5"/>
+		<attribute key="icemagiclevelpoints" value="2"/>
+		<attribute key="range" value="6"/>
+		<attribute key="criticalhitdamage" value="500"/>
+		<attribute key="criticalhitchance" value="1000"/>
+		<attribute key="weight" value="2400"/>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="life leech" value="4"/>
+			<attribute key="mana leech" value="4"/>
+			<attribute key="critical hit" value="4"/>
+			<attribute key="skillboost magic level" value="4"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="eternal winter" value="base">
+				<attribute key="value" value="4"/>
+			</attribute>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="330"/>
+			<attribute key="mana" value="20"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="fromDamage" value="80"/>
+			<attribute key="toDamage" value="110"/>
+			<attribute key="weaponType" value="wand"/>
+			<attribute key="wandType" value="ice"/>
+			<attribute key="vocation" value="Druid;true, Elder Druid"/>
+			<attribute key="slot" value="hand"/>
+		</attribute>
+	</item>
+	<item id="47372" article="a" name="amber wand">
+		<attribute key="primarytype" value="rods"/>
+		<attribute key="weaponType" value="wand"/>
+		<attribute key="shootType" value="death"/>
+		<attribute key="absorbpercentice" value="7"/>
+		<attribute key="magiclevelpoints" value="5"/>
+		<attribute key="energymagiclevelpoints" value="2"/>
+		<attribute key="range" value="6"/>
+		<attribute key="criticalhitdamage" value="1200"/>
+		<attribute key="criticalhitchance" value="1000"/>
+		<attribute key="weight" value="2400"/>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="life leech" value="4"/>
+			<attribute key="mana leech" value="4"/>
+			<attribute key="critical hit" value="4"/>
+			<attribute key="skillboost magic level" value="4"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="rage of the skies" value="base">
+				<attribute key="value" value="4"/>
+			</attribute>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="330"/>
+			<attribute key="mana" value="20"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="fromDamage" value="80"/>
+			<attribute key="toDamage" value="110"/>
+			<attribute key="weaponType" value="wand"/>
+			<attribute key="wandType" value="death"/>
+			<attribute key="vocation" value="Sorcerer;true, Master Sorcerer"/>
+			<attribute key="slot" value="hand"/>
+		</attribute>
+	</item>
+	<item id="47377" article="a" name="amber crossbow">
+		<attribute key="primarytype" value="distance weapons"/>
+		<attribute key="weaponType" value="distance"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="criticalhitdamage" value="1200"/>
+		<attribute key="criticalhitchance" value="1000"/>
+		<attribute key="ammotype" value="bolt"/>
+		<attribute key="absorbpercentenergy" value="6"/>
+		<attribute key="skilldist" value="4"/>
+		<attribute key="hitchance" value="7"/>
+		<attribute key="range" value="6"/>
+		<attribute key="attack" value="10"/>
+		<attribute key="weight" value="4700"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="elemental damage" value="4"/>
+			<attribute key="life leech" value="4"/>
+			<attribute key="mana leech" value="4"/>
+			<attribute key="critical hit" value="4"/>
+			<attribute key="skillboost distance" value="4"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="divine missile" value="base">
+				<attribute key="value" value="4"/>
+			</attribute>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="330"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="distance"/>
+			<attribute key="vocation" value="Paladin;true, Royal Paladin"/>
+		</attribute>
+	</item>
+	<item id="47371" article="a" name="amber bow">
+		<attribute key="primarytype" value="distance weapons"/>
+		<attribute key="weaponType" value="distance"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="criticalhitdamage" value="1200"/>
+		<attribute key="criticalhitchance" value="1000"/>
+		<attribute key="ammotype" value="arrow"/>
+		<attribute key="absorbpercentenergy" value="6"/>
+		<attribute key="skilldist" value="4"/>
+		<attribute key="hitchance" value="6"/>
+		<attribute key="range" value="6"/>
+		<attribute key="attack" value="9"/>
+		<attribute key="weight" value="4700"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="elemental damage" value="4"/>
+			<attribute key="life leech" value="4"/>
+			<attribute key="mana leech" value="4"/>
+			<attribute key="critical hit" value="4"/>
+			<attribute key="skillboost distance" value="4"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="divine grenade" value="base">
+				<attribute key="value" value="4"/>
+			</attribute>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="330"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="distance"/>
+			<attribute key="vocation" value="Paladin;true, Royal Paladin"/>
+		</attribute>
+	</item>
+	<item id="47370" article="a" name="amber bludgeon">
+		<attribute key="primarytype" value="club weapons"/>
+		<attribute key="weaponType" value="club"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="elementdeath" value="50"/>
+		<attribute key="criticalhitdamage" value="1200"/>
+		<attribute key="criticalhitchance" value="1000"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="35"/>
+		<attribute key="skillclub" value="5"/>
+		<attribute key="weight" value="9100"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="life leech" value="4"/>
+			<attribute key="mana leech" value="4"/>
+			<attribute key="critical hit" value="4"/>
+			<attribute key="skillboost club" value="4"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="annihilation" value="base">
+				<attribute key="value" value="4"/>
+			</attribute>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="330"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="club"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>
+	</item>
+	<item id="47376" article="a" name="amber cudgel">
+		<attribute key="primarytype" value="club weapons"/>
+		<attribute key="weaponType" value="club"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="elementfire" value="46"/>
+		<attribute key="extradef" value="3"/>
+		<attribute key="defense" value="32"/>
+		<attribute key="skillclub" value="5"/>
+		<attribute key="criticalhitdamage" value="1200"/>
+		<attribute key="criticalhitchance" value="1000"/>
+		<attribute key="weight" value="6800"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="life leech" value="4"/>
+			<attribute key="mana leech" value="4"/>
+			<attribute key="critical hit" value="4"/>
+			<attribute key="skillboost club" value="4"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="annihilation" value="base">
+				<attribute key="value" value="4"/>
+			</attribute>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="330"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="club"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+			<attribute key="slot" value="hand"/>
+		</attribute>
+	</item>
+	<item id="47375" article="a" name="amber axe">
+		<attribute key="primarytype" value="axe weapons"/>
+		<attribute key="weaponType" value="axe"/>
+		<attribute key="elementice" value="46"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="criticalhitdamage" value="1200"/>
+		<attribute key="criticalhitchance" value="1000"/>
+		<attribute key="defense" value="32"/>
+		<attribute key="skillaxe" value="5"/>
+		<attribute key="weight" value="8300"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="life leech" value="4"/>
+			<attribute key="mana leech" value="4"/>
+			<attribute key="critical hit" value="4"/>
+			<attribute key="skillboost axe" value="4"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="annihilation" value="base">
+				<attribute key="value" value="4"/>
+			</attribute>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="330"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="axe"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>
+	</item>
+	<item id="47369" article="a" name="amber greataxe">
+		<attribute key="primarytype" value="axe weapons"/>
+		<attribute key="weaponType" value="axe"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="elementearth" value="50"/>
+		<attribute key="criticalhitdamage" value="1200"/>
+		<attribute key="criticalhitchance" value="1000"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="34"/>
+		<attribute key="skillaxe" value="5"/>
+		<attribute key="weight" value="8300"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="life leech" value="4"/>
+			<attribute key="mana leech" value="4"/>
+			<attribute key="critical hit" value="4"/>
+			<attribute key="skillboost axe" value="4"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="annihilation" value="base">
+				<attribute key="value" value="4"/>
+			</attribute>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="330"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="axe"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>
+	</item>
+	<item id="47368" article="a" name="amber slayer">
+		<attribute key="primarytype" value="sword weapons"/>
+		<attribute key="weaponType" value="sword"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="criticalhitdamage" value="1200"/>
+		<attribute key="criticalhitchance" value="1000"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="elementdeath" value="50"/>
+		<attribute key="extradef" value="0"/>
+		<attribute key="defense" value="34"/>
+		<attribute key="skillsword" value="5"/>
+		<attribute key="weight" value="6000"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="life leech" value="4"/>
+			<attribute key="mana leech" value="4"/>
+			<attribute key="critical hit" value="4"/>
+			<attribute key="skillboost sword" value="4"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="annihilation" value="base">
+				<attribute key="value" value="4"/>
+			</attribute>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="330"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="sword"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+			<attribute key="slot" value="hand"/>
+		</attribute>
+	</item>                
+	<item id="47374" article="a" name="amber sabre">
+		<attribute key="primarytype" value="sword weapons"/>
+		<attribute key="weaponType" value="sword"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="elementenergy" value="46"/>
+		<attribute key="extradef" value="3"/>
+		<attribute key="criticalhitdamage" value="1200"/>
+		<attribute key="criticalhitchance" value="1000"/>
+		<attribute key="defense" value="32"/>
+		<attribute key="skillsword" value="5"/>
+		<attribute key="weight" value="6000"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="life leech" value="4"/>
+			<attribute key="mana leech" value="4"/>
+			<attribute key="critical hit" value="4"/>
+			<attribute key="skillboost sword" value="4"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="annihilation" value="base">
+				<attribute key="value" value="4"/>
+			</attribute>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="330"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="sword"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+			<attribute key="slot" value="hand"/>
+		</attribute>
+	</item>
 </items>

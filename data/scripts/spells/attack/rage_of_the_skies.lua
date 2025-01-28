@@ -8,9 +8,21 @@ local function adjustValues(min, max)
 end
 
 function onGetFormulaValues(player, level, maglevel)
-	local min = (level / 5) + (maglevel * 7)
-	local max = (level / 5) + (maglevel * 14)
-	return adjustValues(-min, -max)
+    -- Verifica o item no slot da mão esquerda
+    local weapon = player:getSlotItem(CONST_SLOT_LEFT)
+
+    local min, max
+    if weapon and weapon:getId() == 47372 then
+        -- Ajusta a fórmula se o item estiver equipado
+        min = ((level / 5) + (maglevel * 9))
+        max = ((level / 5) + (maglevel * 16))
+    else
+        -- Fórmula padrão
+        min = ((level / 5) + (maglevel * 7))
+        max = ((level / 5) + (maglevel * 14))
+    end
+
+    return adjustValues(-min, -max)
 end
 
 combat:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
@@ -18,7 +30,7 @@ combat:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
 local spell = Spell("instant")
 
 function spell.onCastSpell(creature, var)
-	return combat:execute(creature, var)
+    return combat:execute(creature, var)
 end
 
 spell:group("attack", "focus")
