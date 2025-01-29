@@ -92,9 +92,9 @@ monster.loot = {
 
 monster.attacks = {
 	{ name = "melee", interval = 2000, chance = 30, minDamage = -0, maxDamage = -3500 },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_HOLYDAMAGE, minDamage = -2500, maxDamage = -3600, radius = 5, effect = CONST_ME_PURPLESMOKE, target = true },
+	{ name = "combat", interval = 2000, chance = 35, type = COMBAT_HOLYDAMAGE, minDamage = -2500, maxDamage = -3600, radius = 5, effect = CONST_ME_PURPLESMOKE, target = true },
 	{ name = "largeholyring", interval = 2500, chance = 15, minDamage = -1500, maxDamage = -4500, target = false },
-	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_HOLYDAMAGE, minDamage = -3000, maxDamage = -4000, radius = 5, effect = CONST_ME_GHOSTLY_BITE, target = true },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_HOLYDAMAGE, minDamage = -2500, maxDamage = -5000, radius = 5, effect = CONST_ME_GHOSTLY_BITE, target = true },
 	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_MANADRAIN, minDamage = -1000, maxDamage = -3000, range = 7, target = false },
 }
 
