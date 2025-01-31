@@ -13,8 +13,8 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.health = 10000--20000000
-monster.maxHealth = 10000--20000000
+monster.health = 20000000
+monster.maxHealth = 20000000
 monster.race = "blood"
 monster.corpse = 37704
 monster.speed = 530
@@ -91,13 +91,13 @@ monster.loot = {
 	{ id = 37611, chance = 10000 }, -- Morshabaal's Mask
 	{ id = 30060, chance = 10000 }, -- Giant Emerald
 	{ id = 14112, chance = 10000 }, -- Bar of Gold
-	{ id = 37613, chance = 6666 }, -- Morshabaal's Brain
-	{ id = 37608, chance = 6666 }, -- Green Demon Armor
-	{ id = 37609, chance = 6666 }, -- Green Demon Helmet
-	{ id = 37607, chance = 6666 }, -- Green Demon Legs
-	{ id = 37610, chance = 6666 }, -- Green Demon Slippers
-	{ id = 30053, chance = 6666 }, -- Dragon Figurine
-	{ id = 3309, chance = 6666 }, -- Thunder Hammer
+	{ id = 37613, chance = 6655 }, -- Morshabaal's Brain
+	{ id = 37608, chance = 6655 }, -- Green Demon Armor
+	{ id = 37609, chance = 6655 }, -- Green Demon Helmet
+	{ id = 37607, chance = 6655 }, -- Green Demon Legs
+	{ id = 37610, chance = 6655 }, -- Green Demon Slippers
+	{ id = 30053, chance = 6655 }, -- Dragon Figurine
+	{ id = 3309, chance = 6655 }, -- Thunder Hammer
 	{ id = 36728, chance = 1500 }, -- bestiary betterment
 	{ id = 43895, chance = 1000 }, -- bag you covet
 	{ id = 23488, chance = 400 }, -- grand sanguine box

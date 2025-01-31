@@ -42,4 +42,10 @@
 		<colors colordark="#235c00" colorlight="#2d7400" />
 		<details displaypriority="6" isseasonal="0" specialevent="1" />
 	</event>
+	<event name="Fast Respawn" startdate="1/31/2025" enddate="2/2/2025" script="" >
+		<ingame exprate="100" lootrate="100" bosslootrate="100" spawnrate="400" skillrate="100" />
+		<description description="Double Loot" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="1" />
+	</event>
 </events>
