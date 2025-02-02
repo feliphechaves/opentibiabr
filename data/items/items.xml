@@ -64216,6 +64216,7 @@
 		<attribute key="range" value="6"/>
 		<attribute key="weight" value="1900"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="life leech" value="4"/>
 			<attribute key="mana leech" value="4"/>
 			<attribute key="critical hit" value="4"/>
 			<attribute key="skillboost magic level" value="4"/>
