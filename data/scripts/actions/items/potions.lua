@@ -53,7 +53,7 @@ local potions = {
 	[35563] = { vocations = { VOCATION.BASE_ID.SORCERER, VOCATION.BASE_ID.DRUID }, level = 14, func = magicshield, effect = CONST_ME_ENERGYAREA, description = "Only sorcerers and druids of level 14 or above may drink this potion." },
 }
 
-local modifier = 1.5 --modificador de pocao de vida e mana
+local modifier = 3 --modificador de pocao de vida e mana
 
 local flaskPotion = Action()
 
