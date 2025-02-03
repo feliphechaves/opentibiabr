@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Goggle Cake")
 local monster = {}
 
 monster.description = "a goggle cake"
-monster.experience = 47600
+monster.experience = 57355
 monster.outfit = {
 	lookType = 1740,
 	lookHead = 0,

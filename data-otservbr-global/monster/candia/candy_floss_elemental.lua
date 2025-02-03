@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Candy Floss Elemental")
 local monster = {}
 
 monster.description = "a candy floss elemental"
-monster.experience = 47600
+monster.experience = 57355
 monster.outfit = {
 	lookType = 1749,
 	lookHead = 0,

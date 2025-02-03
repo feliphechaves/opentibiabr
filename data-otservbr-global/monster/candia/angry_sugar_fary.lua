@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Angry Sugar Fairy")
 local monster = {}
 
 monster.description = "a angry sugar fairy"
-monster.experience = 47600
+monster.experience = 57355
 monster.outfit = {
 	lookType = 1747,
 	lookHead = 0,

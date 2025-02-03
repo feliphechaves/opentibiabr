@@ -3961,6 +3961,12 @@
 		<monster name="Sanguine Frost" x="-2" y="0" z="7" spawntime="60" />
 		<monster name="Sanguine Ember" x="3" y="2" z="7" spawntime="60" />
 	</monster>
+	<monster centerx="1042" centery="974" centerz="7" radius="1">
+		<monster name="Quara Plunderer" x="0" y="1" z="7" spawntime="60" direction="2" />
+	</monster>
+	<monster centerx="1045" centery="974" centerz="7" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="1" z="7" spawntime="60" direction="2" />
+	</monster>
 	<monster centerx="1048" centery="974" centerz="7" radius="1">
 		<monster name="Infernal Demon" x="0" y="1" z="7" spawntime="60" direction="2" />
 	</monster>
@@ -5060,6 +5066,12 @@
 	<monster centerx="1461" centery="1011" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1767" centery="1012" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1766" centery="1014" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="-1" y="0" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1453" centery="1015" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
 	</monster>
@@ -5069,8 +5081,17 @@
 	<monster centerx="1460" centery="1015" centerz="8" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1771" centery="1015" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1809" centery="1015" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1465" centery="1016" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1767" centery="1016" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1459" centery="1018" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
@@ -5078,11 +5099,34 @@
 	<monster centerx="1478" centery="1018" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1806" centery="1018" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1454" centery="1019" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1501" centery="1019" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1763" centery="1019" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1775" centery="1019" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="-1" y="-1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1833" centery="1019" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1811" centery="1020" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1839" centery="1020" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1487" centery="1021" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
@@ -5093,11 +5137,53 @@
 		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1814" centery="1022" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="1" y="0" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1503" centery="1023" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1831" centery="1023" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1783" centery="1024" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1802" centery="1024" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1839" centery="1024" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1479" centery="1025" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1750" centery="1025" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1791" centery="1025" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="-1" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1821" centery="1025" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="-1" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1795" centery="1026" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1527" centery="1027" centerz="8" radius="1">
 		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
@@ -5105,8 +5191,14 @@
 		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1786" centery="1028" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="0" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1474" centery="1029" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1789" centery="1029" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="1" y="0" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1440" centery="1030" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
@@ -5135,11 +5227,26 @@
 		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1786" centery="1032" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1822" centery="1032" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1451" centery="1034" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1747" centery="1035" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1824" centery="1036" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1495" centery="1037" centerz="8" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1816" centery="1038" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="0" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1461" centery="1039" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
@@ -5150,6 +5257,14 @@
 	<monster centerx="1493" centery="1039" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1784" centery="1039" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1491" centery="1040" centerz="8" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="8" spawntime="60" />
 	</monster>
@@ -5158,6 +5273,9 @@
 		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
 		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1748" centery="1041" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1457" centery="1042" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
@@ -5180,6 +5298,9 @@
 		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1783" centery="1043" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1461" centery="1046" centerz="8" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="8" spawntime="60" />
 	</monster>
@@ -5189,17 +5310,34 @@
 	<monster centerx="1511" centery="1046" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1779" centery="1046" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="-1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1808" centery="1046" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="1" y="0" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1475" centery="1048" centerz="8" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1463" centery="1050" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="-1" y="0" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1778" centery="1051" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1529" centery="1052" centerz="8" radius="1">
 		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
 		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1754" centery="1052" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="1" y="1" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1494" centery="1053" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
@@ -5213,6 +5351,20 @@
 	<monster centerx="1493" centery="1055" centerz="8" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1752" centery="1055" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1758" centery="1055" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1767" centery="1057" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1451" centery="1058" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
 	</monster>
@@ -5225,14 +5377,45 @@
 	<monster centerx="1509" centery="1059" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1793" centery="1059" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="1" y="1" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1451" centery="1060" centerz="8" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1763" centery="1060" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1800" centery="1060" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1766" centery="1061" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="-1" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1538" centery="1062" centerz="8" radius="1">
 		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
 		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1797" centery="1062" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1766" centery="1063" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1806" centery="1063" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1453" centery="1064" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
@@ -5242,6 +5425,9 @@
 	</monster>
 	<monster centerx="1506" centery="1064" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1790" centery="1064" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="1" y="0" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1513" centery="1065" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
@@ -5258,6 +5444,15 @@
 		<monster name="Goggle Cake" x="-1" y="1" z="8" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1770" centery="1067" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="-1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1810" centery="1067" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1814" centery="1067" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="1" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1466" centery="1068" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
 	</monster>
@@ -5266,6 +5461,165 @@
 	</monster>
 	<monster centerx="1473" centery="1070" centerz="8" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1775" centery="1070" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1785" centery="1070" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1789" centery="1070" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="-1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1813" centery="1071" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1820" centery="1074" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1816" centery="1076" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1824" centery="1082" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1830" centery="1083" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="-1" y="-1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1825" centery="1087" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="-1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1828" centery="1087" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="-1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1824" centery="1095" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1774" centery="1097" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1777" centery="1097" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1818" centery="1097" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1768" centery="1098" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1762" centery="1099" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1773" centery="1100" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="-1" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1822" centery="1100" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="1" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1813" centery="1101" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1776" centery="1102" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="-1" y="-1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1778" centery="1102" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1781" centery="1102" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1821" centery="1102" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1751" centery="1103" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1760" centery="1103" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="-1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1817" centery="1103" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="-1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1809" centery="1104" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1756" centery="1105" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1761" centery="1105" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1827" centery="1105" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1784" centery="1106" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1760" centery="1107" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1745" centery="1108" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1750" centery="1109" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="-1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1801" centery="1109" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1765" centery="1111" centerz="8" radius="1">
+		<monster name="Rootthing Amber Shaper" x="1" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1796" centery="1111" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="-1" y="-1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1799" centery="1112" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1794" centery="1113" centerz="8" radius="1">
+		<monster name="Rootthing Bug Tracker" x="1" y="0" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1942" centery="564" centerz="9" radius="1">
 		<monster name="Infernal Demon" x="0" y="0" z="9" spawntime="60" />
@@ -5896,6 +6250,25 @@
 	<monster centerx="1257" centery="998" centerz="9" radius="1">
 		<monster name="The Nightmare Beast" x="-1" y="0" z="9" spawntime="60" direction="3" />
 	</monster>
+	<monster centerx="1793" centery="1001" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1792" centery="1003" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1797" centery="1003" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1795" centery="1004" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1790" centery="1005" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1844" centery="1009" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="-1" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1550" centery="1010" centerz="9" radius="1">
 		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
@@ -5907,6 +6280,15 @@
 		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
 		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1741" centery="1013" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1843" centery="1013" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1845" centery="1013" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="-1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1551" centery="1014" centerz="9" radius="1">
 		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
@@ -5920,8 +6302,32 @@
 		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="1786" centery="1014" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="-1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1775" centery="1017" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1838" centery="1017" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1769" centery="1018" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1835" centery="1019" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1484" centery="1020" centerz="9" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1757" centery="1020" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1761" centery="1020" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1789" centery="1021" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1488" centery="1022" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
@@ -5929,8 +6335,38 @@
 	<monster centerx="1490" centery="1022" centerz="9" radius="1">
 		<monster name="Honey Elemental" x="0" y="0" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="1745" centery="1022" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1756" centery="1022" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1778" centery="1022" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1838" centery="1022" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1769" centery="1023" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1791" centery="1023" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="1" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1492" centery="1024" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1786" centery="1024" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1800" centery="1025" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="1" y="0" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1485" centery="1026" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
@@ -5938,11 +6374,33 @@
 	<monster centerx="1496" centery="1026" centerz="9" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="1751" centery="1026" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1557" centery="1027" centerz="9" radius="1">
 		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
 		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1787" centery="1027" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1791" centery="1027" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1841" centery="1027" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1498" centery="1028" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
@@ -5953,14 +6411,33 @@
 		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="1747" centery="1028" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="-1" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1485" centery="1029" centerz="9" radius="1">
 		<monster name="Honey Elemental" x="0" y="0" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1507" centery="1029" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="1801" centery="1029" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="1" y="0" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1510" centery="1030" centerz="9" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1798" centery="1030" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1807" centery="1031" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1838" centery="1031" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1746" centery="1032" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1533" centery="1033" centerz="9" radius="1">
 		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
@@ -5980,6 +6457,9 @@
 		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="1842" centery="1033" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="-1" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1483" centery="1034" centerz="9" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
 	</monster>
@@ -5988,6 +6468,9 @@
 	</monster>
 	<monster centerx="1507" centery="1034" centerz="9" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1744" centery="1034" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="1" y="0" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1511" centery="1035" centerz="9" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
@@ -5998,8 +6481,37 @@
 	<monster centerx="1504" centery="1036" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="1743" centery="1036" centerz="9" radius="1">
+		<monster name="Rootthing Nutshell" x="0" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1749" centery="1037" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1820" centery="1037" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1836" centery="1037" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="-1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1805" centery="1038" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="1" y="1" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1479" centery="1039" centerz="9" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1745" centery="1039" centerz="9" radius="1">
+		<monster name="Rootthing Nutshell" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1810" centery="1039" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1840" centery="1039" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1555" centery="1040" centerz="9" radius="1">
 		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
@@ -6013,14 +6525,31 @@
 		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="1802" centery="1040" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1817" centery="1040" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="1" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1477" centery="1041" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1801" centery="1042" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="1" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1480" centery="1043" centerz="9" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1517" centery="1043" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1778" centery="1043" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1474" centery="1044" centerz="9" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
@@ -6033,6 +6562,17 @@
 		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
 		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1819" centery="1045" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1843" centery="1045" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1531" centery="1046" centerz="9" radius="1">
 		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
@@ -6052,6 +6592,9 @@
 		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="1754" centery="1046" centerz="9" radius="1">
+		<monster name="Rootthing Nutshell" x="1" y="0" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1473" centery="1047" centerz="9" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
 	</monster>
@@ -6061,8 +6604,28 @@
 	<monster centerx="1517" centery="1047" centerz="9" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="1778" centery="1047" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="-1" y="-1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1776" centery="1048" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="1" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1492" centery="1050" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1758" centery="1050" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1839" centery="1050" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="-1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1754" centery="1051" centerz="9" radius="1">
+		<monster name="Rootthing Nutshell" x="0" y="0" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1476" centery="1052" centerz="9" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
@@ -6073,6 +6636,12 @@
 	<monster centerx="1506" centery="1053" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="1759" centery="1053" centerz="9" radius="1">
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1824" centery="1054" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1513" centery="1055" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
 	</monster>
@@ -6082,8 +6651,17 @@
 	<monster centerx="1499" centery="1056" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="1775" centery="1056" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="0" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1484" centery="1057" centerz="9" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1798" centery="1057" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1822" centery="1057" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1505" centery="1058" centerz="9" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
@@ -6093,6 +6671,9 @@
 		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
 		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1826" centery="1059" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1541" centery="1060" centerz="9" radius="1">
 		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
@@ -6115,14 +6696,26 @@
 	<monster centerx="1512" centery="1061" centerz="9" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="1768" centery="1061" centerz="9" radius="1">
+		<monster name="Rootthing Nutshell" x="0" y="0" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1487" centery="1062" centerz="9" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1822" centery="1062" centerz="9" radius="1">
+		<monster name="Rootthing Nutshell" x="1" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1499" centery="1063" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1515" centery="1063" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1767" centery="1063" centerz="9" radius="1">
+		<monster name="Rootthing Nutshell" x="-1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1805" centery="1063" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1553" centery="1064" centerz="9" radius="1">
 		<monster name="Candy Floss Elemental" x="-1" y="-1" z="9" spawntime="60" />
@@ -6148,6 +6741,15 @@
 		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="1769" centery="1065" centerz="9" radius="1">
+		<monster name="Rootthing Nutshell" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1790" centery="1065" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1803" centery="1065" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="0" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1482" centery="1066" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
 	</monster>
@@ -6160,14 +6762,37 @@
 		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="1820" centery="1066" centerz="9" radius="1">
+		<monster name="Rootthing Nutshell" x="0" y="1" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1473" centery="1067" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1809" centery="1067" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1741" centery="1068" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1824" centery="1068" centerz="9" radius="1">
+		<monster name="Rootthing Nutshell" x="0" y="0" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1485" centery="1069" centerz="9" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1517" centery="1069" centerz="9" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1786" centery="1071" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1821" centery="1072" centerz="9" radius="1">
+		<monster name="Rootthing Nutshell" x="0" y="0" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1479" centery="1074" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
@@ -6181,6 +6806,17 @@
 	<monster centerx="1513" centery="1076" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="1749" centery="1077" centerz="9" radius="1">
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1821" centery="1077" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1484" centery="1078" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
 	</monster>
@@ -6189,6 +6825,9 @@
 		<monster name="Angry Sugar Fairy" x="1" y="-1" z="9" spawntime="60" />
 		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1779" centery="1078" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="0" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1489" centery="1079" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
@@ -6202,8 +6841,37 @@
 		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="1746" centery="1079" centerz="9" radius="1">
+		<monster name="Rootthing Nutshell" x="0" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1816" centery="1079" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1750" centery="1080" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1746" centery="1081" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1777" centery="1081" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1782" centery="1081" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1815" centery="1081" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1501" centery="1082" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1820" centery="1082" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1494" centery="1083" centerz="9" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
@@ -6214,8 +6882,14 @@
 		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="1748" centery="1083" centerz="9" radius="1">
+		<monster name="Rootthing Nutshell" x="1" y="0" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1499" centery="1085" centerz="9" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1754" centery="1085" centerz="9" radius="1">
+		<monster name="Rootthing Nutshell" x="1" y="0" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1495" centery="1086" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
@@ -6226,8 +6900,164 @@
 		<monster name="Goggle Cake" x="-1" y="1" z="9" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="1808" centery="1086" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="0" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="1518" centery="1087" centerz="9" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1804" centery="1087" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1742" centery="1089" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1753" centery="1089" centerz="9" radius="1">
+		<monster name="Rootthing Nutshell" x="-1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1795" centery="1089" centerz="9" radius="1">
+		<monster name="Rootthing Nutshell" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1757" centery="1090" centerz="9" radius="1">
+		<monster name="Rootthing Nutshell" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1747" centery="1093" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="1" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1752" centery="1093" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1805" centery="1093" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1786" centery="1095" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1813" centery="1095" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1846" centery="1095" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1792" centery="1096" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1796" centery="1096" centerz="9" radius="1">
+		<monster name="Rootthing Nutshell" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1801" centery="1096" centerz="9" radius="1">
+		<monster name="Rootthing Nutshell" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1783" centery="1099" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1791" centery="1099" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1820" centery="1099" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1842" centery="1099" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1848" centery="1099" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1826" centery="1100" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1775" centery="1101" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1802" centery="1101" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1848" centery="1102" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="-1" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1773" centery="1104" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1777" centery="1104" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="-1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1770" centery="1105" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1836" centery="1105" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1748" centery="1108" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="1" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1804" centery="1108" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1835" centery="1108" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1763" centery="1109" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1748" centery="1110" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1751" centery="1111" centerz="9" radius="1">
+		<monster name="Rootthing Bug Tracker" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1793" centery="1114" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1773" centery="1116" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="1823" centery="1118" centerz="9" radius="1">
+		<monster name="Rootthing Amber Shaper" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Amber Shaper" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Nutshell" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Rootthing Bug Tracker" x="1" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="1548" centery="600" centerz="10" radius="1">
 		<monster name="Mirror Image" x="0" y="0" z="10" spawntime="60" />
@@ -6361,8 +7191,109 @@
 	<monster centerx="1258" centery="996" centerz="10" radius="1">
 		<monster name="The Duke of the Depths" x="0" y="1" z="10" spawntime="60" direction="2" />
 	</monster>
+	<monster centerx="1781" centery="1001" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1765" centery="1003" centerz="10" radius="1">
+		<monster name="Quara Looter" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1751" centery="1004" centerz="10" radius="1">
+		<monster name="Quara Looter" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1777" centery="1005" centerz="10" radius="1">
+		<monster name="Quara Plunderer" x="0" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1754" centery="1006" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1764" centery="1006" centerz="10" radius="1">
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1760" centery="1007" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1749" centery="1008" centerz="10" radius="1">
+		<monster name="Quara Looter" x="0" y="-1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1771" centery="1008" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1775" centery="1008" centerz="10" radius="1">
+		<monster name="Quara Plunderer" x="0" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1788" centery="1008" centerz="10" radius="1">
+		<monster name="Quara Looter" x="0" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1738" centery="1009" centerz="10" radius="1">
+		<monster name="Quara Raider" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1778" centery="1009" centerz="10" radius="1">
+		<monster name="Quara Plunderer" x="0" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1782" centery="1011" centerz="10" radius="1">
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1797" centery="1011" centerz="10" radius="1">
+		<monster name="Quara Plunderer" x="0" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1741" centery="1012" centerz="10" radius="1">
+		<monster name="Quara Raider" x="1" y="-1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1793" centery="1012" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1738" centery="1014" centerz="10" radius="1">
+		<monster name="Quara Raider" x="0" y="-1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1805" centery="1014" centerz="10" radius="1">
+		<monster name="Quara Looter" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1737" centery="1018" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1803" centery="1018" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1811" centery="1019" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1804" centery="1020" centerz="10" radius="1">
+		<monster name="Quara Looter" x="1" y="0" z="10" spawntime="60" />
+	</monster>
 	<monster centerx="1520" centery="1021" centerz="10" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1734" centery="1021" centerz="10" radius="1">
+		<monster name="Quara Plunderer" x="1" y="-1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1770" centery="1021" centerz="10" radius="1">
+		<monster name="Quara Looter" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1778" centery="1021" centerz="10" radius="1">
+		<monster name="Quara Looter" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1764" centery="1022" centerz="10" radius="1">
+		<monster name="Quara Looter" x="0" y="0" z="10" spawntime="60" />
 	</monster>
 	<monster centerx="1517" centery="1023" centerz="10" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="10" spawntime="60" />
@@ -6375,6 +7306,12 @@
 	</monster>
 	<monster centerx="1509" centery="1024" centerz="10" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1737" centery="1024" centerz="10" radius="1">
+		<monster name="Quara Looter" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1759" centery="1024" centerz="10" radius="1">
+		<monster name="Quara Raider" x="1" y="1" z="10" spawntime="60" />
 	</monster>
 	<monster centerx="1512" centery="1025" centerz="10" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="10" spawntime="60" />
@@ -6397,8 +7334,27 @@
 		<monster name="Goggle Cake" x="-1" y="1" z="10" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="1" z="10" spawntime="60" />
 	</monster>
+	<monster centerx="1766" centery="1026" centerz="10" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1814" centery="1027" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
+	</monster>
 	<monster centerx="1505" centery="1028" centerz="10" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1762" centery="1028" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
 	</monster>
 	<monster centerx="1508" centery="1029" centerz="10" radius="1">
 		<monster name="Candy Horror" x="0" y="0" z="10" spawntime="60" />
@@ -6409,8 +7365,288 @@
 	<monster centerx="1512" centery="1030" centerz="10" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="10" spawntime="60" />
 	</monster>
+	<monster centerx="1746" centery="1030" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1758" centery="1030" centerz="10" radius="1">
+		<monster name="Quara Looter" x="1" y="0" z="10" spawntime="60" />
+	</monster>
 	<monster centerx="1509" centery="1031" centerz="10" radius="1">
 		<monster name="Nibblemaw" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1751" centery="1032" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1761" centery="1033" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1816" centery="1035" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1817" centery="1038" centerz="10" radius="1">
+		<monster name="Quara Looter" x="0" y="-1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1775" centery="1039" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1813" centery="1039" centerz="10" radius="1">
+		<monster name="Quara Looter" x="0" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1757" centery="1045" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1814" centery="1047" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1768" centery="1048" centerz="10" radius="1">
+		<monster name="Quara Raider" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1809" centery="1048" centerz="10" radius="1">
+		<monster name="Quara Plunderer" x="0" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1753" centery="1049" centerz="10" radius="1">
+		<monster name="Quara Looter" x="0" y="-1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1756" centery="1049" centerz="10" radius="1">
+		<monster name="Quara Looter" x="1" y="-1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1765" centery="1049" centerz="10" radius="1">
+		<monster name="Quara Raider" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1768" centery="1050" centerz="10" radius="1">
+		<monster name="Quara Raider" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1743" centery="1051" centerz="10" radius="1">
+		<monster name="Quara Looter" x="0" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1808" centery="1053" centerz="10" radius="1">
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1785" centery="1054" centerz="10" radius="1">
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1745" centery="1055" centerz="10" radius="1">
+		<monster name="Quara Looter" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1803" centery="1056" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1740" centery="1058" centerz="10" radius="1">
+		<monster name="Quara Looter" x="0" y="-1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1785" centery="1058" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1788" centery="1058" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1799" centery="1059" centerz="10" radius="1">
+		<monster name="Quara Looter" x="0" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1801" centery="1060" centerz="10" radius="1">
+		<monster name="Quara Looter" x="1" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1740" centery="1062" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1823" centery="1062" centerz="10" radius="1">
+		<monster name="Quara Raider" x="0" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1802" centery="1064" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1786" centery="1065" centerz="10" radius="1">
+		<monster name="Quara Plunderer" x="0" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1818" centery="1065" centerz="10" radius="1">
+		<monster name="Quara Raider" x="1" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1821" centery="1066" centerz="10" radius="1">
+		<monster name="Quara Raider" x="1" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1743" centery="1068" centerz="10" radius="1">
+		<monster name="Quara Plunderer" x="-1" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1786" centery="1070" centerz="10" radius="1">
+		<monster name="Quara Plunderer" x="1" y="-1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1782" centery="1071" centerz="10" radius="1">
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1801" centery="1072" centerz="10" radius="1">
+		<monster name="Quara Raider" x="0" y="-1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1824" centery="1073" centerz="10" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1746" centery="1074" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1820" centery="1074" centerz="10" radius="1">
+		<monster name="Quara Plunderer" x="-1" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1751" centery="1075" centerz="10" radius="1">
+		<monster name="Quara Looter" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1768" centery="1075" centerz="10" radius="1">
+		<monster name="Quara Raider" x="-1" y="-1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1767" centery="1077" centerz="10" radius="1">
+		<monster name="Quara Raider" x="-1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1762" centery="1078" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1769" centery="1078" centerz="10" radius="1">
+		<monster name="Quara Raider" x="1" y="-1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1796" centery="1078" centerz="10" radius="1">
+		<monster name="Quara Looter" x="1" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1748" centery="1079" centerz="10" radius="1">
+		<monster name="Quara Looter" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1752" centery="1079" centerz="10" radius="1">
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1757" centery="1079" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1811" centery="1079" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1802" centery="1080" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1790" centery="1082" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1793" centery="1083" centerz="10" radius="1">
+		<monster name="Quara Looter" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1799" centery="1083" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1809" centery="1083" centerz="10" radius="1">
+		<monster name="Quara Looter" x="0" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1815" centery="1084" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1787" centery="1086" centerz="10" radius="1">
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1778" centery="1088" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1755" centery="1089" centerz="10" radius="1">
+		<monster name="Quara Raider" x="-1" y="-1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1789" centery="1089" centerz="10" radius="1">
+		<monster name="Quara Plunderer" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1772" centery="1091" centerz="10" radius="1">
+		<monster name="Quara Looter" x="0" y="-1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1767" centery="1092" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1767" centery="1095" centerz="10" radius="1">
+		<monster name="Quara Looter" x="1" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1776" centery="1095" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1786" centery="1095" centerz="10" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1794" centery="1102" centerz="10" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1797" centery="1105" centerz="10" radius="1">
+		<monster name="Quara Raider" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1806" centery="1110" centerz="10" radius="1">
+		<monster name="Quara Looter" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1808" centery="1115" centerz="10" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1801" centery="1118" centerz="10" radius="1">
+		<monster name="Quara Raider" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="1809" centery="1119" centerz="10" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="10" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="10" spawntime="60" />
 	</monster>
 	<monster centerx="1538" centery="592" centerz="11" radius="1">
 		<monster name="Mirror Image" x="0" y="0" z="11" spawntime="60" />
@@ -6825,6 +8061,44 @@
 		<monster name="Mirror Image" x="-1" y="0" z="11" spawntime="60" />
 		<monster name="Mirror Image" x="0" y="0" z="11" spawntime="60" />
 	</monster>
+	<monster centerx="1835" centery="957" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1802" centery="979" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1800" centery="984" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1803" centery="984" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1783" centery="986" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1794" centery="986" centerz="11" radius="1">
+		<monster name="Quara Raider" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1777" centery="988" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1787" centery="988" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1769" centery="989" centerz="11" radius="1">
+		<monster name="Quara Raider" x="-1" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1790" centery="989" centerz="11" radius="1">
+		<monster name="Quara Raider" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1785" centery="990" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="11" spawntime="60" />
+	</monster>
 	<monster centerx="1248" centery="991" centerz="11" radius="1">
 		<monster name="Murcion" x="0" y="1" z="11" spawntime="60" direction="2" />
 	</monster>
@@ -6840,14 +8114,435 @@
 	<monster centerx="1256" centery="991" centerz="11" radius="1">
 		<monster name="Vemiath" x="0" y="1" z="11" spawntime="60" direction="2" />
 	</monster>
+	<monster centerx="1814" centery="992" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1809" centery="994" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1754" centery="996" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1813" centery="996" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="-1" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1763" centery="997" centerz="11" radius="1">
+		<monster name="Quara Raider" x="-1" y="0" z="11" spawntime="60" />
+	</monster>
 	<monster centerx="1262" centery="998" centerz="11" radius="1">
 		<monster name="Mitmah Vanguard" x="-1" y="0" z="11" spawntime="60" direction="3" />
+	</monster>
+	<monster centerx="1760" centery="998" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1808" centery="998" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1748" centery="999" centerz="11" radius="1">
+		<monster name="Quara Raider" x="-1" y="0" z="11" spawntime="60" />
 	</monster>
 	<monster centerx="1245" centery="1000" centerz="11" radius="1">
 		<monster name="Sugar Daddy" x="1" y="0" z="11" spawntime="60" direction="1" />
 	</monster>
+	<monster centerx="1765" centery="1000" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1744" centery="1002" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1766" centery="1003" centerz="11" radius="1">
+		<monster name="Quara Raider" x="0" y="1" z="11" spawntime="60" />
+	</monster>
 	<monster centerx="1250" centery="1006" centerz="11" radius="1">
 		<monster name="The Rootkraken" x="0" y="-1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1744" centery="1007" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1770" centery="1008" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1833" centery="1009" centerz="11" radius="1">
+		<monster name="Quara Raider" x="-1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1743" centery="1010" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="-1" y="-1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1774" centery="1010" centerz="11" radius="1">
+		<monster name="Quara Raider" x="-1" y="-1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1781" centery="1010" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="-1" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1743" centery="1012" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1799" centery="1014" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1806" centery="1014" centerz="11" radius="1">
+		<monster name="Quara Raider" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1770" centery="1015" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1810" centery="1015" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1814" centery="1015" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1780" centery="1016" centerz="11" radius="1">
+		<monster name="Quara Raider" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1803" centery="1016" centerz="11" radius="1">
+		<monster name="Quara Raider" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1820" centery="1016" centerz="11" radius="1">
+		<monster name="Quara Raider" x="1" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1784" centery="1017" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1786" centery="1017" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1809" centery="1017" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1813" centery="1018" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1824" centery="1019" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1827" centery="1019" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1845" centery="1019" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1743" centery="1021" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1841" centery="1022" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1830" centery="1023" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1850" centery="1023" centerz="11" radius="1">
+		<monster name="Quara Raider" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1847" centery="1024" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1740" centery="1025" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="-1" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1839" centery="1025" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1743" centery="1026" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="-1" y="-1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1833" centery="1026" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1738" centery="1028" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1832" centery="1028" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1835" centery="1028" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1851" centery="1028" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1807" centery="1030" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1836" centery="1030" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1852" centery="1033" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1732" centery="1035" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1841" centery="1036" centerz="11" radius="1">
+		<monster name="Quara Raider" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1850" centery="1036" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1794" centery="1039" centerz="11" radius="1">
+		<monster name="Quara Raider" x="-1" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1787" centery="1040" centerz="11" radius="1">
+		<monster name="Quara Raider" x="-1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1802" centery="1040" centerz="11" radius="1">
+		<monster name="Quara Raider" x="-1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1733" centery="1041" centerz="11" radius="1">
+		<monster name="Quara Raider" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1757" centery="1041" centerz="11" radius="1">
+		<monster name="Quara Raider" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1852" centery="1041" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1827" centery="1042" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1842" centery="1042" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1802" centery="1043" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1730" centery="1044" centerz="11" radius="1">
+		<monster name="Quara Raider" x="1" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1736" centery="1044" centerz="11" radius="1">
+		<monster name="Quara Raider" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1785" centery="1045" centerz="11" radius="1">
+		<monster name="Quara Raider" x="-1" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1805" centery="1045" centerz="11" radius="1">
+		<monster name="Quara Raider" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1801" centery="1046" centerz="11" radius="1">
+		<monster name="Quara Raider" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1847" centery="1046" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1746" centery="1047" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1782" centery="1047" centerz="11" radius="1">
+		<monster name="Quara Raider" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1750" centery="1048" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1753" centery="1048" centerz="11" radius="1">
+		<monster name="Quara Raider" x="0" y="-1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1786" centery="1048" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1802" centery="1048" centerz="11" radius="1">
+		<monster name="Quara Raider" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1818" centery="1048" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1780" centery="1049" centerz="11" radius="1">
+		<monster name="Quara Raider" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1845" centery="1049" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1747" centery="1051" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1808" centery="1052" centerz="11" radius="1">
+		<monster name="Quara Raider" x="0" y="-1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1843" centery="1052" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1744" centery="1053" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1826" centery="1053" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1841" centery="1053" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1820" centery="1055" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1825" centery="1055" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1811" centery="1056" centerz="11" radius="1">
+		<monster name="Quara Raider" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1829" centery="1056" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1808" centery="1057" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1743" centery="1059" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1779" centery="1059" centerz="11" radius="1">
+		<monster name="Quara Raider" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1807" centery="1061" centerz="11" radius="1">
+		<monster name="Quara Raider" x="-1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1746" centery="1062" centerz="11" radius="1">
+		<monster name="Quara Raider" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1791" centery="1063" centerz="11" radius="1">
+		<monster name="Quara Raider" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1772" centery="1065" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1795" centery="1065" centerz="11" radius="1">
+		<monster name="Quara Looter" x="-1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Quara Plunderer" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Quara Looter" x="1" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1756" centery="1068" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="-1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1794" centery="1068" centerz="11" radius="1">
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1758" centery="1069" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1773" centery="1069" centerz="11" radius="1">
+		<monster name="Quara Raider" x="1" y="-1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="1754" centery="1070" centerz="11" radius="1">
+		<monster name="Quara Plunderer" x="0" y="0" z="11" spawntime="60" />
 	</monster>
 	<monster centerx="1537" centery="589" centerz="12" radius="1">
 		<monster name="Mirror Image" x="-1" y="0" z="12" spawntime="60" />

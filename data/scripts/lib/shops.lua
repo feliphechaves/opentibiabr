@@ -180,6 +180,11 @@ end
 LootShopConfigTable = {
 	["creature products"] = {
 
+		{ itemName = "amber souvenir", clientId = 48508, sell = 850 },
+		{ itemName = "resinous fish fin", clientId = 48509, sell = 1250 },
+		{ itemName = "resin parasite", clientId = 48511, sell = 1450 },
+		{ itemName = "demon root", clientId = 48510, sell = 950 },
+		
 		{ itemName = "darklight obsidian axe", clientId = 43781, sell = 100 },
 		{ itemName = "basalt core", clientId = 43859, sell = 5800 },
 		{ itemName = "basalt crumbs", clientId = 43858, sell = 3000 },
