@@ -5,7 +5,7 @@ combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_ETHEREALSPEAR)
 combat:setParameter(COMBAT_PARAM_BLOCKARMOR, 1)
 
 local function adjustValues(min, max)
-	return min * 2, max * 2
+	return min * 1.8, max * 1.8
 end
 
 function onGetFormulaValues(player, skill, attack, factor)
@@ -33,7 +33,7 @@ spell:isPremium(true)
 spell:range(7)
 spell:needTarget(true)
 spell:blockWalls(true)
-spell:cooldown(8 * 1000)
+spell:cooldown(12 * 1000)
 spell:groupCooldown(2 * 1000)
 spell:needLearn(false)
 spell:vocation("paladin;true", "royal paladin;true")
