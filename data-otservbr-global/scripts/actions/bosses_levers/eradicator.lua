@@ -37,7 +37,7 @@ local config = {
 			end
 		end
 	end,
-	exit = Position(32218, 31375, 11),
+	exit = Position(32337, 31288, 14),
 }
 
 local lever = BossLever(config)

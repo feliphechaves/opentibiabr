@@ -79,8 +79,8 @@ monster.voices = {
 }
 
 monster.loot = {
-    { name = "crystal coin", chance = 12380, maxCount = 21 },
-    { name = "platinum coin", chance = 12380, maxCount = 44 },
+    { name = "crystal coin", chance = 12380, maxCount = 2 },
+    { name = "platinum coin", chance = 12380, maxCount = 2 },
 	{ id = 48413, chance = 14460, maxCount = 2 },  --  amber sickle
     { id = 32624, chance = 4460, maxCount = 4 }, --  
     { id = 32625, chance = 4460 }, 
