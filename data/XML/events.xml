@@ -48,7 +48,7 @@
 		<colors colordark="#235c00" colorlight="#2d7400" />
 		<details displaypriority="6" isseasonal="0" specialevent="1" />
 	</event>
-	<event name="Double Skill" startdate="2/8/2025" enddate="2/9/2025" script="" >
+	<event name="Double Skill" startdate="2/8/2025" enddate="2/10/2025" script="" >
 		<ingame exprate="100" lootrate="100" bosslootrate="100" spawnrate="100" skillrate="200" />
 		<description description="Double Skill" />
 		<colors colordark="#235c00" colorlight="#2d7400" />
