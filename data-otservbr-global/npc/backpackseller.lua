@@ -53,6 +53,7 @@ npcConfig.shop = {
 	{ itemName = "red backpack", clientId = 2867, buy = 1000 },
 	{ itemName = "yellow backpack", clientId = 2866, buy = 1000 },
 	{ itemName = "expedition backpack", clientId = 10324, buy = 1000 },
+	{ itemName = "buggy backpack", clientId = 14249, buy = 1000 },
 
 	{ itemName = "changing backpack", clientId = 37536, buy = 10000000 },
 
