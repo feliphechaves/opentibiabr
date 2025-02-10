@@ -44,7 +44,7 @@ local config = {
 			destinationPosition = Position(1143, 988, 6),
 		},
 	},
-	spawnTime = "21:00:00",
+	spawnTime = "19:00:00",
 	rewardList = {
 		{ id = 39546, name = "Primal bag", count = 1 },
 		{ id = 43895, name = "Bag you covet", count = 1 },
