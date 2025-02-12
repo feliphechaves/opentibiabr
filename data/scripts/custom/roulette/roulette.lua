@@ -276,6 +276,8 @@ function resetroulette.onSay(player, words, param)
 	resetLever(Position(1142, 895, 5))
 	clearRoulette()
 
+	rouletteActive = false
+
 	return true
 end
 
