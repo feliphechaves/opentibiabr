@@ -7167,18 +7167,6 @@ GameStore.Categories = {
 				home = true,
 				movable = true,
 			},
-			{
-				icons = {},
-				name = "Advanced Promotion Scroll",
-				price = 2,
-				itemtype = 43950,
-				count = 1,
-				description = "Only a hero of level 51 or above can decipher this scroll to gain 20 promotion points for the Wheel of Destiny.",
-				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
-				state = GameStore.States.STATE_NEW,
-				home = true,
-				movable = true,
-			},
 		},
 	},
 
