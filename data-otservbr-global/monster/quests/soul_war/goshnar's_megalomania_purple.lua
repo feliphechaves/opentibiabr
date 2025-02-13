@@ -161,4 +161,10 @@ mType.onThink = function(monsterCallback, interval)
 	monsterCallback:goshnarsDefenseIncrease("cleansed-sanity-action")
 end
 
+mType.onAppear = function(monster, creature)
+	if monster:getType():isRewardBoss() then
+		monster:setReward(true)
+	end
+end
+
 mType:register(monster)
