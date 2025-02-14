@@ -8,7 +8,7 @@ combat:setArea(createCombatArea(AREA_SQUARE1X1))
 local spell = Spell("instant")
 
 local function adjustValues(min, max)
-	return min * 2, max * 2
+	return min * 2.2, max * 2.2
 end
 
 function spell.onCastSpell(creature, variant)

@@ -6,7 +6,7 @@ combat:setParameter(COMBAT_PARAM_USECHARGES, 1)
 combat:setArea(createCombatArea(AREA_CIRCLE3X3))
 
 local function adjustValues(min, max)
-	return min * 1.2, max * 1.2
+	return min * 2, max * 2
 end
 
 function onGetFormulaValues(player, skill, attack, factor)
