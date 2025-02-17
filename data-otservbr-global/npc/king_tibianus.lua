@@ -67,7 +67,6 @@ local function creatureSayCallback(npc, creature, type, message)
 			npcHandler:say("Indeed, indeed. Without the help of Thais, our allies stand no chance! Well, I'll send some money to support their cause.", npc, creature)
 			player:setStorageValue(TheNewFrontier.Mission05.KingTibianus, 3)
 		end
-	--[[
 	elseif (MsgContains(message, "outfit")) or (MsgContains(message, "addon")) then
 		npcHandler:say("In exchange for a truly generous donation, I will offer a special outfit. Do you want to make a donation?", npc, creature)
 		npcHandler:setTopic(playerId, 1)
@@ -75,7 +74,7 @@ local function creatureSayCallback(npc, creature, type, message)
 		-- Vamos tratar todas condições para YES aqui
 		if npcHandler:getTopic(playerId) == 1 then
 			-- Para o primeiro Yes, o npc deve explicar como obter o outfit
-			npcHandler:say({ "Excellent! Now, let me explain. If you donate 1.000.000.000 gold pieces, you will be entitled to wear a unique outfit. ...", "You will be entitled to wear the {armor} for 500.000.000 gold pieces, {helmet} for an additional 250.000.000 and the {boots} for another 250.000.000 gold pieces. ...", "What will it be?" }, npc, creature)
+			npcHandler:say({ "Excellent! Now, let me explain. If you donate 1.000.000.000 gold pieces, you will be entitled to wear a unique outfit. ...", "You will be entitled to wear the {armor} for 5.000.000.000 gold pieces, {helmet} for an additional 2.500.000.000 and the {boots} for another 2.500.000.000 gold pieces. ...", "What will it be?" }, npc, creature)
 			npcHandler:setTopic(playerId, 2)
 			-- O NPC só vai oferecer os addons se o player já tiver escolhido.
 		elseif npcHandler:getTopic(playerId) == 2 then
@@ -85,7 +84,7 @@ local function creatureSayCallback(npc, creature, type, message)
 			-- Inicio do outfit
 		elseif npcHandler:getTopic(playerId) == 3 then -- ARMOR/OUTFIT
 			if player:getStorageValue(Storage.Quest.U12_15.GoldenOutfits) < 1 then
-				if player:getMoney() + player:getBankBalance() >= 500000000 then
+				if player:getMoney() + player:getBankBalance() >= 5000000000 then
 					local inbox = player:getStoreInbox()
 					local inboxItems = inbox:getItems()
 					if inbox and #inboxItems < inbox:getMaxCapacity() then
@@ -114,7 +113,7 @@ local function creatureSayCallback(npc, creature, type, message)
 		elseif npcHandler:getTopic(playerId) == 4 then
 			if player:getStorageValue(Storage.Quest.U12_15.GoldenOutfits) == 1 then
 				if player:getStorageValue(Storage.Quest.U12_15.GoldenOutfits) < 2 then
-					if player:getMoney() + player:getBankBalance() >= 250000000 then
+					if player:getMoney() + player:getBankBalance() >= 2500000000 then
 						npcHandler:say("Take this helmet as a token of great gratitude. Let us forever remember this day, my friend. ", npc, creature)
 						player:removeMoneyBank(2500000000)
 						player:addOutfitAddon(1210, 2)
@@ -140,7 +139,7 @@ local function creatureSayCallback(npc, creature, type, message)
 		elseif npcHandler:getTopic(playerId) == 5 then
 			if player:getStorageValue(Storage.Quest.U12_15.GoldenOutfits) == 2 then
 				if player:getStorageValue(Storage.Quest.U12_15.GoldenOutfits) < 3 then
-					if player:getMoney() + player:getBankBalance() >= 250000000 then
+					if player:getMoney() + player:getBankBalance() >= 2500000000 then
 						npcHandler:say("Take this boots as a token of great gratitude. Let us forever remember this day, my friend. ", npc, creature)
 						player:removeMoneyBank(2500000000)
 						player:addOutfitAddon(1210, 1)
@@ -173,15 +172,14 @@ local function creatureSayCallback(npc, creature, type, message)
 		-- inicio das opções armor/helmet/boots
 		-- caso o player não diga YES, dirá alguma das seguintes palavras:
 	elseif (MsgContains(message, "armor")) and npcHandler:getTopic(playerId) == 2 then
-		npcHandler:say("So you wold like to donate 500.000.000 gold pieces which in return will entitle you to wear a unique armor?", npc, creature)
+		npcHandler:say("So you wold like to donate 5.000.000.000 gold pieces which in return will entitle you to wear a unique armor?", npc, creature)
 		npcHandler:setTopic(playerId, 3) -- alterando o tópico para que no próximo YES ele faça o outfit
 	elseif (MsgContains(message, "helmet")) and npcHandler:getTopic(playerId) == 2 then
-		npcHandler:say("So you would like to donate 250.000.000 gold pieces which in return will entitle you to wear unique helmet?", npc, creature)
+		npcHandler:say("So you would like to donate 2.500.000.000 gold pieces which in return will entitle you to wear unique helmet?", npc, creature)
 		npcHandler:setTopic(playerId, 4) -- alterando o tópico para que no próximo YES ele faça o helmet
 	elseif (MsgContains(message, "boots")) and npcHandler:getTopic(playerId) == 2 then
-		npcHandler:say("So you would like to donate 250.000.000 gold pieces which in return will entitle you to wear a unique boots?", npc, creature)
+		npcHandler:say("So you would like to donate 2.500.000.000 gold pieces which in return will entitle you to wear a unique boots?", npc, creature)
 		npcHandler:setTopic(playerId, 5) -- alterando o tópico para que no próximo YES ele faça a boots
-	]]
 	else
 		if player:getStorageValue(TheNewFrontier.Questline) == 14 and player:getStorageValue(TheNewFrontier.Mission05.KingTibianus) == 1 then
 			npcHandler:say("Wrong Word.", npc, creature)
