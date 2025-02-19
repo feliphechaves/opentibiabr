@@ -794,6 +794,12 @@ function Player.addTaskKill(self, storage, count)
 		end
 		return player:setStorageValue(data.storagecount, data.total)
 	end
-	player:say("Task: " .. data.name .. " - [" .. kills + count .. "/" .. data.total .. "]", TALKTYPE_MONSTER_SAY)
+	-- Verifica se o jogador desativou as mensagens de task antes de exibir
+	local STORAGEVALUE_TASKLOG = 189999
+	local taskLogState = player:getStorageValue(STORAGEVALUE_TASKLOG)
+	if taskLogState ~= 1 then
+		player:say("Task: " .. data.name .. " - [" .. kills + count .. "/" .. data.total .. "]", TALKTYPE_MONSTER_SAY)
+	end
+	
 	return player:setStorageValue(data.storagecount, kills + count)
 end
