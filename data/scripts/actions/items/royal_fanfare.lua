@@ -64,5 +64,5 @@ function royalFanfareSummon.onUse(player, item, fromPosition, target, toPosition
 	return true
 end
 
-royalFanfareSummon:id(itemId)
-royalFanfareSummon:register()
+--royalFanfareSummon:id(itemId)
+--royalFanfareSummon:register()
