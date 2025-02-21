@@ -64,6 +64,7 @@
 #include "lua/creature/movement.hpp"
 #include "map/spectators.hpp"
 #include "creatures/players/vocations/vocation.hpp"
+#include "server/network/connection/connection.hpp"
 
 MuteCountMap Player::muteCountMap;
 
@@ -9794,7 +9795,12 @@ void Player::onCreatureAppear(const std::shared_ptr<Creature> &creature, bool is
 		}
 
 		auto version = client->oldProtocol ? getProtocolVersion() : CLIENT_VERSION;
-		g_logger().info("{} has logged in. (Protocol: {})", name, version);
+
+		std::string playerIp = "UNKNOWN";
+		if (client && client->getConnection()) {
+			playerIp = convertIPToString(client->getConnection()->getIP());
+		}
+		g_logger().info("{} has logged in from IP {}. (Protocol: {})", name, playerIp, version);
 
 		if (guild) {
 			guild->addMember(static_self_cast<Player>());
