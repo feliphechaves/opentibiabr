@@ -6419,7 +6419,7 @@
 		<attribute key="weight" value="2300"/>
 	</item>
 	<item id="2956" article="a" name="royal fanfare">
-		<attribute key="description" value="Blow the Royal Fanfare to summon the Fanfare Merchant. This noble parrot is always ready to turn your loot into gold!"/>
+		<attribute key="description" value="Use it and turn your loot into gold!"/>
 		<attribute key="primarytype" value="musical instruments"/>
 		<attribute key="weight" value="2500"/>
 	</item>
