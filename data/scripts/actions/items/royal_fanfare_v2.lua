@@ -2,7 +2,7 @@ local royalFanfare = Action()
 
 local itemId = 2956 -- ID do item que ativa a venda
 local cooldownStorage = 12345 -- Identificador único para o cooldown no armazenamento do jogador
-local cooldownTime = 5 * 60 -- Cooldown em segundos
+local cooldownTime = 30 -- Cooldown em segundos
 local ITEM_GOLD_POUCH = 23721
 
 function getLootPouchContainer(player)
