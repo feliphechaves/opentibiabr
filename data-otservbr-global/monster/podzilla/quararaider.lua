@@ -76,19 +76,19 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ name = "crystal coin", chance = 12380, maxCount = 2 }, 
-    { id = 45654, chance = 4600, maxCount = 1 }, 
-    { id = 13990, chance = 4600, maxCount = 1 },
+	{ name = "crystal coin", chance = 12380, maxCount = 2 },
+	{ id = 45654, chance = 4600, maxCount = 1 },
+	{ id = 13990, chance = 4600, maxCount = 1 },
 	{ id = 32623, chance = 4600, maxCount = 1 },
 	{ id = 30060, chance = 4600, maxCount = 1 },
-    { id = 3041, chance = 4600, maxCount = 1 },
-    { id = 48508, chance = 4600, maxCount = 1 },
-    { id = 11490, chance = 4600, maxCount = 1 },
+	{ id = 3041, chance = 4600, maxCount = 1 },
+	{ id = 48508, chance = 4600, maxCount = 1 },
+	{ id = 11490, chance = 4600, maxCount = 1 },
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = -1250, maxDamage = -1500},
-	{name ="combat", interval = 2000, chance = 40, type = COMBAT_HOLYDAMAGE, minDamage = -2450, maxDamage = -2900, radius = 4, effect = CONST_ME_HOLYAREA, target = false},
+	{ name = "melee", interval = 2000, chance = 100, minDamage = -1250, maxDamage = -1500 },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_HOLYDAMAGE, minDamage = -2450, maxDamage = -2900, radius = 4, effect = CONST_ME_HOLYAREA, target = false },
 	{ name = "combat", interval = 2000, chance = 30, type = COMBAT_ENERGYDAMAGE, minDamage = -2450, maxDamage = -2900, length = 5, spread = 3, effect = CONST_ME_ENERGYHIT, target = false },
 }
 

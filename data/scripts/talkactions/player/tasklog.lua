@@ -2,7 +2,6 @@
 local tasklog = TalkAction("!tasklog")
 
 function tasklog.onSay(player, words, param)
-
 	local STORAGEVALUE_TASKLOG = 189999
 
 	if param == "" then

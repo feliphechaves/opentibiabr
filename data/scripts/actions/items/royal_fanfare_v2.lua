@@ -6,16 +6,15 @@ local cooldownTime = 30 -- Cooldown em segundos
 local ITEM_GOLD_POUCH = 23721
 
 function getLootPouchContainer(player)
-    for _, inboxItem in pairs(player:getStoreInbox():getItems()) do
-        if inboxItem:getId() == ITEM_GOLD_POUCH then
-            return Container(inboxItem:getUniqueId())
-        end
-    end
-    return nil
+	for _, inboxItem in pairs(player:getStoreInbox():getItems()) do
+		if inboxItem:getId() == ITEM_GOLD_POUCH then
+			return Container(inboxItem:getUniqueId())
+		end
+	end
+	return nil
 end
 
 local function sellLootPouchItems(player)
-
 	local currentTime = os.time()
 	local lastUseTime = player:getStorageValue(cooldownStorage)
 
@@ -26,39 +25,38 @@ local function sellLootPouchItems(player)
 		return true
 	end
 
-    local lootPouch = getLootPouchContainer(player)
-    if not lootPouch then
-        player:sendCancelMessage("You do not have a Loot Pouch!")
-        return true
-    end
+	local lootPouch = getLootPouchContainer(player)
+	if not lootPouch then
+		player:sendCancelMessage("You do not have a Loot Pouch!")
+		return true
+	end
 
-    local totalGold = 0
-    for i = lootPouch:getSize() - 1, 0, -1 do
-        local item = lootPouch:getItem(i)
-        if item then
-            local itemData = FindLootShopItem(item:getName():lower())
-            if itemData then
-                totalGold = totalGold + (itemData.sell * item:getCount())
-                item:remove()
-            end
-        end
-    end
+	local totalGold = 0
+	for i = lootPouch:getSize() - 1, 0, -1 do
+		local item = lootPouch:getItem(i)
+		if item then
+			local itemData = FindLootShopItem(item:getName():lower())
+			if itemData then
+				totalGold = totalGold + (itemData.sell * item:getCount())
+				item:remove()
+			end
+		end
+	end
 
-    if totalGold > 0 then
+	if totalGold > 0 then
 		player:setBankBalance(player:getBankBalance() + totalGold)
-        player:sendTextMessage(MESSAGE_LOOK, "You sold all items of your Loot Pouch for " .. totalGold .. " gold coins.")
+		player:sendTextMessage(MESSAGE_LOOK, "You sold all items of your Loot Pouch for " .. totalGold .. " gold coins.")
 		player:setStorageValue(cooldownStorage, currentTime)
 	else
-        player:sendCancelMessage("No valid items to sell in your Loot Pouch.")
-    end
+		player:sendCancelMessage("No valid items to sell in your Loot Pouch.")
+	end
 
-    return true
+	return true
 end
 
 function royalFanfare.onUse(player, item, fromPosition, target, toPosition, isHotkey)
-    return sellLootPouchItems(player)
+	return sellLootPouchItems(player)
 end
-
 
 royalFanfare:id(itemId)
 royalFanfare:register()

@@ -314,7 +314,7 @@ function resetroulettevip.onSay(player, words, param)
 	clearRoulette()
 
 	rouletteActive = false
-	
+
 	return true
 end
 

@@ -57,21 +57,17 @@ monster.flags = {
 	canWalkOnPoison = false,
 }
 
-monster.events = {
-}
+monster.events = {}
 monster.light = {
 	level = 0,
 	color = 0,
 }
 
-monster.voices = {
+monster.voices = {}
 
-}
+monster.summons = {}
 
-monster.summons = {
-}
-
-	monster.loot = {
+monster.loot = {
 	{ name = "crystal coin", chance = 7795, maxCount = 3 },
 	{ name = "great spirit potion", chance = 13793, maxCount = 14 },
 	{ name = "ultimate health potion", chance = 14497, maxCount = 20 },
@@ -91,15 +87,15 @@ monster.summons = {
 	{ name = "giant sapphire", chance = 12734, maxCount = 1 },
 	{ name = "root tentacle", chance = 6473, maxCount = 1 },
 	--{ name = "strange inedible fruit", chance = 10276, maxCount = 1 },
-    { name = "platinum coin", chance = 100000, maxCount = 140 },
+	{ name = "platinum coin", chance = 100000, maxCount = 140 },
 	{ name = "giant topaz", chance = 5000 },
-    { name = "yellow gem", chance = 5000 },
-    { name = "amber wand", chance = 400, unique = true },
+	{ name = "yellow gem", chance = 5000 },
+	{ name = "amber wand", chance = 400, unique = true },
 	{ name = "amber slayer", chance = 400, unique = true },
-    { name = "amber sabre", chance = 400, unique = true },
+	{ name = "amber sabre", chance = 400, unique = true },
 	{ name = "amber rod", chance = 400, unique = true },
 	{ name = "amber greataxe", chance = 400, unique = true },
-    { name = "amber cudgel", chance = 400, unique = true },
+	{ name = "amber cudgel", chance = 400, unique = true },
 	{ name = "amber crossbow", chance = 400, unique = true },
 	{ name = "amber bludgeon", chance = 400, unique = true },
 	{ name = "amber bow", chance = 400, unique = true },
@@ -110,9 +106,9 @@ monster.attacks = {
 	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -1000, maxDamage = -4500, length = 8, spread = 0, effect = CONST_ME_SMALLPLANTS },
 	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -1500, maxDamage = -4100, effect = CONST_ME_SMALLPLANTS },
 	{ name = "melee", interval = 2000, chance = 100, skill = 200, attack = 250 },
-    { name = "speed", interval = 2000, chance = 10, speedChange = -300, range = 7, effect = CONST_ME_MAGIC_RED, target = false, duration = 15000 },
-    { name = "rootkrakendeath", interval = 4000, chance = 6, target = false },
-    { name = "combat", interval = 2000, chance = 13, type = COMBAT_EARTHDAMAGE, minDamage = -1200, maxDamage = -1400, length = 8, spread = 3, effect = CONST_ME_SMALLPLANTS, target = false },
+	{ name = "speed", interval = 2000, chance = 10, speedChange = -300, range = 7, effect = CONST_ME_MAGIC_RED, target = false, duration = 15000 },
+	{ name = "rootkrakendeath", interval = 4000, chance = 6, target = false },
+	{ name = "combat", interval = 2000, chance = 13, type = COMBAT_EARTHDAMAGE, minDamage = -1200, maxDamage = -1400, length = 8, spread = 3, effect = CONST_ME_SMALLPLANTS, target = false },
 }
 
 monster.defenses = {
@@ -156,4 +152,3 @@ mType.onMove = function(monster, creature, fromPosition, toPosition) end
 mType.onSay = function(monster, creature, type, message) end
 
 mType:register(monster)
-

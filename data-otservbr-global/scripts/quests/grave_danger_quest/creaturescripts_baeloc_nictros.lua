@@ -84,18 +84,17 @@ sir_nictros_health:register()
 local sir_nictros_death = CreatureEvent("sir_nictros_death")
 
 function sir_nictros_death.onDeath(creature, corpse, killer, mostDamageKiller)
-    -- Verifica se Sir Baeloc ainda está preso
-    local baeloc = Creature("Sir Baeloc")
-    if baeloc and baeloc:getPosition() == config.baelocPos then
-        baeloc:teleportTo(Position(33424, 31436, 13)) -- Posição do combate
-        baeloc:setMoveLocked(false)
-        baeloc:say("Now it's time for me to fight!", TALKTYPE_MONSTER_SAY)
-    end
-    return true
+	-- Verifica se Sir Baeloc ainda está preso
+	local baeloc = Creature("Sir Baeloc")
+	if baeloc and baeloc:getPosition() == config.baelocPos then
+		baeloc:teleportTo(Position(33424, 31436, 13)) -- Posição do combate
+		baeloc:setMoveLocked(false)
+		baeloc:say("Now it's time for me to fight!", TALKTYPE_MONSTER_SAY)
+	end
+	return true
 end
 
 sir_nictros_death:register()
-
 
 local sir_baeloc_health = CreatureEvent("sir_baeloc_health")
 
