@@ -1,35 +1,26 @@
 local config = {
-	centerRoom = Position(33443, 31545, 13),
-	newPosition = Position(33436, 31572, 13),
-	exitPos = Position(32172, 31917, 8),
-	x = 30,
-	y = 30,
-	summons = {
-		{
-			name = "Rewar The Bloody",
-			pos = Position(33463, 31562, 13),
-		},
-		{
-			name = "The Red Knight",
-			pos = Position(33423, 31562, 13),
-		},
-		{
-			name = "Magnor Mournbringer",
-			pos = Position(33463, 31529, 13),
-		},
-		{
-			name = "Nargol the Impaler",
-			pos = Position(33423, 31529, 13),
-		},
-		{
-			name = "King Zelos",
-			pos = Position(33443, 31545, 13),
-		},
+	boss = {
+		name = "King Zelos",
+		position = Position(33443, 31545, 13),
 	},
-	timer = Storage.Quest.U12_20.GraveDanger.Bosses.KingZelos.Timer,
-	room = Storage.Quest.U12_20.GraveDanger.Bosses.KingZelos.Room,
-	fromPos = Position(33414, 31520, 13),
-	toPos = Position(33474, 31574, 13),
+	requiredLevel = 250,
+	playerPositions = {
+		{ pos = Position(33485, 31546, 13), teleport = Position(33443, 31554, 13), effect = CONST_ME_TELEPORT },
+		{ pos = Position(33485, 31547, 13), teleport = Position(33443, 31554, 13), effect = CONST_ME_TELEPORT },
+		{ pos = Position(33485, 31548, 13), teleport = Position(33443, 31554, 13), effect = CONST_ME_TELEPORT },
+		{ pos = Position(33485, 31545, 13), teleport = Position(33443, 31554, 13), effect = CONST_ME_TELEPORT },
+		{ pos = Position(33485, 31544, 13), teleport = Position(33443, 31554, 13), effect = CONST_ME_TELEPORT },
+		{ pos = Position(33486, 31546, 13), teleport = Position(33443, 31554, 13), effect = CONST_ME_TELEPORT },
+		{ pos = Position(33486, 31547, 13), teleport = Position(33443, 31554, 13), effect = CONST_ME_TELEPORT },
+		{ pos = Position(33486, 31548, 13), teleport = Position(33443, 31554, 13), effect = CONST_ME_TELEPORT },
+		{ pos = Position(33486, 31545, 13), teleport = Position(33443, 31554, 13), effect = CONST_ME_TELEPORT },
+		{ pos = Position(33486, 31544, 13), teleport = Position(33443, 31554, 13), effect = CONST_ME_TELEPORT },
+	},
+	specPos = {
+		from = Position(33433, 31535, 13),
+		to = Position(33453, 31555, 13),
+	},
+	exit = Position(32172, 31918, 8),
 }
 
 local king_zelos = Action()
