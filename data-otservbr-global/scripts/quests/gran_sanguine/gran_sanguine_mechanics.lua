@@ -11,7 +11,7 @@ local Config = {
 		rootEffect = CONST_ME_ICETORNADO,
 		stepInActionId = 51111, -- Action ID único para o tile de root
 		itemIdTile = 8426,
-		damageFactor = 0.3,
+		damageFactor = 0.1,
 	},
 }
 
