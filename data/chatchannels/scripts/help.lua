@@ -25,7 +25,7 @@ function onSpeak(player, type, message)
 				if playerGroupType > target:getAccountType() then
 					if not target:getCondition(CONDITION_CHANNELMUTEDTICKS, CONDITIONID_DEFAULT, CHANNEL_HELP) then
 						target:addCondition(muted)
-						target:kv():set("channel-help-exhaustion", os.time() + 180) -- 3 minutes
+						target:kv():set("channel-help-exhaustion", os.time() + 1800) -- 30 minutes
 						sendChannelMessage(CHANNEL_HELP, TALKTYPE_CHANNEL_R1, target:getName() .. " has been muted by " .. player:getName() .. " for using Help Channel inappropriately.")
 					else
 						player:sendCancelMessage("That player is already muted.")
