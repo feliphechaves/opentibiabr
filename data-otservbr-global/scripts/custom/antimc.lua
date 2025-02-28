@@ -1,7 +1,7 @@
 local config = {
-	max = 4,
-	maxOutsidePZ = 4, -- Máximo de jogadores fora da zona de proteção
-	text = "Only 4 characters allowed per IP.",
+	max = 2,
+	maxOutsidePZ = 2, -- Máximo de jogadores fora da zona de proteção
+	text = "Only 2 characters allowed per IP.",
 	group_id = 1, -- Aplica o limite aos jogadores com grupo menor ou igual ao id
 	milliseconds_before_kick_to_read_popup = 9000, -- 9000 = 9 segundos
 	checkInterval = 60000, -- Intervalo de verificação em milissegundos (60 segundos)
@@ -53,7 +53,7 @@ function checkPlayers()
 	addEvent(checkPlayers, config.checkInterval)
 end
 
---antimc:register()
+antimc:register()
 
 -- Inicia a verificação periódica na inicialização do script
---addEvent(checkPlayers, config.checkInterval)
+addEvent(checkPlayers, config.checkInterval)
