@@ -53,7 +53,7 @@ function checkPlayers()
 	addEvent(checkPlayers, config.checkInterval)
 end
 
---antimc:register()
+antimc:register()
 
 -- Inicia a verificação periódica na inicialização do script
---addEvent(checkPlayers, config.checkInterval)
+addEvent(checkPlayers, config.checkInterval)
