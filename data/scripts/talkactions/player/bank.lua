@@ -65,7 +65,7 @@ end
 
 withdraw:separator(" ")
 withdraw:groupType("normal")
-withdraw:register()
+--withdraw:register()
 
 local transfer = TalkAction("!transfer")
 
