@@ -75,5 +75,5 @@ function king_zelos.onUse(player, item, fromPosition, target, toPosition, isHotk
 	return true
 end
 
-king_zelos:aid(14568)
-king_zelos:register()
+--king_zelos:aid(14568)
+--king_zelos:register()
