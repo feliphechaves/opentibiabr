@@ -22,7 +22,7 @@ function mcCheck.onSay(player, words, param)
 
 	for ip, list in pairs(ipList) do
 		local listLength = #list
-		if listLength > 1 then
+		if listLength > 2 then
 			local tmpPlayer = list[1]
 			local message = ("%s: %s [%d]"):format(Game.convertIpToString(ip), tmpPlayer:getName(), tmpPlayer:getLevel())
 			for i = 2, listLength do
