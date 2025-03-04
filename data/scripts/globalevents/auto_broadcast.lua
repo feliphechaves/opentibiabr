@@ -15,7 +15,7 @@ function AutoBroadCast.onThink(interval, lastExecution)
 		"[Bag You Desire]: Want to boost your chance of getting a Bag You Desire? Collect all 5 Taints to increase your odds. The more complete your set, the better your luck!",
 		"[Check Taints]: Curious about your progress? Use the command !checktaint to see how many Taints you have collected. Keep striving for all 5!",
 		"[Supreme Runes]: Unlock ultimate power with Supreme Runes! These powerful runes can be used by Druids and Sorcerers of level 1500+.",
-		"[Multi-Client Rules]: Only 4 characters per IP are allowed. Respect this rule for fair play!",
+		"[Multi-Client Rules]: Only 2 characters per IP are allowed. Respect this rule for fair play!",
 		"[Account Rules]: A maximum of 2 characters per account can be logged in, but only 1 is allowed outside PZ at a time.",
 	}
 	Game.broadcastMessage(messages[math.random(#messages)], MESSAGE_GAME_HIGHLIGHT)
