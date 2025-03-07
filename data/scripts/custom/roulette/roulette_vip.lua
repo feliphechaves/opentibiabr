@@ -30,7 +30,7 @@ local config = {
         {itemId = 3366, count = {1, 1},    chance = 1500 }, -- magic plate armor
         {itemId = 3555, count = {1, 1},    chance = 500  },  -- golden boots]]
 
-		{ itemId = 22721, count = { 1, 25 }, chance = 2500 }, -- gold token
+		{ itemId = 22721, count = { 1, 25 }, chance = 3500 }, -- gold token
 		{ itemId = 3423, count = { 1, 1 }, chance = 2500 }, -- blessed shield
 		{ itemId = 3363, count = { 1, 1 }, chance = 2500 }, -- dragon scale legs
 		{ itemId = 3400, count = { 1, 1 }, chance = 2500 }, -- dragon scale helmet
@@ -78,17 +78,17 @@ local config = {
 		{ itemId = 23488, count = { 1, 1 }, chance = 500 }, --grand sanguine box
 
 		--grand sanguine
-		{ itemId = 43865, count = { 1, 1 }, chance = 500 },
-		{ itemId = 43867, count = { 1, 1 }, chance = 500 },
-		{ itemId = 43869, count = { 1, 1 }, chance = 500 },
-		{ itemId = 43871, count = { 1, 1 }, chance = 500 },
-		{ itemId = 43873, count = { 1, 1 }, chance = 500 },
-		{ itemId = 43875, count = { 1, 1 }, chance = 500 },
-		{ itemId = 43878, count = { 1, 1 }, chance = 500 },
-		{ itemId = 43880, count = { 1, 1 }, chance = 500 },
-		{ itemId = 43883, count = { 1, 1 }, chance = 500 },
-		{ itemId = 43886, count = { 1, 1 }, chance = 500 },
-		{ itemId = 43883, count = { 1, 1 }, chance = 500 },
+		{ itemId = 43865, count = { 1, 1 }, chance = 100 },
+		{ itemId = 43867, count = { 1, 1 }, chance = 100 },
+		{ itemId = 43869, count = { 1, 1 }, chance = 100 },
+		{ itemId = 43871, count = { 1, 1 }, chance = 100 },
+		{ itemId = 43873, count = { 1, 1 }, chance = 100 },
+		{ itemId = 43875, count = { 1, 1 }, chance = 100 },
+		{ itemId = 43878, count = { 1, 1 }, chance = 99 }, --grand sanguine bow
+		{ itemId = 43880, count = { 1, 1 }, chance = 100 },
+		{ itemId = 43883, count = { 1, 1 }, chance = 100 },
+		{ itemId = 43886, count = { 1, 1 }, chance = 100 },
+		{ itemId = 43883, count = { 1, 1 }, chance = 100 },
 	},
 	roulettePositions = { -- hard-coded to 7 positions.
 		Position(1188, 896, 5),
