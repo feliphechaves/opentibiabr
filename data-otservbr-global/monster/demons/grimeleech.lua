@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Grimeleech")
 local monster = {}
 
 monster.description = "a grimeleech"
-monster.experience = 7216
+monster.experience = 28600
 monster.outfit = {
 	lookType = 855,
 	lookHead = 0,
@@ -26,8 +26,8 @@ monster.Bestiary = {
 	Locations = "Grounds of Damnation, Grounds of Deceit, Grounds of Despair, Grounds of Fire, Grounds of Plague, Halls of Ascension and Hell Hub.",
 }
 
-monster.health = 9500
-monster.maxHealth = 9500
+monster.health = 25000
+monster.maxHealth = 25000
 monster.race = "undead"
 monster.corpse = 22780
 monster.speed = 170
@@ -113,17 +113,17 @@ monster.loot = {
 monster.attacks = {
 	{ name = "melee", interval = 2000, chance = 100, skill = 70, attack = 80 },
 	{ name = "melee", interval = 2000, chance = 2, skill = 153, attack = 100 },
-	{ name = "combat", interval = 2000, chance = 14, type = COMBAT_LIFEDRAINDAMAGE, minDamage = 100, maxDamage = -565, range = 7, shootEffect = CONST_ANI_DEATH, effect = CONST_ME_MORTAREA, target = true },
-	{ name = "combat", interval = 2000, chance = 12, type = COMBAT_LIFEDRAINDAMAGE, minDamage = -150, maxDamage = -220, length = 8, spread = 0, effect = CONST_ME_MAGIC_GREEN, target = false },
-	{ name = "combat", interval = 2000, chance = 13, type = COMBAT_DEATHDAMAGE, minDamage = -225, maxDamage = -375, radius = 4, effect = CONST_ME_MORTAREA, target = false },
-	{ name = "combat", interval = 2000, chance = 9, type = COMBAT_MANADRAINDAMAGE, minDamage = 0, maxDamage = -300, length = 8, spread = 3, effect = CONST_ME_MAGIC_RED, target = false },
+	{ name = "combat", interval = 2000, chance = 14, type = COMBAT_LIFEDRAINDAMAGE, minDamage = 200, maxDamage = -1400, range = 7, shootEffect = CONST_ANI_DEATH, effect = CONST_ME_MORTAREA, target = true },
+	{ name = "combat", interval = 2000, chance = 12, type = COMBAT_LIFEDRAINDAMAGE, minDamage = -300, maxDamage = -1400, length = 8, spread = 0, effect = CONST_ME_MAGIC_GREEN, target = false },
+	{ name = "combat", interval = 2000, chance = 13, type = COMBAT_DEATHDAMAGE, minDamage = -1100, maxDamage = -1300, radius = 4, effect = CONST_ME_MORTAREA, target = false },
+	{ name = "combat", interval = 2000, chance = 9, type = COMBAT_MANADRAINDAMAGE, minDamage = 150, maxDamage = -1400, length = 8, spread = 3, effect = CONST_ME_MAGIC_RED, target = false },
 }
 
 monster.defenses = {
 	defense = 30,
 	armor = 65,
 	mitigation = 1.74,
-	{ name = "combat", interval = 2000, chance = 16, type = COMBAT_HEALING, minDamage = 130, maxDamage = 205, effect = CONST_ME_MAGIC_RED, target = false },
+	{ name = "combat", interval = 2000, chance = 16, type = COMBAT_HEALING, minDamage = 260, maxDamage = 410, effect = CONST_ME_MAGIC_RED, target = false },
 	{ name = "effect", interval = 2000, chance = 9, effect = CONST_ME_MAGIC_GREEN, target = false },
 	{ name = "effect", interval = 2000, chance = 10, target = false },
 	{ name = "speed", interval = 2000, chance = 12, speedChange = 532, effect = CONST_ME_MAGIC_RED, target = false, duration = 4000 },
