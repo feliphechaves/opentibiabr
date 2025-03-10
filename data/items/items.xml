@@ -63970,6 +63970,10 @@
 		<attribute key="primarytype" value="valuables"/>
 		<attribute key="weight" value="80"/>
 	</item>
+	<item id="44048" article="a" name="spiritual horseshoe" plural="spiritual horseshoes">
+		<attribute key="primarytype" value="valuables"/>
+		<attribute key="weight" value="120"/>
+	</item>
 	<item id="34075" name="the skull of a beast">
 		<attribute key="description" value="Unleash the beast"/>
 		<attribute key="weight" value="230"/>
