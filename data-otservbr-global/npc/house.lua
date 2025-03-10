@@ -53,7 +53,7 @@ npcConfig.shop = {
 	{ itemName = "Loremaster Doll", clientId = 31267, buy = 90000000 },
 	{ itemName = "Norseman Doll", clientId = 19150, buy = 90000000 },
 	{ itemName = "folded rift carpet", clientId = 22737, buy = 10000000 },
-
+	{ itemName = "rift tapestry", clientId = 22731, buy = 10000000 },
 }
 
 local keywordHandler = KeywordHandler:new()
