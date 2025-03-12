@@ -36,10 +36,23 @@ local function sellLootPouchItems(player)
     for i = lootPouch:getSize() - 1, 0, -1 do
         local item = lootPouch:getItem(i)
         if item then
-            local itemData = FindLootShopItem(item:getName():lower())
+            local itemName = item:getName():lower()
+            local itemData = nil
+
+            -- Busca exata do nome no LootShopConfigTable (em vez de usar string.starts)
+            for _, lootItem in ipairs(LootShopConfig) do
+                if lootItem.itemName:lower() == itemName then
+                    itemData = lootItem
+                    break
+                end
+            end
+
             if itemData then
+                --logger.info("itemName = " .. itemData.itemName .. " Item vendido: " .. item:getName() .. " Preço unitário: " .. itemData.sell .. " Quantidade: " .. item:getCount() .. " Total: " .. itemData.sell * item:getCount())
                 totalGold = totalGold + (itemData.sell * item:getCount())
                 item:remove()
+            --else
+                --logger.info("Item não encontrado na tabela de vendas:" .. item:getName())
             end
         end
     end

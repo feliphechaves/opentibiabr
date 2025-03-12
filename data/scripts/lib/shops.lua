@@ -1631,6 +1631,10 @@ local garbage = {
 	"ultimate spirit potion",
 	"onyx arrow",
 	"small stone",
+	"meat",
+	"crossbow",
+	"dragon ham",
+	"burst arrow",
 	1047, -- bone
 	1048, -- bone
 	3115, -- bone
