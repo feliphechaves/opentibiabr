@@ -32,6 +32,26 @@ local config = {
 	toPos = Position(33474, 31574, 13),
 }
 
+local king_zelos_death = CreatureEvent("king_zelos_death")
+
+function king_zelos_death.onDeath(creature, corpse, killer, mostDamageKiller)
+	
+	local attackers = creature:getDamageMap()
+	
+	for attackerId, _ in pairs(attackers) do
+		local player = Player(attackerId)
+		if player and player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Bosses.KingZelos.Killed) < 2 then
+			player:setStorageValue(Storage.Quest.U12_20.GraveDanger.Bosses.KingZelos.Killed, 2)
+			player:addOutfit(1244, 0)
+			player:addOutfit(1243, 0)
+		end
+	end
+
+	return true
+end
+
+king_zelos_death:register()
+
 local zelos_damage = CreatureEvent("zelos_damage")
 
 function zelos_damage.onHealthChange(creature, attacker, primaryDamage, primaryType, secondaryDamage, secondaryType)
