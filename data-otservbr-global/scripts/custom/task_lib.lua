@@ -800,6 +800,6 @@ function Player.addTaskKill(self, storage, count)
 	if taskLogState ~= 1 then
 		player:say("Task: " .. data.name .. " - [" .. kills + count .. "/" .. data.total .. "]", TALKTYPE_MONSTER_SAY)
 	end
-	
+
 	return player:setStorageValue(data.storagecount, kills + count)
 end

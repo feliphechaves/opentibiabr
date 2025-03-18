@@ -77,22 +77,22 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "crystal coin", chance = 12380, maxCount = 2 },
-    --{ id = 45654, chance = 4600, maxCount = 4 }, 
-    { id = 13990, chance = 4600, maxCount = 3 },
-    { id = 3041, chance = 4600, maxCount = 4 },
+	--{ id = 45654, chance = 4600, maxCount = 4 },
+	{ id = 13990, chance = 4600, maxCount = 3 },
+	{ id = 3041, chance = 4600, maxCount = 4 },
 	{ id = 30061, chance = 4600, maxCount = 3 },
-    { id = 48508, chance = 4600, maxCount = 1 },
-    { id = 48509, chance = 4600, maxCount = 1 },
-    { id = 8050, chance = 4600, maxCount = 1 },
-    { id = 7414, chance = 4600, maxCount = 1 },
-    { id = 824, chance = 4600, maxCount = 1 },
-    { id = 11490, chance = 4600, maxCount = 1 },
+	{ id = 48508, chance = 4600, maxCount = 1 },
+	{ id = 48509, chance = 4600, maxCount = 1 },
+	{ id = 8050, chance = 4600, maxCount = 1 },
+	{ id = 7414, chance = 4600, maxCount = 1 },
+	{ id = 824, chance = 4600, maxCount = 1 },
+	{ id = 11490, chance = 4600, maxCount = 1 },
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = -1250, maxDamage = -1500},
-	{name ="combat", interval = 2000, chance = 35, type = COMBAT_ICEDAMAGE, minDamage = -2040, maxDamage = -2320, range = 7, radius = 4, shootEffect = CONST_ANI_ICE, effect = CONST_ME_BIGCLOUDS, target = true},
-	{name ="combat", interval = 2000, chance = 50, type = COMBAT_PHYSICALDAMAGE, minDamage = -2040, maxDamage = -2320, radius = 3, effect = CONST_ME_GROUNDSHAKER, target = false},
+	{ name = "melee", interval = 2000, chance = 100, minDamage = -1250, maxDamage = -1500 },
+	{ name = "combat", interval = 2000, chance = 35, type = COMBAT_ICEDAMAGE, minDamage = -2040, maxDamage = -2320, range = 7, radius = 4, shootEffect = CONST_ANI_ICE, effect = CONST_ME_BIGCLOUDS, target = true },
+	{ name = "combat", interval = 2000, chance = 50, type = COMBAT_PHYSICALDAMAGE, minDamage = -2040, maxDamage = -2320, radius = 3, effect = CONST_ME_GROUNDSHAKER, target = false },
 	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -1160, maxDamage = -2320, length = 5, spread = 3, effect = CONST_ME_ENERGYHIT, target = false },
 }
 
@@ -116,7 +116,6 @@ monster.elements = {
 	{ type = COMBAT_HOLYDAMAGE, percent = -10 },
 	{ type = COMBAT_DEATHDAMAGE, percent = -5 },
 }
-
 
 monster.immunities = {
 	{ type = "paralyze", condition = true },

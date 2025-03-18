@@ -98,9 +98,9 @@ monster.attacks = {
 	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -1000, maxDamage = -4500, length = 8, spread = 0, effect = CONST_ME_SMALLPLANTS },
 	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -1500, maxDamage = -4100, effect = CONST_ME_SMALLPLANTS },
 	{ name = "melee", interval = 2000, chance = 100, skill = 200, attack = 250 },
-    { name = "speed", interval = 2000, chance = 10, speedChange = -300, range = 7, effect = CONST_ME_MAGIC_RED, target = false, duration = 15000 },
-    { name = "rootkrakendeath", interval = 4000, chance = 6, target = false },
-    { name = "combat", interval = 2000, chance = 13, type = COMBAT_EARTHDAMAGE, minDamage = -1200, maxDamage = -1400, length = 8, spread = 3, effect = CONST_ME_SMALLPLANTS, target = false },
+	{ name = "speed", interval = 2000, chance = 10, speedChange = -300, range = 7, effect = CONST_ME_MAGIC_RED, target = false, duration = 15000 },
+	{ name = "rootkrakendeath", interval = 4000, chance = 6, target = false },
+	{ name = "combat", interval = 2000, chance = 13, type = COMBAT_EARTHDAMAGE, minDamage = -1200, maxDamage = -1400, length = 8, spread = 3, effect = CONST_ME_SMALLPLANTS, target = false },
 }
 
 monster.defenses = {

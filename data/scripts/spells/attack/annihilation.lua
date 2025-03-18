@@ -17,7 +17,7 @@ local validWeapons = {
 	[47369] = true, --amber greataxe
 	[47375] = true, --amber axe
 	[47368] = true, --amber slayer
-	[47374] = true --amber sabre
+	[47374] = true, --amber sabre
 }
 
 function onGetFormulaValues(player, skill, attack, factor)

@@ -1,5 +1,4 @@
 local function ServerSave()
-
 	logger.info("GlobalServerSave 4")
 
 	if configManager.getBoolean(configKeys.GLOBAL_SERVER_SAVE_CLEAN_MAP) then

@@ -35,9 +35,8 @@ local config = {
 local king_zelos_death = CreatureEvent("king_zelos_death")
 
 function king_zelos_death.onDeath(creature, corpse, killer, mostDamageKiller)
-	
 	local attackers = creature:getDamageMap()
-	
+
 	for attackerId, _ in pairs(attackers) do
 		local player = Player(attackerId)
 		if player and player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Bosses.KingZelos.Killed) < 2 then

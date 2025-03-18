@@ -390,7 +390,6 @@ local questTable = {
 	{ storageName = "TheDreamCourts.Main.Questline", storage = Storage.Quest.U12_00.TheDreamCourts.Main.Questline, storageValue = 1 },
 	{ storageName = "TheDreamCourts.TheSevenKeys.Questline", storage = Storage.Quest.U12_00.TheDreamCourts.TheSevenKeys.Questline, storageValue = 1 },
 	--{ storageName = "TheDreamCourts.TheSevenKeys.Rosebush", storage = Storage.Quest.U12_00.TheDreamCourts.TheSevenKeys.Rosebush, storageValue = 1 },
-	
 }
 
 -- from Position: (33201, 31762, 1)

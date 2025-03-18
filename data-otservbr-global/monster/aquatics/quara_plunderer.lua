@@ -77,19 +77,19 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "crystal coin", chance = 12380, maxCount = 2 },
-    --{ id = 45654, chance = 4600, maxCount = 1 }, 
-    { id = 13990, chance = 4600, maxCount = 1 },
+	--{ id = 45654, chance = 4600, maxCount = 1 },
+	{ id = 13990, chance = 4600, maxCount = 1 },
 	{ id = 32622, chance = 4600, maxCount = 1 },
-    { id = 3041, chance = 4600, maxCount = 1 },
-    { id = 48508, chance = 4600, maxCount = 1 },
-    { id = 11490, chance = 4600, maxCount = 1 },
+	{ id = 3041, chance = 4600, maxCount = 1 },
+	{ id = 48508, chance = 4600, maxCount = 1 },
+	{ id = 11490, chance = 4600, maxCount = 1 },
 	{ id = 7407, chance = 4600, maxCount = 1 },
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = -1250, maxDamage = -1500},
-	{name ="combat", interval = 2000, chance = 50, type = COMBAT_ICEDAMAGE, minDamage = -1550, maxDamage = -2900, range = 7, radius = 4, shootEffect = CONST_ANI_ICE, effect = CONST_ME_BIGCLOUDS, target = true},
-	{name ="combat", interval = 2000, chance = 30, type = COMBAT_PHYSICALDAMAGE, minDamage = -1550, maxDamage = -2900, radius = 3, effect = CONST_ME_GROUNDSHAKER, target = false},
+	{ name = "melee", interval = 2000, chance = 100, minDamage = -1250, maxDamage = -1500 },
+	{ name = "combat", interval = 2000, chance = 50, type = COMBAT_ICEDAMAGE, minDamage = -1550, maxDamage = -2900, range = 7, radius = 4, shootEffect = CONST_ANI_ICE, effect = CONST_ME_BIGCLOUDS, target = true },
+	{ name = "combat", interval = 2000, chance = 30, type = COMBAT_PHYSICALDAMAGE, minDamage = -1550, maxDamage = -2900, radius = 3, effect = CONST_ME_GROUNDSHAKER, target = false },
 	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -1450, maxDamage = -2900, length = 5, spread = 3, effect = CONST_ME_ENERGYHIT, target = false },
 }
 
