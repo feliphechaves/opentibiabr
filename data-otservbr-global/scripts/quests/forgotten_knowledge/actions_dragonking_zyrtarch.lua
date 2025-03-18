@@ -1,9 +1,9 @@
 local config = {
 	boss = {
-		name = "Soul of Dragonking Zyrtarch",
-		position = Position(33357, 31182, 10),
+		name = "soul of dragonking zyrtarch",
+		position = Position(33359, 31182, 12),
 	},
-	timeToFightAgain = 20 * 60 * 60,
+	requiredLevel = 250,
 	playerPositions = {
 		{ pos = Position(33391, 31178, 10), teleport = Position(33359, 31186, 10) },
 		{ pos = Position(33391, 31179, 10), teleport = Position(33359, 31186, 10) },
@@ -16,14 +16,15 @@ local config = {
 		{ name = "soulcatcher", pos = Position(33363, 31187, 10) },
 		{ name = "soulcatcher", pos = Position(33353, 31176, 10) },
 		{ name = "soulcatcher", pos = Position(33363, 31176, 10) },
+		{ name = "dragonking zyrtarch", pos = Position(33357, 31182, 10) },
 	},
 	specPos = {
-		from = Position(33347, 31171, 10),
-		to = Position(33370, 31192, 10),
+		from = Position(33348, 31172, 10),
+		to = Position(33368, 31190, 12),
 	},
-	exit = Position(33361, 31191, 10),
+	exit = Position(33407, 31172, 10),
 }
 
-leverZyrtarch = BossLever(config)
-leverZyrtarch:position(Position(33391, 31177, 10))
-leverZyrtarch:register()
+local lever = BossLever(config)
+lever:position(Position(33391, 31177, 10))
+lever:register()

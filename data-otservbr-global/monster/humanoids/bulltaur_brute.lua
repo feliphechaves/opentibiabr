@@ -13,8 +13,8 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.health = 4700
-monster.maxHealth = 4700
+monster.health = 6560
+monster.maxHealth = 6560
 monster.race = "blood"
 monster.corpse = 44709
 monster.speed = 170
@@ -25,7 +25,7 @@ monster.Bestiary = {
 	class = "Humanoid",
 	race = BESTY_RACE_HUMANOID,
 	toKill = 2500,
-	FirstUnlock = 25,
+	FirstUnlock = 100,
 	SecondUnlock = 1000,
 	CharmsPoints = 50,
 	Stars = 4,
@@ -96,7 +96,7 @@ monster.loot = {
 monster.attacks = {
 	{ name = "melee", interval = 2000, chance = 100, minDamage = -170, maxDamage = -300 },
 	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -450, maxDamage = -600, range = 3, radius = 1, target = true, effect = CONST_ME_SLASH },
-	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_DEATHDAMAGE, minDamage = -400, maxDamage = -500, range = 3, radius = 1, target = true, effect = CONST_ME_EXPLOSIONAREA },
+	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_DEATHDAMAGE, minDamage = -400, maxDamage = -500, range = 3, radius = 1, target = true, effect = CONST_ME_MORTAREA },
 }
 
 monster.defenses = {
