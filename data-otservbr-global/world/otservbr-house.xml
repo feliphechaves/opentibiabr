@@ -931,66 +931,57 @@
 	<house name="Uthemath I d" houseid="3630" entryx="33181" entryy="32806" entryz="7" rent="80000" townid="10" size="21" clientid="59063" beds="1" />
 	<house name="Uthemath I e" houseid="3631" entryx="33195" entryy="32806" entryz="7" rent="80000" townid="10" size="21" clientid="59064" beds="2" />
 	<house name="Uthemath I f" houseid="3632" entryx="33189" entryy="32816" entryz="7" rent="150000" townid="10" size="56" clientid="59065" beds="3" />
-	<house name="Uthemath II" houseid="3633" entryx="33208" entryy="32816" entryz="7" rent="250000" guildhall="true" townid="10" size="94" clientid="59066" beds="8" />
-	<house name="Marketplace 1" houseid="3634" entryx="33937" entryy="31505" entryz="7" rent="400000" townid="22" size="74" clientid="48001" beds="2" />
-	<house name="Marketplace 2" houseid="3635" entryx="33951" entryy="31501" entryz="7" rent="400000" townid="22" size="81" clientid="48002" beds="2" />
-	<house name="Quay 1" houseid="3636" entryx="33885" entryy="31552" entryz="7" rent="200000" townid="22" size="124" clientid="48003" beds="4" />
-	<house name="Quay 2" houseid="3637" entryx="33896" entryy="31544" entryz="7" rent="200000" townid="22" size="81" clientid="48004" beds="3" />
-	<house name="Halls of Sun and Sea" houseid="3638" entryx="33909" entryy="31535" entryz="7" rent="1000000" guildhall="true" townid="22" size="369" clientid="48007" beds="15" />
-	<house name="Palace Vicinity" houseid="3639" entryx="33866" entryy="31516" entryz="7" rent="200000" townid="22" size="114" clientid="48006" beds="4" />
-	<house name="Wave Tower" houseid="3640" entryx="33879" entryy="31525" entryz="7" rent="400000" townid="22" size="178" clientid="48005" beds="6" />
-	<house name="Old Sanctuary of God King Qjell" houseid="3641" entryx="33473" entryy="31310" entryz="9" rent="300000" townid="18" size="537" clientid="17001" beds="6" />
-	<house name="Old Heritage Estate" houseid="3642" entryx="33598" entryy="31909" entryz="6" rent="600000" townid="20" size="255" clientid="19009" beds="7" />
-	<house name="Rathleton Plaza 4" houseid="3643" entryx="33604" entryy="31915" entryz="6" rent="400000" townid="20" size="109" clientid="19018" beds="2" />
-	<house name="Rathleton Plaza 3" houseid="3644" entryx="33615" entryy="31913" entryz="6" rent="400000" townid="20" size="123" clientid="19006" beds="3" />
-	<house name="Rathleton Plaza 2" houseid="3645" entryx="33625" entryy="31912" entryz="6" rent="400000" townid="20" size="56" clientid="19005" beds="2" />
-	<house name="Rathleton Plaza 1" houseid="3646" entryx="33637" entryy="31911" entryz="6" rent="300000" townid="20" size="62" clientid="19004" beds="2" />
-	<house name="Antimony Lane 2" houseid="3647" entryx="33637" entryy="31921" entryz="6" rent="400000" townid="20" size="101" clientid="19015" beds="3" />
-	<house name="Antimony Lane 1" houseid="3648" entryx="33656" entryy="31915" entryz="6" rent="400000" townid="20" size="149" clientid="19014" beds="5" />
-	<house name="Wallside Residence" houseid="3649" entryx="33658" entryy="31921" entryz="6" rent="400000" townid="20" size="144" clientid="19001" beds="4" />
-	<house name="Wallside Lane 1" houseid="3650" entryx="33646" entryy="31933" entryz="6" rent="800000" townid="20" size="162" clientid="19010" beds="4" />
-	<house name="Wallside Lane 2" houseid="3651" entryx="33637" entryy="31928" entryz="6" rent="600000" townid="20" size="181" clientid="19011" beds="4" />
-	<house name="Vanward Flats B" houseid="3652" entryx="33614" entryy="31935" entryz="6" rent="400000" townid="20" size="158" clientid="19013" beds="4" />
-	<house name="Vanward Flats A" houseid="3653" entryx="33621" entryy="31935" entryz="6" rent="400000" townid="20" size="158" clientid="19012" beds="4" />
-	<house name="Bronze Brothers Bastion" houseid="3654" entryx="33599" entryy="31933" entryz="6" rent="5000000" guildhall="true" townid="20" size="749" clientid="19007" beds="16" />
-	<house name="Cistern Ave" houseid="3655" entryx="33588" entryy="31926" entryz="6" rent="300000" townid="20" size="81" clientid="19008" beds="2" />
-	<house name="Antimony Lane 4" houseid="3656" entryx="33614" entryy="31922" entryz="6" rent="400000" townid="20" size="110" clientid="19017" beds="3" />
-	<house name="Antimony Lane 3" houseid="3657" entryx="33630" entryy="31921" entryz="6" rent="400000" townid="20" size="77" clientid="19016" beds="3" />
-	<house name="Rathleton Hills Residence" houseid="3658" entryx="33651" entryy="31910" entryz="6" rent="400000" townid="20" size="155" clientid="19003" beds="3" />
-	<house name="Rathleton Hills Estate" houseid="3659" entryx="33662" entryy="31917" entryz="6" rent="1000000" guildhall="true" townid="20" size="433" clientid="19002" beds="13" />
-	<house name="Lion's Head Reef" houseid="3660" entryx="32365" entryy="32501" entryz="7" rent="400000" townid="14" size="149" clientid="63013" beds="5" />
-	<house name="Shadow Caves 1" houseid="3661" entryx="32654" entryy="31672" entryz="8" rent="50000" townid="5" size="22" clientid="40611" beds="2" />
-	<house name="Shadow Caves 2" houseid="3662" entryx="32656" entryy="31672" entryz="8" rent="50000" townid="5" size="22" clientid="40614" beds="2" />
-	<house name="Shadow Caves 3" houseid="3663" entryx="32654" entryy="31664" entryz="9" rent="100000" townid="5" size="44" clientid="40621" beds="4" />
-	<house name="Shadow Caves 4" houseid="3664" entryx="32656" entryy="31664" entryz="9" rent="100000" townid="5" size="44" clientid="40622" beds="4" />
-	<house name="Shadow Caves 5" houseid="3665" entryx="32654" entryy="31672" entryz="9" rent="100000" townid="5" size="44" clientid="40625" beds="4" />
-	<house name="Shadow Caves 6" houseid="3666" entryx="32656" entryy="31672" entryz="9" rent="100000" townid="5" size="44" clientid="40638" beds="4" />
-	<house name="Northport Clanhall" houseid="3667" entryx="32468" entryy="31614" entryz="7" rent="250000" guildhall="true" townid="6" size="162" clientid="22008" beds="10" />
-	<house name="The Treehouse" houseid="3668" entryx="32747" entryy="32697" entryz="7" rent="250000" guildhall="true" townid="15" size="548" clientid="47001" beds="23" />
-	<house name="Frost Manor" houseid="3669" entryx="32287" entryy="31106" entryz="5" rent="500000" guildhall="true" townid="16" size="434" clientid="55303" beds="26" />
-	<house name="Hare's Den" houseid="3670" entryx="32687" entryy="32193" entryz="10" rent="150000" townid="7" size="180" clientid="32016" beds="4" />
-	<house name="Lost Cavern" houseid="3671" entryx="32559" entryy="31856" entryz="7" rent="200000" townid="7" size="471" clientid="33001" beds="7" />
-	<house name="Caveman Shelter" houseid="3673" entryx="33007" entryy="31426" entryz="6" rent="150000" townid="12" size="87" clientid="15001" beds="4" />
-	<house name="Eastern House of Tranquility" houseid="3674" entryx="33389" entryy="31453" entryz="4" rent="200000" townid="12" size="268" clientid="15002" beds="5" />
-	<house name="Lakeside Mansion" houseid="3675" entryx="32322" entryy="31147" entryz="6" rent="300000" townid="16" size="149" clientid="55015" beds="5" />
-	<house name="Pilchard Bin 1" houseid="3676" entryx="32280" entryy="31164" entryz="7" rent="80000" townid="16" size="13" clientid="55116" beds="2" />
-	<house name="Pilchard Bin 2" houseid="3677" entryx="32280" entryy="31160" entryz="7" rent="50000" townid="16" size="13" clientid="55117" beds="2" />
-	<house name="Pilchard Bin 3" houseid="3678" entryx="32280" entryy="31156" entryz="7" rent="50000" townid="16" size="13" clientid="55118" beds="1" />
-	<house name="Pilchard Bin 4" houseid="3679" entryx="32280" entryy="31152" entryz="7" rent="50000" townid="16" size="13" clientid="55119" beds="1" />
-	<house name="Pilchard Bin 5" houseid="3680" entryx="32280" entryy="31148" entryz="7" rent="80000" townid="16" size="13" clientid="55120" beds="2" />
-	<house name="Pilchard Bin 6" houseid="3681" entryx="32281" entryy="31164" entryz="6" rent="25000" townid="16" size="10" clientid="55121" beds="1" />
-	<house name="Pilchard Bin 7" houseid="3682" entryx="32281" entryy="31160" entryz="6" rent="25000" townid="16" size="10" clientid="55122" beds="1" />
-	<house name="Pilchard Bin 8" houseid="3683" entryx="32281" entryy="31156" entryz="6" rent="25000" townid="16" size="10" clientid="55123" beds="2" />
-	<house name="Pilchard Bin 9" houseid="3684" entryx="32281" entryy="31152" entryz="6" rent="50000" townid="16" size="10" clientid="55124" beds="1" />
-	<house name="Pilchard Bin 10" houseid="3685" entryx="32281" entryy="31148" entryz="6" rent="50000" townid="16" size="10" clientid="55125" beds="1" />
-	<house name="Mammoth House" houseid="3686" entryx="32234" entryy="31227" entryz="7" rent="300000" townid="16" size="176" clientid="55014" beds="6" />
-	<house name="Cherry Cake Tower" houseid="3687" entryx="33450" entryy="32103" entryz="7" rent="800000" townid="29" size="153" clientid="53503" beds="7" />
-	<house name="Blueberry Bay" houseid="3688" entryx="33414" entryy="32114" entryz="7" rent="600000" townid="29" size="130" clientid="53501" beds="4" />
-	<house name="Vanilla Beach" houseid="3689" entryx="33402" entryy="32166" entryz="7" rent="600000" townid="29" size="129" clientid="53502" beds="4" />
-	<house name="Centre 1" houseid="3690" entryx="33751" entryy="32856" entryz="7" rent="600000" townid="30" size="126" clientid="49001" beds="4" />
-	<house name="Centre 2" houseid="3691" entryx="33740" entryy="32856" entryz="7" rent="600000" townid="30" size="139" clientid="49002" beds="4" />
-	<house name="Cliffside" houseid="3693" entryx="33763" entryy="32803" entryz="4" rent="600000" townid="31" size="203" clientid="53001" beds="6" />
-	<house name="House of the Rising Moon" houseid="3694" entryx="33812" entryy="32805" entryz="6" rent="1000000" guildhall="true" townid="31" size="340" clientid="53002" beds="12" />
-	<house name="Marketplace 3" houseid="3695" entryx="33953" entryy="31513" entryz="7" rent="400000" townid="22" size="130" clientid="48008" beds="3" />
-	<house name="Hanging Gardens 1" houseid="3696" entryx="33933" entryy="31479" entryz="4" rent="400000" townid="22" size="178" clientid="48009" beds="5" />
+	<house name="Uthemath II" houseid="3633" entryx="33208" entryy="32816" entryz="7" rent="250000" guildhall="true" townid="10" size="93" clientid="59066" beds="8" />
+	<house name="Marketplace 1" houseid="3634" entryx="33937" entryy="31505" entryz="7" rent="400000" townid="22" size="79" clientid="48001" beds="2" />
+	<house name="Marketplace 2" houseid="3635" entryx="33951" entryy="31501" entryz="7" rent="400000" townid="22" size="92" clientid="48002" beds="2" />
+	<house name="Quay 1" houseid="3636" entryx="33885" entryy="31552" entryz="7" rent="200000" townid="22" size="81" clientid="48003" beds="4" />
+	<house name="Quay 2" houseid="3637" entryx="33896" entryy="31544" entryz="7" rent="200000" townid="22" size="130" clientid="48004" beds="3" />
+	<house name="Halls of Sun and Sea" houseid="3638" entryx="33909" entryy="31535" entryz="7" rent="1000000" guildhall="true" townid="22" size="423" clientid="48007" beds="15" />
+	<house name="Palace Vicinity" houseid="3639" entryx="33866" entryy="31516" entryz="7" rent="200000" townid="22" size="132" clientid="48006" beds="4" />
+	<house name="Wave Tower" houseid="3640" entryx="33879" entryy="31525" entryz="7" rent="400000" townid="22" size="212" clientid="48005" beds="6" />
+	<house name="Old Sanctuary of God King Qjell" houseid="3641" entryx="33473" entryy="31310" entryz="9" rent="300000" townid="18" size="699" clientid="17001" beds="6" />
+	<house name="Old Heritage Estate" houseid="3642" entryx="33598" entryy="31909" entryz="6" rent="600000" townid="20" size="335" clientid="19009" beds="7" />
+	<house name="Rathleton Plaza 4" houseid="3643" entryx="33604" entryy="31915" entryz="6" rent="400000" townid="20" size="144" clientid="19018" beds="2" />
+	<house name="Rathleton Plaza 3" houseid="3644" entryx="33615" entryy="31913" entryz="6" rent="400000" townid="20" size="157" clientid="19006" beds="3" />
+	<house name="Rathleton Plaza 2" houseid="3645" entryx="33625" entryy="31912" entryz="6" rent="400000" townid="20" size="77" clientid="19005" beds="2" />
+	<house name="Rathleton Plaza 1" houseid="3646" entryx="33637" entryy="31911" entryz="6" rent="300000" townid="20" size="80" clientid="19004" beds="2" />
+	<house name="Antimony Lane 2" houseid="3647" entryx="33637" entryy="31921" entryz="6" rent="400000" townid="20" size="127" clientid="19015" beds="3" />
+	<house name="Antimony Lane 1" houseid="3648" entryx="33656" entryy="31915" entryz="6" rent="400000" townid="20" size="189" clientid="19014" beds="5" />
+	<house name="Wallside Residence" houseid="3649" entryx="33658" entryy="31921" entryz="6" rent="400000" townid="20" size="182" clientid="19001" beds="4" />
+	<house name="Wallside Lane 1" houseid="3650" entryx="33646" entryy="31933" entryz="6" rent="800000" townid="20" size="216" clientid="19010" beds="4" />
+	<house name="Wallside Lane 2" houseid="3651" entryx="33637" entryy="31928" entryz="6" rent="600000" townid="20" size="227" clientid="19011" beds="4" />
+	<house name="Vanward Flats B" houseid="3652" entryx="33614" entryy="31935" entryz="6" rent="400000" townid="20" size="179" clientid="19013" beds="4" />
+	<house name="Vanward Flats A" houseid="3653" entryx="33621" entryy="31935" entryz="6" rent="400000" townid="20" size="189" clientid="19012" beds="4" />
+	<house name="Bronze Brothers Bastion" houseid="3654" entryx="33599" entryy="31933" entryz="6" rent="5000000" guildhall="true" townid="20" size="976" clientid="19007" beds="16" />
+	<house name="Cistern Ave" houseid="3655" entryx="33588" entryy="31926" entryz="6" rent="300000" townid="20" size="111" clientid="19008" beds="2" />
+	<house name="Antimony Lane 4" houseid="3656" entryx="33614" entryy="31922" entryz="6" rent="400000" townid="20" size="159" clientid="19017" beds="3" />
+	<house name="Antimony Lane 3" houseid="3657" entryx="33630" entryy="31921" entryz="6" rent="400000" townid="20" size="101" clientid="19016" beds="3" />
+	<house name="Rathleton Hills Residence" houseid="3658" entryx="33651" entryy="31910" entryz="6" rent="400000" townid="20" size="186" clientid="19003" beds="3" />
+	<house name="Rathleton Hills Estate" houseid="3659" entryx="33662" entryy="31917" entryz="6" rent="1000000" guildhall="true" townid="20" size="534" clientid="19002" beds="13" />
+	<house name="Lion's Head Reef" houseid="3660" entryx="32365" entryy="32501" entryz="7" rent="400000" townid="14" size="166" clientid="63013" beds="5" />
+	<house name="Shadow Caves 1" houseid="3661" entryx="32654" entryy="31672" entryz="8" rent="50000" townid="5" size="32" clientid="40611" beds="2" />
+	<house name="Shadow Caves 2" houseid="3662" entryx="32656" entryy="31672" entryz="8" rent="50000" townid="5" size="37" clientid="40614" beds="2" />
+	<house name="Shadow Caves 3" houseid="3663" entryx="32654" entryy="31664" entryz="9" rent="100000" townid="5" size="61" clientid="40621" beds="4" />
+	<house name="Shadow Caves 4" houseid="3664" entryx="32656" entryy="31664" entryz="9" rent="100000" townid="5" size="53" clientid="40622" beds="4" />
+	<house name="Shadow Caves 5" houseid="3665" entryx="32654" entryy="31672" entryz="9" rent="100000" townid="5" size="61" clientid="40625" beds="4" />
+	<house name="Shadow Caves 6" houseid="3666" entryx="32656" entryy="31672" entryz="9" rent="100000" townid="5" size="50" clientid="40638" beds="4" />
+	<house name="Northport Clanhall" houseid="3667" entryx="32468" entryy="31614" entryz="7" rent="250000" guildhall="true" townid="6" size="172" clientid="22008" beds="10" />
+	<house name="The Treehouse" houseid="3668" entryx="32747" entryy="32697" entryz="7" rent="250000" guildhall="true" townid="15" size="972" clientid="47001" beds="23" />
+	<house name="Frost Manor" houseid="3669" entryx="32287" entryy="31106" entryz="5" rent="500000" guildhall="true" townid="16" size="505" clientid="55303" beds="26" />
+	<house name="Hare's Den" houseid="3670" entryx="32687" entryy="32193" entryz="10" rent="150000" townid="7" size="304" clientid="32016" beds="4" />
+	<house name="Lost Cavern" houseid="3671" entryx="32559" entryy="31856" entryz="7" rent="200000" townid="7" size="705" clientid="33001" beds="7" />
+	<house name="Caveman Shelter" houseid="3673" entryx="33007" entryy="31426" entryz="6" rent="150000" townid="12" size="137" clientid="15001" beds="4" />
+	<house name="Eastern House of Tranquility" houseid="3674" entryx="33389" entryy="31453" entryz="4" rent="200000" townid="12" size="313" clientid="15002" beds="5" />
+	<house name="Lakeside Mansion" houseid="3675" entryx="32322" entryy="31147" entryz="6" rent="300000" townid="16" size="136" clientid="55015" beds="5" />
+	<house name="Pilchard Bin 1" houseid="3676" entryx="32280" entryy="31164" entryz="7" rent="80000" townid="16" size="14" clientid="55116" beds="2" />
+	<house name="Pilchard Bin 2" houseid="3677" entryx="32280" entryy="31160" entryz="7" rent="50000" townid="16" size="14" clientid="55117" beds="2" />
+	<house name="Pilchard Bin 3" houseid="3678" entryx="32280" entryy="31156" entryz="7" rent="50000" townid="16" size="14" clientid="55118" beds="1" />
+	<house name="Pilchard Bin 4" houseid="3679" entryx="32280" entryy="31152" entryz="7" rent="50000" townid="16" size="14" clientid="55119" beds="1" />
+	<house name="Pilchard Bin 5" houseid="3680" entryx="32280" entryy="31148" entryz="7" rent="80000" townid="16" size="14" clientid="55120" beds="2" />
+	<house name="Pilchard Bin 6" houseid="3681" entryx="32281" entryy="31164" entryz="6" rent="25000" townid="16" size="11" clientid="55121" beds="1" />
+	<house name="Pilchard Bin 7" houseid="3682" entryx="32281" entryy="31160" entryz="6" rent="25000" townid="16" size="11" clientid="55122" beds="1" />
+	<house name="Pilchard Bin 8" houseid="3683" entryx="32281" entryy="31156" entryz="6" rent="25000" townid="16" size="11" clientid="55123" beds="2" />
+	<house name="Pilchard Bin 9" houseid="3684" entryx="32281" entryy="31152" entryz="6" rent="50000" townid="16" size="11" clientid="55124" beds="1" />
+	<house name="Pilchard Bin 10" houseid="3685" entryx="32281" entryy="31148" entryz="6" rent="50000" townid="16" size="11" clientid="55125" beds="1" />
+	<house name="Mammoth House" houseid="3686" entryx="32234" entryy="31227" entryz="7" rent="300000" townid="16" size="280" clientid="55014" beds="6" />
 </houses>

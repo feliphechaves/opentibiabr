@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Rootthing Bug Tracker")
 local monster = {}
 
 monster.description = "a rootthing bug tracker"
-monster.experience = 9650
+monster.experience = 73636
 monster.outfit = {
 	lookType = 1763,
 	lookHead = 0,
@@ -18,24 +18,24 @@ monster.Bestiary = {
 	class = "Plant",
 	race = BESTY_RACE_PLANT,
 	toKill = 2500,
-	FirstUnlock = 100,
-	SecondUnlock = 1000,
+	FirstUnlock = 200,
+	SecondUnlock = 2500,
 	CharmsPoints = 50,
 	Stars = 4,
-	Occurrence = 0,
+	Occurrence = 1,
 	Locations = "Podzilla Stalk.",
 }
 
-monster.health = 12500
-monster.maxHealth = 12500
-monster.race = "venom"
-monster.corpse = 48405
-monster.speed = 195
+monster.health = 90000
+monster.maxHealth = 90000
+monster.race = "undead"
+monster.corpse = 49148
+monster.speed = 250
 monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10,
+	chance = 0,
 }
 
 monster.strategiesTarget = {
@@ -56,7 +56,7 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = false,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	runHealth = 0,
 	healthHidden = false,
 	isBlockable = false,
@@ -74,32 +74,24 @@ monster.voices = {
 	interval = 5000,
 	chance = 10,
 	{ text = "Ktsktskts!", yell = false },
-	{ text = "BRRRRN!!!", yell = true },
-	{ text = "FRRRRR!!!", yell = true },
+	{ text = "BRRRRN!!!", yell = false },
+	{ text = "FRRRRR!!!", yell = false },
 }
 
 monster.loot = {
-	{ name = "platinum coin", chance = 74620, maxCount = 44 },
-	{ name = "small emerald", chance = 6180 },
-	{ name = "resin parasite", chance = 4840 },
-	{ name = "demon root", chance = 4510 },
-	{ name = "springsprout rod", chance = 3170 },
-	{ name = "wood cape", chance = 1170 },
-	{ name = "green gem", chance = 1170 },
-	{ name = "golden legs", chance = 170 },
-	{ name = "composite hornbow", chance = 170 },
-	{ name = "Preserved Pink Seed", chance = 110 },
-	{ name = "Preserved Red Seed", chance = 110 },
-	{ name = "Preserved Yellow Seed", chance = 110 },
+	{ name = "platinum coin", chance = 14127, maxCount = 2 },
+	{ name = "resin parasite", chance = 13975, maxCount = 5 },
+	{ name = "demon root", chance = 7321, maxCount = 5 },
+	{ name = "green gem", chance = 5572, maxCount = 1 },
+	{ name = "wood cape", chance = 6096, maxCount = 5 },
+	--{ name = "soul prism", chance = 138, maxCount = 5 },
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -300 },
-	{ name = "rotthligholyulus", interval = 2000, chance = 14, minDamage = -630, maxDamage = -840 },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = -530, maxDamage = -720, radius = 4, effect = CONST_ME_EXPLOSIONHIT, target = true },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_EARTHDAMAGE, minDamage = -460, maxDamage = -740, range = 6, radius = 2, shootEffect = CONST_ANI_POISON, effect = CONST_ME_POISONAREA, target = true },
-	{ name = "podzillaphyschain", interval = 2000, chance = 16 },
-	{ name = "rotthligexplo", interval = 2000, chance = 18, minDamage = -400, maxDamage = -625 },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1000 },
+	{ name = "combat", interval = 4000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -1450, maxDamage = -2450, range = 7, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYHIT, target = true },
+	{ name = "combat", interval = 3000, chance = 20, type = COMBAT_ENERGYDAMAGE, minDamage = -1450, maxDamage = -2400, range = 7, radius = 4, effect = CONST_ME_ENERGYHIT, target = true },
+	{ name = "combat", interval = 2000, chance = 14, type = COMBAT_HOLYDAMAGE, minDamage = -1450, maxDamage = -2400, range = 7, shootEffect = CONST_ANI_SPECTRALBOLT, effect = CONST_ME_HOLYDAMAGE, target = true },
 }
 
 monster.defenses = {
@@ -109,21 +101,21 @@ monster.defenses = {
 }
 
 monster.elements = {
-	{ type = COMBAT_PHYSICALDAMAGE, percent = 15 },
+	{ type = COMBAT_PHYSICALDAMAGE, percent = 5 },
 	{ type = COMBAT_ENERGYDAMAGE, percent = 25 },
-	{ type = COMBAT_EARTHDAMAGE, percent = 100 },
-	{ type = COMBAT_FIREDAMAGE, percent = -15 },
+	{ type = COMBAT_EARTHDAMAGE, percent = -5 },
+	{ type = COMBAT_FIREDAMAGE, percent = -5 },
 	{ type = COMBAT_LIFEDRAIN, percent = 0 },
 	{ type = COMBAT_MANADRAIN, percent = 0 },
 	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
 	{ type = COMBAT_ICEDAMAGE, percent = -5 },
-	{ type = COMBAT_HOLYDAMAGE, percent = 0 },
-	{ type = COMBAT_DEATHDAMAGE, percent = -5 },
+	{ type = COMBAT_HOLYDAMAGE, percent = -5 },
+	{ type = COMBAT_DEATHDAMAGE, percent = 0 },
 }
 
 monster.immunities = {
 	{ type = "paralyze", condition = true },
-	{ type = "outfit", condition = false },
+	{ type = "outfit", condition = true },
 	{ type = "invisible", condition = true },
 	{ type = "bleed", condition = false },
 }

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Honey Elemental")
 local monster = {}
 
 monster.description = "a honey elemental"
-monster.experience = 2400
+monster.experience = 12740
 monster.outfit = {
 	lookType = 1733,
 	lookHead = 0,
@@ -18,19 +18,19 @@ monster.Bestiary = {
 	class = "Elemental",
 	race = BESTY_RACE_ELEMENTAL,
 	toKill = 1000,
-	FirstUnlock = 50,
-	SecondUnlock = 500,
-	CharmsPoints = 25,
-	Stars = 3,
+	FirstUnlock = 100,
+	SecondUnlock = 1000,
+	CharmsPoints = 50,
+	Stars = 4,
 	Occurrence = 0,
-	Locations = "Chocolate Mines",
+	Locations = "Chocolate Mines.",
 }
 
-monster.health = 2560
-monster.maxHealth = 2560
-monster.race = "undead"
-monster.corpse = 48112
-monster.speed = 100
+monster.health = 13100
+monster.maxHealth = 13100
+monster.race = "blood"
+monster.corpse = 48113
+monster.speed = 200
 monster.manaCost = 0
 
 monster.changeTarget = {
@@ -52,7 +52,7 @@ monster.flags = {
 	convinceable = false,
 	pushable = false,
 	rewardBoss = false,
-	illusionable = true,
+	illusionable = false,
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
@@ -60,7 +60,7 @@ monster.flags = {
 	runHealth = 0,
 	healthHidden = false,
 	isBlockable = false,
-	canWalkOnEnergy = false,
+	canWalkOnEnergy = true,
 	canWalkOnFire = true,
 	canWalkOnPoison = true,
 }
@@ -74,46 +74,46 @@ monster.voices = {
 	interval = 5000,
 	chance = 10,
 	{ text = "*Squelch*", yell = false },
-	{ text = "**Slurp**", yell = false },
+	{ text = "*Slurp*", yell = false },
 }
 
 monster.loot = {
-	{ name = "small diamond", chance = 3010 },
 	{ name = "gold coin", chance = 100000, maxCount = 100 },
-	{ name = "small emerald", chance = 3760, maxCount = 2 },
-	{ name = "platinum coin", chance = 85000, maxCount = 6 },
-	{ id = 5902, chance = 3870 }, -- honeycomb
-	{ id = 48253, chance = 1180 }, -- beijinho
-	{ id = 818, chance = 1070 }, -- magma boots
-	{ id = 821, chance = 756 }, -- magma legs
-	{ name = "strong health potion", chance = 4620 },
-	{ id = 3280, chance = 430 }, -- fire sword
-	{ name = "terra amulet", chance = 540 },
-	{ id = 48250, chance = 433, maxCount = 6 }, -- dark chocolate coin
+	{ name = "crystal coin", chance = 100000, maxCount = 5 },
+	{ name = "platinum coin", chance = 100000, maxCount = 41 },
+	{ name = "strong health potion", chance = 5000, maxCount = 1 },
+	{ name = "honeycomb", chance = 5000, maxCount = 2 },
+	{ name = "beijinho", chance = 5000, maxCount = 4 },
+	{ name = "terra amulet", chance = 5000, maxCount = 4 },
+	{ name = "magma boots", chance = 5000, maxCount = 3 },
+	{ name = "magma legs", chance = 5000, maxCount = 4 },
+	{ name = "small emerald", chance = 5000, maxCount = 5 },
+	{ name = "dark chocolate coin", chance = 5000, maxCount = 4 },
+	{ name = "fire sword", chance = 5000, maxCount = 3 },
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -260 },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_FIREDAMAGE, minDamage = -125, maxDamage = -235, radius = 4, effect = CONST_ME_YELLOW_RINGS, target = false },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = -700, maxDamage = -1500 },
+	-- bleed
 }
 
 monster.defenses = {
-	defense = 20,
-	armor = 34,
-	mitigation = 1.02,
+	defense = 38,
+	armor = 74,
+	mitigation = 2.31,
 }
 
 monster.elements = {
-	{ type = COMBAT_PHYSICALDAMAGE, percent = 30 },
-	{ type = COMBAT_ENERGYDAMAGE, percent = -10 },
-	{ type = COMBAT_EARTHDAMAGE, percent = 20 },
-	{ type = COMBAT_FIREDAMAGE, percent = 20 },
+	{ type = COMBAT_PHYSICALDAMAGE, percent = -30 },
+	{ type = COMBAT_ENERGYDAMAGE, percent = 10 },
+	{ type = COMBAT_EARTHDAMAGE, percent = -20 },
+	{ type = COMBAT_FIREDAMAGE, percent = -20 },
 	{ type = COMBAT_LIFEDRAIN, percent = 0 },
 	{ type = COMBAT_MANADRAIN, percent = 0 },
 	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
-	{ type = COMBAT_ICEDAMAGE, percent = -5 },
-	{ type = COMBAT_HOLYDAMAGE, percent = 5 },
-	{ type = COMBAT_DEATHDAMAGE, percent = 30 },
+	{ type = COMBAT_ICEDAMAGE, percent = 5 },
+	{ type = COMBAT_HOLYDAMAGE, percent = -5 },
+	{ type = COMBAT_DEATHDAMAGE, percent = -30 },
 }
 
 monster.immunities = {

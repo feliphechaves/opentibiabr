@@ -2,14 +2,14 @@ local mType = Game.createMonsterType("Sugar Daddy")
 local monster = {}
 
 monster.description = "Sugar Daddy"
-monster.experience = 15550
+monster.experience = 129740
 monster.outfit = {
 	lookType = 1764,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
 	lookFeet = 0,
-	lookAddons = 2,
+	lookAddons = 1,
 	lookMount = 0,
 }
 
@@ -18,8 +18,8 @@ monster.bosstiary = {
 	bossRace = RARITY_BANE,
 }
 
-monster.health = 9500
-monster.maxHealth = 9500
+monster.health = 300100
+monster.maxHealth = 300100
 monster.race = "blood"
 monster.corpse = 48416
 monster.speed = 250
@@ -95,10 +95,13 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 20, minDamage = 0, maxDamage = -550 },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -300, maxDamage = -500, range = 6, effect = CONST_ME_MORTAREA, target = true },
-	{ name = "combat", interval = 2000, chance = 18, type = COMBAT_ENERGYDAMAGE, minDamage = -200, maxDamage = -300, radius = 12, effect = CONST_ME_PIXIE_EXPLOSION, target = false },
-	{ name = "combat", interval = 2000, chance = 18, type = COMBAT_EARTHDAMAGE, minDamage = -250, maxDamage = -410, radius = 12, effect = CONST_ME_HEARTS, target = false },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = -1700, maxDamage = -4500 },
+	{ name = "condition", type = CONDITION_BLEEDING, interval = 2000, chance = 10, minDamage = -1800, maxDamage = -4500, radius = 3, effect = CONST_ME_DRAWBLOOD, target = false },
+	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_LIFEDRAIN, minDamage = -1800, maxDamage = -4500, length = 5, spread = 0, effect = CONST_ME_EXPLOSIONAREA, target = false },
+	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -1800, maxDamage = -4500, radius = 2, shootEffect = CONST_ANI_LARGEROCK, effect = CONST_ME_STONES, target = true },
+	{ name = "speed", interval = 2000, chance = 15, speedChange = -100, radius = 5, effect = CONST_ME_MAGIC_RED, target = false, duration = 15000 },
+	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_MANADRAIN, minDamage = -1700, maxDamage = -5500, radius = 4, effect = CONST_ME_MAGIC_RED, target = false },
+
 }
 
 monster.defenses = {
@@ -128,5 +131,11 @@ monster.immunities = {
 	{ type = "invisible", condition = true },
 	{ type = "bleed", condition = false },
 }
+
+mType.onAppear = function(monster, creature)
+	if monster:getType():isRewardBoss() then
+		monster:setReward(true)
+	end
+end
 
 mType:register(monster)

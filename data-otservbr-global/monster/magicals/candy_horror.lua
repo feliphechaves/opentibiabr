@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Candy Horror")
 local monster = {}
 
 monster.description = "a candy horror"
-monster.experience = 3000
+monster.experience = 40990
 monster.outfit = {
 	lookType = 1739,
 	lookHead = 0,
@@ -12,8 +12,6 @@ monster.outfit = {
 	lookAddons = 0,
 	lookMount = 0,
 }
-
-monster.events = {}
 
 monster.raceId = 2535
 monster.Bestiary = {
@@ -28,11 +26,11 @@ monster.Bestiary = {
 	Locations = "Chocolate Mines.",
 }
 
-monster.health = 3100
-monster.maxHealth = 3100
+monster.health = 51100
+monster.maxHealth = 51100
 monster.race = "blood"
 monster.corpse = 48267
-monster.speed = 115
+monster.speed = 200
 monster.manaCost = 0
 
 monster.changeTarget = {
@@ -62,7 +60,7 @@ monster.flags = {
 	runHealth = 0,
 	healthHidden = false,
 	isBlockable = false,
-	canWalkOnEnergy = false,
+	canWalkOnEnergy = true,
 	canWalkOnFire = true,
 	canWalkOnPoison = true,
 }
@@ -77,49 +75,48 @@ monster.voices = {
 	chance = 10,
 	{ text = "We will devour you ...", yell = false },
 	{ text = "Wait for us, little treat ...", yell = false },
-	{ text = "*Horrraa!", yell = false },
+	{ text = "Horrraa!", yell = false },
 }
 
 monster.loot = {
-	{ name = "gold coin", chance = 100000, maxCount = 30 },
-	{ name = "platinum coin", chance = 82000, maxCount = 6 },
-	{ id = 281, chance = 6510 }, -- giant shimmering pearl (green)
-	{ id = 3591, chance = 1400, maxCount = 2 }, -- stawberries
-	{ id = 48250, chance = 440, maxCount = 11 }, -- dark chocolate coin
-	{ id = 48116, chance = 2490, maxCount = 2 }, -- gummy rotworm
-	{ id = 3036, chance = 1550 }, -- violet gem
-	{ id = 48252, chance = 1250 }, -- brigadeiro
-	{ id = 23535, chance = 5550 }, -- energy bar
-	{ id = 8012, chance = 1240, maxCount = 2 }, -- raspberry
-	{ id = 7419, chance = 502 }, -- dreaded cleaver
-	{ id = 3072, chance = 1840 }, -- wand of decay
-	{ id = 3429, chance = 2830 }, -- black shield
+	{ name = "gold coin", chance = 100000, maxCount = 100 },
+	{ name = "crystal coin", chance = 100000, maxCount = 5 },
+	{ name = "platinum coin", chance = 100000, maxCount = 45 },
+	{ name = "cookie", chance = 5000, maxCount = 4 },
+	{ name = "energy bar", chance = 5000, maxCount = 4 },
+	{ name = "gummy rotworm", chance = 5000, maxCount = 4 },
+	{ name = "dark chocolate coin", chance = 5000, maxCount = 4 },
+	{ name = "brigadeiro", chance = 5000, maxCount = 3 },
+	{ name = "dreaded cleaver", chance = 5000, maxCount = 4 },
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -200 },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_EARTHDAMAGE, minDamage = -120, maxDamage = -300, range = 6, radius = 3, effect = CONST_ME_CAKE, target = true },
-	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_DEATHDAMAGE, minDamage = -120, maxDamage = -350, radius = 6, effect = CONST_ME_CACAO, target = false },
-	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -120, maxDamage = -350, effect = CONST_ME_BIG_SCRATCH, target = false },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = -1000, maxDamage = -2500 },
+	-- bleed
+	{ name = "condition", type = CONDITION_BLEEDING, interval = 2000, chance = 10, minDamage = -1000, maxDamage = -2500, radius = 3, effect = CONST_ME_DRAWBLOOD, target = false },
+	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_LIFEDRAIN, minDamage = -1000, maxDamage = -2500, length = 5, spread = 0, effect = CONST_ME_EXPLOSIONAREA, target = false },
+	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -1000, maxDamage = -2500, radius = 2, shootEffect = CONST_ANI_LARGEROCK, effect = CONST_ME_STONES, target = true },
+	{ name = "speed", interval = 2000, chance = 15, speedChange = -100, radius = 5, effect = CONST_ME_MAGIC_RED, target = false, duration = 15000 },
+	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_MANADRAIN, minDamage = -1000, maxDamage = -2500, radius = 4, effect = CONST_ME_MAGIC_RED, target = false },
 }
 
 monster.defenses = {
-	defense = 24,
-	armor = 43,
-	mitigation = 1.21,
+	defense = 38,
+	armor = 74,
+	mitigation = 2.31,
 }
 
 monster.elements = {
-	{ type = COMBAT_PHYSICALDAMAGE, percent = 5 },
-	{ type = COMBAT_ENERGYDAMAGE, percent = -10 },
-	{ type = COMBAT_EARTHDAMAGE, percent = 10 },
-	{ type = COMBAT_FIREDAMAGE, percent = 5 },
+	{ type = COMBAT_PHYSICALDAMAGE, percent = -5 },
+	{ type = COMBAT_ENERGYDAMAGE, percent = 10 },
+	{ type = COMBAT_EARTHDAMAGE, percent = -10 },
+	{ type = COMBAT_FIREDAMAGE, percent = -5 },
 	{ type = COMBAT_LIFEDRAIN, percent = 0 },
 	{ type = COMBAT_MANADRAIN, percent = 0 },
 	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
 	{ type = COMBAT_ICEDAMAGE, percent = 0 },
-	{ type = COMBAT_HOLYDAMAGE, percent = -15 },
-	{ type = COMBAT_DEATHDAMAGE, percent = 50 },
+	{ type = COMBAT_HOLYDAMAGE, percent = 15 },
+	{ type = COMBAT_DEATHDAMAGE, percent = -50 },
 }
 
 monster.immunities = {

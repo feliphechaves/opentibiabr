@@ -2,18 +2,16 @@ local mType = Game.createMonsterType("Nibblemaw")
 local monster = {}
 
 monster.description = "a nibblemaw"
-monster.experience = 2700
+monster.experience = 40991
 monster.outfit = {
 	lookType = 1737,
 	lookHead = 0,
 	lookBody = 0,
-	lookLegs = 94,
+	lookLegs = 0,
 	lookFeet = 0,
 	lookAddons = 0,
 	lookMount = 0,
 }
-
-monster.events = {}
 
 monster.raceId = 2531
 monster.Bestiary = {
@@ -28,11 +26,11 @@ monster.Bestiary = {
 	Locations = "Chocolate Mines.",
 }
 
-monster.health = 2900
-monster.maxHealth = 2900
+monster.health = 50100
+monster.maxHealth = 50100
 monster.race = "blood"
-monster.corpse = 48259
-monster.speed = 118
+monster.corpse = 48260
+monster.speed = 200
 monster.manaCost = 0
 
 monster.changeTarget = {
@@ -62,7 +60,7 @@ monster.flags = {
 	runHealth = 0,
 	healthHidden = false,
 	isBlockable = false,
-	canWalkOnEnergy = false,
+	canWalkOnEnergy = true,
 	canWalkOnFire = true,
 	canWalkOnPoison = true,
 }
@@ -76,51 +74,57 @@ monster.voices = {
 	interval = 5000,
 	chance = 10,
 	{ text = "*chomp* Mmmoh! *chomp*", yell = false },
-	{ text = "Mwaaahgod! Overmwaaaaah", yell = false },
-	{ text = "*gurgle*", yell = false },
+	{ text = "Mwaaahgod! Overmwaaaaah! *gurgle*", yell = false },
 	{ text = "Mmmwahmwahmwhah, mwaaah!", yell = false },
 }
 
 monster.loot = {
 	{ name = "gold coin", chance = 100000, maxCount = 100 },
-	{ name = "platinum coin", chance = 75000, maxCount = 6 },
-	{ id = 3037, chance = 6000 }, -- yellow gem
-	{ id = 48255, chance = 1090 }, -- lime tart
-	{ id = 48250, chance = 940, maxCount = 64 }, -- dark chocolate coin
-	{ id = 48116, chance = 4590, maxCount = 2 }, -- gummy rotworm
-	{ id = 3593, chance = 1550 }, -- melon
-	{ id = 8012, chance = 1240, maxCount = 2 }, -- raspberry
-	{ name = "assassin dagger", chance = 400 },
-	{ name = "red crystal fragment", chance = 3400 },
-	{ name = "frazzle tongue", chance = 10430 },
-	{ name = "frazzle skin", chance = 7700 },
+	{ name = "crystal coin", chance = 100000, maxCount = 5 },
+	{ name = "platinum coin", chance = 100000, maxCount = 45 },
+	{ name = "strong health potion", chance = 15000, maxCount = 5 },
+	{ name = "frazzle tongue", chance = 15000, maxCount = 4 },
+	{ name = "melon", chance = 15000, maxCount = 2 },
+	{ name = "frazzle skin", chance = 15000, maxCount = 4 },
+	{ name = "assassin dagger", chance = 5000, maxCount = 2 },
+	{ name = "lime tart", chance = 15000, maxCount = 2 },
+	{ name = "raspberry", chance = 15000, maxCount = 4 },
+	{ name = "spirit cloak", chance = 15000, maxCount = 4 },
+	{ name = "cookie", chance = 5000, maxCount = 4 },
+	{ name = "glacier robe", chance = 5000, maxCount = 4 },
+	{ name = "dark chocolate coin", chance = 5000, maxCount = 4 },
+	{ name = "epee", chance = 5000, maxCount = 4 },
+	{ name = "cream cake", chance = 5000, maxCount = 4 },
+	{ name = "ice rapier", chance = 5000, maxCount = 4 },
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -200 },
-	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_DEATHDAMAGE, minDamage = -70, maxDamage = -150, range = 6, shootEffect = CONST_ANI_SUDDENDEATH, effect = CONST_ME_MORTAREA, target = true },
-	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -20, maxDamage = -250, length = 5, spread = 5, effect = CONST_ME_SIURP },
-	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -60, maxDamage = -250, radius = 4, effect = CONST_ME_STONES, target = false },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = -1000, maxDamage = -2200 },
+	-- bleed
+	{ name = "condition", type = CONDITION_BLEEDING, interval = 2000, chance = 10, minDamage = -1000, maxDamage = -2200, radius = 3, effect = CONST_ME_DRAWBLOOD, target = false },
+	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_LIFEDRAIN, minDamage = -1000, maxDamage = -2200, length = 5, spread = 0, effect = CONST_ME_EXPLOSIONAREA, target = false },
+	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -1000, maxDamage = -2200, radius = 2, shootEffect = CONST_ANI_LARGEROCK, effect = CONST_ME_STONES, target = true },
+	{ name = "speed", interval = 2000, chance = 15, speedChange = -100, radius = 5, effect = CONST_ME_MAGIC_RED, target = false, duration = 15000 },
+	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_MANADRAIN, minDamage = -1000, maxDamage = -2200, radius = 4, effect = CONST_ME_MAGIC_RED, target = false },
 }
 
 monster.defenses = {
-	defense = 30,
-	armor = 48,
-	mitigation = 1.10,
-	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_HEALING, minDamage = 250, maxDamage = 225, effect = CONST_ME_HITBYPOISON, target = false },
+	defense = 38,
+	armor = 74,
+	mitigation = 2.31,
 }
 
 monster.elements = {
-	{ type = COMBAT_PHYSICALDAMAGE, percent = 10 },
-	{ type = COMBAT_ENERGYDAMAGE, percent = -15 },
+	{ type = COMBAT_PHYSICALDAMAGE, percent = -10 },
+	{ type = COMBAT_ENERGYDAMAGE, percent = 15 },
 	{ type = COMBAT_EARTHDAMAGE, percent = -10 },
 	{ type = COMBAT_FIREDAMAGE, percent = 0 },
 	{ type = COMBAT_LIFEDRAIN, percent = 0 },
 	{ type = COMBAT_MANADRAIN, percent = 0 },
 	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
 	{ type = COMBAT_ICEDAMAGE, percent = 0 },
-	{ type = COMBAT_HOLYDAMAGE, percent = -5 },
-	{ type = COMBAT_DEATHDAMAGE, percent = 40 },
+	{ type = COMBAT_HOLYDAMAGE, percent = 10 },
+	{ type = COMBAT_DEATHDAMAGE, percent = -40 },
 }
 
 monster.immunities = {

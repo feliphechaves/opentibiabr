@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Candy Floss Elemental")
 local monster = {}
 
 monster.description = "a candy floss elemental"
-monster.experience = 3850
+monster.experience = 57355
 monster.outfit = {
 	lookType = 1749,
 	lookHead = 0,
@@ -26,11 +26,11 @@ monster.Bestiary = {
 	Locations = "Dessert Dungeons.",
 }
 
-monster.health = 3700
-monster.maxHealth = 3700
-monster.race = "undead"
-monster.corpse = 48345
-monster.speed = 105
+monster.health = 70100
+monster.maxHealth = 70100
+monster.race = "blood"
+monster.corpse = 48346
+monster.speed = 200
 monster.manaCost = 0
 
 monster.changeTarget = {
@@ -54,7 +54,7 @@ monster.flags = {
 	rewardBoss = false,
 	illusionable = false,
 	canPushItems = true,
-	canPushCreatures = false,
+	canPushCreatures = true,
 	staticAttackChance = 90,
 	targetDistance = 4,
 	runHealth = 0,
@@ -79,46 +79,42 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ name = "gold coin", chance = 95860, maxCount = 149 },
-	{ name = "platinum coin", chance = 86660, maxCount = 11 },
-	{ name = "fairy wings", chance = 6400 },
-	{ name = "energy bar", chance = 4100 },
-	{ name = "gummy rotworm", chance = 3410, maxCount = 3 },
-	{ name = "opal", chance = 3260 },
-	{ name = "rainbow quartz", chance = 3030, maxCount = 2 },
-	{ name = "violet crystal shard", chance = 2450 },
-	{ name = "wad of fairy floss", chance = 1690 },
-	{ name = "violet gem", chance = 1500 },
-	{ name = "milk chocolate coin", chance = 920, maxCount = 10 },
-	{ name = "springsprout rod", chance = 650 },
-	{ id = 3093, chance = 310 },
-	{ name = "silver amulet", chance = 120 },
+	{ name = "gold coin", chance = 100000, maxCount = 100 },
+	{ name = "crystal coin", chance = 100000, maxCount = 5 },
+	{ name = "platinum coin", chance = 100000, maxCount = 45 },
+	{ name = "energy bar", chance = 5000, maxCount = 6 },
+	{ name = "opal", chance = 5000, maxCount = 2 },
+	{ name = "milk chocolate coin", chance = 5000, maxCount = 4 },
+	{ name = "fairy wings", chance = 5000, maxCount = 4 },
+	{ name = "gummy rotworm", chance = 5000, maxCount = 4 },
+	{ name = "wad of fairy floss", chance = 5000, maxCount = 4 },
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -350 },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_ENERGYDAMAGE, minDamage = -150, maxDamage = -250, range = 7, shootEffect = CONST_ANI_CHERRYBOMB, effect = CONST_ME_STARBURST, target = true },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_ICEDAMAGE, minDamage = -160, maxDamage = -300, range = 6, shootEffect = CONST_ANI_SMALLICE, effect = CONST_ME_ICEATTACK, target = true },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_ENERGYDAMAGE, minDamage = -160, maxDamage = -300, range = 6, radius = 2, shootEffect = CONST_ANI_SMALLICE, effect = CONST_ME_PIXIE_EXPLOSION, target = true },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = -1500, maxDamage = -2700 },
+	-- bleed
+	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_MANADRAIN, minDamage = -1500, maxDamage = -2700, length = 8, spread = 0, effect = CONST_ME_MAGIC_RED, target = false },
+	{ name = "combat", interval = 2000, chance = 16, type = COMBAT_LIFEDRAIN, minDamage = -1500, maxDamage = -2700, radius = 4, effect = CONST_ME_MAGIC_RED, target = false },
+	{ name = "combat", interval = 2000, chance = 22, type = COMBAT_PHYSICALDAMAGE, minDamage = -1500, maxDamage = -2700, range = 7, shootEffect = CONST_ANI_HUNTINGSPEAR, effect = CONST_ME_EXPLOSIONAREA, target = false },
 }
 
 monster.defenses = {
-	defense = 45,
-	armor = 45,
-	mitigation = 1.26,
+	defense = 38,
+	armor = 74,
+	mitigation = 2.31,
 }
 
 monster.elements = {
-	{ type = COMBAT_PHYSICALDAMAGE, percent = 40 },
-	{ type = COMBAT_ENERGYDAMAGE, percent = 15 },
-	{ type = COMBAT_EARTHDAMAGE, percent = -10 },
-	{ type = COMBAT_FIREDAMAGE, percent = -15 },
+	{ type = COMBAT_PHYSICALDAMAGE, percent = -40 },
+	{ type = COMBAT_ENERGYDAMAGE, percent = -15 },
+	{ type = COMBAT_EARTHDAMAGE, percent = 10 },
+	{ type = COMBAT_FIREDAMAGE, percent = 15 },
 	{ type = COMBAT_LIFEDRAIN, percent = 0 },
 	{ type = COMBAT_MANADRAIN, percent = 0 },
 	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
-	{ type = COMBAT_ICEDAMAGE, percent = 15 },
+	{ type = COMBAT_ICEDAMAGE, percent = -15 },
 	{ type = COMBAT_HOLYDAMAGE, percent = 0 },
-	{ type = COMBAT_DEATHDAMAGE, percent = 20 },
+	{ type = COMBAT_DEATHDAMAGE, percent = -20 },
 }
 
 monster.immunities = {
