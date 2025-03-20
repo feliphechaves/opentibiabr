@@ -35,5 +35,5 @@ function updateTopXpDaily.onStartup()
 end
 
 --updateTopXpDaily:time("22:00") -- will be executed each day just after global save
-updateTopXpDaily:time("20:35")
+updateTopXpDaily:time("00:00")
 updateTopXpDaily:register()
