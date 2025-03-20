@@ -59,26 +59,32 @@ SoulPit = {
 	waves = {
 		[1] = {
 			stacks = {
-				[1] = 7,
+				[1] = 20,
 			},
 		},
 		[2] = {
 			stacks = {
-				[1] = 4,
-				[5] = 3,
+				[1] = 10,
+				[5] = 10,
 			},
 		},
 		[3] = {
 			stacks = {
-				[1] = 5,
-				[15] = 2,
+				[1] = 7,
+				[15] = 7,
+				[40] = 6,
 			},
 		},
 		[4] = {
 			stacks = {
-				[1] = 3,
-				[5] = 3,
-				[40] = 1,
+				[15] = 16,
+				[40] = 4,
+			},
+		},
+		[5] = {
+			stacks = {
+				[15] = 12,
+				[40] = 8,
 			},
 		},
 	},
@@ -132,7 +138,7 @@ SoulPit = {
 	timeToKick = 10 * 60 * 1000, -- 10 minutes
 	checkMonstersDelay = 4.5 * 1000, -- 4.5 seconds | The check delay should never be less than the timeToSpawnMonsters.
 	timeToSpawnMonsters = 4 * 1000, -- 4 seconds
-	totalMonsters = 7,
+	totalMonsters = 20,
 	obeliskActive = 47379,
 	obeliskInactive = 47367,
 	obeliskPosition = Position(32375, 31157, 8),
