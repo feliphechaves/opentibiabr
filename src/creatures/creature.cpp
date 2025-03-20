@@ -562,7 +562,7 @@ void Creature::onDeath() {
 			killer->onKilledMonster(thisMonster);
 		} else if (thisPlayer) {
 			bool isResponsible = mostDamageCreature == killer || (mostDamageCreatureMaster && mostDamageCreatureMaster == killer);
-			if (isResponsible) {
+			if (isResponsible && !lastHitUnjustified) {
 				killer->onKilledPlayer(thisPlayer, false);
 			}
 
