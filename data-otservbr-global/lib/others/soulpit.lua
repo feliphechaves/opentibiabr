@@ -1,8 +1,8 @@
 SoulPit = {
 	SoulCoresConfiguration = {
 		chanceToGetSameMonsterSoulCore = 15, -- 15%
-		chanceToDropSoulCore = 100, --5, -- 5%
-		chanceToGetOminousSoulCore = 2, -- 2%
+		chanceToDropSoulCore = 100, -- 5%
+		chanceToGetOminousSoulCore = 0, -- 2%
 		chanceToDropSoulPrism = 4, -- 4%
 		monsterVariationsSoulCore = {
 			["Horse"] = "horse soul core (taupe)",
