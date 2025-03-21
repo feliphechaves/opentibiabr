@@ -6065,6 +6065,13 @@ void Game::playerApplyImbuement(uint32_t playerId, uint16_t imbuementid, uint8_t
 		return;
 	}
 
+	if (player->isUIExhausted()) {
+		player->sendCancelMessage(RETURNVALUE_YOUAREEXHAUSTED);
+		return;
+	}
+
+	player->updateUIExhausted();
+
 	if (!player->hasImbuingItem()) {
 		return;
 	}
@@ -6093,6 +6100,13 @@ void Game::playerClearImbuement(uint32_t playerid, uint8_t slot) {
 	if (!player) {
 		return;
 	}
+
+	if (player->isUIExhausted()) {
+		player->sendCancelMessage(RETURNVALUE_YOUAREEXHAUSTED);
+		return;
+	}
+
+	player->updateUIExhausted();
 
 	if (!player->hasImbuingItem()) {
 		return;
