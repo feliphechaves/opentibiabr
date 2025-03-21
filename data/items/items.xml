@@ -5912,9 +5912,9 @@
 		<attribute key="description" value="It's a volume of The Mystic Secrets of Tibia"/>
 		<attribute key="weight" value="1900"/>
 	</item>
-	<item id="2851" article="a" name="grey tome">
+	<item id="2851" article="a" name="vip blessing book">
 		<attribute key="primarytype" value="books"/>
-		<attribute key="description" value="It's a volume of The Mystic Secrets of Tibia"/>
+		<attribute key="description" value="Use this sacred book to invoke the Vip Blessing, a one-time protection that prevents you from losing experience and level upon death. "/>
 		<attribute key="weight" value="1900"/>
 	</item>
 	<item id="2852" article="a" name="red tome">

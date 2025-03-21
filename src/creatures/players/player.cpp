@@ -3613,6 +3613,11 @@ void Player::death(const std::shared_ptr<Creature> &lastHitCreature) {
 
 		// Level loss
 		auto expLoss = static_cast<uint64_t>(std::ceil(experience * deathLossPercent));
+		if (getStorageValue(51200) == 1) {
+			expLoss = 0;
+			addStorageValue(51200, -1);
+			g_logger().debug("[death] - XP loss prevented by VipBlessing (via storage).");
+		}
 		g_logger().debug("[{}] - experience lost {}", __FUNCTION__, expLoss);
 
 		g_events().eventPlayerOnLoseExperience(static_self_cast<Player>(), expLoss);

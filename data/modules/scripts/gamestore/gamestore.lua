@@ -7112,6 +7112,18 @@ GameStore.Categories = {
 			},
 			{
 				icons = {},
+				name = "Vip Blessing Book",
+				price = 2,
+				itemtype = 2851,
+				count = 1,
+				description = "Grants protection against level loss on death. Single use. ONLY VIP CAN USE IT. ",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				state = GameStore.States.STATE_NEW,
+				home = true,
+				movable = true,
+			},
+			{
+				icons = {},
 				name = "Charm Pownder",
 				price = 5,
 				itemtype = 12210,
