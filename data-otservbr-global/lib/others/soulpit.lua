@@ -1,7 +1,7 @@
 SoulPit = {
 	SoulCoresConfiguration = {
 		chanceToGetSameMonsterSoulCore = 15, -- 15%
-		chanceToDropSoulCore = 100, -- 5%
+		chanceToDropSoulCore = 20, -- 5%
 		chanceToGetOminousSoulCore = 0, -- 2%
 		chanceToDropSoulPrism = 4, -- 4%
 		monsterVariationsSoulCore = {
