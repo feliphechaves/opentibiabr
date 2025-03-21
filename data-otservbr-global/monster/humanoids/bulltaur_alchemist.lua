@@ -25,7 +25,7 @@ monster.Bestiary = {
 	class = "Humanoid",
 	race = BESTY_RACE_HUMANOID,
 	toKill = 2500,
-	FirstUnlock = 25,
+	FirstUnlock = 100,
 	SecondUnlock = 1000,
 	CharmsPoints = 50,
 	Stars = 4,
@@ -96,11 +96,10 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 30, minDamage = -120, maxDamage = -270 },
-	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_ENERGYDAMAGE, minDamage = -300, maxDamage = -420, radius = 3, effect = CONST_ME_REDSMOKE, target = true },
-	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_ENERGYDAMAGE, minDamage = -280, maxDamage = -400, range = 4, radius = 4, effect = CONST_ME_PURPLESMOKE, shootEffect = CONST_ANI_ENERGYBALL, target = true },
-	{ name = "speed", interval = 2000, chance = 20, speedChange = -700, duration = 5000, range = 4, radius = 4, effect = CONST_ME_YELLOWSMOKE, target = true },
-	{ name = "bulltaur avalanche", interval = 2000, chance = 30, minDamage = -350, maxDamage = -450 },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = -120, maxDamage = -270 },
+	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_ENERGYDAMAGE, minDamage = -300, maxDamage = -420, radius = 3, effect = CONST_ME_REDSMOKE, target = true },
+	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_ENERGYDAMAGE, minDamage = -280, maxDamage = -400, range = 4, radius = 4, shootEffect = CONST_ANI_ENERGYBALL, effect = CONST_ME_PURPLESMOKE, target = true },
+	{ name = "bulltaur avalanche", interval = 2000, chance = 20, minDamage = -350, maxDamage = -450 },
 }
 
 monster.defenses = {
@@ -117,7 +116,7 @@ monster.elements = {
 	{ type = COMBAT_LIFEDRAIN, percent = 0 },
 	{ type = COMBAT_MANADRAIN, percent = 0 },
 	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
-	{ type = COMBAT_ICEDAMAGE, percent = -15 },
+	{ type = COMBAT_ICEDAMAGE, percent = 15 },
 	{ type = COMBAT_HOLYDAMAGE, percent = -5 },
 	{ type = COMBAT_DEATHDAMAGE, percent = -5 },
 }

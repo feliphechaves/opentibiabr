@@ -23,7 +23,7 @@ monster.events = {
 	--"zelos_damage",
 	--"zelos_init",
 	--"grave_danger_death",
-	"king_zelos_death"
+	"king_zelos_death",
 }
 
 monster.bosstiary = {

@@ -315,6 +315,7 @@ public:
 	void startAutoWalk(const std::vector<Direction> &listDir, bool ignoreConditions = false);
 	void addEventWalk(bool firstStep = false);
 	void stopEventWalk();
+	void resetMovementState();
 
 	void goToFollowCreature_async(std::function<void()> &&onComplete = nullptr);
 	virtual void goToFollowCreature();
@@ -693,6 +694,9 @@ public:
 		charmChanceModifier = value;
 	}
 
+	void setCombatDamage(const CombatDamage &damage);
+	CombatDamage getCombatDamage() const;
+
 protected:
 	enum FlagAsyncClass_t : uint8_t {
 		AsyncTaskRunning = 1 << 0,
@@ -870,4 +874,5 @@ private:
 	}
 
 	uint8_t m_flagAsyncTask = 0;
+	CombatDamage m_combatDamage;
 };

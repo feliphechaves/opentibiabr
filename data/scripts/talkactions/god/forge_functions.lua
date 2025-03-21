@@ -217,7 +217,7 @@ function gotoFiendish.onSay(player, words, param)
 	return true
 end
 
-gotoFiendish:groupType("god")
+gotoFiendish:groupType("gamemaster")
 gotoFiendish:register()
 
 ---------------- // ----------------
@@ -237,7 +237,7 @@ function gotoInfluenced.onSay(player, words, param)
 	return true
 end
 
-gotoInfluenced:groupType("god")
+gotoInfluenced:groupType("gamemaster")
 gotoInfluenced:register()
 
 ---------------- // ----------------

@@ -61,7 +61,7 @@ monster.flags = {
 
 monster.events = {
 	"sir_nictros_death",
-	"sir_nictros_health"
+	"sir_nictros_health",
 }
 
 monster.light = {

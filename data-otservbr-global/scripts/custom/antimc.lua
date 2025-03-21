@@ -6,7 +6,7 @@ local config = {
 	milliseconds_before_kick_to_read_popup = 9000, -- 9000 = 9 segundos
 	checkInterval = 60000, -- Intervalo de verificação em milissegundos (60 segundos)
 }
-local accepted_ip_list = {"179.51.178.152","73.142.135.10"} -- Aqui coloque os IPs que deseja permitir o uso de Mc/Magebomb..
+local accepted_ip_list = { "179.51.178.152", "73.142.135.10" } -- Aqui coloque os IPs que deseja permitir o uso de Mc/Magebomb..
 
 function delayedKickPlayerMCLimit(cid)
 	local player = Creature(cid)

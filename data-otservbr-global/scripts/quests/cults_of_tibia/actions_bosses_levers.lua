@@ -188,9 +188,10 @@ function cultsOfTibiaLevers.onUse(player, item, fromPosition, itemEx, toPosition
 				nplayer:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
 			end
 
-			Game.createMonster("Wine Cask", Position(33162, 31945, 15))
-			local leiden = Game.createMonster("Leiden", Position(33162, 31950, 15))
-			leiden:setHealth(leiden:getHealth() / 2)
+			--Game.createMonster("Wine Cask", Position(33162, 31945, 15))
+			--local leiden = Game.createMonster("Leiden", Position(33162, 31950, 15))
+			--leiden:setHealth(leiden:getHealth() / 2)
+			local ravenousHunger = Game.createMonster("Ravenous Hunger", Position(33162, 31950, 15))
 			kickerPlayerRoomAfterMin(convertTable, frompos, topos, Position(33121, 31951, 15), "You were kicked for exceeding the time limit within the boss room.", "", 60, true, ittable, blockmonsters)
 		end
 	end

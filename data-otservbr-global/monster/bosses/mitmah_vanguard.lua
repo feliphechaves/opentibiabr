@@ -20,18 +20,21 @@ monster.bosstiary = {
 
 monster.health = 1065000
 monster.maxHealth = 1065000
-monster.race = "venom"
-monster.corpse = 44686
-monster.speed = 120
+monster.race = "blood"
+monster.corpse = 44687
+monster.speed = 450
 monster.manaCost = 0
 
 monster.changeTarget = {
-	interval = 5000,
-	chance = 8,
+	interval = 10000,
+	chance = 20,
 }
 
 monster.strategiesTarget = {
-	nearest = 100,
+	nearest = 70,
+	health = 10,
+	damage = 10,
+	random = 10,
 }
 
 monster.flags = {
@@ -41,10 +44,10 @@ monster.flags = {
 	convinceable = false,
 	pushable = false,
 	rewardBoss = true,
-	illusionable = true,
+	illusionable = false,
 	canPushItems = true,
 	canPushCreatures = true,
-	staticAttackChance = 90,
+	staticAttackChance = 95,
 	targetDistance = 1,
 	runHealth = 0,
 	healthHidden = false,
@@ -72,68 +75,78 @@ monster.voices = {
 	{ text = "Die, human. Now!", yell = true },
 	{ text = "FEAR THE CURSE!", yell = true },
 	{ text = "You're the intruder.", yell = true },
-	{ text = "GOT YOU NOW!", yell = true },
+	{ text = "The Iks have always been ours.", yell = true },
+	{ text = "NOW TREMBLE!", "GOT YOU NOW!", yell = true },
 }
 
 monster.loot = {
-	{ id = 44622, chance = 440 },
-	{ id = 44623, chance = 440, maxCount = 1 },
-	{ id = 44621, chance = 440 },
-	{ id = 44648, chance = 450 },
-	{ id = 44636, chance = 450 },
-	{ id = 44620, chance = 450 },
-	{ id = 44642, chance = 450 },
-	{ id = 44643, chance = 450 },
-	{ id = 44637, chance = 450 },
-	{ id = 44649, chance = 450 },
-	{ id = 44619, chance = 450 },
-	{ name = "Gold Coin", chance = 9650, maxCount = 400 },
-	{ name = "Crystal Coin", chance = 5700, maxCount = 2 },
-	{ name = "Great Spirit Potion", chance = 2450 },
-	{ name = "Ultimate Mana Potion", chance = 5450, maxCount = 15 },
-	{ name = "Ultimate Health Potion", chance = 5450, maxCount = 15 },
-	{ name = "Platinum Coin", chance = 2450, maxCount = 15 },
+	{ name = "gold coin", chance = 895000, maxCount = 400 },
+	{ name = "platinum coin", chance = 655000, maxCount = 15 },
+	{ name = "crystal coin", chance = 325000, maxCount = 5 },
+	{ name = "great health potion", chance = 288900, maxCount = 15 },
+	{ name = "great mana potion", chance = 281500 },
+	{ name = "great spirit potion", chance = 65337, maxCount = 45 },
+	{ name = "ultimate health potion", chance = 214800, maxCount = 12 },
+	{ name = "ultimate mana potion", chance = 155600, maxCount = 15 },
+	{ name = "supreme health potion", chance = 33385, maxCount = 23 },
+	{ name = "yellow gem", chance = 11604, maxCount = 5 },
+	{ name = "blue gem", chance = 14144, maxCount = 5 },
+	{ name = "green gem", chance = 11221, maxCount = 4 },
+	{ name = "giant topaz", chance = 11191, maxCount = 1 },
+	{ name = "giant emerald", chance = 11191, maxCount = 1 },
+	{ name = "giant sapphire", chance = 11191, maxCount = 1 },
+	{ name = "giant amethyst", chance = 12527, maxCount = 1 },
+	{ name = "white gem", chance = 311100 },
+	{ name = "yellow gem", chance = 251900 },
+	{ name = "blue gem", chance = 222200 },
+	{ name = "crystal of the mitmah", chance = 451900 },
+	{ name = "broken mitmah necklace", chance = 548100 },
+	{ name = "broken mitmah chestplate", chance = 44400 },
+	{ name = "splintered mitmah gem", chance = 3700 },
+	{ name = "stoic iks boots", chance = 500 },
+	{ name = "stoic iks faulds", chance = 500 },
+	{ name = "stoic iks casque", chance = 500 },
+	{ name = "stoic iks cuirass", chance = 500 },
+	{ name = "stoic iks chestplate", chance = 500 },
+	{ name = "stoic iks sandals", chance = 500 },
+	{ name = "stoic iks headpiece", chance = 500 },
+	{ name = "stoic iks culet", chance = 500 },
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = -1100, maxDamage = -5520 },
-	--{ name = "mitmah soulfire", interval = 2000, chance = 2, target = false },
-	{ name = "combat", interval = 3000, chance = 40, type = COMBAT_FIREDAMAGE, minDamage = -3000, maxDamage = -3500, length = 10, spread = 3, effect = CONST_ANI_FIRE, target = false },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = -1450, maxDamage = -2750, range = 3, radius = 6, effect = 45, target = false },
-	--{ name = "energy strike", interval = 2000, chance = 10, minDamage = -1350, maxDamage = -2500, range = 1, target = true },
-	{ name = "combat", interval = 2500, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -4000, maxDamage = -9000, radius = 5, effect = CONST_ME_PURPLESMOKE, target = true },
-	--{ name = "mitmah electrify", interval = 2000, chance = 10, minDamage = -1100, maxDamage = -2720, target = false },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_ENERGYDAMAGE, minDamage = -4000, maxDamage = -10000, length = 8, spread = 3, effect = CONST_ME_ELECTRICALSPARK, target = false },
-	--{ name = "mitmah ring", interval = 2000, chance = 10, minDamage = -1300, maxDamage = -2820, target = false },
-	--{ name = "mitmah fire", interval = 2000, chance = 10, minDamage = -1200, maxDamage = -2720, target = false },
-	{ name = "largefirering", interval = 2500, chance = 15, minDamage = -1500, maxDamage = -4500, target = false },
+	{ name = "melee", interval = 1700, chance = 100, minDamage = -1400, maxDamage = -5856 },
+	{ name = "melee", interval = 2500, chance = 100, minDamage = -1500, maxDamage = -5256 },
+	{ name = "hugeblackring", interval = 3500, chance = 20, minDamage = -700, maxDamage = -1500, target = false },
+	{ name = "combat", interval = 3000, chance = 20, type = COMBAT_ENERGYDAMAGE, minDamage = -4500, maxDamage = -9000, radius = 9, effect = CONST_ME_SLASH, target = false },
+	{ name = "combat", interval = 2500, chance = 33, type = COMBAT_ENERGYDAMAGE, minDamage = -4500, maxDamage = -10000, length = 8, spread = 0, effect = CONST_ME_PURPLEENERGY, target = false },
+	{ name = "combat", interval = 2000, chance = 50, type = COMBAT_FIREDAMAGE, minDamage = -3000, maxDamage = -3500, length = 8, spread = 2, effect = CONST_ME_HITBYFIRE, target = false },
+	{ name = "combat", interval = 1000, chance = 30, type = COMBAT_ENERGYDAMAGE, minDamage = -4000, maxDamage = -10000, range = 7, radius = 2, shootEffect = CONST_ANI_BOLT, effect = CONST_ME_ENERGYHIT, target = true },
 }
 
 monster.defenses = {
-	defense = 45,
-	armor = 45,
-	mitigation = 3.00,
-	{ name = "combat", interval = 2000, chance = 8, type = COMBAT_HEALING, minDamage = 2500, maxDamage = 5000, effect = CONST_ME_MAGIC_GREEN, target = false },
+	defense = 64,
+	armor = 0,
+	--	mitigation = ???,
 }
 
 monster.elements = {
 	{ type = COMBAT_PHYSICALDAMAGE, percent = 0 },
-	{ type = COMBAT_ENERGYDAMAGE, percent = -5 },
-	{ type = COMBAT_EARTHDAMAGE, percent = 0 },
-	{ type = COMBAT_FIREDAMAGE, percent = 30 },
+	{ type = COMBAT_ENERGYDAMAGE, percent = 5 },
+	{ type = COMBAT_EARTHDAMAGE, percent = 100 },
+	{ type = COMBAT_FIREDAMAGE, percent = 5 },
 	{ type = COMBAT_LIFEDRAIN, percent = 0 },
 	{ type = COMBAT_MANADRAIN, percent = 0 },
 	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
 	{ type = COMBAT_ICEDAMAGE, percent = 0 },
 	{ type = COMBAT_HOLYDAMAGE, percent = 0 },
-	{ type = COMBAT_DEATHDAMAGE, percent = 50 },
+	{ type = COMBAT_DEATHDAMAGE, percent = 100 },
 }
 
 monster.immunities = {
 	{ type = "paralyze", condition = true },
 	{ type = "outfit", condition = false },
 	{ type = "invisible", condition = true },
-	{ type = "bleed", condition = true },
+	{ type = "bleed", condition = false },
 }
 
 mType.onThink = function(monster, interval) end

@@ -25,10 +25,14 @@ antidote:setParameter(COMBAT_PARAM_DISPEL, CONDITION_POISON)
 antidote:setParameter(COMBAT_PARAM_AGGRESSIVE, false)
 antidote:setParameter(COMBAT_PARAM_TARGETCASTERORTOPMOST, true)
 
+local exhaust = Condition(CONDITION_EXHAUST_HEAL)
+exhaust:setParameter(CONDITION_PARAM_TICKS, (configManager.getNumber(configKeys.EX_ACTIONS_DELAY_INTERVAL) - 1000))
+
 local function magicshield(player)
 	local condition = Condition(CONDITION_MANASHIELD)
 	condition:setParameter(CONDITION_PARAM_TICKS, 60000)
 	condition:setParameter(CONDITION_PARAM_MANASHIELD, math.min(player:getMaxMana(), 300 + 7.6 * player:getLevel() + 7 * player:getMagicLevel()))
+	exhaust:setParameter(CONDITION_PARAM_TICKS, 500)
 	player:addCondition(condition)
 end
 
@@ -70,11 +74,11 @@ function flaskPotion.onUse(player, item, fromPosition, target, toPosition, isHot
 
 	if potion.health or potion.mana or potion.combat then
 		if potion.health then
-			doTargetCombatHealth(player, target, COMBAT_HEALING, potion.health[1]*modifier, potion.health[2]*modifier, CONST_ME_MAGIC_BLUE)
+			doTargetCombatHealth(player, target, COMBAT_HEALING, potion.health[1] * modifier, potion.health[2] * modifier, CONST_ME_MAGIC_BLUE)
 		end
 
 		if potion.mana then
-			doTargetCombatMana(0, target, potion.mana[1]*modifier, potion.mana[2]*modifier, CONST_ME_MAGIC_BLUE)
+			doTargetCombatMana(0, target, potion.mana[1] * modifier, potion.mana[2] * modifier, CONST_ME_MAGIC_BLUE)
 		end
 
 		if potion.combat then
