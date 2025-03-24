@@ -58,7 +58,7 @@ function sir_nictros_health.onHealthChange(creature, attacker, primaryDamage, pr
 		if brother_diff < 55 then
 			local brother_percent = (brother:getHealth() / brother:getMaxHealth()) * 100
 			if (brother_percent - brother_diff) > 5 then
-				creature:addHealth(5000)
+				creature:addHealth(500)
 			end
 		end
 	end
