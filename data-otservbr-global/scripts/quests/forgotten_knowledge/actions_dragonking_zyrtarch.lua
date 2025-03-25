@@ -1,7 +1,7 @@
 local config = {
 	boss = {
 		name = "soul of dragonking zyrtarch",
-		position = Position(33359, 31182, 12),
+		position = Position(33359, 31181, 10),
 	},
 	requiredLevel = 250,
 	playerPositions = {
@@ -10,13 +10,6 @@ local config = {
 		{ pos = Position(33391, 31180, 10), teleport = Position(33359, 31186, 10) },
 		{ pos = Position(33391, 31181, 10), teleport = Position(33359, 31186, 10) },
 		{ pos = Position(33391, 31182, 10), teleport = Position(33359, 31186, 10) },
-	},
-	monsters = {
-		{ name = "soulcatcher", pos = Position(33352, 31187, 10) },
-		{ name = "soulcatcher", pos = Position(33363, 31187, 10) },
-		{ name = "soulcatcher", pos = Position(33353, 31176, 10) },
-		{ name = "soulcatcher", pos = Position(33363, 31176, 10) },
-		{ name = "dragonking zyrtarch", pos = Position(33357, 31182, 10) },
 	},
 	specPos = {
 		from = Position(33348, 31172, 10),
