@@ -4919,6 +4919,834 @@
 		<monster name="Infernal Phantom" x="0" y="0" z="8" spawntime="60" />
 		<monster name="Infernal Demon" x="2" y="1" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="1320" centery="747" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1325" centery="747" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1330" centery="747" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1335" centery="747" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1317" centery="751" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1320" centery="751" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1323" centery="751" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1328" centery="751" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1331" centery="751" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1336" centery="751" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1338" centery="751" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1327" centery="755" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1318" centery="756" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1322" centery="756" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1331" centery="756" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1333" centery="756" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1338" centery="756" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1328" centery="761" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1312" centery="762" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1317" centery="762" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1320" centery="762" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1336" centery="762" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1342" centery="762" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1356" centery="762" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1360" centery="762" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1350" centery="763" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1353" centery="763" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1312" centery="765" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1315" centery="765" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1336" centery="765" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1340" centery="765" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1343" centery="765" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1320" centery="767" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1349" centery="767" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1312" centery="768" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1339" centery="768" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1316" centery="769" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1334" centery="769" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1360" centery="769" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1320" centery="770" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1327" centery="770" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1339" centery="770" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1343" centery="770" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1350" centery="770" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1354" centery="770" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1312" centery="771" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1318" centery="772" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1334" centery="772" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1343" centery="773" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1349" centery="773" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1352" centery="773" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1355" centery="773" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1418" centery="773" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1421" centery="773" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1402" centery="774" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1423" centery="774" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1440" centery="774" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1442" centery="774" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1315" centery="775" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1339" centery="775" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1351" centery="775" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1404" centery="775" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1406" centery="775" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1416" centery="775" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1335" centery="776" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1343" centery="776" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1418" centery="776" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1421" centery="776" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1440" centery="776" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1312" centery="777" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1321" centery="777" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1349" centery="777" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1353" centery="777" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1355" centery="777" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1402" centery="777" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1442" centery="777" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1420" centery="778" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1403" centery="779" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1278" centery="783" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1281" centery="783" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1284" centery="783" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1288" centery="783" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1290" centery="783" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1293" centery="783" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1295" centery="783" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1300" centery="783" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1302" centery="783" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1304" centery="783" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1306" centery="783" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1317" centery="783" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1327" centery="783" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1343" centery="783" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1357" centery="783" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1295" centery="785" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1278" centery="786" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1281" centery="786" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1284" centery="786" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1289" centery="786" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1292" centery="786" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1300" centery="786" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1303" centery="786" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1306" centery="786" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1403" centery="786" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1420" centery="786" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1442" centery="786" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1278" centery="789" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1281" centery="789" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1284" centery="789" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1290" centery="789" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1292" centery="789" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1295" centery="789" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1300" centery="789" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1303" centery="789" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1306" centery="789" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1360" centery="789" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1356" centery="790" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1321" centery="792" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1326" centery="792" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1330" centery="792" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1335" centery="792" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1364" centery="792" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1366" centery="792" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1403" centery="792" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1352" centery="793" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1360" centery="793" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1294" centery="794" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1357" centery="794" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1402" centery="794" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1312" centery="795" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1330" centery="795" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1334" centery="795" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1419" centery="795" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1421" centery="795" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1440" centery="795" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1442" centery="795" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1321" centery="796" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1324" centery="796" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1327" centery="796" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1344" centery="796" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1351" centery="796" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1354" centery="796" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1365" centery="796" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1417" centery="796" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1332" centery="797" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1360" centery="797" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1402" centery="797" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1404" centery="797" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1406" centery="797" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1422" centery="797" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1440" centery="797" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1442" centery="797" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1278" centery="798" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1419" centery="798" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1321" centery="799" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1328" centery="799" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1421" centery="799" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1278" centery="800" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1281" centery="800" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1284" centery="800" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1289" centery="800" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1292" centery="800" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1295" centery="800" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1300" centery="800" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1303" centery="800" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1306" centery="800" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1356" centery="800" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1359" centery="800" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1301" centery="802" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1303" centery="802" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1305" centery="802" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1403" centery="802" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1278" centery="803" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1281" centery="803" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1284" centery="803" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1292" centery="803" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1295" centery="803" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1289" centery="804" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1303" centery="804" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1293" centery="805" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1301" centery="805" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1305" centery="805" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1402" centery="805" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1278" centery="806" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1281" centery="806" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1284" centery="806" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1289" centery="806" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1291" centery="806" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1295" centery="806" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1303" centery="806" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1312" centery="806" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1326" centery="806" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1333" centery="806" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1419" centery="807" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1421" centery="807" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1358" centery="808" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1441" centery="808" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1363" centery="809" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1402" centery="809" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1404" centery="809" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1440" centery="810" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1442" centery="810" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1406" centery="811" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1416" centery="811" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1419" centery="811" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1421" centery="811" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1423" centery="811" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1322" centery="812" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1325" centery="812" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1327" centery="812" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1330" centery="812" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1333" centery="812" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1401" centery="812" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1404" centery="812" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1438" centery="812" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1290" centery="813" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1295" centery="813" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1416" centery="813" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1419" centery="813" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1423" centery="813" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1440" centery="813" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1442" centery="813" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1299" centery="814" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1308" centery="814" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1327" centery="814" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1325" centery="815" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1330" centery="815" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1352" centery="815" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1357" centery="815" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1361" centery="815" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1418" centery="815" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1420" centery="815" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1292" centery="816" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1295" centery="816" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1368" centery="816" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1371" centery="817" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1376" centery="817" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1381" centery="817" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1391" centery="817" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1395" centery="817" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1289" centery="818" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1294" centery="818" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1299" centery="818" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1325" centery="818" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1329" centery="818" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1332" centery="818" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1335" centery="818" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1359" centery="818" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1352" centery="819" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1294" centery="820" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1296" centery="820" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1357" centery="820" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1362" centery="820" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1374" centery="820" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1384" centery="820" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1389" centery="820" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1398" centery="820" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1288" centery="822" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1292" centery="822" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1299" centery="822" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1442" centery="823" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1402" centery="824" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1420" centery="824" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1358" centery="825" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1363" centery="825" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1366" centery="825" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1447" centery="825" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1402" centery="826" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1419" centery="826" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1311" centery="827" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1339" centery="827" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1401" centery="828" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1404" centery="828" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1407" centery="828" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1416" centery="828" centerz="8" radius="1">
+		<monster name="Sanguine Glow" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1418" centery="828" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="1421" centery="829" centerz="8" radius="1">
+		<monster name="Sanguine Shade" x="0" y="0" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1503" centery="978" centerz="8" radius="1">
 		<monster name="Candy Floss Elemental" x="-1" y="-1" z="8" spawntime="60" />
 		<monster name="Angry Sugar Fairy" x="1" y="-1" z="8" spawntime="60" />
