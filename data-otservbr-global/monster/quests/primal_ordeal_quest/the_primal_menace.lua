@@ -344,7 +344,7 @@ mType.onThink = function(monster, interval)
 	end
 
 	local hazardPoints = getHazardPoints(monster)
-	handleMonsterSpawn(monster, hazardPoints)
+	--handleMonsterSpawn(monster, hazardPoints)
 	handlePodSpawn(monster, hazardPoints)
 	handlePrimalBeasts(monster)
 end
