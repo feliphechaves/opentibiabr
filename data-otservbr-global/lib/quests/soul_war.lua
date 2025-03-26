@@ -247,7 +247,7 @@ SoulWarQuest = {
 		goshnarsGreedPosition = { x = 33775, y = 31665, z = 14 },
 		goshnarsHatredPosition = { x = 33772, y = 31601, z = 14 },
 		goshnarsCrueltyPosition = { x = 33853, y = 31854, z = 6 },
-		goshnarsMegalomaniaPosition = { x = 33675, y = 31634, z = 14 },
+		goshnarsMegalomaniaPosition = { x = 1, y = 1, z = 1 }, --{ x = 33675, y = 31634, z = 14 },
 
 		-- Levers system
 		goshnarsSpite = {
