@@ -59,6 +59,17 @@ local function creatureSayCallback(npc, creature, type, message)
 	if not npcHandler:checkInteraction(npc, creature) then
 		return false
 	end
+	
+	if MsgContains(message, "melt") then
+		
+		if player:removeItem(9058, 1) then
+			npcHandler:say("Cling clang!", npc, creature)
+			player:addItem(12804, 1)
+			npcHandler:setTopic(playerId, 0)
+		else
+			npcHandler:say("Lil' one bring me a gold ingot to melt?", npc, creature)
+		end
+	end
 
 	-- uth'lokr (Bast Skirts)
 	if MsgContains(message, "uth'lokr") and player:getStorageValue(Storage.Quest.U7_8.FriendsandTraders.TheSweatyCyclops) < 1 then
