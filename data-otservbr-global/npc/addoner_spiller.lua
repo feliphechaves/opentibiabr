@@ -117,7 +117,10 @@ addoninfo = {
 	["first battle mage addon"] = { cost = 0, items = { { 28792, 5 } }, outfit_female = 1070, outfit_male = 1069, addon = 1, storageID = 501232 },
 	["second battle mage addon"] = { cost = 0, items = { { 28793, 20 } }, outfit_female = 1070, outfit_male = 1069, addon = 2, storageID = 501233 },
 }
-local o = { "nightmare", "brotherhood", "citizen", "hunter", "knight", "mage", "nobleman", "summoner", "warrior", "barbarian", "druid", "wizard", "oriental", "pirate", "assassin", "beggar", "shaman", "norseman" }
+local o = { "nightmare", "brotherhood", "citizen", "hunter", "knight", 
+			"mage", "nobleman", "summoner", "warrior", "barbarian", "druid", 
+			"wizard", "oriental", "pirate", "assassin", "beggar", "shaman", 
+			"norseman", "brotherhood", "nightmare", "elementalist", "battle mage" }
 local rtnt = {}
 local function creatureSayCallback(npc, creature, type, message)
 	local talkUser = creature
