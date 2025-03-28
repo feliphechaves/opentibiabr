@@ -115,7 +115,7 @@ addoninfo = {
 	["second elementalist addon"] = { cost = 0, items = { { 12803, 1 } }, outfit_female = 433, outfit_male = 432, addon = 2, storageID = 501231 },
 
 	["first battle mage addon"] = { cost = 0, items = { { 28792, 5 } }, outfit_female = 1070, outfit_male = 1069, addon = 1, storageID = 501232 },
-	["second elementalist addon"] = { cost = 0, items = { { 28793, 20 } }, outfit_female = 1070, outfit_male = 1069, addon = 2, storageID = 501233 },
+	["second battle mage addon"] = { cost = 0, items = { { 28793, 20 } }, outfit_female = 1070, outfit_male = 1069, addon = 2, storageID = 501233 },
 }
 local o = { "nightmare", "brotherhood", "citizen", "hunter", "knight", "mage", "nobleman", "summoner", "warrior", "barbarian", "druid", "wizard", "oriental", "pirate", "assassin", "beggar", "shaman", "norseman" }
 local rtnt = {}
