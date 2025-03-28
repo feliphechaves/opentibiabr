@@ -207,7 +207,7 @@ LootShopConfigTable = {
 		{ itemName = "Yellow Darklight Matter", clientId = 43780, sell = 100 },
 		{ itemName = "Unstable Darklight Matter", clientId = 43779, sell = 100 },
 		{ itemName = "organic acid", clientId = 43778, sell = 100 },
-		{ itemName = "crimson sword ", clientId = 7385, sell = 100 },
+		{ itemName = "crimson sword", clientId = 7385, sell = 100 },
 		{ itemName = "darklight basalt chunk", clientId = 43852, sell = 3800 },
 		{ itemName = "darklight core", clientId = 43853, sell = 4100 },
 		{ itemName = "dark obsidian splinter", clientId = 43850, sell = 4400 },

@@ -26,7 +26,7 @@
 	<outfit type="0" looktype="336" name="Warmaster" premium="yes" unlocked="yes" enabled="yes" from="quest" />
 	<outfit type="0" looktype="366" name="Wayfarer" premium="yes" unlocked="yes" enabled="yes" from="quest" />
 	<outfit type="0" looktype="431" name="Afflicted" premium="yes" unlocked="yes" enabled="yes" from="quest" />
-	<outfit type="0" looktype="433" name="Elementalist" premium="yes" unlocked="no" enabled="yes" from="quest" />
+	<outfit type="0" looktype="433" name="Elementalist" premium="yes" unlocked="yes" enabled="yes" from="quest" />
 	<outfit type="0" looktype="464" name="Deepling" premium="yes" unlocked="no" enabled="yes" from="quest" />
 	<outfit type="0" looktype="466" name="Insectoid" premium="yes" unlocked="no" enabled="yes" from="quest" />
 	<outfit type="0" looktype="471" name="Entrepreneur" premium="no" unlocked="no" enabled="yes" from="store" />
@@ -72,7 +72,7 @@
 	<outfit type="0" looktype="1043" name="Makeshift Warrior" premium="yes" unlocked="no" enabled="yes" from="quest" />
 	<outfit type="0" looktype="1050" name="Siege Master" premium="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="0" looktype="1057" name="Mercenary" premium="no" unlocked="no" enabled="yes" from="store" />
-	<outfit type="0" looktype="1070" name="Battle Mage" premium="yes" unlocked="no" enabled="yes" from="quest" />
+	<outfit type="0" looktype="1070" name="Battle Mage" premium="yes" unlocked="yes" enabled="yes" from="quest" />
 	<outfit type="0" looktype="1095" name="Discoverer" premium="yes" unlocked="no" enabled="yes" from="quest" />
 	<outfit type="0" looktype="1103" name="Sinister Archer" premium="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="0" looktype="1128" name="Pumpkin Mummy" premium="no" unlocked="no" enabled="yes" from="store" />
@@ -149,7 +149,7 @@
 	<outfit type="1" looktype="335" name="Warmaster" premium="yes" unlocked="yes" enabled="yes" from="quest" />
 	<outfit type="1" looktype="367" name="Wayfarer" premium="yes" unlocked="yes" enabled="yes" from="quest" />
 	<outfit type="1" looktype="430" name="Afflicted" premium="yes" unlocked="yes" enabled="yes" from="quest" />
-	<outfit type="1" looktype="432" name="Elementalist" premium="yes" unlocked="no" enabled="yes" from="quest" />
+	<outfit type="1" looktype="432" name="Elementalist" premium="yes" unlocked="yes" enabled="yes" from="quest" />
 	<outfit type="1" looktype="463" name="Deepling" premium="yes" unlocked="no" enabled="yes" from="quest" />
 	<outfit type="1" looktype="465" name="Insectoid" premium="yes" unlocked="no" enabled="yes" from="quest" />
 	<outfit type="1" looktype="472" name="Entrepreneur" premium="no" unlocked="no" enabled="yes" from="store" />
@@ -195,7 +195,7 @@
 	<outfit type="1" looktype="1042" name="Makeshift Warrior" premium="yes" unlocked="no" enabled="yes" from="quest" />
 	<outfit type="1" looktype="1051" name="Siege Master" premium="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="1" looktype="1056" name="Mercenary" premium="no" unlocked="no" enabled="yes" from="store" />
-	<outfit type="1" looktype="1069" name="Battle Mage" premium="yes" unlocked="no" enabled="yes" from="quest" />
+	<outfit type="1" looktype="1069" name="Battle Mage" premium="yes" unlocked="yes" enabled="yes" from="quest" />
 	<outfit type="1" looktype="1094" name="Discoverer" premium="yes" unlocked="no" enabled="yes" from="quest" />
 	<outfit type="1" looktype="1102" name="Sinister Archer" premium="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="1" looktype="1127" name="Pumpkin Mummy" premium="no" unlocked="no" enabled="yes" from="store" />
