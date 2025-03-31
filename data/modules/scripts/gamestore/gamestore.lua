@@ -755,6 +755,14 @@ GameStore.Categories = {
 		state = GameStore.States.STATE_NONE,
 		offers = {
 			{
+				icons = { "singeing_steed.png" },
+				name = "Singeing Steed",
+				price = 3,
+				id = 184,
+				description = "Singeing Steed\n{speedboost}\n\n<i>The Singeing Steed is a fiery horse that will carry you through the Tibian wilderness with ease. It is said that the steed was born from the flames of a dragon's breath. The steed is a loyal companion and will never leave your side.</i>",
+				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
+			},
+			{
 				icons = { "Armoured_War_Horse.png" },
 				name = "Armoured War Horse",
 				price = 3,
