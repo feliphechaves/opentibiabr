@@ -7246,7 +7246,7 @@ GameStore.Categories = {
 			{
 				icons = { "Kooldown_Aid.png" },
 				name = "Kooldown-Aid",
-				price = 15,
+				price = 7,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36723,
 				movable = true,
@@ -7257,7 +7257,7 @@ GameStore.Categories = {
 			{
 				icons = { "Strike_Enhancement.png" },
 				name = "Strike Enhancement",
-				price = 15,
+				price = 7,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36724,
 				movable = true,
@@ -7268,7 +7268,7 @@ GameStore.Categories = {
 			{
 				icons = { "Stamina_Extension.png" },
 				name = "Stamina Extension",
-				price = 30,
+				price = 15,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36725,
 				movable = true,
@@ -7279,7 +7279,7 @@ GameStore.Categories = {
 			{
 				icons = { "Charm_Upgrade.png" },
 				name = "Charm Upgrade",
-				price = 15,
+				price = 7,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36726,
 				movable = true,
@@ -7290,7 +7290,7 @@ GameStore.Categories = {
 			{
 				icons = { "Wealth_Duplex.png" },
 				name = "Wealth Duplex",
-				price = 30,
+				price = 15,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36727,
 				movable = true,
@@ -7301,7 +7301,7 @@ GameStore.Categories = {
 			{
 				icons = { "Bestiary_Betterment.png" },
 				name = "Bestiary Betterment",
-				price = 15,
+				price = 7,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36728,
 				movable = true,
@@ -7312,7 +7312,7 @@ GameStore.Categories = {
 			{
 				icons = { "Fire_Resilience.png" },
 				name = "Fire Resilience",
-				price = 15,
+				price = 7,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36729,
 				movable = true,
@@ -7323,7 +7323,7 @@ GameStore.Categories = {
 			{
 				icons = { "Ice_Resilience.png" },
 				name = "Ice Resilience",
-				price = 15,
+				price = 7,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36730,
 				movable = true,
@@ -7334,7 +7334,7 @@ GameStore.Categories = {
 			{
 				icons = { "Earth_Resilience.png" },
 				name = "Earth Resilience",
-				price = 15,
+				price = 7,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36731,
 				movable = true,
@@ -7345,7 +7345,7 @@ GameStore.Categories = {
 			{
 				icons = { "Energy_Resilience.png" },
 				name = "Energy Resilience",
-				price = 15,
+				price = 7,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36732,
 				movable = true,
@@ -7356,7 +7356,7 @@ GameStore.Categories = {
 			{
 				icons = { "Holy_Resilience.png" },
 				name = "Holy Resilience",
-				price = 15,
+				price = 7,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36733,
 				movable = true,
@@ -7367,7 +7367,7 @@ GameStore.Categories = {
 			{
 				icons = { "Death_Resilience.png" },
 				name = "Death Resilience",
-				price = 15,
+				price = 7,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36734,
 				movable = true,
@@ -7378,7 +7378,7 @@ GameStore.Categories = {
 			{
 				icons = { "Physical_Resilience.png" },
 				name = "Physical Resilience",
-				price = 15,
+				price = 7,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36735,
 				movable = true,
@@ -7389,7 +7389,7 @@ GameStore.Categories = {
 			{
 				icons = { "Fire_Amplification.png" },
 				name = "Fire Amplification",
-				price = 15,
+				price = 7,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36736,
 				movable = true,
@@ -7400,7 +7400,7 @@ GameStore.Categories = {
 			{
 				icons = { "Ice_Amplification.png" },
 				name = "Ice Amplification",
-				price = 15,
+				price = 7,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36737,
 				movable = true,
@@ -7411,7 +7411,7 @@ GameStore.Categories = {
 			{
 				icons = { "Earth_Amplification.png" },
 				name = "Earth Amplification",
-				price = 15,
+				price = 7,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36738,
 				movable = true,
@@ -7422,7 +7422,7 @@ GameStore.Categories = {
 			{
 				icons = { "Energy_Amplification.png" },
 				name = "Energy Amplification",
-				price = 15,
+				price = 7,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36739,
 				movable = true,
@@ -7433,7 +7433,7 @@ GameStore.Categories = {
 			{
 				icons = { "Holy_Amplification.png" },
 				name = "Holy Amplification",
-				price = 15,
+				price = 7,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36740,
 				movable = true,
@@ -7444,7 +7444,7 @@ GameStore.Categories = {
 			{
 				icons = { "Death_Amplification.png" },
 				name = "Death Amplification",
-				price = 15,
+				price = 7,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36741,
 				movable = true,
@@ -7455,7 +7455,7 @@ GameStore.Categories = {
 			{
 				icons = { "Physical_Amplification.png" },
 				name = "Physical Amplification",
-				price = 15,
+				price = 7,
 				coinType = GameStore.CoinType.Coin,
 				itemtype = 36742,
 				movable = true,
