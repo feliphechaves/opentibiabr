@@ -14,15 +14,22 @@ function emptybps.onUse(player, item, fromPosition, target, toPosition, isHotkey
 			end
 		end
 
+		-- Check for the exaltation chest in the main backpack
+		for _, itemZ in ipairs(player:getSlotItem(CONST_SLOT_BACKPACK):getItems(true)) do
+			if itemZ:getId() == 37561 and itemZ:getEmptySlots() == 2 then
+				toRemove[itemZ] = itemZ
+			end
+		end
+
 		for k, v in pairs(toRemove) do
 			v:remove()
 			removed = true
 		end
 
 		if removed then
-			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You cleaned your empty main shopping bags.")
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You cleaned your empty main shopping bags and empty exaltation chests.")
 		else
-			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have no shopping bags in your main backpack.")
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have no shopping bags or exaltation chests in your main backpack.")
 		end
 
 		if item:getId() == 39511 then
