@@ -79,18 +79,33 @@ local function allIPsAreDifferent(party)
 	return true
 end
 
+local function allIPsAreSame(party)
+	local leaderIp = party:getLeader():getIp()
+	for _, member in ipairs(party:getMembers()) do
+		if member:getIp() ~= leaderIp then
+			return false
+		end
+	end
+	return true
+end
+
 function Party:onShareExperience(exp)
 	local uniqueVocationsCount = self:getUniqueVocationsCount()
 	local partySize = self:getMemberCount() + 1
 
-	-- Formula to calculate the % based on the vocations amount
+	-- Regra nova: se todos os jogadores tiverem o mesmo IP e party >= 3, zera XP
+	if partySize >= 3 and allIPsAreSame(self) then
+		return 0
+	end
+
+	-- Fórmula do bônus por vocações diferentes
 	local sharedExperienceMultiplier = ((0.1 * (uniqueVocationsCount ^ 2)) - (0.2 * uniqueVocationsCount) + 1.3)
-	-- Since the formula its non linear, we need to subtract 0.1 if all vocations are present,
-	-- because on all vocations the multiplier is 2.1 and it should be 2.0
+	-- Ajuste se todas as vocações estiverem presentes
 	sharedExperienceMultiplier = partySize < 4 and sharedExperienceMultiplier or sharedExperienceMultiplier - 0.1
 
+	-- Bônus se todos os IPs forem diferentes
 	if allIPsAreDifferent(self) then
-		sharedExperienceMultiplier = sharedExperienceMultiplier * 1.5
+		sharedExperienceMultiplier = sharedExperienceMultiplier * 1.4
 	end
 
 	return math.ceil((exp * sharedExperienceMultiplier) / partySize)
