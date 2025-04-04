@@ -25,12 +25,12 @@ local config = {
 			teleportPosition = Position(32369, 32234, 7),
 			destinationPosition = Position(1143, 988, 6),
 		},
-		["Friday"] = {
-			bossName = "Morshabaal",
-			bossPosition = Position(1185, 989, 6),
-			teleportPosition = Position(32369, 32234, 7),
-			destinationPosition = Position(1143, 988, 6),
-		},
+		 ["Friday"] = {
+		 	bossName = "Morshabaal",
+		 	bossPosition = Position(1185, 989, 6),
+		 	teleportPosition = Position(32369, 32234, 7),
+		 	destinationPosition = Position(1143, 988, 6),
+		 },
 		["Saturday"] = {
 			bossName = "Aries",
 			bossPosition = Position(1185, 989, 6),
@@ -38,10 +38,10 @@ local config = {
 			destinationPosition = Position(1143, 988, 6),
 		},
 		["Sunday"] = {
-			bossName = "Aries",
-			bossPosition = Position(1185, 989, 6),
+			bossName = "Ferumbras",
+			bossPosition = Position(32254, 32175, 12),
 			teleportPosition = Position(32369, 32234, 7),
-			destinationPosition = Position(1143, 988, 6),
+			destinationPosition = Position(32254, 32181, 13),
 		},
 	},
 	spawnTime = "20:00:00",
