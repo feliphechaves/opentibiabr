@@ -6,7 +6,7 @@ function AutoBroadCast.onThink(interval, lastExecution)
 		"[Silver Tokens]: Looking to gather Dusts? Use a Silver Token to get 130 Dusts for 10kk (only 8kk if you're VIP)!",
 		"[Gold Tokens]: Upgrade your gear! Exchange your Gold Tokens for Class 4 items with Goldoken. Don't miss the opportunity to get stronger!",
 		"[Supreme Imbuements]: Maximize your power with Supreme Imbuements! They are stronger, last longer, and can be yours for Gold Tokens. Upgrade now and dominate the battlefield!",
-		"[Daily Boss]: Ready for epic rewards? The Daily Boss spawns every day at 19:00! Find the teleport in the center of Thais temple and claim amazing loot.",
+		"[Daily Boss]: Ready for epic rewards? The Daily Boss spawns every day at 20:00! Find the teleport in the center of Thais temple and claim amazing loot.",
 		"[Gold Transfer]: Need to send gold quickly? Use the command !transfer character, amount to transfer gold instantly, no need to visit the bank. Convenient and fast!",
 		"[Task Sword]: Looking for exciting rewards? Interact with the sword in the Hunts Teleports room to start tasks and claim amazing prizes. Adventure awaits!",
 		"[Boss Room]: Every boss in the Boss Room drops Gold Tokens! Challenge them, defeat them, and collect your rewards.",
