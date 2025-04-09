@@ -9,7 +9,7 @@ local bpItems = {
 	{ name = "red gem", count = 1 },
 	{ name = "demon horn", count = 2 },
 	{ name = "slime heart", count = 2 },
-	{ name = "energy vein", count = 2 },
+	--{ name = "energy vein", count = 2 },
 	{ name = "petrified scream", count = 2 },
 	{ name = "brimstone shell", count = 2 },
 	{ name = "deepling warts", count = 2 },
@@ -40,10 +40,10 @@ function finalReward.onUse(player, item, fromPosition, target, toPosition, isHot
 		return true
 	end
 
-	if player:getStorageValue(Storage.Quest.U11_02.TheFirstDragon.Feathers) ~= 2 then
-		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You are not eligible to claim these rewards yet.")
-		return true
-	end
+	-- if player:getStorageValue(Storage.Quest.U11_02.TheFirstDragon.Feathers) ~= 2 then
+	-- 	player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You are not eligible to claim these rewards yet.")
+	-- 	return true
+	-- end
 
 	if item.uid == 14021 and player:getStorageValue(Storage.Quest.U11_02.TheFirstDragon.RewardMask) < os.time() then
 		player:addItem(setting.name, setting.count, true)
