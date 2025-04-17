@@ -135,7 +135,7 @@ local function creatureSayCallback(npc, creature, type, message)
 	if addoninfo[message] ~= nil then
 		local itemsTable = addoninfo[message].items
 		local items_list = ""
-		if getPlayerStorageValue(creature, addoninfo[message].storageID) ~= -1 then
+		if getPlayerStorageValue(creature, addoninfo[message].storageID) == 1 then
 			npcHandler:say("You already have this addon!", npc, creature)
 			npcHandler:resetNpc(creature)
 			return true

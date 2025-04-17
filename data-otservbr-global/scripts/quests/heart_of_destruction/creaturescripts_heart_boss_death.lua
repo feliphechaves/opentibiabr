@@ -1,26 +1,28 @@
 function clearDevourer()
-	local upConer = { x = 32260, y = 31336, z = 14 } -- upLeftCorner
-	local downConer = { x = 32283, y = 31360, z = 14 } -- downRightCorner
-	for i = upConer.x, downConer.x do
-		for j = upConer.y, downConer.y do
-			for k = upConer.z, downConer.z do
-				local tile = Tile(i, j, k)
-				if tile then
-					local creatures = tile:getCreatures()
-					if creatures and #creatures > 0 then
-						for _, creature in pairs(creatures) do
-							if creature:isMonster() then -- éMonstro
-								creature:remove()
+	addEvent(function()
+		local upConer = { x = 32260, y = 31336, z = 14 } -- upLeftCorner
+		local downConer = { x = 32283, y = 31360, z = 14 } -- downRightCorner
+		for i = upConer.x, downConer.x do
+			for j = upConer.y, downConer.y do
+				for k = upConer.z, downConer.z do
+					local tile = Tile(i, j, k)
+					if tile then
+						local creatures = tile:getCreatures()
+						if creatures and #creatures > 0 then
+							for _, creature in pairs(creatures) do
+								if creature:isMonster() and not creature:getMaster() then
+									creature:remove()
+								end
 							end
 						end
 					end
 				end
 			end
 		end
-	end
-	stopEvent(areaDevourer4)
-	stopEvent(areaDevourer5)
-	stopEvent(areaDevourer6)
+		stopEvent(areaDevourer4)
+		stopEvent(areaDevourer5)
+		stopEvent(areaDevourer6)
+	end, 180000) -- 3 minutos de delay
 end
 
 local function setStorageDevourer()
