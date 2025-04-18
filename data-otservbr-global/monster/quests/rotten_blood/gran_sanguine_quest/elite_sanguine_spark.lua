@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Elite Sanguine Spark")
 local monster = {}
 
 monster.description = "an elite sanguine spark"
-monster.experience = 360000
+monster.experience = 252000 -- 360000 * 0.7
 monster.outfit = {
 	lookType = 2513,
 	lookHead = 0,
@@ -25,8 +25,8 @@ monster.Bestiary = {
 	Occurrence = 0,
 }
 
-monster.health = 440000
-monster.maxHealth = 440000
+monster.health = 308000 -- 440000 * 0.7
+monster.maxHealth = 308000 -- 440000 * 0.7
 monster.race = "undead"
 monster.corpse = 8136
 monster.speed = 195
@@ -96,11 +96,11 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 20, minDamage = -0, maxDamage = -14000 },
-	{ name = "combat", interval = 2500, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -16000, maxDamage = -36000, radius = 5, effect = CONST_ME_PURPLESMOKE, target = true },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_ENERGYDAMAGE, minDamage = -16000, maxDamage = -40000, length = 8, spread = 3, effect = CONST_ME_ELECTRICALSPARK, target = false },
-	{ name = "largeenergyring", interval = 2000, chance = 10, minDamage = -16000, maxDamage = -40000, target = false },
-	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_MANADRAIN, minDamage = -4000, maxDamage = -12000, range = 7, target = false },
+	{ name = "melee", interval = 2000, chance = 20, minDamage = -0, maxDamage = -9800 }, -- 14000 * 0.7
+	{ name = "combat", interval = 2500, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -11200, maxDamage = -25200, radius = 5, effect = CONST_ME_PURPLESMOKE, target = true }, -- 16000 * 0.7, 36000 * 0.7
+	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_ENERGYDAMAGE, minDamage = -11200, maxDamage = -28000, length = 8, spread = 3, effect = CONST_ME_ELECTRICALSPARK, target = false }, -- 16000 * 0.7, 40000 * 0.7
+	{ name = "largeenergyring", interval = 2000, chance = 10, minDamage = -11200, maxDamage = -28000, target = false }, -- 16000 * 0.7, 40000 * 0.7
+	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_MANADRAIN, minDamage = -2800, maxDamage = -8400, range = 7, target = false }, -- 4000 * 0.7, 12000 * 0.7
 }
 
 monster.defenses = {

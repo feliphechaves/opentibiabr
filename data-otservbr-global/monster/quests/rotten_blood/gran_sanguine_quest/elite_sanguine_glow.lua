@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Elite Sanguine Glow")
 local monster = {}
 
 monster.description = "an elite sanguine glow"
-monster.experience = 360000
+monster.experience = 252000
 monster.outfit = {
 	lookType = 2512,
 	lookHead = 0,
@@ -25,8 +25,8 @@ monster.Bestiary = {
 	Occurrence = 0,
 }
 
-monster.health = 440000
-monster.maxHealth = 440000
+monster.health = 308000
+monster.maxHealth = 308000
 monster.race = "undead"
 monster.corpse = 8181
 monster.speed = 195
@@ -91,11 +91,11 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 30, minDamage = -0, maxDamage = -14000 },
-	{ name = "combat", interval = 2000, chance = 35, type = COMBAT_HOLYDAMAGE, minDamage = -10000, maxDamage = -14400, radius = 5, effect = CONST_ME_PURPLESMOKE, target = true },
-	{ name = "largeholyring", interval = 2500, chance = 15, minDamage = -6000, maxDamage = -18000, target = false },
-	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_HOLYDAMAGE, minDamage = -10000, maxDamage = -20000, radius = 5, effect = CONST_ME_GHOSTLY_BITE, target = true },
-	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_MANADRAIN, minDamage = -4000, maxDamage = -12000, range = 7, target = false },
+	{ name = "melee", interval = 2000, chance = 30, minDamage = -0, maxDamage = -9800 },
+	{ name = "combat", interval = 2000, chance = 35, type = COMBAT_HOLYDAMAGE, minDamage = -7000, maxDamage = -10080, radius = 5, effect = CONST_ME_PURPLESMOKE, target = true },
+	{ name = "largeholyring", interval = 2500, chance = 15, minDamage = -4200, maxDamage = -12600, target = false },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_HOLYDAMAGE, minDamage = -7000, maxDamage = -14000, radius = 5, effect = CONST_ME_GHOSTLY_BITE, target = true },
+	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_MANADRAIN, minDamage = -2800, maxDamage = -8400, range = 7, target = false },
 }
 
 monster.defenses = {

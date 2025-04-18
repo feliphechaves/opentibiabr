@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Elite Sanguine Shade")
 local monster = {}
 
 monster.description = "an elite sanguine shade"
-monster.experience = 360000
+monster.experience = 252000 -- 360000 * 0.7
 monster.outfit = {
 	lookType = 2517,
 	lookHead = 0,
@@ -25,8 +25,8 @@ monster.Bestiary = {
 	Occurrence = 0,
 }
 
-monster.health = 440000
-monster.maxHealth = 440000
+monster.health = 308000 -- 440000 * 0.7
+monster.maxHealth = 308000 -- 440000 * 0.7
 monster.race = "undead"
 monster.corpse = 8181
 monster.speed = 195
@@ -91,11 +91,11 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -14000 },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = -10000, maxDamage = -14400, range = 7, shootEffect = CONST_ANI_SUDDENDEATH, effect = CONST_ME_MORTAREA, target = false },
-	{ name = "combat", interval = 2000, chance = 30, type = COMBAT_DEATHDAMAGE, minDamage = -6000, maxDamage = -18000, length = 8, spread = 0, effect = CONST_ME_MORTAREA, target = false },
-	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -12000, maxDamage = -16000, length = 7, spread = 0, effect = CONST_ME_EXPLOSIONAREA, target = false },
-	{ name = "combat", interval = 2000, chance = 35, type = COMBAT_DEATHDAMAGE, minDamage = -4000, maxDamage = -12000, radius = 4, effect = CONST_ME_MORTAREA, target = false },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -9800 }, -- 14000 * 0.7
+	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = -7000, maxDamage = -10080, range = 7, shootEffect = CONST_ANI_SUDDENDEATH, effect = CONST_ME_MORTAREA, target = false }, -- 10000 * 0.7, 14400 * 0.7
+	{ name = "combat", interval = 2000, chance = 30, type = COMBAT_DEATHDAMAGE, minDamage = -4200, maxDamage = -12600, length = 8, spread = 0, effect = CONST_ME_MORTAREA, target = false }, -- 6000 * 0.7, 18000 * 0.7
+	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -8400, maxDamage = -11200, length = 7, spread = 0, effect = CONST_ME_EXPLOSIONAREA, target = false }, -- 12000 * 0.7, 16000 * 0.7
+	{ name = "combat", interval = 2000, chance = 35, type = COMBAT_DEATHDAMAGE, minDamage = -2800, maxDamage = -8400, radius = 4, effect = CONST_ME_MORTAREA, target = false }, -- 4000 * 0.7, 12000 * 0.7
 }
 
 monster.defenses = {
