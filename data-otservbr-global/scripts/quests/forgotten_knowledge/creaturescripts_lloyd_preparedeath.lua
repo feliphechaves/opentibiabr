@@ -31,17 +31,26 @@ local lloydPrepareDeath = CreatureEvent("LloydPrepareDeath")
 function lloydPrepareDeath.onPrepareDeath(creature, lastHitKiller, mostDamageKiller)
 	local prismCount = 1
 	for m = 1, #monsters do
-		local cosmic = Tile(Position(monsters[m].pos)):getTopCreature()
-		if not cosmic then
-			prismCount = prismCount + 1
+		local tile = Tile(monsters[m].pos)
+		if tile then
+			local cosmic = tile:getTopCreature()
+			if not cosmic then
+				prismCount = prismCount + 1
+			end
 		end
 	end
 
 	local reborn = false
 	if prismCount <= 4 then
-		Tile(monsters[prismCount].pos):getTopCreature():remove()
-		Game.createMonster(monsters[prismCount].cosmicNormal, Position(monsters[prismCount].pos), true, true)
-		reborn = true
+		local tile = Tile(monsters[prismCount].pos)
+		if tile then
+			local creature = tile:getTopCreature()
+			if creature then
+				creature:remove()
+			end
+			Game.createMonster(monsters[prismCount].cosmicNormal, Position(monsters[prismCount].pos), true, true)
+			reborn = true
+		end
 	end
 
 	if reborn then
