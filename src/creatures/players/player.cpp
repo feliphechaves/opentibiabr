@@ -10752,12 +10752,12 @@ bool Player::canSpeakWithHireling(uint8_t speechbubble) {
 }
 
 uint16_t Player::getPlayerVocationEnum() const {
-	const auto &vocationPtr = getVocation();
+	const auto &vocation = getVocation();
 	if (!vocation) {
 		return 0;
 	}
 
-	const int cipTibiaId = vocationPtr->getClientId();
+	const int cipTibiaId = vocation->getClientId();
 	if (cipTibiaId == 1 || cipTibiaId == 11) {
 		return Vocation_t::VOCATION_KNIGHT_CIP; // Knight
 	} else if (cipTibiaId == 2 || cipTibiaId == 12) {
