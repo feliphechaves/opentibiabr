@@ -5439,6 +5439,13 @@
 		<monster name="Elite Sanguine Frost" x="1" y="0" z="7" spawntime="60" />
 		<monster name="Elite Sanguine Frost" x="0" y="1" z="7" spawntime="60" />
 	</monster>
+	<monster centerx="1824" centery="786" centerz="7" radius="1">
+		<monster name="Elite Sanguine Boulder" x="-1" y="-1" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="1" y="-1" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="1" y="1" z="7" spawntime="60" />
+	</monster>
 	<monster centerx="1832" centery="786" centerz="7" radius="1">
 		<monster name="Elite Sanguine Boulder" x="0" y="0" z="7" spawntime="60" />
 	</monster>
@@ -5598,6 +5605,13 @@
 		<monster name="Sanguine Spark" x="-2" y="3" z="7" spawntime="60" />
 		<monster name="Sanguine Boulder" x="0" y="3" z="7" spawntime="60" />
 		<monster name="Sanguine Boulder" x="2" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1855" centery="791" centerz="7" radius="1">
+		<monster name="Elite Sanguine Boulder" x="-1" y="-1" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="1" y="-1" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="953" centery="792" centerz="7" radius="4">
 		<monster name="Sanguine Ember" x="-2" y="-1" z="7" spawntime="60" />
@@ -5872,6 +5886,13 @@
 	<monster centerx="1860" centery="797" centerz="7" radius="1">
 		<monster name="Elite Sanguine Boulder" x="0" y="0" z="7" spawntime="60" />
 	</monster>
+	<monster centerx="1888" centery="797" centerz="7" radius="1">
+		<monster name="Elite Sanguine Boulder" x="-1" y="-1" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="1" y="-1" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="1" y="1" z="7" spawntime="60" />
+	</monster>
 	<monster centerx="2091" centery="797" centerz="7" radius="1">
 		<monster name="Elite Sanguine Shade" x="1" y="-1" z="7" spawntime="60" />
 		<monster name="Elite Sanguine Shade" x="0" y="0" z="7" spawntime="60" />
@@ -6043,6 +6064,13 @@
 	<monster centerx="1730" centery="800" centerz="7" radius="1">
 		<monster name="Elite Sanguine Frost" x="-1" y="1" z="7" spawntime="60" />
 		<monster name="Elite Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1833" centery="800" centerz="7" radius="1">
+		<monster name="Elite Sanguine Boulder" x="-1" y="-1" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="1" y="-1" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1893" centery="800" centerz="7" radius="1">
 		<monster name="Elite Sanguine Boulder" x="0" y="0" z="7" spawntime="60" />
@@ -6559,6 +6587,13 @@
 		<monster name="Elite Sanguine Frost" x="-1" y="0" z="7" spawntime="60" />
 		<monster name="Elite Sanguine Frost" x="1" y="0" z="7" spawntime="60" />
 		<monster name="Elite Sanguine Frost" x="1" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1858" centery="814" centerz="7" radius="1">
+		<monster name="Elite Sanguine Boulder" x="-1" y="-1" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="1" y="-1" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="2101" centery="814" centerz="7" radius="1">
 		<monster name="Elite Sanguine Shade" x="0" y="0" z="7" spawntime="60" />
@@ -7126,6 +7161,13 @@
 	</monster>
 	<monster centerx="1839" centery="840" centerz="7" radius="1">
 		<monster name="Elite Sanguine Boulder" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1844" centery="840" centerz="7" radius="1">
+		<monster name="Elite Sanguine Boulder" x="-1" y="-1" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="1" y="-1" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Elite Sanguine Boulder" x="1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="899" centery="841" centerz="7" radius="4">
 		<monster name="Sanguine Ember" x="-2" y="-1" z="7" spawntime="60" />
