@@ -948,6 +948,10 @@ function onUseCrowbar(player, item, fromPosition, target, toPosition, isHotkey)
 end
 
 function onUseSpoon(player, item, fromPosition, target, toPosition, isHotkey)
+	if not target or not target.getId then
+		return false
+	end
+
 	local targetId = target:getId()
 
 	if targetId == 3920 then
