@@ -651,6 +651,108 @@ taskConfiguration = {
 			"Sanguine Shade",
 		},
 	},
+
+	{
+		name = "Elite Sanguine Glow",
+		color = 40,
+		total = 50000,
+		type = "daily",
+		storage = 190062,
+		storagecount = 190063,
+		rewards = {
+			{ "level", 1 },
+			{ "gold", 75000000 },
+			{ 46626, 3 }, --greater fragment
+		},
+		races = {
+			"Elite Sanguine Glow",
+		},
+	},
+
+	{
+		name = "Elite Sanguine Shade",
+		color = 40,
+		total = 50000,
+		type = "daily",
+		storage = 190064,
+		storagecount = 190065,
+		rewards = {
+			{ "level", 1 },
+			{ "gold", 75000000 },
+			{ 46626, 3 }, --greater fragment
+		},
+		races = {
+			"Elite Sanguine Shade",
+		},
+	},
+
+	{
+		name = "Elite Sanguine Ember",
+		color = 40,
+		total = 50000,
+		type = "daily",
+		storage = 190066,
+		storagecount = 190067,
+		rewards = {
+			{ "level", 1 },
+			{ "gold", 75000000 },
+			{ 46626, 3 }, --greater fragment
+		},
+		races = {
+			"Elite Sanguine Ember",
+		},
+	},
+
+	{
+		name = "Elite Sanguine Frost",
+		color = 40,
+		total = 50000,
+		type = "daily",
+		storage = 190068,
+		storagecount = 190069,
+		rewards = {
+			{ "level", 1 },
+			{ "gold", 75000000 },
+			{ 46626, 3 }, --greater fragment
+		},
+		races = {
+			"Elite Sanguine Frost",
+		},
+	},
+
+	{
+		name = "Elite Sanguine Boulder",
+		color = 40,
+		total = 50000,
+		type = "daily",
+		storage = 190070,
+		storagecount = 190071,
+		rewards = {
+			{ "level", 1 },
+			{ "gold", 75000000 },
+			{ 46626, 3 }, --greater fragment
+		},
+		races = {
+			"Elite Sanguine Boulder",
+		},
+	},
+
+	{
+		name = "Elite Sanguine Spark",
+		color = 40,
+		total = 50000,
+		type = "daily",
+		storage = 190072,
+		storagecount = 190073,
+		rewards = {
+			{ "level", 1 },
+			{ "gold", 75000000 },
+			{ 46626, 3 }, --greater fragment
+		},
+		races = {
+			"Elite Sanguine Spark",
+		},
+	},
 }
 
 squareWaitTime = 5000
