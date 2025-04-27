@@ -660,9 +660,11 @@ taskConfiguration = {
 		storage = 190062,
 		storagecount = 190063,
 		rewards = {
-			{ "level", 1 },
-			{ "gold", 75000000 },
-			{ 46626, 3 }, --greater fragment
+			{ "level", 2 },
+			{ "exp", 200000000 },
+			{ "gold", 150000000 },
+			{ 46626, 10 }, --greater fragment
+			{ 49609, 2 }, --essence of health
 		},
 		races = {
 			"Elite Sanguine Glow",
@@ -677,9 +679,11 @@ taskConfiguration = {
 		storage = 190064,
 		storagecount = 190065,
 		rewards = {
-			{ "level", 1 },
-			{ "gold", 75000000 },
-			{ 46626, 3 }, --greater fragment
+			{ "level", 2 },
+			{ "exp", 200000000 },
+			{ "gold", 150000000 },
+			{ 46626, 10 }, --greater fragment
+			{ 49609, 2 }, --essence of health
 		},
 		races = {
 			"Elite Sanguine Shade",
@@ -694,9 +698,11 @@ taskConfiguration = {
 		storage = 190066,
 		storagecount = 190067,
 		rewards = {
-			{ "level", 1 },
-			{ "gold", 75000000 },
-			{ 46626, 3 }, --greater fragment
+			{ "level", 2 },
+			{ "exp", 200000000 },
+			{ "gold", 150000000 },
+			{ 46626, 10 }, --greater fragment
+			{ 49609, 2 }, --essence of health
 		},
 		races = {
 			"Elite Sanguine Ember",
@@ -711,9 +717,11 @@ taskConfiguration = {
 		storage = 190068,
 		storagecount = 190069,
 		rewards = {
-			{ "level", 1 },
-			{ "gold", 75000000 },
-			{ 46626, 3 }, --greater fragment
+			{ "level", 2 },
+			{ "exp", 200000000 },
+			{ "gold", 150000000 },
+			{ 46626, 10 }, --greater fragment
+			{ 49609, 2 }, --essence of health
 		},
 		races = {
 			"Elite Sanguine Frost",
@@ -728,9 +736,11 @@ taskConfiguration = {
 		storage = 190070,
 		storagecount = 190071,
 		rewards = {
-			{ "level", 1 },
-			{ "gold", 75000000 },
-			{ 46626, 3 }, --greater fragment
+			{ "level", 2 },
+			{ "exp", 200000000 },
+			{ "gold", 150000000 },
+			{ 46626, 10 }, --greater fragment
+			{ 49609, 2 }, --essence of health
 		},
 		races = {
 			"Elite Sanguine Boulder",
@@ -745,12 +755,52 @@ taskConfiguration = {
 		storage = 190072,
 		storagecount = 190073,
 		rewards = {
-			{ "level", 1 },
-			{ "gold", 75000000 },
-			{ 46626, 3 }, --greater fragment
+			{ "level", 2 },
+			{ "exp", 200000000 },
+			{ "gold", 150000000 },
+			{ 46626, 10 }, --greater fragment
+			{ 49609, 2 }, --essence of health
 		},
 		races = {
 			"Elite Sanguine Spark",
+		},
+	},
+
+	{
+		name = "Rotting",
+		color = 40,
+		total = 55000,
+		type = "daily",
+		storage = 190074,
+		storagecount = 190075,
+		rewards = {
+			{ 46626, 1 }, --greater fragment
+			{ "level", 1 },
+			{ "gold", 20000000 },
+		},
+		races = {
+			"Rotting Nutshell",
+			"Rotting Amber Shaper",
+			"Rotting Bug Tracker",
+		},
+	},
+
+	{
+		name = "Quaras",
+		color = 40,
+		total = 55000,
+		type = "daily",
+		storage = 190076,
+		storagecount = 190077,
+		rewards = {
+			{ 46626, 1 }, --greater fragment
+			{ "level", 1 },
+			{ "gold", 20000000 },
+		},
+		races = {
+			"Quara Plunderer",
+			"Quara Raider",
+			"Quara Looter",
 		},
 	},
 }
