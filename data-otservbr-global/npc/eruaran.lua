@@ -156,20 +156,16 @@ local function dreamFirst(npc, creature, message, keywords, parameters, node)
 	end
 
 	if player:isPremium() then
-		if player:getStorageValue(storage + 1) < 1 then
-			if player:getItemCount(20276) > 0 then
-				if player:removeItem(20276, 1) then
-					npcHandler:say(newAddon, npc, creature)
-					player:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE)
-					player:addOutfitAddon(577, 1)
-					player:addOutfitAddon(577, 1)
-					player:setStorageValue(storage + 1, 1)
-				end
-			else
-				npcHandler:say(noItems, npc, creature)
+		if player:getItemCount(20276) > 0 then
+			if player:removeItem(20276, 1) then
+				npcHandler:say(newAddon, npc, creature)
+				player:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE)
+				player:addOutfitAddon(577, 1)
+				player:addOutfitAddon(577, 1)
+				player:setStorageValue(storage + 1, 1)
 			end
 		else
-			npcHandler:say(alreadyHaveAddon, npc, creature)
+			npcHandler:say(noItems, npc, creature)
 		end
 	end
 end
@@ -181,20 +177,16 @@ local function dreamSecond(npc, creature, message, keywords, parameters, node)
 	end
 
 	if player:isPremium() then
-		if player:getStorageValue(storage) < 1 then
-			if player:getItemCount(20275) > 0 then
-				if player:removeItem(20275, 1) then
-					npcHandler:say(newAddon, npc, creature)
-					player:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE)
-					player:addOutfitAddon(577, 2)
-					player:addOutfitAddon(577, 2)
-					player:setStorageValue(storage, 1)
-				end
-			else
-				npcHandler:say(noItems, npc, creature)
+		if player:getItemCount(20275) > 0 then
+			if player:removeItem(20275, 1) then
+				npcHandler:say(newAddon, npc, creature)
+				player:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE)
+				player:addOutfitAddon(577, 2)
+				player:addOutfitAddon(577, 2)
+				player:setStorageValue(storage, 1)
 			end
 		else
-			npcHandler:say(alreadyHaveAddon, npc, creature)
+			npcHandler:say(noItems, npc, creature)
 		end
 	end
 end
