@@ -767,7 +767,7 @@ taskConfiguration = {
 	},
 
 	{
-		name = "Rotting",
+		name = "Rootting",
 		color = 40,
 		total = 55000,
 		type = "daily",
@@ -779,9 +779,9 @@ taskConfiguration = {
 			{ "gold", 20000000 },
 		},
 		races = {
-			"Rotting Nutshell",
-			"Rotting Amber Shaper",
-			"Rotting Bug Tracker",
+			"Rootthing Nutshell",
+			"Rootthing Amber Shaper",
+			"Rootthing Bug Tracker",
 		},
 	},
 
