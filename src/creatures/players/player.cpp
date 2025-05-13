@@ -4849,7 +4849,8 @@ void Player::stashContainer(const StashContainerList &itemDict) {
 			}
 		} else {
 			if (const auto &parent = item->getParent()) {
-				if (parent && parent->getItem()->getID() == ITEM_BROWSEFIELD) {
+				const auto &parentItem = parent->getItem();
+				if (parentItem && parentItem->getID() == ITEM_BROWSEFIELD) {
 					const auto &parentTile = parent->getTile();
 					if (parentTile) {
 						parentTile->removeThing(item, itemCount);
