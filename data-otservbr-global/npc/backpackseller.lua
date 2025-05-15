@@ -99,8 +99,72 @@ local function creatureSayCallback(npc, creature, type, message)
 	if not npcHandler:checkInteraction(npc, creature) then
 		return false
 	end
+
+	message = message:lower()
+
+	if message == "upgrade" or message == "exchange" then
+		local vocationId = player:getVocation():getBase():getId()
+		local backpacks = {
+			[1] = {name = "Necromantic Backpack", itemId = 49622},
+			[2] = {name = "Nature's Backpack", itemId = 49619},
+			[3] = {name = "Celestial Archer Backpack", itemId = 49621},
+			[4] = {name = "Bloodrage Backpack", itemId = 49620},
+		}
+
+		local selected = backpacks[vocationId]
+		if not selected then
+			npcHandler:say("Your vocation is not eligible for a special backpack.", npc, creature)
+			return true
+		end
+
+		npcHandler:say("Do you want to trade your Aiolos Backpack (must be equipped), 15 Tibia Coins and 3 Essence of Health for a "..selected.name.."? {Warning: any items inside your backpack will be lost!}", npc, creature)
+		npcHandler:setTopic(playerId, 1)
+		player:setStorageValue(100991, selected.itemId) -- temporariamente guarda o itemId alvo
+	elseif message == "yes" and npcHandler:getTopic(player:getId()) == 1 then
+		local backpackId = player:getStorageValue(100991)
+		if not backpackId or backpackId <= 0 then
+			npcHandler:say("Something went wrong. Please start the trade again.", npc, creature)
+			return true
+		end
+
+		local AIOLOS_ID = 21292
+		local TC_ID = 22118
+		local ESSENCE_ID = 49609
+
+		local equippedBackpack = player:getSlotItem(CONST_SLOT_BACKPACK)
+		if not equippedBackpack or equippedBackpack:getId() ~= AIOLOS_ID then
+			npcHandler:say("You must be wearing the Aiolos Backpack to proceed with the upgrade.", npc, creature)
+			return true
+		end
+
+
+		if player:getItemCount(TC_ID) < 15 then
+			npcHandler:say("You need at least 15 Tibia Coins.", npc, creature)
+			return true
+		end
+
+		if player:getItemCount(ESSENCE_ID) < 3 then
+			npcHandler:say("You need 3 Essences of Health.", npc, creature)
+			return true
+		end
+
+		player:removeItem(AIOLOS_ID, 1)
+		player:removeItem(TC_ID, 15)
+		player:removeItem(ESSENCE_ID, 1)
+		player:addItem(backpackId, 1)
+
+		npcHandler:say("Here's your new backpack. Wear it with pride!", npc, creature)
+		npcHandler:setTopic(player:getId(), 0)
+		player:setStorageValue(100991, -1)
+	elseif message == "no" and npcHandler:getTopic(player:getId()) == 1 then
+		npcHandler:say("Alright, maybe another time.", npc, creature)
+		npcHandler:setTopic(player:getId(), 0)
+		player:setStorageValue(100991, -1)
+	end
+
 	return true
 end
+
 
 local function onTradeRequest(npc, creature)
 	return true
@@ -124,7 +188,7 @@ npcType.onSellItem = function(npc, player, itemId, subtype, amount, ignore, name
 	player:sendTextMessage(MESSAGE_TRADE, string.format("Sold %ix %s for %i gold.", amount, name, totalCost))
 end
 -- On check npc shop message (look item)
-npcHandler:setMessage(MESSAGE_GREET, "Hello, Player! How may I be of service? Do you wish to {trade} some backpacks?")
+npcHandler:setMessage(MESSAGE_GREET, "Hey |PLAYERNAME|! I sell all kinds of backpacks. To open my shop, say {trade}. To upgrade your Aiolos Backpack, say {upgrade}.")
 npcType.onCheckItem = function(npc, player, clientId, subType) end
 
 npcType:register(npcConfig)
