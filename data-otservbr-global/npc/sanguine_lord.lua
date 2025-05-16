@@ -58,7 +58,7 @@ local function creatureSayCallback(npc, creature, type, message)
 		npcHandler:setTopic(playerId, 2)
 	elseif MsgContains(message, "yes") and npcHandler:getTopic(playerId) == 2 then
 		npcHandler:setTopic(playerId, 0)
-		if player:getItemCount(49609) < 3 then
+		if player:getItemCount(65020) < 3 then
 			npcHandler:say("You dare to deceive me? Return only when you possess all the required items, wretched fool!", npc, creature)
 			return true
 		end
@@ -68,7 +68,7 @@ local function creatureSayCallback(npc, creature, type, message)
 			return true
 		end
 
-		if player:removeItem(49609, 3) then
+		if player:removeItem(65020, 3) then
 			player:addItem(GRAND_SANGUINE_BAG, 1)
 			player:addHealth(-player:getHealth() + 1)
 			player:addMana(-player:getMana() + 1)

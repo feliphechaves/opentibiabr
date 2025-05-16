@@ -7790,7 +7790,7 @@
 		<attribute key="charges" value="4"/>
 		<attribute key="weight" value="52"/>
 	</item>
-	<item id="49279" article="a" name="supreme stone shower rune">
+	<item id="65000" article="a" name="supreme stone shower rune">
 		<attribute key="primarytype" value="attack runes"/>
 		<attribute key="type" value="rune"/>
 		<attribute key="charges" value="4"/>
@@ -29638,7 +29638,7 @@
 		<attribute key="primarytype" value="rubbish"/>
 		<attribute key="weight" value="50"/>
 	</item>
-	<item id="12210" name="strange violet powder">
+	<item id="12210" name="charm pownder">
 		<attribute key="primarytype" value="rubbish"/>
 		<attribute key="weight" value="50"/>
 	</item>
@@ -42211,7 +42211,7 @@
 			<attribute key="slot" value="backpack"/>
 		</attribute>
 	</item>
-	<item id="49622" article="a" name="Necromantic Backpack">
+	<item id="65033" article="a" name="Necromantic Backpack">
 		<attribute key="showAttributes" value="1"/>
 		<attribute key="manaticks" value="6000"/>
 		<attribute key="managain" value="50"/>
@@ -42238,7 +42238,7 @@
 			<attribute key="vocation" value="Sorcerer;true, Master Sorcerer"/>
 		</attribute>
 	</item>
-	<item id="49619" article="a" name="Nature's Backpack">
+	<item id="65030" article="a" name="Nature's Backpack">
 		<attribute key="showAttributes" value="1"/>
 		<attribute key="manaticks" value="6000"/>
 		<attribute key="managain" value="50"/>
@@ -42266,7 +42266,7 @@
 			<attribute key="vocation" value="Druid;true, Elder Druid"/>
 		</attribute>
 	</item>
-	<item id="49620" article="a" name="Bloodrage Backpack">
+	<item id="65031" article="a" name="Bloodrage Backpack">
 		<attribute key="showAttributes" value="1"/>
 		<attribute key="manaticks" value="3000"/>
 		<attribute key="managain" value="25"/>
@@ -42298,7 +42298,7 @@
 			<attribute key="vocation" value="Knight;true, Elite Knight"/>
 		</attribute>
 	</item>
-	<item id="49621" article="a" name="Celestial Archer Backpack">
+	<item id="65032" article="a" name="Celestial Archer Backpack">
 		<attribute key="showAttributes" value="1"/>
 		<attribute key="manaticks" value="4000"/>
 		<attribute key="managain" value="40"/>
@@ -53471,38 +53471,38 @@
 		<attribute key="charges" value="500"/>
 		<attribute key="weight" value="1000"/>
 	</item>
-	<item id="49280" article="a" name="aiolos exercise dummy">
+	<item id="65001" article="a" name="aiolos exercise dummy">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="description" value="You can train your skills by using training weapons with this expert exercise dummy"/>
 		<attribute key="wrapableto" value="23398"/>
-		<attribute key="rotateto" value="49281"/>
+		<attribute key="rotateto" value="65002"/>
 		<attribute key="type" value="dummy">
 			<attribute key="rate" value="115"/>
 		</attribute>
 	</item>
-	<item id="49281" article="a" name="aiolos exercise dummy">
+	<item id="65002" article="a" name="aiolos exercise dummy">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="description" value="You can train your skills by using training weapons with this expert exercise dummy"/>
 		<attribute key="wrapableto" value="23398"/>
-		<attribute key="rotateto" value="49280"/>
+		<attribute key="rotateto" value="65001"/>
 		<attribute key="type" value="dummy">
 			<attribute key="rate" value="115"/>
 		</attribute>
 	</item>
-	<item id="49282" article="a" name="chaotic exercise dummy">
+	<item id="65003" article="a" name="chaotic exercise dummy">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="description" value="You can train your skills by using training weapons with this expert exercise dummy"/>
 		<attribute key="wrapableto" value="23398"/>
-		<attribute key="rotateto" value="49283"/>
+		<attribute key="rotateto" value="65004"/>
 		<attribute key="type" value="dummy">
 			<attribute key="rate" value="115"/>
 		</attribute>
 	</item>
-	<item id="49283" article="a" name="chaotic exercise dummy">
+	<item id="65004" article="a" name="chaotic exercise dummy">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="description" value="You can train your skills by using training weapons with this expert exercise dummy"/>
 		<attribute key="wrapableto" value="23398"/>
-		<attribute key="rotateto" value="49282"/>
+		<attribute key="rotateto" value="65003"/>
 		<attribute key="type" value="dummy">
 			<attribute key="rate" value="115"/>
 		</attribute>
@@ -77687,7 +77687,7 @@
 		<attribute key="loottype" value="tools"/>
 		<attribute key="weight" value="30"/>
 	</item>
-	<item id="49284" article="a" name="earth protector">
+	<item id="65005" article="a" name="earth protector">
 		<attribute key="showAttributes" value="1"/>
 		<attribute key="absorbpercentearth" value="12"/>
 		<attribute key="skillsword" value="3"/>
@@ -77705,7 +77705,7 @@
 			<attribute key="slot" value="ammo"/>
 		</attribute>
 	</item>
-	<item id="49285" article="a" name="holy protector">
+	<item id="65006" article="a" name="holy protector">
 		<attribute key="showAttributes" value="1"/>
 		<attribute key="absorbpercentholy" value="12"/>
 		<attribute key="skillsword" value="3"/>
@@ -77723,7 +77723,7 @@
 			<attribute key="slot" value="ammo"/>
 		</attribute>
 	</item>
-	<item id="49286" article="a" name="ice protector">
+	<item id="65007" article="a" name="ice protector">
 		<attribute key="showAttributes" value="1"/>
 		<attribute key="absorbpercentice" value="12"/>
 		<attribute key="skillsword" value="3"/>
@@ -77741,7 +77741,7 @@
 			<attribute key="slot" value="ammo"/>
 		</attribute>
 	</item>
-	<item id="49287" article="a" name="death protector">
+	<item id="65008" article="a" name="death protector">
 		<attribute key="showAttributes" value="1"/>
 		<attribute key="absorbpercentdeath" value="12"/>
 		<attribute key="skillsword" value="3"/>
@@ -77759,7 +77759,7 @@
 			<attribute key="slot" value="ammo"/>
 		</attribute>
 	</item>
-	<item id="49288" article="a" name="fire protector">
+	<item id="65009" article="a" name="fire protector">
 		<attribute key="showAttributes" value="1"/>
 		<attribute key="absorbpercentfire" value="12"/>
 		<attribute key="skillsword" value="3"/>
@@ -77777,7 +77777,7 @@
 			<attribute key="slot" value="ammo"/>
 		</attribute>
 	</item>
-	<item id="49289" article="a" name="energy protector">
+	<item id="65010" article="a" name="energy protector">
 		<attribute key="showAttributes" value="1"/>
 		<attribute key="absorbpercentenergy" value="12"/>
 		<attribute key="skillsword" value="3"/>
@@ -81539,19 +81539,19 @@
 		<attribute key="primarytype" value="creature products"/>
 		<attribute key="weight" value="1"/>
 	</item>
-	<item id="49609" article="a" name="essence of health">
+	<item id="65020" article="a" name="essence of health">
 		<attribute key="primarytype" value="creature products"/>
 		<attribute key="weight" value="1"/>
 	</item>
-	<item id="49610" article="a" name="essence of mana">
+	<item id="65021" article="a" name="essence of mana">
 		<attribute key="primarytype" value="creature products"/>
 		<attribute key="weight" value="1"/>
 	</item>
-	<item id="49600" name="infinite food">
+	<item id="65011" name="infinite food">
 		<attribute key="primarytype" value="food"/>
 		<attribute key="weight" value="1300"/>
 	</item>
-	<item id="49601" article="a" name="burningfrost sigil">
+	<item id="65012" article="a" name="burningfrost sigil">
 		<attribute key="primarytype" value="rings"/>
 		<attribute key="showattributes" value="1"/>
 		<attribute key="weight" value="95"/>
@@ -81568,7 +81568,7 @@
 			<attribute key="slot" value="ring"/>
 		</attribute>
 	</item>
-	<item id="49602" article="a" name="poisonstorm sigil">
+	<item id="65013" article="a" name="poisonstorm sigil">
 		<attribute key="primarytype" value="rings"/>
 		<attribute key="showattributes" value="1"/>
 		<attribute key="weight" value="95"/>
@@ -81585,7 +81585,7 @@
 			<attribute key="slot" value="ring"/>
 		</attribute>
 	</item>
-	<item id="49603" article="a" name="saintdying sigil">
+	<item id="65014" article="a" name="saintdying sigil">
 		<attribute key="primarytype" value="rings"/>
 		<attribute key="showattributes" value="1"/>
 		<attribute key="weight" value="95"/>
@@ -81602,7 +81602,7 @@
 			<attribute key="slot" value="ring"/>
 		</attribute>
 	</item>
-	<item id="49604" name="burningfrost pendulet">
+	<item id="65015" name="burningfrost pendulet">
 		<attribute key="primarytype" value="amulets and necklaces"/>
 		<attribute key="armor" value="4"/>
 		<attribute key="absorbpercentfire" value="13"/>
@@ -81618,7 +81618,7 @@
 			<attribute key="slot" value="necklace"/>
 		</attribute>
 	</item>
-	<item id="49605" name="poisonstorm pendulet">
+	<item id="65016" name="poisonstorm pendulet">
 		<attribute key="primarytype" value="amulets and necklaces"/>
 		<attribute key="armor" value="4"/>
 		<attribute key="absorbpercentearth" value="13"/>
@@ -81634,7 +81634,7 @@
 			<attribute key="slot" value="necklace"/>
 		</attribute>
 	</item>
-	<item id="49606" name="saintdying pendulet">
+	<item id="65017" name="saintdying pendulet">
 		<attribute key="primarytype" value="amulets and necklaces"/>
 		<attribute key="armor" value="4"/>
 		<attribute key="absorbpercentholy" value="13"/>
@@ -81650,7 +81650,7 @@
 			<attribute key="slot" value="necklace"/>
 		</attribute>
 	</item>
-	<item id="49607" name="physical pendulet">
+	<item id="65018" name="physical pendulet">
 		<attribute key="primarytype" value="amulets and necklaces"/>
 		<attribute key="armor" value="7"/>
 		<attribute key="absorbpercentphysical" value="17"/>
@@ -81661,7 +81661,7 @@
 			<attribute key="slot" value="necklace"/>
 		</attribute>
 	</item>
-	<item id="49608" name="physical sigil">
+	<item id="65019" name="physical sigil">
 		<attribute key="primarytype" value="amulets and necklaces"/>
 		<attribute key="armor" value="6"/>
 		<attribute key="absorbpercentphysical" value="15"/>
@@ -81672,43 +81672,43 @@
 			<attribute key="slot" value="necklace"/>
 		</attribute>
 	</item>
-	<item id="49611" article="a" name="boosted exercise shield">
+	<item id="65022" article="a" name="boosted exercise shield">
 		<attribute key="primarytype" value="exercise weapons"/>
 		<attribute key="showCharges" value="1"/>
 		<attribute key="charges" value="1"/>
 		<attribute key="weight" value="1000"/>
 	</item>
-	<item id="49613" article="a" name="boosted exercise axe">
+	<item id="65024" article="a" name="boosted exercise axe">
 		<attribute key="primarytype" value="exercise weapons"/>
 		<attribute key="showCharges" value="1"/>
 		<attribute key="charges" value="1"/>
 		<attribute key="weight" value="1000"/>
 	</item>
-	<item id="49614" article="a" name="boosted exercise bow">
+	<item id="65025" article="a" name="boosted exercise bow">
 		<attribute key="primarytype" value="exercise weapons"/>
 		<attribute key="showCharges" value="1"/>
 		<attribute key="charges" value="1"/>
 		<attribute key="weight" value="1000"/>
 	</item>
-	<item id="49615" article="a" name="boosted exercise club">
+	<item id="65026" article="a" name="boosted exercise club">
 		<attribute key="primarytype" value="exercise weapons"/>
 		<attribute key="showCharges" value="1"/>
 		<attribute key="charges" value="1"/>
 		<attribute key="weight" value="1000"/>
 	</item>
-	<item id="49616" article="a" name="boosted exercise sword">
+	<item id="65027" article="a" name="boosted exercise sword">
 		<attribute key="primarytype" value="exercise weapons"/>
 		<attribute key="showCharges" value="1"/>
 		<attribute key="charges" value="1"/>
 		<attribute key="weight" value="1000"/>
 	</item>
-	<item id="49617" article="a" name="boosted exercise rod">
+	<item id="65028" article="a" name="boosted exercise rod">
 		<attribute key="primarytype" value="exercise weapons"/>
 		<attribute key="showCharges" value="1"/>
 		<attribute key="charges" value="1"/>
 		<attribute key="weight" value="1000"/>
 	</item>
-	<item id="49618" article="a" name="boosted exercise wand">
+	<item id="65029" article="a" name="boosted exercise wand">
 		<attribute key="primarytype" value="exercise weapons"/>
 		<attribute key="showCharges" value="1"/>
 		<attribute key="charges" value="1"/>

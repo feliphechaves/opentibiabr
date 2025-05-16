@@ -19,32 +19,32 @@ local exerciseWeaponsTable = {
 	[44066] = { skill = SKILL_SHIELD },
 	[44067] = { skill = SKILL_SHIELD },
 
-	[49611] = { skill = SKILL_SHIELD },
-	[49616] = { skill = SKILL_SWORD },
-	[49613] = { skill = SKILL_AXE },
-	[49615] = { skill = SKILL_CLUB },
+	[65022] = { skill = SKILL_SHIELD },
+	[65027] = { skill = SKILL_SWORD },
+	[65024] = { skill = SKILL_AXE },
+	[65026] = { skill = SKILL_CLUB },
 	-- ROD
 	[28544] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_SMALLICE, allowFarUse = true },
 	[28556] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_SMALLICE, allowFarUse = true },
 	[35283] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_SMALLICE, allowFarUse = true },
 	[35289] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_SMALLICE, allowFarUse = true },
-	[49617] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_SMALLEARTH, allowFarUse = true },
+	[65028] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_SMALLEARTH, allowFarUse = true },
 	-- RANGE
 	[28543] = { skill = SKILL_DISTANCE, effect = CONST_ANI_SIMPLEARROW, allowFarUse = true },
 	[28555] = { skill = SKILL_DISTANCE, effect = CONST_ANI_SIMPLEARROW, allowFarUse = true },
 	[35282] = { skill = SKILL_DISTANCE, effect = CONST_ANI_SIMPLEARROW, allowFarUse = true },
 	[35288] = { skill = SKILL_DISTANCE, effect = CONST_ANI_SIMPLEARROW, allowFarUse = true },
-	[49614] = { skill = SKILL_DISTANCE, effect = CONST_ANI_DIAMONDARROW, allowFarUse = true },
+	[65025] = { skill = SKILL_DISTANCE, effect = CONST_ANI_DIAMONDARROW, allowFarUse = true },
 	-- WAND
 	[28545] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_FIRE, allowFarUse = true },
 	[28557] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_FIRE, allowFarUse = true },
 	[35284] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_FIRE, allowFarUse = true },
 	[35290] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_FIRE, allowFarUse = true },
-	[49618] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_DEATH, allowFarUse = true },
+	[65029] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_DEATH, allowFarUse = true },
 }
 
-local bonusWeaponIds = { 49611, 49616, 49613, 49615, 49617, 49614, 49618 }
-local bonusDummyIds = { 49280, 49281, 49282, 49283 }
+local bonusWeaponIds = { 65022, 65027, 65024, 65026, 65028, 65025, 65029 }
+local bonusDummyIds = { 65001, 65002, 65003, 65004 }
 
 local dummies = Game.getDummies()
 
@@ -204,7 +204,7 @@ function exerciseTraining.onUse(player, item, fromPosition, target, toPosition, 
 				end
 
 				local maxAllowedOnADummy = configManager.getNumber(configKeys.MAX_ALLOWED_ON_A_DUMMY)
-				if dummyId == 49280 or dummyId == 49281 or dummyId == 49282 or dummyId == 49283 then
+				if dummyId == 65001 or dummyId == 65002 or dummyId == 65003 or dummyId == 65004 then
 					maxAllowedOnADummy = 4
 				end
 

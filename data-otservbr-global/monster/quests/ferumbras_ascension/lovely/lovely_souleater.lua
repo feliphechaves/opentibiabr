@@ -74,7 +74,7 @@ monster.loot = {
 	{ id = 11680, chance = 15060 }, -- lizard essence
 	{ id = 238, chance = 7960 }, -- great mana potion
 	{ id = 7643, chance = 9400 }, -- ultimate health potion
-	{ id = 3035, chance = 49610, maxCount = 6 }, -- platinum coin
+	--{ id = 3035, chance = 65021, maxCount = 6 }, -- platinum coin
 	{ id = 3073, chance = 910 }, -- wand of cosmic energy
 	{ id = 3069, chance = 980 }, -- necrotic rod
 	{ id = 6299, chance = 330 }, -- death ring

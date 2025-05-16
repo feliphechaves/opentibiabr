@@ -1,5 +1,5 @@
 local foods = {
-	[49600] = { 30, "Gulp." }, -- egg
+	[65011] = { 30, "Gulp." }, -- egg
 }
 
 local food = Action()

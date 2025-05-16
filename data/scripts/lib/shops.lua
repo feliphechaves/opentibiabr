@@ -98,7 +98,7 @@ SupplyShopConfigTable = {
 		{ itemName = "supreme sudden death rune", clientId = 11609, buy = 200 },
 		{ itemName = "supreme explosion rune", clientId = 11607, buy = 200 },
 		{ itemName = "supreme great fireball rune", clientId = 11615, buy = 200 },
-		{ itemName = "supreme stone shower rune", clientId = 49279, buy = 200 },
+		{ itemName = "supreme stone shower rune", clientId = 65000, buy = 200 },
 	},
 	["tools"] = {
 		{ itemName = "fishing rod", clientId = 3483, buy = 150 },

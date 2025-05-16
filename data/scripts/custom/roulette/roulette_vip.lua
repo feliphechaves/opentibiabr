@@ -43,7 +43,7 @@ local config = {
 
 		--{itemId = 28897, count = {1, 1}, chance = 1500},  -- addon doll
 		{ itemId = 11685, count = { 1, 5 }, chance = 1500 }, -- stamina refill
-		{ itemId = 49600, count = { 1, 1 }, chance = 1500 }, --infinite food
+		{ itemId = 65011, count = { 1, 1 }, chance = 1500 }, --infinite food
 		{ itemId = 43895, count = { 1, 1 }, chance = 1400 }, -- bag you desire
 		{ itemId = 39036, count = { 1, 2 }, chance = 1200 }, -- cassino coin
 		{ itemId = 14758, count = { 1, 2 }, chance = 1200 }, -- vip scroll
@@ -67,13 +67,13 @@ local config = {
 		{ itemId = 31633, count = { 1, 1 }, chance = 900 }, --supreme cube
 
 		{ itemId = 21292, count = { 1, 1 }, chance = 400 }, -- aiolos backpack
-		{ itemId = 49284, count = { 1, 1 }, chance = 400 },
-		{ itemId = 49285, count = { 1, 1 }, chance = 400 },
-		{ itemId = 49286, count = { 1, 1 }, chance = 400 },
-		{ itemId = 49287, count = { 1, 1 }, chance = 400 },
-		{ itemId = 49288, count = { 1, 1 }, chance = 400 },
-		{ itemId = 49288, count = { 1, 1 }, chance = 400 },
-		{ itemId = 49289, count = { 1, 1 }, chance = 400 },
+		{ itemId = 65005, count = { 1, 1 }, chance = 400 },
+		{ itemId = 65006, count = { 1, 1 }, chance = 400 },
+		{ itemId = 65007, count = { 1, 1 }, chance = 400 },
+		{ itemId = 65008, count = { 1, 1 }, chance = 400 },
+		{ itemId = 65009, count = { 1, 1 }, chance = 400 },
+		{ itemId = 65009, count = { 1, 1 }, chance = 400 },
+		{ itemId = 65010, count = { 1, 1 }, chance = 400 },
 
 		{ itemId = 23488, count = { 1, 1 }, chance = 500 }, --grand sanguine box
 

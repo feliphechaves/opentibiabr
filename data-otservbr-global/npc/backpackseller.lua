@@ -105,10 +105,10 @@ local function creatureSayCallback(npc, creature, type, message)
 	if message == "upgrade" or message == "exchange" then
 		local vocationId = player:getVocation():getBase():getId()
 		local backpacks = {
-			[1] = {name = "Necromantic Backpack", itemId = 49622},
-			[2] = {name = "Nature's Backpack", itemId = 49619},
-			[3] = {name = "Celestial Archer Backpack", itemId = 49621},
-			[4] = {name = "Bloodrage Backpack", itemId = 49620},
+			[1] = {name = "Necromantic Backpack", itemId = 65033},
+			[2] = {name = "Nature's Backpack", itemId = 65030},
+			[3] = {name = "Celestial Archer Backpack", itemId = 65032},
+			[4] = {name = "Bloodrage Backpack", itemId = 65031},
 		}
 
 		local selected = backpacks[vocationId]
@@ -129,7 +129,7 @@ local function creatureSayCallback(npc, creature, type, message)
 
 		local AIOLOS_ID = 21292
 		local TC_ID = 22118
-		local ESSENCE_ID = 49609
+		local ESSENCE_ID = 65020
 
 		local equippedBackpack = player:getSlotItem(CONST_SLOT_BACKPACK)
 		if not equippedBackpack or equippedBackpack:getId() ~= AIOLOS_ID then

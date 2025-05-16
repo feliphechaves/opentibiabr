@@ -549,7 +549,7 @@ taskConfiguration = {
             { "level", 0 },
             { "gold", 20000000},
 			{ 46626, 5 }, --greater fragment
-			{ 49609, 1} --essence of health
+			{ 65020, 1} --essence of health
         },
         races = {
         "Sanguine Ember",
@@ -568,7 +568,7 @@ taskConfiguration = {
             { "level", 0 },
             { "gold", 20000000},
 			{ 46626, 5 }, --greater fragment
-			{ 49609, 1} --essence of health
+			{ 65020, 1} --essence of health
         },
         races = {
         "Sanguine Boulder",
@@ -586,7 +586,7 @@ taskConfiguration = {
             { "level", 0 },
             { "gold", 20000000},
 			{ 46626, 5 }, --greater fragment
-			{ 49609, 1} --essence of health
+			{ 65020, 1} --essence of health
         },
         races = {
         "Sanguine Glow",
@@ -606,7 +606,7 @@ taskConfiguration = {
 			{ "level", 0 },
 			{ "gold", 20000000 },
 			{ 46626, 5 }, --greater fragment
-			{ 49609, 1 }, --essence of health
+			{ 65020, 1 }, --essence of health
 		},
 		races = {
 			"Sanguine Ember",
@@ -625,7 +625,7 @@ taskConfiguration = {
 			{ "level", 0 },
 			{ "gold", 20000000 },
 			{ 46626, 2 }, --greater fragment
-			{ 49609, 1 }, --essence of health
+			{ 65020, 1 }, --essence of health
 		},
 		races = {
 			"Sanguine Boulder",
@@ -644,7 +644,7 @@ taskConfiguration = {
 			{ "level", 0 },
 			{ "gold", 20000000 },
 			{ 46626, 2 }, --greater fragment
-			{ 49609, 1 }, --essence of health
+			{ 65020, 1 }, --essence of health
 		},
 		races = {
 			"Sanguine Glow",
@@ -664,7 +664,7 @@ taskConfiguration = {
 			{ "exp", 200000000 },
 			{ "gold", 150000000 },
 			{ 46626, 10 }, --greater fragment
-			{ 49609, 2 }, --essence of health
+			{ 65020, 2 }, --essence of health
 		},
 		races = {
 			"Elite Sanguine Glow",
@@ -683,7 +683,7 @@ taskConfiguration = {
 			{ "exp", 200000000 },
 			{ "gold", 150000000 },
 			{ 46626, 10 }, --greater fragment
-			{ 49609, 2 }, --essence of health
+			{ 65020, 2 }, --essence of health
 		},
 		races = {
 			"Elite Sanguine Shade",
@@ -702,7 +702,7 @@ taskConfiguration = {
 			{ "exp", 200000000 },
 			{ "gold", 150000000 },
 			{ 46626, 10 }, --greater fragment
-			{ 49609, 2 }, --essence of health
+			{ 65020, 2 }, --essence of health
 		},
 		races = {
 			"Elite Sanguine Ember",
@@ -721,7 +721,7 @@ taskConfiguration = {
 			{ "exp", 200000000 },
 			{ "gold", 150000000 },
 			{ 46626, 10 }, --greater fragment
-			{ 49609, 2 }, --essence of health
+			{ 65020, 2 }, --essence of health
 		},
 		races = {
 			"Elite Sanguine Frost",
@@ -740,7 +740,7 @@ taskConfiguration = {
 			{ "exp", 200000000 },
 			{ "gold", 150000000 },
 			{ 46626, 10 }, --greater fragment
-			{ 49609, 2 }, --essence of health
+			{ 65020, 2 }, --essence of health
 		},
 		races = {
 			"Elite Sanguine Boulder",
@@ -759,7 +759,7 @@ taskConfiguration = {
 			{ "exp", 200000000 },
 			{ "gold", 150000000 },
 			{ 46626, 10 }, --greater fragment
-			{ 49609, 2 }, --essence of health
+			{ 65020, 2 }, --essence of health
 		},
 		races = {
 			"Elite Sanguine Spark",
