@@ -7166,7 +7166,7 @@ GameStore.Categories = {
 			{
 				icons = {},
 				name = "Charm Pownder",
-				price = 5,
+				price = 10,
 				itemtype = 12210,
 				count = 1,
 				description = "When used you will receive 500 charm points.",
