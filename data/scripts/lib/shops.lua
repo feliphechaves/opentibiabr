@@ -179,7 +179,11 @@ end
 
 LootShopConfigTable = {
 	["creature products"] = {
-
+		{ itemName = "demonic core essence", clientId = 49909, sell = 2250 },
+		{ itemName = "gorger antlers", clientId = 50059, sell = 2250 },
+		{ itemName = "mummified demon finger", clientId = 49908, sell = 2250 },
+		{ itemName = "demonic matter", clientId = 49894, sell = 2250 },
+		{ itemName = "sineater wing", clientId = 50057, sell = 2250 },
 		{ itemName = "slightly rusted shield", clientId = 8902, sell = 1000 },
 		{ itemName = "throwing star", clientId = 3287, sell = 2 },
 		{ itemName = "hunting spear", clientId = 3347, sell = 25 },
