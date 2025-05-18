@@ -64,6 +64,23 @@ local rewardBags = {
 		{ id = 43883, name = "grand sanguine coil" },
 		{ id = 43886, name = "grand sanguine rod" },
 	},
+
+	[INFERNIARCH_BAG] = {
+		{ id = 49522, name = "inferniarch arbalest" },
+		{ id = 49523, name = "inferniarch battleaxe" },
+		{ id = 49527, name = "inferniarch blade" },
+		{ id = 49520, name = "inferniarch bow" },
+		{ id = 49525, name = "inferniarch flail" },
+		{ id = 49524, name = "inferniarch greataxe" },
+		{ id = 49529, name = "inferniarch rod" },
+		{ id = 49530, name = "inferniarch slayer" },
+		{ id = 49882, name = "inferniarch wand" },
+		{ id = 49531, name = "maliceforged helmet" },
+		{ id = 49532, name = "hellstalker visor" },
+		{ id = 49533, name = "dreadfire headpiece" },
+		{ id = 49534, name = "demonfang mask" },
+	},
+
 }
 
 local randomItems = Action()
