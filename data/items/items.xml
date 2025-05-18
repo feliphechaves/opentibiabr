@@ -83159,4 +83159,37 @@
 		<attribute key="duration" value="5"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item>
+	<item id="50122" article="a" name="ladder">
+		<attribute key="type" value="ladder"/>
+	</item>
+	<item id="50123" article="a" name="ladder">
+		<attribute key="type" value="ladder"/>
+	</item>
+	<item id="49659" article="a" name="ramp">
+		<attribute key="floorchange" value="west"/>
+	</item>
+	<item id="49657" article="a" name="ramp">
+		<attribute key="floorchange" value="north"/>
+	</item>
+	<item id="49661" article="a" name="ramp">
+		<attribute key="floorchange" value="east"/>
+	</item>
+	<item id="49663" article="a" name="ramp">
+		<attribute key="floorchange" value="south"/>
+	</item>
+	<item id="50082" article="a" name="ramp">
+		<attribute key="floorchange" value="down"/>
+	</item>
+	<item id="50083" article="a" name="ramp">
+		<attribute key="floorchange" value="down"/>
+	</item>
+	<item id="50084" article="a" name="ramp">
+		<attribute key="floorchange" value="down"/>
+	</item>
+	<item id="50085" article="a" name="ramp">
+		<attribute key="floorchange" value="down"/>
+	</item>
+	<item id="49161" article="a" name="ramp">
+		<attribute key="floorchange" value="down"/>
+	</item>
 </items>
