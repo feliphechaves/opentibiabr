@@ -95,7 +95,7 @@ monster.attacks = {
     { name = "melee", interval = 1000, chance = 100, minDamage = -0, maxDamage = -6000 },
     -- Fire (Energia) à distância
     { name = "combat", interval = 1000, chance = 50, type = COMBAT_FIREDAMAGE, minDamage = -2500, maxDamage = -4500, range = 7, radius = 4, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true },
-    { name = "firefield", interval = 2000, chance = 10, range = 7, radius = 4, shootEffect = CONST_ANI_FIRE, target = true },
+    --{ name = "firefield", interval = 2000, chance = 10, range = 7, radius = 4, shootEffect = CONST_ANI_FIRE, target = true },
     -- Death Strike (alvo único à distância)
     { name = "combat", interval = 1500, chance = 25, type = COMBAT_DEATHDAMAGE, minDamage = -2500, maxDamage = -4500, range = 7, shootEffect = CONST_ANI_DEATH, effect = CONST_ME_MORTAREA, target = true },
     -- Death Ball (5x5 em área)
