@@ -53,5 +53,5 @@ function globalServerSave2.onTime(interval)
 	return not configManager.getBoolean(configKeys.GLOBAL_SERVER_SAVE_SHUTDOWN)
 end
 
-globalServerSave2:time("12:00:00")
-globalServerSave2:register()
+--globalServerSave2:time("12:00:00")
+--globalServerSave2:register()
