@@ -1198,7 +1198,7 @@ function Player:resetTaintConditions()
 end
 
 function Player:getTaintLevel()
-	local taintLevel = nil
+	local taintLevel = 0
 	local soulWarQuest = self:soulWarQuestKV()
 	for i, taint in ipairs(soulWarTaints) do
 		if soulWarQuest:get(taint) then
