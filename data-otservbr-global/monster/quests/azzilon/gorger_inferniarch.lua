@@ -83,10 +83,10 @@ monster.loot = {
     { name = "spiked squelcher", chance = 2000, maxCount = 1 }, -- 16%
 
     -- Raro (~8%–2% após x8)
-    { name = "mummified demon finger", chance = 1000, maxCount = 1 }, -- 8%
-    { name = "demonic matter", chance = 500, maxCount = 1 }, -- 4%
-    { id = 3053, chance = 500, maxCount = 1 }, -- 2%
-    { id = 3040, chance = 250, maxCount = 1 },
+    { name = "mummified demon finger", chance = 2000, maxCount = 1 }, -- 8%
+    { name = "demonic matter", chance = 2000, maxCount = 1 }, -- 4%
+    { id = 3053, chance = 2000, maxCount = 1 }, -- 2%
+    { id = 3040, chance = 2000, maxCount = 1 },
 
 }
 

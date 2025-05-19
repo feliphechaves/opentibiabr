@@ -84,9 +84,9 @@ monster.loot = {
     { name = "wand of defiance", chance = 2000, maxCount = 1 }, -- 16%
 
     -- Raro (~8%–2% após x8)
-    { name = "mummified demon finger", chance = 1000, maxCount = 1 }, -- 8%
-    { name = "demonic matter", chance = 500, maxCount = 1 }, -- 4%
-    { name = "wooden spellbook", chance = 500, maxCount = 1 }, -- 4%
+    { name = "mummified demon finger", chance = 2000, maxCount = 1 }, -- 8%
+    { name = "demonic matter", chance = 2000, maxCount = 1 }, -- 4%
+    { name = "wooden spellbook", chance = 2000, maxCount = 1 }, -- 4%
 
 }
 

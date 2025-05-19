@@ -84,10 +84,10 @@ monster.loot = {
     { name = "demonic core essence", chance = 2000, maxCount = 1 }, -- 16%
     
     -- Raro (~8%–2% após x8)
-    { name = "mummified demon finger", chance = 1000, maxCount = 1 }, -- 8%
-    { name = "magma legs", chance = 1000, maxCount = 1 }, -- 8%
-    { name = "demonic matter", chance = 500, maxCount = 1 }, -- 4%
-    { name = "arbalest", chance = 300, maxCount = 1 },
+    { name = "mummified demon finger", chance = 2000, maxCount = 1 }, -- 8%
+    { name = "magma legs", chance = 2000, maxCount = 1 }, -- 8%
+    { name = "demonic matter", chance = 2000, maxCount = 1 }, -- 4%
+    { name = "arbalest", chance = 2000, maxCount = 1 },
 
 }
 
