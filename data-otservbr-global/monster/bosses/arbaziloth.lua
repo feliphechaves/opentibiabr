@@ -128,7 +128,7 @@ monster.loot = {
 	
 	{ name = "gold token", chance = 5000, maxCount = 10 },
 
-	{ id = 4115, chance = 300 },
+	{ id = 4115, chance = 1000 },
 
 
 }

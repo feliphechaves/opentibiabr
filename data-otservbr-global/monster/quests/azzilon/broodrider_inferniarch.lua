@@ -93,7 +93,7 @@ monster.loot = {
 
 monster.attacks = {
     -- Arco (corpo a corpo forte)
-    { name = "combat", interval = 1000, chance = 90, type = COMBAT_PHYSICALDAMAGE, minDamage = -3000, maxDamage = -6000, range = 7, shootEffect = CONST_ANI_SHIVERARROW, target = false },
+    { name = "combat", interval = 1000, chance = 90, type = COMBAT_PHYSICALDAMAGE, minDamage = -3000, maxDamage = -6000, range = 7, shootEffect = CONST_ANI_DIAMONDARROW, target = false },
     -- Death Strike (alvo único à distância)
     { name = "combat", interval = 1500, chance = 25, type = COMBAT_DEATHDAMAGE, minDamage = -2500, maxDamage = -4500, range = 7, shootEffect = CONST_ANI_DEATH, effect = CONST_ME_MORTAREA, target = true },
 }

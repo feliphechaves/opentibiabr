@@ -83337,4 +83337,11 @@
 	<item id="49161" article="a" name="ramp">
 		<attribute key="floorchange" value="down"/>
 	</item>
+	<item id="50050" article="a" name="dead malvaroth">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="50049"/>
+		<attribute key="containersize" value="10"/>
+	</item>
+	
 </items>
