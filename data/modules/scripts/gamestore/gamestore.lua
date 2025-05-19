@@ -302,7 +302,6 @@ GameStore.Categories = {
 				description = "A legendary artifact that channels the power of burning souls. \nUpon activation, it grants +15 to your main combat skill (Melee, Distance or Magic Level) and +5% Critical Hit Chance for 1 hour. \nThe relic ignites in flames when used, unleashing visual fury but requires 50kk gold and has a cooldown of 1 hour. \nReusable. \nNot consumed on use. \nPerfect for boss fights, events, or PvP domination.",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				state = GameStore.States.STATE_NEW,
-				movable = true,
 				home = true,
 			},
 		},
