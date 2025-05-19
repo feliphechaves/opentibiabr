@@ -45842,7 +45842,6 @@
 	</item>
 	<item id="22890" article="a" name="shield of destiny">
 		<attribute key="description" value="Holding the divine intellect of Uman and the merciless destruction instinct of Zathroth, the eternal balance remains on the hands of its owner. Granted by TibiaRoyal.com"/>
-		<attribute key="duration" value="3"/>
 		<attribute key="decayTo" value="22889"/>
 		<attribute key="weight" value="6800"/>
 		<attribute key="script" value="moveevent">
