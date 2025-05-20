@@ -14,6 +14,7 @@ monster.outfit = {
 }
 
 monster.events = {
+	"AiolosBossQuestDeath",
 }
 
 monster.health = 300000

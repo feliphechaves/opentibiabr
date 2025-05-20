@@ -2795,8 +2795,8 @@ ChestUnique = {
 		storage = 57124,
 	},
 	[8002] = {
-		itemId = 2482,
-		itemPos = { x = 1789, y = 1358, z = 6 },
+		itemId = 2478,
+		itemPos = { x = 1787, y = 1355, z = 6 },
 		reward = { { 43895, 1 }, {30053, 1} },
 		storage = 57125,
 	},
