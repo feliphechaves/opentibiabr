@@ -1229,13 +1229,13 @@ void Combat::CombatFunc(const std::shared_ptr<Creature> &caster, const Position 
 	// Calculate the max viewable range and affected creatures
 	for (const auto &tile : tileList) {
 		// If the caster is a player and the world is no pvp, we need to check if there are more than one player in the tile and skip the combat
-		if (casterPlayer && g_game().getWorldType() == WORLD_TYPE_NO_PVP && tile->getPosition() == origin) {
-			if (!casterPlayer->isFirstOnStack()) {
-				casterPlayer->sendCancelMessage(RETURNVALUE_NOTPOSSIBLE);
-				casterPlayer->sendMagicEffect(origin, CONST_ME_POFF);
-				return;
-			}
-		}
+		// if (casterPlayer && g_game().getWorldType() == WORLD_TYPE_NO_PVP && tile->getPosition() == origin) {
+		// 	if (!casterPlayer->isFirstOnStack()) {
+		// 		casterPlayer->sendCancelMessage(RETURNVALUE_NOTPOSSIBLE);
+		// 		casterPlayer->sendMagicEffect(origin, CONST_ME_POFF);
+		// 		return;
+		// 	}
+		// }
 
 		const Position &tilePos = tile->getPosition();
 
