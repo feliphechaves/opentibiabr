@@ -18,6 +18,14 @@ local effects = {
 	{ position = Position(1236, 1019, 0), text = "LAST FLOOR", effect = CONST_ME_GROUNDSHAKER },
 	{ position = Position(1245, 994, 11), text = "FIRST FLOOR", effect = CONST_ME_GROUNDSHAKER },
 	{ position = Position(32373, 32237, 7), text = "SOUL PIT", effect = CONST_ME_GROUNDSHAKER },
+	{ position = Position(1066, 923, 7), text = "INQUISITION", effect = CONST_ME_GROUNDSHAKER },
+	{ position = Position(1059, 926, 7), text = "ANNIHILATOR", effect = CONST_ME_GROUNDSHAKER },
+	{ position = Position(1063, 922, 7), text = "POI", effect = CONST_ME_GROUNDSHAKER },
+	{ position = Position(1060, 923, 7), text = "DEMON HELMET", effect = CONST_ME_GROUNDSHAKER },
+	{ position = Position(1067, 926, 7), text = "BAG YOU DESIRE", effect = CONST_ME_GROUNDSHAKER },
+	{ position = Position(1066, 929, 7), text = "PRIMAL BAG", effect = CONST_ME_GROUNDSHAKER },
+	{ position = Position(1060, 929, 7), text = "BAG YOU COVET", effect = CONST_ME_GROUNDSHAKER },
+	
 }
 
 local animatedText = GlobalEvent("AnimatedText")

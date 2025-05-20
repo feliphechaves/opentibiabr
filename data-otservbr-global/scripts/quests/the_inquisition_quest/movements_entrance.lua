@@ -29,22 +29,34 @@ function entrance.onStepIn(creature, item, position, fromPosition)
 		return true
 	end
 
-	if hasTouchedOneThrone(player) and player:getLevel() >= 100 and player:getStorageValue(Storage.Quest.U8_2.TheInquisitionQuest.Questline) >= 20 then
-		for i = 1, #config do
-			local cfg = config[i]
-			if Position(cfg.position.x, cfg.position.y, cfg.position.z) == player:getPosition() then
-				local destination = Position(cfg.destination.x, cfg.destination.y, cfg.destination.z)
-				player:teleportTo(destination)
-				position:sendMagicEffect(CONST_ME_TELEPORT)
-				destination:sendMagicEffect(CONST_ME_TELEPORT)
-				return true
-			end
+	-- if hasTouchedOneThrone(player) and player:getLevel() >= 100 and player:getStorageValue(Storage.Quest.U8_2.TheInquisitionQuest.Questline) >= 20 then
+	-- 	for i = 1, #config do
+	-- 		local cfg = config[i]
+	-- 		if Position(cfg.position.x, cfg.position.y, cfg.position.z) == player:getPosition() then
+	-- 			local destination = Position(cfg.destination.x, cfg.destination.y, cfg.destination.z)
+	-- 			player:teleportTo(destination)
+	-- 			position:sendMagicEffect(CONST_ME_TELEPORT)
+	-- 			destination:sendMagicEffect(CONST_ME_TELEPORT)
+	-- 			return true
+	-- 		end
+	-- 	end
+	-- end
+
+	-- player:teleportTo(fromPosition, true)
+	-- position:sendMagicEffect(CONST_ME_TELEPORT)
+	-- fromPosition:sendMagicEffect(CONST_ME_TELEPORT)
+	-- return true
+	for i = 1, #config do
+		local cfg = config[i]
+		if Position(cfg.position.x, cfg.position.y, cfg.position.z) == player:getPosition() then
+			local destination = Position(cfg.destination.x, cfg.destination.y, cfg.destination.z)
+			player:teleportTo(destination)
+			position:sendMagicEffect(CONST_ME_TELEPORT)
+			destination:sendMagicEffect(CONST_ME_TELEPORT)
+			return true
 		end
 	end
 
-	player:teleportTo(fromPosition, true)
-	position:sendMagicEffect(CONST_ME_TELEPORT)
-	fromPosition:sendMagicEffect(CONST_ME_TELEPORT)
 	return true
 end
 

@@ -2782,6 +2782,25 @@ ChestUnique = {
 		weight = 6.00,
 		storage = Storage.Quest.U11_80.TheSecretLibrary.SmallIslands.Hawser,
 	},
+	[8000] = {
+		itemId = 4073,
+		itemPos = { x = 1443, y = 1333, z = 7 },
+		reward = { { 34109, 1 }, {30053, 1} },
+		storage = 57123,
+	},
+	[8001] = {
+		itemId = 2478,
+		itemPos = { x = 1557, y = 1304, z = 7 },
+		reward = { { 39546, 1 }, {30053, 1} },
+		storage = 57124,
+	},
+	[8002] = {
+		itemId = 2482,
+		itemPos = { x = 1789, y = 1358, z = 6 },
+		reward = { { 43895, 1 }, {30053, 1} },
+		storage = 57125,
+	},
+	
 	-- Reward of others scrips files (varied rewards)
 	-- The First dragon Quest
 	-- Treasure chests (data\scripts\actions\quests\first_dragon\treasure_chests.lua)

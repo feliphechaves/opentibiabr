@@ -3193,6 +3193,305 @@
 	<monster centerx="1252" centery="994" centerz="6" radius="1">
 		<monster name="Amenef the Burning" x="0" y="-1" z="6" spawntime="60" />
 	</monster>
+	<monster centerx="1757" centery="1249" centerz="6" radius="1">
+		<monster name="Darklight Emitter" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1747" centery="1251" centerz="6" radius="1">
+		<monster name="Darklight Emitter" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1751" centery="1251" centerz="6" radius="1">
+		<monster name="Darklight Emitter" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1756" centery="1251" centerz="6" radius="1">
+		<monster name="Darklight Emitter" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1761" centery="1251" centerz="6" radius="1">
+		<monster name="Darklight Emitter" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1742" centery="1252" centerz="6" radius="1">
+		<monster name="Darklight Emitter" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1733" centery="1253" centerz="6" radius="1">
+		<monster name="Meandering Mushroom" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1777" centery="1254" centerz="6" radius="1">
+		<monster name="Darklight Striker" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1727" centery="1255" centerz="6" radius="1">
+		<monster name="Rotten Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1717" centery="1257" centerz="6" radius="1">
+		<monster name="Darklight Construct" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1722" centery="1257" centerz="6" radius="1">
+		<monster name="Darklight Construct" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1780" centery="1257" centerz="6" radius="1">
+		<monster name="Darklight Striker" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1782" centery="1260" centerz="6" radius="1">
+		<monster name="Darklight Striker" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1717" centery="1261" centerz="6" radius="1">
+		<monster name="Darklight Construct" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1751" centery="1263" centerz="6" radius="1">
+		<monster name="Darklight Matter" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1784" centery="1264" centerz="6" radius="1">
+		<monster name="Darklight Striker" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1718" centery="1265" centerz="6" radius="1">
+		<monster name="Darklight Construct" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1751" centery="1266" centerz="6" radius="1">
+		<monster name="Darklight Matter" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1718" centery="1269" centerz="6" radius="1">
+		<monster name="Darklight Construct" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1751" centery="1269" centerz="6" radius="1">
+		<monster name="Darklight Matter" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1786" centery="1269" centerz="6" radius="1">
+		<monster name="Darklight Striker" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1746" centery="1272" centerz="6" radius="1">
+		<monster name="Darklight Matter" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1749" centery="1272" centerz="6" radius="1">
+		<monster name="Darklight Matter" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1719" centery="1274" centerz="6" radius="1">
+		<monster name="Darklight Construct" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1786" centery="1274" centerz="6" radius="1">
+		<monster name="Oozing Carcass" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1736" centery="1276" centerz="6" radius="1">
+		<monster name="Oozing Corpus" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1721" centery="1277" centerz="6" radius="1">
+		<monster name="Darklight Construct" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1732" centery="1277" centerz="6" radius="1">
+		<monster name="Rotten Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1786" centery="1278" centerz="6" radius="1">
+		<monster name="Rotten Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1782" centery="1281" centerz="6" radius="1">
+		<monster name="Rotten Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1785" centery="1282" centerz="6" radius="1">
+		<monster name="Rotten Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1722" centery="1283" centerz="6" radius="1">
+		<monster name="Oozing Corpus" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1778" centery="1284" centerz="6" radius="1">
+		<monster name="Meandering Mushroom" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1722" centery="1287" centerz="6" radius="1">
+		<monster name="Rotten Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1784" centery="1287" centerz="6" radius="1">
+		<monster name="Meandering Mushroom" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1770" centery="1289" centerz="6" radius="1">
+		<monster name="Meandering Mushroom" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1721" centery="1291" centerz="6" radius="1">
+		<monster name="Bloated Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1722" centery="1294" centerz="6" radius="1">
+		<monster name="Rotten Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1764" centery="1294" centerz="6" radius="1">
+		<monster name="Meandering Mushroom" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1785" centery="1295" centerz="6" radius="1">
+		<monster name="Meandering Mushroom" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1721" centery="1299" centerz="6" radius="1">
+		<monster name="Meandering Mushroom" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1757" centery="1300" centerz="6" radius="1">
+		<monster name="Meandering Mushroom" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1785" centery="1301" centerz="6" radius="1">
+		<monster name="Meandering Mushroom" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1754" centery="1302" centerz="6" radius="1">
+		<monster name="Rotten Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1750" centery="1304" centerz="6" radius="1">
+		<monster name="Oozing Carcass" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1739" centery="1307" centerz="6" radius="1">
+		<monster name="Darklight Source" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1743" centery="1307" centerz="6" radius="1">
+		<monster name="Darklight Source" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1731" centery="1308" centerz="6" radius="1">
+		<monster name="Darklight Source" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1735" centery="1308" centerz="6" radius="1">
+		<monster name="Darklight Source" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1723" centery="1309" centerz="6" radius="1">
+		<monster name="Darklight Source" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1727" centery="1309" centerz="6" radius="1">
+		<monster name="Darklight Source" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1784" centery="1311" centerz="6" radius="1">
+		<monster name="Rotten Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1764" centery="1313" centerz="6" radius="1">
+		<monster name="Oozing Corpus" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1722" centery="1315" centerz="6" radius="1">
+		<monster name="Bloated Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1772" centery="1319" centerz="6" radius="1">
+		<monster name="Oozing Corpus" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1785" centery="1319" centerz="6" radius="1">
+		<monster name="Meandering Mushroom" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1724" centery="1321" centerz="6" radius="1">
+		<monster name="Bloated Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1769" centery="1322" centerz="6" radius="1">
+		<monster name="Walking Pillar" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1767" centery="1323" centerz="6" radius="1">
+		<monster name="Walking Pillar" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1773" centery="1323" centerz="6" radius="1">
+		<monster name="Rotten Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1763" centery="1324" centerz="6" radius="1">
+		<monster name="Walking Pillar" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1760" centery="1325" centerz="6" radius="1">
+		<monster name="Walking Pillar" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1724" centery="1326" centerz="6" radius="1">
+		<monster name="Bloated Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1776" centery="1326" centerz="6" radius="1">
+		<monster name="Oozing Carcass" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1782" centery="1328" centerz="6" radius="1">
+		<monster name="Meandering Mushroom" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1785" centery="1328" centerz="6" radius="1">
+		<monster name="Meandering Mushroom" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1752" centery="1329" centerz="6" radius="1">
+		<monster name="Rotten Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1724" centery="1330" centerz="6" radius="1">
+		<monster name="Bloated Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1729" centery="1330" centerz="6" radius="1">
+		<monster name="Bloated Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1733" centery="1330" centerz="6" radius="1">
+		<monster name="Bloated Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1742" centery="1330" centerz="6" radius="1">
+		<monster name="Oozing Carcass" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1783" centery="1334" centerz="6" radius="1">
+		<monster name="Oozing Carcass" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1724" centery="1335" centerz="6" radius="1">
+		<monster name="Bloated Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1749" centery="1335" centerz="6" radius="1">
+		<monster name="Walking Pillar" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1749" centery="1338" centerz="6" radius="1">
+		<monster name="Walking Pillar" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1750" centery="1342" centerz="6" radius="1">
+		<monster name="Walking Pillar" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1784" centery="1342" centerz="6" radius="1">
+		<monster name="Oozing Carcass" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1751" centery="1345" centerz="6" radius="1">
+		<monster name="Walking Pillar" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1725" centery="1346" centerz="6" radius="1">
+		<monster name="Walking Pillar" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1787" centery="1348" centerz="6" radius="1">
+		<monster name="Oozing Carcass" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1724" centery="1349" centerz="6" radius="1">
+		<monster name="Walking Pillar" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1751" centery="1349" centerz="6" radius="1">
+		<monster name="Walking Pillar" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Walking Pillar" x="1" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1753" centery="1349" centerz="6" radius="1">
+		<monster name="Walking Pillar" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1787" centery="1352" centerz="6" radius="1">
+		<monster name="Rotten Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1725" centery="1353" centerz="6" radius="1">
+		<monster name="Walking Pillar" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1752" centery="1354" centerz="6" radius="1">
+		<monster name="Meandering Mushroom" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1726" centery="1357" centerz="6" radius="1">
+		<monster name="Walking Pillar" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1787" centery="1358" centerz="6" radius="1">
+		<monster name="Mega Beetle" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1725" centery="1359" centerz="6" radius="1">
+		<monster name="Rotten Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1728" centery="1361" centerz="6" radius="1">
+		<monster name="Meandering Mushroom" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1736" centery="1361" centerz="6" radius="1">
+		<monster name="Meandering Mushroom" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1748" centery="1361" centerz="6" radius="1">
+		<monster name="Oozing Carcass" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1752" centery="1361" centerz="6" radius="1">
+		<monster name="Meandering Mushroom" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1759" centery="1361" centerz="6" radius="1">
+		<monster name="Meandering Mushroom" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1766" centery="1361" centerz="6" radius="1">
+		<monster name="Oozing Carcass" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1769" centery="1361" centerz="6" radius="1">
+		<monster name="Oozing Carcass" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Oozing Carcass" x="0" y="1" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1775" centery="1361" centerz="6" radius="1">
+		<monster name="Rotten Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1782" centery="1361" centerz="6" radius="1">
+		<monster name="Rotten Man-Maggot" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="1744" centery="1362" centerz="6" radius="1">
+		<monster name="Meandering Mushroom" x="0" y="0" z="6" spawntime="60" />
+	</monster>
 	<monster centerx="1814" centery="582" centerz="7" radius="1">
 		<monster name="Courage Leech" x="0" y="0" z="7" spawntime="60" />
 	</monster>
@@ -7838,6 +8137,474 @@
 	</monster>
 	<monster centerx="1084" centery="1013" centerz="7" radius="1">
 		<monster name="Goblin" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1475" centery="1269" centerz="7" radius="1">
+		<monster name="Infernal Demon" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1445" centery="1271" centerz="7" radius="1">
+		<monster name="Infernal Demon" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1547" centery="1274" centerz="7" radius="1">
+		<monster name="Emerald Tortoise" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1550" centery="1274" centerz="7" radius="1">
+		<monster name="Emerald Tortoise" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1552" centery="1274" centerz="7" radius="1">
+		<monster name="Emerald Tortoise" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1561" centery="1274" centerz="7" radius="1">
+		<monster name="Emerald Tortoise" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1556" centery="1275" centerz="7" radius="1">
+		<monster name="Emerald Tortoise" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1382" centery="1276" centerz="7" radius="1">
+		<monster name="Druid's Apparition" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1409" centery="1276" centerz="7" radius="1">
+		<monster name="Druid's Apparition" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1544" centery="1276" centerz="7" radius="1">
+		<monster name="Emerald Tortoise" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1589" centery="1276" centerz="7" radius="1">
+		<monster name="Hulking Prehemoth" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1577" centery="1277" centerz="7" radius="1">
+		<monster name="Hulking Prehemoth" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1478" centery="1278" centerz="7" radius="1">
+		<monster name="Branchy Crawler" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1579" centery="1278" centerz="7" radius="1">
+		<monster name="Hulking Prehemoth" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1590" centery="1278" centerz="7" radius="1">
+		<monster name="Hulking Prehemoth" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1467" centery="1279" centerz="7" radius="1">
+		<monster name="Infernal Demon" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1543" centery="1279" centerz="7" radius="1">
+		<monster name="Emerald Tortoise" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1582" centery="1279" centerz="7" radius="1">
+		<monster name="Hulking Prehemoth" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1586" centery="1280" centerz="7" radius="1">
+		<monster name="Hulking Prehemoth" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1397" centery="1281" centerz="7" radius="1">
+		<monster name="Druid's Apparition" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1544" centery="1282" centerz="7" radius="1">
+		<monster name="Hulking Prehemoth" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1588" centery="1282" centerz="7" radius="1">
+		<monster name="Gore Horn" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1590" centery="1282" centerz="7" radius="1">
+		<monster name="Gore Horn" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1374" centery="1283" centerz="7" radius="1">
+		<monster name="Druid's Apparition" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1436" centery="1283" centerz="7" radius="1">
+		<monster name="Infernal Demon" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1385" centery="1284" centerz="7" radius="1">
+		<monster name="Druid's Apparition" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1544" centery="1285" centerz="7" radius="1">
+		<monster name="Hulking Prehemoth" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1592" centery="1286" centerz="7" radius="1">
+		<monster name="Gore Horn" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1595" centery="1286" centerz="7" radius="1">
+		<monster name="Gore Horn" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1477" centery="1287" centerz="7" radius="1">
+		<monster name="Rotten Golem" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1482" centery="1287" centerz="7" radius="1">
+		<monster name="Rotten Golem" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1444" centery="1288" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1451" centery="1288" centerz="7" radius="1">
+		<monster name="Infernal Demon" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1466" centery="1289" centerz="7" radius="1">
+		<monster name="Branchy Crawler" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1546" centery="1289" centerz="7" radius="1">
+		<monster name="Hulking Prehemoth" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1476" centery="1290" centerz="7" radius="1">
+		<monster name="Branchy Crawler" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1492" centery="1290" centerz="7" radius="1">
+		<monster name="Branchy Crawler" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1594" centery="1290" centerz="7" radius="1">
+		<monster name="Gore Horn" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1381" centery="1291" centerz="7" radius="1">
+		<monster name="Paladin's Apparition" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1481" centery="1291" centerz="7" radius="1">
+		<monster name="Rotten Golem" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1548" centery="1291" centerz="7" radius="1">
+		<monster name="Hulking Prehemoth" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1397" centery="1293" centerz="7" radius="1">
+		<monster name="Druid's Apparition" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1425" centery="1293" centerz="7" radius="1">
+		<monster name="Infernal Demon" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1477" centery="1293" centerz="7" radius="1">
+		<monster name="Rotten Golem" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1595" centery="1293" centerz="7" radius="1">
+		<monster name="Gore Horn" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1382" centery="1294" centerz="7" radius="1">
+		<monster name="Paladin's Apparition" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1550" centery="1294" centerz="7" radius="1">
+		<monster name="Hulking Prehemoth" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1372" centery="1295" centerz="7" radius="1">
+		<monster name="Druid's Apparition" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1597" centery="1295" centerz="7" radius="1">
+		<monster name="Gore Horn" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1435" centery="1296" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1443" centery="1297" centerz="7" radius="1">
+		<monster name="Infernal Demon" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1451" centery="1297" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1462" centery="1297" centerz="7" radius="1">
+		<monster name="Infernal Demon" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1493" centery="1297" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1601" centery="1297" centerz="7" radius="1">
+		<monster name="Gore Horn" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1381" centery="1300" centerz="7" radius="1">
+		<monster name="Druid's Apparition" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1603" centery="1300" centerz="7" radius="1">
+		<monster name="Gore Horn" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1606" centery="1301" centerz="7" radius="1">
+		<monster name="Gore Horn" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1415" centery="1302" centerz="7" radius="1">
+		<monster name="Infernal Demon" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1603" centery="1303" centerz="7" radius="1">
+		<monster name="Gore Horn" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1492" centery="1305" centerz="7" radius="1">
+		<monster name="Branchy Crawler" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1496" centery="1305" centerz="7" radius="1">
+		<monster name="Branchy Crawler" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1557" centery="1305" centerz="7" radius="1">
+		<monster name="Primal Fire" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1612" centery="1306" centerz="7" radius="1">
+		<monster name="Sabretooth" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1484" centery="1307" centerz="7" radius="1">
+		<monster name="Branchy Crawler" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1393" centery="1308" centerz="7" radius="1">
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1476" centery="1308" centerz="7" radius="1">
+		<monster name="Branchy Crawler" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1498" centery="1308" centerz="7" radius="1">
+		<monster name="Branchy Crawler" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1614" centery="1308" centerz="7" radius="1">
+		<monster name="Sabretooth" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1617" centery="1309" centerz="7" radius="1">
+		<monster name="Sabretooth" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1492" centery="1310" centerz="7" radius="1">
+		<monster name="Branchy Crawler" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1496" centery="1311" centerz="7" radius="1">
+		<monster name="Branchy Crawler" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1619" centery="1311" centerz="7" radius="1">
+		<monster name="Sabretooth" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1621" centery="1314" centerz="7" radius="1">
+		<monster name="Hulking Prehemoth" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1623" centery="1314" centerz="7" radius="1">
+		<monster name="Hulking Prehemoth" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1394" centery="1316" centerz="7" radius="1">
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1448" centery="1316" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1451" centery="1316" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1456" centery="1316" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1460" centery="1316" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1465" centery="1316" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1621" centery="1316" centerz="7" radius="1">
+		<monster name="Hulking Prehemoth" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1623" centery="1316" centerz="7" radius="1">
+		<monster name="Hulking Prehemoth" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1390" centery="1317" centerz="7" radius="1">
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1435" centery="1317" centerz="7" radius="1">
+		<monster name="Infernal Demon" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1402" centery="1318" centerz="7" radius="1">
+		<monster name="Druid's Apparition" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1455" centery="1319" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1494" centery="1319" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1451" centery="1320" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1410" centery="1328" centerz="7" radius="1">
+		<monster name="Infernal Demon" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1420" centery="1328" centerz="7" radius="1">
+		<monster name="Infernal Demon" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Infernal Demon" x="1" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1491" centery="1329" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1496" centery="1330" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1490" centery="1333" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1639" centery="1333" centerz="7" radius="1">
+		<monster name="Undertaker" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1447" centery="1334" centerz="7" radius="1">
+		<monster name="Bony Sea Devil" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1457" centery="1334" centerz="7" radius="1">
+		<monster name="Bony Sea Devil" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1496" centery="1334" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1642" centery="1335" centerz="7" radius="1">
+		<monster name="Undertaker" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1459" centery="1336" centerz="7" radius="1">
+		<monster name="Bony Sea Devil" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1445" centery="1337" centerz="7" radius="1">
+		<monster name="Executor of Aiolos" x="0" y="0" z="7" spawntime="60" direction="1" />
+	</monster>
+	<monster centerx="1456" centery="1337" centerz="7" radius="1">
+		<monster name="Bony Sea Devil" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1463" centery="1337" centerz="7" radius="1">
+		<monster name="Bony Sea Devil" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1477" centery="1337" centerz="7" radius="1">
+		<monster name="Bony Sea Devil" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1489" centery="1337" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1493" centery="1337" centerz="7" radius="1">
+		<monster name="Cloak of Terror" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1627" centery="1337" centerz="7" radius="1">
+		<monster name="Sulphur Spouter" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1630" centery="1337" centerz="7" radius="1">
+		<monster name="Sulphur Spouter" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1633" centery="1337" centerz="7" radius="1">
+		<monster name="Sulphur Spouter" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1636" centery="1337" centerz="7" radius="1">
+		<monster name="Undertaker" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1639" centery="1337" centerz="7" radius="1">
+		<monster name="Undertaker" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1459" centery="1338" centerz="7" radius="1">
+		<monster name="Bony Sea Devil" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1645" centery="1338" centerz="7" radius="1">
+		<monster name="Undertaker" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1627" centery="1339" centerz="7" radius="1">
+		<monster name="Sulphur Spouter" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1630" centery="1339" centerz="7" radius="1">
+		<monster name="Sulphur Spouter" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1642" centery="1339" centerz="7" radius="1">
+		<monster name="Undertaker" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1650" centery="1339" centerz="7" radius="1">
+		<monster name="Shrieking Cry-Stal" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1443" centery="1340" centerz="7" radius="1">
+		<monster name="Bony Sea Devil" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1456" centery="1340" centerz="7" radius="1">
+		<monster name="Bony Sea Devil" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1648" centery="1341" centerz="7" radius="1">
+		<monster name="Shrieking Cry-Stal" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1651" centery="1343" centerz="7" radius="1">
+		<monster name="Shrieking Cry-Stal" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1654" centery="1343" centerz="7" radius="1">
+		<monster name="Shrieking Cry-Stal" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1655" centery="1347" centerz="7" radius="1">
+		<monster name="Shrieking Cry-Stal" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1658" centery="1347" centerz="7" radius="1">
+		<monster name="Shrieking Cry-Stal" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1659" centery="1350" centerz="7" radius="1">
+		<monster name="Shrieking Cry-Stal" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1661" centery="1352" centerz="7" radius="1">
+		<monster name="Shrieking Cry-Stal" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1657" centery="1353" centerz="7" radius="1">
+		<monster name="Shrieking Cry-Stal" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1660" centery="1355" centerz="7" radius="1">
+		<monster name="Shrieking Cry-Stal" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1658" centery="1356" centerz="7" radius="1">
+		<monster name="Shrieking Cry-Stal" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1664" centery="1356" centerz="7" radius="1">
+		<monster name="Shrieking Cry-Stal" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1663" centery="1359" centerz="7" radius="1">
+		<monster name="Shrieking Cry-Stal" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1671" centery="1360" centerz="7" radius="1">
+		<monster name="Noxious Ripptor" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1674" centery="1362" centerz="7" radius="1">
+		<monster name="Noxious Ripptor" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1671" centery="1363" centerz="7" radius="1">
+		<monster name="Noxious Ripptor" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="1674" centery="1365" centerz="7" radius="1">
+		<monster name="Noxious Ripptor" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1820" centery="589" centerz="8" radius="1">
 		<monster name="Cloak of Terror" x="-1" y="0" z="8" spawntime="60" />
