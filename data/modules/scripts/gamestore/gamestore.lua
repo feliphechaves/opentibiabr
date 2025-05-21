@@ -189,7 +189,6 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				state = GameStore.States.STATE_NEW,
 				movable = true,
-				home = true,
 			},
 			{
 				icons = { "poisonstorm_pendulet.png" },
@@ -201,7 +200,6 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				state = GameStore.States.STATE_NEW,
 				movable = true,
-				home = true,
 			},
 			{
 				icons = { "saintdying_pendulet.png" },
@@ -213,7 +211,6 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				state = GameStore.States.STATE_NEW,
 				movable = true,
-				home = true,
 			},
 			{
 				icons = { "saintdying_pendulet.png" },
@@ -225,7 +222,6 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				state = GameStore.States.STATE_NEW,
 				movable = true,
-				home = true,
 			},
 		},
 	},
@@ -246,7 +242,6 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				state = GameStore.States.STATE_NEW,
 				movable = true,
-				home = true,
 			},
 			{
 				icons = { "poisonstorm_sigil.png" },
@@ -258,7 +253,6 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				state = GameStore.States.STATE_NEW,
 				movable = true,
-				home = true,
 			},
 			{
 				icons = { "saintdying_sigil.png" },
@@ -270,7 +264,6 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				state = GameStore.States.STATE_NEW,
 				movable = true,
-				home = true,
 			},
 			{
 				icons = { "saintdying_sigil.png" },
@@ -282,7 +275,6 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				state = GameStore.States.STATE_NEW,
 				movable = true,
-				home = true,
 			},
 		},
 	},
@@ -3357,7 +3349,6 @@ GameStore.Categories = {
 				description = "Full Barbarian Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
 				state = GameStore.States.STATE_NEW,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Warrior_Male.png", "Outfit_Warrior_Female.png" },
@@ -3368,7 +3359,6 @@ GameStore.Categories = {
 				description = "Full Warrior Outfit",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
 				state = GameStore.States.STATE_NEW,
-				home = true,
 			},
 		},
 	},
@@ -3387,7 +3377,6 @@ GameStore.Categories = {
 				description = "Dark outfit is male \n White outfit is female",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
 				state = GameStore.States.STATE_NEW,
-				home = true,
 			},
 			{
 				name = "Full Dark/White Druid Outfit",
@@ -3397,7 +3386,6 @@ GameStore.Categories = {
 				description = "Dark outfit is male \n White outfit is female",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
 				state = GameStore.States.STATE_NEW,
-				home = true,
 			},
 			{
 				name = "Full Dark/White Paladin Outfit",
@@ -3407,7 +3395,6 @@ GameStore.Categories = {
 				description = "Dark outfit is male \n White outfit is female",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
 				state = GameStore.States.STATE_NEW,
-				home = true,
 			},
 			{
 				name = "Full Dark/White Axe Outfit",
@@ -3417,7 +3404,6 @@ GameStore.Categories = {
 				description = "Dark outfit is male \n White outfit is female",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
 				state = GameStore.States.STATE_NEW,
-				home = true,
 			},
 			{
 				name = "Full Dark/White Club Outfit",
@@ -3427,7 +3413,6 @@ GameStore.Categories = {
 				description = "Dark outfit is male \n White outfit is female",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
 				state = GameStore.States.STATE_NEW,
-				home = true,
 			},
 			{
 				name = "Full Dark/White Sword Outfit",
@@ -3437,7 +3422,6 @@ GameStore.Categories = {
 				description = "Dark outfit is male \n White outfit is female",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
 				state = GameStore.States.STATE_NEW,
-				home = true,
 			},
 		},
 	},
@@ -6744,7 +6728,6 @@ GameStore.Categories = {
 				description = "<i>Train your skills more effectively at home than in public on this expert exercise dummy!</i>\n\n 15% bonus rate skill experience\n 30% bonus speed exercise weapons\nMaximum 4 players per dummy \n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
 				state = GameStore.States.STATE_NEW,
-				home = true,
 			},
 			{
 				icons = { "Chaotic_Exercise_Dummy.png" },
@@ -7156,7 +7139,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "Infinite food. Its infinity.",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM_UNIQUE,
-				home = true,
 				movable = true,
 			},
 			{
@@ -7168,7 +7150,6 @@ GameStore.Categories = {
 				description = "This food fills all your stamina.",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				state = GameStore.States.STATE_NEW,
-				home = true,
 				movable = true,
 			},
 			{
@@ -7186,13 +7167,12 @@ GameStore.Categories = {
 			{
 				icons = {},
 				name = "Charm Pownder",
-				price = 5,
+				price = 10,
 				itemtype = 12210,
 				count = 1,
 				description = "When used you will receive 500 charm points.",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				state = GameStore.States.STATE_NEW,
-				home = true,
 				movable = true,
 			},
 			{
@@ -7204,7 +7184,6 @@ GameStore.Categories = {
 				description = "Use it and turn your loot into gold!",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				state = GameStore.States.STATE_NEW,
-				home = true,
 				movable = true,
 			},
 			{
@@ -7216,7 +7195,6 @@ GameStore.Categories = {
 				description = "Coin to use in premium roulette",
 				type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
 				movable = true,
-				home = true,
 				state = GameStore.States.STATE_NEW,
 			},
 			{
@@ -7237,7 +7215,6 @@ GameStore.Categories = {
 				description = "Use this magical scroll to switch to a new vocation and embark on a different journey. Your skills will adapt to match your new vocation, with primary skills preserved and others balanced to a basic level. Make sure to unequip all items before using!",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				state = GameStore.States.STATE_NEW,
-				home = true,
 				movable = true,
 			},
 		},
