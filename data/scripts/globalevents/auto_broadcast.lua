@@ -1,22 +1,22 @@
 local AutoBroadCast = GlobalEvent("text")
 function AutoBroadCast.onThink(interval, lastExecution)
 	local messages = {
-		"[Daily Reward]: Using the !reward command you receive your daily reward",
-		"[Tip]: Lagging? Use !fps to relog and get back to action!",
-		"[Silver Tokens]: Looking to gather Dusts? Use a Silver Token to get 130 Dusts for 10kk (only 8kk if you're VIP)!",
-		"[Gold Tokens]: Upgrade your gear! Exchange your Gold Tokens for Class 4 items with Goldoken. Don't miss the opportunity to get stronger!",
-		"[Supreme Imbuements]: Maximize your power with Supreme Imbuements! They are stronger, last longer, and can be yours for Gold Tokens. Upgrade now and dominate the battlefield!",
-		"[Daily Boss]: Ready for epic rewards? The Daily Boss spawns every day at 20:00! Find the teleport in the center of Thais temple and claim amazing loot.",
-		"[Gold Transfer]: Need to send gold quickly? Use the command !transfer character, amount to transfer gold instantly, no need to visit the bank. Convenient and fast!",
-		"[Task Sword]: Looking for exciting rewards? Interact with the sword in the Hunts Teleports room to start tasks and claim amazing prizes. Adventure awaits!",
-		"[Boss Room]: Every boss in the Boss Room drops Gold Tokens! Challenge them, defeat them, and collect your rewards.",
-		"[Bag You Covet]: Want a Bag You Covet? Defeat monsters in Rotten Blood and the new custom hunts to collect items. Trade them with Altar and claim your reward!",
-		"[Grand Sanguine]: Did you know? Completing tasks in the new hunt can earn you a Grand Sanguine! Take on the challenge and claim this exclusive reward!",
-		"[Bag You Desire]: Want to boost your chance of getting a Bag You Desire? Collect all 5 Taints to increase your odds. The more complete your set, the better your luck!",
-		"[Check Taints]: Curious about your progress? Use the command !checktaint to see how many Taints you have collected. Keep striving for all 5!",
-		"[Supreme Runes]: Unlock ultimate power with Supreme Runes! These powerful runes can be used by Druids and Sorcerers of level 1500+.",
-		"[Multi-Client Rules]: Only 4 characters per IP are allowed. Respect this rule for fair play!",
-		"[Account Rules]: A maximum of 2 characters per account can be logged in, but only 1 is allowed outside PZ at a time.",
+		"[Recompensa Diária]: Use o comando !reward para receber sua recompensa diária!",
+		"[Dica]: Use !fps para relogar e limpar o cache do client melhorando o fps.",
+		"[Dica]: Quando estiver caçando sempre deixe a Loot Pouch fechada para evitar lag.",
+		"[Silver Tokens]: Use um Silver Token e receba 130 Dusts por 10kk (ou 8kk se for VIP)!",
+		"[Gold Tokens]: Troque Gold Tokens por itens classe 4 com o NPC Goldoken.",
+		"[Imbuements Supreme]: Supreme Imbuements são mais fortes e duram mais. Eles precisam apenas de Gold Tokens.",
+		"[Boss Diário]: O Boss Diário aparece todos os dias às 20:00! O teleporte fica disponível no centro do templo de Thais.",
+		"[Boss Diário]: Nos domingos o boss diário é o Ferumbras!",
+		"[Boss Diário]: Nas sextas o boss diário é o Morshabaal!",
+		"[Transferência de Gold]: Use o comando !transfer [nome], [valor] (sem colchetes) para transferir gold para outro personagem.",
+		"[Sala de Boss]: Todos os bosses na Sala de Boss dropam Gold Tokens!",
+		"[Bag You Covet]: Troque 5 tainted heart e 5 darklight heart com o Altar por uma Bag You Covet.",
+		"[Grand Sanguine]: Você pode trocar 3 essence of health por uma Grand Sanguine Box com o Sanguine Lord que fica na sala de Hunts.",
+		"[Verificar Taints]: Use o comando !checktaint para ver quantas Taints da soul war você já coletou!",
+		"[Runas Supreme]: Desperte seu verdadeiro poder com Supreme Runes! Usáveis por Druids e Sorcerers com level 1500 ou mais.",
+		"[Regra de Conta]: Máximo de 2 personagens por conta logados ao mesmo tempo, mas apenas 1 pode estar fora do PZ.",
 	}
 	Game.broadcastMessage(messages[math.random(#messages)], MESSAGE_GAME_HIGHLIGHT)
 	return true
