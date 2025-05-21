@@ -25,6 +25,7 @@ local effects = {
 	{ position = Position(1067, 926, 7), text = "BAG YOU DESIRE", effect = CONST_ME_GROUNDSHAKER },
 	{ position = Position(1066, 929, 7), text = "PRIMAL BAG", effect = CONST_ME_GROUNDSHAKER },
 	{ position = Position(1060, 929, 7), text = "BAG YOU COVET", effect = CONST_ME_GROUNDSHAKER },
+	{ position = Position(32365, 32236, 7), text = "QUESTS", effect = CONST_ME_GROUNDSHAKER },
 	
 }
 
