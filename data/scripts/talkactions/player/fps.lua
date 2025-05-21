@@ -20,12 +20,11 @@ function fps.onSay(player, words, param)
 
 	-- Executa a lógica do comando
 	if player then
-		player:remove()
+		player:disconnect()
 	end
 
 	return true
 end
 
-fps:separator(" ")
 fps:groupType("normal")
 fps:register()

@@ -21,6 +21,7 @@ enum class IconBakragore : uint8_t;
 class PlayerFunctions {
 	static void init(lua_State* L);
 
+	static int luaPlayerDisconnect(lua_State* L);
 	static int luaPlayerCreate(lua_State* L);
 
 	static int luaPlayerUnlockAllCharmRunes(lua_State* L);

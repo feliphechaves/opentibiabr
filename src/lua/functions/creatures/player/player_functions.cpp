@@ -409,6 +409,7 @@ void PlayerFunctions::init(lua_State* L) {
 	Lua::registerMethod(L, "Player", "addAnimusMastery", PlayerFunctions::luaPlayerAddAnimusMastery);
 	Lua::registerMethod(L, "Player", "removeAnimusMastery", PlayerFunctions::luaPlayerRemoveAnimusMastery);
 	Lua::registerMethod(L, "Player", "hasAnimusMastery", PlayerFunctions::luaPlayerHasAnimusMastery);
+	Lua::registerMethod(L, "Player", "disconnect", PlayerFunctions::luaPlayerDisconnect);
 
 	// OTCR Features
 	Lua::registerMethod(L, "Player", "getMapShader", PlayerFunctions::luaPlayerGetMapShader);
@@ -421,6 +422,19 @@ void PlayerFunctions::init(lua_State* L) {
 	MountFunctions::init(L);
 	PartyFunctions::init(L);
 	VocationFunctions::init(L);
+}
+
+int PlayerFunctions::luaPlayerDisconnect(lua_State* L) {
+    // player:disconnect()
+    const auto &player = Lua::getUserdataShared<Player>(L, 1, "Player");
+    if (!player) {
+        Lua::reportErrorFunc(Lua::getErrorDesc(LUA_ERROR_PLAYER_NOT_FOUND));
+        return 1;
+    }
+
+    player->disconnect();
+    Lua::pushBoolean(L, true);
+    return 1;
 }
 
 int PlayerFunctions::luaPlayerSendInventory(lua_State* L) {
