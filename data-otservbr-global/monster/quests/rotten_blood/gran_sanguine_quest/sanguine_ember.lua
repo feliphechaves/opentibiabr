@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Sanguine Ember")
 local monster = {}
 
 monster.description = "a sanguine ember"
-monster.experience = 95000
+monster.experience = 90000
 monster.outfit = {
 	lookType = 2514,
 	lookHead = 0,

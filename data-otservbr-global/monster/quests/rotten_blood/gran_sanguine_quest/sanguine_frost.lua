@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Sanguine Frost")
 local monster = {}
 
 monster.description = "a sanguine frost"
-monster.experience = 95000
+monster.experience = 90000
 monster.outfit = {
 	lookType = 2516,
 	lookHead = 0,
