@@ -13,8 +13,8 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.health = 6000000
-monster.maxHealth = 6000000
+monster.health = 5000000
+monster.maxHealth = 5000000
 monster.race = "undead"
 monster.corpse = 20228
 monster.speed = 250
@@ -135,6 +135,7 @@ monster.loot = {
 	{ id = 10343, chance = 6000 }, -- spiritual charm
 	{ id = 10342, chance = 6000 }, -- unity charm
 	{ id = 10341, chance = 6000 }, -- phoenix charm
+	{ name = "gold token", chance = 1000, maxCount = 1 }, -- gold token
 }
 
 monster.attacks = {

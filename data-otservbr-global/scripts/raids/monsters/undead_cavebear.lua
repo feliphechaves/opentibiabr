@@ -1,14 +1,14 @@
-local zone = Zone("farmine.draptor")
+local zone = Zone("undead.cavebear")
 zone:addArea(Position(31909, 32554, 7), Position(31983, 32579, 7))
 
-local raid = Raid("farmine.draptor", {
+local raid = Raid("undead.cavebear", {
 	zone = zone,
 	allowedDays = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" },
 	minActivePlayers = 2,
 	initialChance = 0.02,
-	targetChancePerDay = 0.02,
-	maxChancePerCheck = 0.6,
-	minGapBetween = "12h",
+	targetChancePerDay = 0.15,
+	maxChancePerCheck = 0.1,
+	minGapBetween = "36h",
 })
 
 for i = 1, 3 do
@@ -19,7 +19,7 @@ for i = 1, 3 do
 				amount = 3,
 			},
 		})
-		:autoAdvance("2m")
+		:autoAdvance("30m")
 end
 
 raid:register()

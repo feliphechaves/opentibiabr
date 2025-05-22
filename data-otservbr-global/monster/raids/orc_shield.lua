@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.health = 950
-monster.maxHealth = 950
+monster.health = 3000000
+monster.maxHealth = 3000000
 monster.race = "blood"
 monster.corpse = 6008
 monster.speed = 117
@@ -88,11 +88,13 @@ monster.loot = {
 	{ id = 7395, chance = 80 }, -- orc trophy
 	{ id = 3049, chance = 80 }, -- stealth ring
 	{ id = 3437, chance = 5000 }, -- amazon shield
+	{ name = "gold token", chance = 1650, maxCount = 10 },
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -250 },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -200, range = 7, shootEffect = CONST_ANI_THROWINGSTAR, target = false },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -8000 },
+	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -4500, range = 10000, shootEffect = CONST_ANI_THROWINGSTAR, target = false },
+	{ name = "combat", interval = 3000, chance = 50, type = COMBAT_PHYSICALDAMAGE, minDamage = -3000, maxDamage = -6000, effect = CONST_ME_HITAREA, radius = 3, spread = 3, target = false }
 }
 
 monster.defenses = {

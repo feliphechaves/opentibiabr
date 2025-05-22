@@ -18,8 +18,8 @@ monster.bosstiary = {
 	bossRace = RARITY_NEMESIS,
 }
 
-monster.health = 77000
-monster.maxHealth = 77000
+monster.health = 5377000
+monster.maxHealth = 5377000
 monster.race = "undead"
 monster.corpse = 6068
 monster.speed = 200
@@ -123,17 +123,19 @@ monster.loot = {
 	{ name = "spellbook of lost souls", chance = 16666 },
 	{ name = "spellscroll of prophecies", chance = 25000 },
 	{ name = "spellbook of dark mysteries", chance = 20000 },
+	{ name = "gold token", chance = 1500, maxCount = 15}
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -2191 },
-	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_PHYSICALDAMAGE, minDamage = -250, maxDamage = -500, range = 7, radius = 6, effect = CONST_ME_HITAREA, target = false },
-	{ name = "combat", interval = 3000, chance = 34, type = COMBAT_PHYSICALDAMAGE, minDamage = -120, maxDamage = -500, range = 7, radius = 1, shootEffect = CONST_ANI_WHIRLWINDSWORD, target = true },
-	{ name = "combat", interval = 4000, chance = 30, type = COMBAT_ENERGYDAMAGE, minDamage = -100, maxDamage = -800, length = 8, spread = 0, effect = CONST_ME_MORTAREA, target = false },
-	{ name = "combat", interval = 3000, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = -200, maxDamage = -480, range = 14, radius = 5, effect = CONST_ME_POFF, target = false },
-	{ name = "combat", interval = 4000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -100, maxDamage = -650, range = 7, radius = 13, effect = CONST_ME_BLOCKHIT, target = false },
-	{ name = "combat", interval = 4000, chance = 18, type = COMBAT_PHYSICALDAMAGE, minDamage = -200, maxDamage = -600, radius = 14, effect = CONST_ME_LOSEENERGY, target = false },
-	{ name = "combat", interval = 3000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -200, maxDamage = -750, range = 7, radius = 4, effect = CONST_ME_ENERGYAREA, target = false },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -15000 },
+	{ name = "combat", interval = 2000, chance = 40, type = COMBAT_PHYSICALDAMAGE, minDamage = -5000, maxDamage = -10000, range = 7, radius = 6, effect = CONST_ME_HITAREA, target = false },
+	{ name = "combat", interval = 3000, chance = 34, type = COMBAT_PHYSICALDAMAGE, minDamage = -1200, maxDamage = -10000, range = 7, radius = 1, shootEffect = CONST_ANI_WHIRLWINDSWORD, target = true },
+	{ name = "combat", interval = 4000, chance = 30, type = COMBAT_ENERGYDAMAGE, minDamage = -1000, maxDamage = -10000, length = 8, spread = 0, effect = CONST_ME_MORTAREA, target = false },
+	{ name = "combat", interval = 3000, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = -2000, maxDamage = -10000, range = 14, radius = 5, effect = CONST_ME_POFF, target = false },
+	{ name = "combat", interval = 4000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -1000, maxDamage = -10000, range = 7, radius = 13, effect = CONST_ME_BLOCKHIT, target = false },
+	{ name = "combat", interval = 4000, chance = 18, type = COMBAT_PHYSICALDAMAGE, minDamage = -2000, maxDamage = -10000, radius = 14, effect = CONST_ME_LOSEENERGY, target = false },
+	{ name = "combat", interval = 3000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -2000, maxDamage = -10000, range = 7, radius = 4, effect = CONST_ME_ENERGYAREA, target = false },
+	{ name = "combat", interval = 10000, chance = 25, type = COMBAT_PHYSICALDAMAGE, length = 8, spread = 0, effect = CONST_ME_EXPLOSIONAREA, minDamage = -100000, maxDamage = -100000 },
 }
 
 monster.defenses = {

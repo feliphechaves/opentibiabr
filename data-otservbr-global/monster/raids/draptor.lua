@@ -27,8 +27,8 @@ monster.Bestiary = {
 		while 6 of them may also appear in mission 8 of Wrath of the Emperor Quest.",
 }
 
-monster.health = 3000
-monster.maxHealth = 3000
+monster.health = 500000
+monster.maxHealth = 500000
 monster.race = "blood"
 monster.corpse = 12329
 monster.speed = 340
@@ -90,10 +90,10 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -150 },
-	{ name = "combat", interval = 3000, chance = 30, type = COMBAT_ENERGYDAMAGE, minDamage = -130, maxDamage = -310, radius = 3, effect = CONST_ME_YELLOWENERGY, target = false },
-	{ name = "combat", interval = 3000, chance = 35, type = COMBAT_ENERGYDAMAGE, minDamage = -200, maxDamage = -300, range = 7, shootEffect = CONST_ANI_ENERGY, target = false },
-	{ name = "combat", interval = 2500, chance = 17, type = COMBAT_FIREDAMAGE, minDamage = -70, maxDamage = -250, length = 8, spread = 3, effect = CONST_ME_FIREAREA, target = false },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -2500 },
+	{ name = "combat", interval = 3000, chance = 30, type = COMBAT_ENERGYDAMAGE, minDamage = -1000, maxDamage = -3500, radius = 3, effect = CONST_ME_YELLOWENERGY, target = false },
+	{ name = "combat", interval = 3000, chance = 35, type = COMBAT_ENERGYDAMAGE, minDamage = -1000, maxDamage = -2500, range = 7, shootEffect = CONST_ANI_ENERGY, target = false },
+	{ name = "combat", interval = 2500, chance = 17, type = COMBAT_FIREDAMAGE, minDamage = -1500, maxDamage = -5500, length = 8, spread = 3, effect = CONST_ME_FIREAREA, target = false },
 }
 
 monster.defenses = {

@@ -18,8 +18,8 @@ monster.bosstiary = {
 	bossRace = RARITY_NEMESIS,
 }
 
-monster.health = 700
-monster.maxHealth = 700
+monster.health = 70000
+monster.maxHealth = 70000
 monster.race = "blood"
 monster.corpse = 7320
 monster.speed = 200
@@ -83,11 +83,12 @@ monster.loot = {
 	{ id = 7441, chance = 62570 }, -- ice cube
 	{ id = 7159, chance = 12500 }, -- green perch
 	{ id = 3580, chance = 12520 }, -- northern pike
+	{ name = "gold token", chance = 1500, maxCount = 5}
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, skill = 25, attack = 50 },
-	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_PHYSICALDAMAGE, minDamage = 70, maxDamage = -185, range = 7, radius = 3, shootEffect = CONST_ANI_SMALLSTONE, effect = CONST_ME_HITAREA, target = true },
+	{ name = "melee", interval = 2000, chance = 100, skill = 2050, attack = 5000 },
+	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_PHYSICALDAMAGE, minDamage = 700, maxDamage = -18500, range = 7, radius = 3, shootEffect = CONST_ANI_SMALLSTONE, effect = CONST_ME_HITAREA, target = true },
 }
 
 monster.defenses = {

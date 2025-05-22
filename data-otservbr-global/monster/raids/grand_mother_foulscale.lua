@@ -18,8 +18,8 @@ monster.bosstiary = {
 	bossRace = RARITY_NEMESIS,
 }
 
-monster.health = 1850
-monster.maxHealth = 1850
+monster.health = 1000000
+monster.maxHealth = 1000000
 monster.race = "blood"
 monster.corpse = 5973
 monster.speed = 90
@@ -95,12 +95,13 @@ monster.loot = {
 	{ id = 5877, chance = 100000 }, -- green dragon leather
 	{ id = 3416, chance = 500 }, -- dragon shield
 	{ id = 7430, chance = 650 }, -- dragonbone staff
+	{ name = "gold token", chance = 6650, maxCount = 10 },
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = -20, maxDamage = -170 },
-	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -45, maxDamage = -85, range = 7, radius = 4, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true },
-	{ name = "combat", interval = 2000, chance = 8, type = COMBAT_FIREDAMAGE, minDamage = -90, maxDamage = -150, length = 8, spread = 3, effect = CONST_ME_FIREAREA, target = false },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -5000 },
+	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -2000, maxDamage = -7000, range = 7, radius = 4, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true },
+	{ name = "combat", interval = 2000, chance = 8, type = COMBAT_FIREDAMAGE, minDamage = -2000, maxDamage = -7000, length = 8, spread = 3, effect = CONST_ME_FIREAREA, target = false },
 }
 
 monster.defenses = {
@@ -129,5 +130,11 @@ monster.immunities = {
 	{ type = "invisible", condition = true },
 	{ type = "bleed", condition = false },
 }
+
+mType.onAppear = function(monster, creature)
+	if monster:getType():isRewardBoss() then
+		monster:setReward(true)
+	end
+end
 
 mType:register(monster)

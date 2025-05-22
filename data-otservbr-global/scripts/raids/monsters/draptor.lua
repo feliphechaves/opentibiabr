@@ -4,36 +4,26 @@ zone:addArea(Position(33195, 31160, 7), Position(33286, 31247, 7))
 local raid = Raid("farmine.draptor", {
 	zone = zone,
 	allowedDays = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" },
-	minActivePlayers = 2,
-	initialChance = 0.02,
-	targetChancePerDay = 0.02,
-	maxChancePerCheck = 0.6,
-	minGapBetween = "12h",
+	minActivePlayers = 1,
+	initialChance = 0.03,
+	targetChancePerDay = 0.2,
+	maxChancePerCheck = 0.15,
+	minGapBetween = "24h",
 })
 
-raid:addBroadcast("The dragons of the Dragonblaze Mountains have  descended to Zao to protect the lizardkin!"):autoAdvance("30s")
+raid:addBroadcast("[RAID] Draptos apareceram em Zao!"):autoAdvance("10s")
 
-for i = 1, 3 do
-	raid
-		:addSpawnMonsters({
-			{
-				name = "Dragon",
-				amount = 50,
-			},
-		})
-		:autoAdvance("2m")
-end
-
-for i = 1, 8 do
-	raid
-		:addSpawnMonsters({
+raid
+	:addSpawnMonsters({
 			{
 				name = "Draptor",
-				amount = 1,
+				amount = 8,
 			},
 		})
-		:autoAdvance("10s")
-end
+	:autoAdvance("2m")
+
+
+raid:addBroadcast("[RAID] Grand Mother Foulscale vai nascer!"):autoAdvance("10s")
 
 raid
 	:addSpawnMonsters({
@@ -42,6 +32,6 @@ raid
 			amount = 1,
 		},
 	})
-	:autoAdvance("10s")
+	:autoAdvance("30m")
 
 raid:register()

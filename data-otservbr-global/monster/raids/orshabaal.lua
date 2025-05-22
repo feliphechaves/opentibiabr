@@ -18,8 +18,8 @@ monster.bosstiary = {
 	bossRace = RARITY_NEMESIS,
 }
 
-monster.health = 22500
-monster.maxHealth = 22500
+monster.health = 5000000
+monster.maxHealth = 5000000
 monster.race = "fire"
 monster.corpse = 5995
 monster.speed = 270
@@ -91,14 +91,14 @@ monster.loot = {
 	{ name = "small amethyst", chance = 20000, maxCount = 17 },
 	{ name = "talon", chance = 20000, maxCount = 3 },
 	{ name = "platinum coin", chance = 100000, maxCount = 69 },
-	{ name = "green gem", chance = 6666 },
+	{ name = "green gem", chance = 6555 },
 	{ name = "blue gem", chance = 20000 },
-	{ id = 3046, chance = 6666 }, -- magic light wand
-	{ name = "might ring", chance = 6666 },
+	{ id = 3046, chance = 6555 }, -- magic light wand
+	{ name = "might ring", chance = 6555 },
 	{ name = "silver amulet", chance = 20000 },
 	{ name = "platinum amulet", chance = 12500 },
 	{ name = "strange symbol", chance = 20000 },
-	{ name = "orb", chance = 6666 },
+	{ name = "orb", chance = 6555 },
 	{ name = "life crystal", chance = 12500 },
 	{ name = "mind stone", chance = 20000 },
 	{ name = "boots of haste", chance = 12500 },
@@ -106,17 +106,17 @@ monster.loot = {
 	{ id = 3098, chance = 33333 }, -- ring of healing
 	{ name = "two handed sword", chance = 12500 },
 	{ name = "giant sword", chance = 25000 },
-	{ name = "silver dagger", chance = 6666 },
-	{ name = "golden sickle", chance = 6666 },
+	{ name = "silver dagger", chance = 6555 },
+	{ name = "golden sickle", chance = 6555 },
 	{ name = "fire axe", chance = 12500 },
-	{ name = "dragon hammer", chance = 6666 },
+	{ name = "dragon hammer", chance = 6555 },
 	{ name = "devil helmet", chance = 33333 },
 	{ name = "golden legs", chance = 12500 },
-	{ name = "magic plate armor", chance = 6666 },
-	{ name = "mastermind shield", chance = 6666 },
+	{ name = "magic plate armor", chance = 1500 },
+	{ name = "mastermind shield", chance = 1500 },
 	{ name = "demon shield", chance = 25000 },
-	{ name = "Orshabaal's brain", chance = 6666 },
-	{ name = "thunder hammer", chance = 6666 },
+	{ name = "Orshabaal's brain", chance = 1500 },
+	{ name = "thunder hammer", chance = 1500 },
 	{ name = "demon horn", chance = 50000 },
 	{ id = 6299, chance = 50000 }, -- death ring
 	{ name = "demonic essence", chance = 100000 },
@@ -125,17 +125,19 @@ monster.loot = {
 	{ name = "great health potion", chance = 20000 },
 	{ name = "great spirit potion", chance = 12500 },
 	{ name = "ultimate health potion", chance = 33333 },
-	{ name = "gold ingot", chance = 6666 },
+	{ name = "gold ingot", chance = 6555 },
+	{ name = "gold token", chance = 1555, maxCount = 15 },
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1990 },
-	{ name = "combat", interval = 1000, chance = 13, type = COMBAT_MANADRAIN, minDamage = -300, maxDamage = -600, range = 7, target = false },
-	{ name = "combat", interval = 1000, chance = 6, type = COMBAT_MANADRAIN, minDamage = -150, maxDamage = -350, radius = 5, effect = CONST_ME_POISONAREA, target = false },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -15000 },
+	{ name = "combat", interval = 1000, chance = 13, type = COMBAT_MANADRAIN, minDamage = -3000, maxDamage = -6000, range = 7, target = false },
+	{ name = "combat", interval = 1000, chance = 6, type = COMBAT_MANADRAIN, minDamage = -1500, maxDamage = -3500, radius = 5, effect = CONST_ME_POISONAREA, target = false },
 	{ name = "effect", interval = 1000, chance = 6, radius = 5, effect = CONST_ME_HITAREA, target = false },
-	{ name = "combat", interval = 1000, chance = 34, type = COMBAT_FIREDAMAGE, minDamage = -310, maxDamage = -600, range = 7, radius = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true },
+	{ name = "combat", interval = 1000, chance = 34, type = COMBAT_FIREDAMAGE, minDamage = -3100, maxDamage = -6000, range = 7, radius = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true },
 	{ name = "firefield", interval = 1000, chance = 10, range = 7, radius = 4, shootEffect = CONST_ANI_FIRE, target = true },
-	{ name = "combat", interval = 1000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -500, maxDamage = -850, length = 8, spread = 3, effect = CONST_ME_ENERGYHIT, target = false },
+	{ name = "combat", interval = 1000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -5000, maxDamage = -8500, length = 8, spread = 3, effect = CONST_ME_ENERGYHIT, target = false },
+	{ name = "combat", interval = 10000, chance = 25, type = COMBAT_PHYSICALDAMAGE, length = 8, spread = 0, effect = CONST_ME_EXPLOSIONAREA, minDamage = -100000, maxDamage = -100000 },
 }
 
 monster.defenses = {

@@ -18,8 +18,8 @@ monster.bosstiary = {
 	bossRace = RARITY_NEMESIS,
 }
 
-monster.health = 322000
-monster.maxHealth = 322000
+monster.health = 3220000
+monster.maxHealth = 3220000
 monster.race = "fire"
 monster.corpse = 6068
 monster.speed = 240
@@ -106,17 +106,19 @@ monster.loot = {
 	{ id = 7643, chance = 31250, maxCount = 8 }, -- ultimate health potion
 	{ id = 20264, chance = 81250, maxCount = 3 }, -- unrealized dream
 	{ id = 16120, chance = 18750, maxCount = 5 }, -- violet crystal shard
+	{ name = "gold token", chance = 1500, maxCount = 15}, --gold token
 }
 
 monster.attacks = {
 	{ name = "melee", interval = 2000, chance = 100, skill = 392, attack = 500 },
-	{ name = "omrafir wave", interval = 2000, chance = 17, minDamage = -500, maxDamage = -1000, target = false },
+	{ name = "omrafir wave", interval = 2000, chance = 17, minDamage = -5000, maxDamage = -10000, target = false },
 	{ name = "omrafir beam", interval = 2000, chance = 15, minDamage = -7000, maxDamage = -10000, target = false },
 	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -1000, maxDamage = -3000, length = 10, spread = 3, effect = CONST_ME_FIREATTACK, target = false },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_FIREDAMAGE, minDamage = -200, maxDamage = -400, radius = 3, effect = CONST_ME_MAGIC_RED, target = false },
-	{ name = "combat", interval = 2000, chance = 19, type = COMBAT_FIREDAMAGE, minDamage = -150, maxDamage = -300, radius = 4, effect = CONST_ME_EXPLOSIONHIT, target = false },
+	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_FIREDAMAGE, minDamage = -2000, maxDamage = -4000, radius = 3, effect = CONST_ME_MAGIC_RED, target = false },
+	{ name = "combat", interval = 2000, chance = 19, type = COMBAT_FIREDAMAGE, minDamage = -1500, maxDamage = -3000, radius = 4, effect = CONST_ME_EXPLOSIONHIT, target = false },
 	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, radius = 1, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_HITBYFIRE, target = true },
 	{ name = "firefield", interval = 2000, chance = 12, radius = 3, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREATTACK, target = true },
+	{ name = "combat", interval = 10000, chance = 25, type = COMBAT_PHYSICALDAMAGE, length = 8, spread = 0, effect = CONST_ME_EXPLOSIONAREA, minDamage = -100000, maxDamage = -100000 },
 }
 
 monster.defenses = {

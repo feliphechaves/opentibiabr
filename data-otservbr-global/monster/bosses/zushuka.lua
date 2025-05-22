@@ -18,8 +18,8 @@ monster.bosstiary = {
 	bossRace = RARITY_NEMESIS,
 }
 
-monster.health = 15000
-monster.maxHealth = 15000
+monster.health = 700000
+monster.maxHealth = 700000
 monster.race = "blood"
 monster.corpse = 18265
 monster.speed = 110
@@ -106,13 +106,14 @@ monster.loot = {
 	{ id = 19365, chance = 7000 }, -- trapped lightning
 	{ id = 19366, chance = 3000 }, -- icy culottes
 	{ id = 7410, chance = 3000 }, -- queen's sceptre
+	{ name = "gold token", chance = 1500, maxCount = 5}
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -560 },
-	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_ICEDAMAGE, minDamage = 0, maxDamage = -100, length = 8, spread = 0, effect = CONST_ME_ICEATTACK, target = false },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_ICEDAMAGE, minDamage = 0, maxDamage = -110, range = 7, shootEffect = CONST_ANI_SNOWBALL, target = false },
-	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_ICEDAMAGE, minDamage = -300, maxDamage = -750, length = 8, spread = 0, effect = CONST_ME_ICEAREA, target = false },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -5600 },
+	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_ICEDAMAGE, minDamage = 0, maxDamage = -10000, length = 8, spread = 0, effect = CONST_ME_ICEATTACK, target = false },
+	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_ICEDAMAGE, minDamage = 0, maxDamage = -11000, range = 7, shootEffect = CONST_ANI_SNOWBALL, target = false },
+	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_ICEDAMAGE, minDamage = -300, maxDamage = -7500, length = 8, spread = 0, effect = CONST_ME_ICEAREA, target = false },
 	{ name = "outfit", interval = 2000, chance = 10, range = 7, effect = CONST_ME_MAGIC_BLUE, target = false, duration = 4000, outfitItem = 7172 },
 	{ name = "speed", interval = 2000, chance = 15, speedChange = -330, range = 7, effect = CONST_ME_ICETORNADO, target = false, duration = 20000 },
 }

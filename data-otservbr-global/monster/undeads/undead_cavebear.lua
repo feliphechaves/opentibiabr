@@ -26,8 +26,8 @@ monster.Bestiary = {
 	Locations = "Lich Hell.",
 }
 
-monster.health = 450
-monster.maxHealth = 450
+monster.health = 450000
+monster.maxHealth = 450000
 monster.race = "undead"
 monster.corpse = 12336
 monster.speed = 109
@@ -83,7 +83,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -400 },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = 10000, maxDamage = -400 },
 }
 
 monster.defenses = {

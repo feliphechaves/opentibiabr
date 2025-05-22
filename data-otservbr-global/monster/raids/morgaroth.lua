@@ -18,8 +18,8 @@ monster.bosstiary = {
 	bossRace = RARITY_NEMESIS,
 }
 
-monster.health = 55000
-monster.maxHealth = 55000
+monster.health = 5500000
+monster.maxHealth = 5500000
 monster.race = "fire"
 monster.corpse = 6068
 monster.speed = 305
@@ -133,20 +133,22 @@ monster.loot = {
 	{ name = "dragon robe", chance = 4500 },
 	{ name = "molten plate", chance = 4500 },
 	{ name = "great shield", chance = 500 },
+	{ name = "gold token", chance = 500, maxCount = 15 }
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -2250 },
-	{ name = "combat", interval = 3000, chance = 35, type = COMBAT_FIREDAMAGE, minDamage = -500, maxDamage = -1210, range = 7, radius = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true },
-	{ name = "combat", interval = 1800, chance = 40, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -580, range = 7, radius = 5, effect = CONST_ME_HITAREA, target = false },
-	{ name = "combat", interval = 3000, chance = 30, type = COMBAT_ENERGYDAMAGE, minDamage = -300, maxDamage = -1450, length = 8, spread = 3, effect = CONST_ME_ENERGYHIT, target = false },
-	{ name = "combat", interval = 2500, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = -200, maxDamage = -480, range = 7, radius = 5, effect = CONST_ME_MAGIC_GREEN, target = false },
-	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -250, maxDamage = -500, range = 7, radius = 13, effect = CONST_ME_SOUND_RED, target = false },
-	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = -200, maxDamage = -450, radius = 14, effect = CONST_ME_LOSEENERGY, target = false },
-	{ name = "combat", interval = 3000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -100, maxDamage = -200, range = 7, radius = 3, effect = CONST_ME_MAGIC_BLUE, target = false },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -22500 },
+	{ name = "combat", interval = 3000, chance = 35, type = COMBAT_FIREDAMAGE, minDamage = -5000, maxDamage = -12100, range = 7, radius = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true },
+	{ name = "combat", interval = 1800, chance = 40, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -5800, range = 7, radius = 5, effect = CONST_ME_HITAREA, target = false },
+	{ name = "combat", interval = 3000, chance = 30, type = COMBAT_ENERGYDAMAGE, minDamage = -3000, maxDamage = -14500, length = 8, spread = 3, effect = CONST_ME_ENERGYHIT, target = false },
+	{ name = "combat", interval = 2500, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = -2000, maxDamage = -8800, range = 7, radius = 5, effect = CONST_ME_MAGIC_GREEN, target = false },
+	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -2500, maxDamage = -5000, range = 7, radius = 13, effect = CONST_ME_SOUND_RED, target = false },
+	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = -2000, maxDamage = -4500, radius = 14, effect = CONST_ME_LOSEENERGY, target = false },
+	{ name = "combat", interval = 3000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -1000, maxDamage = -2000, range = 7, radius = 3, effect = CONST_ME_MAGIC_BLUE, target = false },
 	{ name = "speed", interval = 2000, chance = 15, speedChange = -400, range = 7, effect = CONST_ME_SOUND_RED, target = false, duration = 20000 },
-	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_MANADRAIN, minDamage = -70, maxDamage = -320, radius = 3, effect = CONST_ME_HITAREA, target = true },
+	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_MANADRAIN, minDamage = -700, maxDamage = -3200, radius = 3, effect = CONST_ME_HITAREA, target = true },
 	{ name = "dark torturer skill reducer", interval = 2000, chance = 5, target = false },
+	{ name = "combat", interval = 10000, chance = 25, type = COMBAT_PHYSICALDAMAGE, length = 8, spread = 0, effect = CONST_ME_EXPLOSIONAREA, minDamage = -100000, maxDamage = -100000 },
 }
 
 monster.defenses = {
