@@ -7998,8 +7998,6 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
 				coinType = GameStore.CoinType.Coin,
 				movable = true,
-				home = true,
-				state = GameStore.States.STATE_NEW,
 			},
 			{
 				icons = {},
