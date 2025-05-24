@@ -2,9 +2,9 @@ local relicItemId = 37749
 local activatedItemId = 37750
 local cooldownStorage = 92001
 local buffEndStorage = 92002
-local duration = 15 --60 * 60 -- 1 hora em segundos
-local cooldown = 15 --60 * 60 -- 1 hora em segundos
-local goldCost = 1 -- 50kk
+local duration = 60 * 60 -- 1 hora em segundos
+local cooldown = 60 * 60 -- 1 hora em segundos
+local goldCost = 50kk
 
 local action = Action()
 
