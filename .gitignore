@@ -407,3 +407,4 @@ database_backup
 # CLION
 cmake-build-*
 map.sh
+binario.sh
