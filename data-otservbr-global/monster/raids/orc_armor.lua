@@ -1,7 +1,7 @@
 local mType = Game.createMonsterType("Orc Armor")
 local monster = {}
 
-monster.name = "Orc Warlord"
+monster.name = "Orc Armor"
 monster.description = "an orc warlord"
 monster.experience = 670
 monster.outfit = {
@@ -24,6 +24,15 @@ monster.manaCost = 0
 monster.changeTarget = {
 	interval = 4000,
 	chance = 10,
+}
+
+monster.summon = {
+	maxSummons = 15,
+	summons = {
+		{ name = "Orc Shaman", chance = 20, interval = 2000, count = 5 },
+		{ name = "Orc Warlord", chance = 20, interval = 2000, count = 5 },
+		{ name = "Orc Rider", chance = 20, interval = 2000, count = 5 },
+	},
 }
 
 monster.strategiesTarget = {

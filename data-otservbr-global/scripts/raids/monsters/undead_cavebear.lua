@@ -11,6 +11,8 @@ local raid = Raid("undead.cavebear", {
 	minGapBetween = "36h",
 })
 
+raid:addBroadcast("[RAID] Undead Cavebear apareceu!!!"):autoAdvance("10s")
+
 for i = 1, 3 do
 	raid
 		:addSpawnMonsters({
@@ -19,7 +21,7 @@ for i = 1, 3 do
 				amount = 3,
 			},
 		})
-		:autoAdvance("30m")
+		:autoAdvance("1m")
 end
 
 raid:register()

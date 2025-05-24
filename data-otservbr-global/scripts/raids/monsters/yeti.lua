@@ -21,7 +21,7 @@ for i = 1, 20 do
 				amount = 3,
 			},
 		})
-		:autoAdvance("30m")
+		:autoAdvance("1m")
 end
 
 raid:register()

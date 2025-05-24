@@ -4,14 +4,14 @@ local cooldownStorage = 92001
 local buffEndStorage = 92002
 local duration = 60 * 60 -- 1 hora em segundos
 local cooldown = 60 * 60 -- 1 hora em segundos
-local goldCost = 50kk
+local goldCost = 50000000
 
 local action = Action()
 
 function action.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	local now = os.time()
 	local lastUse = player:getStorageValue(cooldownStorage)
-	local buffEndsAt = player:getStorageValue(buffEndStorage)
+	local buffEndsAt = tonumber(player:getStorageValue(buffEndStorage)) or 0
 
 	-- Verifica se o item está ativado, mas o tempo acabou, então reverte
 	if item:getId() == activatedItemId and (buffEndsAt <= 0 or now >= buffEndsAt) then
