@@ -198,21 +198,22 @@ function exerciseTraining.onUse(player, item, fromPosition, target, toPosition, 
 			end
 
 			local playersOnDummy = 0
+			local maxAllowedOnADummy = configManager.getNumber(configKeys.MAX_ALLOWED_ON_A_DUMMY)
+			if table.contains(bonusDummyIds, targetId) then
+				maxAllowedOnADummy = 4
+			end
+
 			for _, playerTraining in pairs(_G.OnExerciseTraining) do
 				if playerTraining.dummyPos == targetPos then
 					playersOnDummy = playersOnDummy + 1
 				end
-
-				local maxAllowedOnADummy = configManager.getNumber(configKeys.MAX_ALLOWED_ON_A_DUMMY)
-				if dummyId == 65001 or dummyId == 65002 or dummyId == 65003 or dummyId == 65004 then
-					maxAllowedOnADummy = 4
-				end
-
-				if playersOnDummy >= maxAllowedOnADummy then
-					player:sendTextMessage(MESSAGE_FAILURE, "That exercise dummy is busy.")
-					return true
-				end
 			end
+
+			if playersOnDummy >= maxAllowedOnADummy then
+				player:sendTextMessage(MESSAGE_FAILURE, "That exercise dummy is busy.")
+				return true
+			end
+
 		end
 
 		if player:hasExhaustion("training-exhaustion") then
