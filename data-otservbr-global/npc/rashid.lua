@@ -385,7 +385,6 @@ npcConfig.shop = {
 	{ itemName = "oriental shoes", clientId = 21981, sell = 15000 },
 	{ itemName = "pair of iron fists", clientId = 17828, sell = 4000 },
 	{ itemName = "paladin armor", clientId = 8063, sell = 15000 },
-	{ itemName = "patched boots", clientId = 3550, sell = 2000 },
 	{ itemName = "pharaoh banner", clientId = 12483, sell = 1000 },
 	{ itemName = "pharaoh sword", clientId = 3334, sell = 23000 },
 	{ itemName = "pirate boots", clientId = 5461, sell = 3000 },

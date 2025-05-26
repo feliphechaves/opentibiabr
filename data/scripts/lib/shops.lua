@@ -1169,7 +1169,6 @@ LootShopConfigTable = {
 		{ itemName = "ornate mace", clientId = 14001, sell = 42000 },
 		{ itemName = "ornate shield", clientId = 14000, sell = 42000 },
 		{ itemName = "paladin armor", clientId = 8063, sell = 15000 },
-		{ itemName = "patched boots", clientId = 3550, sell = 2000 },
 		{ itemName = "pharaoh sword", clientId = 3334, sell = 23000 },
 		{ itemName = "phoenix shield", clientId = 3439, sell = 16000 },
 		{ itemName = "pick", clientId = 3456, sell = 15 },

@@ -32,10 +32,11 @@ npcConfig.shop = {
 	{ itemName = "scarab ocarina", clientId = 43740, buy = 10 },
 
 	--equipments class 4
-	{ itemName = "class 4 helmet", clientId = 3395, buy = 5 },
-	{ itemName = "class 4 armor", clientId = 37608, buy = 5 },
-	{ itemName = "class 4 legs", clientId = 37607, buy = 5 },
-	{ itemName = "class 4 weapon", clientId = 3296, buy = 5 },
+	{ itemName = "class 4 helmet", clientId = 3395, buy = 7 },
+	{ itemName = "class 4 armor", clientId = 37608, buy = 7 },
+	{ itemName = "class 4 legs", clientId = 37607, buy = 7 },
+	{ itemName = "class 4 weapon", clientId = 3296, buy = 7 },
+	{ itemName = "class 4 boots", clientId = 3550, buy = 7 },
 
 	--tools
 	{ itemName = "obsidian knife", clientId = 5908, buy = 5 },

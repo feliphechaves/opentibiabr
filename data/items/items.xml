@@ -45833,14 +45833,14 @@
 		<attribute key="description" value="Something glitters between the eggs."/>
 	</item>
 	<item fromid="22886" toid="22888" name="RESERVED SPRITE"/>
-	<item id="22889" article="a" name="shield of destiny">
+	<item id="22889" article="a" name="soulfrost relic">
 		<attribute key="description" value="Holding the divine intellect of Uman and the merciless destruction instinct of Zathroth, the eternal balance remains on the hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="weight" value="6800"/>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="shield"/>
 		</attribute>
 	</item>
-	<item id="22890" article="a" name="shield of destiny">
+	<item id="22890" article="a" name="soulfrost relic">
 		<attribute key="description" value="Holding the divine intellect of Uman and the merciless destruction instinct of Zathroth, the eternal balance remains on the hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="decayTo" value="22889"/>
 		<attribute key="weight" value="6800"/>

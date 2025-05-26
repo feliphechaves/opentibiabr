@@ -16,20 +16,20 @@ function action.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	-- Verifica se o item está ativado, mas o tempo acabou, então reverte
 	if item:getId() == activatedItemId and (buffEndsAt <= 0 or now >= buffEndsAt) then
 		item:transform(relicItemId)
-		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "The relic has lost its fiery energy.")
+		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "A reliquia perdeu seu poder.")
 		return true
 	end
 
 	-- Verifica cooldown
 	if lastUse > now then
 		local remaining = lastUse - now
-		player:sendCancelMessage("The relic is recharging. Please wait " .. math.ceil(remaining / 60) .. " minutes.")
+		player:sendCancelMessage("A reliquia esta recarregando. Por favor, espere " .. math.ceil(remaining / 60) .. " minutos.")
 		return true
 	end
 
 	-- Verifica dinheiro
 	if not player:removeMoney(goldCost) then
-		player:sendCancelMessage("You need 50kk gold to activate this item.")
+		player:sendCancelMessage("Voce precisa de 50kk para ativar esse item.")
 		return true
 	end
 
@@ -41,6 +41,7 @@ function action.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	local condition = Condition(CONDITION_ATTRIBUTES)
 	condition:setParameter(CONDITION_PARAM_TICKS, duration * 1000)
 	condition:setParameter(CONDITION_PARAM_BUFF_SPELL, true)
+	condition:setParameter(CONDITION_PARAM_SUBID, 10000)
 
 	local baseVoc = player:getVocation():getBaseId()
 	if baseVoc == VOCATION.BASE_ID.KNIGHT then
@@ -59,7 +60,7 @@ function action.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	player:addCondition(condition)
 
 	-- Efeito e fala
-	player:say("You summon the flames of the soulfire!", TALKTYPE_MONSTER_SAY)
+	player:say("Voce invocou o poder da Soul Fire Relic!", TALKTYPE_MONSTER_SAY)
 	player:getPosition():sendMagicEffect(CONST_ME_FIREAREA)
 	player:getPosition():sendMagicEffect(CONST_ME_HITBYFIRE)
 
@@ -71,8 +72,10 @@ function action.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		addEvent(function()
 			local slotItem = player:getItemById(activatedItemId, true)
 			if slotItem then
+				player:removeCondition(CONDITION_ATTRIBUTES, CONDITIONID_DEFAULT, 10000)
+				player:updateConcoction(10000, 0) -- força client a atualizar interface
 				slotItem:transform(relicItemId)
-				player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "The relic has lost its fiery energy.")
+				player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "A reliquia perdeu seu poder.")
 			end
 		end, duration * 1000)
 	end
