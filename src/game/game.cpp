@@ -550,7 +550,7 @@ void Game::start(ServiceManager* manager) {
 		EVENT_CHECK_CREATURE_INTERVAL, [this] { checkCreatures(); }, "Game::checkCreatures"
 	);
 	g_dispatcher().cycleEvent(
-		EVENT_IMBUEMENT_INTERVAL, [this] { checkImbuements(); }, "Game::checkImbuements"
+		EVENT_IMBUEMENT_AND_SERENE_STATUS_INTERVAL, [this] { checkImbuementsAndSereneStatus(); }, "Game::checkImbuementsAndSereneStatus"
 	);
 	g_dispatcher().cycleEvent(
 		EVENT_LUA_GARBAGE_COLLECTION, [this] { g_luaEnvironment().collectGarbage(); }, "Calling GC"
@@ -7151,6 +7151,11 @@ void Game::applyWheelOfDestinyHealing(CombatDamage &damage, const std::shared_pt
 		if (attackerPlayer->wheel().getInstant("Blessing of the Grove")) {
 			damage.primary.value += (damage.primary.value * attackerPlayer->wheel().checkBlessingGroveHealingByTarget(target)) / 100.;
 		}
+
+		if (attackerPlayer->wheel().getInstant(WheelInstant_t::SANCTUARY)) {
+			const float sanctuaryBonus = attackerPlayer->wheel().checkRevelationPerkSanctuary();
+			damage.primary.value = static_cast<int32_t>(std::round(damage.primary.value * sanctuaryBonus));
+		}
 	}
 }
 
@@ -7191,6 +7196,22 @@ void Game::applyWheelOfDestinyEffectsToDamage(CombatDamage &damage, const std::s
 				damage.secondary.value += (damage.secondary.value * damageBonus) / 100.;
 			}
 		}
+
+		if (attackerPlayer->wheel().getStage(WheelStage_t::ASCETIC) > 0) {
+			int32_t damageBonus = attackerPlayer->wheel().checkRevelationPerkAscetic();
+			if (damageBonus != 0) {
+				damage.primary.value += damageBonus;
+				if (damage.secondary.value != 0) {
+					damage.secondary.value += damageBonus;
+				}
+			}
+		}
+
+		if (attackerPlayer->wheel().getInstant(WheelInstant_t::SANCTUARY)) {
+			const float sanctuaryBonus = attackerPlayer->wheel().checkRevelationPerkSanctuary();
+			damage.primary.value = static_cast<int32_t>(std::round(damage.primary.value * sanctuaryBonus));
+			damage.secondary.value = static_cast<int32_t>(std::round(damage.secondary.value * sanctuaryBonus));
+		}
 	}
 }
 
@@ -7209,6 +7230,23 @@ int32_t Game::applyHealthChange(const CombatDamage &damage, const std::shared_pt
 		}
 	}
 	return targetHealth;
+}
+
+static void applyImproveMonkHealing(CombatDamage &damage, const std::shared_ptr<Player> &player) {
+	if (!player) {
+		return;
+	}
+
+	if (damage.primary.type != COMBAT_HEALING) {
+		return;
+	}
+
+	if (player->getVirtue() == VIRTUE_SUSTAIN && !(damage.instantSpellName).empty()) {
+		const uint8_t virtueSustainBonusPercent = (player->isSerene() ? 70 : 35);
+		const float multiplier = 1.0f + (virtueSustainBonusPercent / 100.0f);
+
+		damage.primary.value = static_cast<int32_t>(damage.primary.value * multiplier);
+	}
 }
 
 bool Game::combatChangeHealth(const std::shared_ptr<Creature> &attacker, const std::shared_ptr<Creature> &target, CombatDamage &damage, bool isEvent /*= false*/) {
@@ -7244,6 +7282,9 @@ bool Game::combatChangeHealth(const std::shared_ptr<Creature> &attacker, const s
 
 		// Wheel of destiny combat healing
 		applyWheelOfDestinyHealing(damage, attackerPlayer, target);
+
+		// Monk Virtue of Sustain
+		applyImproveMonkHealing(damage, attackerPlayer);
 
 		auto realHealthChange = target->getHealth();
 		target->gainHealth(attacker, damage.primary.value);
@@ -8254,13 +8295,30 @@ void Game::addDistanceEffect(const CreatureVector &spectators, const Position &f
 	}
 }
 
-void Game::checkImbuements() const {
+void Game::checkImbuementsAndSereneStatus() {
 	for (const auto &[mapPlayerId, mapPlayer] : getPlayers()) {
 		if (!mapPlayer) {
 			continue;
 		}
 
 		mapPlayer->updateInventoryImbuement();
+
+		if (mapPlayer->getVocation()->getBaseId() != 5) {
+			continue;
+		}
+
+		if (mapPlayer->getSereneCooldown() > 0) {
+			mapPlayer->setSerene(true);
+			continue;
+		}
+
+		const auto &party = mapPlayer->getParty();
+		if (party) {
+			mapPlayer->setSerene(isPlayerNoBoxed(mapPlayer));
+			continue;
+		}
+
+		mapPlayer->setSerene(true);
 	}
 }
 
@@ -8816,17 +8874,14 @@ std::string Game::generateHighscoreQuery(
 
 std::string Game::generateVocationConditionHighscore(uint32_t vocation) {
 	std::ostringstream queryPart;
-	bool firstVocation = true;
 
 	const auto vocationsMap = g_vocations().getVocations();
-	for (const auto &it : vocationsMap) {
-		const auto &voc = it.second;
-		if (voc->getFromVocation() == vocation) {
-			if (firstVocation) {
-				queryPart << " WHERE `vocation` = " << voc->getId();
-				firstVocation = false;
+	for (const auto &[currentVocationId, vocationPtr] : vocationsMap) {
+		if (vocationPtr->getBaseId() == vocation) {
+			if (vocationPtr->getFromVocation() == static_cast<uint32_t>(currentVocationId)) {
+				queryPart << " WHERE `vocation` = " << currentVocationId;
 			} else {
-				queryPart << " OR `vocation` = " << voc->getId();
+				queryPart << " OR `vocation` = " << currentVocationId;
 			}
 		}
 	}
@@ -11579,6 +11634,43 @@ bool Game::processBankAuction(std::shared_ptr<Player> player, const std::shared_
 		} else {
 			otherPlayer->setBankBalance(otherPlayer->getBankBalance() + (house->getBidHolderLimit() + house->getRent()));
 			otherPlayer->sendResourceBalance(RESOURCE_BANK, otherPlayer->getBankBalance());
+		}
+	}
+
+	return true;
+}
+
+bool Game::isPlayerNoBoxed(const std::shared_ptr<Player> &player) {
+	if (!player) {
+		return true;
+	}
+
+	const Position &centerPos = player->getPosition();
+	uint8_t monsterCount = 0;
+
+	for (int offsetX = -1; offsetX <= 1; ++offsetX) {
+		for (int offsetY = -1; offsetY <= 1; ++offsetY) {
+			if (offsetX == 0 && offsetY == 0) {
+				continue;
+			}
+
+			const auto &tile = g_game().map.getTile(static_cast<uint16_t>(centerPos.x + offsetX), static_cast<uint16_t>(centerPos.y + offsetY), centerPos.z);
+			if (!tile) {
+				continue;
+			}
+
+			const auto &topCreature = tile->getTopCreature();
+			if (!topCreature || topCreature == player) {
+				continue;
+			}
+
+			if (topCreature->getMaster() && topCreature->getMaster()->getPlayer() == player) {
+				continue;
+			}
+
+			if (++monsterCount >= 6) {
+				return false;
+			}
 		}
 	}
 

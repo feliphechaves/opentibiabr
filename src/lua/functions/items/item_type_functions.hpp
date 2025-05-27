@@ -77,5 +77,8 @@ private:
 	static int luaItemTypeGetWrapableTo(lua_State* L);
 	static int luaItemTypeGetVocationString(lua_State* L);
 
+	static int luaItemTypeGetElementalBond(lua_State* L);
+	static int luaItemTypeGetMantra(lua_State* L);
+
 	static int luaItemTypeHasSubType(lua_State* L);
 };

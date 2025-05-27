@@ -9,6 +9,13 @@ TileAction = {
 		},
 	},
 	-- Cure poison tiles at dawnport outpost entrances
+	--Monk vocation tile
+	[25000] = {
+		itemId = 50308,
+		itemPos = {
+			{ x = 32060, y = 31894, z = 4 },
+		},
+	},
 	-- Tiles data\scripts\movements\others\dawnport_tiles.lua
 	[20001] = {
 		itemId = 416,

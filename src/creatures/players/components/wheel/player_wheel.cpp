@@ -246,12 +246,40 @@ const static std::vector<WheelGemSupremeModifier_t> modsSupremeDruidPosition = {
 	WheelGemSupremeModifier_t::Druid_RevelationMastery_TwinBursts,
 };
 
+const static std::vector<WheelGemSupremeModifier_t> modsSupremeMonkPosition = {
+	WheelGemSupremeModifier_t::General_Dodge,
+	WheelGemSupremeModifier_t::General_CriticalDamage,
+	WheelGemSupremeModifier_t::General_LifeLeech,
+	WheelGemSupremeModifier_t::General_ManaLeech,
+	WheelGemSupremeModifier_t::General_RevelationMastery_GiftOfLife,
+
+	WheelGemSupremeModifier_t::Monk_AvatarOfBalance_Cooldown,
+	WheelGemSupremeModifier_t::Monk_SpiritMend_HealingIncrease,
+	WheelGemSupremeModifier_t::Monk_SpiritualOutburst_DamageIncrease,
+	WheelGemSupremeModifier_t::Monk_SpiritualOutburst_CriticalExtraDamage,
+	WheelGemSupremeModifier_t::Monk_ForcefulUppercut_DamageIncrease,
+	WheelGemSupremeModifier_t::Monk_ForcefulUppercut_CriticalExtraDamage,
+	WheelGemSupremeModifier_t::Monk_FurryofBlows_DamageIncrease,
+	WheelGemSupremeModifier_t::Monk_FurryofBlows_CriticalExtraDamage,
+	WheelGemSupremeModifier_t::Monk_GreaterFurryofBlows_DamageIncrease,
+	WheelGemSupremeModifier_t::Monk_GreaterFurryofBlows_CriticalExtraDamage,
+	WheelGemSupremeModifier_t::Monk_SweepingTakedown_DamageIncrease,
+	WheelGemSupremeModifier_t::Monk_SweepingTakedown_CriticalExtraDamage,
+	WheelGemSupremeModifier_t::Monk_FocusSerenety,
+	WheelGemSupremeModifier_t::Monk_FocusHarmony,
+	WheelGemSupremeModifier_t::Monk_MassSpiritMand_HealingIncrease,
+	WheelGemSupremeModifier_t::Monk_RevelationMastery_AvatarOfBalance,
+	WheelGemSupremeModifier_t::Monk_RevelationMastery_SpiritualOutburst,
+	WheelGemSupremeModifier_t::Monk_RevelationMastery_Ascetic,
+};
+
 // Using reference wrapper to avoid copying the vector to the map
 const static std::unordered_map<uint8_t, std::reference_wrapper<const std::vector<WheelGemSupremeModifier_t>>> modsSupremePositionByVocation = {
 	{ 1, std::cref(modsSupremeSorcererPosition) },
 	{ 2, std::cref(modsSupremeDruidPosition) },
 	{ 3, std::cref(modsSupremePaladinPosition) },
-	{ 4, std::cref(modsSupremeKnightPosition) }
+	{ 4, std::cref(modsSupremeKnightPosition) },
+	{ 5, std::cref(modsSupremeMonkPosition) },
 };
 
 // To avoid conflict in other files that might use a function with the same name
@@ -876,6 +904,9 @@ bool PlayerWheel::getSpellAdditionalArea(const std::string &spellName) const {
 	if (vocationEnum == Vocation_t::VOCATION_SORCERER_CIP) {
 		return checkSpellArea(g_game().getIOWheel()->getWheelBonusData().spells.sorcerer, spellName, stage);
 	}
+	if (vocationEnum == Vocation_t::VOCATION_MONK_CIP) {
+		return checkSpellArea(g_game().getIOWheel()->getWheelBonusData().spells.monk, spellName, stage);
+	}
 
 	return false;
 }
@@ -899,6 +930,9 @@ int PlayerWheel::getSpellAdditionalTarget(const std::string &spellName) const {
 	if (vocationEnum == Vocation_t::VOCATION_SORCERER_CIP) {
 		return checkSpellAdditionalTarget(g_game().getIOWheel()->getWheelBonusData().spells.sorcerer, spellName, stage);
 	}
+	if (vocationEnum == Vocation_t::VOCATION_MONK_CIP) {
+		return checkSpellAdditionalTarget(g_game().getIOWheel()->getWheelBonusData().spells.monk, spellName, stage);
+	}
 
 	return 0;
 }
@@ -921,6 +955,9 @@ int PlayerWheel::getSpellAdditionalDuration(const std::string &spellName) const 
 	}
 	if (vocationEnum == Vocation_t::VOCATION_SORCERER_CIP) {
 		return checkSpellAdditionalDuration(g_game().getIOWheel()->getWheelBonusData().spells.sorcerer, spellName, stage);
+	}
+	if (vocationEnum == Vocation_t::VOCATION_MONK_CIP) {
+		return checkSpellAdditionalTarget(g_game().getIOWheel()->getWheelBonusData().spells.monk, spellName, stage);
 	}
 
 	return 0;
@@ -1469,6 +1506,7 @@ void PlayerWheel::sendOpenWheelWindow(NetworkMessage &msg, uint32_t ownerId) {
 		msg.add<uint16_t>(getPointsBySlotType(slot));
 	}
 	addPromotionScrolls(msg);
+	msg.addByte(hasMonkQuest() ? 10 : 0); // The Way of The Monk Quest
 	addGems(msg);
 	addGradeModifiers(msg);
 
@@ -1870,6 +1908,11 @@ uint16_t PlayerWheel::getExtraPoints() const {
 
 		totalBonus += extraPoints;
 	}
+	
+	// The Way of The Monk Quest
+	if (hasMonkQuest()) {
+		totalBonus += 10;
+	}
 
 	return totalBonus;
 }
@@ -2064,6 +2107,8 @@ void PlayerWheel::registerPlayerBonusData() {
 	setSpellInstant("Healing Link", m_playerBonusData.instant.healingLink);
 	setSpellInstant("Runic Mastery", m_playerBonusData.instant.runicMastery);
 	setSpellInstant("Focus Mastery", m_playerBonusData.instant.focusMastery);
+	setSpellInstant("Guiding Presence", m_playerBonusData.instant.guidingPresence);
+	setSpellInstant("Sanctuary", m_playerBonusData.instant.sanctuary);
 
 	// Stages (Revelation)
 	if (m_playerBonusData.stages.combatMastery > 0) {
@@ -2362,6 +2407,12 @@ void PlayerWheel::printPlayerWheelMethodsBonusData(const PlayerWheelMethodsBonus
 	if (bonusData.instant.focusMastery) {
 		g_logger().debug("  focusMastery: {}", bonusData.instant.focusMastery);
 	}
+	if (bonusData.instant.guidingPresence) {
+		g_logger().debug("  guidingPresence: {}", bonusData.instant.guidingPresence);
+	}
+	if (bonusData.instant.sanctuary) {
+		g_logger().debug("  sanctuary: {}", bonusData.instant.sanctuary);
+	}
 
 	g_logger().debug("Stages:");
 	if (bonusData.stages.combatMastery > 0) {
@@ -2429,7 +2480,7 @@ void PlayerWheel::loadDedicationAndConvictionPerks() {
 	using VocationBonusFunction = std::function<void(const std::shared_ptr<Player> &, uint16_t, uint8_t, PlayerWheelMethodsBonusData &)>;
 	const auto &wheelFunctions = g_game().getIOWheel()->getWheelMapFunctions();
 	const auto vocationCipId = m_player.getPlayerVocationEnum();
-	if (vocationCipId < VOCATION_KNIGHT_CIP || vocationCipId > VOCATION_DRUID_CIP) {
+	if (vocationCipId < VOCATION_KNIGHT_CIP || vocationCipId > VOCATION_MONK_CIP) {
 		return;
 	}
 
@@ -2549,6 +2600,11 @@ void PlayerWheel::applyRedStageBonus(uint8_t stageValue, Vocation_t vocationEnum
 		for (uint8_t i = 0; i < stageValue; ++i) {
 			addSpellToVector("Divine Grenade");
 		}
+	} else if (vocationEnum == Vocation_t::VOCATION_MONK_CIP) {
+		m_playerBonusData.stages.spiritualOutburst = stageValue;
+		for (uint8_t i = 0; i < stageValue; ++i) {
+			addSpellToVector("Spiritual Outburst");
+		}
 	}
 }
 
@@ -2573,6 +2629,11 @@ void PlayerWheel::applyPurpleStageBonus(uint8_t stageValue, Vocation_t vocationE
 		for (uint8_t i = 0; i < stageValue; ++i) {
 			addSpellToVector("Avatar of Storm");
 		}
+	} else if (vocationEnum == Vocation_t::VOCATION_MONK_CIP) {
+		m_playerBonusData.avatar.balance = stageValue;
+		for (uint8_t i = 0; i < stageValue; ++i) {
+			addSpellToVector("Avatar of Balance");
+		}
 	}
 }
 
@@ -2594,6 +2655,11 @@ void PlayerWheel::applyBlueStageBonus(uint8_t stageValue, Vocation_t vocationEnu
 		for (uint8_t i = 1; i <= stageValue; ++i) {
 			addSpellToVector("Terra Burst");
 			addSpellToVector("Ice Burst");
+		}
+	} else if (vocationEnum == Vocation_t::VOCATION_MONK_CIP) {
+		m_playerBonusData.stages.ascetic = stageValue;
+		for (uint8_t i = 0; i <= stageValue; ++i) {
+			addSpellToVector("Ascetic");
 		}
 	}
 }
@@ -3082,6 +3148,8 @@ int32_t PlayerWheel::checkAvatarSkill(WheelAvatarSkill_t skill) const {
 			stage = getStage(WheelStage_t::AVATAR_OF_NATURE);
 		} else if (getInstant("Avatar of Storm")) {
 			stage = getStage(WheelStage_t::AVATAR_OF_STORM);
+		} else if (getInstant("Avatar of Balance")) {
+			stage = getStage(WheelStage_t::AVATAR_OF_BALANCE);
 		} else {
 			return 0;
 		}
@@ -3279,6 +3347,11 @@ std::shared_ptr<Spell> PlayerWheel::getCombatDataSpell(CombatDamage &damage) {
 		if (getHealingLinkUpgrade(spellName)) {
 			damage.healingLink += 10;
 		}
+
+		if (getInstant("Sanctuary")) {
+			setSanctuaryTimer(spellName);
+		}
+
 		if (spell->getSecondaryGroup() == SPELLGROUP_FOCUS && getInstant("Focus Mastery")) {
 			setOnThinkTimer(WheelOnThink_t::FOCUS_MASTERY, (OTSYS_TIME() + 12000));
 		}
@@ -3482,6 +3555,24 @@ void PlayerWheel::setSpellInstant(const std::string &name, bool value) {
 		} else {
 			setStage(WheelStage_t::AVATAR_OF_STORM, 0);
 		}
+	} else if (name == "Avatar of Balance") {
+		if (value) {
+			setStage(WheelStage_t::AVATAR_OF_BALANCE, getStage(WheelStage_t::AVATAR_OF_BALANCE) + 1);
+		} else {
+			setStage(WheelStage_t::AVATAR_OF_BALANCE, 0);
+		}
+	} else if (name == "Ascetic") {
+		if (value) {
+			setStage(WheelStage_t::ASCETIC, getStage(WheelStage_t::ASCETIC) + 1);
+		} else {
+			setStage(WheelStage_t::ASCETIC, 0);
+		}
+	} else if (name == "Spiritual Outburst") {
+		if (value) {
+			setStage(WheelStage_t::SPIRITUAL_OUTBURST, getStage(WheelStage_t::SPIRITUAL_OUTBURST) + 1);
+		} else {
+			setStage(WheelStage_t::SPIRITUAL_OUTBURST, 0);
+		}
 	}
 }
 
@@ -3519,7 +3610,9 @@ uint8_t PlayerWheel::getStage(std::string_view name) const {
 		{ "Ballistic Mastery", BALLISTIC_MASTERY },
 		{ "Healing Link", HEALING_LINK },
 		{ "Runic Mastery", RUNIC_MASTERY },
-		{ "Focus Mastery", FOCUS_MASTERY }
+		{ "Focus Mastery", FOCUS_MASTERY },
+		{ "Guiding Presence", GUIDING_PRESENCE },
+		{ "Sanctuary", SANCTUARY }
 	};
 
 	static const std::unordered_map<std::string_view, WheelStage_t> stageMapping = {
@@ -3535,7 +3628,10 @@ uint8_t PlayerWheel::getStage(std::string_view name) const {
 		{ "Avatar of Light", AVATAR_OF_LIGHT },
 		{ "Avatar of Nature", AVATAR_OF_NATURE },
 		{ "Avatar of Steel", AVATAR_OF_STEEL },
-		{ "Avatar of Storm", AVATAR_OF_STORM }
+		{ "Avatar of Storm", AVATAR_OF_STORM },
+		{ "Avatar of Balance", AVATAR_OF_BALANCE },
+		{ "Ascetic", ASCETIC },
+		{ "Spiritual Outburst", SPIRITUAL_OUTBURST }
 	};
 
 	if (auto it = instantMapping.find(name); it != instantMapping.end()) {
@@ -3912,4 +4008,54 @@ PlayerWheelGem PlayerWheelGem::deserialize(const std::string &uuid, const ValueW
 		static_cast<WheelGemBasicModifier_t>(map["basicModifier2"]->get<IntType>()),
 		static_cast<WheelGemSupremeModifier_t>(map["supremeModifier"]->get<IntType>())
 	};
+}
+
+bool PlayerWheel::hasMonkQuest() const {
+	const auto &kvScoped = m_player.kv()->scoped("the_way_of_the_monk_quest");
+	if (!kvScoped) {
+		return false;
+	}
+
+	const auto boolPointsWheel = kvScoped->get("boolPointsWheel");
+	return boolPointsWheel ? boolPointsWheel->get<bool>() : false;
+}
+
+int32_t PlayerWheel::checkRevelationPerkAscetic() const {
+	int32_t damageBonus = 0;
+
+	const uint16_t mantraTotal = m_player.getPlayer()->getMantraTotal();
+	if (mantraTotal > 0) {
+		const uint8_t stage = getStage(WheelStage_t::ASCETIC);
+		if (stage >= 3) {
+			damageBonus = static_cast<int32_t>(mantraTotal * -3);
+		} else if (stage >= 2) {
+			damageBonus = static_cast<int32_t>(mantraTotal * -2);
+		} else if (stage >= 1) {
+			damageBonus = static_cast<int32_t>(mantraTotal * -1);
+		}
+	}
+
+	return damageBonus;
+}
+
+float PlayerWheel::checkRevelationPerkSanctuary() const {
+	if (getOnThinkTimer(WheelOnThink_t::SANCTUARY) >= OTSYS_TIME()) {
+		return m_harmonySanctuary;
+	}
+	return 1.0f;
+}
+
+bool PlayerWheel::setSanctuaryTimer(const std::string &spell) {
+	if (getOnThinkTimer(WheelOnThink_t::SANCTUARY) >= OTSYS_TIME()) {
+		return true;
+	}
+
+	if (harmonySpells.find(spell) == harmonySpells.end()) {
+		return false;
+	}
+
+	setOnThinkTimer(WheelOnThink_t::SANCTUARY, OTSYS_TIME() + 5000);
+	m_harmonySanctuary = 1.0 + (m_player.getHarmony() * 2) / 100.0; // harmony x 2%
+
+	return true;
 }
