@@ -76587,27 +76587,27 @@
 	<item id="43927" article="a" name="dark field">
 		<attribute key="primarytype" value="fields"/>
         <attribute key="type" value="magicfield"/>
-        <attribute key="field" value="agony">
+        <!-- <attribute key="field" value="agony">
             <attribute key="damage" value="0"/>
-        </attribute>
+        </attribute> -->
 		<attribute key="duration" value="3"/>
 		<attribute key="decayTo" value="43928"/>
 	</item>
 	<item id="43928" article="a" name="dark field">
 		<attribute key="primarytype" value="fields"/>
         <attribute key="type" value="magicfield"/>
-        <attribute key="field" value="agony">
+        <!-- <attribute key="field" value="agony">
             <attribute key="damage" value="0"/>
-        </attribute>
+        </attribute> -->
 		<attribute key="duration" value="3"/>
 		<attribute key="decayTo" value="43929"/>
 	</item>
 	<item id="43929" article="a" name="dark field">
 		<attribute key="primarytype" value="fields"/>
         <attribute key="type" value="magicfield"/>
-        <attribute key="field" value="agony">
+        <!-- <attribute key="field" value="agony">
             <attribute key="damage" value="0"/>
-        </attribute>
+        </attribute> -->
 		<attribute key="duration" value="4"/>
 		<attribute key="decayTo" value="0"/>
 	</item>
