@@ -83343,5 +83343,8 @@
 		<attribute key="decayTo" value="50049"/>
 		<attribute key="containersize" value="10"/>
 	</item>
+	<item id="46626" article="a" name="greater fragment">
+		<attribute key="weight" value="1"/>
+	</item>
 	
 </items>
