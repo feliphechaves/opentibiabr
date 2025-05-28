@@ -82063,6 +82063,7 @@
 		<attribute key="slotType" value="two-handed"/>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="1000"/>
+			<attribute key="weaponType" value="distance"/>
 			<attribute key="unproperly" value="true"/>
 			<attribute key="vocation" value="Paladin;true, Royal Paladin"/>
 		</attribute>
@@ -82094,6 +82095,7 @@
 		<attribute key="slotType" value="two-handed"/>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="1000"/>
+			<attribute key="weaponType" value="distance"/>
 			<attribute key="unproperly" value="true"/>
 			<attribute key="vocation" value="Paladin;true, Royal Paladin"/>
 		</attribute>
@@ -82115,6 +82117,7 @@
 			<attribute key="life leech" value="4"/>
 			<attribute key="mana leech" value="4"/>
 			<attribute key="critical hit" value="4"/>
+			<attribute key="skillboost axe" value="4"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="fierce berserk" value="base">
@@ -82124,6 +82127,7 @@
 		<attribute key="slotType" value="two-handed"/>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="1000"/>
+			<attribute key="weaponType" value="axe"/>
 			<attribute key="unproperly" value="true"/>
 			<attribute key="vocation" value="Knight;true, Elite Knight"/>
 		</attribute>
@@ -82150,6 +82154,7 @@
 		<attribute key="slotType" value="two-handed"/>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="1000"/>
+			<attribute key="weaponType" value="axe"/>
 			<attribute key="unproperly" value="true"/>
 			<attribute key="vocation" value="Knight;true, Elite Knight"/>
 		</attribute>
@@ -82180,6 +82185,7 @@
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="1000"/>
+			<attribute key="weaponType" value="club"/>
 			<attribute key="unproperly" value="true"/>
 			<attribute key="vocation" value="Knight;true, Elite Knight"/>
 		</attribute>
@@ -82208,6 +82214,7 @@
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="1000"/>
+			<attribute key="weaponType" value="club"/>
 			<attribute key="unproperly" value="true"/>
 			<attribute key="vocation" value="Knight;true, Elite Knight"/>
 		</attribute>
@@ -82320,6 +82327,7 @@
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="1000"/>
+			<attribute key="weaponType" value="sword"/>
 			<attribute key="unproperly" value="true"/>
 			<attribute key="vocation" value="Knight;true, Elite Knight"/>
 		</attribute>
