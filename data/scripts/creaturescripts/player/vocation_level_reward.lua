@@ -15,6 +15,10 @@ local table = {
 	[{ 4, 8 }] = {
 		[150] = { items = { { itemid = 10385, count = 1 }, { itemid = 16110, count = 1 }, { itemid = 10387, count = 1 }, { itemid = 27451, count = 1 }, { itemid = 27453, count = 1 }, { itemid = 27449, count = 1 }, { itemid = 16116, count = 1 }, { itemid = 3079, count = 1 } }, storage = 40300, msg = "You won equipments for reaching level 150!" },
 	},
+	--monk e exalted monk
+	[{ 9, 10 }] = {
+		[150] = { items = { { itemid = 50193, count = 1 }, { itemid = 50276, count = 1 }, { itemid = 50186, count = 1 }, { itemid = 50168, count = 1 }, { itemid = 3079, count = 1 } }, storage = 40300, msg = "You won equipments for reaching level 150!" },
+	},
 }
 
 local rewardLevel = CreatureEvent("RewardLevel")

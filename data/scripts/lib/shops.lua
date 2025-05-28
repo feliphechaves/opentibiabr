@@ -11,6 +11,8 @@ SupplyShopConfigTable = {
 		{ itemName = "exercise shield", clientId = 44065, buy = 350000 },
 		{ itemName = "exercise sword", clientId = 28552, buy = 350000 },
 		{ itemName = "exercise wand", clientId = 28557, buy = 350000 },
+		{ itemName = "exercise wraps", clientId = 50293, buy = 350000 },
+		
 		{ itemName = "enhanced exercise axe", clientId = 35280, buy = 1250000 },
 		{ itemName = "enhanced exercise bow", clientId = 35282, buy = 1250000 },
 		{ itemName = "enhanced exercise club", clientId = 35281, buy = 1250000 },
@@ -18,6 +20,8 @@ SupplyShopConfigTable = {
 		{ itemName = "enhanced exercise shield", clientId = 44066, buy = 1250000 },
 		{ itemName = "enhanced exercise sword", clientId = 35279, buy = 1250000 },
 		{ itemName = "enhanced exercise wand", clientId = 35284, buy = 1250000 },
+		{ itemName = "enhanced exercise wraps", clientId = 50294, buy = 1250000 },
+
 		{ itemName = "lasting exercise axe", clientId = 35286, buy = 7560000 },
 		{ itemName = "lasting exercise bow", clientId = 35288, buy = 7560000 },
 		{ itemName = "lasting exercise club", clientId = 35287, buy = 7560000 },
@@ -25,6 +29,7 @@ SupplyShopConfigTable = {
 		{ itemName = "lasting exercise shield", clientId = 44067, buy = 7560000 },
 		{ itemName = "lasting exercise sword", clientId = 35285, buy = 7560000 },
 		{ itemName = "lasting exercise wand", clientId = 35290, buy = 7560000 },
+		{ itemName = "lasting exercise wraps", clientId = 50295, buy = 7560000 },
 	},
 	["distance equipments"] = {
 		{ itemName = "envenomed arrow", clientId = 16143, buy = 12 },
@@ -121,6 +126,7 @@ SupplyShopConfigTable = {
 		{ itemName = "collar of blue plasma", clientId = 23542, buy = 60000 },
 		{ itemName = "collar of green plasma", clientId = 23543, buy = 60000 },
 		{ itemName = "collar of red plasma", clientId = 23544, buy = 60000 },
+		{ itemName = "collar of orange plasma", clientId = 50152, buy = 60000 },
 		{ itemName = "terra amulet", clientId = 814, buy = 15000 },
 	},
 	["rings"] = {
@@ -131,6 +137,7 @@ SupplyShopConfigTable = {
 		{ itemName = "ring of healing", clientId = 3098, buy = 2000 },
 		{ itemName = "prismatic ring", clientId = 16114, buy = 100000 },
 		{ itemName = "ring of red plasma", clientId = 23533, buy = 80000 },
+		{ itemName = "ring of orange plasma", clientId = 50150, buy = 80000 },
 		{ itemName = "stealth ring", clientId = 3049, buy = 5000 },
 		{ itemName = "time ring", clientId = 3053, buy = 2000 },
 		{ itemName = "dwarven ring", clientId = 3097, buy = 2000 },

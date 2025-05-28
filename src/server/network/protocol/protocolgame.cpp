@@ -9064,7 +9064,7 @@ void ProtocolGame::parseStashWithdraw(NetworkMessage &msg) {
 		return;
 	}
 
-	if (!player->isAccessPlayer() && !player->isStashMenuAvailable()) {
+	if (!player->isStashMenuAvailable()) {
 		player->sendCancelMessage("You can't use stash right now.");
 		return;
 	}
