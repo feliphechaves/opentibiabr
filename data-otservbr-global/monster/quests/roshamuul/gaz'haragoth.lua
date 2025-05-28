@@ -112,6 +112,7 @@ monster.loot = {
 	{ id = 20082, chance = 1000 }, -- crude umbral bow
 	{ id = 20085, chance = 400 }, -- crude umbral crossbow
 	{ id = 20088, chance = 700 }, -- crude umbral spellbook
+	{ id = 50163, chance = 700 }, -- crude umbral katar
 	{ id = 20065, chance = 100 }, -- umbral blade
 	{ id = 20068, chance = 200 }, -- umbral slayer
 	{ id = 20071, chance = 1000 }, -- umbral axe
@@ -121,6 +122,7 @@ monster.loot = {
 	{ id = 20083, chance = 250 }, -- umbral bow
 	{ id = 20086, chance = 400 }, -- umbral crossbow
 	{ id = 20089, chance = 200 }, -- umbral spellbook
+	{ id = 50164, chance = 1000 }, -- umbral katar
 	{ id = 20066, chance = 300 }, -- umbral masterblade
 	{ id = 20069, chance = 700 }, -- umbral master slayer
 	{ id = 20072, chance = 500 }, -- umbral master axe
@@ -130,6 +132,7 @@ monster.loot = {
 	{ id = 20084, chance = 1300 }, -- umbral master bow
 	{ id = 20087, chance = 1000 }, -- umbral master crossbow
 	{ id = 20090, chance = 140 }, -- umbral master spellbook
+	{ id = 50165, chance = 1000 }, -- umbral master katar
 	{ id = 10345, chance = 6000 }, -- solitude charm
 	{ id = 10344, chance = 6000 }, -- twin sun charm
 	{ id = 10343, chance = 6000 }, -- spiritual charm
