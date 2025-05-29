@@ -169,8 +169,8 @@ function spell.onCastSpell(creature, var)
 	end
 
 	local min, max = onGetFormulaValues(creature, weaponDamage)
-	min *= 2 -- calibragem aiolosot
-	max *= 2 -- calibragem aiolosot
+	min = min * 2 -- calibragem aiolosot
+	max = max * 2 -- calibragem aiolosot
 	executeChain(creature, min, max, effectData)
 	creature:addHarmony(1)
 	return true

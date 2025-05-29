@@ -1384,7 +1384,7 @@ void PlayerWheel::addGradeModifiers(NetworkMessage &msg) const {
 
 	msg.addByte(0x17); // Modifiers for specific per Vocations
 
-	const auto vocationBaseId = m_player.getVocation()->getBaseId();
+	const auto vocationBaseId = m_player.getVocation()->getFromVocation();
 	const auto modsSupremeIt = modsSupremePositionByVocation.find(vocationBaseId);
 
 	if (modsSupremeIt != modsSupremePositionByVocation.end()) {
@@ -1394,7 +1394,7 @@ void PlayerWheel::addGradeModifiers(NetworkMessage &msg) const {
 			msg.addByte(m_supremeGrades[pos]);
 		}
 	} else {
-		g_logger().error("[{}] vocation base id: {}", std::source_location::current().function_name(), m_player.getVocation()->getBaseId());
+		g_logger().error("[{}] vocation base id: {}", std::source_location::current().function_name(), m_player.getVocation()->getFromVocation());
 	}
 }
 
@@ -1802,7 +1802,7 @@ void PlayerWheel::loadKVModGrades() {
 		}
 	}
 
-	const auto vocationBaseId = m_player.getVocation()->getBaseId();
+	const auto vocationBaseId = m_player.getVocation()->getFromVocation();
 	const auto modsSupremeIt = modsSupremePositionByVocation.find(vocationBaseId);
 	if (modsSupremeIt != modsSupremePositionByVocation.end()) {
 		for (const auto &modPosition : modsSupremeIt->second.get()) {
@@ -1827,7 +1827,7 @@ void PlayerWheel::saveKVModGrades() const {
 		}
 	}
 
-	const auto vocationBaseId = m_player.getVocation()->getBaseId();
+	const auto vocationBaseId = m_player.getVocation()->getFromVocation();
 	const auto modsSupremeIt = modsSupremePositionByVocation.find(vocationBaseId);
 	if (modsSupremeIt != modsSupremePositionByVocation.end()) {
 		for (const auto &modPosition : modsSupremeIt->second.get()) {
@@ -2563,7 +2563,7 @@ void PlayerWheel::resetRevelationState() {
 	// First we reset the information
 	resetRevelationBonus();
 	if (!m_modifierContext) {
-		m_modifierContext = std::make_unique<WheelModifierContext>(*this, static_cast<Vocation_t>(m_player.getVocation()->getBaseId()));
+		m_modifierContext = std::make_unique<WheelModifierContext>(*this, static_cast<Vocation_t>(m_player.getVocation()->getFromVocation()));
 	}
 	m_modifierContext->resetStrategies();
 	m_spellsBonuses.clear();
@@ -3911,7 +3911,7 @@ uint16_t PlayerWheel::getPointsBySlotType(WheelSlots_t slotType) const {
 	}
 }
 
-const std::array<uint16_t, 37> &PlayerWheel::getSlots() const {
+const std::array<uint16_t, magic_enum::enum_count<WheelSlots_t>() + 1> &PlayerWheel::getSlots() const {
 	return m_wheelSlots;
 }
 

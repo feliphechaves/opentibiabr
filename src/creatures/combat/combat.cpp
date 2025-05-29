@@ -148,6 +148,11 @@ CombatDamage Combat::getCombatDamage(const std::shared_ptr<Creature> &creature, 
 				}
 			}
 		}
+
+		if (attackerPlayer) {
+			applyImproveMonkAttackSpender(attackerPlayer, damage);
+		}
+
 		if (attackerPlayer && wheelSpell && wheelSpell->isInstant()) {
 			wheelSpell->getCombatDataAugment(attackerPlayer, damage);
 		}

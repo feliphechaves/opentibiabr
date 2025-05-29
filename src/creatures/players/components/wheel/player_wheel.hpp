@@ -447,7 +447,7 @@ public:
 
 	uint16_t getPointsBySlotType(WheelSlots_t slotType) const;
 
-	const std::array<uint16_t, 37> &getSlots() const;
+	const std::array<uint16_t, magic_enum::enum_count<WheelSlots_t>() + 1> &getSlots() const;
 
 	void setPointsBySlotType(uint8_t slotType, uint16_t points);
 
@@ -533,7 +533,7 @@ private:
 
 	uint8_t m_modsMaxGrade = {};
 	std::array<uint8_t, 49> m_basicGrades = { 0 };
-	std::array<uint8_t, 76> m_supremeGrades = { 0 };
+	std::array<uint8_t, 99> m_supremeGrades = { 0 };
 
 	std::array<uint8_t, static_cast<size_t>(WheelStage_t::STAGE_COUNT)> m_stages = { 0 };
 	std::array<int64_t, static_cast<size_t>(WheelOnThink_t::TOTAL_COUNT)> m_onThink = { 0 };

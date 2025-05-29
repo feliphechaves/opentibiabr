@@ -28,7 +28,7 @@ function onGetFormulaValues(player, skill, weaponDamage, attackFactor)
 	local attackValue = calculateAttackValue(player, skill, weaponDamage)
 	local spellFactor = 3
 	local total = (basePower * attackValue) / 100 + (spellFactor * attackValue)
-	total *= 2 -- calibration aiolosot
+	total = total * 2 -- calibration aiolosot
 	return -total * 0.9, -total * 1.1
 end
 
