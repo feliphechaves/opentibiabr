@@ -1384,7 +1384,7 @@ void PlayerWheel::addGradeModifiers(NetworkMessage &msg) const {
 
 	msg.addByte(0x17); // Modifiers for specific per Vocations
 
-	const auto vocationBaseId = m_player.getVocation()->getFromVocation();
+	const auto vocationBaseId = m_player.getVocation()->getBaseId();
 	const auto modsSupremeIt = modsSupremePositionByVocation.find(vocationBaseId);
 
 	if (modsSupremeIt != modsSupremePositionByVocation.end()) {
@@ -1394,7 +1394,7 @@ void PlayerWheel::addGradeModifiers(NetworkMessage &msg) const {
 			msg.addByte(m_supremeGrades[pos]);
 		}
 	} else {
-		g_logger().error("[{}] vocation base id: {}", std::source_location::current().function_name(), m_player.getVocation()->getFromVocation());
+		g_logger().error("[{}] vocation base id: {}", std::source_location::current().function_name(), m_player.getVocation()->getBaseId());
 	}
 }
 
@@ -1802,7 +1802,7 @@ void PlayerWheel::loadKVModGrades() {
 		}
 	}
 
-	const auto vocationBaseId = m_player.getVocation()->getFromVocation();
+	const auto vocationBaseId = m_player.getVocation()->getBaseId();
 	const auto modsSupremeIt = modsSupremePositionByVocation.find(vocationBaseId);
 	if (modsSupremeIt != modsSupremePositionByVocation.end()) {
 		for (const auto &modPosition : modsSupremeIt->second.get()) {
@@ -1827,7 +1827,7 @@ void PlayerWheel::saveKVModGrades() const {
 		}
 	}
 
-	const auto vocationBaseId = m_player.getVocation()->getFromVocation();
+	const auto vocationBaseId = m_player.getVocation()->getBaseId();
 	const auto modsSupremeIt = modsSupremePositionByVocation.find(vocationBaseId);
 	if (modsSupremeIt != modsSupremePositionByVocation.end()) {
 		for (const auto &modPosition : modsSupremeIt->second.get()) {
