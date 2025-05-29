@@ -233,6 +233,14 @@ private:
 	void initializeSorcererSpells();
 
 	/**
+	 * @brief Initializes the spells for the monk vocation.
+	 * @details This function sets up the spell information for the monk vocation in the wheel bonus data.
+	 * @details It assigns names and specific grades of effects to each spell.
+	 * @note Make sure to call this function before using monk spells.
+	 */
+	void initializeMonkSpells();
+
+	/**
 	 * @brief Checks if the number of points is equal to the player's points in the specified slot type.
 	 * @param player The player whose points will be checked.
 	 * @param points The number of points to be compared.

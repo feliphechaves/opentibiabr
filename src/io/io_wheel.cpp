@@ -156,6 +156,14 @@ bool IOWheel::initializeGlobalData(bool reload /* = false*/) {
 		}
 	}
 
+	// Register spells for monk
+	for (const auto &data : getWheelBonusData().spells.monk) {
+		for (size_t i = 1; i < 3; ++i) {
+			const auto &grade = data.grade[i];
+			InternalPlayerWheel::registerWheelSpellTable(grade, data.name, static_cast<WheelSpellGrade_t>(i));
+		}
+	}
+
 	// Register enum with default values for each vocation
 	if (!reload) {
 		g_logger().debug("Loading wheel of destiny... [Success]");
@@ -217,6 +225,7 @@ void IOWheel::initializeMapData() {
 	initializeKnightSpells();
 	initializePaladinSpells();
 	initializeSorcererSpells();
+	initializeMonkSpells();
 }
 
 void IOWheel::initializeDruidSpells() {
@@ -307,6 +316,28 @@ void IOWheel::initializeSorcererSpells() {
 	m_wheelBonusData.spells.sorcerer[4].grade[1].increase.damage = 5;
 	m_wheelBonusData.spells.sorcerer[4].grade[2].decrease.cooldown = 4;
 	m_wheelBonusData.spells.sorcerer[4].grade[2].decrease.secondaryGroupCooldown = 4;
+}
+
+void IOWheel::initializeMonkSpells() {
+	m_wheelBonusData.spells.monk[0].name = "Mass Spirit Mend";
+	m_wheelBonusData.spells.monk[0].grade[1].increase.heal = 8;
+	m_wheelBonusData.spells.monk[0].grade[2].increase.area = true;
+
+	m_wheelBonusData.spells.monk[1].name = "Mystic Repulse";
+	m_wheelBonusData.spells.monk[1].grade[1].decrease.cooldown = 4;
+	m_wheelBonusData.spells.monk[1].grade[2].increase.damage = 40;
+
+	m_wheelBonusData.spells.monk[2].name = "Chained Penance";
+	m_wheelBonusData.spells.monk[2].grade[1].increase.aditionalTarget = 1;
+	m_wheelBonusData.spells.monk[2].grade[2].increase.aditionalTarget = 1;
+
+	m_wheelBonusData.spells.monk[3].name = "Flurry of Blows";
+	m_wheelBonusData.spells.monk[3].grade[1].leech.life = 5;
+	m_wheelBonusData.spells.monk[3].grade[2].increase.damage = 12;
+
+	m_wheelBonusData.spells.monk[4].name = "Sweeping Takedown";
+	m_wheelBonusData.spells.monk[4].grade[1].leech.mana = 3;
+	m_wheelBonusData.spells.monk[4].grade[2].increase.criticalDamage = 25;
 }
 
 bool IOWheel::isMaxPointAddedToSlot(const std::shared_ptr<Player> &player, uint16_t points, WheelSlots_t slotType) const {

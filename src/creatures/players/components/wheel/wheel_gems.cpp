@@ -784,6 +784,7 @@ int32_t WheelGemUtils::getManaValue(Vocation_t vocation, WheelGemBasicModifier_t
 		{
 			WheelGemBasicModifier_t::Vocation_Mixed,
 			{
+				{ Vocation_t::VOCATION_KNIGHT, 50},
 				{ Vocation_t::VOCATION_PALADIN, 100 },
 				{ Vocation_t::VOCATION_MONK, 200 },
 				{ Vocation_t::VOCATION_SORCERER, 150 },
@@ -859,7 +860,7 @@ int32_t WheelGemUtils::getCapacityValue(Vocation_t vocation, WheelGemBasicModifi
 			{
 				{ Vocation_t::VOCATION_KNIGHT, 500 },
 				{ Vocation_t::VOCATION_PALADIN, 400 },
-				{ Vocation_t::VOCATION_MONK, 250 },
+				{ Vocation_t::VOCATION_MONK, 500 },
 				{ Vocation_t::VOCATION_SORCERER, 200 },
 				{ Vocation_t::VOCATION_DRUID, 200 },
 			},

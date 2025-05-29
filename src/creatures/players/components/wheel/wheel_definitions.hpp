@@ -126,8 +126,9 @@ enum class WheelStat_t : uint8_t {
 	MANA_LEECH_CHANCE = 12,
 	DODGE = 13,
 	CRITICAL_DAMAGE = 14,
+	FIST = 15,
 
-	TOTAL_COUNT = 15
+	TOTAL_COUNT = 16
 };
 
 enum class WheelMajor_t : uint8_t {

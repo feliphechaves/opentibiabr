@@ -6901,6 +6901,8 @@ uint16_t Player::getSkillLevel(skills_t skill) const {
 		skillLevel += m_wheelPlayer.getStat(WheelStat_t::DISTANCE);
 	} else if (skill == SKILL_SHIELD) {
 		skillLevel += m_wheelPlayer.getMajorStatConditional("Battle Instinct", WheelMajor_t::SHIELD);
+	} else if (skill == SKILL_FIST) {
+		skillLevel += m_wheelPlayer.getStat(WheelStat_t::FIST);
 	} else if (skill == SKILL_MAGLEVEL) {
 		skillLevel += m_wheelPlayer.getMajorStatConditional("Positional Tactics", WheelMajor_t::MAGIC);
 		skillLevel += m_wheelPlayer.getStat(WheelStat_t::MAGIC);
@@ -8902,7 +8904,7 @@ uint32_t sendStowItems(const std::shared_ptr<Item> &item, const std::shared_ptr<
 }
 
 void Player::stowItem(const std::shared_ptr<Item> &item, uint32_t count, bool allItems) {
-	if (!item || !item->isItemStorable() && item->getID() != ITEM_GOLD_POUCH) {
+	if (!item || (!item->isItemStorable() && item->getID() != ITEM_GOLD_POUCH) ) {
 		sendCancelMessage("This item cannot be stowed here.");
 		return;
 	}

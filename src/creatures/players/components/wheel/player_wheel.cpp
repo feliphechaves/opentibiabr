@@ -1006,6 +1006,7 @@ void PlayerWheel::addPromotionScrolls(NetworkMessage &msg) const {
 	msg.add<uint16_t>(m_unlockedScrolls.size());
 	for (const auto &[itemId, name, extraPoints] : m_unlockedScrolls) {
 		msg.add<uint16_t>(itemId);
+		msg.addByte(extraPoints);
 	}
 }
 
@@ -2094,6 +2095,7 @@ void PlayerWheel::registerPlayerBonusData() {
 	addStat(WheelStat_t::MELEE, m_playerBonusData.skills.melee);
 	addStat(WheelStat_t::DISTANCE, m_playerBonusData.skills.distance);
 	addStat(WheelStat_t::MAGIC, m_playerBonusData.skills.magic);
+	addStat(WheelStat_t::FIST, m_playerBonusData.skills.fist);
 
 	// Leech
 	setPlayerCombatStats(COMBAT_LIFEDRAIN, m_playerBonusData.leech.lifeLeech * 100);
@@ -2232,6 +2234,30 @@ void PlayerWheel::registerPlayerBonusData() {
 		setSpellInstant("Executioner's Throw", false);
 	}
 
+	if (m_playerBonusData.stages.spiritualOutburst > 0) {
+		for (int i = 0; i < m_playerBonusData.stages.spiritualOutburst; i++){
+			setSpellInstant("Spiritual Outburst", true);
+		}
+		WheelSpells::Bonus bonus;
+		bonus.decrease.cooldown = 4 * 1000;
+		if (m_playerBonusData.stages.spiritualOutburst >= 2) {
+			addSpellBonus("Spiritual Outburst", bonus);
+		}
+		if (m_playerBonusData.stages.spiritualOutburst >= 3) {
+			addSpellBonus("Spiritual Outburst", bonus);
+		}
+	} else {
+		setSpellInstant("Spiritual Outburst", false);
+	}
+
+	if (m_playerBonusData.stages.ascetic > 0){
+		for (int i = 0; i < m_playerBonusData.stages.ascetic; i++){
+			setSpellInstant("Ascetic", true);
+		}
+	} else {
+		setSpellInstant("Ascetic", false);
+	}
+
 	// Avatar
 	if (m_playerBonusData.avatar.light > 0) {
 		for (int i = 0; i < m_playerBonusData.avatar.light; ++i) {
@@ -2297,6 +2323,22 @@ void PlayerWheel::registerPlayerBonusData() {
 		}
 	} else {
 		setSpellInstant("Avatar of Storm", false);
+	}
+
+	if (m_playerBonusData.avatar.balance > 0) {
+		for (int i = 0; i < m_playerBonusData.avatar.balance; ++i) {
+			setSpellInstant("Avatar of Balance", true);
+		}
+		WheelSpells::Bonus bonus;
+		bonus.decrease.cooldown = 30 * 60 * 1000; // 30 minutes
+		if (m_playerBonusData.avatar.balance >= 2) {
+			addSpellBonus("Avatar of Balance", bonus);
+		}
+		if (m_playerBonusData.avatar.balance >= 3) {
+			addSpellBonus("Avatar of Balance", bonus);
+		}
+	} else {
+		setSpellInstant("Avatar of Balance", false);
 	}
 
 	for (const auto &spell : m_playerBonusData.spells) {
@@ -2376,6 +2418,9 @@ void PlayerWheel::printPlayerWheelMethodsBonusData(const PlayerWheelMethodsBonus
 	if (bonusData.skills.magic > 0) {
 		g_logger().debug("  magic: {}", bonusData.skills.magic);
 	}
+	if (bonusData.skills.fist > 0) {
+		g_logger().debug("  fist: {}", bonusData.skills.fist);
+	}
 
 	g_logger().debug("Leech:");
 	if (bonusData.leech.manaLeech > 0) {
@@ -2441,6 +2486,12 @@ void PlayerWheel::printPlayerWheelMethodsBonusData(const PlayerWheelMethodsBonus
 	}
 	if (bonusData.stages.executionersThrow > 0) {
 		g_logger().debug("  executionersThrow: {}", bonusData.stages.executionersThrow);
+	}
+	if (bonusData.stages.spiritualOutburst > 0) {
+		g_logger().debug("  spiritualOutburst: {}", bonusData.stages.spiritualOutburst);
+	}
+	if (bonusData.stages.ascetic > 0) {
+		g_logger().debug("  ascetic: {}", bonusData.stages.ascetic);
 	}
 
 	g_logger().debug("Avatar:");
@@ -3208,7 +3259,15 @@ void PlayerWheel::onThink(bool force /* = false*/) {
 	if (getGiftOfCooldown() > 0 /*getInstant("Gift of Life")*/ && getOnThinkTimer(WheelOnThink_t::GIFT_OF_LIFE) <= OTSYS_TIME()) {
 		decreaseGiftOfCooldown(1);
 	}
-	if (!m_player.hasCondition(CONDITION_INFIGHT) || m_player.getZoneType() == ZONE_PROTECTION || (!getInstant("Battle Instinct") && !getInstant("Positional Tactics") && !getInstant("Ballistic Mastery") && !getInstant("Gift of Life") && !getInstant("Combat Mastery") && !getInstant("Divine Empowerment") && getGiftOfCooldown() == 0)) {
+
+	if (getInstant("Sanctuary") && (getOnThinkTimer(WheelOnThink_t::SANCTUARY) > OTSYS_TIME()) ){
+		m_player.sendMagicEffect(m_player.getPosition(), 260);
+	}
+
+	if (!m_player.hasCondition(CONDITION_INFIGHT) || m_player.getZoneType() == ZONE_PROTECTION 
+			|| (!getInstant("Battle Instinct") && !getInstant("Positional Tactics") && !getInstant("Ballistic Mastery") 
+				&& !getInstant("Gift of Life") && !getInstant("Combat Mastery") && !getInstant("Divine Empowerment") 
+				&& getGiftOfCooldown() == 0) && !getInstant("Ascetic") ) {
 		bool mustReset = false;
 		for (int i = 0; i < static_cast<int>(WheelMajor_t::TOTAL_COUNT); i++) {
 			if (getMajorStat(static_cast<WheelMajor_t>(i)) != 0) {
@@ -3472,6 +3531,13 @@ void PlayerWheel::setSpellInstant(const std::string &name, bool value) {
 		setInstant(WheelInstant_t::HEALING_LINK, value);
 	} else if (name == "Runic Mastery") {
 		setInstant(WheelInstant_t::RUNIC_MASTERY, value);
+	} else if (name == "Guiding Presence") {
+		setInstant(WheelInstant_t::GUIDING_PRESENCE, value);
+	} else if (name == "Sanctuary") {
+		setInstant(WheelInstant_t::SANCTUARY, value);
+		if (!getInstant(WheelInstant_t::SANCTUARY)) {
+			setOnThinkTimer(WheelOnThink_t::SANCTUARY, 0);
+		}
 	} else if (name == "Focus Mastery") {
 		setInstant(WheelInstant_t::FOCUS_MASTERY, value);
 		if (!getInstant(WheelInstant_t::FOCUS_MASTERY)) {
@@ -3743,7 +3809,9 @@ bool PlayerWheel::getInstant(std::string_view name) const {
 		{ "Ballistic Mastery", BALLISTIC_MASTERY },
 		{ "Healing Link", HEALING_LINK },
 		{ "Runic Mastery", RUNIC_MASTERY },
-		{ "Focus Mastery", FOCUS_MASTERY }
+		{ "Focus Mastery", FOCUS_MASTERY },
+		{ "Guiding Presence", GUIDING_PRESENCE },
+		{ "Sanctuary", SANCTUARY }
 	};
 
 	static const std::unordered_map<std::string_view, WheelStage_t> stageMapping = {
@@ -3759,7 +3827,10 @@ bool PlayerWheel::getInstant(std::string_view name) const {
 		{ "Avatar of Light", AVATAR_OF_LIGHT },
 		{ "Avatar of Nature", AVATAR_OF_NATURE },
 		{ "Avatar of Steel", AVATAR_OF_STEEL },
-		{ "Avatar of Storm", AVATAR_OF_STORM }
+		{ "Avatar of Storm", AVATAR_OF_STORM },
+		{ "Avatar of Balance", AVATAR_OF_BALANCE },
+		{ "Ascetic", ASCETIC },
+		{ "Spiritual Outburst", SPIRITUAL_OUTBURST }
 	};
 
 	if (auto it = instantMapping.find(name); it != instantMapping.end()) {

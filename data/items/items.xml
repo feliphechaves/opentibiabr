@@ -83380,8 +83380,11 @@
 		<attribute key="decayTo" value="50049"/>
 		<attribute key="containersize" value="10"/>
 	</item>
+	<item id="46625" article="a" name="lesser fragment">
+		<attribute key="weight" value="5"/>
+	</item>
 	<item id="46626" article="a" name="greater fragment">
-		<attribute key="weight" value="1"/>
+		<attribute key="weight" value="500"/>
 	</item>
 	<item fromid="49535" toid="49547" name="stone floor">
 		<attribute key="primarytype" value="artificial tiles" />
@@ -85419,5 +85422,9 @@
 			<attribute key="slot" value="armor" />
 			<attribute key="vocation" value="Monk;true, Exalted Monk" />
 		</attribute>
+	</item>
+	<item id="50096" article="a" name="ticket forge">
+		<attribute key="duration" value="20"/>
+		<attribute key="containerSize" value="20"/>
 	</item>
 </items>
