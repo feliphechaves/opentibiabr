@@ -5,8 +5,8 @@ combat:setArea(createCombatArea(AREA_CIRCLE5X5))
 
 -- Dano fixo
 function onGetFormulaValues(player, level, maglevel)
-	local min = -50000
-	local max = -50000
+	local min = -150000
+	local max = -150000
 	return min, max
 end
 

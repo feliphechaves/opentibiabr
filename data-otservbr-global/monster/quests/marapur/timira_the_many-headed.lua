@@ -87,6 +87,8 @@ monster.loot = {
 	{ name = "naga wand", chance = 200 },
 	{ name = "naga rod", chance = 200 },
 	{ name = "naga crossbow", chance = 200 },
+	{ name = "naga tanko", chance = 200 },
+	{ name = "naga katar", chance = 200 },
 	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
 }
 

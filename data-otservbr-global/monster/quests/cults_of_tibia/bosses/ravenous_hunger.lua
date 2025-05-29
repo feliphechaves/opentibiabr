@@ -113,6 +113,7 @@ monster.loot = {
 	{ name = "cobra crown", chance = 400 },
 	{ name = "silver token", chance = 2500 },
 	{ name = "elven mail", chance = 3000 },
+	{ name = "merudri brooch", chance = 200 },
 }
 
 monster.attacks = {

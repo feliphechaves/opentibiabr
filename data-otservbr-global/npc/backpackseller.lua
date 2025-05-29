@@ -109,6 +109,7 @@ local function creatureSayCallback(npc, creature, type, message)
 			[2] = {name = "Nature's Backpack", itemId = 65030},
 			[3] = {name = "Celestial Archer Backpack", itemId = 65032},
 			[4] = {name = "Bloodrage Backpack", itemId = 65031},
+			[5] = {name = "Pilgrim Backpack", itemiD = 65034},
 		}
 
 		local selected = backpacks[vocationId]

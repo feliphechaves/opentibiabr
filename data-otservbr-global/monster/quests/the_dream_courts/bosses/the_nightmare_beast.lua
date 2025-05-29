@@ -118,6 +118,7 @@ monster.loot = {
 	{ name = "ultimate spirit potion", chance = 58060, maxCount = 24 },
 	{ name = "violet gem", chance = 6450 },
 	{ name = "yellow gem", chance = 45160, maxCount = 2 },
+	{ name = "dark vision bandana", chance = 2000 },
 }
 
 monster.attacks = {

@@ -103,6 +103,7 @@ monster.loot = {
 	{ name = "terra helmet", chance = 750 },
 	{ name = "final judgement", chance = 450 },
 	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
+	{ name = "death oyoroi", chance = 1000 },
 }
 
 monster.attacks = {

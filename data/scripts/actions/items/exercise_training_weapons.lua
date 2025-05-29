@@ -46,9 +46,10 @@ local exerciseWeaponsTable = {
 	[50293] = { skill = SKILL_FIST, effect = CONST_ANI_WHIRLWINDAXE },
 	[50294] = { skill = SKILL_FIST, effect = CONST_ANI_WHIRLWINDAXE },
 	[50295] = { skill = SKILL_FIST, effect = CONST_ANI_WHIRLWINDAXE },
+	[65035] = { skill = SKILL_FIST, effect = CONST_ANI_WHIRLWINDAXE },
 }
 
-local bonusWeaponIds = { 65022, 65027, 65024, 65026, 65028, 65025, 65029 }
+local bonusWeaponIds = { 65022, 65027, 65024, 65026, 65028, 65025, 65029, 65035 }
 local bonusDummyIds = { 65001, 65002, 65003, 65004 }
 
 local dummies = Game.getDummies()

@@ -42348,6 +42348,34 @@
 		</attribute>
 	</item>
 
+	<item id="65034" article="a" name="Pilgrim Backpack">
+		<attribute key="showAttributes" value="1"/>
+		<attribute key="manaticks" value="4000"/>
+		<attribute key="managain" value="40"/>
+		<attribute key="healthticks" value="4000"/>
+		<attribute key="healthgain" value="40"/>
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="60"/>
+		<attribute key="weight" value="1800"/>
+		<attribute key="absorbpercentphysical" value="5"/>
+		<attribute key="absorbpercentfire" value="3"/>
+		<attribute key="absorbpercentenergy" value="3"/>
+		<attribute key="absorbpercentholy" value="8"/>
+		<attribute key="absorbpercentpoison" value="3"/>
+		<attribute key="absorbpercentice" value="3"/>
+		<attribute key="absorbpercentdeath" value="3"/>
+		<attribute key="skillfist" value="2"/>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="increase capacity" value="4"/>
+			<attribute key="skillboost fist" value="4"/>
+		</attribute>
+		<attribute key="description" value="This radiant backpack empowers divine archers with clarity and precision, offering powerful blessings against unholy threats."/>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+			<attribute key="vocation" value="Monk;true, Exalted Monk"/>
+		</attribute>
+	</item>
+
 	<item id="21293" article="a" name="note pinned on the wall">
 		<attribute key="description" value="You read: The magistrate is looking for help in an important mission. Contact Ezebeth in the magistrate building for more information."/>
 	</item>
@@ -77719,6 +77747,7 @@
 		<attribute key="skillaxe" value="3"/>
 		<attribute key="skillclub" value="3"/>
 		<attribute key="skilldist" value="3"/>
+		<attribute key="skillfist" value="3"/>
 		<attribute key="magiclevelpoints" value="3"/>
 		<attribute key="weight" value="3800"/>
 		<attribute key="imbuementslot" value="1">
@@ -77737,6 +77766,7 @@
 		<attribute key="skillaxe" value="3"/>
 		<attribute key="skillclub" value="3"/>
 		<attribute key="skilldist" value="3"/>
+		<attribute key="skillfist" value="3"/>
 		<attribute key="magiclevelpoints" value="3"/>
 		<attribute key="weight" value="3800"/>
 		<attribute key="imbuementslot" value="1">
@@ -77755,6 +77785,7 @@
 		<attribute key="skillaxe" value="3"/>
 		<attribute key="skillclub" value="3"/>
 		<attribute key="skilldist" value="3"/>
+		<attribute key="skillfist" value="3"/>
 		<attribute key="magiclevelpoints" value="3"/>
 		<attribute key="weight" value="3800"/>
 		<attribute key="imbuementslot" value="1">
@@ -77773,6 +77804,7 @@
 		<attribute key="skillaxe" value="3"/>
 		<attribute key="skillclub" value="3"/>
 		<attribute key="skilldist" value="3"/>
+		<attribute key="skillfist" value="3"/>
 		<attribute key="magiclevelpoints" value="3"/>
 		<attribute key="weight" value="3800"/>
 		<attribute key="imbuementslot" value="1">
@@ -77791,6 +77823,7 @@
 		<attribute key="skillaxe" value="3"/>
 		<attribute key="skillclub" value="3"/>
 		<attribute key="skilldist" value="3"/>
+		<attribute key="skillfist" value="3"/>
 		<attribute key="magiclevelpoints" value="3"/>
 		<attribute key="weight" value="3800"/>
 		<attribute key="imbuementslot" value="1">
@@ -77809,6 +77842,7 @@
 		<attribute key="skillaxe" value="3"/>
 		<attribute key="skillclub" value="3"/>
 		<attribute key="skilldist" value="3"/>
+		<attribute key="skillfist" value="3"/>
 		<attribute key="magiclevelpoints" value="3"/>
 		<attribute key="weight" value="3800"/>
 		<attribute key="imbuementslot" value="1">
@@ -81583,6 +81617,7 @@
 		<attribute key="absorbpercentfire" value="13"/>
 		<attribute key="absorbpercentice" value="13"/>
 		<attribute key="skilldist" value="2"/>
+		<attribute key="skillfist" value="3"/>
 		<attribute key="magiclevelpoints" value="3"/>
 		<attribute key="skillclub" value="4"/>
 		<attribute key="skillaxe" value="4"/>
@@ -81600,6 +81635,7 @@
 		<attribute key="absorbpercentearth" value="13"/>
 		<attribute key="absorbpercentenergy" value="13"/>
 		<attribute key="skilldist" value="3"/>
+		<attribute key="skillfist" value="3"/>
 		<attribute key="magiclevelpoints" value="3"/>
 		<attribute key="skillclub" value="4"/>
 		<attribute key="skillaxe" value="4"/>
@@ -81617,6 +81653,7 @@
 		<attribute key="absorbpercentholy" value="13"/>
 		<attribute key="absorbpercentdeath" value="13"/>
 		<attribute key="skilldist" value="2"/>
+		<attribute key="skillfist" value="3"/>
 		<attribute key="magiclevelpoints" value="3"/>
 		<attribute key="skillclub" value="4"/>
 		<attribute key="skillaxe" value="4"/>
@@ -81633,6 +81670,7 @@
 		<attribute key="absorbpercentfire" value="13"/>
 		<attribute key="absorbpercentice" value="13"/>
 		<attribute key="skilldist" value="3"/>
+		<attribute key="skillfist" value="4"/>
 		<attribute key="magiclevelpoints" value="4"/>
 		<attribute key="skillclub" value="5"/>
 		<attribute key="skillaxe" value="5"/>
@@ -81649,6 +81687,7 @@
 		<attribute key="absorbpercentearth" value="13"/>
 		<attribute key="absorbpercentenergy" value="13"/>
 		<attribute key="skilldist" value="3"/>
+		<attribute key="skillfist" value="4"/>
 		<attribute key="magiclevelpoints" value="4"/>
 		<attribute key="skillclub" value="5"/>
 		<attribute key="skillaxe" value="5"/>
@@ -81665,6 +81704,7 @@
 		<attribute key="absorbpercentholy" value="13"/>
 		<attribute key="absorbpercentdeath" value="13"/>
 		<attribute key="skilldist" value="3"/>
+		<attribute key="skillfist" value="4"/>
 		<attribute key="magiclevelpoints" value="4"/>
 		<attribute key="skillclub" value="5"/>
 		<attribute key="skillaxe" value="5"/>
@@ -81696,6 +81736,12 @@
 			<attribute key="level" value="220"/>
 			<attribute key="slot" value="necklace"/>
 		</attribute>
+	</item>
+	<item id="65035" article="a" name="boosted exercise wraps">
+		<attribute key="primarytype" value="exercise weapons"/>
+		<attribute key="showCharges" value="1"/>
+		<attribute key="charges" value="1"/>
+		<attribute key="weight" value="1000"/>
 	</item>
 	<item id="65022" article="a" name="boosted exercise shield">
 		<attribute key="primarytype" value="exercise weapons"/>
@@ -83791,10 +83837,10 @@
 		<attribute key="skillfist" value="5" />
 		<attribute key="weight" value="7100" />
 		<attribute key="imbuementslot" value="2">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="sweeping takedown" value="base">
@@ -83821,10 +83867,10 @@
 		<attribute key="skillfist" value="5" />
 		<attribute key="weight" value="6900" />
 		<attribute key="imbuementslot" value="2">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="sweeping takedown" value="base">
@@ -83851,10 +83897,10 @@
 		<attribute key="magiclevelpoints" value="1" />
 		<attribute key="weight" value="8400" />
 		<attribute key="imbuementslot" value="3">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="400" />
@@ -84266,8 +84312,8 @@
 		<attribute key="absorbpercentfire" value="8" />
 		<attribute key="weight" value="1200" />
 		<attribute key="imbuementslot" value="2">
-			<attribute key="mana leech" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="400" />
@@ -84446,7 +84492,7 @@
 		<attribute key="absorbpercentice" value="6" />
 		<attribute key="weight" value="1300" />
 		<attribute key="imbuementslot" value="1">
-			<attribute key="increase speed" value="3" />
+			<attribute key="increase speed" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="400" />
@@ -84481,15 +84527,23 @@
 		<attribute key="weaponType" value="fist" />
 		<attribute key="elementalbond" value="energy" />
 		<attribute key="slotType" value="two-handed" />
-		<attribute key="attack" value="45" />
-		<attribute key="defense" value="21" />
-		<attribute key="skillfist" value="4" />
+		<attribute key="attack" value="49" />
+		<attribute key="defense" value="23" />
+		<attribute key="skillfist" value="7" />
 		<attribute key="weight" value="8400" />
+		<attribute key="criticalhitdamage" value="1200" />
+		<attribute key="criticalhitchance" value="1000" />
+		<attribute key="magiclevelpoints" value="3" />
+		<attribute key="augments" value="1">
+			<attribute key="sweeping takedown" value="base">
+				<attribute key="value" value="8" />
+			</attribute>
+		</attribute>
 		<attribute key="imbuementslot" value="2">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="300" />
@@ -84577,7 +84631,12 @@
 		<attribute key="absorbpercentice" value="8" />
 		<attribute key="weight" value="10700" />
 		<attribute key="imbuementslot" value="2">
-			<attribute key="life leech" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="elemental protection death" value="4"/>
+			<attribute key="elemental protection earth" value="4"/>
+			<attribute key="elemental protection ice" value="4"/>
+			<attribute key="elemental protection energy" value="4"/>
+			<attribute key="elemental protection holy" value="4"/>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="400" />

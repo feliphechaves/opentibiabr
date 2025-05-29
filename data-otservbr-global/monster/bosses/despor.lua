@@ -93,6 +93,7 @@ monster.loot = {
 	{ name = "mystical dragon robe", chance = 500 },
 	{ name = "dauntless dragon scale armor", chance = 500 },
 	{ name = "unerring dragon scale armor", chance = 500 },
+	{ name = "merudri battle mail", chance = 500 },
 	--{ name = "heralds insignia", chance = 1850 },
 	--{ name = "heralds wings", chance = 1850 },
 	{ name = "gold-scaled sentinel", chance = 1850 },
