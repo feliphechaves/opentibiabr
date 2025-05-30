@@ -81,6 +81,23 @@ local config = {
 			{ 266, 10 }, -- health potion
 		},
 	},
+
+	[VOCATION.ID.MONK] = {
+		items = {
+			{ 51119, 1 }, -- steel axe
+			{ 50257, 1 }, -- brass armor
+			{ 50194, 1 }, -- brass helmet
+			{ 3372, 1 }, -- brass legs
+			{ 3552, 1 }, -- leather boots
+			{ 3572, 1 }, -- scarf
+		},
+
+		container = {
+			{ 3003, 1 }, -- rope
+			{ 5710, 1 }, -- light shovel
+			{ 266, 10 }, -- health potion
+		},
+	},
 }
 
 local sendFirstItems = CreatureEvent("SendFirstItems")
@@ -91,7 +108,6 @@ function sendFirstItems.onLogin(player)
 		return true
 	end
 
-	--[[
 	if targetVocation.items then
 		for i = 1, #targetVocation.items do
 			player:addItem(targetVocation.items[i][1], targetVocation.items[i][2])
@@ -105,17 +121,9 @@ function sendFirstItems.onLogin(player)
 		for i = 1, #targetVocation.container do
 			backpack:addItem(targetVocation.container[i][1], targetVocation.container[i][2])
 		end
-		backpack:addItem(3043, 100) --crystal coin
 	end
 	return true
-	]]
 
-	local bag = player:addItem(8861) --brocade bag
-	if not bag then
-		return true
-	end
-	bag:addItem(3043, 100) --crystal coins
-	return true
 end
 
---sendFirstItems:register()
+sendFirstItems:register()
