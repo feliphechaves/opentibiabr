@@ -81,6 +81,8 @@ monster.loot = {
 	{ name = "stitched mutant hide legs", chance = 440 },
 	{ name = "alchemist's boots", chance = 460 },
 	{ name = "mutant bone boots", chance = 400 },
+	{ name = "mutant hide trousers", chance = 400 },
+	
 }
 
 monster.attacks = {

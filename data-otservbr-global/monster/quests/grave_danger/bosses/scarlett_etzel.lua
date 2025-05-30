@@ -112,6 +112,7 @@ monster.loot = {
 	{ name = "cobra sword", chance = 650 },
 	{ name = "cobra wand", chance = 650 },
 	{ name = "cobra amulet", chance = 350 },
+	{ name = "cobra bo", chance = 650},
 	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
 }
 

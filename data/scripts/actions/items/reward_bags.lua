@@ -18,6 +18,9 @@ local rewardBags = {
 		{ id = 34091, name = "soulhexer" },
 		{ id = 34093, name = "soulstrider" },
 		{ id = 34096, name = "soulshroud" },
+		{ id = 50159, name = "soulkamas" },
+		{ id = 50254, name = "soulgarb" },
+		{ id = 50240, name = "soulsoles" },
 	},
 
 	[PRIMAL_BAG] = {
@@ -50,6 +53,8 @@ local rewardBags = {
 		{ id = 43884, name = "sanguine boots" },
 		{ id = 43885, name = "sanguine rod" },
 		{ id = 43887, name = "sanguine galoshes" },
+		{ id = 50157, name = "sanguine claws" },
+		{ id = 50146, name = "sanguine trousers" },	
 	},
 
 	[GRAND_SANGUINE_BAG] = {
@@ -63,6 +68,7 @@ local rewardBags = {
 		{ id = 43880, name = "grand sanguine crossbow" },
 		{ id = 43883, name = "grand sanguine coil" },
 		{ id = 43886, name = "grand sanguine rod" },
+		{ id = 50158, name = "grand sanguine claws" },
 	},
 
 	[INFERNIARCH_BAG] = {
@@ -79,6 +85,8 @@ local rewardBags = {
 		{ id = 49532, name = "hellstalker visor" },
 		{ id = 49533, name = "dreadfire headpiece" },
 		{ id = 49534, name = "demonfang mask" },
+		{ id = 50250, name = "inferniarch claws" },
+		{ id = 50189, name = "demon mengu" },
 	},
 
 }

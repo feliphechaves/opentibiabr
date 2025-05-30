@@ -774,6 +774,9 @@
 	<npc centerx="32359" centery="32226" centerz="6" radius="1">
 		<npc name="Yasir" x="0" y="0" z="6" spawntime="60" />
 	</npc>
+	<npc centerx="32349" centery="32229" centerz="6" radius="1">
+		<npc name="Enpa-Deia Pema" x="0" y="0" z="6" spawntime="60" />
+	</npc>
 	<npc centerx="32359" centery="32235" centerz="6" radius="1">
 		<npc name="Contrabandist" x="0" y="0" z="6" spawntime="60" />
 	</npc>

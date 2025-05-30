@@ -47,6 +47,10 @@ npcConfig.shop = {
 	{ itemName = "thunderheart platemail", clientId = 22526, buy = 100 },
 	{ itemName = "thundermind raiment", clientId = 22536, buy = 100 },
 	{ itemName = "thundersoul tabard", clientId = 22532, buy = 100 },
+	{ itemName = "energy robe", clientId = 50279, buy = 100 },
+	{ itemName = "ice robe", clientId = 50280, buy = 100 },
+	{ itemName = "leaf robe", clientId = 50277, buy = 100 },
+	{ itemName = "magma robe", clientId = 50278, buy = 100 },
 }
 
 -- On buy npc shop message

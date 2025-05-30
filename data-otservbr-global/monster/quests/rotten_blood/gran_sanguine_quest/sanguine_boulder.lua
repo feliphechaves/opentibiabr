@@ -17,7 +17,7 @@ monster.events = {
 	"SanguineBoulderDeath",
 }
 
-monster.raceId = 2613
+monster.raceId = 2665
 monster.Bestiary = {
 	class = "Elemental",
 	race = BESTY_RACE_ELEMENTAL,

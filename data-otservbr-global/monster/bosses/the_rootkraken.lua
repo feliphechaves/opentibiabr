@@ -92,6 +92,7 @@ monster.loot = {
 	{ id = 47372, chance = 300 }, -- amber wand
 	{ id = 47373, chance = 300 }, -- amber rod
 	{ id = 48514, chance = 250 }, -- strange inedible fruit
+	{ name = "amber kusarigama", chance = 250 },
 }
 
 monster.attacks = {

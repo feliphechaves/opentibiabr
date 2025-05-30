@@ -453,6 +453,7 @@ public:
 	void checkCreatureAttack(uint32_t creatureId);
 	void checkCreatures();
 	void checkLight();
+	void checkImbuementsAndSereneStatus();
 
 	bool combatBlockHit(CombatDamage &damage, const std::shared_ptr<Creature> &attacker, const std::shared_ptr<Creature> &target, bool checkDefense, bool checkArmor, bool field);
 
@@ -729,7 +730,7 @@ private:
 	std::map<uint32_t, int32_t> forgeMonsterEventIds;
 	std::unordered_set<uint32_t> fiendishMonsters;
 	std::unordered_set<uint32_t> influencedMonsters;
-	void checkImbuements() const;
+
 	bool playerSaySpell(const std::shared_ptr<Player> &player, SpeakClasses type, const std::string &text);
 	void playerWhisper(const std::shared_ptr<Player> &player, const std::string &text);
 	bool playerYell(const std::shared_ptr<Player> &player, const std::string &text);
@@ -948,6 +949,8 @@ private:
 	std::string generateHighscoreOrGetCachedQueryForOurRank(const std::string &categoryName, uint8_t entriesPerPage, uint32_t playerGUID, uint32_t vocation);
 
 	void updatePlayersOnline() const;
+
+	bool isPlayerNoBoxed(const std::shared_ptr<Player> &player);
 };
 
 constexpr auto g_game = Game::getInstance;

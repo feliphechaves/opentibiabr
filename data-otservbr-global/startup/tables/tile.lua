@@ -8,7 +8,14 @@ TileAction = {
 			{ x = 33305, y = 32861, z = 13 },
 		},
 	},
-	-- Cure poison tiles at dawnport outpost entrances
+	-- -- Cure poison tiles at dawnport outpost entrances
+	-- --Monk vocation tile
+	-- [25000] = {
+	-- 	itemId = 50308,
+	-- 	itemPos = {
+	-- 		{ x = 32060, y = 31894, z = 4 },
+	-- 	},
+	-- },
 	-- Tiles data\scripts\movements\others\dawnport_tiles.lua
 	[20001] = {
 		itemId = 416,
@@ -296,14 +303,14 @@ TileAction = {
 	-- The paradox tower quest
 	-- data\scripts\movements\quests\the_paradox_tower\movement-last_floor_reward.lua
 	-- Phoenix egg
-	[50308] = {
-		itemId = 431,
-		itemPos = {
-			{ x = 32476, y = 31903, z = 1 },
-			{ x = 32477, y = 31903, z = 1 },
-			{ x = 32478, y = 31903, z = 1 },
-		},
-	},
+	-- [50308] = {
+	-- 	itemId = 431,
+	-- 	itemPos = {
+	-- 		{ x = 32476, y = 31903, z = 1 },
+	-- 		{ x = 32477, y = 31903, z = 1 },
+	-- 		{ x = 32478, y = 31903, z = 1 },
+	-- 	},
+	-- },
 	-- 10000 gold coins
 	[50309] = {
 		itemId = 431,

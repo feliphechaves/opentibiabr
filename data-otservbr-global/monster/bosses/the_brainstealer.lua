@@ -86,7 +86,10 @@ monster.loot = {
 	{ name = "gilded eldritch wand", chance = 80 },
 	{ name = "gilded eldritch rod", chance = 60 },
 	{ name = "gilded eldritch bow", chance = 50 },
+	{ name = "gilded eldritch crescent moon spade", chance = 80},
+	{ name = "eldritch crescent moon spade", chance = 80},
 	{ name = "eldritch crystal", chance = 30 },
+	{ name = "eldritch monk boots", chance = 30 },
 }
 
 monster.attacks = {

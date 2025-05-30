@@ -39,7 +39,6 @@ namespace WheelSpells {
 }
 
 struct PlayerWheelMethodsBonusData {
-	// Raw value. Example: 1 == 1
 	struct Stats {
 		int health = 0;
 		int mana = 0;
@@ -47,52 +46,62 @@ struct PlayerWheelMethodsBonusData {
 		int damage = 0;
 		int healing = 0;
 	};
-	// value * 100. Example: 1% == 100
+
 	std::array<uint8_t, 4> unlockedVesselResonances = {};
 
-	// Raw value. Example: 1 == 1
 	struct Skills {
 		int melee = 0;
 		int distance = 0;
 		int magic = 0;
+		int fist = 0;
 	};
 
-	// value * 100. Example: 1% == 100
 	struct Leech {
 		double manaLeech = 0;
 		double lifeLeech = 0;
 	};
 
 	struct Instant {
-		bool battleInstinct = false; // Knight
-		bool battleHealing = false; // Knight
-		bool positionalTactics = false; // Paladin
-		bool ballisticMastery = false; // Paladin
-		bool healingLink = false; // Druid
-		bool runicMastery = false; // Druid/sorcerer
-		bool focusMastery = false; // Sorcerer
+		bool battleInstinct = false;
+		bool battleHealing = false;
+		bool positionalTactics = false;
+		bool ballisticMastery = false;
+		bool healingLink = false;
+		bool runicMastery = false;
+		bool focusMastery = false;
+
+		// Novos campos (do Crystal Server)
+		bool guidingPresence = false;
+		bool sanctuary = false;
 	};
 
 	struct Stages {
-		int combatMastery = 0; // Knight
-		int giftOfLife = 0; // Knight/Paladin/Druid/Sorcerer
-		int divineEmpowerment = 0; // Paladin
-		int divineGrenade = 0; // Paladin
-		int blessingOfTheGrove = 0; // Druid
-		int drainBody = 0; // Sorcerer
-		int beamMastery = 0; // Sorcerer
-		int twinBurst = 0; // Druid
-		int executionersThrow = 0; // Knight
+		int combatMastery = 0;
+		int giftOfLife = 0;
+		int divineEmpowerment = 0;
+		int divineGrenade = 0;
+		int blessingOfTheGrove = 0;
+		int drainBody = 0;
+		int beamMastery = 0;
+		int twinBurst = 0;
+		int executionersThrow = 0;
+
+		// Novos campos (do Crystal Server)
+		int spiritualOutburst = 0;
+		int ascetic = 0;
 	};
 
 	struct Avatar {
-		int light = 0; // Paladin
-		int nature = 0; // Druid
-		int steel = 0; // Knight
-		int storm = 0; // Sorcerer
+		int light = 0;
+		int nature = 0;
+		int steel = 0;
+		int storm = 0;
+
+		// Novo campo (do Crystal Server)
+		int balance = 0;
 	};
 
-	// Initialize structs
+	// Instâncias
 	Stats stats;
 	Skills skills;
 	Leech leech;
@@ -438,7 +447,7 @@ public:
 
 	uint16_t getPointsBySlotType(WheelSlots_t slotType) const;
 
-	const std::array<uint16_t, 37> &getSlots() const;
+	const std::array<uint16_t, magic_enum::enum_count<WheelSlots_t>() + 1> &getSlots() const;
 
 	void setPointsBySlotType(uint8_t slotType, uint16_t points);
 
@@ -497,6 +506,11 @@ public:
 
 	WheelGemBasicModifier_t selectBasicModifier2(WheelGemBasicModifier_t modifier1) const;
 
+	bool hasMonkQuest() const;
+	int32_t checkRevelationPerkAscetic() const;
+	float checkRevelationPerkSanctuary() const;
+	bool setSanctuaryTimer(const std::string &spell);
+
 private:
 	void resetRevelationState();
 	void processActiveGems();
@@ -519,7 +533,7 @@ private:
 
 	uint8_t m_modsMaxGrade = {};
 	std::array<uint8_t, 49> m_basicGrades = { 0 };
-	std::array<uint8_t, 76> m_supremeGrades = { 0 };
+	std::array<uint8_t, 99> m_supremeGrades = { 0 };
 
 	std::array<uint8_t, static_cast<size_t>(WheelStage_t::STAGE_COUNT)> m_stages = { 0 };
 	std::array<int64_t, static_cast<size_t>(WheelOnThink_t::TOTAL_COUNT)> m_onThink = { 0 };
@@ -540,4 +554,6 @@ private:
 	std::array<PlayerWheelGem, 4> m_activeGems;
 	std::vector<PlayerWheelGem> m_revealedGems;
 	std::vector<PlayerWheelGem> m_destroyedGems;
+
+	float m_harmonySanctuary = 1.0f;
 };

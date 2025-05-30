@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug OTServer (Dev Container)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "/workspace/build/bin/canary-debug",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "/workspace",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "sourceFileMap": {
+        "/workspace": "${workspaceFolder}"
+      }
+    }
+  ]
+}

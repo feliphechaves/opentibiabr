@@ -231,8 +231,18 @@
 	<mount id="229" clientid="1743" name="Bog Tyrant" speed="10" premium="no" type="store" />
 	<mount id="230" clientid="1744" name="Crimson Fang" speed="10" premium="no" type="store" />
 	<mount id="231" clientid="1778" name="Bumblebee" speed="10" premium="no" type="store" />
+
 	<mount id="232" clientid="1810" name="Primal Demonosaur" speed="10" premium="no" type="quest" />
-	<!-- <mount id="233" clientid="1833" name="Night Locust" speed="10" premium="no" type="store" />
-	<mount id="234" clientid="1834" name="Leaf Locust" speed="10" premium="no" type="store" />
-	<mount id="235" clientid="1835" name="Pearl Locust" speed="10" premium="no" type="store" /> -->
+	<mount id="233" clientid="1826" name="Red Demonosaur" speed="10" premium="no" type="quest" />
+	<mount id="234" clientid="1827" name="Rock Demonosaur" speed="10" premium="no" type="quest" />
+	<mount id="235" clientid="1813" name="Pallbearer" speed="10" premium="no" type="quest" />
+	<mount id="236" clientid="1833" name="Night Locust" speed="10" premium="no" type="store" />
+	<mount id="237" clientid="1834" name="Leaf Locust" speed="10" premium="no" type="store" />
+	<mount id="238" clientid="1835" name="Pearl Locust" speed="10" premium="no" type="store" />
+	<mount id="239" clientid="1836" name="Satin Moth" speed="10" premium="no" type="store" />
+	<mount id="245" clientid="1842" name="Corpse Phoenix" speed="10" premium="no" type="store" />
+	<mount id="246" clientid="1843" name="Death Phoenix" speed="10" premium="no" type="store" />
+	<mount id="247" clientid="1844" name="Soul Phoenix" speed="10" premium="no" type="store" />
+
+
 </mounts>

@@ -1,8 +1,8 @@
 local setting = {
-	[50308] = {
-		position = { x = 32477, y = 31900, z = 1 },
-		storage = Storage.Quest.U7_24.TheParadoxTower.Reward.Egg,
-	},
+	-- [50308] = {
+	-- 	position = { x = 32477, y = 31900, z = 1 },
+	-- 	storage = Storage.Quest.U7_24.TheParadoxTower.Reward.Egg,
+	-- },
 	[50309] = {
 		position = { x = 32478, y = 31900, z = 1 },
 		storage = Storage.Quest.U7_24.TheParadoxTower.Reward.Gold,

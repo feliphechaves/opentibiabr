@@ -67,10 +67,11 @@ local DAILY_REWARD_STATUS_PREMIUM = 1
 
 local DailyRewardItems = {
 	[0] = { 35285, 35286, 35287, 35288, 35289, 35290 }, -- God/no vocation character
-	[VOCATION.BASE_ID.PALADIN] = { 35285, 35286, 35287, 35288, 35289, 35290 },
-	[VOCATION.BASE_ID.DRUID] = { 35285, 35286, 35287, 35288, 35289, 35290 },
-	[VOCATION.BASE_ID.SORCERER] = { 35285, 35286, 35287, 35288, 35289, 35290 },
-	[VOCATION.BASE_ID.KNIGHT] = { 35285, 35286, 35287, 35288, 35289, 35290 },
+	[VOCATION.BASE_ID.PALADIN] = { 35288 },
+	[VOCATION.BASE_ID.DRUID] = { 35289 },
+	[VOCATION.BASE_ID.SORCERER] = { 35290 },
+	[VOCATION.BASE_ID.KNIGHT] = { 35285, 35286, 35287 },
+	[VOCATION.BASE_ID.MONK] = { 50295 },
 }
 
 DailyReward = {
@@ -265,8 +266,8 @@ DailyReward.pickedReward = function(playerId)
 	else
 		player:setDayStreak(0)
 	end
-	player:setStreakLevel(6)
-	--player:setStreakLevel(player:getStreakLevel() + 1)
+
+	player:setStreakLevel(player:getStreakLevel() + 1)
 	player:setStorageValue(DailyReward.storages.avoidDouble, GetDailyRewardLastServerSave())
 	player:setDailyReward(DAILY_REWARD_COLLECTED)
 	player:setNextRewardTime(GetDailyRewardLastServerSave() + DailyReward.serverTimeThreshold)

@@ -310,6 +310,8 @@ bool IOLoginDataSave::savePlayerFirst(const std::shared_ptr<Player> &player) {
 	query << "`xpboost_value` = " << player->getXpBoostPercent() << ",";
 	query << "`xpboost_stamina` = " << player->getXpBoostTime() << ",";
 	query << "`quickloot_fallback` = " << (player->quickLootFallbackToMainContainer ? 1 : 0) << ",";
+	query << "`virtue` = " << static_cast<uint16_t>(player->getVirtue()) << ",";
+	query << "`harmony` = " << static_cast<uint16_t>(player->getHarmony()) << ",";
 
 	if (!player->isOffline()) {
 		auto now = std::chrono::system_clock::now();
@@ -346,6 +348,17 @@ bool IOLoginDataSave::savePlayerStash(const std::shared_ptr<Player> &player) {
 
 	DBInsert stashQuery("INSERT INTO `player_stash` (`player_id`,`item_id`,`item_count`) VALUES ");
 	for (const auto &[itemId, itemCount] : player->getStashItems()) {
+		const ItemType& itemType = Item::items[itemId];
+		if (itemType.decayTo >= 0 && itemType.decayTime > 0) {
+			continue;
+		}
+
+		auto wareId = itemType.wareId;
+		if (wareId > 0 && wareId != itemType.id) {
+			g_logger().warn("[{}] - Item ID {} is a ware item, for player: {}, skipping.", __FUNCTION__, itemId, player->getName());
+			continue;
+		}
+
 		query << player->getGUID() << ',' << itemId << ',' << itemCount;
 		if (!stashQuery.addRow(query)) {
 			return false;
