@@ -27228,10 +27228,10 @@
 		<attribute key="defense" value="15" />
 		<attribute key="weight" value="5000"/>
 		<attribute key="imbuementslot" value="2">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="30" />
@@ -27270,10 +27270,10 @@
 		<attribute key="defense" value="16" />
 		<attribute key="weight" value="6000" />
 		<attribute key="imbuementslot" value="2">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="90" />
@@ -36043,10 +36043,10 @@
 		<attribute key="defense" value="15" />
 		<attribute key="weight" value="4500" />
 		<attribute key="imbuementslot" value="2">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="80" />
@@ -83928,10 +83928,10 @@
 		<attribute key="magiclevelpoints" value="1" />
 		<attribute key="weight" value="6000" />
 		<attribute key="imbuementslot" value="2">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="300" />
@@ -83952,9 +83952,9 @@
 		<attribute key="skillfist" value="4" />
 		<attribute key="weight" value="8200" />
 		<attribute key="imbuementslot" value="2">
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="300" />
@@ -83975,9 +83975,9 @@
 		<attribute key="skillfist" value="4" />
 		<attribute key="weight" value="7800" />
 		<attribute key="imbuementslot" value="2">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="270" />
@@ -84012,10 +84012,10 @@
 		<attribute key="skillfist" value="2" />
 		<attribute key="weight" value="7400" />
 		<attribute key="imbuementslot" value="1">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="120" />
@@ -84034,10 +84034,10 @@
 		<attribute key="skillfist" value="3" />
 		<attribute key="weight" value="6900" />
 		<attribute key="imbuementslot" value="2">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="250" />
@@ -84072,10 +84072,10 @@
 		<attribute key="lifeleechamount" value="1400" />
 		<attribute key="weight" value="5600" />
 		<attribute key="imbuementslot" value="2">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="250" />
@@ -84093,10 +84093,10 @@
 		<attribute key="defense" value="17" />
 		<attribute key="weight" value="7000" />
 		<attribute key="imbuementslot" value="3">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="200" />
@@ -84117,10 +84117,10 @@
 		<attribute key="reflectdamage" value="50" />
 		<attribute key="weight" value="8800" />
 		<attribute key="imbuementslot" value="2">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="250" />
@@ -84142,10 +84142,10 @@
 		<attribute key="reflectdamage" value="50" />
 		<attribute key="weight" value="8600" />
 		<attribute key="imbuementslot" value="2">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="250" />
@@ -84184,10 +84184,10 @@
 		<attribute key="magiclevelpoints" value="1" />
 		<attribute key="weight" value="6400" />
 		<attribute key="imbuementslot" value="2">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="mystic repulse" value="base">
@@ -84243,10 +84243,10 @@
 		<attribute key="skillfist" value="1" />
 		<attribute key="weight" value="4900" />
 		<attribute key="imbuementslot" value="1">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="60" />
@@ -84339,8 +84339,8 @@
 		<attribute key="absorbpercentdeath" value="6" />
 		<attribute key="weight" value="1900" />
 		<attribute key="imbuementslot" value="2">
-			<attribute key="mana leech" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="flurry of blows" value="mana leech">
@@ -84361,8 +84361,8 @@
 		<attribute key="absorbpercentenergy" value="4" />
 		<attribute key="weight" value="1100" />
 		<attribute key="imbuementslot" value="2">
-			<attribute key="mana leech" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="180" />
@@ -84398,8 +84398,8 @@
 		<attribute key="absorbpercentice" value="4" />
 		<attribute key="weight" value="2100" />
 		<attribute key="imbuementslot" value="1">
-			<attribute key="mana leech" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="110" />
@@ -84471,10 +84471,10 @@
 		<attribute key="magiclevelpoints" value="1" />
 		<attribute key="weight" value="8600" />
 		<attribute key="imbuementslot" value="2">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="augments" value="2">
 			<attribute key="devastating knockout-" value="critical extra damage">
@@ -84572,9 +84572,9 @@
 		<attribute key="skillfist" value="4" />
 		<attribute key="weight" value="8400" />
 		<attribute key="imbuementslot" value="1">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="300" />
@@ -84595,9 +84595,9 @@
 		<attribute key="lifeleechamount" value="2900" />
 		<attribute key="weight" value="8400" />
 		<attribute key="imbuementslot" value="1">
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="300" />
@@ -84618,9 +84618,9 @@
 		<attribute key="skillfist" value="4" />
 		<attribute key="weight" value="8400" />
 		<attribute key="imbuementslot" value="1">
-			<attribute key="life leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="300" />
@@ -84662,7 +84662,7 @@
 		<attribute key="absorbpercentenergy" value="5" />
 		<attribute key="weight" value="12800" />
 		<attribute key="imbuementslot" value="2">
-			<attribute key="life leech" value="3" />
+			<attribute key="life leech" value="4" />
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="spirit mend" value="base">
@@ -84683,7 +84683,7 @@
 		<attribute key="skillfist" value="1" />
 		<attribute key="weight" value="6500" />
 		<attribute key="imbuementslot" value="1">
-			<attribute key="life leech" value="3" />
+			<attribute key="life leech" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="armor" />
@@ -84727,7 +84727,7 @@
 		<attribute key="magiclevelpoints" value="1" />
 		<attribute key="skillfist" value="4" />
 		<attribute key="imbuementslot" value="1">
-			<attribute key="life leech" value="3" />
+			<attribute key="life leech" value="4" />
 		</attribute>
 		<attribute key="weight" value="10500" />
 		<attribute key="script" value="moveevent">
@@ -84743,7 +84743,7 @@
 		<attribute key="mantra" value="13" />
 		<attribute key="skillfist" value="3" />
 		<attribute key="imbuementslot" value="1">
-			<attribute key="life leech" value="3" />
+			<attribute key="life leech" value="4" />
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="greater flurry of blows" value="critical extra damage">
@@ -84768,7 +84768,7 @@
 		<attribute key="absorbpercentfire" value="6" />
 		<attribute key="weight" value="9000" />
 		<attribute key="imbuementslot" value="2">
-			<attribute key="life leech" value="3" />
+			<attribute key="life leech" value="4" />
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="flurry of blows" value="life leech">
@@ -84806,7 +84806,7 @@
 		<attribute key="absorbpercentenergy" value="-5" />
 		<attribute key="weight" value="2900" />
 		<attribute key="imbuementslot" value="2">
-			<attribute key="life leech" value="3" />
+			<attribute key="life leech" value="4" />
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="flurry of blows" value="life leech">
@@ -84859,7 +84859,7 @@
 		<attribute key="absorbpercentice" value="4" />
 		<attribute key="weight" value="2400" />
 		<attribute key="imbuementslot" value="1">
-			<attribute key="life leech" value="3" />
+			<attribute key="life leech" value="4" />
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="forceful uppercut" value="cooldown">
@@ -84901,10 +84901,10 @@
 		<attribute key="skillfist" value="2" />
 		<attribute key="weight" value="3800" />
 		<attribute key="imbuementslot" value="2">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="150" />
@@ -84924,10 +84924,10 @@
 		<attribute key="skillfist" value="1" />
 		<attribute key="weight" value="1800" />
 		<attribute key="imbuementslot" value="1">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="greater tiger clash" value="base">
@@ -84952,10 +84952,10 @@
 		<attribute key="skillfist" value="1" />
 		<attribute key="weight" value="5900" />
 		<attribute key="imbuementslot" value="1">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="greater tiger clash" value="base">
@@ -84979,10 +84979,10 @@
 		<attribute key="defense" value="15" />
 		<attribute key="skillfist" value="1" />
 		<attribute key="imbuementslot" value="1">
-			<attribute key="life leech" value="3" />
-			<attribute key="mana leech" value="3" />
-			<attribute key="critical hit" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="life leech" value="4" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="critical hit" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="greater tiger clash" value="base">
@@ -85005,8 +85005,8 @@
 		<attribute key="skillfist" value="1" />
 		<attribute key="weight" value="1000" />
 		<attribute key="imbuementslot" value="1">
-			<attribute key="mana leech" value="3" />
-			<attribute key="skillboost fist" value="3" />
+			<attribute key="mana leech" value="4" />
+			<attribute key="skillboost fist" value="4" />
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="chained penance" value="base">
@@ -85044,7 +85044,7 @@
 		<attribute key="absorbpercentphysical" value="2" />
 		<attribute key="weight" value="10000" />
 		<attribute key="imbuementslot" value="1">
-			<attribute key="life leech" value="3" />
+			<attribute key="life leech" value="4" />
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="150" />
