@@ -1550,7 +1550,7 @@ void Game::playerMoveCreature(const std::shared_ptr<Player> &player, const std::
 		if (ret != RETURNVALUE_NOERROR) {
 			player->sendCancelMessage(ret);
 		}
-		player->setLastPosition(player->getPosition());
+		
 	});
 }
 
