@@ -8811,66 +8811,40 @@ void Game::playerCyclopediaCharacterInfo(const std::shared_ptr<Player> &player, 
 	}
 }
 
-std::string Game::generateHighscoreQuery(
-	const std::string &categoryName,
-	uint32_t page,
-	uint8_t entriesPerPage,
-	uint32_t vocation,
-	uint32_t playerGUID /*= 0*/
-) {
-	uint32_t startPage = (page - 1) * static_cast<uint32_t>(entriesPerPage);
+std::string Game::generateHighscoreQueryForEntries(const std::string &categoryName, uint32_t page, uint8_t entriesPerPage, uint32_t vocation) {
+	std::ostringstream query;
+	uint32_t startPage = (static_cast<uint32_t>(page - 1) * static_cast<uint32_t>(entriesPerPage));
 	uint32_t endPage = startPage + static_cast<uint32_t>(entriesPerPage);
-	std::string entriesStr = std::to_string(entriesPerPage);
-
-	if (categoryName.empty()) {
-		g_logger().error("Category name cannot be empty.");
-		return "";
-	}
-
-	std::string query = fmt::format(
-		"SELECT `id`, `name`, `level`, `vocation`, `points`, `rank`, `rn` AS `entries`, "
-	);
-
-	if (playerGUID != 0) {
-		query += fmt::format("(@ourRow DIV {0}) + 1 AS `page` FROM (", entriesStr);
-	} else {
-		query += fmt::format("{} AS `page` FROM (", page);
-	}
-
-	query += fmt::format(
-		"SELECT `id`, `name`, `level`, `vocation`, `{}` AS `points`, "
-		"@curRank := IF(@prevRank = `{}`, @curRank, IF(@prevRank := `{}`, @curRank + 1, @curRank + 1)) AS `rank`, "
-		"(@row := @row + 1) AS `rn`",
-		categoryName, categoryName, categoryName
-	);
-
-	if (playerGUID != 0) {
-		query += fmt::format(", @ourRow := IF(`id` = {}, @row - 1, @ourRow) AS `rw`", playerGUID);
-	}
-
-	query += fmt::format(
-		" FROM (SELECT `id`, `name`, `level`, `vocation`, `{}` FROM `players` `p`, "
-		"(SELECT @curRank := 0, @prevRank := NULL, @row := 0, @ourRow := 0) `r` "
-		"WHERE `group_id` < {} ORDER BY `{}` DESC) `t`",
-		categoryName, static_cast<int>(GROUP_TYPE_GAMEMASTER), categoryName
-	);
+	
+	query << "SELECT *, @row AS `entries`, " << page << " AS `page` FROM (SELECT *, (@row := @row + 1) AS `rn` FROM (SELECT `id`, `name`, `level`, `vocation`, `"
+		  << categoryName << "` AS `points`, @curRank := IF(@prevRank = `" << categoryName << "`, @curRank, IF(@prevRank := `" << categoryName
+		  << "`, @curRank + 1, @curRank + 1)) AS `rank` FROM `players` `p`, (SELECT @curRank := 0, @prevRank := NULL, @row := 0) `r` WHERE `group_id` < "
+		  << static_cast<int>(GROUP_TYPE_GAMEMASTER) << " ORDER BY `" << categoryName << "` DESC) `t`";
 
 	if (vocation != 0xFFFFFFFF) {
-		query += generateVocationConditionHighscore(vocation);
+		query << generateVocationConditionHighscore(vocation);
 	}
 
-	query += ") `T` WHERE ";
+	query << ") `T` WHERE `rn` > " << startPage << " AND `rn` <= " << endPage;
 
-	if (playerGUID != 0) {
-		query += fmt::format(
-			"`rn` > ((@ourRow DIV {0}) * {0}) AND `rn` <= (((@ourRow DIV {0}) * {0}) + {0})",
-			entriesStr
-		);
-	} else {
-		query += fmt::format("`rn` > {} AND `rn` <= {}", startPage, endPage);
+	return query.str();
+}
+
+std::string Game::generateHighscoreQueryForOurRank(const std::string &categoryName, uint8_t entriesPerPage, uint32_t playerGUID, uint32_t vocation) {
+	std::ostringstream query;
+	std::string entriesStr = std::to_string(entriesPerPage);
+
+	query << "SELECT *, @row AS `entries`, (@ourRow DIV " << entriesStr << ") + 1 AS `page` FROM (SELECT *, (@row := @row + 1) AS `rn`, @ourRow := IF(`id` = "
+		  << playerGUID << ", @row - 1, @ourRow) AS `rw` FROM (SELECT `id`, `name`, `level`, `vocation`, `" << categoryName << "` AS `points`, @curRank := IF(@prevRank = `"
+		  << categoryName << "`, @curRank, IF(@prevRank := `" << categoryName << "`, @curRank + 1, @curRank + 1)) AS `rank` FROM `players` `p`, (SELECT @curRank := 0, @prevRank := NULL, @row := 0, @ourRow := 0) `r` WHERE `group_id` < "
+		  << static_cast<int>(GROUP_TYPE_GAMEMASTER) << " ORDER BY `" << categoryName << "` DESC) `t`";
+
+	if (vocation != 0xFFFFFFFF) {
+		query << generateVocationConditionHighscore(vocation);
 	}
+	query << ") `T` WHERE `rn` > ((@ourRow DIV " << entriesStr << ") * " << entriesStr << ") AND `rn` <= (((@ourRow DIV " << entriesStr << ") * " << entriesStr << ") + " << entriesStr << ")";
 
-	return query;
+	return query.str();
 }
 
 std::string Game::generateVocationConditionHighscore(uint32_t vocation) {
@@ -8955,7 +8929,7 @@ std::string Game::generateHighscoreOrGetCachedQueryForEntries(const std::string 
 		}
 	}
 
-	std::string newQuery = generateHighscoreQuery(categoryName, page, entriesPerPage, vocation);
+	std::string newQuery = generateHighscoreQueryForEntries(categoryName, page, entriesPerPage, vocation);
 	cacheQueryHighscore(cacheKey, newQuery, page, entriesPerPage);
 
 	return newQuery;
@@ -8973,7 +8947,7 @@ std::string Game::generateHighscoreOrGetCachedQueryForOurRank(const std::string 
 		}
 	}
 
-	std::string newQuery = generateHighscoreQuery(categoryName, 0, entriesPerPage, vocation, playerGUID);
+	std::string newQuery = generateHighscoreQueryForOurRank(categoryName, entriesPerPage, playerGUID, vocation);
 	cacheQueryHighscore(cacheKey, newQuery, entriesPerPage, entriesPerPage);
 
 	return newQuery;
