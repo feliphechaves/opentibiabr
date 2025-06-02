@@ -114,6 +114,10 @@
 		<attribute key="primarytype" value="dolls and bears"/>
 		<attribute key="weight" value="1250"/>
 	</item>
+	<item id="51318" article="an" name="addon doll">
+		<attribute key="primarytype" value="dolls and bears"/>
+		<attribute key="weight" value="1250"/>
+	</item>
 	<item id="124" article="an" name="easily inflammable sulphur">
 		<attribute key="primarytype" value="quest items"/>
 		<attribute key="weight" value="50"/>
@@ -76045,7 +76049,7 @@
 		<attribute key="slotType" value="two-handed"/>
 		<attribute key="elementenergy" value="50"/>
 		<attribute key="criticalhitdamage" value="1200"/>
-		<attribute key="criticalhitdamage" value="1000"/>
+		<attribute key="criticalhitchance" value="1000"/>
 		<attribute key="attack" value="8"/>
 		<attribute key="defense" value="35"/>
 		<attribute key="skillsword" value="5"/>
@@ -83717,7 +83721,7 @@
 		<attribute key="showattributes" value="1" />
 		<attribute key="showduration" value="1" />
 		<attribute key="duration" value="10800" />
-		<attribute key="decayTo" value="39188" />
+		<attribute key="decayTo" value="50149" />
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="400" />
 			<attribute key="slot" value="ring" />

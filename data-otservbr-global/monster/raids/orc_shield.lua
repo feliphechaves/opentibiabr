@@ -98,6 +98,7 @@ monster.loot = {
 	{ id = 3049, chance = 80 }, -- stealth ring
 	{ id = 3437, chance = 5000 }, -- amazon shield
 	{ name = "gold token", chance = 1650, maxCount = 10 },
+	{ name = "addon doll", chance = 100 },
 }
 
 monster.attacks = {

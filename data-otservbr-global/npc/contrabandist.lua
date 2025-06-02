@@ -108,6 +108,7 @@ npcConfig.shop = {
 	{ itemName = "alicorn headguard", clientId = 39149, sell = 10000000 },
 	{ itemName = "arcanomancer regalia", clientId = 39151, sell = 10000000 },
 	{ itemName = "arboreal crown", clientId = 39153, sell = 10000000 },
+	{ itemName = "ethereal coned hat", clientId = 50188, sell = 5000000 },
 	{ itemName = "antler-horn helmet", clientId = 40588, sell = 10000000 },
 	{ itemName = "arcane dragon robe", clientId = 44623, sell = 10000000 },
 	{ itemName = "chain bolter", clientId = 8022, sell = 10000000 },
@@ -290,6 +291,28 @@ npcConfig.shop = {
 	{ itemname = "jungle quiver", clientid = 35524, sell = 10000000 },
 	{ itemname = "eldritch quiver", clientid = 36666, sell = 10000000 },
 	{ itemname = "naga quiver", clientid = 39160, sell = 10000000 },
+	
+
+	{ itemName = "charged arcanomancer sigil", clientId = 39183, sell = 5000000 },
+	{ itemName = "charged arcanomancer sigil", clientId = 39184, sell = 5000000 },
+	{ itemName = "arcanomancer sigil", clientId = 39185, sell = 5000000 },
+
+	{ itemName = "charged alicorn ring", clientId = 39180, sell = 5000000 },
+	{ itemName = "charged alicorn ring", clientId = 39181, sell = 5000000 },
+	{ itemName = "alicorn ring", clientId = 39182, sell = 5000000 },
+
+	{ itemName = "charged spiritthorn ring", clientId = 39177, sell = 5000000 },
+	{ itemName = "charged spiritthorn ring", clientId = 39178, sell = 5000000 },
+	{ itemName = "spiritthorn ring", clientId = 39179, sell = 5000000 },
+
+	{ itemName = "charged arboreal ring", clientId = 39186, sell = 5000000 },
+	{ itemName = "charged arboreal ring", clientId = 39187, sell = 5000000 },
+	{ itemName = "arboreal ring", clientId = 39188, sell = 5000000 },
+
+	{ itemName = "charged ethereal ring", clientId = 50147, sell = 5000000 },
+	{ itemName = "charged ethereal ring", clientId = 50148, sell = 5000000 },
+	{ itemName = "ethereal ring", clientId = 50149, sell = 5000000 },
+	
 }
 
 local keywordHandler = KeywordHandler:new()
@@ -322,7 +345,7 @@ end
 local function greetCallback(npc, creature, message)
 	local player = Player(creature)
 	if not player:isVip() then
-		npc:say("Who sent you? I only deal with people on my VIP list. Move along before someone sees us!", TALKTYPE_SAY, false, nil, player:getPosition())
+		npc:say("Quem mandou voce? Eu faco negocio com jogadores VIP. Saia antes que nos vejam conversando!", TALKTYPE_SAY, false, nil, player:getPosition())
 		return false -- Bloqueia a interação
 	end
 	npcHandler:setInteraction(npc, creature)
@@ -340,7 +363,12 @@ local function creatureSayCallback(npc, creature, type, message)
 end
 
 local function onTradeRequest(npc, creature)
-	return true
+	local player = Player(creature)
+	if not player:isVip() then
+		npc:say("Eu faco negocio com jogadores VIP. Sai fora...", TALKTYPE_SAY, false, nil, player:getPosition())
+		return false -- Bloqueia a abertura da janela de trade
+	end
+	return true -- Permite a janela de trade
 end
 
 npcHandler:setMessage(MESSAGE_FAREWELL, "Bye!")

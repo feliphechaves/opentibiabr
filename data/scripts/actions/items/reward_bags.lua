@@ -36,7 +36,7 @@ local rewardBags = {
 		{ id = 39153, name = "arboreal crown" },
 		{ id = 39154, name = "arboreal tome" },
 		{ id = 39186, name = "charged arboreal ring" },
-		{ id = 50149, name = "ethereal ring" },
+		{ id = 50147, name = "charged ethereal ring" },
 		{ id = 50188, name = "ethereal coned hat" },
 	},
 

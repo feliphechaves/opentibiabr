@@ -7227,6 +7227,17 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
 				movable = true,
 			},
+			{
+				icons = {},
+				name = "Addon Doll",
+				price = 5,
+				itemtype = 51318,
+				count = 1,
+				description = "Garante uma outfit completa aleatoria (com addons) que voce ainda nao possui.\nUso unico. Item sera consumido ao usar.",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				state = GameStore.States.STATE_NEW,
+				movable = true,
+			},
 			-- {
 			-- 	icons = {},
 			-- 	name = "Scroll of Transcendence",

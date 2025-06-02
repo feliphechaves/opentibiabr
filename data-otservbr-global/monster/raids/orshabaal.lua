@@ -127,6 +127,7 @@ monster.loot = {
 	{ name = "ultimate health potion", chance = 33333 },
 	{ name = "gold ingot", chance = 6555 },
 	{ name = "gold token", chance = 1555, maxCount = 15 },
+	{ name = "addon doll", chance = 100 },
 }
 
 monster.attacks = {
