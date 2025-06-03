@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Hulking Prehemoth")
 local monster = {}
 
 monster.description = "a hulking prehemoth"
-monster.experience = 12690
+monster.experience = 16497
 monster.outfit = {
 	lookType = 1553,
 	lookHead = 85,

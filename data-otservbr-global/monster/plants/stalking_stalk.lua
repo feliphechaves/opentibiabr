@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Stalking Stalk")
 local monster = {}
 
 monster.description = "a stalking stalk"
-monster.experience = 11569
+monster.experience = 16497
 monster.outfit = {
 	lookType = 1554,
 	lookHead = 85,
