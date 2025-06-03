@@ -6921,7 +6921,7 @@
 		<attribute key="weight" value="80"/>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="ring"/>
-			<attribute key="vocation" value="Knight;true, Paladin;true, Elite Knight, Royal Paladin"/>
+			<attribute key="vocation" value="Knight;true, Paladin;true, Elite Knight, Royal Paladin, Monk;true, Exalted Monk"/>
 		</attribute>
 	</item>
 	<item id="3052" article="a" name="life ring">
