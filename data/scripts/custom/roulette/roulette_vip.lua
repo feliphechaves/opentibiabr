@@ -18,17 +18,6 @@ local config = {
 		rouletteStorage = 48551, -- required storage to avoid player abuse (if they logout/die before roulette finishes.. they can spin again for free)
 	},
 	prizePool = {
-		--[[
-        {itemId = 3043, count = {1, 10},   chance = 10000}, -- {itemId = itemid, count = {min, max}, chance = chance/10000} (crystal coins)
-        {itemId = 3382, count = {1, 1},    chance = 9000 }, -- crown legs
-        {itemId = 3079, count = {1, 1},    chance = 8500 }, -- boots of haste
-        {itemId = 3392, count = {1, 1},    chance = 7500 }, -- royal helmet
-        {itemId = 3155, count = {1, 70},   chance = 6500 }, -- sudden death rune -- runes are given as stackable items, even tho they have 'charges'
-        {itemId = 25718, count = {50, 100}, chance = 5000 }, -- temple teleport scroll     -- items with 'charges' and have 'showCharges' in items.xml will be given charges
-        {itemId = 5957, count = {1, 3},    chance = 4000 }, -- roulette token
-        {itemId = 3364, count = {1, 1},    chance = 3000 }, -- golden legs
-        {itemId = 3366, count = {1, 1},    chance = 1500 }, -- magic plate armor
-        {itemId = 3555, count = {1, 1},    chance = 500  },  -- golden boots]]
 
 		{ itemId = 22721, count = { 1, 25 }, chance = 3500 }, -- gold token
 		{ itemId = 3423, count = { 1, 1 }, chance = 2500 }, -- blessed shield
@@ -156,8 +145,8 @@ end
 
 local function chanceNewReward()
 	local newItemInfo = { itemId = 0, count = 0 }
-
 	local rewardTable = {}
+
 	while #rewardTable < 1 do
 		for i = 1, #config.prizePool do
 			if config.prizePool[i].chance >= math.random(10000) then
@@ -167,11 +156,16 @@ local function chanceNewReward()
 	end
 
 	local rand = math.random(#rewardTable)
-	newItemInfo.itemId = config.prizePool[rewardTable[rand]].itemId
-	newItemInfo.count = math.random(config.prizePool[rewardTable[rand]].count[1], config.prizePool[rewardTable[rand]].count[2])
+	local prize = config.prizePool[rewardTable[rand]]
+	newItemInfo.itemId = prize.itemId
 
-	chancedItems[#chancedItems + 1] = config.prizePool[rewardTable[rand]].chance
+	if prize.count then
+		newItemInfo.count = math.random(prize.count[1], prize.count[2])
+	else
+		newItemInfo.count = 1
+	end
 
+	chancedItems[#chancedItems + 1] = prize.chance
 	return newItemInfo
 end
 
