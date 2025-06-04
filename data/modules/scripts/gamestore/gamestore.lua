@@ -10,7 +10,7 @@ dofile(CORE_DIRECTORY .. "/modules/scripts/gamestore/init.lua")
 -- Config
 
 HomeBanners = {
-	images = { "home/banner_armouredarcher.png", "home/banner_podiumoftenacity.png" },
+	images = { "home/banner_aiolosot.png", "home/banner_addondoll.png", "home/banner_relics.png" },
 	delay = 10,
 }
 
