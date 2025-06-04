@@ -81738,7 +81738,7 @@
 		<attribute key="weight" value="500"/>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="220"/>
-			<attribute key="slot" value="necklace"/>
+			<attribute key="slot" value="ring"/>
 		</attribute>
 	</item>
 	<item id="65035" article="a" name="boosted exercise wraps">
@@ -84667,6 +84667,12 @@
 		<attribute key="weight" value="12800" />
 		<attribute key="imbuementslot" value="2">
 			<attribute key="life leech" value="4" />
+			<attribute key="elemental protection earth" value="4"/>
+			<attribute key="elemental protection fire" value="4"/>
+			<attribute key="elemental protection death" value="4"/>
+			<attribute key="elemental protection ice" value="4"/>
+			<attribute key="elemental protection energy" value="4"/>
+			<attribute key="elemental protection holy" value="4"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="spirit mend" value="base">
@@ -84773,6 +84779,12 @@
 		<attribute key="weight" value="9000" />
 		<attribute key="imbuementslot" value="2">
 			<attribute key="life leech" value="4" />
+			<attribute key="elemental protection earth" value="4"/>
+			<attribute key="elemental protection fire" value="4"/>
+			<attribute key="elemental protection death" value="4"/>
+			<attribute key="elemental protection ice" value="4"/>
+			<attribute key="elemental protection energy" value="4"/>
+			<attribute key="elemental protection holy" value="4"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="flurry of blows" value="life leech">
@@ -84811,6 +84823,12 @@
 		<attribute key="weight" value="2900" />
 		<attribute key="imbuementslot" value="2">
 			<attribute key="life leech" value="4" />
+			<attribute key="elemental protection earth" value="4"/>
+			<attribute key="elemental protection fire" value="4"/>
+			<attribute key="elemental protection death" value="4"/>
+			<attribute key="elemental protection ice" value="4"/>
+			<attribute key="elemental protection energy" value="4"/>
+			<attribute key="elemental protection holy" value="4"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="flurry of blows" value="life leech">

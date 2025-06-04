@@ -3,7 +3,7 @@ local config = {
 		name = "Ferumbras Mortal Shell",
 		position = Position(33392, 31473, 14),
 	},
-	timeToFightAgain = 60 * 60 * 24 * 2,
+	timeToFightAgain = 60 * 60 * 24 * 1,
 	playerPositions = {
 		{ pos = Position(33270, 31477, 14), teleport = Position(33392, 31479, 14) },
 		{ pos = Position(33269, 31477, 14), teleport = Position(33392, 31479, 14) },

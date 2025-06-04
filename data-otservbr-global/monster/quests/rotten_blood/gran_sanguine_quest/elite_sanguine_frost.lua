@@ -94,6 +94,9 @@ monster.loot = {
 	{ name = "magic plate armor", chance = 2000, maxCount = 2 },
 	{ name = "tainted heart", chance = 2, maxCount = 5 },
 	{ name = "darklight heart", chance = 2, maxCount = 5 },
+	{ id = 34109, chance = 1},
+	{ id = 39546, chance = 1},
+	{ id = 43895, chance = 1},
 }
 
 monster.attacks = {

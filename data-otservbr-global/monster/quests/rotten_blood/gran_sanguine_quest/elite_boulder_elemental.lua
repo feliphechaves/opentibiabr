@@ -89,6 +89,9 @@ monster.loot = {
 	{ name = "lump of earth", chance = 20460, maxCount = 4 },
 	{ name = "clay lump", chance = 570, maxCount = 4 },
 	{ id = 12600, chance = 470, maxCount = 4 }, -- coal
+	{ id = 34109, chance = 1},
+	{ id = 39546, chance = 1},
+	{ id = 43895, chance = 1},
 }
 
 monster.attacks = {
