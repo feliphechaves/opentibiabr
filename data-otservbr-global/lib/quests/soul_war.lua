@@ -293,7 +293,7 @@ SoulWarQuest = {
 				end
 			end,
 			exit = Position(33621, 31427, 10),
-			timeToFightAgain = 20 * 60 * 60, -- 20 hours
+			timeToFightAgain = 12 * 60 * 60, -- 20 hours
 		},
 		goshnarsMalice = {
 			boss = {
@@ -316,7 +316,7 @@ SoulWarQuest = {
 				addEvent(SpawnSoulCage, 23000)
 			end,
 			exit = Position(33621, 31427, 10),
-			timeToFightAgain = 20 * 60 * 60, -- 20 hours
+			timeToFightAgain = 12 * 60 * 60, -- 20 hours
 		},
 		goshnarsGreed = {
 			boss = {
@@ -335,14 +335,14 @@ SoulWarQuest = {
 				from = Position(33737, 31658, 14),
 				to = Position(33755, 31673, 14),
 			},
-			timeToFightAgain = 20 * 60 * 60, -- 20 hours
+			timeToFightAgain = 12 * 60 * 60, -- 20 hours
 			onUseExtra = function()
 				CreateGoshnarsGreedMonster("Greedbeast", Position(33744, 31666, 14))
 				CreateGoshnarsGreedMonster("Soulsnatcher", Position(33747, 31668, 14))
 				CreateGoshnarsGreedMonster("Weak Soul", Position(33750, 31666, 14))
 			end,
 			exit = Position(33621, 31427, 10),
-			timeToFightAgain = 20 * 60 * 60, -- 20 hours
+			timeToFightAgain = 12 * 60 * 60, -- 20 hours
 		},
 		goshnarsHatred = {
 			boss = {
@@ -365,7 +365,7 @@ SoulWarQuest = {
 				to = Position(33751, 31606, 14),
 			},
 			exit = Position(33621, 31427, 10),
-			timeToFightAgain = 20 * 60 * 60, -- 20 hours
+			timeToFightAgain = 12 * 60 * 60, -- 20 hours
 			onUseExtra = function(player)
 				SoulWarQuest.kvBurning:set("time", 180)
 				logger.trace("Goshnar's Hatred burning change form time set to: {}", 180)
@@ -393,7 +393,7 @@ SoulWarQuest = {
 				to = Position(33864, 31874, 7),
 			},
 			exit = Position(33621, 31427, 10),
-			timeToFightAgain = 20 * 60 * 60, -- 20 hours
+			timeToFightAgain = 12 * 60 * 60, -- 20 hours
 			onUseExtra = function(player)
 				SoulWarQuest.kvSoulWar:remove("greedy-maw-action")
 				SoulWarQuest.kvSoulWar:remove("goshnars-cruelty-defense-drain")
@@ -421,7 +421,7 @@ SoulWarQuest = {
 				to = Position(33719, 31642, 14),
 			},
 			exit = Position(33621, 31427, 10),
-			timeToFightAgain = 20 * 60 * 60, -- 72 hours
+			timeToFightAgain = 12 * 60 * 60, -- 72 hours
 			onUseExtra = function(player)
 				player:resetGoshnarSymbolTormentCounter()
 				SoulWarQuest.kvSoulWar:remove("cleansed-sanity-action")

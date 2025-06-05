@@ -3,7 +3,7 @@ local config = {
 		teleportPosition = { x = 1494, y = 1076, z = 9 },
 		bossName = "Sugar Daddy",
 		requiredLevel = 1000,
-		timeToFightAgain = 20, -- In hour
+		timeToFightAgain = 12, -- In hour
 		timeToDefeat = 10, -- In minutes
 		destination = Position(1469, 1115, 9),
 		bossPosition = Position(1468, 1100, 9),

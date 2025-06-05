@@ -3,7 +3,7 @@ local config = {
 		name = "Goshnars Megalomania",
 		position = Position(33710, 31634, 14),
 	},
-	timeToFightAgain = 20 * 60 * 60,
+	timeToFightAgain = 12 * 60 * 60,
 	playerPositions = {
 		{ pos = Position(33676, 31634, 14), teleport = Position(33710, 31639, 14) },
 		{ pos = Position(33677, 31634, 14), teleport = Position(33710, 31639, 14) },

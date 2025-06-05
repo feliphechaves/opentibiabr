@@ -3,7 +3,7 @@ local config = {
 		name = "melting frozen horror",
 		position = Position(32269, 31091, 14),
 	},
-	timeToFightAgain = 20 * 60 * 60,
+	timeToFightAgain = 12 * 60 * 60,
 	playerPositions = {
 		{ pos = Position(32302, 31088, 14), teleport = Position(32271, 31097, 14) },
 		{ pos = Position(32302, 31089, 14), teleport = Position(32271, 31097, 14) },

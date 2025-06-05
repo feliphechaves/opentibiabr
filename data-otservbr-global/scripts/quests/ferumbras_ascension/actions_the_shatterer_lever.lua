@@ -3,7 +3,7 @@ local config = {
 		name = "The Shatterer",
 		position = Position(33400, 32415, 14),
 	},
-	timeToFightAgain = 24 * 60 * 60,
+	timeToFightAgain = 12 * 60 * 60,
 	playerPositions = {
 		{ pos = Position(33403, 32465, 13), teleport = Position(33398, 32414, 14) },
 		{ pos = Position(33404, 32465, 13), teleport = Position(33398, 32414, 14) },

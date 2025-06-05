@@ -3,7 +3,7 @@ local config = {
 		name = "The Monster",
 		position = Position(33837, 32591, 12),
 	},
-	timeToFightAgain = 20 * 60 * 60,
+	timeToFightAgain = 12 * 60 * 60,
 	playerPositions = {
 		{ pos = Position(33812, 32584, 12), teleport = Position(33831, 32591, 12) },
 		{ pos = Position(33811, 32584, 12), teleport = Position(33831, 32591, 12) },

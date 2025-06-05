@@ -30,7 +30,7 @@ local config = {
 		name = "Lady Tenebris",
 		position = Position(32912, 31599, 14),
 	},
-	timeToFightAgain = 20 * 60 * 60,
+	timeToFightAgain = 12 * 60 * 60,
 	playerPositions = {
 		{ pos = Position(32902, 31627, 14), teleport = Position(32911, 31603, 14) },
 		{ pos = Position(32902, 31626, 14), teleport = Position(32911, 31603, 14) },

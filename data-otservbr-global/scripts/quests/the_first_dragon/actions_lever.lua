@@ -3,7 +3,7 @@ local config = {
 		name = "The First Dragon",
 		position = Position(33617, 31021, 14),
 	},
-	timeToFightAgain = 20 * 60 * 60,
+	timeToFightAgain = 12 * 60 * 60,
 	playerPositions = {
 		{ pos = Position(33583, 30993, 14), teleport = Position(33617, 31029, 14) },
 		{ pos = Position(33582, 30993, 14), teleport = Position(33617, 31029, 14) },
