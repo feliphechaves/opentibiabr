@@ -86,6 +86,7 @@ monster.loot = {
 	{ id = 3318, chance = 770 }, -- knight axe
 	{ id = 7413, chance = 390 }, -- titan axe
 	{ id = 7401, chance = 520 }, -- minotaur trophy
+	{ name = "gold token", maxCount = 3, chance = 5000 },
 }
 
 monster.attacks = {

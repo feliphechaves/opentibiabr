@@ -365,12 +365,7 @@ SoulWarQuest = {
 				to = Position(33751, 31606, 14),
 			},
 			exit = Position(33621, 31427, 10),
-			timeToFightAgain = 12 * 60 * 60, -- 20 hours
-			onUseExtra = function(player)
-				SoulWarQuest.kvBurning:set("time", 180)
-				logger.trace("Goshnar's Hatred burning change form time set to: {}", 180)
-				player:resetGoshnarSymbolTormentCounter()
-			end,
+			timeToFightAgain = 12 * 60 * 60,
 		},
 		goshnarsCruelty = {
 			boss = {

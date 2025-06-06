@@ -14278,6 +14278,9 @@
 	<monster centerx="1251" centery="986" centerz="10" radius="1">
 		<monster name="Gnomevil" x="0" y="1" z="10" spawntime="60" direction="2" />
 	</monster>
+	<monster centerx="1255" centery="986" centerz="10" radius="1">
+		<monster name="Ancient Spawn of Morgathla" x="0" y="1" z="10" spawntime="60" direction="2" />
+	</monster>
 	<monster centerx="1258" centery="986" centerz="10" radius="1">
 		<monster name="Abyssador" x="0" y="1" z="10" spawntime="60" direction="2" />
 	</monster>

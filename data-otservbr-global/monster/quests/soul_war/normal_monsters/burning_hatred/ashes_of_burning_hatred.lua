@@ -28,7 +28,7 @@ monster.strategiesTarget = {
 }
 
 monster.events = {
-	"BurningChangeForm",
+	--"BurningChangeForm",
 }
 
 monster.flags = {
