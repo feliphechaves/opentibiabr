@@ -90,4 +90,16 @@
 		<colors colordark="#235c00" colorlight="#2d7400" />
 		<details displaypriority="6" isseasonal="0" specialevent="0" />
 	</event>
+	<event name="Double XP" startdate="06/07/2025" enddate="06/07/2025" script="" >
+		<ingame exprate="200" lootrate="100" bosslootrate="100" spawnrate="100" skillrate="100" />
+		<description description="Double Experience" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
+	<event name="Double Skill" startdate="06/08/2025" enddate="06/08/2025" script="" >
+		<ingame exprate="100" lootrate="100" bosslootrate="100" spawnrate="100" skillrate="200" />
+		<description description="Double Skill" />
+		<colors colordark="#235c00" colorlight="#2d7400" />
+		<details displaypriority="6" isseasonal="0" specialevent="0" />
+	</event>
 </events>
