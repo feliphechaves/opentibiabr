@@ -619,6 +619,14 @@ void Creature::onDeath() {
 		);
 	}
 
+	if (thisPlayer) {
+    	const auto& party = thisPlayer->getParty();
+		if (party) {
+			party->leaveParty(thisPlayer, /*forceRemove=*/true);
+		}
+	}
+
+
 	bool droppedCorpse = dropCorpse(lastHitCreature, mostDamageCreature, lastHitUnjustified, mostDamageUnjustified);
 	death(lastHitCreature);
 
