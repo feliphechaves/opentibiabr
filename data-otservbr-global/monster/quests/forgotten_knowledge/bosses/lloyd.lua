@@ -14,8 +14,8 @@ monster.outfit = {
 }
 
 monster.events = {
-	"ForgottenKnowledgeBossDeath",
-	"LloydPrepareDeath",
+	--"ForgottenKnowledgeBossDeath",
+	--"LloydPrepareDeath",
 }
 
 monster.bosstiary = {
@@ -23,8 +23,8 @@ monster.bosstiary = {
 	bossRace = RARITY_ARCHFOE,
 }
 
-monster.health = 64000
-monster.maxHealth = 64000
+monster.health = 256000
+monster.maxHealth = 256000
 monster.race = "venom"
 monster.corpse = 24927
 monster.speed = 200
