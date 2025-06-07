@@ -186,6 +186,8 @@ end
 
 LootShopConfigTable = {
 	["creature products"] = {
+		{ itemName = "broken mitmah chestplate", clientId = 44727, sell = 85000 },
+		{ itemName = "splintered mitmah gem", clientId = 44728, sell = 225000 },
 		{ itemName = "demonic core essence", clientId = 49909, sell = 2250 },
 		{ itemName = "gorger antlers", clientId = 50059, sell = 2250 },
 		{ itemName = "mummified demon finger", clientId = 49908, sell = 2250 },

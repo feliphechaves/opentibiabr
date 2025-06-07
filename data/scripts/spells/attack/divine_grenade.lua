@@ -3,10 +3,6 @@ combatGrenade:setParameter(COMBAT_PARAM_TYPE, COMBAT_HOLYDAMAGE)
 combatGrenade:setArea(createCombatArea(AREA_CIRCLE2X2))
 combatGrenade:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_HOLYDAMAGE)
 
-local function adjustValues(min, max)
-	return min * 2, max * 2
-end
-
 function onGetFormulaValues(player, level, maglevel)
 	local min = (level / 5) + (maglevel * 4)
 	local max = (level / 5) + (maglevel * 6)
@@ -22,13 +18,7 @@ function onGetFormulaValues(player, level, maglevel)
 	min = min * multiplier
 	max = max * multiplier
 
-	local weapon = player:getSlotItem(CONST_SLOT_LEFT)
-	if weapon and weapon:getId() == 47371 then
-		min = min * 1.04
-		max = max * 1.04
-	end
-
-	return adjustValues(-min, -max)
+	return -min * 2, -max * 2
 end
 
 combatGrenade:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")

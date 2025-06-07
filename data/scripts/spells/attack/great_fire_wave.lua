@@ -5,44 +5,18 @@ combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_HITBYFIRE)
 local area = createCombatArea(AREA_WAVE7, AREADIAGONAL_WAVE7)
 combat:setArea(area)
 
-local spell = Spell("instant")
-
-local function adjustValues(min, max)
-	return min * 2, max * 2
+function onGetFormulaValues(player, level, maglevel)
+	local min = (level / 5) + (maglevel * 2.8) + 16
+	local max = (level / 5) + (maglevel * 4.4) + 28 -- TODO: Formulas (TibiaWiki says ~Strong Flame Strike but we need more acurracy)
+	return -min * 2, -max * 2
 end
 
+combat:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
+
+local spell = Spell("instant")
+
 function spell.onCastSpell(creature, var)
-	local weapon = creature:getSlotItem(CONST_SLOT_LEFT)
-	if weapon and weapon:getId() == 43882 then -- CHECK SANGUINE COIL
-		function onGetFormulaValues(player, level, maglevel)
-			local min = (level / 5) + (maglevel * 3.5) + 26
-			local max = (level / 5) + (maglevel * 4.8) + 38
-			return adjustValues(-min, -max)
-		end
-	elseif weapon and weapon:getId() == 43883 then -- CHECK GRAND SANGUINE COIL
-		function onGetFormulaValues(player, level, maglevel)
-			local min = (level / 5) + (maglevel * 4.1) + 36
-			local max = (level / 5) + (maglevel * 5.3) + 48
-			return adjustValues(-min, -max)
-		end
-	else
-		function onGetFormulaValues(player, level, maglevel)
-			local min = (level / 5) + (maglevel * 2.8) + 16
-			local max = (level / 5) + (maglevel * 4.4) + 28
-			return adjustValues(-min, -max)
-		end
-	end
-	combat:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
-	-- CHECK SANGUINE BOOTS
-	local boots = creature:getSlotItem(CONST_SLOT_FEET)
-	if boots and boots:getId() == 43884 then
-		creature:setSkillLevel(8, creature:getSkillLevel(8) + 800)
-		combat:execute(creature, var)
-		creature:setSkillLevel(8, creature:getSkillLevel(8) - 800)
-	else
-		combat:execute(creature, var)
-	end
-	return true
+	return combat:execute(creature, var)
 end
 
 spell:group("attack")

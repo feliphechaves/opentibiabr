@@ -82158,6 +82158,9 @@
 			<attribute key="divine caldera" value="base">
 				<attribute key="value" value="8"/>
 			</attribute>
+			<attribute key="divine grenade" value="base">
+				<attribute key="value" value="8"/>
+			</attribute>
 		</attribute>
 		<attribute key="slotType" value="two-handed"/>
 		<attribute key="script" value="moveevent;weapon">
@@ -82187,6 +82190,9 @@
 			<attribute key="skillboost distance" value="4"/>
 		</attribute>
 		<attribute key="augments" value="1">
+			<attribute key="divine grenade" value="base">
+				<attribute key="value" value="8"/>
+			</attribute>
 			<attribute key="divine caldera" value="base">
 				<attribute key="value" value="8"/>
 			</attribute>
@@ -82222,6 +82228,9 @@
 			<attribute key="fierce berserk" value="base">
 				<attribute key="value" value="8"/>
 			</attribute>
+			<attribute key="executioner's throw" value="base">
+				<attribute key="value" value="8"/>
+			</attribute>
 		</attribute>
 		<attribute key="slotType" value="two-handed"/>
 		<attribute key="script" value="moveevent;weapon">
@@ -82247,6 +82256,9 @@
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="fierce berserk" value="base">
+				<attribute key="value" value="8"/>
+			</attribute>
+			<attribute key="executioner's throw" value="base">
 				<attribute key="value" value="8"/>
 			</attribute>
 		</attribute>
@@ -82281,6 +82293,9 @@
 			<attribute key="fierce berserk" value="base">
 				<attribute key="value" value="8"/>
 			</attribute>
+			<attribute key="executioner's throw" value="base">
+				<attribute key="value" value="8"/>
+			</attribute>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="1000"/>
@@ -82308,6 +82323,9 @@
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="fierce berserk" value="base">
+				<attribute key="value" value="8"/>
+			</attribute>
+			<attribute key="executioner's throw" value="base">
 				<attribute key="value" value="8"/>
 			</attribute>
 		</attribute>
@@ -82342,9 +82360,9 @@
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="hell's core" value="base">
-				<attribute key="value" value="6"/>
+				<attribute key="value" value="8"/>
 			</attribute>
-			<attribute key="energy wave" value="base">
+			<attribute key="rage of the skies" value="base">
 				<attribute key="value" value="8"/>
 			</attribute>
 		</attribute>
@@ -82384,9 +82402,9 @@
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="eternal winter" value="base">
-				<attribute key="value" value="6"/>
+				<attribute key="value" value="8"/>
 			</attribute>
-			<attribute key="terra wave" value="base">
+			<attribute key="wrath of nature" value="base">
 				<attribute key="value" value="8"/>
 			</attribute>
 		</attribute>
@@ -82421,6 +82439,9 @@
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="fierce berserk" value="base">
+				<attribute key="value" value="8"/>
+			</attribute>
+			<attribute key="executioner's throw" value="base">
 				<attribute key="value" value="8"/>
 			</attribute>
 		</attribute>
@@ -82506,6 +82527,11 @@
 			<attribute key="mana leech" value="4"/>
 			<attribute key="skillboost shielding" value="4"/>
 			<attribute key="skillboost magic level" value="4"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="energy wave" value="mana leech">
+				<attribute key="value" value="4"/>
+			</attribute>
 		</attribute>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="1000"/>
@@ -82986,9 +83012,13 @@
 			<attribute key="fierce berserk" value="base">
 				<attribute key="value" value="8"/>
 			</attribute>
+			<attribute key="executioner's throw" value="base">
+				<attribute key="value" value="8"/>
+			</attribute>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
 			<attribute key="level" value="1000"/>
+			<attribute key="weaponType" value="sword"/>
 			<attribute key="slot" value="hand"/>
 			<attribute key="unproperly" value="true"/>
 			<attribute key="vocation" value="Knight;true, Elite Knight"/>
@@ -83680,12 +83710,9 @@
 		<attribute key="absorbpercentphysical" value="4" />
 		<attribute key="absorbpercentenergy" value="8" />
 		<attribute key="weight" value="3500" />
-		<attribute key="augments" value="2">
+		<attribute key="augments" value="1">
 			<attribute key="avatar of balance" value="cooldown">
-				<attribute key="value" value="-900" />
-			</attribute>
-			<attribute key="chained penance" value="chain target">
-				<attribute key="value" value="1" />
+				<attribute key="value" value="900000" />
 			</attribute>
 		</attribute>
 		<attribute key="script" value="moveevent">
@@ -84480,12 +84507,12 @@
 			<attribute key="critical hit" value="4" />
 			<attribute key="skillboost fist" value="4" />
 		</attribute>
-		<attribute key="augments" value="2">
-			<attribute key="devastating knockout-" value="critical extra damage">
+		<attribute key="augments" value="1">
+			<attribute key="devastating knockout" value="critical extra damage">
 				<attribute key="value" value="14" />
 			</attribute>
 			<attribute key="devastating knockout" value="cooldown">
-				<attribute key="value" value="-12" />
+				<attribute key="value" value="12" />
 			</attribute>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -84548,6 +84575,9 @@
 		<attribute key="magiclevelpoints" value="3" />
 		<attribute key="augments" value="1">
 			<attribute key="sweeping takedown" value="base">
+				<attribute key="value" value="8" />
+			</attribute>
+			<attribute key="greater flurry of blows" value="base">
 				<attribute key="value" value="8" />
 			</attribute>
 		</attribute>
