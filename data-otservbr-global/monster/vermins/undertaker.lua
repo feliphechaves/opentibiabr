@@ -1,6 +1,8 @@
 local mType = Game.createMonsterType("Undertaker")
 local monster = {}
 
+monster.name = "Undertaker"
+monster.isHazard = true
 monster.description = "an undertaker"
 monster.experience = 16497
 monster.outfit = {

@@ -1,6 +1,8 @@
 local mType = Game.createMonsterType("Shrieking Cry-Stal")
 local monster = {}
 
+monster.name = "Shrieking Cry-Stal"
+monster.isHazard = true
 monster.description = "a shrieking cry-stal"
 monster.experience = 16497
 monster.outfit = {

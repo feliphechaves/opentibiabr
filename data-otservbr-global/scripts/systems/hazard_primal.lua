@@ -96,7 +96,7 @@ function deathEvent.onDeath(creature)
 	local monster = creature:getMonster()
 	if
 		not creature
-		or not monster --[[or not monster:hazard()]]
+		or not monster or not monster:hazard()
 		or not hazard:isInZone(monster:getPosition())
 	then
 		return true
