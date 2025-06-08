@@ -83875,7 +83875,7 @@
 		<attribute key="defense" value="21" />
 		<attribute key="skillfist" value="5" />
 		<attribute key="weight" value="7100" />
-		<attribute key="imbuementslot" value="2">
+		<attribute key="imbuementslot" value="3">
 			<attribute key="life leech" value="4" />
 			<attribute key="mana leech" value="4" />
 			<attribute key="critical hit" value="4" />
@@ -83905,7 +83905,7 @@
 		<attribute key="magiclevelpoints" value="2" />
 		<attribute key="skillfist" value="5" />
 		<attribute key="weight" value="6900" />
-		<attribute key="imbuementslot" value="2">
+		<attribute key="imbuementslot" value="3">
 			<attribute key="life leech" value="4" />
 			<attribute key="mana leech" value="4" />
 			<attribute key="critical hit" value="4" />
@@ -84581,7 +84581,7 @@
 				<attribute key="value" value="8" />
 			</attribute>
 		</attribute>
-		<attribute key="imbuementslot" value="2">
+		<attribute key="imbuementslot" value="3">
 			<attribute key="life leech" value="4" />
 			<attribute key="mana leech" value="4" />
 			<attribute key="critical hit" value="4" />

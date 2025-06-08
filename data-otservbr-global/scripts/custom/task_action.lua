@@ -421,6 +421,7 @@ function sendTaskModalWindow(player)
 		window:addButton("Cancel", cancelCallback)
 		window:addButton("Exit")
 	end
+	window:setDefaultEscapeButton(2)
 	window:sendToPlayer(player)
 end
 
