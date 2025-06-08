@@ -356,6 +356,32 @@ function cancelTaskModalWindow(player, managed)
 	window:sendToPlayer(player)
 end
 
+local function confirmCancelTaskModalWindow(player, storage)
+    local title   = (taskOptions.selectLanguage == 1) and "Cancelar Missão"  or "Cancel Task"
+    local message = (taskOptions.selectLanguage == 1)
+                    and "Tem certeza de que deseja cancelar esta missão?\nTodo o progresso será perdido."
+                    or  "Are you sure you want to cancel this task?\nAll progress will be lost."
+
+    local window = ModalWindow({ title = title, message = message })
+
+    local function doCancel()
+        player:endTask(storage, true)                       -- perde progresso
+        player:setStorageValue(taskOptions.uniqueTaskStorage, -1)
+        cancelTaskModalWindow(player, true)                 -- modal já existente de sucesso
+    end
+
+    if taskOptions.selectLanguage == 1 then
+        window:addButton("Sim",  doCancel)
+        window:addButton("Não",  function() sendTaskModalWindow(player) end)
+    else
+        window:addButton("Yes",  doCancel)
+        window:addButton("No",   function() sendTaskModalWindow(player) end)
+    end
+
+    window:setDefaultEscapeButton(2)
+    window:sendToPlayer(player)
+end
+
 function sendTaskModalWindow(player)
 	local title = taskOptions.selectLanguage == 1 and task_pt_br.title or "Task System"
 	local taskButtonMessage = taskOptions.selectLanguage == 1 and task_pt_br.choiceBoardText or "Choose a task and use the buttons below:"
@@ -405,10 +431,10 @@ function sendTaskModalWindow(player)
 	local function cancelCallback(player, button, choice)
 		local id = choice.id
 		if player:hasStartedTask(temptasks[id]) then
-			cancelTaskModalWindow(player, true)
-			player:endTask(temptasks[id], true)
-			player:setStorageValue(taskOptions.uniqueTaskStorage, -1)
+			-- agora pede confirmação
+			confirmCancelTaskModalWindow(player, temptasks[id])
 		else
+			-- ainda mostra o erro se não puder cancelar
 			cancelTaskModalWindow(player, false)
 		end
 	end

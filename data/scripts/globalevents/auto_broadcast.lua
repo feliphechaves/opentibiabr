@@ -3,7 +3,7 @@ function AutoBroadCast.onThink(interval, lastExecution)
 	local messages = {
 		"[Recompensa Diaria]: Use o comando !reward para receber sua recompensa diaria!",
 		"[Dica]: Use !fps para relogar e limpar o cache do client melhorando o fps.",
-		"[Dica]: Quando estiver caçando sempre deixe a Loot Pouch fechada para evitar lag.",
+		"[Dica]: Quando estiver em uma hunt sempre deixe a Loot Pouch fechada para evitar lag.",
 		"[Silver Tokens]: Use um Silver Token e receba 130 Dusts por 10kk (ou 8kk se for VIP)!",
 		"[Gold Tokens]: Troque Gold Tokens por itens classe 4 com o NPC Goldoken.",
 		"[Imbuements Supreme]: Supreme Imbuements sao mais fortes e duram mais. Eles precisam apenas de Gold Tokens.",
