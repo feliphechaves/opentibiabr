@@ -44,6 +44,7 @@ taskConfiguration = {
 
 	{
 		name = "Minotaur",
+		category = 1,
 		color = 40,
 		total = 5000,
 		type = "once",
@@ -63,6 +64,7 @@ taskConfiguration = {
 
 	{
 		name = "Amazon",
+		category = 1,
 		color = 40,
 		total = 30000,
 		type = "once",
@@ -82,6 +84,7 @@ taskConfiguration = {
 
 	{
 		name = "Dragon Lord",
+		category = 1,
 		color = 40,
 		total = 30000,
 		type = "once",
@@ -100,6 +103,7 @@ taskConfiguration = {
 
 	{
 		name = "Frazzlemaw",
+		category = 1,
 		color = 40,
 		total = 5000,
 		type = "daily",
@@ -122,6 +126,7 @@ taskConfiguration = {
 
 	{
 		name = "Dawnfire Asura",
+		category = 1,
 		color = 40,
 		total = 5000,
 		type = "daily",
@@ -138,6 +143,7 @@ taskConfiguration = {
 
 	{
 		name = "True Dawnfire Asura",
+		category = 1,
 		color = 40,
 		total = 5000,
 		type = "daily",
@@ -156,6 +162,7 @@ taskConfiguration = {
 
 	{
 		name = "Crazed Summer Rearguard",
+		category = 1,
 		color = 40,
 		total = 5000,
 		type = "daily",
@@ -172,6 +179,7 @@ taskConfiguration = {
 
 	{
 		name = "Crazed Winter Vanguard",
+		category = 1,
 		color = 40,
 		total = 5000,
 		type = "daily",
@@ -188,6 +196,7 @@ taskConfiguration = {
 
 	{
 		name = "Falcon Knight",
+		category = 1,
 		color = 40,
 		total = 5000,
 		type = "daily",
@@ -205,6 +214,7 @@ taskConfiguration = {
 
 	{
 		name = "Rotten Man-Maggot",
+		category = 1,
 		color = 40,
 		total = 55000,
 		type = "daily",
@@ -225,6 +235,7 @@ taskConfiguration = {
 
 	{
 		name = "Bloated Man-Maggot",
+		category = 1,
 		color = 40,
 		total = 55000,
 		type = "daily",
@@ -245,6 +256,7 @@ taskConfiguration = {
 
 	{
 		name = "Darklight Source",
+		category = 1,
 		color = 40,
 		total = 55000,
 		type = "daily",
@@ -265,6 +277,7 @@ taskConfiguration = {
 
 	{
 		name = "Darklight Emitter",
+		category = 1,
 		color = 40,
 		total = 55000,
 		type = "daily",
@@ -284,6 +297,7 @@ taskConfiguration = {
 
 	{
 		name = "Bony Sea Devil",
+		category = 1,
 		color = 40,
 		total = 55000,
 		type = "daily",
@@ -303,6 +317,7 @@ taskConfiguration = {
 
 	{
 		name = "Rotten Golem",
+		category = 1,
 		color = 40,
 		total = 55000,
 		type = "daily",
@@ -322,6 +337,7 @@ taskConfiguration = {
 
 	{
 		name = "Knight's Apparition",
+		category = 1,
 		color = 40,
 		total = 55000,
 		type = "daily",
@@ -344,6 +360,7 @@ taskConfiguration = {
 
 	{
 		name = "Cloak Of Terror",
+		category = 1,
 		color = 40,
 		total = 55000,
 		type = "daily",
@@ -363,6 +380,7 @@ taskConfiguration = {
 
 	{
 		name = "Infernal Demon",
+		category = 1,
 		color = 40,
 		total = 55000,
 		type = "daily",
@@ -382,6 +400,7 @@ taskConfiguration = {
 
 	{
 		name = "Hulking Prehemoth",
+		category = 1,
 		color = 40,
 		total = 55000,
 		type = "daily",
@@ -403,6 +422,7 @@ taskConfiguration = {
 
 	{
 		name = "Noxious Ripptor",
+		category = 1,
 		color = 40,
 		total = 55000,
 		type = "daily",
@@ -424,6 +444,7 @@ taskConfiguration = {
 
 	{
 		name = "Undertaker",
+		category = 1,
 		color = 40,
 		total = 55000,
 		type = "daily",
@@ -445,6 +466,7 @@ taskConfiguration = {
 
 	{
 		name = "Juggernaut",
+		category = 1,
 		color = 40,
 		total = 15000,
 		type = "daily",
@@ -464,6 +486,7 @@ taskConfiguration = {
 
 	{
 		name = "Floating Savant",
+		category = 1,
 		color = 40,
 		total = 15000,
 		type = "daily",
@@ -482,6 +505,7 @@ taskConfiguration = {
 
 	{
 		name = "Hellflayer",
+		category = 1,
 		color = 40,
 		total = 15000,
 		type = "daily",
@@ -500,6 +524,7 @@ taskConfiguration = {
 
 	{
 		name = "Wardragon",
+		category = 1,
 		color = 40,
 		total = 15000,
 		type = "daily",
@@ -519,6 +544,7 @@ taskConfiguration = {
 
 	{
 		name = "Rhindeer",
+		category = 1,
 		color = 40,
 		total = 15000,
 		type = "daily",
@@ -597,6 +623,7 @@ taskConfiguration = {
 
 	{
 		name = "Daily Ember Frost",
+		category = 1,
 		color = 40,
 		total = 50000,
 		type = "daily",
@@ -616,6 +643,7 @@ taskConfiguration = {
 
 	{
 		name = "Daily Poison Energy",
+		category = 1,
 		color = 40,
 		total = 50000,
 		type = "daily",
@@ -635,6 +663,7 @@ taskConfiguration = {
 
 	{
 		name = "Daily Holy Death",
+		category = 1,
 		color = 40,
 		total = 50000,
 		type = "daily",
@@ -654,6 +683,7 @@ taskConfiguration = {
 
 	{
 		name = "Elite Sanguine Glow",
+		category = 1,
 		color = 40,
 		total = 50000,
 		type = "daily",
@@ -673,6 +703,7 @@ taskConfiguration = {
 
 	{
 		name = "Elite Sanguine Shade",
+		category = 1,
 		color = 40,
 		total = 50000,
 		type = "daily",
@@ -692,6 +723,7 @@ taskConfiguration = {
 
 	{
 		name = "Elite Sanguine Ember",
+		category = 1,
 		color = 40,
 		total = 50000,
 		type = "daily",
@@ -711,6 +743,7 @@ taskConfiguration = {
 
 	{
 		name = "Elite Sanguine Frost",
+		category = 1,
 		color = 40,
 		total = 50000,
 		type = "daily",
@@ -730,6 +763,7 @@ taskConfiguration = {
 
 	{
 		name = "Elite Sanguine Boulder",
+		category = 1,
 		color = 40,
 		total = 50000,
 		type = "daily",
@@ -749,6 +783,7 @@ taskConfiguration = {
 
 	{
 		name = "Elite Sanguine Spark",
+		category = 1,
 		color = 40,
 		total = 50000,
 		type = "daily",
@@ -768,6 +803,7 @@ taskConfiguration = {
 
 	{
 		name = "Rootting",
+		category = 1,
 		color = 40,
 		total = 55000,
 		type = "daily",
@@ -787,6 +823,7 @@ taskConfiguration = {
 
 	{
 		name = "Quaras",
+		category = 1,
 		color = 40,
 		total = 55000,
 		type = "daily",
@@ -801,6 +838,37 @@ taskConfiguration = {
 			"Quara Plunderer",
 			"Quara Raider",
 			"Quara Looter",
+		},
+	},
+
+	{
+		name = "Oberon",
+		category = 2,
+		color = 40,
+		total = 1,
+		type = "daily",
+		storage = 190078,
+		storagecount = 190079,
+		rewards = {
+			{ "random", { 
+				{ 28724, 1 }, 
+				{ 28723, 1 },
+				{ 28725, 1 },
+				{ 28718, 1 },
+				{ 28714, 1 },
+				{ 28715, 1 },
+				{ 28716, 1 },
+				{ 28717, 1 },
+				{ 28720, 1 },
+				{ 28719, 1 },
+				{ 50161, 1 },
+			}},
+			{ "level", 1 },
+			{ "gold", 20000000 },
+			{ 22721, 10 },
+		},
+		races = {
+			"Grand Master Oberon",
 		},
 	},
 }

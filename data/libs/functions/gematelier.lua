@@ -57,8 +57,7 @@ function Monster:generateGemAtelierLoot()
 		category = "influenced"
 	elseif forgeClassification == FORGE_FIENDISH_MONSTER then
 		category = "fiendish"
-	--elseif (mType:bossRace() or ""):lower() == "archfoe" then
-	elseif mType:isRewardBoss() then
+	elseif (mType:bossRace() or ""):lower() == "archfoe" then
 		category = "archfoe"
 	end
 	if category == "none" then
