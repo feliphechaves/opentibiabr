@@ -13,6 +13,7 @@ local effects = {
 	{ position = Position(1253, 995, 9), text = "THU SUN", effect = CONST_ME_GROUNDSHAKER },
 	{ position = Position(1254, 995, 9), text = "FRI", effect = CONST_ME_GROUNDSHAKER },
 	{ position = Position(1062, 1027, 7), text = "TASK", effect = CONST_ME_GROUNDSHAKER },
+	{ position = Position(1064, 1027, 7), text = "BOSS TASK", effect = CONST_ME_GROUNDSHAKER },
 	{ position = Position(32373, 32233, 7), text = "FREE CASINO", effect = CONST_ME_GROUNDSHAKER },
 	{ position = Position(32373, 32235, 7), text = "PREMIUM CASINO", effect = CONST_ME_GROUNDSHAKER },
 	{ position = Position(1236, 1019, 0), text = "LAST FLOOR", effect = CONST_ME_GROUNDSHAKER },

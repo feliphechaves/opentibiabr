@@ -1,119 +1,93 @@
 -- Qual item abre qual categoria de task?
 local taskItemToCategory = {
     [31471] = 1,  -- geral
-    [31472] = 2,  -- boss
+    [31473] = 2,  -- boss
     --[31473] = 3,  -- novo item C
 }
 
-function endTaskModalWindow(player, storage, category)
-	local data = getTaskByStorage(storage)
-	local newmessage
-	local completion = false
-	if player:getTaskKills(data.storagecount) < data.total then
-		newmessage = "You have already completed, or are in progress on this task."
-		player:getPosition():sendSingleSoundEffect(SOUND_EFFECT_TYPE_DIST_ATK_THROW_SHOT, player:isInGhostMode() and nil or player)
-	else
-		player:endTask(storage, false)
-		completion = true
-		newmessage = "You completed the task" .. (data.rewards and "\nHere are your rewards:" or "")
-	end
-	local title = "Task System"
-	local window = ModalWindow({
-		title = title,
-		message = newmessage,
-	})
-	if completion and data.rewards then
-		if player:getStorageValue(taskOptions.bonusReward) >= 1 then
-			player:say("Redeemed Reward:", TALKTYPE_MONSTER_SAY)
-			for _, info in pairs(data.rewards) do
-				if info[1] == "exp" then
-					player:addExperience(info[2] * taskOptions.bonusRate)
-					player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
-					player:say("Exp: " .. info[2] * taskOptions.bonusRate .. "", TALKTYPE_MONSTER_SAY)
-					if taskOptions.selectLanguage == 1 then
-						window:addChoice(task_pt_br.choiceText .. "" .. info[2] * taskOptions.bonusRate)
-					else
-						window:addChoice("- Experience: " .. info[2] * taskOptions.bonusRate)
-					end
-				elseif info[1] == "gold" then
-					Bank.credit(player:getName(), tonumber(info[2]))
-					player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
-					player:say("Gold: " .. info[2], TALKTYPE_MONSTER_SAY)
-					window:addChoice("- Gold: " .. info[2])
-				elseif info[1] == "level" then
-					local rewardLevel = 0
-					if player:getLevel() <= 3000 then
-						rewardLevel = 3
-					elseif player:getLevel() >= 3001 and player:getLevel() <= 5000 then
-						rewardLevel = 2
-					elseif player:getLevel() >= 5001 then
-						rewardLevel = 1
-					end
-					local targetNewLevel = player:getLevel() + rewardLevel
-					local targetNewExp = Game.getExperienceForLevel(targetNewLevel)
-					local experienceToAdd = targetNewExp - player:getExperience()
-					player:addExperience(experienceToAdd, false)
-					player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
-					player:say("Level: " .. rewardLevel, TALKTYPE_MONSTER_SAY)
-					window:addChoice("- Level: " .. rewardLevel)
-				elseif tonumber(info[1]) then
-					window:addChoice("- " .. info[2] * taskOptions.bonusRate .. " " .. ItemType(info[1]):getName())
-					player:addItem(info[1], info[2] * taskOptions.bonusRate)
-					player:setStorageValue(taskOptions.uniqueTaskStorage, -1)
-					player:getPosition():sendSingleSoundEffect(SOUND_EFFECT_TYPE_ACTION_LEVEL_ACHIEVEMENT, player:isInGhostMode() and nil or player)
-					player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
-					if taskOptions.selectLanguage == 1 then
-						player:say("Outros: " .. info[2] * taskOptions.bonusRate .. " " .. ItemType(info[1]):getName(), TALKTYPE_MONSTER_SAY)
-					else
-						player:say("Others: " .. info[2] * taskOptions.bonusRate .. " " .. ItemType(info[1]):getName(), TALKTYPE_MONSTER_SAY)
-					end
-					--player:setStorageValue(storagecheck, player:getStorageValue(storagecheck) + 1)
-				end
-			end
-		else
-			player:say("Redeemed Reward:", TALKTYPE_MONSTER_SAY)
-			for _, info in pairs(data.rewards) do
-				if info[1] == "exp" then
-					player:addExperience(info[2])
-					player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
-					player:say("Exp: " .. info[2] .. "", TALKTYPE_MONSTER_SAY)
-					window:addChoice("- Experience: " .. info[2])
-				elseif info[1] == "gold" then
-					Bank.credit(player:getName(), tonumber(info[2]))
-					player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
-					player:say("Gold: " .. info[2], TALKTYPE_MONSTER_SAY)
-					window:addChoice("- Gold: " .. info[2])
-				elseif info[1] == "level" then
-					local rewardLevel = 0
-					if player:getLevel() <= 3000 then
-						rewardLevel = 3
-					elseif player:getLevel() >= 3001 and player:getLevel() <= 5000 then
-						rewardLevel = 2
-					elseif player:getLevel() >= 5001 then
-						rewardLevel = 1
-					end
-					local targetNewLevel = player:getLevel() + rewardLevel
-					local targetNewExp = Game.getExperienceForLevel(targetNewLevel)
-					local experienceToAdd = targetNewExp - player:getExperience()
-					player:addExperience(experienceToAdd, false)
-					player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
-					player:say("Level: " .. rewardLevel, TALKTYPE_MONSTER_SAY)
-					window:addChoice("- Level: " .. rewardLevel)
-				elseif tonumber(info[1]) then
-					window:addChoice("- " .. info[2] .. " " .. ItemType(info[1]):getName())
-					player:addItem(info[1], info[2])
-					player:setStorageValue(taskOptions.uniqueTaskStorage, -1)
-					player:getPosition():sendSingleSoundEffect(SOUND_EFFECT_TYPE_ACTION_LEVEL_ACHIEVEMENT, player:isInGhostMode() and nil or player)
-					player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
-					player:say("Others: " .. ItemType(info[1]):getName() .. "", TALKTYPE_MONSTER_SAY)
-					--player:setStorageValue(storagecheck, player:getStorageValue(storagecheck) + 1)
-				end
-			end
-		end
-	end
+local function getBonusMult(player)
+    return player:getStorageValue(taskOptions.bonusReward) >= 1
+           and taskOptions.bonusRate or 1
+end
 
-	window:addButton("Back", function() sendTaskModalWindow(player, category) end)
-	window:sendToPlayer(player)
+local function payReward(player, info, mult, window)
+    local label = "- "
+
+    if info[1] == "exp" then
+        local amount = info[2] * mult
+        player:addExperience(amount)
+        player:say("Exp: " .. amount, TALKTYPE_MONSTER_SAY)
+        label = label .. "Experience: " .. amount
+
+    elseif info[1] == "gold" then
+        local amount = info[2] * mult
+        Bank.credit(player:getName(), amount)
+        player:say("Gold: " .. amount, TALKTYPE_MONSTER_SAY)
+        label = label .. "Gold: " .. amount
+
+    elseif info[1] == "level" then
+        local rewardLevel = 0
+        if player:getLevel() <= 3000 then rewardLevel = 3
+        elseif player:getLevel() <= 5000 then rewardLevel = 2
+        else rewardLevel = 1 end
+        rewardLevel = rewardLevel * mult
+        local newLevel = player:getLevel() + rewardLevel
+        local addExp   = Game.getExperienceForLevel(newLevel) - player:getExperience()
+        player:addExperience(addExp, false)
+        player:say("Level: " .. rewardLevel, TALKTYPE_MONSTER_SAY)
+        label = label .. "Level: " .. rewardLevel
+
+    elseif info[1] == "random" then               -- se você usar random
+        local pool   = info[2]
+        local choice = pool[math.random(#pool)]
+        player:addItem(choice[1], (choice[2] or 1) * mult)
+        label = label .. "Random item"
+
+    elseif tonumber(info[1]) then                 -- item fixo
+        local amount = info[2] * mult
+        player:addItem(info[1], amount)
+        label = label .. amount .. " " .. ItemType(info[1]):getName()
+    end
+
+    -- efeitos visuais/sonoros comuns
+    player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
+    player:getPosition():sendSingleSoundEffect(
+        SOUND_EFFECT_TYPE_ACTION_LEVEL_ACHIEVEMENT,
+        player:isInGhostMode() and nil or player
+    )
+    window:addChoice(label)
+end
+
+function endTaskModalWindow(player, storage, category)
+    local data = getTaskByStorage(storage)
+    local finished      = player:getTaskKills(data.storagecount) >= data.total
+    local title         = "Task System"
+    local message       = finished and
+                          ("You completed the task" .. (data.rewards and "\nHere are your rewards:" or "")) or
+                          "You have already completed, or are in progress on this task."
+    local window        = ModalWindow({ title = title, message = message })
+
+    if not finished then
+        player:getPosition():sendSingleSoundEffect(
+            SOUND_EFFECT_TYPE_DIST_ATK_THROW_SHOT,
+            player:isInGhostMode() and nil or player
+        )
+    end
+
+    if finished and data.rewards then
+        player:endTask(storage, false)
+        player:say("Redeemed Reward:", TALKTYPE_MONSTER_SAY)
+
+        local mult = getBonusMult(player)
+        for _, info in ipairs(data.rewards) do
+            payReward(player, info, mult, window)
+        end
+
+        player:setStorageValue(taskOptions.uniqueTaskStorage, -1)
+    end
+
+    window:addButton("Back", function() sendTaskModalWindow(player, category) end)
+    window:sendToPlayer(player)
 end
 
 function acceptedTaskModalWindow(player, category)
@@ -124,15 +98,7 @@ function acceptedTaskModalWindow(player, category)
 		message = customMessage,
 	})
 	player:getPosition():sendMagicEffect(CONST_ME_TREASURE_MAP)
-	if taskOptions.selectLanguage == 1 then
-		window:addButton(task_pt_br.returnButton, function()
-			sendTaskModalWindow(player, category)
-		end)
-	else
-		window:addButton("Back", function()
-			sendTaskModalWindow(player, category)
-		end)
-	end
+	window:addButton("Back", function() sendTaskModalWindow(player, category) end)
 	window:sendToPlayer(player)
 end
 
@@ -199,6 +165,8 @@ function confirmTaskModalWindow(player, storage, category)
 						rewardLevel = 1
 					end
 					window:addChoice("- Level: " .. rewardLevel)
+				elseif info[1] == "random" then
+					window:addChoice("- Random item from boss")
 				elseif tonumber(info[1]) then
 					window:addChoice("- " .. info[2] * taskOptions.bonusRate .. " " .. ItemType(info[1]):getName())
 				end
@@ -223,6 +191,8 @@ function confirmTaskModalWindow(player, storage, category)
 						rewardLevel = 1
 					end
 					window:addChoice("- Level: " .. rewardLevel)
+				elseif info[1] == "random" then
+					window:addChoice("- Random item from boss")
 				elseif tonumber(info[1]) then
 					window:addChoice("- " .. info[2] .. " " .. ItemType(info[1]):getName())
 				end
@@ -358,12 +328,19 @@ function sendTaskModalWindow(player, category)
 		message = taskButtonMessage,
 	})
 	local temptasks = {}
+	local availableTasks = {}
+	local completedTasks = {}
 	
     for _, data in pairs(taskConfiguration) do
         if not category or data.category == category then
             temptasks[#temptasks + 1] = data.storage
             if player:hasStartedTask(data.storage) then
-                window:addChoice(data.name .. " [" .. (player:getTaskKills(data.storagecount) >= data.total and "Reward on Hold]" or player:getTaskKills(data.storagecount) .. "/" .. data.total .. "]"))
+                if player:getTaskKills(data.storagecount) >= data.total then
+                    window:addChoice(data.name .. " [Reward on Hold]")
+                    completedTasks[#completedTasks + 1] = data
+                else
+                    window:addChoice(data.name .. " [" .. player:getTaskKills(data.storagecount) .. "/" .. data.total .. "]")
+                end
             elseif player:canStartCustomTask(data.storage) == false then
                 if data.type == "daily" then
                     window:addChoice(data.name .. ", [Concluded Daily]")
@@ -372,6 +349,7 @@ function sendTaskModalWindow(player, category)
                 end
             else
                 window:addChoice(data.name .. ", " .. data.total)
+                availableTasks[#availableTasks + 1] = data.storage
             end
         end		
 	end
@@ -398,11 +376,71 @@ function sendTaskModalWindow(player, category)
 		end
 	end
 
+	local function acceptAllCallback(player, button, choice)
+		if taskOptions.uniqueTask == true and player:getStorageValue(taskOptions.uniqueTaskStorage) >= 1 then
+			uniqueModalWindow(player, category)
+			return
+		end
+
+		local acceptedCount = 0
+		for _, storage in ipairs(availableTasks) do
+			if player:canStartCustomTask(storage) then
+				player:startTask(storage)
+				acceptedCount = acceptedCount + 1
+			end
+		end
+
+		if acceptedCount > 0 then
+			player:setStorageValue(taskOptions.uniqueTaskStorage, 1)
+			player:getPosition():sendMagicEffect(CONST_ME_TREASURE_MAP)
+			player:getPosition():sendSingleSoundEffect(SOUND_EFFECT_TYPE_ACTION_NOTIFICATION, player:isInGhostMode() and nil or player)
+			acceptedTaskModalWindow(player, category)
+		else
+			errorModalWindow(player, category)
+		end
+	end
+
+	local function collectAllCallback(player, button, choice)
+		if #completedTasks == 0 then
+			errorModalWindow(player, category)
+			return
+		end
+
+		local title = "Task System"
+		local message = "You collected rewards from all completed tasks!"
+		local window = ModalWindow({ title = title, message = message })
+
+		player:say("Redeemed Rewards:", TALKTYPE_MONSTER_SAY)
+		player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
+		player:getPosition():sendSingleSoundEffect(SOUND_EFFECT_TYPE_ACTION_LEVEL_ACHIEVEMENT, player:isInGhostMode() and nil or player)
+
+		local mult = getBonusMult(player)
+		for _, data in ipairs(completedTasks) do
+			player:endTask(data.storage, false)
+			if data.rewards then
+				for _, info in ipairs(data.rewards) do
+					payReward(player, info, mult, window)
+				end
+			end
+		end
+
+		player:setStorageValue(taskOptions.uniqueTaskStorage, -1)
+		window:addButton("Back", function() sendTaskModalWindow(player, category) end)
+		window:sendToPlayer(player)
+	end
+
 	window:addButton("Choose", confirmCallback)
     window:addButton("Cancel", cancelCallback)
+    window:addButton("Accept All", acceptAllCallback)
+    if #completedTasks > 0 then
+        window:addButton("Collect All", collectAllCallback)
+		window:setDefaultEscapeButton(4)
+	else 
+		window:setDefaultEscapeButton(3)
+	end
     window:addButton("Exit")
 
-	window:setDefaultEscapeButton(2)
+	
 	window:sendToPlayer(player)
 end
 
@@ -424,3 +462,22 @@ end
 
 task:id(31471)
 task:register()
+
+local taskBoss = Action()
+
+function taskBoss.onUse(player, item, fromPosition, target, toPosition, isHotkey)
+
+    local currentCategory = taskItemToCategory[item:getId()]
+    if not currentCategory then
+        return true -- item não mapeado
+    end
+
+	player:getPosition():sendMagicEffect(CONST_ME_TREASURE_MAP)
+	sendTaskModalWindow(player, currentCategory)
+	player:getPosition():sendSingleSoundEffect(SOUND_EFFECT_TYPE_PHYSICAL_RANGE_MISS, player:isInGhostMode() and nil or player)
+
+	return true
+end
+
+taskBoss:id(31473)
+taskBoss:register()

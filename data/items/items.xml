@@ -77191,7 +77191,7 @@
 			<attribute key="skillboost club" value="4"/>
 			<attribute key="skillboost shielding" value="4"/>
 			<attribute key="skillboost distance" value="4"/>
-			<attribute key="skillboost magic level" value="2"/>
+			<attribute key="skillboost magic level" value="4"/>
 		</attribute>
 		<attribute key="augments" value="1">
 			<attribute key="wrath of nature" value="critical extra damage">

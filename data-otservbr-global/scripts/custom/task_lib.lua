@@ -46,7 +46,7 @@ taskConfiguration = {
 		name = "Minotaur",
 		category = 1,
 		color = 40,
-		total = 5000,
+		total = 3000,
 		type = "once",
 		storage = 190000,
 		storagecount = 190001,
@@ -66,7 +66,7 @@ taskConfiguration = {
 		name = "Amazon",
 		category = 1,
 		color = 40,
-		total = 30000,
+		total = 3000,
 		type = "once",
 		storage = 190002,
 		storagecount = 190003,
@@ -86,7 +86,7 @@ taskConfiguration = {
 		name = "Dragon Lord",
 		category = 1,
 		color = 40,
-		total = 30000,
+		total = 3000,
 		type = "once",
 		storage = 190004,
 		storagecount = 190005,
@@ -106,7 +106,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 5000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190006,
 		storagecount = 190007,
 		rewards = {
@@ -129,7 +129,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 5000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190008,
 		storagecount = 190009,
 		rewards = {
@@ -146,7 +146,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 5000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190010,
 		storagecount = 190011,
 		rewards = {
@@ -165,7 +165,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 5000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190012,
 		storagecount = 190013,
 		rewards = {
@@ -182,7 +182,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 5000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190014,
 		storagecount = 190015,
 		rewards = {
@@ -199,7 +199,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 5000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190016,
 		storagecount = 190017,
 		rewards = {
@@ -217,7 +217,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 55000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190018,
 		storagecount = 190019,
 		rewards = {
@@ -238,7 +238,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 55000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190020,
 		storagecount = 190021,
 		rewards = {
@@ -259,7 +259,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 55000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190022,
 		storagecount = 190023,
 		rewards = {
@@ -280,7 +280,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 55000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190024,
 		storagecount = 190025,
 		rewards = {
@@ -300,7 +300,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 55000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190026,
 		storagecount = 190027,
 		rewards = {
@@ -320,7 +320,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 55000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190028,
 		storagecount = 190029,
 		rewards = {
@@ -340,7 +340,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 55000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190030,
 		storagecount = 190031,
 		rewards = {
@@ -363,7 +363,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 55000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190032,
 		storagecount = 190033,
 		rewards = {
@@ -383,7 +383,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 55000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190034,
 		storagecount = 190035,
 		rewards = {
@@ -403,7 +403,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 55000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190036,
 		storagecount = 190037,
 		rewards = {
@@ -425,7 +425,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 55000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190038,
 		storagecount = 190039,
 		rewards = {
@@ -447,7 +447,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 55000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190040,
 		storagecount = 190041,
 		rewards = {
@@ -469,7 +469,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 15000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190042,
 		storagecount = 190043,
 		rewards = {
@@ -489,7 +489,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 15000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190042,
 		storagecount = 190043,
 		rewards = {
@@ -508,7 +508,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 15000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190044,
 		storagecount = 190045,
 		rewards = {
@@ -527,7 +527,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 15000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190046,
 		storagecount = 190047,
 		rewards = {
@@ -547,7 +547,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 15000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190048,
 		storagecount = 190049,
 		rewards = {
@@ -622,11 +622,11 @@ taskConfiguration = {
     ]]
 
 	{
-		name = "Daily Ember Frost",
+		name = "Ember Frost",
 		category = 1,
 		color = 40,
 		total = 50000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190056,
 		storagecount = 190057,
 		rewards = {
@@ -642,11 +642,11 @@ taskConfiguration = {
 	},
 
 	{
-		name = "Daily Poison Energy",
+		name = "Poison Energy",
 		category = 1,
 		color = 40,
 		total = 50000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190058,
 		storagecount = 190059,
 		rewards = {
@@ -662,11 +662,11 @@ taskConfiguration = {
 	},
 
 	{
-		name = "Daily Holy Death",
+		name = "Holy Death",
 		category = 1,
 		color = 40,
 		total = 50000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190060,
 		storagecount = 190061,
 		rewards = {
@@ -686,7 +686,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 50000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190062,
 		storagecount = 190063,
 		rewards = {
@@ -706,7 +706,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 50000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190064,
 		storagecount = 190065,
 		rewards = {
@@ -726,7 +726,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 50000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190066,
 		storagecount = 190067,
 		rewards = {
@@ -746,7 +746,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 50000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190068,
 		storagecount = 190069,
 		rewards = {
@@ -766,7 +766,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 50000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190070,
 		storagecount = 190071,
 		rewards = {
@@ -786,7 +786,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 50000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190072,
 		storagecount = 190073,
 		rewards = {
@@ -806,7 +806,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 55000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190074,
 		storagecount = 190075,
 		rewards = {
@@ -826,7 +826,7 @@ taskConfiguration = {
 		category = 1,
 		color = 40,
 		total = 55000,
-		type = "daily",
+		type = "repeatable",
 		storage = 190076,
 		storagecount = 190077,
 		rewards = {
@@ -845,8 +845,8 @@ taskConfiguration = {
 		name = "Oberon",
 		category = 2,
 		color = 40,
-		total = 1,
-		type = "daily",
+		total = 15,
+		type = "repeatable",
 		storage = 190078,
 		storagecount = 190079,
 		rewards = {
@@ -871,6 +871,312 @@ taskConfiguration = {
 			"Grand Master Oberon",
 		},
 	},
+
+	{
+		name = "Drume",
+		category = 2,
+		color = 40,
+		total = 15,
+		type = "repeatable",
+		storage = 190080,
+		storagecount = 190081,
+		rewards = {
+			{ "random", {
+				{ 34150, 1 }, 
+				{ 34151, 1 },
+				{ 34152, 1 },
+				{ 34153, 1 },
+				{ 34154, 1 },
+				{ 34155, 1 },
+				{ 34156, 1 },
+				{ 34157, 1 },
+				{ 34158, 1 },
+				{ 34254, 1 },
+				{ 34253, 1 },
+				{ 50162, 1 },
+			}},
+			{ "level", 1 },
+			{ "gold", 20000000 },
+			{ 22721, 10 },
+		},
+		races = {
+			"Drume",
+		},
+	},
+
+	{
+		name = "Magma Bubble",
+		category = 2,
+		color = 40,
+		total = 15,
+		type = "repeatable",
+		storage = 190082,
+		storagecount = 190083,
+		rewards = {
+			{ "random", {
+				{ 39154, 1 }, -- arboreal tome
+				{ 39153, 1 }, -- arboreal crown
+				{ 39147, 1 }, -- spiritthorn armor
+				{ 39148, 1 }, -- spiritthorn helmet
+				{ 39149, 1 }, -- alicorn headguard
+				{ 39150, 1 }, -- alicorn quiver
+				{ 39151, 1 }, -- arcanomancer regalia
+				{ 39152, 1 }, -- arcanomancer folio
+				{ 39183, 1 }, -- charged arcanomancer sigil
+				{ 39186, 1 }, -- charged arboreal ring
+				{ 39180, 1 }, -- charged alicorn ring
+				{ 39177, 1 }, -- charged spiritthorn ring
+				{ 50147, 1 }, -- portable flame
+				{ 50149, 1 }, -- ethereal ring
+			}},
+			{ "level", 1 },
+			{ "gold", 20000000 },
+			{ 22721, 10 },
+		},
+		races = {
+			"Magma Bubble",
+		},
+	},
+
+	{
+		name = "King Zelos",
+		category = 2,
+		color = 40,
+		total = 15,
+		type = "repeatable",
+		storage = 190084,
+		storagecount = 190085,
+		rewards = {
+			{ "random", {
+				{ 23535, 1 }, -- bow of cataclysm
+				{ 23536, 1 }, -- galea mortis
+				{ 23537, 1 }, -- death oyoroi
+			}},
+			{ "level", 1 },
+			{ "gold", 20000000 },
+			{ 22721, 10 },
+		},
+		races = {
+			"King Zelos",
+		},
+	},
+
+	{
+		name = "Scarlett Etzel",
+		category = 2,
+		color = 40,
+		total = 15,
+		type = "repeatable",
+		storage = 190086,
+		storagecount = 190087,
+		rewards = {
+			{ "random", {
+				{ 30393, 1 }, -- cobra crossbow
+				{ 30395, 1 }, -- cobra club
+				{ 30396, 1 }, -- cobra axe
+				{ 30397, 1 }, -- cobra hood
+				{ 30398, 1 }, -- cobra sword
+				{ 30399, 1 }, -- cobra wand
+				{ 30400, 1 }, -- cobra rod
+				{ 50167, 1 }, -- cobra bo
+			}},
+			{ "level", 1 },
+			{ "gold", 20000000 },
+			{ 22721, 10 },
+		},
+		races = {
+			"Scarlett Etzel",
+		},
+	},
+
+	{
+		name = "The Monster",
+		category = 2,
+		color = 40,
+		total = 15,
+		type = "repeatable",
+		storage = 190088,
+		storagecount = 190089,
+		rewards = {
+			{ "random", {
+				{ 40588, 1 }, -- antler-horn helmet
+				{ 40590, 1 }, -- mutated skin legs
+				{ 40591, 1 }, -- mutated skin armor
+				{ 40595, 1 }, -- mutant bone kilt
+				{ 40589, 1 }, -- stitched mutant hide legs
+				{ 40592, 1 }, -- alchemist's boots
+				{ 40593, 1 }, -- mutant bone boots
+				{ 40594, 1 }, -- alchemist's notepad
+			}},
+			{ "level", 1 },
+			{ "gold", 20000000 },
+			{ 22721, 10 },
+		},
+		races = {
+			"The Monster",
+		},
+	},
+
+	{
+		name = "Soul War Bosses",
+		category = 2,
+		color = 40,
+		total = 60,
+		type = "repeatable",
+		storage = 190090,
+		storagecount = 190091,
+		rewards = {
+			{ 34109, 10 }, -- bag you desire
+			{ "level", 1 },
+			{ "gold", 20000000 },
+			{ 22721, 10 },
+		},
+		races = {
+			"goshnar's malice",
+			"goshnar's spite",
+			"goshnar's greed",
+			"goshnar's hatred",
+			"goshnar's cruelty",
+			"goshnars megalomania",
+		},
+	},
+
+	{
+		name = "Sanguine Bosses",
+		category = 2,
+		color = 40,
+		total = 50,
+		type = "repeatable",
+		storage = 190092,
+		storagecount = 190093,
+		rewards = {
+			{ 43895, 10 }, -- bag you covet
+			{ "level", 1 },
+			{ "gold", 20000000 },
+			{ 22721, 10 },
+		},
+		races = {
+			"murcion",
+			"ichgahal",
+			"bakragore",
+			"chagorz",
+			"vemiath",
+		},
+	},
+
+	{
+		name = "The Scourge of Oblivion",
+		category = 2,
+		color = 40,
+		total = 30,
+		type = "repeatable",
+		storage = 190094,
+		storagecount = 190095,
+		rewards = {
+			{ 28791, 1 }, -- library ticket
+			{ 8104, 1 }, -- calamity
+			{ "level", 1 },
+			{ "gold", 20000000 },
+			{ 22721, 10 },
+		},
+		races = {
+			"the scourge of oblivion",
+		},
+	},
+
+	{
+		name = "Timira the Many-Headed",
+		category = 2,
+		color = 40,
+		total = 15,
+		type = "repeatable",
+		storage = 190096,
+		storagecount = 190097,
+		rewards = {
+			{ "random", {
+				{ 39160, 1 }, -- naga quiver
+				{ 39155, 1 }, -- naga sword
+				{ 39156, 1 }, -- naga axe
+				{ 39157, 1 }, -- naga club
+				{ 39162, 1 }, -- naga wand
+				{ 39163, 1 }, -- naga rod
+				{ 39159, 1 }, -- naga crossbow
+				{ 50262, 1 }, -- naga tanko
+				{ 50160, 1 }, -- naga katar
+			}},
+			{ "level", 1 },
+			{ "gold", 20000000 },
+			{ 22721, 10 },
+		},
+		races = {
+			"timira the many-headed",
+		},
+	},
+
+	{
+		name = "Ratmiral Blackwhiskers",
+		category = 2,
+		color = 40,
+		total = 15,
+		type = "repeatable",
+		storage = 190098,
+		storagecount = 190099,
+		rewards = {
+			{ "random", {
+				{ 35518, 1 }, -- jungle bow
+				{ 35524, 1 }, -- jungle quiver
+				{ 35514, 1 }, -- jungle flail
+				{ 35521, 1 }, -- jungle rod
+				{ 35522, 1 }, -- jungle wand
+				{ 35519, 1 }, -- makeshift boots
+				{ 35520, 1 }, -- make-do boots
+			}},
+			{ "level", 1 },
+			{ "gold", 20000000 },
+			{ 22721, 10 },
+		},
+		races = {
+			"ratmiral blackwhiskers",
+		},
+	},
+
+	{
+		name = "The Brainstealer",
+		category = 2,
+		color = 40,
+		total = 15,
+		type = "repeatable",
+		storage = 190100,
+		storagecount = 190101,
+		rewards = {
+			{ "random", {
+				{ 36667, 1 }, -- eldritch breeches
+				{ 36670, 1 }, -- eldritch cowl
+				{ 36671, 1 }, -- eldritch hood
+				{ 36664, 1 }, -- eldritch bow
+				{ 36668, 1 }, -- eldritch wand
+				{ 36674, 1 }, -- eldritch rod
+				{ 36663, 1 }, -- eldritch cuirass
+				{ 36658, 1 }, -- gilded eldritch claymore
+				{ 36660, 1 }, -- gilded eldritch warmace
+				{ 36662, 1 }, -- gilded eldritch greataxe
+				{ 36665, 1 }, -- gilded eldritch bow
+				{ 36669, 1 }, -- gilded eldritch wand
+				{ 36675, 1 }, -- gilded eldritch rod
+				{ 50170, 1 }, -- gilded eldritch crescent moon spade
+				{ 50169, 1 }, -- eldritch crescent moon spade
+				{ 39182, 1 }, -- eldritch crystal
+				{ 39183, 1 }, -- eldritch monk boots
+			}},
+			{ "level", 1 },
+			{ "gold", 20000000 },
+			{ 22721, 10 },
+		},
+		races = {
+			"the brainstealer",
+		},
+	},
+	
 }
 
 squareWaitTime = 5000
