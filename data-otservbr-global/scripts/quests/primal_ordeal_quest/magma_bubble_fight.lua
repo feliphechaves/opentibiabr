@@ -63,7 +63,7 @@ encounter:addSpawnMonsters({
 })
 
 encounter:addRemoveMonsters():autoAdvance()
-]]
+
 
 encounter:addBroadcast("The whole Volcano starts to vibrate! Prepare yourself!"):autoAdvance("3s")
 
@@ -77,7 +77,7 @@ encounter:addSpawnMonsters({
 
 encounter:addRemoveMonsters():autoAdvance()
 encounter:addBroadcast("You've upset the volcano and now it's going to take its revenge!"):autoAdvance("3s")
-
+]]
 encounter
 	:addSpawnMonsters({
 		{
