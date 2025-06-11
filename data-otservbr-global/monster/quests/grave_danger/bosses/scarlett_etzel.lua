@@ -14,8 +14,6 @@ monster.outfit = {
 }
 
 monster.events = {
-	"scarlettThink",
-	"scarlettHealth",
 	"grave_danger_death",
 }
 
@@ -24,8 +22,8 @@ monster.bosstiary = {
 	bossRace = RARITY_ARCHFOE,
 }
 
-monster.health = 30000
-monster.maxHealth = 30000
+monster.health = 80000
+monster.maxHealth = 80000
 monster.race = "blood"
 monster.corpse = 31453
 monster.speed = 120

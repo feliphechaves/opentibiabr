@@ -91,8 +91,8 @@ raid:addStage({
 	start = function()
 		local bosses = {
 			{ name = "Orc Armor", message = "[RAID] Orc Armor apareceu em Thais carregando uma armadura rara!" },
-			{ name = "Orc Helmet", message = "[RAID] Orc Helmet surgiu trazendo um capacete misterioso!" },
-			{ name = "Orc Shield", message = "[RAID] Orc Shield foi visto com um escudo valioso!" }
+			{ name = "Orc Helmet", message = "[RAID] Orc Helmet surgiu em Thais trazendo um capacete misterioso!" },
+			{ name = "Orc Shield", message = "[RAID] Orc Shield foi visto em Thais com um escudo valioso!" }
 		}
 
 		local boss = bosses[math.random(#bosses)]
