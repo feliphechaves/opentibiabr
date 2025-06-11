@@ -54,7 +54,7 @@ local function creatureSayCallback(npc, creature, type, message)
 		npcHandler:say("Prepare your {offer} and cling to the sanctitity of this place.", npc, creature)
 		npcHandler:setTopic(playerId, 1)
 	elseif MsgContains(message, "offer") and npcHandler:getTopic(playerId) == 1 then
-		npcHandler:say("Five tainted hearts and five darklight hearts drowned in a worldly wealth of 100000000 gold pieces for the righteous. Are you prepared?", npc, creature)
+		npcHandler:say("Five tainted hearts and five darklight hearts drowned in a worldly wealth of 20000000 gold pieces for the righteous. Are you prepared?", npc, creature)
 		npcHandler:setTopic(playerId, 2)
 	elseif MsgContains(message, "yes") and npcHandler:getTopic(playerId) == 2 then
 		npcHandler:setTopic(playerId, 0)
@@ -63,7 +63,7 @@ local function creatureSayCallback(npc, creature, type, message)
 			return true
 		end
 
-		if not player:removeMoneyBank(100000000) then
+		if not player:removeMoneyBank(20000000) then
 			npcHandler:say("Sorry, you don't have enough gold.", npc, creature)
 			return true
 		end
