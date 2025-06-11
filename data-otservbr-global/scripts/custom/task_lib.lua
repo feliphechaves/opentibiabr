@@ -1312,6 +1312,24 @@ function Player.addTaskKill(self, storage, count)
 		return false
 	end
 
+	-- Verifica se o jogador tem o buff de kills ativo e se a task é da categoria 1
+	local TASK_KILL_BONUS_STORAGE = 65003
+	local TASK_KILL_BONUS_EXPIRATION = 65004
+	
+	-- Verifica se o buff está ativo e não expirou
+	if player:getStorageValue(TASK_KILL_BONUS_STORAGE) >= 1 then
+		local expirationTime = player:getStorageValue(TASK_KILL_BONUS_EXPIRATION)
+		if os.time() >= expirationTime then
+			-- Buff expirou, remove o efeito
+			player:setStorageValue(TASK_KILL_BONUS_STORAGE, -1)
+			player:setStorageValue(TASK_KILL_BONUS_EXPIRATION, -1)
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "O efeito da pocao de tasks expirou!")
+		elseif data.category == 1 then
+			-- Buff ativo e não expirou, dobra as kills
+			count = count * 2
+		end
+	end
+
 	if kills + count >= data.total then
 		if taskOptions.selectLanguage == 1 then
 			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, task_pt_br.messageCompleteTask)

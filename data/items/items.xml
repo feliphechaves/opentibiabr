@@ -15658,7 +15658,7 @@
 			<attribute key="slot" value="backpack"/>
 		</attribute>
 	</item>
-	<item id="5802" article="a" name="message in a bottle">
+	<item id="5802" article="a" name="task buff potion">
 		<attribute key="weight" value="1200"/>
 	</item>
 	<item id="5803" article="an" name="arbalest">

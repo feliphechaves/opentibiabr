@@ -7981,6 +7981,19 @@ GameStore.Categories = {
 		state = GameStore.States.STATE_NONE,
 		offers = {
 			{
+				icons = {},
+				name = "Task Buff Potion",
+				price = 20,
+				count = 1,
+				itemtype = 5802,
+				description = "Ao ser usado, o jogador recebera o dobro de progresso em suas tasks de monstros por 1 hora!",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				coinType = GameStore.CoinType.Coin,
+				state = GameStore.States.STATE_NEW,
+				movable = true,
+				home = true,
+			},
+			{
 				icons = { "Temple_Teleport.png" },
 				name = "Temple Teleport",
 				price = 5,
