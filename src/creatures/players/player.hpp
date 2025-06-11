@@ -988,6 +988,9 @@ public:
 	void setNextPotionAction(int64_t time);
 	bool canDoPotionAction() const;
 
+	void setNextRuneAction(int64_t time);
+	bool canDoRuneAction() const;
+
 	void setNextNecklaceAction(int64_t time);
 	bool canEquipNecklace() const;
 
@@ -1009,6 +1012,7 @@ public:
 
 	uint32_t getNextActionTime() const;
 	uint32_t getNextPotionActionTime() const;
+	uint32_t getNextRuneActionTime() const;
 
 	std::shared_ptr<Item> getWriteItem(uint32_t &windowTextId, uint16_t &maxWriteLen);
 	void setWriteItem(const std::shared_ptr<Item> &item, uint16_t maxWriteLen = 0);
@@ -1401,6 +1405,7 @@ private:
 	void setNextActionTask(const std::shared_ptr<Task> &task, bool resetIdleTime = true);
 	void setNextActionPushTask(const std::shared_ptr<Task> &task);
 	void setNextPotionActionTask(const std::shared_ptr<Task> &task);
+	void setNextRuneActionTask(const std::shared_ptr<Task> &task);
 
 	void death(const std::shared_ptr<Creature> &lastHitCreature) override;
 	bool spawn();
@@ -1513,6 +1518,7 @@ private:
 	int64_t lastPong;
 	int64_t nextAction = 0;
 	int64_t nextPotionAction = 0;
+	int64_t nextRuneAction = 0;
 	int64_t nextNecklaceAction = 0;
 	int64_t nextRingAction = 0;
 	int64_t lastQuickLootNotification = 0;
@@ -1554,6 +1560,7 @@ private:
 	uint32_t actionTaskEvent = 0;
 	uint32_t actionTaskEventPush = 0;
 	uint32_t actionPotionTaskEvent = 0;
+	uint32_t actionRuneTaskEvent = 0;
 	uint32_t nextStepEvent = 0;
 	uint32_t walkTaskEvent = 0;
 	uint32_t MessageBufferTicks = 0;

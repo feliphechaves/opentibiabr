@@ -2835,6 +2835,20 @@ void Player::setNextPotionActionTask(const std::shared_ptr<Task> &task) {
 	}
 }
 
+void Player::setNextRuneActionTask(const std::shared_ptr<Task> &task) {
+       if (actionRuneTaskEvent != 0) {
+               g_dispatcher().stopEvent(actionRuneTaskEvent);
+               actionRuneTaskEvent = 0;
+       }
+
+       cancelPush();
+
+       if (task) {
+               actionRuneTaskEvent = g_dispatcher().scheduleEvent(task);
+               // resetIdleTime();
+       }
+}
+
 void Player::setModuleDelay(uint8_t byteortype, int16_t delay) {
 	moduleDelayMap[byteortype] = OTSYS_TIME() + delay;
 }
@@ -2852,6 +2866,10 @@ uint32_t Player::getNextActionTime() const {
 
 uint32_t Player::getNextPotionActionTime() const {
 	return std::max<int64_t>(SCHEDULER_MINTICKS, nextPotionAction - OTSYS_TIME());
+}
+
+uint32_t Player::getNextRuneActionTime() const {
+       return std::max<int64_t>(SCHEDULER_MINTICKS, nextRuneAction - OTSYS_TIME());
 }
 
 std::shared_ptr<Item> Player::getWriteItem(uint32_t &retWindowTextId, uint16_t &retMaxWriteLen) {
@@ -3167,6 +3185,16 @@ void Player::setNextPotionAction(int64_t time) {
 
 bool Player::canDoPotionAction() const {
 	return nextPotionAction <= OTSYS_TIME();
+}
+
+void Player::setNextRuneAction(int64_t time) {
+       if (time > nextRuneAction) {
+               nextRuneAction = time;
+       }
+}
+
+bool Player::canDoRuneAction() const {
+       return nextRuneAction <= OTSYS_TIME();
 }
 
 void Player::setLoginProtection(int64_t time) {

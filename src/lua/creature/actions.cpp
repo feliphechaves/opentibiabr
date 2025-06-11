@@ -416,7 +416,9 @@ bool Actions::useItem(const std::shared_ptr<Player> &player, const Position &pos
 		return false;
 	}
 
-	if (it.isRune() || it.type == ITEM_TYPE_POTION) {
+	if (it.isRune()) {
+		player->setNextRuneAction(OTSYS_TIME() + g_configManager().getNumber(ACTIONS_DELAY_INTERVAL));
+	} else if (it.type == ITEM_TYPE_POTION) {
 		player->setNextPotionAction(OTSYS_TIME() + g_configManager().getNumber(ACTIONS_DELAY_INTERVAL));
 	} else {
 		player->setNextAction(OTSYS_TIME() + g_configManager().getNumber(ACTIONS_DELAY_INTERVAL));
@@ -470,7 +472,9 @@ bool Actions::useItemEx(const std::shared_ptr<Player> &player, const Position &f
 		return false;
 	}
 
-	if (it.isRune() || it.type == ITEM_TYPE_POTION) {
+	if (it.isRune()) {
+		player->setNextRuneAction(OTSYS_TIME() + g_configManager().getNumber(EX_ACTIONS_DELAY_INTERVAL));
+	} else if (it.type == ITEM_TYPE_POTION) {
 		player->setNextPotionAction(OTSYS_TIME() + g_configManager().getNumber(EX_ACTIONS_DELAY_INTERVAL));
 	} else {
 		player->setNextAction(OTSYS_TIME() + g_configManager().getNumber(EX_ACTIONS_DELAY_INTERVAL));
