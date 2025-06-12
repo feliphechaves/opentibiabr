@@ -99,6 +99,7 @@ monster.loot = {
 	{ id = 3393, chance = 1000 }, -- amazon helmet
 	{ name = "gold token", chance = 1650, maxCount = 10 },
 	{ name = "addon doll", chance = 100 },
+	{ name = "mount contract", chance = 100 },
 }
 
 monster.attacks = {

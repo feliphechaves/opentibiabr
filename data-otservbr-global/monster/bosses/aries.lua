@@ -196,6 +196,7 @@ monster.loot = {
 	{ id = 12210, chance = 400 },
 	{ id = 25062, chance = 100000, unique = true}, --pinata dragon
 	{ name = "addon doll", chance = 100 },
+	{ name = "mount contract", chance = 100 },
 }
 
 monster.attacks = {

@@ -135,6 +135,7 @@ monster.loot = {
 	{ name = "great shield", chance = 500 },
 	{ name = "gold token", chance = 500, maxCount = 15 },
 	{ name = "addon doll", chance = 100 },
+	{ name = "mount contract", chance = 100 },
 }
 
 monster.attacks = {

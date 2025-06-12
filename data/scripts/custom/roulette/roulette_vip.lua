@@ -38,6 +38,7 @@ local config = {
 		{ itemId = 14758, count = { 1, 2 }, chance = 1200 }, -- vip scroll
 
 		{ itemId = 51318, chance = 1200 },
+		{ itemId = 48481, chance = 1200 },
 
 		--sanguines
 		{ itemId = 43864, count = { 1, 1 }, chance = 1000 },
