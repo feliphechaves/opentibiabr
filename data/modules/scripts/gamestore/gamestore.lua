@@ -7205,7 +7205,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "Vende todos os itens dentro da loot pouch automaticamente. \nNecessario ter uma loot pouch no personagem para esse item funcionar! \nItem infinito.",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM_UNIQUE,
-				movable = true,
 			},
 			{
 				icons = {},
