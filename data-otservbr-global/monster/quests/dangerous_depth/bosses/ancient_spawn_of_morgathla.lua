@@ -68,24 +68,64 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ id = 3031, chance = 100000, maxCount = 198 }, -- gold coin
-	{ id = 3035, chance = 67610, maxCount = 3 }, -- platinum coin
-	{ id = 9058, chance = 390 }, -- gold ingot
-	{ id = 5911, chance = 3230 }, -- red piece of cloth
-	{ id = 5878, chance = 14710 }, -- minotaur leather
-	{ id = 11472, chance = 6580, maxCount = 2 }, -- minotaur horn
-	{ id = 21201, chance = 13160 }, -- execowtioner mask
-	{ id = 239, chance = 11480 }, -- great health potion
-	{ id = 238, chance = 10060 }, -- great mana potion
-	{ id = 3577, chance = 7230 }, -- meat
-	{ id = 9057, chance = 5810, maxCount = 2 }, -- small topaz
-	{ id = 3030, chance = 4520, maxCount = 2 }, -- small ruby
-	{ id = 7412, chance = 900 }, -- butcher's axe
-	{ id = 3381, chance = 770 }, -- crown armor
-	{ id = 21176, chance = 1420 }, -- execowtioner axe
-	{ id = 3318, chance = 770 }, -- knight axe
-	{ id = 7413, chance = 390 }, -- titan axe
-	{ id = 7401, chance = 520 }, -- minotaur trophy
+	{ id = 7440, chance = 3236}, -- mastermind potion
+	{ id = 3035, chance = 2985, minCount = 150, maxCount = 350}, -- platinum coin
+	{ id = 3098, chance = 2562}, -- ring of healing
+	{ id = 16119, chance = 3581}, -- blue crystal shard
+	{ id = 3328, chance = 2108}, -- daramian waraxe
+	{ id = 16120, chance = 4927}, -- violet crystal shard
+	{ id = 9632, chance = 2986}, -- ancient stone
+	{ id = 7642, chance = 4176, minCount = 12, maxCount = 24}, -- great spirit potion
+	{ id = 16121, chance = 3275}, -- green crystal shard
+	{ id = 22193, chance = 4930}, -- onyx chip
+	{ id = 22516, chance = 4531}, -- silver token
+	{ id = 8084, chance = 2667}, -- springsprout rod
+	{ id = 238, chance = 4525, minCount = 12, maxCount = 24}, -- great mana potion
+	{ id = 5892, chance = 2314}, -- huge chunk of crude iron
+	{ id = 11454, chance = 3750}, -- luminous orb
+	{ id = 3018, chance = 2802}, -- scarab amulet
+	{ id = 830, chance = 2030}, -- terra hood
+	{ id = 7643, chance = 2203, minCount = 12, maxCount = 24}, -- ultimate health potion
+	{ id = 3037, chance = 2686}, -- yellow gem
+	{ id = 3041, chance = 1924}, -- blue gem
+	{ id = 7428, chance = 4079}, -- bonebreaker
+	{ id = 3339, chance = 3528}, -- djinn blade
+	{ id = 281, chance = 3572}, -- giant shimmering pearl
+	{ id = 22721, chance = 4001}, -- gold token
+	{ id = 3039, chance = 2743}, -- red gem
+	{ id = 3042, chance = 3092}, -- scarab coin
+	{ id = 3440, chance = 3306}, -- scarab shield
+	{ id = 3033, chance = 2840}, -- small amethyst
+	{ id = 3028, chance = 4146}, -- small diamond
+	{ id = 3032, chance = 2379}, -- small emerald
+	{ id = 3030, chance = 2382}, -- small ruby
+	{ id = 9057, chance = 2670}, -- small topaz
+	{ id = 8082, chance = 2956}, -- underworld rod
+	{ id = 27655, chance = 3708}, -- plan for a makeshift armour
+	{ id = 27657, chance = 4823}, -- crude wood planks
+	{ id = 27656, chance = 3202}, -- tinged pot
+	{ id = 8054, chance = 2545}, -- earthborn titan armor
+	{ id = 5904, chance = 4029}, -- magic sulphur
+	{ id = 812, chance = 3617}, -- terra legs
+	{ id = 9631, chance = 1698}, -- scarab pincers
+	{ id = 3043, chance = 2511}, -- crystal coin
+	{ id = 5891, chance = 3316}, -- enchanted chicken wing
+	{ id = 811, chance = 3472}, -- terra mantle
+	{ id = 3046, chance = 2164}, -- magic light wand
+	{ id = 12304, chance = 3281}, -- maxilla maximus
+	{ id = 3038, chance = 2907}, -- green gem
+	{ id = 3036, chance = 2003}, -- violet gem
+	{ id = 13998, chance = 4838}, -- depth scutum
+	{ id = 3025, chance = 3466}, -- ancient amulet
+	{ id = 14042, chance = 4859}, -- warrior's shield
+	{ id = 21981, chance = 4400}, -- oriental shoes
+	{ id = 27605, chance = 4999}, -- candle stump
+	{ id = 7382, chance = 4441}, -- demonrage sword
+	{ id = 3331, chance = 1951}, -- ravager's axe
+	{ id = 12509, chance = 3105}, -- scorpion sceptre
+	{ id = 8053, chance = 4176}, -- fireborn giant armor
+	{ id = 8062, chance = 3439}, -- robe of the underworld
+	{ id = 50176, chance = 1843}, -- depth claws
 	{ name = "gold token", maxCount = 3, chance = 5000 },
 }
 
@@ -120,5 +160,11 @@ monster.immunities = {
 	{ type = "invisible", condition = true },
 	{ type = "bleed", condition = false },
 }
+
+mType.onAppear = function(monster, creature)
+	if monster:getType():isRewardBoss() then
+		monster:setReward(true)
+	end
+end
 
 mType:register(monster)
