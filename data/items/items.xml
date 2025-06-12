@@ -81606,7 +81606,7 @@
 		<attribute key="primarytype" value="creature products"/>
 		<attribute key="weight" value="1"/>
 	</item>
-	<item id="65021" article="a" name="essence of mana">
+	<item id="65021" article="a" name="heart of phoenix">
 		<attribute key="primarytype" value="creature products"/>
 		<attribute key="weight" value="1"/>
 	</item>
@@ -85545,5 +85545,8 @@
 	<item id="50096" article="a" name="ticket forge">
 		<attribute key="duration" value="20"/>
 		<attribute key="containerSize" value="20"/>
+	</item>
+	<item id="48481" article="a" name="mount contract">
+		<attribute key="duration" value="20"/>
 	</item>
 </items>

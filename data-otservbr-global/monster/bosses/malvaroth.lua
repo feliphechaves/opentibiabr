@@ -118,10 +118,8 @@ monster.loot = {
 	{ name = "golden legs", chance = 5000 },
 	{ name = "magic plate armor", chance = 5000 },
 	{ name = "gold token", chance = 5000, maxCount = 5 },
-
 	{ id = 4115, chance = 100 },
-
-
+	{ name = "heart of phoenix", chance = 100 },
 }
 
 monster.attacks = {

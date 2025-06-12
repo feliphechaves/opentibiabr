@@ -641,7 +641,7 @@ GameStore.Categories = {
 			{
 				icons = {},
 				name = "Primal Demonosaur",
-				price = 4,
+				price = 10,
 				id = 232,
 				description = "Primal Demonosaur",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -651,7 +651,7 @@ GameStore.Categories = {
 			{
 				icons = {},
 				name = "Red Demonosaur",
-				price = 4,
+				price = 10,
 				id = 233,
 				description = "Red Demonosaur",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -661,7 +661,7 @@ GameStore.Categories = {
 			{
 				icons = {},
 				name = "Rock Demonosaur",
-				price = 4,
+				price = 10,
 				id = 234,
 				description = "Rock Demonosaur",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -719,47 +719,9 @@ GameStore.Categories = {
 				offerstate = GameStore.States.STATE_NEW,
 			},
 			{
-				icons = {},
-				name = "Corpse Phoenix",
-				price = 10,
-				id = 245,
-				description = "Corpse Phoenix",
-				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
-				home = true,
-				offerstate = GameStore.States.STATE_NEW,
-			},
-			{
-				icons = {},
-				name = "Death Phoenix",
-				price = 10,
-				id = 246,
-				description = "Death Phoenix",
-				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
-				home = true,
-				offerstate = GameStore.States.STATE_NEW,
-			},
-			{
-				icons = {},
-				name = "Soul Phoenix",
-				price = 10,
-				id = 247,
-				description = "Soul Phoenix",
-				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
-				home = true,
-				offerstate = GameStore.States.STATE_NEW,
-			},
-			{
-				icons = { "singeing_steed.png" },
-				name = "Singeing Steed",
-				price = 3,
-				id = 184,
-				description = "Singeing Steed\n{speedboost}\n\n<i>The Singeing Steed is a fiery horse that will carry you through the Tibian wilderness with ease. It is said that the steed was born from the flames of a dragon's breath. The steed is a loyal companion and will never leave your side.</i>",
-				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
-			},
-			{
 				icons = { "Armoured_War_Horse.png" },
 				name = "Armoured War Horse",
-				price = 3,
+				price = 5,
 				id = 23,
 				description = "{character}\n{speedboost}\n\n<i>The Armoured War Horse is a dangerous black beauty! When you see its threatening, blood-red eyes coming towards you, you'll know trouble is on its way. Protected by its heavy armour plates, the warhorse is the perfect partner for dangerous hunting sessions and excessive enemy slaughtering.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -767,7 +729,7 @@ GameStore.Categories = {
 			{
 				icons = { "Arctic_Unicorn.png" },
 				name = "Artic Unicorn",
-				price = 3,
+				price = 5,
 				id = 114,
 				description = "{character}\n{speedboost}\n\n<i>The Arctic Unicorn lives in a deep rivalry with its cousin the Blazing Unicorn. Even though they were born in completely different areas, they somehow share the same bloodline. The eternal battle between fire and ice continues. Who will win? Tangerine vs.crystal blue! The choice is yours!</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -799,7 +761,7 @@ GameStore.Categories = {
 			{
 				icons = { "Blackpelt.png" },
 				name = "Blackpelt",
-				price = 3,
+				price = 4,
 				id = 58,
 				description = "{character}\n{speedboost}\n\n<i>The Blackpelt is out searching for the best bamboo in Tibia. Its heavy armour allows it to visit even the most dangerous places. Treat it nicely with its favourite food from time to time and it will become a loyal partner.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -807,7 +769,7 @@ GameStore.Categories = {
 			{
 				icons = { "Blazing_Unicorn.png" },
 				name = "Blazing Unicorn",
-				price = 3,
+				price = 5,
 				id = 113,
 				description = "{character}\n{speedboost}\n\n<i>The Blazing Unicorn lives in a deep rivalry with its cousin the Arctic Unicorn. Even though they were born in completely different areas, they somehow share the same bloodline. The eternal battle between fire and ice continues. Who will win? Crystal blue vs. tangerine! The choice is yours!</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -815,7 +777,7 @@ GameStore.Categories = {
 			{
 				icons = { "Bloodcurl.png" },
 				name = "Bloodcurl",
-				price = 3,
+				price = 4,
 				id = 92,
 				description = "{character}\n{speedboost}\n\n<i>You are fascinated by insectoid creatures and can picture yourself riding one during combat or just for travelling? The Bloodcurl will carry you through the Tibian wilderness with ease.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -823,7 +785,7 @@ GameStore.Categories = {
 			{
 				icons = { "Bogwurm.png" },
 				name = "Bogwurm",
-				price = 3,
+				price = 5,
 				id = 189,
 				description = "{character}\n{speedboost}\n\n<i>The Bogwurm, Gloomwurm, and Rustwurm belong to a little known subset of the dragon family, and usually live out their lives in habitats far away from human interaction. Them being cunning hunters, and their keen sense of perception make these wurms great companions for whomever can locate and tame them.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -839,7 +801,7 @@ GameStore.Categories = {
 			{
 				icons = { "Brass_Speckled_Koi.png" },
 				name = "Brass Speckled Koi",
-				price = 3,
+				price = 4,
 				id = 208,
 				description = "{character}\n{speedboost}\n\n<i>The vibrant colours and elegance of a Tangerine Flecked Koi, a Brass Speckled Koi, and an Ink Spotted Koi make them a fascinating sight to behold, and their boisterous nature and speed will make you the first to arrive wherever there are riches to gain. Wield your weapon as gracefully and effortlessly as your swimming companion glides through the water, and the two of you will make the perfect and most deadly pair.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -855,7 +817,7 @@ GameStore.Categories = {
 			{
 				icons = { "Caped_Snowman.png" },
 				name = "Caped Snowman",
-				price = 3,
+				price = 4,
 				id = 137,
 				description = "{character}\n{speedboost}\n\n<i>When the nights are getting longer and freezing wind brings driving snow into the land, snowmen rise and shine on every corner. Lately, a peaceful, arcane creature has found shelter in one of them and used its magical power to call the Caped Snowman into being. Wrap yourself up well and warmly and jump on the back of your new frosty companion.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -919,7 +881,7 @@ GameStore.Categories = {
 			{
 				icons = { "Corpsefire_Skull.png" },
 				name = "Corpsefire Skull",
-				price = 3,
+				price = 5,
 				id = 221,
 				description = "{character}\n{speedboost}\n\n<i>Skulls are the infernal heralds of untamed power. Bodies are obsolete when sinister forces animate your being. Embrace their presence and command the devastating might that awaits on the back of an eerie Corpsefire Skull!</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -959,7 +921,7 @@ GameStore.Categories = {
 			{
 				icons = { "Darkfire_Devourer.png" },
 				name = "Darkfire Devourer",
-				price = 3,
+				price = 5,
 				id = 216,
 				description = "{character}\n{speedboost}\n\n<i>A wild, ancient creature, which had been hiding in the depths of the shadows for a very long time, has been spotted in Tibia again! The almighty Shadow Draptor has returned and only the bravest Tibians can control such a beast!</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -967,7 +929,7 @@ GameStore.Categories = {
 			{
 				icons = { "Dawn_Strayer.png" },
 				name = "Dawn Strayer",
-				price = 3,
+				price = 4,
 				id = 166,
 				description = "{character}\n{speedboost}\n\n<i>A magical fire burns inside these wolves. Bred as the faithful guardians for an eccentric wizard's tower, these creatures make for loyal companions during your travels. While not originally intended for riding, their sturdy frame makes the Dawn Strayer, Dusk Pryer and Snow Strider suitable mounts.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -983,7 +945,7 @@ GameStore.Categories = {
 			{
 				icons = { "Desert_King.png" },
 				name = "Desert King",
-				price = 3,
+				price = 4,
 				id = 41,
 				description = "{character}\n{speedboost}\n\n<i>Its roaring is piercing marrow and bone and can be heard over ten miles away. The Desert King is the undisputed ruler of its territory and no one messes with this animal. Show no fear and prove yourself worthy of its trust and you will get yourself a valuable companion for your adventures.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -991,7 +953,7 @@ GameStore.Categories = {
 			{
 				icons = { "Doom_Skull.png" },
 				name = "Doom Skull",
-				price = 3,
+				price = 5,
 				id = 219,
 				description = "{character}\n{speedboost}\n\n<i>Skulls are the infernal heralds of untamed power. Bodies are obsolete when sinister forces animate your being. Embrace their presence and command the devastating might that awaits on the back of a grim Doom Skull.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1015,7 +977,7 @@ GameStore.Categories = {
 			{
 				icons = { "Dusk_Pryer.png" },
 				name = "Dusk Pryer",
-				price = 3,
+				price = 4,
 				id = 165,
 				description = "{character}\n{speedboost}\n\n<i>A magical fire burns inside these wolves. Bred as the faithful guardians for an eccentric wizard's tower, these creatures make for loyal companions during your travels. While not originally intended for riding, their sturdy frame makes the Dawn Strayer, Dusk Pryer and Snow Strider suitable mounts.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1023,7 +985,7 @@ GameStore.Categories = {
 			{
 				icons = { "Ebony_Tiger.png" },
 				name = "Ebony Tiger",
-				price = 3,
+				price = 4,
 				id = 123,
 				description = "{character}\n{speedboost}\n\n<i>It is said that in ancient times, the sabre-tooth tiger was already used as a mount by elder warriors of Svargrond. As seafaring began to expand, this noble big cat was also transported to other regions in Tibia. Influenced by the new environment and climatic changes, the fur of the Ebony Tiger has developed its extraordinary colouring over several generations.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1031,7 +993,7 @@ GameStore.Categories = {
 			{
 				icons = { "Ember_Saurian.png" },
 				name = "Ember Saurian",
-				price = 3,
+				price = 4,
 				id = 111,
 				description = "{character}\n{speedboost}\n\n<i>Thousands of years ago, its ancestors ruled the world. Only recently, it found its way into Tibia. The Ember Saurian has been spotted in a sea of flames and fire deep down in the depths of Kazordoon.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1039,7 +1001,7 @@ GameStore.Categories = {
 			{
 				icons = { "Emerald_Raven.png" },
 				name = "Emerald Raven",
-				price = 3,
+				price = 5,
 				id = 191,
 				description = "{character}\n{speedboost}\n\n<i>The origins of the Emerald Raven, Mystic Raven, and Radiant Raven are shrouded in darkness, as no written record nor tale told by even the most knowing storytellers mentions but a trace of them. Superstition surrounds them, as some see these gigantic birds as an echo of a long forgotten past, while others believe them to herald hitherto unknown events. What is clear is that they are highly intelligent beings which make great companions if they deem somebody worthy.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1047,7 +1009,7 @@ GameStore.Categories = {
 			{
 				icons = { "Emerald_Sphinx.png" },
 				name = "Emerald Sphinx",
-				price = 3,
+				price = 5,
 				id = 108,
 				description = "{character}\n{speedboost}\n\n<i>Ride an Emerald Sphinx on your way through ancient chambers and tombs and have a loyal friend by your side while fighting countless mummies and other creatures.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1055,7 +1017,7 @@ GameStore.Categories = {
 			{
 				icons = { "Emerald_Waccoon.png" },
 				name = "Emerald Waccoon",
-				price = 3,
+				price = 5,
 				id = 70,
 				description = "{character}\n{speedboost}\n\n<i>Waccoons are cuddly creatures that love nothing more than to be petted and snuggled! Share a hug, ruffle the fur of the Emerald Waccoon and scratch it behind its ears to make it happy.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1087,7 +1049,7 @@ GameStore.Categories = {
 			{
 				icons = { "Feral_Tiger.png" },
 				name = "Feral Tiger",
-				price = 3,
+				price = 4,
 				id = 124,
 				description = "{character}\n{speedboost}\n\n<i>It is said that in ancient times, the sabre-tooth tiger was already used as a mount by elder warriors of Svargrond. As seafaring began to expand, this noble big cat was also transported to other regions in Tibia. Influenced by the new environment and climatic changes, the fur of the Feral Tiger has developed its extraordinary colouring over several generations.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1095,7 +1057,7 @@ GameStore.Categories = {
 			{
 				icons = { "Festive_Mammoth.png" },
 				name = "Festive Mammoth",
-				price = 3,
+				price = 4,
 				id = 178,
 				description = "{character}\n{speedboost}\n\n<i>The Festive Mammoth, Holiday Mammoth and Merry Mammoth are gentle giants with a massive appearance and impressive tusks, whose mission it is to deliver gifts all across Tibia. They are good-natured beings, spreading joy wherever they go, but you best not cross them - a mammoth never forgets.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1103,7 +1065,7 @@ GameStore.Categories = {
 			{
 				icons = { "Festive_Snowman.png" },
 				name = "Festive Snowman",
-				price = 3,
+				price = 4,
 				id = 135,
 				description = "{character}\n{speedboost}\n\n<i>When the nights are getting longer and freezing wind brings driving snow into the land, snowmen rise and shine on every corner. Lately, a peaceful, arcane creature has found shelter in one of them and used its magical power to call the Festive Snowman into being. Wrap yourself up well and warmly and jump on the back of your new frosty companion.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1111,7 +1073,7 @@ GameStore.Categories = {
 			{
 				icons = { "Flamesteed.png" },
 				name = "Flamesteed",
-				price = 3,
+				price = 6,
 				id = 47,
 				description = "{character}\n{speedboost}\n\n<i>Once a majestic and proud warhorse, the Flamesteed has fallen in a horrible battle many years ago. Driven by agony and pain, its spirit once again took possession of its rotten corpse to avenge its death. Stronger than ever, it seeks a master to join the battlefield, aiming for nothing but death and destruction.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1159,7 +1121,7 @@ GameStore.Categories = {
 			{
 				icons = { "Flying_Divan.png" },
 				name = "Flying Divan",
-				price = 3,
+				price = 7,
 				id = 65,
 				description = "{character}\n{speedboost}\n\n<i>The Flying Divan is the perfect mount for those who are too busy to take care of an animal mount or simply like to travel on a beautiful, magic hand-woven carpet.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1167,7 +1129,7 @@ GameStore.Categories = {
 			{
 				icons = { "Foxmouse.png" },
 				name = "Foxmouse",
-				price = 3,
+				price = 4,
 				id = 218,
 				description = "{character}\n{speedboost}\n\n<i>A wild, ancient creature, which had been hiding in the depths of the shadows for a very long time, has been spotted in Tibia again! The almighty Shadow Draptor has returned and only the bravest Tibians can control such a beast!</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1175,7 +1137,7 @@ GameStore.Categories = {
 			{
 				icons = { "Frostbringer.png" },
 				name = "Frostbringer",
-				price = 3,
+				price = 4,
 				id = 210,
 				description = "{character}\n{speedboost}\n\n<i>Tenacity, strength and loyalty are the hallmarks of a Frostbringer, a Winterstride or an Icebreacher. Those travelling through barren lands, pursuing goals in forbidding environments, or simply wanting a comrade for a lifetime should fall back on this stalwart companion.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1207,7 +1169,7 @@ GameStore.Categories = {
 			{
 				icons = { "Gloomwurm.png" },
 				name = "Gloomwurm",
-				price = 3,
+				price = 5,
 				id = 190,
 				description = "{character}\n{speedboost}\n\n<i>The Bogwurm, Gloomwurm, and Rustwurm belong to a little known subset of the dragon family, and usually live out their lives in habitats far away from human interaction. Them being cunning hunters, and their keen sense of perception make these wurms great companions for whomever can locate and tame them.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1231,14 +1193,14 @@ GameStore.Categories = {
 			{
 				icons = { "Gorongra.png" },
 				name = "Gorongra",
-				price = 3,
+				price = 4,
 				id = 81,
 				description = "{character}\n{speedboost}\n\n<i>Get yourself a mighty travelling companion with broad shoulders and a gentle heart. Gorongra is a physically imposing creature that is much more peaceful than its relatives, Tiquanda's wild kongras, and will carry you safely wherever you ask it to go.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
 			{
 				icons = { "Hailstorm_Fury.png" },
-				name = "Hailtorm Fury",
+				name = "Hailstorm Fury",
 				price = 3,
 				id = 55,
 				description = "{character}\n{speedboost}\n\n<i>Once captured and held captive by a mad hunter, the Hailstorm Fury is the result of sick experiments. Fed only with demon dust and concentrated demonic blood it had to endure a dreadful transformation. The demonic blood that is now running through its veins, however, provides it with incredible strength and endurance.</i>",
@@ -1255,7 +1217,7 @@ GameStore.Categories = {
 			{
 				icons = { "Holiday_Mammoth.png" },
 				name = "Holiday Mammoth",
-				price = 3,
+				price = 4,
 				id = 177,
 				description = "{character}\n{speedboost}\n\n<i>The Festive Mammoth, Holiday Mammoth and Merry Mammoth are gentle giants with a massive appearance and impressive tusks, whose mission it is to deliver gifts all across Tibia. They are good-natured beings, spreading joy wherever they go, but you best not cross them - a mammoth never forgets.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1271,7 +1233,7 @@ GameStore.Categories = {
 			{
 				icons = { "Icebreacher.png" },
 				name = "Icebreacher",
-				price = 3,
+				price = 4,
 				id = 212,
 				description = "{character}\n{speedboost}\n\n<i>Tenacity, strength and loyalty are the hallmarks of a Frostbringer, a Winterstride or an Icebreacher. Those travelling through barren lands, pursuing goals in forbidding environments, or simply wanting a comrade for a lifetime should fall back on this stalwart companion.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1279,7 +1241,7 @@ GameStore.Categories = {
 			{
 				icons = { "Ink_Spotted_Koi.png" },
 				name = "Ink Spotted Koi",
-				price = 3,
+				price = 4,
 				id = 209,
 				description = "{character}\n{speedboost}\n\n<i>The vibrant colours and elegance of a Tangerine Flecked Koi, a Brass Speckled Koi, and an Ink Spotted Koi make them a fascinating sight to behold, and their boisterous nature and speed will make you the first to arrive wherever there are riches to gain. Wield your weapon as gracefully and effortlessly as your swimming companion glides through the water, and the two of you will make the perfect and most deadly pair.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1343,7 +1305,7 @@ GameStore.Categories = {
 			{
 				icons = { "Jungle_Tiger.png" },
 				name = "Jungle Tiger",
-				price = 3,
+				price = 4,
 				id = 125,
 				description = "{character}\n{speedboost}\n\n<i>It is said that in ancient times, the sabre-tooth tiger was already used as a mount by elder warriors of Svargrond. As seafaring began to expand, this noble big cat was also transported to other regions in Tibia. Influenced by the new environment and climatic changes, the fur of the Jungle Tiger has developed its extraordinary colouring over several generations.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1367,7 +1329,7 @@ GameStore.Categories = {
 			{
 				icons = { "Magic_Carpet.png" },
 				name = "Magic Carpet",
-				price = 3,
+				price = 6,
 				id = 66,
 				description = "{character}\n{speedboost}\n\n<i>The Magic Carpet is the perfect mount for those who are too busy to take care of an animal mount or simply like to travel on a beautiful, magic hand-woven carpet.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1375,7 +1337,7 @@ GameStore.Categories = {
 			{
 				icons = { "Magma_Skull.png" },
 				name = "Magma Skull",
-				price = 3,
+				price = 5,
 				id = 220,
 				description = "{character}\n{speedboost}\n\n<i>Skulls are the infernal heralds of untamed power. Bodies are obsolete when sinister forces animate your being. Embrace their presence and command the devastating might that awaits on the back of a blazing Magma Skull.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1391,7 +1353,7 @@ GameStore.Categories = {
 			{
 				icons = { "Merry_Mammoth.png" },
 				name = "Merry Mammoth",
-				price = 3,
+				price = 4,
 				id = 176,
 				description = "{character}\n{speedboost}\n\n<i>The Festive Mammoth, Holiday Mammoth and Merry Mammoth are gentle giants with a massive appearance and impressive tusks, whose mission it is to deliver gifts all across Tibia. They are good-natured beings, spreading joy wherever they go, but you best not cross them - a mammoth never forgets.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1423,7 +1385,7 @@ GameStore.Categories = {
 			{
 				icons = { "Muffled_Snowman.png" },
 				name = "Muffled Snowman",
-				price = 3,
+				price = 5,
 				id = 136,
 				description = "{character}\n{speedboost}\n\n<i>When the nights are getting longer and freezing wind brings driving snow into the land, snowmen rise and shine on every corner. Lately, a peaceful, arcane creature has found shelter in one of them and used its magical power to call the Muffled Snowman into being. Wrap yourself up well and warmly and jump on the back of your new frosty companion.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1431,7 +1393,7 @@ GameStore.Categories = {
 			{
 				icons = { "Mystic_Raven.png" },
 				name = "Mystic Raven",
-				price = 3,
+				price = 5,
 				id = 192,
 				description = "{character}\n{speedboost}\n\n<i>The origins of the Emerald Raven, Mystic Raven, and Radiant Raven are shrouded in darkness, as no written record nor tale told by even the most knowing storytellers mentions but a trace of them. Superstition surrounds them, as some see these gigantic birds as an echo of a long forgotten past, while others believe them to herald hitherto unknown events. What is clear is that they are highly intelligent beings which make great companions if they deem somebody worthy.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1439,7 +1401,7 @@ GameStore.Categories = {
 			{
 				icons = { "Nethersteed.png" },
 				name = "Nethersteed",
-				price = 3,
+				price = 5,
 				id = 50,
 				description = "{character}\n{speedboost}\n\n<i>Once a majestic and proud warhorse, the Nethersteed has fallen in a horrible battle many years ago. Driven by agony and pain, its spirit once again took possession of its rotten corpse to avenge its death. Stronger than ever, it seeks a master to join the battlefield, aiming for nothing but death and destruction.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1479,7 +1441,7 @@ GameStore.Categories = {
 			{
 				icons = { "Noctungra.png" },
 				name = "Noctungra",
-				price = 3,
+				price = 4,
 				id = 82,
 				description = "{character}\n{speedboost}\n\n<i>Get yourself a mighty travelling companion with broad shoulders and a gentle heart. Noctungra is a physically imposing creature that is much more peaceful than its relatives, Tiquanda's wild kongras, and will carry you safely wherever you ask it to go.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1495,7 +1457,7 @@ GameStore.Categories = {
 			{
 				icons = { "Parade_Horse.png" },
 				name = "Parade Horse",
-				price = 3,
+				price = 4,
 				id = 203,
 				description = "{character}\n{speedboost}\n\n<i>A seasoned warrior knows how to make an entry, and so does his faithful companion: Fully armored! Saddle up your impressive Jousting Horse to charge into battle in style, gallop into the arena on the back of your striking Tourney Horse, and ride your distinguished Parade Horse through the streets of Thais to show off your chivalrous qualities. With a horse in full barding, nobody will ever rain on your parade again.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -1725,14 +1687,6 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
 			{
-				icons = { "Spirit_of_Purity.png" },
-				name = "Spirit of Purity",
-				price = 3,
-				id = 217,
-				description = "{character}\n{speedboost}\n\n<i>A wild, ancient creature, which had been hiding in the depths of the shadows for a very long time, has been spotted in Tibia again! The almighty Shadow Draptor has returned and only the bravest Tibians can control such a beast!</i>",
-				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
-			},
-			{
 				icons = { "Steel_Bee.png" },
 				name = "Steel Bee",
 				price = 3,
@@ -1892,44 +1846,12 @@ GameStore.Categories = {
 				description = "{character}\n{speedboost}\n\n<i>Badgers have been a staple of the Tibian fauna for a long time, and finally some daring souls have braved the challenge to tame some exceptional specimens - and succeeded! While the common badger you can encounter during your travels might seem like a rather unassuming creature, the Battle Badger, the Ether Badger, and the Zaoan Badger are fierce and mighty beasts, which are at your beck and call.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
-			-- {
-			-- 	icons = { "Night_Locust.png" },
-			-- 	name = "Night Locust",
-			-- 	price = 750,
-			-- 	id = 233,
-			-- 	description = "{character}\n{speedboost}\n\n<i>Born from the buzzing chaos of nature's most untamed corners, the Night Locust, Leaf Locust, and Pearl Locust are said to be harbingers of fortune for their allies and heralds of despair for their foes. With their vibrant wings and shimmering shells, these eerie yet majestic creatures are exceptional mounts for adventurers who thrive in the wilds.</i>",
-			-- 	type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
-			-- },
-			-- {
-			-- 	icons = { "Leaf_Locust.png" },
-			-- 	name = "Leaf Locust",
-			-- 	price = 750,
-			-- 	id = 234,
-			-- 	description = "{character}\n{speedboost}\n\n<i>Born from the buzzing chaos of nature's most untamed corners, the Night Locust, Leaf Locust, and Pearl Locust are said to be harbingers of fortune for their allies and heralds of despair for their foes. With their vibrant wings and shimmering shells, these eerie yet majestic creatures are exceptional mounts for adventurers who thrive in the wilds.</i>",
-			-- 	type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
-			-- },
-			-- {
-			-- 	icons = { "Pearl_Locust.png" },
-			-- 	name = "Pearl Locust",
-			-- 	price = 750,
-			-- 	id = 235,
-			-- 	description = "{character}\n{speedboost}\n\n<i>Born from the buzzing chaos of nature's most untamed corners, the Night Locust, Leaf Locust, and Pearl Locust are said to be harbingers of fortune for their allies and heralds of despair for their foes. With their vibrant wings and shimmering shells, these eerie yet majestic creatures are exceptional mounts for adventurers who thrive in the wilds.</i>",
-			-- 	type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
-			-- },
 			{
 				icons = { "Widow_Queen.png" },
 				name = "Widow Queen",
 				price = 3,
 				id = 368,
 				description = "Widow Queen",
-				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
-			},
-			{
-				icons = { "Midnight_Panther.png" },
-				name = "Midnight Panther",
-				price = 3,
-				id = 5,
-				description = "Midnight Panther",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
 			{
@@ -1979,14 +1901,6 @@ GameStore.Categories = {
 				price = 3,
 				id = 378,
 				description = "Stampor",
-				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
-			},
-			{
-				icons = { "Undead_Cavebear.png" },
-				name = "Undead Cavebear",
-				price = 3,
-				id = 379,
-				description = "Undead Cavebear",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
 			{
@@ -2040,7 +1954,7 @@ GameStore.Categories = {
 			{
 				icons = { "Scorpion_King.png" },
 				name = "Scorpion King",
-				price = 3,
+				price = 4,
 				id = 21,
 				description = "Scorpion King",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -2080,7 +1994,7 @@ GameStore.Categories = {
 			{
 				icons = { "Dragonling.png" },
 				name = "Dragonling",
-				price = 3,
+				price = 4,
 				id = 31,
 				description = "Dragonling",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -2112,7 +2026,7 @@ GameStore.Categories = {
 			{
 				icons = { "The_Hellgrip.png" },
 				name = "The Hellgrip",
-				price = 3,
+				price = 7,
 				id = 39,
 				description = "The Hellgrip",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -2120,7 +2034,7 @@ GameStore.Categories = {
 			{
 				icons = { "Noble_Lion.png" },
 				name = "Noble Lion",
-				price = 3,
+				price = 4,
 				id = 40,
 				description = "Noble Lion",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -2142,38 +2056,6 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
 			{
-				icons = { "Rift_Runner.png" },
-				name = "Rift Runner",
-				price = 3,
-				id = 87,
-				description = "Rift Runner",
-				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
-			},
-			{
-				icons = { "Sparkion.png" },
-				name = "Sparkion",
-				price = 3,
-				id = 94,
-				description = "Sparkion",
-				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
-			},
-			{
-				icons = { "Neon_Sparkid.png" },
-				name = "Neon Sparkid",
-				price = 3,
-				id = 98,
-				description = "Neon Sparkid",
-				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
-			},
-			{
-				icons = { "Vortexion.png" },
-				name = "Vortexion",
-				price = 3,
-				id = 99,
-				description = "Vortexion",
-				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
-			},
-			{
 				icons = { "Stone_Rhino.png" },
 				name = "Stone Rhino",
 				price = 3,
@@ -2187,14 +2069,6 @@ GameStore.Categories = {
 				price = 3,
 				id = 119,
 				description = "Mole",
-				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
-			},
-			{
-				icons = { "Fleeting_Knowledge.png" },
-				name = "Fleeting Knowledge",
-				price = 3,
-				id = 126,
-				description = "Fleeting Knowledge",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
 			{
@@ -2240,7 +2114,7 @@ GameStore.Categories = {
 			{
 				icons = { "Gryphon.png" },
 				name = "Gryphon",
-				price = 3,
+				price = 4,
 				id = 144,
 				description = "Gryphon",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -2320,7 +2194,7 @@ GameStore.Categories = {
 			{
 				icons = { "Haze.png" },
 				name = "Haze",
-				price = 3,
+				price = 5,
 				id = 162,
 				description = "Haze",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -2331,14 +2205,6 @@ GameStore.Categories = {
 				price = 3,
 				id = 163,
 				description = "Antelope",
-				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
-			},
-			{
-				icons = { "Phantasmal_Jade.png" },
-				name = "Phantasmal Jade",
-				price = 3,
-				id = 167,
-				description = "Phantasmal Jade",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
 			{
@@ -2384,7 +2250,7 @@ GameStore.Categories = {
 			{
 				icons = { "Mystic_Jaguar.png" },
 				name = "Mystic Jaguar",
-				price = 3,
+				price = 4,
 				id = 222,
 				description = "Mystic Jaguar",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -2392,7 +2258,7 @@ GameStore.Categories = {
 			{
 				icons = { "Pegasus.png" },
 				name = "Dawnbringer Pegasus",
-				price = 3,
+				price = 5,
 				id = 224,
 				description = "Dawnbringer Pegasus",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -2400,7 +2266,7 @@ GameStore.Categories = {
 			{
 				icons = { "Wrathfire Pegasus.png" },
 				name = "Wrathfire Pegasus",
-				price = 3,
+				price = 5,
 				id = 225,
 				description = "Wrathfire Pegasus",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -2408,7 +2274,7 @@ GameStore.Categories = {
 			{
 				icons = { "Skybreaker Pegasus.png" },
 				name = "Skybreaker Pegasus",
-				price = 3,
+				price = 5,
 				id = 226,
 				description = "Skybreaker Pegasus",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -2416,7 +2282,7 @@ GameStore.Categories = {
 			{
 				icons = { "Pegasus.png" },
 				name = "Pegasus",
-				price = 3,
+				price = 5,
 				id = 227,
 				description = "Pegasus",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
@@ -2982,15 +2848,6 @@ GameStore.Categories = {
 			 	type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
 				home = true,
 				state = GameStore.States.STATE_NEW,
-			},
-			{
-				icons = { "Outfit_Mage_Male.png", "Outfit_Mage_Female.png" },
-				name = "Full Mage Outfit",
-				price = 30,
-				sexId = { female = 138, male = 130 },
-				addon = 3,
-				description = "{character}\n{info} colours can be changed using the Outfit dialog\n\n<i>You are fearless and strong as a behemoth but have problems finding the right outfit for your adventures? The Mage outfit is a must-have for all fashion-conscious old-school Tibians out there.</i>",
-				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
 			},
 			{
 				icons = { "Outfit_Summoner_Male.png", "Outfit_Summoner_Female.png" },
@@ -7236,6 +7093,17 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 				state = GameStore.States.STATE_NEW,
 				movable = true,
+			},
+			{
+				icons = { "random_mount_box.png" },
+				name = "Mount Contract",
+				price = 5,
+				itemtype = 48481,
+				charges = 1,
+				description = "<i>Use esse item e receba uma mount que voce nao tenha ainda!</i>\n Uso unico. Item eh consumido ao ser usado.",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				state = GameStore.States.STATE_NEW,
+				home = true,
 			},
 			-- {
 			-- 	icons = {},

@@ -125,12 +125,9 @@ monster.loot = {
 	{ name = "demonrage sword", chance = 5000 },
 	{ name = "golden legs", chance = 5000 },
 	{ name = "magic plate armor", chance = 5000 },
-	
 	{ name = "gold token", chance = 5000, maxCount = 10 },
-
 	{ id = 4115, chance = 500 },
-
-
+	{ name = "heart of phoenix", chance = 500 },
 }
 
 monster.attacks = {
