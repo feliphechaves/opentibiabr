@@ -42257,6 +42257,14 @@
 		<attribute key="imbuementslot" value="2">
 			<attribute key="increase capacity" value="4"/>
 			<attribute key="skillboost magic level" value="4"/>
+			<attribute key="life leech" value="4"/>
+			<attribute key="mana leech" value="4"/>
+			<attribute key="elemental protection death" value="4"/>
+			<attribute key="elemental protection earth" value="4"/>
+			<attribute key="elemental protection fire" value="4"/>
+			<attribute key="elemental protection ice" value="4"/>
+			<attribute key="elemental protection energy" value="4"/>
+			<attribute key="elemental protection holy" value="4"/>
 		</attribute>
 		<attribute key="description" value="An ominous aura surrounds this backpack. It drains the arcane forces of death to empower its wielder."/>
 		<attribute key="script" value="moveevent">
@@ -42285,6 +42293,14 @@
 		<attribute key="imbuementslot" value="2">
 			<attribute key="increase capacity" value="4"/>
 			<attribute key="skillboost magic level" value="4"/>
+			<attribute key="life leech" value="4"/>
+			<attribute key="mana leech" value="4"/>
+			<attribute key="elemental protection death" value="4"/>
+			<attribute key="elemental protection earth" value="4"/>
+			<attribute key="elemental protection fire" value="4"/>
+			<attribute key="elemental protection ice" value="4"/>
+			<attribute key="elemental protection energy" value="4"/>
+			<attribute key="elemental protection holy" value="4"/>
 		</attribute>
 		<attribute key="description" value="A backpack infused with the pulse of nature. Grants powerful healing and protection from the wild elements."/>
 		<attribute key="script" value="moveevent">
@@ -42317,6 +42333,14 @@
 			<attribute key="skillboost sword" value="4"/>
 			<attribute key="skillboost axe" value="4"/>
 			<attribute key="skillboost club" value="4"/>
+			<attribute key="life leech" value="4"/>
+			<attribute key="mana leech" value="4"/>
+			<attribute key="elemental protection death" value="4"/>
+			<attribute key="elemental protection earth" value="4"/>
+			<attribute key="elemental protection fire" value="4"/>
+			<attribute key="elemental protection ice" value="4"/>
+			<attribute key="elemental protection energy" value="4"/>
+			<attribute key="elemental protection holy" value="4"/>
 		</attribute>
 		<attribute key="description" value="A brutal backpack worn by seasoned warriors. It fuels rage and enhances melee prowess while protecting against the harshest blows."/>
 		<attribute key="script" value="moveevent">
@@ -42344,6 +42368,14 @@
 		<attribute key="imbuementslot" value="2">
 			<attribute key="increase capacity" value="4"/>
 			<attribute key="skillboost distance" value="4"/>
+			<attribute key="life leech" value="4"/>
+			<attribute key="mana leech" value="4"/>
+			<attribute key="elemental protection death" value="4"/>
+			<attribute key="elemental protection earth" value="4"/>
+			<attribute key="elemental protection fire" value="4"/>
+			<attribute key="elemental protection ice" value="4"/>
+			<attribute key="elemental protection energy" value="4"/>
+			<attribute key="elemental protection holy" value="4"/>
 		</attribute>
 		<attribute key="description" value="This radiant backpack empowers divine archers with clarity and precision, offering powerful blessings against unholy threats."/>
 		<attribute key="script" value="moveevent">
@@ -42372,6 +42404,14 @@
 		<attribute key="imbuementslot" value="2">
 			<attribute key="increase capacity" value="4"/>
 			<attribute key="skillboost fist" value="4"/>
+			<attribute key="life leech" value="4"/>
+			<attribute key="mana leech" value="4"/>
+			<attribute key="elemental protection death" value="4"/>
+			<attribute key="elemental protection earth" value="4"/>
+			<attribute key="elemental protection fire" value="4"/>
+			<attribute key="elemental protection ice" value="4"/>
+			<attribute key="elemental protection energy" value="4"/>
+			<attribute key="elemental protection holy" value="4"/>
 		</attribute>
 		<attribute key="description" value="This radiant backpack empowers divine archers with clarity and precision, offering powerful blessings against unholy threats."/>
 		<attribute key="script" value="moveevent">

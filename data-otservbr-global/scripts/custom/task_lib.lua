@@ -213,6 +213,85 @@ taskConfiguration = {
 	},
 
 	{
+		name = "Burning Book",
+		category = 1,
+		color = 40,
+		total = 5000,
+		type = "repeatable",
+		storage = 190102,
+		storagecount = 190103,
+		rewards = {
+			{ "exp", 50000000 },
+			{ "gold", 10000000 },
+		},
+		races = {
+			"Burning Book",
+			"Guardian Of Tales",
+			"Flying Book",
+			"Rage Squid"
+		},
+	},
+
+	{
+		name = "Energetic Book",
+		category = 1,
+		color = 40,
+		total = 5000,
+		type = "repeatable",
+		storage = 190104,
+		storagecount = 190105,
+		rewards = {
+			{ "exp", 50000000 },
+			{ "gold", 10000000 },
+		},
+		races = {
+			"Energetic Book",
+			"Energuardian of Tales",
+			"Knowledge Elemental",
+			"Brain Squid"
+		},
+	},
+
+	{
+		name = "Icecold Book",
+		category = 1,
+		color = 40,
+		total = 5000,
+		type = "repeatable",
+		storage = 190106,
+		storagecount = 190107,
+		rewards = {
+			{ "exp", 50000000 },
+			{ "gold", 10000000 },
+		},
+		races = {
+			"Icecold Book",
+			"Animated Feather",
+			"Librarian",
+			"Squid Warden"
+		},
+	},
+
+	{
+		name = "Cursed Book",
+		category = 1,
+		color = 40,
+		total = 5000,
+		type = "repeatable",
+		storage = 190108,
+		storagecount = 190109,
+		rewards = {
+			{ "exp", 50000000 },
+			{ "gold", 10000000 },
+		},
+		races = {
+			"Cursed Book",
+			"Ink Blob",
+			"Biting Book"
+		},
+	},
+
+	{
 		name = "Rotten Man-Maggot",
 		category = 1,
 		color = 40,
@@ -563,63 +642,6 @@ taskConfiguration = {
 			"Harpy",
 		},
 	},
-	--[[
-	{
-        name = "Sanguine Ember Frost",
-        color = 40,
-        total = 12000,
-        type = "once",
-        storage = 190050,
-        storagecount = 190051,
-        rewards = {
-            { "level", 0 },
-            { "gold", 20000000},
-			{ 46626, 5 }, --greater fragment
-			{ 65020, 1} --essence of health
-        },
-        races = {
-        "Sanguine Ember",
-		"Sanguine Frost"
-        },
-    },
-    
-	{
-        name = "Sanguine Poison Energy",
-        color = 40,
-        total = 12000,
-        type = "once",
-        storage = 190052,
-        storagecount = 190053,
-        rewards = {
-            { "level", 0 },
-            { "gold", 20000000},
-			{ 46626, 5 }, --greater fragment
-			{ 65020, 1} --essence of health
-        },
-        races = {
-        "Sanguine Boulder",
-		"Sanguine Spark"
-        },
-    },
-	{
-        name = "Sanguine Holy Death",
-        color = 40,
-        total = 12000,
-        type = "once",
-        storage = 190054,
-        storagecount = 190055,
-        rewards = {
-            { "level", 0 },
-            { "gold", 20000000},
-			{ 46626, 5 }, --greater fragment
-			{ 65020, 1} --essence of health
-        },
-        races = {
-        "Sanguine Glow",
-		"Sanguine Shade"
-        },
-    },
-    ]]
 
 	{
 		name = "Ember Frost",
