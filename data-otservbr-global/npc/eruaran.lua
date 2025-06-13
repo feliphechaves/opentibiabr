@@ -161,7 +161,7 @@ local function dreamFirst(npc, creature, message, keywords, parameters, node)
 				npcHandler:say(newAddon, npc, creature)
 				player:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE)
 				player:addOutfitAddon(577, 1)
-				player:addOutfitAddon(577, 1)
+				player:addOutfitAddon(578, 1)
 				player:setStorageValue(storage + 1, 1)
 			end
 		else
@@ -182,7 +182,7 @@ local function dreamSecond(npc, creature, message, keywords, parameters, node)
 				npcHandler:say(newAddon, npc, creature)
 				player:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE)
 				player:addOutfitAddon(577, 2)
-				player:addOutfitAddon(577, 2)
+				player:addOutfitAddon(578, 2)
 				player:setStorageValue(storage, 1)
 			end
 		else
