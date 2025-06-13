@@ -102,7 +102,7 @@
 		<colors colordark="#235c00" colorlight="#2d7400" />
 		<details displaypriority="6" isseasonal="0" specialevent="0" />
 	</event>
-	<event name="Fast Exercise Weapon" startdate="06/13/2025" enddate="06/15/2025" script="" >
+	<event name="Fast Exercise Weapon" startdate="06/14/2025" enddate="06/15/2025" script="" >
 		<ingame exprate="100" lootrate="100" bosslootrate="100" spawnrate="100" skillrate="100" skillatackspeed="200"/>
 		<description description="Fast Exercise Weapon" />
 		<colors colordark="#235c00" colorlight="#2d7400" />
