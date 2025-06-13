@@ -20,6 +20,7 @@ void EventsSchedulerFunctions::init(lua_State* L) {
 	Lua::registerMethod(L, "EventsScheduler", "getEventSSkill", EventsSchedulerFunctions::luaEventsSchedulergetEventSSkill);
 	Lua::registerMethod(L, "EventsScheduler", "getEventSExp", EventsSchedulerFunctions::luaEventsSchedulergetEventSExp);
 	Lua::registerMethod(L, "EventsScheduler", "getSpawnMonsterSchedule", EventsSchedulerFunctions::luaEventsSchedulergetSpawnMonsterSchedule);
+	Lua::registerMethod(L, "EventsScheduler", "getEventSExerciseSpeed", EventsSchedulerFunctions::luaEventsSchedulergetEventSExerciseSpeed);
 }
 
 int EventsSchedulerFunctions::luaEventsSchedulergetEventSLoot(lua_State* L) {
@@ -49,5 +50,11 @@ int EventsSchedulerFunctions::luaEventsSchedulergetEventSExp(lua_State* L) {
 int EventsSchedulerFunctions::luaEventsSchedulergetSpawnMonsterSchedule(lua_State* L) {
 	// EventsScheduler.getSpawnMonsterSchedule
 	lua_pushnumber(L, g_eventsScheduler().getSpawnMonsterSchedule());
+	return 1;
+}
+
+int EventsSchedulerFunctions::luaEventsSchedulergetEventSExerciseSpeed(lua_State* L) {
+	// EventsScheduler.getEventSExerciseSpeed
+	lua_pushnumber(L, g_eventsScheduler().getExerciseSpeedSchedule());
 	return 1;
 }

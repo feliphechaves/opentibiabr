@@ -148,6 +148,9 @@ local function exerciseTrainingEvent(playerId, tilePosition, weaponId, dummyId)
 	local vocation = player:getVocation()
 
 	local rateExerciseTrainingSpeed = configManager.getFloat(configKeys.RATE_EXERCISE_TRAINING_SPEED)
+	if SCHEDULE_EXERCISE_TRAINING_SPEED ~= 100 then
+			rateExerciseTrainingSpeed = rateExerciseTrainingSpeed * (SCHEDULE_EXERCISE_TRAINING_SPEED / 100)
+	end
 
 	if table.contains(bonusDummyIds, dummyId) then
 		rateExerciseTrainingSpeed = rateExerciseTrainingSpeed * 1.3

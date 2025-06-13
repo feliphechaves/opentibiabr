@@ -19,4 +19,5 @@ private:
 	static int luaEventsSchedulergetEventSSkill(lua_State* L);
 	static int luaEventsSchedulergetEventSExp(lua_State* L);
 	static int luaEventsSchedulergetSpawnMonsterSchedule(lua_State* L);
+	static int luaEventsSchedulergetEventSExerciseSpeed(lua_State* L);
 };

@@ -89,6 +89,12 @@ bool EventsScheduler::loadScheduleEventFromXml() {
 				currentEventRates.skillrate = skillrate;
 				g_eventsScheduler().setSkillSchedule(skillrate);
 			}
+
+			if (ingameNode.attribute("skillatackspeed")) {
+				uint16_t speedrate = static_cast<uint16_t>(ingameNode.attribute("skillatackspeed").as_uint());
+				currentEventRates.skillatackspeed = speedrate;
+				g_eventsScheduler().setExerciseSpeedSchedule(speedrate);
+			}
 		}
 
 		for (const auto &[eventName, rates] : eventsOnSameDay) {
@@ -108,6 +114,9 @@ bool EventsScheduler::loadScheduleEventFromXml() {
 			}
 			if (rates.skillrate != 100 && currentEventRates.skillrate != 100 && rates.skillrate == currentEventRates.skillrate) {
 				modifiedRates.emplace_back("skillrate");
+			}
+			if (rates.skillatackspeed != 100 && currentEventRates.skillatackspeed != 100 && rates.skillatackspeed == currentEventRates.skillatackspeed) {
+				modifiedRates.emplace_back("skillatackspeed");
 			}
 
 			if (!modifiedRates.empty()) {

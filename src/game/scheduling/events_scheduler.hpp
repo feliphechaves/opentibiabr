@@ -24,6 +24,7 @@ struct EventRates {
 	uint32_t bosslootrate = 100;
 	uint32_t spawnrate = 100;
 	uint16_t skillrate = 100;
+	uint16_t skillatackspeed = 100;
 };
 
 class EventsScheduler {
@@ -77,12 +78,20 @@ public:
 		skillSchedule = (skillSchedule * skillrate) / 100;
 	}
 
+	uint16_t getExerciseSpeedSchedule() const {
+		return exerciseSpeedSchedule;
+	}
+	void setExerciseSpeedSchedule(uint16_t speedrate) {
+		exerciseSpeedSchedule = (exerciseSpeedSchedule * speedrate) / 100;
+	}
+
 private:
 	// Event schedule
 	uint16_t expSchedule = 100;
 	uint32_t lootSchedule = 100;
 	uint32_t bossLootSchedule = 100;
 	uint16_t skillSchedule = 100;
+	uint16_t exerciseSpeedSchedule = 100;
 	uint32_t spawnMonsterSchedule = 100;
 
 	std::vector<EventScheduler> eventScheduler;

@@ -64,6 +64,10 @@ function playerLoginGlobal.onLogin(player)
 		sendBoostMessage(player, "Skill Rate", SCHEDULE_SKILL_RATE > 100)
 	end
 
+	if SCHEDULE_EXERCISE_TRAINING_SPEED ~= 100 then
+		sendBoostMessage(player, "Exercise Speed", SCHEDULE_EXERCISE_TRAINING_SPEED > 100)
+	end
+
 	-- Send Recruiter Outfit
 	local resultId = db.storeQuery("SELECT `recruiter` FROM `accounts` WHERE `id`= " .. Game.getPlayerAccountId(getPlayerName(player)))
 	if resultId then
