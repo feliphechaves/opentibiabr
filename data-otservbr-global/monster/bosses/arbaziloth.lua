@@ -128,6 +128,8 @@ monster.loot = {
 	{ name = "gold token", chance = 5000, maxCount = 10 },
 	{ id = 4115, chance = 500 },
 	{ name = "heart of phoenix", chance = 500 },
+	{ name = "mount contract", chance = 100 },
+	{ name = "addon doll", chance = 100 },
 }
 
 monster.attacks = {
