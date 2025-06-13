@@ -20,19 +20,6 @@ local config = {
 		{ name = "Spark of Destruction", pos = Position(32237, 31287, 14) },
 		{ name = "Spark of Destruction", pos = Position(32238, 31282, 14) },
 	},
-	onUseExtra = function()
-		Game.setStorageValue(GlobalStorage.HeartOfDestruction.OutburstStage, 0)
-		Game.setStorageValue(GlobalStorage.HeartOfDestruction.OutburstHealth, 290000)
-
-		local tile = Tile(Position(32225, 31285, 14))
-		if tile then
-			local vortex = tile:getItemById(23482)
-			if vortex then
-				vortex:transform(23483)
-				vortex:setActionId(14350)
-			end
-		end
-	end,
 	exit = Position(32208, 31372, 14),
 }
 

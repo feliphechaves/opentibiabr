@@ -1,6 +1,6 @@
 local config = {
 	boss = {
-		name = "Foreshock",
+		name = "Realityquake",
 		position = Position(32208, 31248, 14),
 	},
 	playerPositions = {
@@ -20,20 +20,6 @@ local config = {
 		{ name = "Spark of Destruction", pos = Position(32210, 31251, 14) },
 		{ name = "Spark of Destruction", pos = Position(32212, 31246, 14) },
 	},
-	onUseExtra = function()
-		Game.setStorageValue(GlobalStorage.HeartOfDestruction.ForeshockHealth, 105000)
-		Game.setStorageValue(GlobalStorage.HeartOfDestruction.AftershockHealth, 105000)
-		Game.setStorageValue(GlobalStorage.HeartOfDestruction.ForeshockStage, -1)
-		Game.setStorageValue(GlobalStorage.HeartOfDestruction.AftershockStage, -1)
-		local tile = Tile(Position(32199, 31248, 14))
-		if tile then
-			local vortex = tile:getItemById(23482)
-			if vortex then
-				vortex:transform(23483)
-				vortex:setActionId(14345)
-			end
-		end
-	end,
 	exit = Position(32230, 31358, 11),
 }
 
