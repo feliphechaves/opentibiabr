@@ -104,7 +104,6 @@ local function creatureSayCallback(npc, creature, type, message)
 
 	if message == "upgrade" or message == "exchange" then
 		local vocationId = player:getVocation():getBaseId()
-		logger.info("Vocation ID: " .. vocationId)
 		local backpacks = {
 			[1] = {name = "Necromantic Backpack", itemId = 65033},
 			[2] = {name = "Nature's Backpack", itemId = 65030},
