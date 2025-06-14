@@ -57,7 +57,7 @@ function DailyBossRespawn.onTime(interval)
 	local dayOfWeek = os.date("%A")
 	local fullDate = os.date("%d/%m/%Y")
 	local day = config.days[dayOfWeek]
-	if fullDate == "16/06/2025" and dayOfWeek == "Monday" then
+	if fullDate == "16/06/2025" then
 		day = {
 			bossName = "Rei Aiolos",
 			bossPosition = Position(1185, 989, 6),
@@ -93,13 +93,13 @@ function DailyBossDeath.onDeath(creature, corpse, lasthitkiller, mostdamagekille
 	local dayOfWeek = os.date("%A")
 	local fullDate = os.date("%d/%m/%Y")
 	local day = config.days[dayOfWeek]
-	if fullDate == "16/06/2025" and dayOfWeek == "Monday" then
-			day = {
-					bossName = "Rei Aiolos",
-					bossPosition = Position(1185, 989, 6),
-					teleportPosition = Position(32369, 32234, 7),
-					destinationPosition = Position(1143, 988, 6),
-			}
+	if fullDate == "16/06/2025" then
+		day = {
+			bossName = "Rei Aiolos",
+			bossPosition = Position(1185, 989, 6),
+			teleportPosition = Position(32369, 32234, 7),
+			destinationPosition = Position(1143, 988, 6),
+		}
 	end
 
 	if day and bossName:lower() == day.bossName:lower() then
