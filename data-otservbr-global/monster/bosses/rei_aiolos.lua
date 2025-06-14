@@ -10,7 +10,7 @@ monster.outfit = {
     lookLegs = 39,
     lookFeet = 114,
     lookAddons = 3,
-    lookMount = 0,
+    lookMount = 1578,
 }
 
 monster.events = {
@@ -201,7 +201,7 @@ monster.attacks = {
     { name = "melee", interval = 2000, chance = 100, skill = 250, attack = 5000 },
     { name = "combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -4500, maxDamage = -9700, radius = 6, effect = CONST_ME_EXPLOSIONHIT, target = false },
     { name = "combat", interval = 3000, chance = 12, type = COMBAT_HOLYDAMAGE, minDamage = -4000, maxDamage = -9500, radius = 5, effect = CONST_ME_HOLYDAMAGE, target = false },
-    { name = "combat", interval = 3500, chance = 10, type = COMBAT_HOLYDAMAGE, minDamage = -5000, maxDamage = -1500, range = 7, shootEffect = CONST_ANI_HOLY, effect = CONST_ME_HOLYDAMAGE, target = true },
+    { name = "combat", interval = 3500, chance = 10, type = COMBAT_HOLYDAMAGE, minDamage = -1500, maxDamage = -5000, range = 7, shootEffect = CONST_ANI_HOLY, effect = CONST_ME_HOLYDAMAGE, target = true },
     { name = "speed", interval = 4000, chance = 8, speedChange = -1000, radius = 6, effect = CONST_ME_MAGIC_RED, target = false, duration = 60000 },
     { name = "combat", interval = 2000, chance = 30, type = COMBAT_HOLYDAMAGE, minDamage = -200000, maxDamage = -200000, length = 8, spread = 0, shootEffect = CONST_ANI_HOLY, effect = CONST_ME_HOLYDAMAGE, target = false },
 }
