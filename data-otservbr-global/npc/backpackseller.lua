@@ -140,7 +140,9 @@ local function creatureSayCallback(npc, creature, type, message)
 		end
 
 
-		if player:getItemCount(TC_ID) < 15 then
+		local tcItemCount = player:getItemCount(TC_ID)
+		local walletCoins = player:getTransferableCoins()
+		if tcItemCount + walletCoins < 15 then
 			npcHandler:say("You need at least 15 Tibia Coins.", npc, creature)
 			return true
 		end
@@ -151,7 +153,17 @@ local function creatureSayCallback(npc, creature, type, message)
 		end
 
 		player:removeItem(AIOLOS_ID, 1)
-		player:removeItem(TC_ID, 15)
+
+		local coinsToRemove = 15
+		local removeFromItems = math.min(tcItemCount, coinsToRemove)
+		if removeFromItems > 0 then
+			player:removeItem(TC_ID, removeFromItems)
+			coinsToRemove = coinsToRemove - removeFromItems
+		end
+		if coinsToRemove > 0 then
+			player:removeTransferableCoinsBalance(coinsToRemove)
+		end
+
 		player:removeItem(ESSENCE_ID, 1)
 		player:addItem(backpackId, 1)
 
