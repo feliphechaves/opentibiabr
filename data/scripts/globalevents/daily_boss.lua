@@ -54,7 +54,17 @@ local config = {
 
 local DailyBossRespawn = GlobalEvent("DailyBossRespawn")
 function DailyBossRespawn.onTime(interval)
-	local day = config.days[os.date("%A")]
+	local dayOfWeek = os.date("%A")
+	local fullDate = os.date("%d/%m/%Y")
+	local day = config.days[dayOfWeek]
+	if fullDate == "16/06/2025" and dayOfWeek == "Monday" then
+		day = {
+			bossName = "Rei Aiolos",
+			bossPosition = Position(1185, 989, 6),
+			teleportPosition = Position(32369, 32234, 7),
+			destinationPosition = Position(1143, 988, 6),
+		}
+	end
 	if day then
 		local item = Game.createItem(config.teleportId, 1, day.teleportPosition)
 		if item then
@@ -80,7 +90,18 @@ local DailyBossDeath = CreatureEvent("DailyBossDeath")
 function DailyBossDeath.onDeath(creature, corpse, lasthitkiller, mostdamagekiller, lasthitunjustified, mostdamageunjustified)
 	local bossName = creature:getName():lower()
 
-	local day = config.days[os.date("%A")]
+	local dayOfWeek = os.date("%A")
+	local fullDate = os.date("%d/%m/%Y")
+	local day = config.days[dayOfWeek]
+	if fullDate == "16/06/2025" and dayOfWeek == "Monday" then
+			day = {
+					bossName = "Rei Aiolos",
+					bossPosition = Position(1185, 989, 6),
+					teleportPosition = Position(32369, 32234, 7),
+					destinationPosition = Position(1143, 988, 6),
+			}
+	end
+
 	if day and bossName:lower() == day.bossName:lower() then
 		-- Remove o teleporte quando o boss é derrotado
 		local teleport = Tile(day.teleportPosition):getItemById(config.teleportId)
