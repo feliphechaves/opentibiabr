@@ -4,7 +4,7 @@ local aiolosBossQuestDeath = CreatureEvent("AiolosBossQuestDeath")
 local bossStorages = {
 	["Mega Beetle"] = 60535,
 	["Primal Fire"] = 60536,
-	["Executor of Aiolos"] = 60537
+	["Executor of Aiolos"] = 60537,
 }
 
 function aiolosBossQuestDeath.onDeath(creature, corpse, killer, mostDamageKiller)

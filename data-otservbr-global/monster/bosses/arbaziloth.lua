@@ -13,8 +13,7 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-}
+monster.events = {}
 
 monster.bosstiary = {
 	bossRaceId = 2594,
@@ -133,22 +132,21 @@ monster.loot = {
 }
 
 monster.attacks = {
-    -- Melee físico forte
-    { name = "melee", interval = 2000, chance = 100, minDamage = -20000, maxDamage = -30000 },
+	-- Melee físico forte
+	{ name = "melee", interval = 2000, chance = 100, minDamage = -20000, maxDamage = -30000 },
 
-    -- Death Damage em área 3x3
-    { name = "combat", interval = 4000, chance = 20, type = COMBAT_DEATHDAMAGE, range = 1, radius = 8, effect = CONST_ME_MORTAREA, target = false, minDamage = -40000, maxDamage = -50000 },
+	-- Death Damage em área 3x3
+	{ name = "combat", interval = 4000, chance = 20, type = COMBAT_DEATHDAMAGE, range = 1, radius = 8, effect = CONST_ME_MORTAREA, target = false, minDamage = -40000, maxDamage = -50000 },
 
-    -- Energy em onda (wave horizontal ou vertical)
-    { name = "combat", interval = 6000, chance = 25, type = COMBAT_ENERGYDAMAGE, length = 8, spread = 4, effect = CONST_ME_ENERGYHIT, minDamage = -40000, maxDamage = -50000 },
+	-- Energy em onda (wave horizontal ou vertical)
+	{ name = "combat", interval = 6000, chance = 25, type = COMBAT_ENERGYDAMAGE, length = 8, spread = 4, effect = CONST_ME_ENERGYHIT, minDamage = -40000, maxDamage = -50000 },
 
-    -- Life Drain 5x5
-    { name = "combat", interval = 7000, chance = 15, type = COMBAT_LIFEDRAIN, radius = 2, target = false, effect = CONST_ME_MAGIC_RED, minDamage = -40000, maxDamage = -50000 },
+	-- Life Drain 5x5
+	{ name = "combat", interval = 7000, chance = 15, type = COMBAT_LIFEDRAIN, radius = 2, target = false, effect = CONST_ME_MAGIC_RED, minDamage = -40000, maxDamage = -50000 },
 
-    --Linha frontal que "mata" com 200k de dano
-    { name = "combat", interval = 10000, chance = 25, type = COMBAT_PHYSICALDAMAGE, length = 8, spread = 0, effect = CONST_ME_EXPLOSIONAREA, minDamage = -250000, maxDamage = -250000 },
+	--Linha frontal que "mata" com 200k de dano
+	{ name = "combat", interval = 10000, chance = 25, type = COMBAT_PHYSICALDAMAGE, length = 8, spread = 0, effect = CONST_ME_EXPLOSIONAREA, minDamage = -250000, maxDamage = -250000 },
 }
-
 
 monster.defenses = {
 	defense = 135,

@@ -73,33 +73,32 @@ monster.voices = {}
 
 monster.loot = {
 	-- Comum (~100% após x8)
-    { name = "platinum coin", chance = 12500, maxCount = 25 }, -- 12500 x 8 = 100000 (100%)
+	{ name = "platinum coin", chance = 12500, maxCount = 25 }, -- 12500 x 8 = 100000 (100%)
 
-    -- Semi-Raro (~40%–10% após x8)
-    { name = "great mana potion", chance = 5000, maxCount = 5 }, -- 40%
-    { name = "small ruby", chance = 5000, maxCount = 5 }, -- 40%
-    { name = "demonic core essence", chance = 3000, maxCount = 1 }, -- 24%
-    { name = "sineater wing", chance = 3000, maxCount = 1 }, -- 24%
-    { name = "ruby necklace", chance = 3000, maxCount = 1 }, -- 24%
-    { name = "wand of defiance", chance = 2000, maxCount = 1 }, -- 16%
+	-- Semi-Raro (~40%–10% após x8)
+	{ name = "great mana potion", chance = 5000, maxCount = 5 }, -- 40%
+	{ name = "small ruby", chance = 5000, maxCount = 5 }, -- 40%
+	{ name = "demonic core essence", chance = 3000, maxCount = 1 }, -- 24%
+	{ name = "sineater wing", chance = 3000, maxCount = 1 }, -- 24%
+	{ name = "ruby necklace", chance = 3000, maxCount = 1 }, -- 24%
+	{ name = "wand of defiance", chance = 2000, maxCount = 1 }, -- 16%
 
-    -- Raro (~8%–2% após x8)
-    { name = "mummified demon finger", chance = 2000, maxCount = 1 }, -- 8%
-    { name = "demonic matter", chance = 2000, maxCount = 1 }, -- 4%
-    { name = "wooden spellbook", chance = 2000, maxCount = 1 }, -- 4%
-
+	-- Raro (~8%–2% após x8)
+	{ name = "mummified demon finger", chance = 2000, maxCount = 1 }, -- 8%
+	{ name = "demonic matter", chance = 2000, maxCount = 1 }, -- 4%
+	{ name = "wooden spellbook", chance = 2000, maxCount = 1 }, -- 4%
 }
 
 monster.attacks = {
-    -- Melee físico (corpo a corpo forte)
-    { name = "melee", interval = 1000, chance = 100, minDamage = -0, maxDamage = -6000 },
-    -- Fire (Energia) à distância
-    { name = "combat", interval = 1000, chance = 50, type = COMBAT_FIREDAMAGE, minDamage = -2500, maxDamage = -4500, range = 7, radius = 4, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true },
-    --{ name = "firefield", interval = 2000, chance = 10, range = 7, radius = 4, shootEffect = CONST_ANI_FIRE, target = true },
-    -- Death Strike (alvo único à distância)
-    { name = "combat", interval = 1500, chance = 25, type = COMBAT_DEATHDAMAGE, minDamage = -2500, maxDamage = -4500, range = 7, shootEffect = CONST_ANI_DEATH, effect = CONST_ME_MORTAREA, target = true },
-    -- Death Ball (5x5 em área)
-    { name = "combat", interval = 3000, chance = 50, type = COMBAT_DEATHDAMAGE, minDamage = -2500, maxDamage = -5000, radius = 5, effect = CONST_ME_MORTAREA, target = false }
+	-- Melee físico (corpo a corpo forte)
+	{ name = "melee", interval = 1000, chance = 100, minDamage = -0, maxDamage = -6000 },
+	-- Fire (Energia) à distância
+	{ name = "combat", interval = 1000, chance = 50, type = COMBAT_FIREDAMAGE, minDamage = -2500, maxDamage = -4500, range = 7, radius = 4, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true },
+	--{ name = "firefield", interval = 2000, chance = 10, range = 7, radius = 4, shootEffect = CONST_ANI_FIRE, target = true },
+	-- Death Strike (alvo único à distância)
+	{ name = "combat", interval = 1500, chance = 25, type = COMBAT_DEATHDAMAGE, minDamage = -2500, maxDamage = -4500, range = 7, shootEffect = CONST_ANI_DEATH, effect = CONST_ME_MORTAREA, target = true },
+	-- Death Ball (5x5 em área)
+	{ name = "combat", interval = 3000, chance = 50, type = COMBAT_DEATHDAMAGE, minDamage = -2500, maxDamage = -5000, radius = 5, effect = CONST_ME_MORTAREA, target = false },
 }
 
 monster.defenses = {

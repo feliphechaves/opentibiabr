@@ -8,15 +8,17 @@ local raid = Raid("goroma.morgaroth", {
 	initialChance = 0.01,
 	targetChancePerDay = 0.05,
 	maxChancePerCheck = 0.1,
-	minGapBetween = "72h" -- só 1x a cada 3 dias
+	minGapBetween = "72h", -- só 1x a cada 3 dias
 })
 
 raid:addBroadcast("[RAID] O antigo vulcao de Goroma esta se tornando ativo novamente..."):autoAdvance("30s")
 raid:addBroadcast("[RAID] Ha uma presenca maligna surgindo no interior do vulcao de Goroma."):autoAdvance("30s")
 raid:addBroadcast("[RAID] Cultistas invocaram uma entidade ancestral! Morgaroth despertou!"):autoAdvance("10s")
 
-raid:addSpawnMonsters({
-	{ name = "Morgaroth", amount = 1, position = Position(32063, 32612, 14) }
-}):autoAdvance("30m")
+raid
+	:addSpawnMonsters({
+		{ name = "Morgaroth", amount = 1, position = Position(32063, 32612, 14) },
+	})
+	:autoAdvance("30m")
 
 raid:register()

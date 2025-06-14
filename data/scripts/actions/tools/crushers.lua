@@ -47,7 +47,6 @@ amberCrusher:register()
 local crusher = Action()
 
 function crusher.onUse(player, item, fromPosition, target, toPosition, isHotkey)
-
 	if not target or type(target.isItem) ~= "function" then
 		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You must target a valid item.")
 		return true

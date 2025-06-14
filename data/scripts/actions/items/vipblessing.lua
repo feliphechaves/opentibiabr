@@ -6,7 +6,6 @@ local ITEM_ID = 2851
 local vipBlessingItem = Action()
 
 function vipBlessingItem.onUse(player, item, ...)
-
 	if not player:isVip() then
 		player:getPosition():sendMagicEffect(CONST_ME_POFF)
 		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You are not Vip!")

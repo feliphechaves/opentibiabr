@@ -105,11 +105,11 @@ local function creatureSayCallback(npc, creature, type, message)
 	if message == "upgrade" or message == "exchange" then
 		local vocationId = player:getVocation():getBaseId()
 		local backpacks = {
-			[1] = {name = "Necromantic Backpack", itemId = 65033},
-			[2] = {name = "Nature's Backpack", itemId = 65030},
-			[3] = {name = "Celestial Archer Backpack", itemId = 65032},
-			[4] = {name = "Bloodrage Backpack", itemId = 65031},
-			[5] = {name = "Pilgrim Backpack", itemId = 65034},
+			[1] = { name = "Necromantic Backpack", itemId = 65033 },
+			[2] = { name = "Nature's Backpack", itemId = 65030 },
+			[3] = { name = "Celestial Archer Backpack", itemId = 65032 },
+			[4] = { name = "Bloodrage Backpack", itemId = 65031 },
+			[5] = { name = "Pilgrim Backpack", itemId = 65034 },
 		}
 
 		local selected = backpacks[vocationId]
@@ -118,7 +118,7 @@ local function creatureSayCallback(npc, creature, type, message)
 			return true
 		end
 
-		npcHandler:say("Do you want to trade your Aiolos Backpack (must be equipped), 15 Tibia Coins and 3 Essence of Health for a "..selected.name.."? {Warning: any items inside your backpack will be lost!}", npc, creature)
+		npcHandler:say("Do you want to trade your Aiolos Backpack (must be equipped), 15 Tibia Coins and 3 Essence of Health for a " .. selected.name .. "? {Warning: any items inside your backpack will be lost!}", npc, creature)
 		npcHandler:setTopic(playerId, 1)
 		player:setStorageValue(100991, selected.itemId) -- temporariamente guarda o itemId alvo
 	elseif message == "yes" and npcHandler:getTopic(player:getId()) == 1 then
@@ -137,7 +137,6 @@ local function creatureSayCallback(npc, creature, type, message)
 			npcHandler:say("You must be wearing the Aiolos Backpack to proceed with the upgrade.", npc, creature)
 			return true
 		end
-
 
 		local tcItemCount = player:getItemCount(TC_ID)
 		local walletCoins = player:getTransferableCoins()
@@ -177,7 +176,6 @@ local function creatureSayCallback(npc, creature, type, message)
 
 	return true
 end
-
 
 local function onTradeRequest(npc, creature)
 	return true

@@ -8,7 +8,7 @@ local raid = Raid("tiquanda.midnight-panther", {
 	initialChance = 0.02,
 	targetChancePerDay = 0.12,
 	maxChancePerCheck = 0.08,
-	minGapBetween = "48h"
+	minGapBetween = "48h",
 })
 
 local possiblePositions = {

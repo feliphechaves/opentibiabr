@@ -1,7 +1,6 @@
 local eyeembroideredveil = Action()
 
 function eyeembroideredveil.onUse(player, item, fromPosition, target, toPosition, isHotkey)
-
 	local outfitId = player:getSex() == PLAYERSEX_FEMALE and 1387 or 1386
 	if player:hasOutfit(outfitId, 1) then
 		player:sendCancelMessage("You already have this addon.")
@@ -22,7 +21,6 @@ eyeembroideredveil:register()
 local tagraltinlaidscabbard = Action()
 
 function tagraltinlaidscabbard.onUse(player, item, fromPosition, target, toPosition, isHotkey)
-
 	local outfitId = player:getSex() == PLAYERSEX_FEMALE and 1387 or 1386
 	if player:hasOutfit(outfitId, 2) then
 		player:sendCancelMessage("You already have this addon.")

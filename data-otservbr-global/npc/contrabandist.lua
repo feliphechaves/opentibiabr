@@ -317,7 +317,6 @@ npcConfig.shop = {
 	{ itemname = "eldritch quiver", clientid = 36666, sell = 10000000 },
 	{ itemname = "naga quiver", clientid = 39160, sell = 10000000 },
 	{ itemName = "iks footwraps", clientId = 50291, sell = 500000 },
-	
 
 	{ itemName = "charged arcanomancer sigil", clientId = 39183, sell = 5000000 },
 	{ itemName = "charged arcanomancer sigil", clientId = 39184, sell = 5000000 },
@@ -338,7 +337,6 @@ npcConfig.shop = {
 	{ itemName = "charged ethereal ring", clientId = 50147, sell = 5000000 },
 	{ itemName = "charged ethereal ring", clientId = 50148, sell = 5000000 },
 	{ itemName = "ethereal ring", clientId = 50149, sell = 5000000 },
-	
 }
 
 local keywordHandler = KeywordHandler:new()

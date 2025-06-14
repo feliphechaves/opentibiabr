@@ -13,11 +13,11 @@ function randOutfit.onUse(player, item, fromPosition, target, toPosition, isHotk
 
 		if outfitsWithoutAddons[name] then
 			if not player:hasOutfit(looktype) then
-				table.insert(available, {male = outfit[1], female = outfit[2], name = name, noAddons = true})
+				table.insert(available, { male = outfit[1], female = outfit[2], name = name, noAddons = true })
 			end
 		else
 			if not player:hasOutfit(looktype, 3) then
-				table.insert(available, {male = outfit[1], female = outfit[2], name = name})
+				table.insert(available, { male = outfit[1], female = outfit[2], name = name })
 			end
 		end
 	end

@@ -251,20 +251,19 @@ setTaint:register()
 local resetTaintsPlayer = TalkAction("!resettaints")
 
 function resetTaintsPlayer.onSay(player, words, param)
-    local taintCount = player:getTaintLevel()
-    if taintCount > 0 then
-        player:resetTaints(true)
-        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Suas Taints foram removidas com sucesso!")
-        player:setTaintIcon()
-    else
-        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Voce nao possui nenhuma Taint para remover.")
-    end
-    return true
+	local taintCount = player:getTaintLevel()
+	if taintCount > 0 then
+		player:resetTaints(true)
+		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Suas Taints foram removidas com sucesso!")
+		player:setTaintIcon()
+	else
+		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Voce nao possui nenhuma Taint para remover.")
+	end
+	return true
 end
 
 resetTaintsPlayer:groupType("normal")
 resetTaintsPlayer:register()
-
 
 local goshnarGreedTeleport = MoveEvent()
 

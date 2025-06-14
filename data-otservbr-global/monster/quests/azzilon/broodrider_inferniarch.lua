@@ -73,29 +73,28 @@ monster.voices = {}
 
 monster.loot = {
 	-- Comum (~100% após x8)
-    { name = "platinum coin", chance = 12500, maxCount = 25 }, -- 12500 x 8 = 100000 (100%)
+	{ name = "platinum coin", chance = 12500, maxCount = 25 }, -- 12500 x 8 = 100000 (100%)
 
-    -- Semi-Raro (~40%–10% após x8)
-    { name = "blue crystal splinter", chance = 5000, maxCount = 5 }, -- 40%
-    { name = "drill bolt", chance = 3000, maxCount = 1 }, -- 24%
-    { name = "power bolt", chance = 2500, maxCount = 1 }, -- 20%
-    { name = "onyx chip", chance = 2000, maxCount = 1 }, -- 16%
-    { name = "broodrider saddle", chance = 2000, maxCount = 1 }, -- 16%
-    { name = "demonic core essence", chance = 2000, maxCount = 1 }, -- 16%
-    
-    -- Raro (~8%–2% após x8)
-    { name = "mummified demon finger", chance = 2000, maxCount = 1 }, -- 8%
-    { name = "magma legs", chance = 2000, maxCount = 1 }, -- 8%
-    { name = "demonic matter", chance = 2000, maxCount = 1 }, -- 4%
-    { name = "arbalest", chance = 2000, maxCount = 1 },
+	-- Semi-Raro (~40%–10% após x8)
+	{ name = "blue crystal splinter", chance = 5000, maxCount = 5 }, -- 40%
+	{ name = "drill bolt", chance = 3000, maxCount = 1 }, -- 24%
+	{ name = "power bolt", chance = 2500, maxCount = 1 }, -- 20%
+	{ name = "onyx chip", chance = 2000, maxCount = 1 }, -- 16%
+	{ name = "broodrider saddle", chance = 2000, maxCount = 1 }, -- 16%
+	{ name = "demonic core essence", chance = 2000, maxCount = 1 }, -- 16%
 
+	-- Raro (~8%–2% após x8)
+	{ name = "mummified demon finger", chance = 2000, maxCount = 1 }, -- 8%
+	{ name = "magma legs", chance = 2000, maxCount = 1 }, -- 8%
+	{ name = "demonic matter", chance = 2000, maxCount = 1 }, -- 4%
+	{ name = "arbalest", chance = 2000, maxCount = 1 },
 }
 
 monster.attacks = {
-    -- Arco (corpo a corpo forte)
-    { name = "combat", interval = 1000, chance = 90, type = COMBAT_PHYSICALDAMAGE, minDamage = -3000, maxDamage = -6000, range = 7, shootEffect = CONST_ANI_DIAMONDARROW, target = false },
-    -- Death Strike (alvo único à distância)
-    { name = "combat", interval = 1500, chance = 25, type = COMBAT_DEATHDAMAGE, minDamage = -2500, maxDamage = -4500, range = 7, shootEffect = CONST_ANI_DEATH, effect = CONST_ME_MORTAREA, target = true },
+	-- Arco (corpo a corpo forte)
+	{ name = "combat", interval = 1000, chance = 90, type = COMBAT_PHYSICALDAMAGE, minDamage = -3000, maxDamage = -6000, range = 7, shootEffect = CONST_ANI_DIAMONDARROW, target = false },
+	-- Death Strike (alvo único à distância)
+	{ name = "combat", interval = 1500, chance = 25, type = COMBAT_DEATHDAMAGE, minDamage = -2500, maxDamage = -4500, range = 7, shootEffect = CONST_ANI_DEATH, effect = CONST_ME_MORTAREA, target = true },
 }
 
 monster.defenses = {

@@ -194,7 +194,7 @@ monster.loot = {
 	{ id = 23488, chance = 400 }, -- grand sanguine box
 	{ id = 14758, chance = 400 },
 	{ id = 12210, chance = 400 },
-	{ id = 25062, chance = 100000, unique = true}, --pinata dragon
+	{ id = 25062, chance = 100000, unique = true }, --pinata dragon
 	{ name = "addon doll", chance = 100 },
 	{ name = "mount contract", chance = 100 },
 }

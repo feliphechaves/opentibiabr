@@ -17,14 +17,13 @@ end
 registerMonsterType.name = function(mtype, mask)
 	if mask.name then
 		mtype:name(mask.name)
-		
+
 		-- Try register hazard monsters
 		if mask.isHazard then
 			mtype.onSpawn = function(monster, spawnPosition)
 				HazardMonster.onSpawn(monster, spawnPosition)
 			end
 		end
-		
 	end
 end
 

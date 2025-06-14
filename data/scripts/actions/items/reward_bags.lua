@@ -56,7 +56,7 @@ local rewardBags = {
 		{ id = 43885, name = "sanguine rod" },
 		{ id = 43887, name = "sanguine galoshes" },
 		{ id = 50157, name = "sanguine claws" },
-		{ id = 50146, name = "sanguine trousers" },	
+		{ id = 50146, name = "sanguine trousers" },
 	},
 
 	[GRAND_SANGUINE_BAG] = {
@@ -90,7 +90,6 @@ local rewardBags = {
 		{ id = 50250, name = "inferniarch claws" },
 		{ id = 50189, name = "demon mengu" },
 	},
-
 }
 
 local randomItems = Action()

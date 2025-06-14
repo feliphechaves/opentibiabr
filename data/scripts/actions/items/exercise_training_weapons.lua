@@ -149,7 +149,7 @@ local function exerciseTrainingEvent(playerId, tilePosition, weaponId, dummyId)
 
 	local rateExerciseTrainingSpeed = configManager.getFloat(configKeys.RATE_EXERCISE_TRAINING_SPEED)
 	if SCHEDULE_EXERCISE_TRAINING_SPEED ~= 100 then
-			rateExerciseTrainingSpeed = rateExerciseTrainingSpeed * (SCHEDULE_EXERCISE_TRAINING_SPEED / 100)
+		rateExerciseTrainingSpeed = rateExerciseTrainingSpeed * (SCHEDULE_EXERCISE_TRAINING_SPEED / 100)
 	end
 
 	if table.contains(bonusDummyIds, dummyId) then
@@ -222,7 +222,6 @@ function exerciseTraining.onUse(player, item, fromPosition, target, toPosition, 
 				player:sendTextMessage(MESSAGE_FAILURE, "That exercise dummy is busy.")
 				return true
 			end
-
 		end
 
 		if player:hasExhaustion("training-exhaustion") then

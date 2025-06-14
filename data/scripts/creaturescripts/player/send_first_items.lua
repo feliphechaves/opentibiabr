@@ -123,7 +123,6 @@ function sendFirstItems.onLogin(player)
 		end
 	end
 	return true
-
 end
 
 sendFirstItems:register()

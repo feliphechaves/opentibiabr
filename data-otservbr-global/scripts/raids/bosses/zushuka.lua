@@ -8,15 +8,17 @@ local raid = Raid("nibelor.zushuka", {
 	initialChance = 0.025,
 	targetChancePerDay = 0.12,
 	maxChancePerCheck = 0.15,
-	minGapBetween = "48h"
+	minGapBetween = "48h",
 })
 
 -- Opcional: um aviso curto, mesmo que o XML não tenha
 raid:addBroadcast("[RAID] Zushuka foi avistada em Nibelor!"):autoAdvance("10s")
 
 -- Spawn da boss
-raid:addSpawnMonsters({
-	{ name = "Zushuka", amount = 1, position = Position(31941, 31388, 9) }
-}):autoAdvance("30m")
+raid
+	:addSpawnMonsters({
+		{ name = "Zushuka", amount = 1, position = Position(31941, 31388, 9) },
+	})
+	:autoAdvance("30m")
 
 raid:register()

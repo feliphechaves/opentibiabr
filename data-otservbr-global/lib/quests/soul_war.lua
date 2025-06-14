@@ -1095,7 +1095,6 @@ function Monster:createSoulWarWhiteTiles(centerRoomPosition, zonePositions, exec
 end
 
 function MonsterType:calculateBagYouDesireChance(player, itemChance)
-	
 	if not player or not player:isPlayer() then
 		return itemChance
 	end

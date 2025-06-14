@@ -90,9 +90,9 @@ monster.loot = {
 	{ name = "strong mana potion", chance = 7692, maxCount = 4 },
 	{ name = "mana potion", chance = 11711, maxCount = 8 },
 	{ id = 761, chance = 10000, maxCount = 40 }, -- flash arrow
-	{ id = 34109, chance = 1},
-	{ id = 39546, chance = 1},
-	{ id = 43895, chance = 1},
+	{ id = 34109, chance = 1 },
+	{ id = 39546, chance = 1 },
+	{ id = 43895, chance = 1 },
 }
 
 monster.attacks = {
@@ -129,4 +129,4 @@ monster.immunities = {
 	{ type = "bleed", condition = false },
 }
 
-mType:register(monster) 
+mType:register(monster)

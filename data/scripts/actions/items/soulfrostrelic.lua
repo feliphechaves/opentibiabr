@@ -45,7 +45,7 @@ function action.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	condition:setParameter(CONDITION_PARAM_ABSORB_EARTHPERCENT, 10)
 	condition:setParameter(CONDITION_PARAM_ABSORB_DEATHPERCENT, 10)
 	condition:setParameter(CONDITION_PARAM_ABSORB_HOLYPERCENT, 10)
-	
+
 	player:addCondition(condition)
 
 	player:say("Voce invoca a protecao da reliquia guardia!", TALKTYPE_MONSTER_SAY)

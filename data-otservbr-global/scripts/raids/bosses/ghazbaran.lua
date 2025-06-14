@@ -9,7 +9,7 @@ local raid = Raid("hrodmir.ghazbaran", {
 	initialChance = 0.01,
 	targetChancePerDay = 0.05,
 	maxChancePerCheck = 0.1,
-	minGapBetween = "96h" -- muito raro, muito forte
+	minGapBetween = "96h", -- muito raro, muito forte
 })
 
 -- Anuncios de terror
@@ -18,16 +18,20 @@ raid:addBroadcast("[RAID] Entidades demonicas estao invadindo o reino mortal pel
 raid:addBroadcast("[RAID] Ghazbaran revelou sua presenca nas profundezas de Hrodmir!"):autoAdvance("5s")
 
 -- Spawn dos minions (tudo no mesmo stage para evitar muitos avanços curtos)
-raid:addSpawnMonsters({
-	{ name = "Deathslicer", amount = 12 },
-	{ name = "Juggernaut", amount = 5 },
-	{ name = "Fury", amount = 8 },
-	{ name = "Demon", amount = 6 },
-}):autoAdvance("20s")
+raid
+	:addSpawnMonsters({
+		{ name = "Deathslicer", amount = 12 },
+		{ name = "Juggernaut", amount = 5 },
+		{ name = "Fury", amount = 8 },
+		{ name = "Demon", amount = 6 },
+	})
+	:autoAdvance("20s")
 
 -- Boss final
-raid:addSpawnMonsters({
-	{ name = "Ghazbaran", amount = 1, position = Position(32228, 31163, 15) }
-}):autoAdvance("30m")
+raid
+	:addSpawnMonsters({
+		{ name = "Ghazbaran", amount = 1, position = Position(32228, 31163, 15) },
+	})
+	:autoAdvance("30m")
 
 raid:register()

@@ -106,7 +106,7 @@ monster.loot = {
 	{ id = 19365, chance = 7000 }, -- trapped lightning
 	{ id = 19366, chance = 3000 }, -- icy culottes
 	{ id = 7410, chance = 3000 }, -- queen's sceptre
-	{ name = "gold token", chance = 1500, maxCount = 5}
+	{ name = "gold token", chance = 1500, maxCount = 5 },
 }
 
 monster.attacks = {

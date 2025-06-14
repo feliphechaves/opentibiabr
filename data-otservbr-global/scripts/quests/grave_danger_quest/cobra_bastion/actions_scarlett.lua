@@ -1,7 +1,7 @@
 local config = {
 	boss = {
 		name = "Scarlett Etzel",
-		position = Position(33396, 32643, 6)
+		position = Position(33396, 32643, 6),
 	},
 	playerPositions = {
 		{ pos = Position(33395, 32661, 6), teleport = Position(33396, 32651, 6) },
@@ -25,7 +25,6 @@ local graveScarlettAid = Action()
 
 local metalWallId = 31449
 function graveScarlettAid.onUse(player, item, fromPosition, target, toPosition, isHotkey)
-
 	if item.itemid == metalWallId then
 		if player:getPosition().y == 32666 then
 			player:teleportTo(Position(33395, 32668, 6))

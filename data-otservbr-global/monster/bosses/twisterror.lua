@@ -13,8 +13,7 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-}
+monster.events = {}
 
 monster.bosstiary = {
 	bossRaceId = 2605,
@@ -65,8 +64,7 @@ monster.light = {
 	color = 0,
 }
 
-monster.summon = {
-}
+monster.summon = {}
 
 monster.voices = {
 	interval = 5000,
@@ -125,19 +123,18 @@ monster.loot = {
 }
 
 monster.attacks = {
-    -- Melee físico forte
-    { name = "melee", interval = 4000, chance = 100, minDamage = -10000, maxDamage = -15000 },
+	-- Melee físico forte
+	{ name = "melee", interval = 4000, chance = 100, minDamage = -10000, maxDamage = -15000 },
 
-    -- Death Damage em área 3x3
-    { name = "combat", interval = 2000, chance = 50, type = COMBAT_DEATHDAMAGE, range = 1, radius = 8, effect = CONST_ME_MORTAREA, target = false, minDamage = -20000, maxDamage = -25000 },
+	-- Death Damage em área 3x3
+	{ name = "combat", interval = 2000, chance = 50, type = COMBAT_DEATHDAMAGE, range = 1, radius = 8, effect = CONST_ME_MORTAREA, target = false, minDamage = -20000, maxDamage = -25000 },
 
-    -- Energy em onda (wave horizontal ou vertical)
-    { name = "combat", interval = 3000, chance = 50, type = COMBAT_ENERGYDAMAGE, length = 8, spread = 4, effect = CONST_ME_ENERGYHIT, minDamage = -20000, maxDamage = -25000 },
+	-- Energy em onda (wave horizontal ou vertical)
+	{ name = "combat", interval = 3000, chance = 50, type = COMBAT_ENERGYDAMAGE, length = 8, spread = 4, effect = CONST_ME_ENERGYHIT, minDamage = -20000, maxDamage = -25000 },
 
-    --Linha frontal que "mata"
-    { name = "combat", interval = 10000, chance = 25, type = COMBAT_ENERGYDAMAGE, length = 8, spread = 0, effect = CONST_ME_ENERGYHIT, minDamage = -100000, maxDamage = -100000 },
+	--Linha frontal que "mata"
+	{ name = "combat", interval = 10000, chance = 25, type = COMBAT_ENERGYDAMAGE, length = 8, spread = 0, effect = CONST_ME_ENERGYHIT, minDamage = -100000, maxDamage = -100000 },
 }
-
 
 monster.defenses = {
 	defense = 135,

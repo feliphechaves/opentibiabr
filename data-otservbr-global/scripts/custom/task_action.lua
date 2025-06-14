@@ -1,93 +1,86 @@
 -- Qual item abre qual categoria de task?
 local taskItemToCategory = {
-    [31471] = 1,  -- geral
-    [31473] = 2,  -- boss
-    --[31473] = 3,  -- novo item C
+	[31471] = 1, -- geral
+	[31473] = 2, -- boss
+	--[31473] = 3,  -- novo item C
 }
 
 local function getBonusMult(player)
-    return player:getStorageValue(taskOptions.bonusReward) >= 1
-           and taskOptions.bonusRate or 1
+	return player:getStorageValue(taskOptions.bonusReward) >= 1 and taskOptions.bonusRate or 1
 end
 
 local function payReward(player, info, mult, window)
-    local label = "- "
+	local label = "- "
 
-    if info[1] == "exp" then
-        local amount = info[2] * mult
-        player:addExperience(amount)
-        player:say("Exp: " .. amount, TALKTYPE_MONSTER_SAY)
-        label = label .. "Experience: " .. amount
+	if info[1] == "exp" then
+		local amount = info[2] * mult
+		player:addExperience(amount)
+		player:say("Exp: " .. amount, TALKTYPE_MONSTER_SAY)
+		label = label .. "Experience: " .. amount
+	elseif info[1] == "gold" then
+		local amount = info[2] * mult
+		Bank.credit(player:getName(), amount)
+		player:say("Gold: " .. amount, TALKTYPE_MONSTER_SAY)
+		label = label .. "Gold: " .. amount
+	elseif info[1] == "level" then
+		local rewardLevel = 0
+		if player:getLevel() <= 3000 then
+			rewardLevel = 3
+		elseif player:getLevel() <= 5000 then
+			rewardLevel = 2
+		else
+			rewardLevel = 1
+		end
+		rewardLevel = rewardLevel * mult
+		local newLevel = player:getLevel() + rewardLevel
+		local addExp = Game.getExperienceForLevel(newLevel) - player:getExperience()
+		player:addExperience(addExp, false)
+		player:say("Level: " .. rewardLevel, TALKTYPE_MONSTER_SAY)
+		label = label .. "Level: " .. rewardLevel
+	elseif info[1] == "random" then -- se você usar random
+		local pool = info[2]
+		local choice = pool[math.random(#pool)]
+		player:addItem(choice[1], (choice[2] or 1) * mult)
+		label = label .. "Random item"
+	elseif tonumber(info[1]) then -- item fixo
+		local amount = info[2] * mult
+		player:addItem(info[1], amount)
+		label = label .. amount .. " " .. ItemType(info[1]):getName()
+	end
 
-    elseif info[1] == "gold" then
-        local amount = info[2] * mult
-        Bank.credit(player:getName(), amount)
-        player:say("Gold: " .. amount, TALKTYPE_MONSTER_SAY)
-        label = label .. "Gold: " .. amount
-
-    elseif info[1] == "level" then
-        local rewardLevel = 0
-        if player:getLevel() <= 3000 then rewardLevel = 3
-        elseif player:getLevel() <= 5000 then rewardLevel = 2
-        else rewardLevel = 1 end
-        rewardLevel = rewardLevel * mult
-        local newLevel = player:getLevel() + rewardLevel
-        local addExp   = Game.getExperienceForLevel(newLevel) - player:getExperience()
-        player:addExperience(addExp, false)
-        player:say("Level: " .. rewardLevel, TALKTYPE_MONSTER_SAY)
-        label = label .. "Level: " .. rewardLevel
-
-    elseif info[1] == "random" then               -- se você usar random
-        local pool   = info[2]
-        local choice = pool[math.random(#pool)]
-        player:addItem(choice[1], (choice[2] or 1) * mult)
-        label = label .. "Random item"
-
-    elseif tonumber(info[1]) then                 -- item fixo
-        local amount = info[2] * mult
-        player:addItem(info[1], amount)
-        label = label .. amount .. " " .. ItemType(info[1]):getName()
-    end
-
-    -- efeitos visuais/sonoros comuns
-    player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
-    player:getPosition():sendSingleSoundEffect(
-        SOUND_EFFECT_TYPE_ACTION_LEVEL_ACHIEVEMENT,
-        player:isInGhostMode() and nil or player
-    )
-    window:addChoice(label)
+	-- efeitos visuais/sonoros comuns
+	player:getPosition():sendMagicEffect(CONST_ME_PRISMATIC_SPARK)
+	player:getPosition():sendSingleSoundEffect(SOUND_EFFECT_TYPE_ACTION_LEVEL_ACHIEVEMENT, player:isInGhostMode() and nil or player)
+	window:addChoice(label)
 end
 
 function endTaskModalWindow(player, storage, category)
-    local data = getTaskByStorage(storage)
-    local finished      = player:getTaskKills(data.storagecount) >= data.total
-    local title         = "Task System"
-    local message       = finished and
-                          ("You completed the task" .. (data.rewards and "\nHere are your rewards:" or "")) or
-                          "You have already completed, or are in progress on this task."
-    local window        = ModalWindow({ title = title, message = message })
+	local data = getTaskByStorage(storage)
+	local finished = player:getTaskKills(data.storagecount) >= data.total
+	local title = "Task System"
+	local message = finished and ("You completed the task" .. (data.rewards and "\nHere are your rewards:" or "")) or "You have already completed, or are in progress on this task."
+	local window = ModalWindow({ title = title, message = message })
 
-    if not finished then
-        player:getPosition():sendSingleSoundEffect(
-            SOUND_EFFECT_TYPE_DIST_ATK_THROW_SHOT,
-            player:isInGhostMode() and nil or player
-        )
-    end
+	if not finished then
+		player:getPosition():sendSingleSoundEffect(SOUND_EFFECT_TYPE_DIST_ATK_THROW_SHOT, player:isInGhostMode() and nil or player)
+	end
 
-    if finished and data.rewards then
-        player:endTask(storage, false)
-        player:say("Redeemed Reward:", TALKTYPE_MONSTER_SAY)
+	if finished and data.rewards then
+		player:endTask(storage, false)
+		player:say("Redeemed Reward:", TALKTYPE_MONSTER_SAY)
 
-        local mult = getBonusMult(player)
-        for _, info in ipairs(data.rewards) do
-            payReward(player, info, mult, window)
-        end
+		local mult = getBonusMult(player)
+		for _, info in ipairs(data.rewards) do
+			payReward(player, info, mult, window)
+		end
 
-        player:setStorageValue(taskOptions.uniqueTaskStorage, -1)
-    end
+		player:setStorageValue(taskOptions.uniqueTaskStorage, -1)
+	end
 
-    window:addButton("Back", function() sendTaskModalWindow(player, category) end)
-    window:sendToPlayer(player)
+	window:addButton("Back", function()
+		sendTaskModalWindow(player, category)
+	end)
+	window:sendToPlayer(player)
 end
 
 function acceptedTaskModalWindow(player, category)
@@ -98,7 +91,9 @@ function acceptedTaskModalWindow(player, category)
 		message = customMessage,
 	})
 	player:getPosition():sendMagicEffect(CONST_ME_TREASURE_MAP)
-	window:addButton("Back", function() sendTaskModalWindow(player, category) end)
+	window:addButton("Back", function()
+		sendTaskModalWindow(player, category)
+	end)
 	window:sendToPlayer(player)
 end
 
@@ -213,7 +208,9 @@ function confirmTaskModalWindow(player, storage, category)
 	end
 
 	window:addButton("Choose", confirmCallback)
-	window:addButton("Back", function() sendTaskModalWindow(player, category) end)
+	window:addButton("Back", function()
+		sendTaskModalWindow(player, category)
+	end)
 
 	window:sendToPlayer(player)
 end
@@ -295,29 +292,31 @@ function cancelTaskModalWindow(player, managed, category)
 end
 
 local function confirmCancelTaskModalWindow(player, storage, category)
-    local title   = (taskOptions.selectLanguage == 1) and "Cancelar Missão"  or "Cancel Task"
-    local message = (taskOptions.selectLanguage == 1)
-                    and "Tem certeza de que deseja cancelar esta missão?\nTodo o progresso será perdido."
-                    or  "Are you sure you want to cancel this task?\nAll progress will be lost."
+	local title = (taskOptions.selectLanguage == 1) and "Cancelar Missão" or "Cancel Task"
+	local message = (taskOptions.selectLanguage == 1) and "Tem certeza de que deseja cancelar esta missão?\nTodo o progresso será perdido." or "Are you sure you want to cancel this task?\nAll progress will be lost."
 
-    local window = ModalWindow({ title = title, message = message })
+	local window = ModalWindow({ title = title, message = message })
 
-    local function doCancel()
-        player:endTask(storage, true)                       -- perde progresso
-        player:setStorageValue(taskOptions.uniqueTaskStorage, -1)
-        cancelTaskModalWindow(player, true, category)                 -- modal já existente de sucesso
-    end
+	local function doCancel()
+		player:endTask(storage, true) -- perde progresso
+		player:setStorageValue(taskOptions.uniqueTaskStorage, -1)
+		cancelTaskModalWindow(player, true, category) -- modal já existente de sucesso
+	end
 
-    if taskOptions.selectLanguage == 1 then
-        window:addButton("Sim",  doCancel)
-        window:addButton("Não",  function() sendTaskModalWindow(player, category) end)
-    else
-        window:addButton("Yes",  doCancel)
-        window:addButton("No",   function() sendTaskModalWindow(player, category) end)
-    end
+	if taskOptions.selectLanguage == 1 then
+		window:addButton("Sim", doCancel)
+		window:addButton("Não", function()
+			sendTaskModalWindow(player, category)
+		end)
+	else
+		window:addButton("Yes", doCancel)
+		window:addButton("No", function()
+			sendTaskModalWindow(player, category)
+		end)
+	end
 
-    window:setDefaultEscapeButton(2)
-    window:sendToPlayer(player)
+	window:setDefaultEscapeButton(2)
+	window:sendToPlayer(player)
 end
 
 function sendTaskModalWindow(player, category)
@@ -330,28 +329,28 @@ function sendTaskModalWindow(player, category)
 	local temptasks = {}
 	local availableTasks = {}
 	local completedTasks = {}
-	
-    for _, data in pairs(taskConfiguration) do
-        if not category or data.category == category then
-            temptasks[#temptasks + 1] = data.storage
-            if player:hasStartedTask(data.storage) then
-                if player:getTaskKills(data.storagecount) >= data.total then
-                    window:addChoice(data.name .. " [Reward on Hold]")
-                    completedTasks[#completedTasks + 1] = data
-                else
-                    window:addChoice(data.name .. " [" .. player:getTaskKills(data.storagecount) .. "/" .. data.total .. "]")
-                end
-            elseif player:canStartCustomTask(data.storage) == false then
-                if data.type == "daily" then
-                    window:addChoice(data.name .. ", [Concluded Daily]")
-                else
-                    window:addChoice(data.name .. ", [Concluded]")
-                end
-            else
-                window:addChoice(data.name .. ", " .. data.total)
-                availableTasks[#availableTasks + 1] = data.storage
-            end
-        end		
+
+	for _, data in pairs(taskConfiguration) do
+		if not category or data.category == category then
+			temptasks[#temptasks + 1] = data.storage
+			if player:hasStartedTask(data.storage) then
+				if player:getTaskKills(data.storagecount) >= data.total then
+					window:addChoice(data.name .. " [Reward on Hold]")
+					completedTasks[#completedTasks + 1] = data
+				else
+					window:addChoice(data.name .. " [" .. player:getTaskKills(data.storagecount) .. "/" .. data.total .. "]")
+				end
+			elseif player:canStartCustomTask(data.storage) == false then
+				if data.type == "daily" then
+					window:addChoice(data.name .. ", [Concluded Daily]")
+				else
+					window:addChoice(data.name .. ", [Concluded]")
+				end
+			else
+				window:addChoice(data.name .. ", " .. data.total)
+				availableTasks[#availableTasks + 1] = data.storage
+			end
+		end
 	end
 
 	local function confirmCallback(player, button, choice)
@@ -425,33 +424,33 @@ function sendTaskModalWindow(player, category)
 		end
 
 		player:setStorageValue(taskOptions.uniqueTaskStorage, -1)
-		window:addButton("Back", function() sendTaskModalWindow(player, category) end)
+		window:addButton("Back", function()
+			sendTaskModalWindow(player, category)
+		end)
 		window:sendToPlayer(player)
 	end
 
 	window:addButton("Choose", confirmCallback)
-    window:addButton("Cancel", cancelCallback)
-    window:addButton("Accept All", acceptAllCallback)
-    if #completedTasks > 0 then
-        window:addButton("Collect All", collectAllCallback)
+	window:addButton("Cancel", cancelCallback)
+	window:addButton("Accept All", acceptAllCallback)
+	if #completedTasks > 0 then
+		window:addButton("Collect All", collectAllCallback)
 		window:setDefaultEscapeButton(4)
-	else 
+	else
 		window:setDefaultEscapeButton(3)
 	end
-    window:addButton("Exit")
+	window:addButton("Exit")
 
-	
 	window:sendToPlayer(player)
 end
 
 local task = Action()
 
 function task.onUse(player, item, fromPosition, target, toPosition, isHotkey)
-
-    local currentCategory = taskItemToCategory[item:getId()]
-    if not currentCategory then
-        return true -- item não mapeado
-    end
+	local currentCategory = taskItemToCategory[item:getId()]
+	if not currentCategory then
+		return true -- item não mapeado
+	end
 
 	player:getPosition():sendMagicEffect(CONST_ME_TREASURE_MAP)
 	sendTaskModalWindow(player, currentCategory)
@@ -466,11 +465,10 @@ task:register()
 local taskBoss = Action()
 
 function taskBoss.onUse(player, item, fromPosition, target, toPosition, isHotkey)
-
-    local currentCategory = taskItemToCategory[item:getId()]
-    if not currentCategory then
-        return true -- item não mapeado
-    end
+	local currentCategory = taskItemToCategory[item:getId()]
+	if not currentCategory then
+		return true -- item não mapeado
+	end
 
 	player:getPosition():sendMagicEffect(CONST_ME_TREASURE_MAP)
 	sendTaskModalWindow(player, currentCategory)

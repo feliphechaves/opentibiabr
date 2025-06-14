@@ -12,7 +12,7 @@ SupplyShopConfigTable = {
 		{ itemName = "exercise sword", clientId = 28552, buy = 350000 },
 		{ itemName = "exercise wand", clientId = 28557, buy = 350000 },
 		{ itemName = "exercise wraps", clientId = 50293, buy = 350000 },
-		
+
 		{ itemName = "enhanced exercise axe", clientId = 35280, buy = 1250000 },
 		{ itemName = "enhanced exercise bow", clientId = 35282, buy = 1250000 },
 		{ itemName = "enhanced exercise club", clientId = 35281, buy = 1250000 },

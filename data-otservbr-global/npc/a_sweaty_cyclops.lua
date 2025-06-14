@@ -59,9 +59,8 @@ local function creatureSayCallback(npc, creature, type, message)
 	if not npcHandler:checkInteraction(npc, creature) then
 		return false
 	end
-	
+
 	if MsgContains(message, "melt") then
-		
 		if player:removeItem(9058, 1) then
 			npcHandler:say("Cling clang!", npc, creature)
 			player:addItem(12804, 1)

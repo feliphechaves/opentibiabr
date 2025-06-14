@@ -228,7 +228,7 @@ taskConfiguration = {
 			"Burning Book",
 			"Guardian Of Tales",
 			"Flying Book",
-			"Rage Squid"
+			"Rage Squid",
 		},
 	},
 
@@ -248,7 +248,7 @@ taskConfiguration = {
 			"Energetic Book",
 			"Energuardian of Tales",
 			"Knowledge Elemental",
-			"Brain Squid"
+			"Brain Squid",
 		},
 	},
 
@@ -268,7 +268,7 @@ taskConfiguration = {
 			"Icecold Book",
 			"Animated Feather",
 			"Librarian",
-			"Squid Warden"
+			"Squid Warden",
 		},
 	},
 
@@ -287,7 +287,7 @@ taskConfiguration = {
 		races = {
 			"Cursed Book",
 			"Ink Blob",
-			"Biting Book"
+			"Biting Book",
 		},
 	},
 
@@ -872,8 +872,8 @@ taskConfiguration = {
 		storage = 190078,
 		storagecount = 190079,
 		rewards = {
-			{ "random", { 
-				{ 28724, 1 }, 
+			{ "random", {
+				{ 28724, 1 },
 				{ 28723, 1 },
 				{ 28725, 1 },
 				{ 28718, 1 },
@@ -884,7 +884,7 @@ taskConfiguration = {
 				{ 28720, 1 },
 				{ 28719, 1 },
 				{ 50161, 1 },
-			}},
+			} },
 			{ "level", 1 },
 			{ "gold", 20000000 },
 			{ 22721, 10 },
@@ -904,7 +904,7 @@ taskConfiguration = {
 		storagecount = 190081,
 		rewards = {
 			{ "random", {
-				{ 34150, 1 }, 
+				{ 34150, 1 },
 				{ 34151, 1 },
 				{ 34152, 1 },
 				{ 34153, 1 },
@@ -916,7 +916,7 @@ taskConfiguration = {
 				{ 34254, 1 },
 				{ 34253, 1 },
 				{ 50162, 1 },
-			}},
+			} },
 			{ "level", 1 },
 			{ "gold", 20000000 },
 			{ 22721, 10 },
@@ -935,22 +935,25 @@ taskConfiguration = {
 		storage = 190082,
 		storagecount = 190083,
 		rewards = {
-			{ "random", {
-				{ 39154, 1 }, -- arboreal tome
-				{ 39153, 1 }, -- arboreal crown
-				{ 39147, 1 }, -- spiritthorn armor
-				{ 39148, 1 }, -- spiritthorn helmet
-				{ 39149, 1 }, -- alicorn headguard
-				{ 39150, 1 }, -- alicorn quiver
-				{ 39151, 1 }, -- arcanomancer regalia
-				{ 39152, 1 }, -- arcanomancer folio
-				{ 39183, 1 }, -- charged arcanomancer sigil
-				{ 39186, 1 }, -- charged arboreal ring
-				{ 39180, 1 }, -- charged alicorn ring
-				{ 39177, 1 }, -- charged spiritthorn ring
-				{ 50147, 1 }, -- portable flame
-				{ 50149, 1 }, -- ethereal ring
-			}},
+			{
+				"random",
+				{
+					{ 39154, 1 }, -- arboreal tome
+					{ 39153, 1 }, -- arboreal crown
+					{ 39147, 1 }, -- spiritthorn armor
+					{ 39148, 1 }, -- spiritthorn helmet
+					{ 39149, 1 }, -- alicorn headguard
+					{ 39150, 1 }, -- alicorn quiver
+					{ 39151, 1 }, -- arcanomancer regalia
+					{ 39152, 1 }, -- arcanomancer folio
+					{ 39183, 1 }, -- charged arcanomancer sigil
+					{ 39186, 1 }, -- charged arboreal ring
+					{ 39180, 1 }, -- charged alicorn ring
+					{ 39177, 1 }, -- charged spiritthorn ring
+					{ 50147, 1 }, -- portable flame
+					{ 50149, 1 }, -- ethereal ring
+				},
+			},
 			{ "level", 1 },
 			{ "gold", 20000000 },
 			{ 22721, 10 },
@@ -969,11 +972,14 @@ taskConfiguration = {
 		storage = 190084,
 		storagecount = 190085,
 		rewards = {
-			{ "random", {
-				{ 23535, 1 }, -- bow of cataclysm
-				{ 23536, 1 }, -- galea mortis
-				{ 23537, 1 }, -- death oyoroi
-			}},
+			{
+				"random",
+				{
+					{ 23535, 1 }, -- bow of cataclysm
+					{ 23536, 1 }, -- galea mortis
+					{ 23537, 1 }, -- death oyoroi
+				},
+			},
 			{ "level", 1 },
 			{ "gold", 20000000 },
 			{ 22721, 10 },
@@ -992,16 +998,19 @@ taskConfiguration = {
 		storage = 190086,
 		storagecount = 190087,
 		rewards = {
-			{ "random", {
-				{ 30393, 1 }, -- cobra crossbow
-				{ 30395, 1 }, -- cobra club
-				{ 30396, 1 }, -- cobra axe
-				{ 30397, 1 }, -- cobra hood
-				{ 30398, 1 }, -- cobra sword
-				{ 30399, 1 }, -- cobra wand
-				{ 30400, 1 }, -- cobra rod
-				{ 50167, 1 }, -- cobra bo
-			}},
+			{
+				"random",
+				{
+					{ 30393, 1 }, -- cobra crossbow
+					{ 30395, 1 }, -- cobra club
+					{ 30396, 1 }, -- cobra axe
+					{ 30397, 1 }, -- cobra hood
+					{ 30398, 1 }, -- cobra sword
+					{ 30399, 1 }, -- cobra wand
+					{ 30400, 1 }, -- cobra rod
+					{ 50167, 1 }, -- cobra bo
+				},
+			},
 			{ "level", 1 },
 			{ "gold", 20000000 },
 			{ 22721, 10 },
@@ -1020,16 +1029,19 @@ taskConfiguration = {
 		storage = 190088,
 		storagecount = 190089,
 		rewards = {
-			{ "random", {
-				{ 40588, 1 }, -- antler-horn helmet
-				{ 40590, 1 }, -- mutated skin legs
-				{ 40591, 1 }, -- mutated skin armor
-				{ 40595, 1 }, -- mutant bone kilt
-				{ 40589, 1 }, -- stitched mutant hide legs
-				{ 40592, 1 }, -- alchemist's boots
-				{ 40593, 1 }, -- mutant bone boots
-				{ 40594, 1 }, -- alchemist's notepad
-			}},
+			{
+				"random",
+				{
+					{ 40588, 1 }, -- antler-horn helmet
+					{ 40590, 1 }, -- mutated skin legs
+					{ 40591, 1 }, -- mutated skin armor
+					{ 40595, 1 }, -- mutant bone kilt
+					{ 40589, 1 }, -- stitched mutant hide legs
+					{ 40592, 1 }, -- alchemist's boots
+					{ 40593, 1 }, -- mutant bone boots
+					{ 40594, 1 }, -- alchemist's notepad
+				},
+			},
 			{ "level", 1 },
 			{ "gold", 20000000 },
 			{ 22721, 10 },
@@ -1115,17 +1127,20 @@ taskConfiguration = {
 		storage = 190096,
 		storagecount = 190097,
 		rewards = {
-			{ "random", {
-				{ 39160, 1 }, -- naga quiver
-				{ 39155, 1 }, -- naga sword
-				{ 39156, 1 }, -- naga axe
-				{ 39157, 1 }, -- naga club
-				{ 39162, 1 }, -- naga wand
-				{ 39163, 1 }, -- naga rod
-				{ 39159, 1 }, -- naga crossbow
-				{ 50262, 1 }, -- naga tanko
-				{ 50160, 1 }, -- naga katar
-			}},
+			{
+				"random",
+				{
+					{ 39160, 1 }, -- naga quiver
+					{ 39155, 1 }, -- naga sword
+					{ 39156, 1 }, -- naga axe
+					{ 39157, 1 }, -- naga club
+					{ 39162, 1 }, -- naga wand
+					{ 39163, 1 }, -- naga rod
+					{ 39159, 1 }, -- naga crossbow
+					{ 50262, 1 }, -- naga tanko
+					{ 50160, 1 }, -- naga katar
+				},
+			},
 			{ "level", 1 },
 			{ "gold", 20000000 },
 			{ 22721, 10 },
@@ -1144,15 +1159,18 @@ taskConfiguration = {
 		storage = 190098,
 		storagecount = 190099,
 		rewards = {
-			{ "random", {
-				{ 35518, 1 }, -- jungle bow
-				{ 35524, 1 }, -- jungle quiver
-				{ 35514, 1 }, -- jungle flail
-				{ 35521, 1 }, -- jungle rod
-				{ 35522, 1 }, -- jungle wand
-				{ 35519, 1 }, -- makeshift boots
-				{ 35520, 1 }, -- make-do boots
-			}},
+			{
+				"random",
+				{
+					{ 35518, 1 }, -- jungle bow
+					{ 35524, 1 }, -- jungle quiver
+					{ 35514, 1 }, -- jungle flail
+					{ 35521, 1 }, -- jungle rod
+					{ 35522, 1 }, -- jungle wand
+					{ 35519, 1 }, -- makeshift boots
+					{ 35520, 1 }, -- make-do boots
+				},
+			},
 			{ "level", 1 },
 			{ "gold", 20000000 },
 			{ 22721, 10 },
@@ -1171,25 +1189,28 @@ taskConfiguration = {
 		storage = 190100,
 		storagecount = 190101,
 		rewards = {
-			{ "random", {
-				{ 36667, 1 }, -- eldritch breeches
-				{ 36670, 1 }, -- eldritch cowl
-				{ 36671, 1 }, -- eldritch hood
-				{ 36664, 1 }, -- eldritch bow
-				{ 36668, 1 }, -- eldritch wand
-				{ 36674, 1 }, -- eldritch rod
-				{ 36663, 1 }, -- eldritch cuirass
-				{ 36658, 1 }, -- gilded eldritch claymore
-				{ 36660, 1 }, -- gilded eldritch warmace
-				{ 36662, 1 }, -- gilded eldritch greataxe
-				{ 36665, 1 }, -- gilded eldritch bow
-				{ 36669, 1 }, -- gilded eldritch wand
-				{ 36675, 1 }, -- gilded eldritch rod
-				{ 50170, 1 }, -- gilded eldritch crescent moon spade
-				{ 50169, 1 }, -- eldritch crescent moon spade
-				{ 39182, 1 }, -- eldritch crystal
-				{ 39183, 1 }, -- eldritch monk boots
-			}},
+			{
+				"random",
+				{
+					{ 36667, 1 }, -- eldritch breeches
+					{ 36670, 1 }, -- eldritch cowl
+					{ 36671, 1 }, -- eldritch hood
+					{ 36664, 1 }, -- eldritch bow
+					{ 36668, 1 }, -- eldritch wand
+					{ 36674, 1 }, -- eldritch rod
+					{ 36663, 1 }, -- eldritch cuirass
+					{ 36658, 1 }, -- gilded eldritch claymore
+					{ 36660, 1 }, -- gilded eldritch warmace
+					{ 36662, 1 }, -- gilded eldritch greataxe
+					{ 36665, 1 }, -- gilded eldritch bow
+					{ 36669, 1 }, -- gilded eldritch wand
+					{ 36675, 1 }, -- gilded eldritch rod
+					{ 50170, 1 }, -- gilded eldritch crescent moon spade
+					{ 50169, 1 }, -- eldritch crescent moon spade
+					{ 39182, 1 }, -- eldritch crystal
+					{ 39183, 1 }, -- eldritch monk boots
+				},
+			},
 			{ "level", 1 },
 			{ "gold", 20000000 },
 			{ 22721, 10 },
@@ -1198,7 +1219,6 @@ taskConfiguration = {
 			"the brainstealer",
 		},
 	},
-	
 }
 
 squareWaitTime = 5000
@@ -1337,7 +1357,7 @@ function Player.addTaskKill(self, storage, count)
 	-- Verifica se o jogador tem o buff de kills ativo e se a task é da categoria 1
 	local TASK_KILL_BONUS_STORAGE = 65003
 	local TASK_KILL_BONUS_EXPIRATION = 65004
-	
+
 	-- Verifica se o buff está ativo e não expirou
 	if player:getStorageValue(TASK_KILL_BONUS_STORAGE) >= 1 then
 		local expirationTime = player:getStorageValue(TASK_KILL_BONUS_EXPIRATION)

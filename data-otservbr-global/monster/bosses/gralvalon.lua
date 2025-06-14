@@ -13,8 +13,7 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-}
+monster.events = {}
 
 monster.bosstiary = {
 	bossRaceId = 2606,
@@ -65,8 +64,7 @@ monster.light = {
 	color = 0,
 }
 
-monster.summon = {
-}
+monster.summon = {}
 
 monster.voices = {
 	interval = 5000,
@@ -124,17 +122,15 @@ monster.loot = {
 }
 
 monster.attacks = {
-    -- Arco físico forte
+	-- Arco físico forte
 	{ name = "combat", interval = 1000, chance = 90, type = COMBAT_PHYSICALDAMAGE, minDamage = -10000, maxDamage = -15000, range = 7, shootEffect = CONST_ANI_DIAMONDARROW, target = false },
-    
+
 	-- Death Damage em área 3x3
-    { name = "combat", interval = 4000, chance = 20, type = COMBAT_DEATHDAMAGE, range = 1, radius = 8, effect = CONST_ME_MORTAREA, target = false, minDamage = -20000, maxDamage = -25000 },
+	{ name = "combat", interval = 4000, chance = 20, type = COMBAT_DEATHDAMAGE, range = 1, radius = 8, effect = CONST_ME_MORTAREA, target = false, minDamage = -20000, maxDamage = -25000 },
 
-    -- Energy em onda (wave horizontal ou vertical)
-    { name = "combat", interval = 6000, chance = 25, type = COMBAT_ENERGYDAMAGE, length = 8, spread = 7, effect = CONST_ME_ENERGYHIT, minDamage = -20000, maxDamage = -25000 },
-
+	-- Energy em onda (wave horizontal ou vertical)
+	{ name = "combat", interval = 6000, chance = 25, type = COMBAT_ENERGYDAMAGE, length = 8, spread = 7, effect = CONST_ME_ENERGYHIT, minDamage = -20000, maxDamage = -25000 },
 }
-
 
 monster.defenses = {
 	defense = 135,

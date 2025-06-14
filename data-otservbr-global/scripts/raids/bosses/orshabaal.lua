@@ -8,7 +8,7 @@ local raid = Raid("edron.orshabaal", {
 	initialChance = 0.01,
 	targetChancePerDay = 0.05,
 	maxChancePerCheck = 0.1,
-	minGapBetween = "72h"
+	minGapBetween = "72h",
 })
 
 -- Avisos progressivos
@@ -17,8 +17,10 @@ raid:addBroadcast("[RAID] Orshabaal esta prestes a retornar! Fujam enquanto ha t
 raid:addBroadcast("[RAID] Orshabaal foi invocado e esta em Edron!"):autoAdvance("10s")
 
 -- Spawn do boss
-raid:addSpawnMonsters({
-	{ name = "Orshabaal", amount = 1, position = Position(33118, 31699, 7) },
-}):autoAdvance("30m") -- tempo limite para matar
+raid
+	:addSpawnMonsters({
+		{ name = "Orshabaal", amount = 1, position = Position(33118, 31699, 7) },
+	})
+	:autoAdvance("30m") -- tempo limite para matar
 
 raid:register()

@@ -1,9 +1,8 @@
 local royalFanfare = Action()
 
 function royalFanfare.onUse(player, item, fromPosition, target, toPosition, isHotkey)
-
 	-- Lista de possíveis itens a serem criados (com chances iguais)
-	local possibleItems = {3296, 37607, 3395, 37608}
+	local possibleItems = { 3296, 37607, 3395, 37608 }
 
 	-- Escolhe aleatoriamente um dos itens
 	local randomIndex = math.random(1, #possibleItems)
@@ -14,8 +13,8 @@ function royalFanfare.onUse(player, item, fromPosition, target, toPosition, isHo
 		[1] = 50, -- 50%
 		[2] = 25, -- 25%
 		[3] = 15, -- 15%
-		[4] = 7,  -- 7%
-		[5] = 3   -- 3%
+		[4] = 7, -- 7%
+		[5] = 3, -- 3%
 	}
 
 	-- Sorteia o tier com base nos pesos

@@ -15,13 +15,12 @@ raid:addBroadcast("[RAID] Draptos apareceram em Zao!"):autoAdvance("10s")
 
 raid
 	:addSpawnMonsters({
-			{
-				name = "Draptor",
-				amount = 8,
-			},
-		})
+		{
+			name = "Draptor",
+			amount = 8,
+		},
+	})
 	:autoAdvance("2m")
-
 
 raid:addBroadcast("[RAID] Grand Mother Foulscale vai nascer!"):autoAdvance("10s")
 

@@ -39,8 +39,6 @@ function inquisitionBossKill.onDeath(creature)
 			else
 				player:say("You now have 10 minutes to exit this room through the teleporter. It will bring you to the next room.", TALKTYPE_MONSTER_SAY)
 			end
-
-			
 		end)
 
 		addEvent(Game.setStorageValue, 10 * 60 * 1000, bossStorage, 0)
@@ -48,6 +46,5 @@ function inquisitionBossKill.onDeath(creature)
 
 	return true
 end
-
 
 inquisitionBossKill:register()

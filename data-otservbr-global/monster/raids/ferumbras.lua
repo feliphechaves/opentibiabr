@@ -129,7 +129,7 @@ monster.loot = {
 	{ id = 43895, chance = 1300, maxCount = 2 }, -- Bag you covet
 	{ name = "bag you desire", chance = 1000, maxCount = 2 },
 	{ name = "gold token", minCount = 0, maxCount = 15, chance = 5000 },
-	{ id = 25062, chance = 100000, unique = true}, --pinata dragon
+	{ id = 25062, chance = 100000, unique = true }, --pinata dragon
 	{ name = "addon doll", chance = 100 },
 	{ name = "mount contract", chance = 100 },
 }
