@@ -155,9 +155,13 @@ end
 
 local function rewardPlayer(playerId, leverPosition)
 	local player = Player(playerId)
-	if not player then
-		return
-	end
+    if not player then
+        rouletteActive = false
+        resetLever(leverPosition)
+        clearRoulette()
+        logger.info("DEBUG - Jogador offline ao finalizar roleta.")
+        return
+    end
 
 	-- Obter o Thing no topo da posição da roleta
 	local thing = Tile(config.roulettePositions[4]):getTopVisibleThing()
