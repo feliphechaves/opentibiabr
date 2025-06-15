@@ -9,6 +9,8 @@ taskOptions = {
 	uniqueTaskStorage = 65002,
 }
 
+local CHANNEL_TASK = 9
+
 task_pt_br = {
 	exitButton = "Fechar",
 	confirmButton = "Validar",
@@ -1364,7 +1366,7 @@ function Player.addTaskKill(self, storage, count)
 	local STORAGEVALUE_TASKLOG = 189999
 	local taskLogState = player:getStorageValue(STORAGEVALUE_TASKLOG)
 	if taskLogState ~= 1 then
-		player:say("Task: " .. data.name .. " - [" .. kills + count .. "/" .. data.total .. "]", TALKTYPE_MONSTER_SAY)
+		player:sendChannelMessage("Task System", "Task: " .. data.name .. " - [" .. kills + count .. "/" .. data.total .. "]", TALKTYPE_CHANNEL_Y, CHANNEL_TASK)
 	end
 
 	return player:setStorageValue(data.storagecount, kills + count)
