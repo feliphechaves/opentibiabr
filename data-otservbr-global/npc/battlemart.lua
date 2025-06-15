@@ -51,6 +51,10 @@ npcType.onCloseChannel = function(npc, creature)
 end
 
 local function creatureSayCallback(npc, player, type, message)
+	if not npcHandler:checkInteraction(npc, player) then
+		return false
+	end
+	
 	local categoryTable = SupplyShopConfigTable[message:lower()]
 	if MsgContains(message, "shop options") then
 		npcHandler:say("I sell a selection of " .. GetFormattedShopCategoryNames(SupplyShopConfigTable), npc, player)
