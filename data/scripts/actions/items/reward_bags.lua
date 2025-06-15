@@ -82,7 +82,7 @@ local rewardBags = {
 		{ id = 49524, name = "inferniarch greataxe" },
 		{ id = 49529, name = "inferniarch rod" },
 		{ id = 49530, name = "inferniarch slayer" },
-		{ id = 49882, name = "inferniarch wand" },
+		{ id = 49528, name = "inferniarch wand" },
 		{ id = 49531, name = "maliceforged helmet" },
 		{ id = 49532, name = "hellstalker visor" },
 		{ id = 49533, name = "dreadfire headpiece" },
