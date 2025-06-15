@@ -12589,7 +12589,7 @@
 		<attribute key="duration" value="60"/>
 		<attribute key="decayTo" value="0"/>
 	</item>
-	<item id="4115" article="a" name="phoenix statue">
+	<item id="4115" article="a" name="inferniarch bag">
 		<attribute key="primarytype" value="fansite items"/>
 		<attribute key="description" value="This mighty statue contains a true phoenix feather inside. Awarded by Tibiafans.se"/>
 		<attribute key="weight" value="2000"/>
