@@ -15227,6 +15227,9 @@
 	<monster centerx="1809" centery="994" centerz="11" radius="1">
 		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
 	</monster>
+	<monster centerx="1262" centery="996" centerz="11" radius="1">
+		<monster name="Ahau" x="-1" y="0" z="11" spawntime="60" direction="3" />
+	</monster>
 	<monster centerx="1754" centery="996" centerz="11" radius="1">
 		<monster name="Quara Plunderer" x="1" y="0" z="11" spawntime="60" />
 	</monster>
