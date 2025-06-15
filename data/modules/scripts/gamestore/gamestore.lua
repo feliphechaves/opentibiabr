@@ -2850,15 +2850,6 @@ GameStore.Categories = {
 				state = GameStore.States.STATE_NEW,
 			},
 			{
-				icons = { "Outfit_Summoner_Male.png", "Outfit_Summoner_Female.png" },
-				name = "Full Summoner Outfit",
-				price = 20,
-				sexId = { female = 141, male = 133 },
-				addon = 3,
-				description = "{character}\n{info} colours can be changed using the Outfit dialog\n\n<i>You are fearless and strong as a behemoth but have problems finding the right outfit for your adventures? The Summoner outfit is a must-have for all fashion-conscious old-school Tibians out there.</i>",
-				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT_ADDON,
-			},
-			{
 				icons = { "Outfit_Pirate_Male.png", "Outfit_Pirate_Female.png" },
 				name = "Full Pirate Outfit",
 				price = 3,

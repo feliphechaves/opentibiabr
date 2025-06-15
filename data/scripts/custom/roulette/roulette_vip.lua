@@ -20,25 +20,19 @@ local config = {
 	prizePool = {
 
 		{ itemId = 22721, count = { 1, 25 }, chance = 3500 }, -- gold token
-		{ itemId = 3423, count = { 1, 1 }, chance = 2500 }, -- blessed shield
 		{ itemId = 3363, count = { 1, 1 }, chance = 2500 }, -- dragon scale legs
 		{ itemId = 3400, count = { 1, 1 }, chance = 2500 }, -- dragon scale helmet
 		{ itemId = 3390, count = { 1, 1 }, chance = 2500 }, -- horned helmet
-		{ itemId = 39546, count = { 1, 1 }, chance = 2500 }, -- primal bag
-		--{itemId = 34109, count = {1, 1}, chance = 2500},  -- bag you desire
 		{ itemId = 3365, count = { 1, 1 }, chance = 2500 }, -- golden helmet
 		{ itemId = 3368, count = { 1, 1 }, chance = 2500 }, -- winged helmet
-		--{itemId = 9219, count = {1, 1}, chance = 1500},   -- charm points
-
-		--{itemId = 28897, count = {1, 1}, chance = 1500},  -- addon doll
 		{ itemId = 11685, count = { 1, 5 }, chance = 1500 }, -- stamina refill
-		{ itemId = 65011, count = { 1, 1 }, chance = 1500 }, --infinite food
-		{ itemId = 43895, count = { 1, 1 }, chance = 1400 }, -- bag you desire
-		{ itemId = 39036, count = { 1, 2 }, chance = 1200 }, -- cassino coin
-		{ itemId = 14758, count = { 1, 2 }, chance = 1200 }, -- vip scroll
+		{ itemId = 65011, count = { 1, 1 }, chance = 1500 }, -- infinite food
+		{ itemId = 43895, count = { 1, 5 }, chance = 1400 }, -- bag you covet
+		{ itemId = 39036, count = { 1, 5 }, chance = 1200 }, -- cassino coin
+		{ itemId = 14758, count = { 1, 5 }, chance = 1200 }, -- vip scroll
 
-		{ itemId = 51318, chance = 1200 },
-		{ itemId = 48481, chance = 1200 },
+		{ itemId = 51318, count = { 1, 3 }, chance = 1200 }, --addon doll
+		{ itemId = 48481, count = { 1, 3 }, chance = 1200 }, --mount contract
 
 		--sanguines
 		{ itemId = 43864, count = { 1, 1 }, chance = 1000 },
@@ -55,17 +49,17 @@ local config = {
 		{ itemId = 43884, count = { 1, 1 }, chance = 1000 },
 		{ itemId = 43885, count = { 1, 1 }, chance = 1000 },
 		{ itemId = 43887, count = { 1, 1 }, chance = 1000 },
+		{ itemId = 50157, count = { 1, 1 }, chance = 1000 }, -- sanguine claws
+		{ itemId = 50146, count = { 1, 1 }, chance = 1000 }, -- sanguine trousers
 
-		{ itemId = 31633, count = { 1, 1 }, chance = 900 }, --supreme cube
-
-		{ itemId = 21292, count = { 1, 1 }, chance = 400 }, -- aiolos backpack
-		{ itemId = 65005, count = { 1, 1 }, chance = 400 },
-		{ itemId = 65006, count = { 1, 1 }, chance = 400 },
-		{ itemId = 65007, count = { 1, 1 }, chance = 400 },
-		{ itemId = 65008, count = { 1, 1 }, chance = 400 },
-		{ itemId = 65009, count = { 1, 1 }, chance = 400 },
-		{ itemId = 65009, count = { 1, 1 }, chance = 400 },
-		{ itemId = 65010, count = { 1, 1 }, chance = 400 },
+		{ itemId = 21292, count = { 1, 1 }, chance = 200 }, -- aiolos backpack
+		{ itemId = 65005, count = { 1, 1 }, chance = 200 }, -- protectors
+		{ itemId = 65006, count = { 1, 1 }, chance = 200 },
+		{ itemId = 65007, count = { 1, 1 }, chance = 200 },
+		{ itemId = 65008, count = { 1, 1 }, chance = 200 },
+		{ itemId = 65009, count = { 1, 1 }, chance = 200 },
+		{ itemId = 65009, count = { 1, 1 }, chance = 200 },
+		{ itemId = 65010, count = { 1, 1 }, chance = 200 }, --
 
 		{ itemId = 23488, count = { 1, 1 }, chance = 500 }, --grand sanguine box
 
@@ -81,6 +75,8 @@ local config = {
 		{ itemId = 43883, count = { 1, 1 }, chance = 100 },
 		{ itemId = 43886, count = { 1, 1 }, chance = 100 },
 		{ itemId = 43883, count = { 1, 1 }, chance = 100 },
+		{ itemId = 50158, count = { 1, 1 }, chance = 100 }, --gran sanguine claws
+
 	},
 	roulettePositions = { -- hard-coded to 7 positions.
 		Position(1188, 896, 5),
