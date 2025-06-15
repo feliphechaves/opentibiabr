@@ -87,7 +87,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, skill = 2050, attack = 5000 },
+	{ name = "melee", interval = 2000, chance = 100, skill = 250, attack = 500 },
 	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_PHYSICALDAMAGE, minDamage = 700, maxDamage = -18500, range = 7, radius = 3, shootEffect = CONST_ANI_SMALLSTONE, effect = CONST_ME_HITAREA, target = true },
 }
 
