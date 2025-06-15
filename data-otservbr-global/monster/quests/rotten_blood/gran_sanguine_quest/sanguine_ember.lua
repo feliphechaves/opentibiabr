@@ -70,7 +70,7 @@ monster.light = {
 }
 
 monster.events = {
-	"SanguineEmberDeath",
+	--"SanguineEmberDeath",
 }
 
 monster.voices = {}
