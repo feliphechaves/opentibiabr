@@ -22,6 +22,9 @@ Makefile
 mono_crash.*
 
 # Build results
+build-relwithdebinfo
+build-comdebug
+build-semdebug/
 build-debug/
 [Dd]ebug/
 [Dd]ebugPublic/
