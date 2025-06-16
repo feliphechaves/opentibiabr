@@ -538,12 +538,12 @@ void Game::start(ServiceManager* manager) {
 	g_dispatcher().scheduleEvent(
 		EVENT_MS + 1000, [this] { createFiendishMonsters(); }, "Game::createFiendishMonsters"
 	);
-	g_dispatcher().scheduleEvent(
-		EVENT_MS + 1000, [this] { createInfluencedMonsters(); }, "Game::createInfluencedMonsters"
-	);
-	g_dispatcher().cycleEvent(
-		EVENT_MS, [this] { updateForgeableMonsters(); }, "Game::updateForgeableMonsters"
-	);
+	// g_dispatcher().scheduleEvent(
+	// 	EVENT_MS + 1000, [this] { createInfluencedMonsters(); }, "Game::createInfluencedMonsters"
+	// );
+	// g_dispatcher().cycleEvent(
+	// 	EVENT_MS, [this] { updateForgeableMonsters(); }, "Game::updateForgeableMonsters"
+	// );
 	g_dispatcher().cycleEvent(
 		EVENT_LIGHTINTERVAL_MS, [this] { checkLight(); }, "Game::checkLight"
 	);
@@ -7013,26 +7013,18 @@ bool Game::combatBlockHit(CombatDamage &damage, const std::shared_ptr<Creature> 
 void Game::combatGetTypeInfo(CombatType_t combatType, const std::shared_ptr<Creature> &target, TextColor_t &color, uint16_t &effect) {
 	switch (combatType) {
 		case COMBAT_PHYSICALDAMAGE: {
-			std::shared_ptr<Item> splash = nullptr;
 			switch (target->getRace()) {
 				case RACE_VENOM:
 					color = TEXTCOLOR_LIGHTGREEN;
 					effect = CONST_ME_HITBYPOISON;
-					splash = Item::CreateItem(ITEM_SMALLSPLASH, FLUID_SLIME);
 					break;
 				case RACE_BLOOD:
 					color = TEXTCOLOR_RED;
 					effect = CONST_ME_DRAWBLOOD;
-					if (std::shared_ptr<Tile> tile = target->getTile()) {
-						if (!tile->hasFlag(TILESTATE_PROTECTIONZONE)) {
-							splash = Item::CreateItem(ITEM_SMALLSPLASH, FLUID_BLOOD);
-						}
-					}
 					break;
 				case RACE_INK:
 					color = TEXTCOLOR_LIGHTGREY;
 					effect = CONST_ME_HITAREA;
-					splash = Item::CreateItem(ITEM_SMALLSPLASH, FLUID_INK);
 					break;
 				case RACE_UNDEAD:
 					color = TEXTCOLOR_LIGHTGREY;
@@ -7051,12 +7043,6 @@ void Game::combatGetTypeInfo(CombatType_t combatType, const std::shared_ptr<Crea
 					effect = CONST_ME_NONE;
 					break;
 			}
-
-			if (splash) {
-				internalAddItem(target->getTile(), splash, INDEX_WHEREEVER, FLAG_NOLIMIT);
-				splash->startDecaying();
-			}
-
 			break;
 		}
 
@@ -10504,47 +10490,47 @@ void Game::sendUpdateCreature(const std::shared_ptr<Creature> &creature) {
 }
 
 uint32_t Game::makeInfluencedMonster() {
-	if (auto influencedLimit = g_configManager().getNumber(FORGE_INFLUENCED_CREATURES_LIMIT);
-	    // Condition
-	    forgeableMonsters.empty() || influencedMonsters.size() >= influencedLimit) {
-		return 0;
-	}
+	// if (auto influencedLimit = g_configManager().getNumber(FORGE_INFLUENCED_CREATURES_LIMIT);
+	//     // Condition
+	//     forgeableMonsters.empty() || influencedMonsters.size() >= influencedLimit) {
+	// 	return 0;
+	// }
 
-	auto maxTries = forgeableMonsters.size();
-	uint16_t tries = 0;
-	std::shared_ptr<Monster> monster = nullptr;
-	while (true) {
-		if (tries == maxTries) {
-			return 0;
-		}
+	// auto maxTries = forgeableMonsters.size();
+	// uint16_t tries = 0;
+	// std::shared_ptr<Monster> monster = nullptr;
+	// while (true) {
+	// 	if (tries == maxTries) {
+	// 		return 0;
+	// 	}
 
-		tries++;
+	// 	tries++;
 
-		auto random = static_cast<uint32_t>(normal_random(0, static_cast<int32_t>(forgeableMonsters.size() - 1)));
-		auto monsterId = forgeableMonsters.at(random);
-		monster = getMonsterByID(monsterId);
-		if (monster == nullptr) {
-			continue;
-		}
+	// 	auto random = static_cast<uint32_t>(normal_random(0, static_cast<int32_t>(forgeableMonsters.size() - 1)));
+	// 	auto monsterId = forgeableMonsters.at(random);
+	// 	monster = getMonsterByID(monsterId);
+	// 	if (monster == nullptr) {
+	// 		continue;
+	// 	}
 
-		// Avoiding replace forgeable monster with another
-		if (monster->getForgeStack() == 0) {
-			auto it = std::ranges::find(forgeableMonsters.begin(), forgeableMonsters.end(), monsterId);
-			if (it == forgeableMonsters.end()) {
-				monster = nullptr;
-				continue;
-			}
-			forgeableMonsters.erase(it);
-			break;
-		}
-	}
+	// 	// Avoiding replace forgeable monster with another
+	// 	if (monster->getForgeStack() == 0) {
+	// 		auto it = std::ranges::find(forgeableMonsters.begin(), forgeableMonsters.end(), monsterId);
+	// 		if (it == forgeableMonsters.end()) {
+	// 			monster = nullptr;
+	// 			continue;
+	// 		}
+	// 		forgeableMonsters.erase(it);
+	// 		break;
+	// 	}
+	// }
 
-	if (monster && monster->canBeForgeMonster()) {
-		monster->setMonsterForgeClassification(ForgeClassifications_t::FORGE_INFLUENCED_MONSTER);
-		monster->configureForgeSystem();
-		influencedMonsters.emplace(monster->getID());
-		return monster->getID();
-	}
+	// if (monster && monster->canBeForgeMonster()) {
+	// 	monster->setMonsterForgeClassification(ForgeClassifications_t::FORGE_INFLUENCED_MONSTER);
+	// 	monster->configureForgeSystem();
+	// 	influencedMonsters.emplace(monster->getID());
+	// 	return monster->getID();
+	// }
 
 	return 0;
 }
@@ -10693,11 +10679,11 @@ bool Game::removeInfluencedMonster(uint32_t id, bool create /* = false*/) {
 	    find != influencedMonsters.end()) {
 		influencedMonsters.erase(find);
 
-		if (create) {
-			g_dispatcher().scheduleEvent(
-				10 * 1000, [this] { makeInfluencedMonster(); }, "Game::makeInfluencedMonster"
-			);
-		}
+		// if (create) {
+		// 	g_dispatcher().scheduleEvent(
+		// 		10 * 1000, [this] { makeInfluencedMonster(); }, "Game::makeInfluencedMonster"
+		// 	);
+		// }
 	} else {
 		g_logger().warn("[Game::removeInfluencedMonster] - Failed to remove a Influenced Monster, error code: monster id not exist in the influenced monsters map");
 	}

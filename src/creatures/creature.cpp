@@ -36,6 +36,11 @@ Creature::~Creature() {
 
 bool Creature::canSee(const Position &myPos, const Position &pos, int32_t viewRangeX, int32_t viewRangeY) {
 	metrics::method_latency measure(__METRICS_METHOD_NAME__);
+	
+	if (myPos.getZ() != pos.getZ()) {
+		return false;
+	}
+	
 	if (myPos.z <= MAP_INIT_SURFACE_LAYER) {
 		// we are on ground level or above (7 -> 0)
 		// view is from 7 -> 0
@@ -652,31 +657,7 @@ bool Creature::dropCorpse(const std::shared_ptr<Creature> &lastHitCreature, cons
 
 		g_game().addMagicEffect(getPosition(), CONST_ME_POFF);
 	} else {
-		std::shared_ptr<Item> splash;
-		switch (getRace()) {
-			case RACE_VENOM:
-				splash = Item::CreateItem(ITEM_FULLSPLASH, FLUID_SLIME);
-				break;
-
-			case RACE_BLOOD:
-				splash = Item::CreateItem(ITEM_FULLSPLASH, FLUID_BLOOD);
-				break;
-
-			case RACE_INK:
-				splash = Item::CreateItem(ITEM_FULLSPLASH, FLUID_INK);
-				break;
-
-			default:
-				splash = nullptr;
-				break;
-		}
-
 		const auto &tile = getTile();
-		if (tile && splash) {
-			g_game().internalAddItem(tile, splash, INDEX_WHEREEVER, FLAG_NOLIMIT);
-			splash->startDecaying();
-		}
-
 		const auto &corpse = getCorpse(lastHitCreature, mostDamageCreature);
 		if (tile && corpse) {
 			g_game().internalAddItem(tile, corpse, INDEX_WHEREEVER, FLAG_NOLIMIT);
