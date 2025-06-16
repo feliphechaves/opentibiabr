@@ -34,13 +34,13 @@ local function targetFunction(creature, target)
 
 	if target:isPlayer() and target:getName():lower() ~= excludeCreature then
 		target:addHealth(healAmount)
-		target:getPosition():sendMagicEffect(CONST_ME_HEAL)
+		target:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE)
 	elseif target:isMonster() and table.contains(damageMechanicCreatures, target:getName():lower()) and target:getName():lower() ~= excludeCreature then
 		target:addHealth(healAmount)
-		target:getPosition():sendMagicEffect(CONST_ME_NEGATIVE_HEAL)
+		target:getPosition():sendMagicEffect(CONST_ME_MAGIC_RED)
 	elseif target:isMonster() and table.contains(bosses, target:getName():lower()) and target:getName():lower() ~= excludeCreature then
 		target:addHealth(healAmount)
-		target:getPosition():sendMagicEffect(CONST_ME_HEAL)
+		target:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE)
 	end
 end
 
