@@ -54,7 +54,7 @@ end
 
 afk:separator(" ")
 afk:groupType("gamemaster")
-afk:register()
+--afk:register()
 
 ------------------ AFK Effect Message ------------------
 local afkEffect = GlobalEvent("GodAfkEffect")
@@ -66,7 +66,7 @@ function afkEffect.onThink(interval)
 end
 
 afkEffect:interval(5000)
-afkEffect:register()
+--afkEffect:register()
 
 ------------------ Stop AFK Message when moves ------------------
 local callback = EventCallback("PlayerOnWalk")
@@ -79,7 +79,7 @@ function callback.playerOnWalk(player, creature, creaturePos, toPos)
 	return true
 end
 
-callback:register()
+--callback:register()
 
 ------------------ Player Logout ------------------
 local godAfkLogout = CreatureEvent("GodAfkLogout")
@@ -91,4 +91,4 @@ function godAfkLogout.onLogout(player)
 	return true
 end
 
-godAfkLogout:register()
+--godAfkLogout:register()

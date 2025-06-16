@@ -123,4 +123,4 @@ function callback.playerOnThink(player, interval)
 	end
 end
 
-callback:register()
+--callback:register()

@@ -369,13 +369,13 @@ function Player.updateStorage(self, key, value, oldValue, currentFrameTime)
 			self:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Your questlog has been updated.")
 		end
 	end
-	local missions = self:getMissionsData(key)
-	for i = 1, #missions do
-		local mission = missions[i]
-		if self:hasTrackingQuest(mission.missionId) then
-			self:sendUpdateTrackedQuest(mission)
-		end
-	end
+	-- local missions = self:getMissionsData(key)
+	-- for i = 1, #missions do
+	-- 	local mission = missions[i]
+	-- 	if self:hasTrackingQuest(mission.missionId) then
+	-- 		self:sendUpdateTrackedQuest(mission)
+	-- 	end
+	-- end
 end
 
 local function sendPrint(questId, index)
