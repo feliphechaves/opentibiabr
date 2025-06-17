@@ -95,6 +95,7 @@ monster.loot = {
 	{ name = "gold ingot", chance = 2890 },
 	{ name = "spellbook of warding", chance = 2890 },
 	{ id = 23531, chance = 1930 }, -- ring of green plasma
+	{ id = 50150, chance = 1930 }, 
 	{ name = "glacial rod", chance = 1290 },
 	{ name = "bag you desire", chance = 4 },
 }

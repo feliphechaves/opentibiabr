@@ -87,6 +87,7 @@ monster.loot = {
 	{ name = "sun brooch", chance = 680 },
 	{ name = "swamplair armor", chance = 230 },
 	{ id = 43916, chance = 200 }, -- werecrocodile trophy
+	{ id = 50150, chance = 1930 }, 
 }
 
 monster.attacks = {

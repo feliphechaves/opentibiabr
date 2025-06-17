@@ -92,6 +92,7 @@ monster.loot = {
 	{ name = "fur boots", chance = 100 },
 	{ name = "ragnir helmet", chance = 100 },
 	{ name = "health potion", chance = 100 },
+	{ id = 50150, chance = 100 }, -- ring of orange plasma
 }
 
 monster.attacks = {
