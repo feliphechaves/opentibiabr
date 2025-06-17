@@ -103,6 +103,7 @@ monster.loot = {
 	{ id = 43899, chance = 100 }, --cursed wood
 	{ name = "tainted heart", chance = 50, maxCount = 5 },
 	{ name = "darklight heart", chance = 15, maxCount = 5 },
+	{ name = "gold token", minCount = 0, maxCount = 5, chance = 5000 },
 }
 
 monster.attacks = {

@@ -95,6 +95,7 @@ monster.loot = {
 	{ name = "darklight heart", chance = 15, maxCount = 5 },
 	{ id = 43899, chance = 100 }, --cursed wood
 	{ id = 43895, chance = 100 }, -- Bag you covet
+	{ name = "gold token", minCount = 0, maxCount = 5, chance = 5000 },
 }
 
 monster.attacks = {
