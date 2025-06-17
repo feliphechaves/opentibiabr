@@ -1,7 +1,7 @@
 local combat = Combat()
 combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_EARTHDAMAGE)
 combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_SMALLPLANTS)
-combat:setArea(createCombatArea(AREA_RING1_BURST3))
+combat:setArea(createCombatArea(AREA_RING1_BURST3_PREENCHIDO))
 
 local function adjustValues(min, max)
 	return min * 1.2, max * 1.2
