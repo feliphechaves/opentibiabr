@@ -86,6 +86,7 @@ monster.loot = {
 	{ name = "amber with a bug", chance = 14590, maxCount = 1 },
 	{ name = "amber with a dragonfly", chance = 5405, maxCount = 1 },
 	{ name = "bullseye potion", chance = 10821, maxCount = 44 },
+	{ name = "transcendence potion", chance = 10821, maxCount = 44 },
 	{ name = "green gem", chance = 7763, maxCount = 4 },
 	{ name = "mastermind potion", chance = 9534, maxCount = 15 },
 	{ name = "supreme health potion", chance = 6212, maxCount = 102 },

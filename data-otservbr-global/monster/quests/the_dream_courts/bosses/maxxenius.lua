@@ -86,6 +86,7 @@ monster.loot = {
 	{ name = "berserk potion", chance = 28570, maxCount = 19 },
 	{ name = "blue gem", chance = 10710 },
 	{ name = "bullseye potion", chance = 10710 },
+	{ name = "transcendence potion", chance = 10710 },
 	{ name = "chaos mace", chance = 7140 },
 	{ name = "crystal coin", chance = 14290, maxCount = 3 },
 	{ name = "energized limb", chance = 3570 },

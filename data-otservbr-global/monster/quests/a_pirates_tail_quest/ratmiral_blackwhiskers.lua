@@ -85,6 +85,7 @@ monster.loot = {
 	{ id = 23373, chance = 25000, minCount = 1, maxCount = 19 }, -- ultimate mana potion
 	{ id = 7440, chance = 22000, minCount = 1, maxCount = 9 }, -- mastermind potion
 	{ id = 7443, chance = 20000, minCount = 1, maxCount = 9 }, -- bullseye potion
+	{ name = "transcendence potion", chance = 22000, minCount = 1, maxCount = 9 },
 	{ id = 35572, chance = 17000, minCount = 3, maxCount = 102 }, -- pirate coin
 	{ id = 7439, chance = 16000, minCount = 1, maxCount = 9 }, -- berserk potion
 	{ id = 35613, chance = 8000 }, -- ratmiral's hat

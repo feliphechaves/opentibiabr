@@ -60,6 +60,7 @@ monster.loot = {
 	{ name = "crystal coin", mincount = 1, maxcount = 5, chance = 100000 },
 	{ name = "violet gem", chance = 50000 },
 	{ name = "mastermind potion", chance = 50000 },
+	{ name = "transcendence potion", chance = 50000 },
 	{ name = "moonstone", chance = 50000 },
 	{ name = "ultimate spirit potion", chance = 50000 },
 	{ name = "white gem", chance = 50000 },

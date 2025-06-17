@@ -77,6 +77,7 @@ monster.loot = {
 	{ name = "ultimate spirit potion", chance = 90000, maxCount = 8 },
 	{ name = "silver token", chance = 90000, maxCount = 6 },
 	{ name = "bullseye potion", chance = 90000 },
+	{ name = "transcendence potion", chance = 90000 },
 	{ name = "demon horn", chance = 90000 },
 	{ name = "magic sulphur", chance = 90000 },
 	{ id = 3039, chance = 90000 }, -- red gem

@@ -87,6 +87,7 @@ monster.loot = {
 	{ name = "royal star", chance = 26600, maxCount = 100 },
 	{ id = 281, chance = 24000 }, -- giant shimmering pearl (green)
 	{ name = "berserk potion", chance = 20300, maxCount = 10 },
+	{ name = "transcendence potion", chance = 20300, maxCount = 10 },
 	{ name = "blue gem", chance = 18500, maxCount = 2 },
 	{ name = "bullseye potion", chance = 18500, maxCount = 10 },
 	{ name = "magma coat", chance = 16600 },

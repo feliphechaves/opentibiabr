@@ -84,6 +84,7 @@ monster.loot = {
 	{ name = "crystal coin", chance = 14615, maxCount = 115 },
 	{ name = "ultimate spirit potion", chance = 7169, maxCount = 153 },
 	{ name = "mastermind potion", chance = 14651, maxCount = 45 },
+	{ name = "transcendence potion", chance = 14651, maxCount = 45 },
 	{ name = "yellow gem", chance = 9243, maxCount = 5 },
 	{ name = "amber with a bug", chance = 7224, maxCount = 2 },
 	{ name = "ultimate mana potion", chance = 13137, maxCount = 179 },

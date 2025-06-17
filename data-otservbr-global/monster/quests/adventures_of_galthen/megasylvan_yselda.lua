@@ -74,6 +74,7 @@ monster.loot = {
 	{ id = 23374, chance = 30000, minCount = 1, maxCount = 11 }, -- ultimate spirit potion
 	{ id = 7443, chance = 22860, minCount = 4, maxCount = 19 }, -- bullseye potion
 	{ id = 7439, chance = 21430, minCount = 1, maxCount = 16 }, -- berserk potion
+	{ name = "transcendence potion", chance = 21430, minCount = 1, maxCount = 16 },
 	{ id = 3041, chance = 18570, count = 1 }, -- blue gem
 	{ id = 7440, chance = 17140, minCount = 4, maxCount = 19 }, -- mastermind potion
 	{ id = 3038, chance = 17140, minCount = 1, maxCount = 2 }, -- green gem

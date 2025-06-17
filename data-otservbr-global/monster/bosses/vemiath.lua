@@ -88,6 +88,7 @@ monster.loot = {
 	{ name = "blue gem", chance = 14144, maxCount = 5 },
 	{ name = "green gem", chance = 6221, maxCount = 4 },
 	{ name = "bullseye potion", chance = 6530, maxCount = 26 },
+	{ name = "transcendence potion", chance = 6530, maxCount = 26 },
 	{ name = "mastermind potion", chance = 5700, maxCount = 44 },
 	{ name = "ultimate spirit potion", chance = 9216, maxCount = 25 },
 	{ name = "giant topaz", chance = 11191, maxCount = 1 },

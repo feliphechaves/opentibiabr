@@ -75,6 +75,7 @@ monster.loot = {
 	{ name = "ultimate health potion", chance = 30612, maxCount = 14 },
 	{ name = "bullseye potion", chance = 24490, maxCount = 5 },
 	{ name = "berserk potion", chance = 22449, maxCount = 5 },
+	{ name = "transcendence potion", chance = 22449, maxCount = 5 },
 	{ name = "mastermind potion", chance = 18367, maxCount = 5 },
 	{ name = "giant amethyst", chance = 6122 },
 	{ name = "giant ruby", chance = 4082 },
