@@ -146,7 +146,7 @@ monster.defenses = {
 	--	mitigation = ???,
 	{ name = "combat", interval = 6000, chance = 25, type = COMBAT_HEALING, minDamage = 2000, maxDamage = 5000, effect = CONST_ME_MAGIC_BLUE, target = false },
 	{ name = "speed", interval = 1000, chance = 8, speedChange = 1901, effect = CONST_ME_MAGIC_RED, target = false, duration = 5000 },
-	{ name = "invisible", interval = 1000, chance = 4, effect = CONST_ME_MAGIC_BLUE },
+	--{ name = "invisible", interval = 1000, chance = 4, effect = CONST_ME_MAGIC_BLUE },
 }
 
 monster.reflects = {
