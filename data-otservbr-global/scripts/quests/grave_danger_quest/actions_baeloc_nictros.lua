@@ -1,10 +1,10 @@
-local nictrosPosition = Position(33427, 31428, 13)
-local baelocPosition = Position(33422, 31428, 13)
-
 local config = {
 	boss = {
 		name = "Sir Baeloc",
 		position = Position(33426, 31437, 13)
+	},
+	monsters = {
+		{ name = "Sir Nictros", pos = Position(33422, 31437, 13) }
 	},
 	requiredLevel = 250,
 	playerPositions = {

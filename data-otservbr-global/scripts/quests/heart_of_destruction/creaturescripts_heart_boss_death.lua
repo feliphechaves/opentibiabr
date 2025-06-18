@@ -135,7 +135,7 @@ function heartBossDeath.onDeath(creature)
 			vortex:setActionId(14354)
 		end
 		setStorageDevourer()
-		clearDevourer()
+		--clearDevourer()
 	end
 	return true
 end
