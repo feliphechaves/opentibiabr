@@ -60,6 +60,11 @@ function onSpeak(player, type, message)
 		end
 	end
 
+	-- GODs always speak in red
+	if playerGroupType >= GROUP_TYPE_GAMEMASTER then
+		return TALKTYPE_CHANNEL_R1
+	end
+
 	if type == TALKTYPE_CHANNEL_Y then
 		if playerGroupType >= GROUP_TYPE_TUTOR or player:hasFlag(PlayerFlag_TalkOrangeHelpChannel) then
 			type = TALKTYPE_CHANNEL_O

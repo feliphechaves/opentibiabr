@@ -9,7 +9,14 @@ muted:setParameter(CONDITION_PARAM_SUBID, CHANNEL_ADVERTISING)
 muted:setParameter(CONDITION_PARAM_TICKS, 120000)
 
 function onSpeak(player, type, message)
-	if player:getGroup():getId() >= GROUP_TYPE_TUTOR then
+	local playerGroupType = player:getGroup():getId()
+	
+	-- GODs always speak in red
+	if playerGroupType >= GROUP_TYPE_GAMEMASTER then
+		return TALKTYPE_CHANNEL_R1
+	end
+
+	if playerGroupType >= GROUP_TYPE_TUTOR then
 		if type == TALKTYPE_CHANNEL_Y then
 			return TALKTYPE_CHANNEL_O
 		end
