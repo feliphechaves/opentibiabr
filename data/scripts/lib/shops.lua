@@ -1297,6 +1297,7 @@ LootShopConfigTable = {
 		{ itemName = "collar of blue plasma", clientId = 23542, sell = 6000 },
 		{ itemName = "collar of green plasma", clientId = 23543, sell = 6000 },
 		{ itemName = "collar of red plasma", clientId = 23544, sell = 6000 },
+		{ itemName = "collar of orange plasma", clientId = 50152, sell = 6000 },
 		{ itemName = "crystal necklace", clientId = 3008, sell = 400 },
 		{ itemName = "dragon necklace", clientId = 3085, sell = 100, count = 200 },
 		{ itemName = "elven amulet", clientId = 3082, sell = 100, count = 50 },
@@ -1332,6 +1333,7 @@ LootShopConfigTable = {
 		{ itemName = "power ring", clientId = 3050, sell = 50 },
 		{ itemName = "ring of blue plasma", clientId = 23529, sell = 8000 },
 		{ itemName = "ring of green plasma", clientId = 23531, sell = 8000 },
+		{ itemName = "ring of orange plasma", clientId = 50150, sell = 8000 },
 		{ itemName = "ring of healing", clientId = 3098, sell = 100 },
 		{ itemName = "ring of red plasma", clientId = 23533, sell = 8000 },
 		{ itemName = "ring of the sky", clientId = 3006, sell = 30000 },
@@ -1546,6 +1548,7 @@ LootShopConfigTable = {
 		{ itemName = "empty potion flask", clientId = 285, sell = 5 },
 		{ itemName = "mastermind potion", clientId = 7440, sell = 500 },
 		{ itemName = "vial", clientId = 2874, sell = 5 },
+		{ itemName = "transcendence potion", clientId = 49271, sell = 500 },
 	},
 
 	["food"] = {
