@@ -541,9 +541,9 @@ void Game::start(ServiceManager* manager) {
 	// g_dispatcher().scheduleEvent(
 	// 	EVENT_MS + 1000, [this] { createInfluencedMonsters(); }, "Game::createInfluencedMonsters"
 	// );
-	// g_dispatcher().cycleEvent(
-	// 	EVENT_MS, [this] { updateForgeableMonsters(); }, "Game::updateForgeableMonsters"
-	// );
+	 g_dispatcher().cycleEvent(
+	 	EVENT_MS, [this] { updateForgeableMonsters(); }, "Game::updateForgeableMonsters"
+	 );
 	g_dispatcher().cycleEvent(
 		EVENT_LIGHTINTERVAL_MS, [this] { checkLight(); }, "Game::checkLight"
 	);
