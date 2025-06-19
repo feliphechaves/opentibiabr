@@ -10607,44 +10607,11 @@ uint32_t Game::makeFiendishMonster(uint32_t forgeableMonsterId /* = 0*/, bool cr
 		}
 	}
 
-	// Get interval time to fiendish
-	std::string saveIntervalType = g_configManager().getString(FORGE_FIENDISH_INTERVAL_TYPE);
-	auto saveIntervalConfigTime = std::atoi(g_configManager().getString(FORGE_FIENDISH_INTERVAL_TIME).c_str());
-	int intervalTime = 0;
-	time_t timeToChangeFiendish;
-	if (saveIntervalType == "second") {
-		intervalTime = 1000;
-		timeToChangeFiendish = 1;
-	} else if (saveIntervalType == "minute") {
-		intervalTime = 60 * 1000;
-		timeToChangeFiendish = 60;
-	} else if (saveIntervalType == "hour") {
-		intervalTime = 60 * 60 * 1000;
-		timeToChangeFiendish = 3600;
-	} else {
-		timeToChangeFiendish = 3600;
-	}
-
-	uint32_t finalTime = 0;
-	if (intervalTime == 0) {
-		g_logger().warn("Fiendish interval type is wrong, setting default time to 1h");
-		finalTime = 3600 * 1000;
-	} else {
-		finalTime = static_cast<uint32_t>(saveIntervalConfigTime * intervalTime);
-	}
-
 	if (monster && monster->canBeForgeMonster()) {
 		monster->setMonsterForgeClassification(ForgeClassifications_t::FORGE_FIENDISH_MONSTER);
 		monster->configureForgeSystem();
-		monster->setTimeToChangeFiendish(timeToChangeFiendish + getTimeNow());
+		monster->setTimeToChangeFiendish(0);
 		fiendishMonsters.emplace(monster->getID());
-
-		auto schedulerTask = createPlayerTask(
-			finalTime,
-			[this, monster] { updateFiendishMonsterStatus(monster->getID(), monster->getName()); },
-			__FUNCTION__
-		);
-		forgeMonsterEventIds[monster->getID()] = g_dispatcher().scheduleEvent(schedulerTask);
 		return monster->getID();
 	}
 

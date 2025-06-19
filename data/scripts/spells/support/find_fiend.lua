@@ -78,7 +78,7 @@ function spell.onCastSpell(creature, variant)
 
 	local monsterType = target:getType()
 	local stringLevel = "Unknown"
-	if monsterType and creature:isMonsterBestiaryUnlocked(monsterType:raceId()) then
+	if monsterType then
 		local bestiaryKillsAmount = monsterType:BestiarytoKill()
 		if bestiaryKillsAmount >= 5 and bestiaryKillsAmount <= 25 then
 			stringLevel = "Harmless"
@@ -96,10 +96,6 @@ function spell.onCastSpell(creature, variant)
 	end
 
 	message = string.format("The monster " .. message .. '. Be prepared to find a creature of difficulty level "' .. stringLevel .. '".')
-	local timeLeft = math.floor((target:getTimeToChangeFiendish() - os.time()) / 60)
-	if timeLeft < 15 then
-		message = string.format(message .. " " .. ForgeMonster:getTimeLeftToChangeMonster(target))
-	end
 
 	creature:sendTextMessage(MESSAGE_LOOK, message)
 	creaturePosition:sendMagicEffect(CONST_ME_MAGIC_BLUE)

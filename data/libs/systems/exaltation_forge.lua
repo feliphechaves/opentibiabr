@@ -1,6 +1,5 @@
 if not ForgeMonster then
 	ForgeMonster = {
-		timeLeftToChangeMonsters = {},
 		names = {
 			[FORGE_NORMAL_MONSTER] = "normal",
 			[FORGE_INFLUENCED_MONSTER] = "influenced",
@@ -15,29 +14,23 @@ if not ForgeMonster then
 	}
 end
 
-function getFiendishMinutesLeft(leftTime)
-	local secLeft = leftTime - os.time()
-	local desc = "This monster will stay fiendish for less than"
-
-	if math.floor(secLeft / 60) >= 1 then
-		desc = desc .. " " .. math.floor(secLeft / 60) .. " minutes and"
-		secLeft = secLeft - math.floor(secLeft / 60) * 60
-	end
-
-	if secLeft < 60 then
-		desc = desc .. " " .. secLeft .. " seconds."
-	end
-	return desc
-end
-
 function ForgeMonster:getTimeLeftToChangeMonster(creature)
 	local monster = Monster(creature)
-	if monster then
-		local leftTime = monster:getTimeToChangeFiendish()
-		leftTime = leftTime or 0
-		return getFiendishMinutesLeft(leftTime)
+       if not monster then return 0
 	end
-	return 0
+
+	local leftTime = monster:getTimeToChangeFiendish() or 0
+
+	-- If the timer has expired but the scheduled event failed to run, force
+	-- the status update here to prevent negative countdowns.
+	if leftTime > 0 and leftTime <= os.time() then
+		monster:clearFiendishStatus()
+		Game.removeFiendishMonster(monster:getId(), false)
+		Game.makeFiendishMonster()
+		leftTime = 0
+	end
+
+	return getFiendishMinutesLeft(leftTime)
 end
 
 function ForgeMonster:onDeath(creature, corpse, killer, mostDamageKiller, unjustified, mostDamageUnjustified)

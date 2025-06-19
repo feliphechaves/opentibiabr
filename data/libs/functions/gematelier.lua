@@ -8,9 +8,9 @@ local config = {
 			"lesser spiritualist gem",
 		},
 		chance = {
-			influenced = 9000,
+			influenced = 0,
 			fiendish = 0,
-			archfoe = 0,
+			archfoe = 9000,
 		},
 		maxCount = 2,
 	},
@@ -24,7 +24,7 @@ local config = {
 		},
 		chance = {
 			influenced = 0,
-			fiendish = 3000,
+			fiendish = 0,
 			archfoe = 9000,
 		},
 		maxCount = 2,
@@ -39,7 +39,7 @@ local config = {
 		},
 		chance = {
 			influenced = 0,
-			fiendish = 80000,
+			fiendish = 0,
 			archfoe = 12000,
 		},
 		maxCount = 1,
