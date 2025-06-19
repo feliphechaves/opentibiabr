@@ -184,7 +184,7 @@ monster.loot = {
 	{ id = 36733, chance = 1500 }, -- holy resilience
 	{ id = 36734, chance = 1500 }, -- death resilience
 	{ id = 36735, chance = 1500 }, -- physical resilience
-	{ id = 22721, chance = 9000, maxCount = 15 }, -- gold token
+	{ id = 22721, chance = 9000, maxCount = 3 }, -- gold token
 	{ name = "white pearl", chance = 12500, maxCount = 35 },
 	{ id = 43895, chance = 1000 }, -- bag you covet
 	{ id = 23488, chance = 2000 }, -- grand sanguine box

@@ -95,7 +95,7 @@ monster.loot = {
 	{ id = 3420, chance = 360 }, -- demon shield
 	{ id = 824, chance = 360 }, -- glacier robe
 	{ id = 33778, chance = 360 }, -- raw watermelon tourmaline
-	{ name = "gold token", minCount = 0, maxCount = 1, chance = 2000 },
+	{ name = "gold token", chance = 2000 },
 }
 
 monster.attacks = {

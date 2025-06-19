@@ -126,7 +126,7 @@ monster.loot = {
 	{ name = "great spirit potion", chance = 12500 },
 	{ name = "ultimate health potion", chance = 33333 },
 	{ name = "gold ingot", chance = 6555 },
-	{ name = "gold token", chance = 1555, maxCount = 15 },
+	{ name = "gold token", chance = 2000 },
 	{ name = "addon doll", chance = 100 },
 	{ name = "mount contract", chance = 100 },
 }

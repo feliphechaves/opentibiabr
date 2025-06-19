@@ -21,7 +21,7 @@ npcConfig.flags = {
 npcConfig.shop = {
 
 	--equipments
-	{ itemName = "gold token", clientId = 22721, buy = 20000000 },
+	{ itemName = "gold token", clientId = 22721, buy = 50000000 },
 	{ itemName = "portable forge", clientId = 19082, buy = 1000000 },
 }
 

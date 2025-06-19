@@ -125,7 +125,7 @@ monster.loot = {
 	{ name = "lion amulet", chance = 300 },
 	{ name = "lion rod", chance = 300 },
 	{ name = "lion claws", chance = 300 },
-	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
+	{ name = "gold token", chance = 2000 },
 }
 
 monster.attacks = {

@@ -102,7 +102,7 @@ monster.loot = {
 	{ name = "blue gem", chance = 10420 },
 	{ name = "yellow gem", chance = 10420 },
 	{ name = "gold ingot", chance = 8330 },
-	{ name = "gold token", chance = 8330 },
+	{ name = "gold token", chance = 2000 },
 	{ name = "crystal coin", chance = 8330 },
 	{ name = "green gem", chance = 8330 },
 	{ name = "small amethyst", chance = 6250 },

@@ -95,7 +95,7 @@ monster.loot = {
 	{ id = 3039, chance = 66666 }, -- red gem
 	{ name = "small ruby", chance = 33333, maxCount = 12 },
 	{ name = "bullseye potion", chance = 33333, maxCount = 10 },
-	{ name = "gold token", chance = 33333, maxCount = 8 },
+	{ name = "gold token", chance = 2000 },
 	{ name = "supreme health potion", chance = 33333, maxCount = 6 },
 	{ name = "blue crystal shard", chance = 33333, maxCount = 3 },
 	{ name = "giant sapphire", chance = 33333 },

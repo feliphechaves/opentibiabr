@@ -99,7 +99,7 @@ monster.loot = {
 	{ id = 3360, chance = 560 }, -- golden armor
 	{ id = 33778, chance = 360 }, -- raw watermelon tourmaline
 	{ id = 282, chance = 140 }, -- giant shimmering pearl (brown)
-	{ name = "gold token", minCount = 0, maxCount = 1, chance = 2000 },
+	{ name = "gold token", chance = 2000 },
 }
 
 monster.attacks = {

@@ -97,7 +97,7 @@ monster.loot = {
 	{ id = 7395, chance = 80 }, -- orc trophy
 	{ id = 3049, chance = 80 }, -- stealth ring
 	{ id = 3393, chance = 1000 }, -- amazon helmet
-	{ name = "gold token", chance = 1650, maxCount = 10 },
+	{ name = "gold token", chance = 1650 },
 	{ name = "addon doll", chance = 100 },
 	{ name = "mount contract", chance = 100 },
 }

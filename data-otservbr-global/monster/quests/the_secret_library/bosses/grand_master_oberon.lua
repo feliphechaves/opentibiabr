@@ -81,7 +81,7 @@ monster.loot = {
 	{ name = "falcon greaves", chance = 200, maxCount = 1 },
 	{ name = "falcon plate", chance = 200, maxCount = 1 },
 	{ name = "falcon sai", chance = 200, maxCount = 1 },
-	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
+	{ name = "gold token", chance = 2000 },
 }
 
 monster.attacks = {

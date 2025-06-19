@@ -100,7 +100,7 @@ monster.loot = {
 	{ id = 31592, chance = 1800 }, -- signet ring
 	{ name = "terra helmet", chance = 750 },
 	{ name = "final judgement", chance = 450 },
-	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
+	{ name = "gold token", chance = 2000 },
 	{ name = "death oyoroi", chance = 1000 },
 }
 

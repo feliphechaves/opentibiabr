@@ -1,6 +1,5 @@
 local VIP_BLESS_STORAGE = 51200
 local BLESS_COST = 1
-local TOKEN_ID = 22721 -- ID of the Gold Token (or any other item you want to use)
 local ITEM_ID = 2851
 
 local vipBlessingItem = Action()

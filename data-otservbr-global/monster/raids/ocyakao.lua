@@ -83,7 +83,7 @@ monster.loot = {
 	{ id = 7441, chance = 62570 }, -- ice cube
 	{ id = 7159, chance = 12500 }, -- green perch
 	{ id = 3580, chance = 12520 }, -- northern pike
-	{ name = "gold token", chance = 1500, maxCount = 5}
+	{ name = "gold token", chance = 1500}
 }
 
 monster.attacks = {

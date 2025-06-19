@@ -94,7 +94,7 @@ monster.loot = {
 	{ name = "broken macuahuitl", chance = 1000 },
 	{ name = "broken iks faulds", chance = 1000 },
 	{ name = "broken iks cuirass", chance = 1000 },
-	{ name = "gold token", chance = 1000 },
+	{ name = "gold token", chance = 2000 },
 }
 
 monster.attacks = {

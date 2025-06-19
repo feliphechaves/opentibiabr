@@ -82,7 +82,7 @@ monster.loot = {
 	{ name = "royal star", chance = 80000, maxCount = 184 },
 	{ name = "ultimate mana potion", chance = 80000, maxCount = 22 },
 	{ name = "supreme health potion", chance = 60000, maxCount = 13 },
-	{ name = "gold token", chance = 60000, maxCount = 3 },
+	{ name = "gold token", chance = 2000 },
 	{ id = 3039, chance = 60000 }, -- red gem
 	{ name = "mastermind potion", chance = 40000, maxCount = 13 },
 	{ name = "crunor idol", chance = 40000 },
@@ -101,7 +101,6 @@ monster.loot = {
 	{ name = "piggy bank", chance = 93880 },
 	{ name = "mysterious remains", chance = 91840 },
 	{ name = "energy bar", chance = 87760 },
-	{ name = "gold token", chance = 61220 },
 	{ name = "ultimate spirit potion", chance = 59180, maxCount = 20 },
 	{ name = "ultimate mana potion", chance = 57140, maxCount = 20 },
 	{ name = "royal star", chance = 48980 },

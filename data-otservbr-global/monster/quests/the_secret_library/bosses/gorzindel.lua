@@ -91,7 +91,7 @@ monster.loot = {
 	{ name = "demon horn", chance = 30000 },
 	{ name = "dreaded cleaver", chance = 30000 },
 	{ id = 281, chance = 30000 }, -- giant shimmering pearl (green)
-	{ name = "gold token", chance = 1000, maxCount = 6 },
+	{ name = "gold token", chance = 1000},
 	{ name = "green gem", chance = 1000 },
 	{ name = "knowledgeable book", chance = 1000 },
 	{ name = "ominous book", chance = 1000 },

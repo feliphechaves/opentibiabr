@@ -105,7 +105,7 @@ monster.loot = {
 	{ id = 32621, chance = 400 }, -- Ring of souls
 	{ name = "soulful legs", chance = 150 },
 	{ name = "jade legs", chance = 150 },
-	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
+	{ name = "gold token", chance = 2000 },
 }
 
 monster.attacks = {

@@ -114,7 +114,6 @@ taskConfiguration = {
 		rewards = {
 			{ "exp", 20000000 },
 			{ "gold", 25000000 },
-			{ 22721, 2 },
 			{ 22516, 2 },
 		},
 		races = {

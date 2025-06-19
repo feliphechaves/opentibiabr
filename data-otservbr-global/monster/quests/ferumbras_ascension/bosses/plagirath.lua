@@ -99,7 +99,7 @@ monster.loot = {
 	{ id = 7643, chance = 23000, maxCount = 15 }, -- ultimate health potion
 	{ id = 8073, chance = 4000 }, -- spellbook of warding
 	{ id = 9057, chance = 10000, maxCount = 8 }, -- small topaz
-	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
+	{ name = "gold token", chance = 2000 },
 }
 
 monster.attacks = {

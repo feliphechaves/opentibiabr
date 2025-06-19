@@ -87,7 +87,7 @@ monster.loot = {
 	{ id = 35578, chance = 1410 }, -- tiara
 	{ id = 35610, chance = 700 }, -- tentugly's eye
 	{ id = 35612, chance = 700 }, -- tentugly's jaws
-	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
+	{ name = "gold token", chance = 2000 },
 }
 
 monster.attacks = {

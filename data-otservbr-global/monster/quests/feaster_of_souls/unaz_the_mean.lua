@@ -77,7 +77,7 @@ monster.loot = {
 	{ name = "death toll", chance = 150 },
 	{ name = "silver hand mirror", chance = 150 },
 	{ id = 3039, chance = 150, maxCount = 2 }, -- red gem
-	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
+	{ name = "gold token", chance = 2000 },
 }
 
 monster.attacks = {

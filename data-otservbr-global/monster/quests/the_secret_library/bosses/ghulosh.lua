@@ -92,7 +92,7 @@ monster.loot = {
 	{ name = "small topaz", chance = 30000, maxCount = 12 },
 	{ name = "blue gem", chance = 30000 },
 	{ name = "solid rage", chance = 30000 },
-	{ name = "gold token", chance = 1000 },
+	{ name = "gold token", chance = 2000 },
 	{ name = "butcher's axe", chance = 1000 },
 	{ name = "dreaded cleaver", chance = 1000 },
 	{ name = "mercenary sword", chance = 1000 },

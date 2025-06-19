@@ -101,7 +101,7 @@ monster.loot = {
 	{ id = 7643, chance = 23000, maxCount = 5 }, -- ultimate health potion
 	{ id = 9057, chance = 10000, maxCount = 8 }, -- small topaz
 	{ id = 9058, chance = 3000 }, -- gold ingot
-	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
+	{ name = "gold token", chance = 2000 },
 }
 
 monster.attacks = {

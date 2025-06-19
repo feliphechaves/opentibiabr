@@ -85,7 +85,7 @@ monster.loot = {
 	{ name = "violet gem", chance = 70000 },
 	{ name = "stone skin amulet", chance = 70000 },
 	{ name = "wand of starstorm", chance = 70000 },
-	{ name = "gold token", chance = 30000, maxCount = 4 },
+	{ name = "gold token", chance = 2000 },
 	{ name = "assassin dagger", chance = 30000 },
 	{ name = "crystalline armor", chance = 30000 },
 	{ name = "dreaded cleaver", chance = 30000 },

@@ -101,7 +101,7 @@ monster.loot = {
 	{ id = 3324, chance = 1000 }, -- skull staff
 	{ id = 3037, chance = 1000 }, -- yellow gem
 	{ id = 16096, chance = 1000 }, -- wand of defiance
-	{ id = 22721, chance = 100000 }, -- gold token
+	{ id = 22721, chance = 2000 }, -- gold token
 	{ id = 22516, chance = 100000 }, -- silver token
 	{ id = 3341, chance = 200 }, -- arcane staff
 	{ id = 24973, chance = 200 }, -- shadow mask
@@ -111,7 +111,6 @@ monster.loot = {
 	{ id = 24957, chance = 500, unique = true }, -- part of a rune
 	{ id = 3021, chance = 200 }, -- sapphire amulet
 	{ id = 20089, chance = 200 }, -- umbral spellbook
-	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
 }
 
 monster.attacks = {

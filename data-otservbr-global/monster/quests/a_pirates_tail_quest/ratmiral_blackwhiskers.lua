@@ -108,7 +108,7 @@ monster.loot = {
 	{ id = 35522, chance = 890 }, -- jungle wand
 	{ id = 35519, chance = 890 }, -- makeshift boots
 	{ id = 35520, chance = 890 }, -- make-do boots
-	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
+	{ name = "gold token", chance = 2000 },
 }
 
 monster.attacks = {

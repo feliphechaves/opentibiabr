@@ -97,7 +97,7 @@ monster.loot = {
 	--{ name = "heralds insignia", chance = 1850 },
 	--{ name = "heralds wings", chance = 1850 },
 	{ name = "gold-scaled sentinel", chance = 1850 },
-	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
+	{ name = "gold token", chance = 2000 },
 }
 
 monster.attacks = {

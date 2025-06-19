@@ -86,7 +86,7 @@ monster.loot = {
 	{ name = "great mana potion", chance = 46150, maxCount = 10 },
 	{ name = "luminous orb", chance = 41030 },
 	{ id = 23542, chance = 38460 }, -- collar of blue plasma
-	{ name = "gold token", chance = 30770 },
+	{ name = "gold token", chance = 2000 },
 	{ id = 282, chance = 30770 }, -- giant shimmering pearl
 	{ name = "rusted armor", chance = 28210 },
 	{ id = 3039, chance = 28210 }, -- red gem
@@ -109,7 +109,6 @@ monster.loot = {
 	{ name = "boots of haste", chance = 2560 },
 	{ id = 24959, chance = 500, unique = true }, -- part of a rune
 	{ name = "pillow backpack", chance = 256 },
-	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
 }
 
 monster.attacks = {

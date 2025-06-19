@@ -87,7 +87,7 @@ monster.loot = {
 	{ name = "red crystal fragment", chance = 9960 },
 	{ name = "small enchanted sapphire", chance = 8900 },
 	{ name = "assassin star", chance = 8540 },
-	{ name = "gold token", chance = 6580 },
+	{ name = "gold token", chance = 2000 },
 	{ name = "gold ingot", chance = 6410 },
 	{ name = "nightmare blade", chance = 3020 },
 }

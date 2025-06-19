@@ -97,7 +97,7 @@ monster.loot = {
 	{ name = "lightning legs", chance = 104 },
 	{ name = "sea horse figurine", chance = 104 },
 	{ name = "tagralt-inlaid scabbard", chance = 52 },
-	{ name = "gold token", minCount = 0, maxCount = 1, chance = 2000 },
+	{ name = "gold token", chance = 200 },
 }
 
 monster.attacks = {

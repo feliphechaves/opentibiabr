@@ -104,7 +104,7 @@ monster.loot = {
 	{ name = "small topaz", chance = 10420 },
 	{ name = "small emerald", chance = 10420 },
 	{ name = "muck rod", chance = 10420 },
-	{ name = "gold token", chance = 10420 },
+	{ name = "gold token", chance = 2000 },
 	{ name = "crystal coin", chance = 6250 },
 	{ name = "gnome shield", chance = 4170 },
 	{ name = "crystalline armor", chance = 4170 },

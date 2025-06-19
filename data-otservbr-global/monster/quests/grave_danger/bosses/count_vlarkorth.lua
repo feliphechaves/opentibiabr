@@ -108,7 +108,7 @@ monster.loot = {
 	{ name = "medal of valiance", chance = 1200 },
 	{ name = "terra helmet", chance = 700 },
 	{ name = "final judgement", chance = 400 },
-	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
+	{ name = "gold token", chance = 2000 },
 }
 
 monster.attacks = {

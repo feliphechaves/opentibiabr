@@ -95,7 +95,7 @@ monster.loot = {
 	{ id = 5877, chance = 100000 }, -- green dragon leather
 	{ id = 3416, chance = 500 }, -- dragon shield
 	{ id = 7430, chance = 650 }, -- dragonbone staff
-	{ name = "gold token", chance = 6650, maxCount = 10 },
+	{ name = "gold token", chance = 2000 },
 }
 
 monster.attacks = {

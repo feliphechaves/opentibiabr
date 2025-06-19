@@ -95,7 +95,7 @@ monster.loot = {
 	{ id = 3039, chance = 20000 }, -- red gem
 	{ name = "green gem", chance = 20000 },
 	{ name = "slightly rusted helmet", chance = 20000 },
-	{ name = "gold token", chance = 20000 },
+	{ name = "gold token", chance = 2000 },
 	{ name = "magic sulphur", chance = 40680 },
 	{ id = 27626, chance = 23730 }, -- chitinous mouth (count)
 	{ name = "blue gem", chance = 22030 },

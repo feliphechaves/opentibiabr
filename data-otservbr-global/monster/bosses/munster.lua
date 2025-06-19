@@ -77,7 +77,7 @@ monster.loot = {
 	{ id = 3607, chance = 56000 }, -- cheese
 	{ id = 3492, chance = 51000, maxCount = 4 }, -- worm
 	{ id = 3598, chance = 2500, maxCount = 2 }, -- cookie
-	{ name = "gold token", chance = 1000, maxCount = 5 }, -- die
+	{ name = "gold token", chance = 2000 }, -- die
 	{ id = 5792, chance = 250 }, -- die
 }
 

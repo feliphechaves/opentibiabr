@@ -98,7 +98,7 @@ monster.loot = {
 	{ id = 32631, chance = 730 }, -- ghost claw
 	{ id = 32630, chance = 730 }, -- spooky hood
 	{ name = "jade legs", chance = 150 },
-	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
+	{ name = "gold token", chance = 2000 },
 }
 
 monster.attacks = {

@@ -133,7 +133,7 @@ monster.loot = {
 	{ name = "dragon robe", chance = 4500 },
 	{ name = "molten plate", chance = 4500 },
 	{ name = "great shield", chance = 500 },
-	{ name = "gold token", chance = 500, maxCount = 15 },
+	{ name = "gold token", chance = 2000 },
 	{ name = "addon doll", chance = 100 },
 	{ name = "mount contract", chance = 100 },
 }

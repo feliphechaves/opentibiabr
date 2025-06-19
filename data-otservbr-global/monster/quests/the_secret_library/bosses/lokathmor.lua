@@ -101,7 +101,7 @@ monster.loot = {
 	{ name = "slightly rusted shield", chance = 26670 },
 	{ name = "wand of inferno", chance = 30000 },
 	{ name = "sturdy book", chance = 1000 },
-	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
+	{ name = "gold token", chance = 2000 },
 }
 
 monster.attacks = {

@@ -96,7 +96,7 @@ monster.loot = {
 	{ name = "bloody tears", chance = 1500 },
 	{ name = "ghost chestplate", chance = 150 },
 	{ name = "spooky hood", chance = 150 },
-	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
+	{ name = "gold token", chance = 2000 },
 }
 
 monster.attacks = {

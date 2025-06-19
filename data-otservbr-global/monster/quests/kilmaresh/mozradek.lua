@@ -76,7 +76,7 @@ monster.loot = {
 	{ id = 31369, chance = 9000 }, -- gryphon mask
 	{ name = "sea horse figurine", chance = 6000 },
 	{ id = 31557, chance = 3500 }, -- blister ring
-	{ name = "gold token", minCount = 0, maxCount = 1, chance = 2000 },
+	{ name = "gold token", chance = 100 },
 }
 
 monster.attacks = {

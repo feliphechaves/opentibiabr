@@ -96,7 +96,7 @@ monster.loot = {
 	{ name = "spectral horse tack", chance = 400 },
 	{ name = "bracelet of strengthening", chance = 400 },
 	{ name = "bag you desire", chance = 100 },
-	{ name = "gold token", minCount = 0, maxCount = 3, chance = 5000 },
+	{ name = "gold token", chance = 2000 },
 }
 
 monster.attacks = {

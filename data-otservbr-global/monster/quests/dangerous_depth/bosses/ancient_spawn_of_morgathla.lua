@@ -91,7 +91,7 @@ monster.loot = {
 	{ id = 7428, chance = 4079}, -- bonebreaker
 	{ id = 3339, chance = 3528}, -- djinn blade
 	{ id = 281, chance = 3572}, -- giant shimmering pearl
-	{ id = 22721, chance = 4001}, -- gold token
+	{ id = 22721, chance = 2000}, -- gold token
 	{ id = 3039, chance = 2743}, -- red gem
 	{ id = 3042, chance = 3092}, -- scarab coin
 	{ id = 3440, chance = 3306}, -- scarab shield
@@ -126,7 +126,6 @@ monster.loot = {
 	{ id = 8053, chance = 4176}, -- fireborn giant armor
 	{ id = 8062, chance = 3439}, -- robe of the underworld
 	{ id = 50176, chance = 1843}, -- depth claws
-	{ name = "gold token", maxCount = 3, chance = 5000 },
 }
 
 monster.attacks = {

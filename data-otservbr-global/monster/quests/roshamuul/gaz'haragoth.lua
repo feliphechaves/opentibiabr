@@ -138,7 +138,7 @@ monster.loot = {
 	{ id = 10343, chance = 6000 }, -- spiritual charm
 	{ id = 10342, chance = 6000 }, -- unity charm
 	{ id = 10341, chance = 6000 }, -- phoenix charm
-	{ name = "gold token", chance = 1000, maxCount = 1 }, -- gold token
+	{ name = "gold token", chance = 1000},
 }
 
 monster.attacks = {

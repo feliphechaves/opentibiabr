@@ -92,7 +92,7 @@ monster.loot = {
 	{ id = 21168, chance = 550 }, -- alloy legs
 	{ id = 33778, chance = 360 }, -- raw watermelon tourmaline
 	{ id = 34258, chance = 360 }, -- red silk flower
-	{ name = "gold token", minCount = 0, maxCount = 1, chance = 200 },
+	{ name = "gold token", chance = 200 },
 }
 
 monster.attacks = {
