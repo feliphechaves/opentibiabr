@@ -19,9 +19,10 @@ local config = {
 local onlineCoinsEvent = GlobalEvent("GainCoinInterval")
 local runsPerHour = 3600 / (config.interval / 1000)
 
-local function coinsPerRun(coinsPerHour)
-	return coinsPerHour / runsPerHour
-end
+local coinsPerRun = {
+    free = config.coinsPerHour.free / runsPerHour,
+    vip = config.coinsPerHour.vip / runsPerHour
+}
 
 function onlineCoinsEvent.onThink(interval)
 	local players = Game.getPlayers()
@@ -39,7 +40,8 @@ function onlineCoinsEvent.onThink(interval)
 		if ip ~= 0 and (not config.checkDuplicateIps or not checkIp[ip]) then
 			checkIp[ip] = true
 			local remainder = math.max(0, player:getStorageValue(config.storage)) / 10000000
-			local coins = coinsPerRun(player:isVip() and config.coinsPerHour.vip or config.coinsPerHour.free) + remainder
+			local increment = player:isVip() and coinsPerRun.vip or coinsPerRun.free
+			local coins = increment + remainder
 			player:setStorageValue(config.storage, coins * 10000000)
 			if coins >= config.awardOn then
 				local coinsMath = math.floor(coins)

@@ -153,7 +153,7 @@ monster.attacks = {
 	{ name = "gaz'haragoth iceball", interval = 2000, chance = 24, minDamage = -1000, maxDamage = -1000, target = false },
 	{ name = "gaz'haragoth death", interval = 4000, chance = 6, target = false },
 	{ name = "gaz'haragoth paralyze", interval = 2000, chance = 12, target = false },
-	{ name = "gaz'haragoth summon", interval = 1000, chance = 100, target = false },
+	{ name = "gaz'haragoth summon", interval = 10000, chance = 50, target = false },
 }
 
 monster.defenses = {
