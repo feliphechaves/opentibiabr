@@ -69,15 +69,7 @@ local modifier = 3 --modificador de pocao de vida e mana
 local flaskPotion = Action()
 
 function flaskPotion.onUse(player, item, fromPosition, target, toPosition, isHotkey)
-	if not target then
-		return false
-	end
-
-	if type(target) ~= "userdata" then
-		return false
-	end
-
-	if not target:isPlayer() then
+	if not target or type(target) == "userdata" and not target:isPlayer() then
 		return false
 	end
 
