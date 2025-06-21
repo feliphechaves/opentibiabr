@@ -13,7 +13,7 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {}
+monster.events = { "DesporDeath" }
 
 monster.bosstiary = {
 	bossRaceId = 2466,
@@ -94,8 +94,8 @@ monster.loot = {
 	{ name = "dauntless dragon scale armor", chance = 500 },
 	{ name = "unerring dragon scale armor", chance = 500 },
 	{ name = "merudri battle mail", chance = 500 },
-	--{ name = "heralds insignia", chance = 1850 },
-	--{ name = "heralds wings", chance = 1850 },
+	{ name = "herald's insignia", chance = 100 },
+	{ name = "herald's wings", chance = 100 },
 	{ name = "gold-scaled sentinel", chance = 1850 },
 	{ name = "gold token", chance = 2000 },
 }

@@ -112,6 +112,7 @@ monster.loot = {
 	{ id = 30403, chance = 160 }, -- enchanted theurgic amulet
 	{ name = "sun medal", chance = 160 },
 	{ name = "sunray emblem", chance = 160 },
+	{ name = "blue and golden cordon", chance = 160 },
 	{ name = "gold token", chance = 2000 },
 }
 

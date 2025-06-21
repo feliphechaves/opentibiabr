@@ -19,17 +19,20 @@ local destinations = {
 }
 
 function deathFirstDragon.onDeath(creature, corpse, lasthitkiller, mostdamagekiller, lasthitunjustified, mostdamageunjustified)
-	local spectators = Game.getSpectators(Position(33617, 31023, 14), false, false, 14, 14, 14, 14)
-	for i = 1, #spectators do
-		local spec = spectators[i]
-		if spec:isPlayer() then
-			spec:teleportTo(Position(33617, 31020, 13))
-			spec:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
-			if spec:getStorageValue(Storage.Quest.U11_02.TheFirstDragon.Feathers) < 1 then
-				spec:setStorageValue(Storage.Quest.U11_02.TheFirstDragon.Feathers, 1)
-			end
+	onDeathForDamagingPlayers(creature, function(creature, player)
+		player:teleportTo(Position(33617, 31020, 13))
+		player:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
+		if player:getStorageValue(Storage.Quest.U11_02.TheFirstDragon.Feathers) < 1 then
+			player:setStorageValue(Storage.Quest.U11_02.TheFirstDragon.Feathers, 1)
 		end
-	end
+		-- Entrega do Festive Outfit
+		if not player:hasOutfit(929) and not player:hasOutfit(931) then
+			player:addOutfit(929, 0)
+			player:addOutfit(931, 0)
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Congratulations! You received the Festive Outfit.")
+			player:getPosition():sendMagicEffect(CONST_ME_FIREWORK_YELLOW)
+		end
+	end)
 	return true
 end
 

@@ -3,7 +3,7 @@ local bpItems = {
 	{ name = "draken sulphur", count = 1 },
 	{ name = "seacrest hair", count = 2 },
 	{ name = "mystical hourglass", count = 2 },
-	{ name = "gold token", count = 3 },
+	{ name = "gold token", count = 1 },
 	{ name = "blue gem", count = 1 },
 	{ name = "yellow gem", count = 1 },
 	{ name = "red gem", count = 1 },
@@ -62,10 +62,10 @@ function finalReward.onUse(player, item, fromPosition, target, toPosition, isHot
 			bp:moveTo(player)
 		end
 		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You found a backpack.")
-		player:setStorageValue(Storage.Quest.U11_02.TheFirstDragon.RewardBackpack, os.time() + 60 * 60 * 24 * 365)
+		player:setStorageValue(Storage.Quest.U11_02.TheFirstDragon.RewardBackpack, os.time() + 12 * 60 * 60)
 	elseif item.uid == 14023 and player:getStorageValue(Storage.Quest.U11_02.TheFirstDragon.RewardFeather) < os.time() then
 		player:addItem(setting.name, setting.count, true)
-		player:setStorageValue(Storage.Quest.U11_02.TheFirstDragon.RewardFeather, os.time() + 24 * 3600)
+		player:setStorageValue(Storage.Quest.U11_02.TheFirstDragon.RewardFeather, os.time() + 12 * 3600)
 		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You found " .. setting.count .. " " .. setting.name .. ".")
 	else
 		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "The chest is empty.")

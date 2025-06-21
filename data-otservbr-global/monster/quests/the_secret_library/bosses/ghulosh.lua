@@ -98,7 +98,7 @@ monster.loot = {
 	{ name = "mercenary sword", chance = 1000 },
 	{ name = "slightly rusted shield", chance = 5880 },
 	{ name = "slightly rusted helmet", chance = 35290 },
-	{ name = "epaulette", chance = 500 },
+	{ name = "epaulette", chance = 1000 },
 	{ name = "giant emerald", chance = 500 },
 	{ name = "unliving demonbone", chance = 500 },
 }
